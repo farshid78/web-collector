@@ -1,0 +1,25 @@
+name: Run Collector
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"   # هر ۱۵ دقیقه
+  workflow_dispatch:         # اجرای دستی
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Go
+        uses: actions/setup-go@v4
+        with:
+          go-version: "1.22"
+
+      - name: Install dependencies
+        run: go mod tidy
+
+      - name: Run collector
+        run: go run .
