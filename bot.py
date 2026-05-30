@@ -1,39 +1,36 @@
 from dotenv import load_dotenv
 load_dotenv()
 
-from telethon import TelegramClient, events
+from telethon import TelegramClient
 import os
-import subprocess
 
 API_ID = int(os.getenv("API_ID"))
 API_HASH = os.getenv("API_HASH")
 BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 
-client = TelegramClient("bot_session_test", API_ID, API_HASH).start(bot_token=BOT_TOKEN)
+client = TelegramClient(None, API_ID, API_HASH)
 
+async def main():
+    await client.start(bot_token=BOT_TOKEN)
 
+    # خواندن لیست کاربران
+    users = []
+    if os.path.exists("users.txt"):
+        with open("users.txt") as f:
+            users = [line.strip() for line in f.readlines()]
 
-@client.on(events.NewMessage(pattern="/start"))
-async def start(event):
-    chat_id = event.chat_id
+    # ارسال پیام و فایل‌ها
+    for user in users:
+        try:
+            await client.send_message(int(user), "آپدیت جدید آماده شد ✔")
+            if os.path.exists("configs.txt"):
+                await client.send_file(int(user), "configs.txt")
+            if os.path.exists("results.txt"):
+                await client.send_file(int(user), "results.txt")
+        except Exception as e:
+            print("Error sending to", user, e)
 
-    # ذخیره chat_id
-    with open("users.txt", "a") as f:
-        f.write(str(chat_id) + "\n")
+    print("Done.")
 
-    # پیام خوش‌آمد
-    await event.respond(
-        "سلام! 👋\n"
-        "شما با موفقیت ثبت شدید.\n"
-        "هر ۱۵ دقیقه آخرین کانفیگ‌ها برای شما ارسال می‌شود."
-    )
-
-    # commit و push اتوماتیک
-    subprocess.run(["git", "config", "--global", "user.name", "github-actions"])
-    subprocess.run(["git", "config", "--global", "user.email", "actions@github.com"])
-    subprocess.run(["git", "add", "users.txt"])
-    subprocess.run(["git", "commit", "-m", "Add new user"])
-    subprocess.run(["git", "push"])
-
-print("ربات فعال شد...")
-client.run_until_disconnected()
+with client:
+    client.loop.run_until_complete(main())
