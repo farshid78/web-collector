@@ -4,6 +4,7 @@ load_dotenv()
 from telethon import TelegramClient
 from telethon.sessions import StringSession
 import os
+import asyncio
 
 API_ID = int(os.getenv("API_ID"))
 API_HASH = os.getenv("API_HASH")
@@ -34,5 +35,4 @@ async def main():
 
     print("Done.")
 
-with client:
-    client.loop.run_until_complete(main())
+asyncio.run(main())
