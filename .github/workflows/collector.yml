@@ -12,6 +12,8 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
+        with:
+          persist-credentials: false   # مهم‌ترین خط
 
       - name: Set up Go
         uses: actions/setup-go@v5
@@ -35,4 +37,5 @@ jobs:
         env:
           PAT: ${{ secrets.PAT }}
         run: |
-          git push https://$PAT@github.com/farshid78/web-collector.git main
+          git remote set-url origin https://$PAT@github.com/farshid78/web-collector.git
+          git push origin main
