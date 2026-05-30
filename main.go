@@ -64,13 +64,27 @@ func main() {
 func extractText(doc *goquery.Document) string {
     var out string
 
-    // فقط پیام‌ها، نه اسکریپت‌ها
     doc.Find(".tgme_widget_message_text").Each(func(i int, s *goquery.Selection) {
         out += s.Text() + "\n"
     })
 
+    doc.Find(".tgme_widget_message_text a").Each(func(i int, s *goquery.Selection) {
+        href, ok := s.Attr("href")
+        if ok {
+            out += href + "\n"
+        }
+    })
+
+    doc.Find("a.tgme_widget_message_bubble").Each(func(i int, s *goquery.Selection) {
+        href, ok := s.Attr("href")
+        if ok {
+            out += href + "\n"
+        }
+    })
+
     return out
 }
+
 
 // حذف لینک‌های خراب + حذف تکراری‌ها
 func uniqueAndClean(list []string) []string {
