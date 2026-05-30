@@ -2,13 +2,15 @@ from dotenv import load_dotenv
 load_dotenv()
 
 from telethon import TelegramClient
+from telethon.sessions import StringSession
 import os
 
 API_ID = int(os.getenv("API_ID"))
 API_HASH = os.getenv("API_HASH")
 BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 
-client = TelegramClient(None, API_ID, API_HASH)
+# مهم: یک session خالی ولی معتبر
+client = TelegramClient(StringSession(""), API_ID, API_HASH)
 
 async def main():
     await client.start(bot_token=BOT_TOKEN)
