@@ -8,7 +8,7 @@ import asyncio
 import sys
 
 API_ID = int(os.getenv("API_ID"))
-API_HASH = os.getenv("API_HASH"))
+API_HASH = os.getenv("API_HASH")
 BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 
 client = TelegramClient(StringSession(""), API_ID, API_HASH)
