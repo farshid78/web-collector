@@ -1,21 +1,19 @@
-name: Telegram Bot Listener
+name: Telegram Bot Sender
 
 on:
-  workflow_dispatch:
-  push:
-    paths:
-      - bot.py
+  schedule:
+    - cron: "*/10 * * * *"   # هر ۱۰ دقیقه
+  workflow_dispatch:         # اجرای دستی
 
 jobs:
-  run-bot:
+  send:
     runs-on: ubuntu-latest
-    timeout-minutes: 3600  # 1 hour session
 
     steps:
       - name: Checkout repo
         uses: actions/checkout@v3
 
-      - name: Setup Python
+      - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: "3.11"
