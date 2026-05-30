@@ -4,6 +4,7 @@ import (
     "os"
 )
 
+// ذخیره یک فایل ساده
 func SaveToFile(filename string, lines []string) error {
     f, err := os.Create(filename)
     if err != nil {
@@ -18,6 +19,7 @@ func SaveToFile(filename string, lines []string) error {
     return nil
 }
 
+// ذخیره چند فایل (vmess.txt, vless.txt, ...)
 func SaveMultiple(groups map[string][]string) error {
     for name, list := range groups {
         filename := name + ".txt"
@@ -28,6 +30,7 @@ func SaveMultiple(groups map[string][]string) error {
     return nil
 }
 
+// ساخت subscription نهایی
 func SaveSubscription(filename string, configs []string) error {
     return SaveToFile(filename, configs)
 }
