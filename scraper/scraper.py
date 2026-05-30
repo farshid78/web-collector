@@ -1,6 +1,7 @@
 import asyncio
 import platform
 
+# فقط روی ویندوز لازم داریم
 if platform.system() == "Windows":
     asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
 
@@ -43,10 +44,14 @@ SUB_PATTERN = re.compile(
 )
 
 # -----------------------------
-# استفاده مستقیم از SOCKS5 واقعی
+# پروکسی: ویندوز → SOCKS5 محلی / لینوکس → بدون پروکسی
 # -----------------------------
-proxy = (socks.SOCKS5, "127.0.0.1", 10808)
-print("پروکسی SOCKS5 فعال شد:", proxy)
+if platform.system() == "Windows":
+    proxy = (socks.SOCKS5, "127.0.0.1", 10808)
+    print("پروکسی SOCKS5 فعال شد:", proxy)
+else:
+    proxy = None
+    print("بدون پروکسی اجرا شد (Linux/GitHub Actions)")
 
 if SESSION_STRING:
     session = StringSession(SESSION_STRING)
