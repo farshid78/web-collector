@@ -23,6 +23,8 @@ func main() {
     fmt.Printf("تعداد منابع: %d\n\n", len(sources))
 
     var allConfigs []string
+
+    // فقط کانفیگ‌های واقعی
     pattern := `(vmess|vless|trojan|ss)://[^\s]+`
 
     for _, src := range sources {
@@ -34,9 +36,10 @@ func main() {
             continue
         }
 
+        // فقط متن پیام‌های تلگرام (نه کل HTML)
         text := extractText(doc)
-        matches := parser.ExtractByPattern(text, pattern)
 
+        matches := parser.ExtractByPattern(text, pattern)
         if len(matches) == 0 {
             fmt.Println("   هیچ کانفیگی پیدا نشد.")
             continue
@@ -46,36 +49,30 @@ func main() {
         allConfigs = append(allConfigs, matches...)
     }
 
+    // حذف تکراری‌ها + حذف لینک‌های خراب
     cleaned := uniqueAndClean(allConfigs)
     fmt.Printf("\nتعداد نهایی کانفیگ‌های یکتا: %d\n", len(cleaned))
 
-    // دسته‌بندی
-    groups := parser.SplitConfigs(cleaned)
+    if err := storage.SaveToFile("results.txt", cleaned); err != nil {
+        fmt.Println("خطا در ذخیره نتایج:", err)
+    } else {
+        fmt.Println("نتایج در فایل results.txt ذخیره شد")
+    }
+}
 
-    // ذخیرهٔ فایل‌های جداگانه
-    storage.SaveMultiple(map[string][]string{
-        "vmess":  groups.VMess,
-        "vless":  groups.VLess,
-        "trojan": groups.Trojan,
-        "ss":     groups.SS,
+// فقط متن پیام‌های واقعی تلگرام را استخراج می‌کند
+func extractText(doc *goquery.Document) string {
+    var out string
+
+    // فقط پیام‌ها، نه اسکریپت‌ها
+    doc.Find(".tgme_widget_message_text").Each(func(i int, s *goquery.Selection) {
+        out += s.Text() + "\n"
     })
 
-    // ساخت subscription نهایی
-    storage.SaveSubscription("subscription.txt", cleaned)
-
-    fmt.Println("\nفایل‌های خروجی ساخته شدند:")
-    fmt.Println("- results.txt (همه کانفیگ‌ها)")
-    fmt.Println("- vmess.txt")
-    fmt.Println("- vless.txt")
-    fmt.Println("- trojan.txt")
-    fmt.Println("- ss.txt")
-    fmt.Println("- subscription.txt (فایل نهایی)")
+    return out
 }
 
-func extractText(doc *goquery.Document) string {
-    return doc.Text()
-}
-
+// حذف لینک‌های خراب + حذف تکراری‌ها
 func uniqueAndClean(list []string) []string {
     seen := make(map[string]struct{})
     var out []string
@@ -85,12 +82,24 @@ func uniqueAndClean(list []string) []string {
         if item == "" {
             continue
         }
+
+        // حذف لینک‌های خراب
+        if strings.Contains(item, "catch(") ||
+            strings.Contains(item, "function") ||
+            strings.Contains(item, "}}") ||
+            strings.Contains(item, "');") ||
+            strings.Contains(item, "اینترنت") { // مخصوص مورد تو
+            continue
+        }
+
         if len(item) < 10 {
             continue
         }
+
         if _, ok := seen[item]; ok {
             continue
         }
+
         seen[item] = struct{}{}
         out = append(out, item)
     }
