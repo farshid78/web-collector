@@ -1,0 +1,56 @@
+name: Scraper Pipeline
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"   # هر 15 دقیقه یک بار
+  workflow_dispatch:        # اجرا دستی
+
+jobs:
+  run-scraper:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          cd scraper
+          pip install -r requirements.txt
+
+      - name: Run scraper
+        run: |
+          cd scraper
+          python scraper.py
+
+      - name: Setup Go
+        uses: actions/setup-go@v4
+        with:
+          go-version: "1.22"
+
+      - name: Run processor
+        run: |
+          cd processor
+          go run main.go
+
+      - name: Send results to Telegram
+        run: |
+          curl -F chat_id=$joker_jojo0 \
+               -F document=@configs.txt \
+               https://api.telegram.org/bot$8605550147:AAHy9cCh1zPkxgyytl6xH3kdfsOtmdvbLOc/sendDocument
+          curl -F chat_id=$joker_jojo0 \
+               -F document=@results.txt \
+               https://api.telegram.org/bot$T8605550147:AAHy9cCh1zPkxgyytl6xH3kdfsOtmdvbLOc/sendDocument
+
+      - name: Commit results
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "actions@github.com"
+          git add configs.txt results.txt
+          git commit -m "Update configs and results"
+          git push
