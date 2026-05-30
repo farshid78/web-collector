@@ -1,37 +1,29 @@
 import asyncio
 import platform
-
-# روی ویندوز برای سازگاری با asyncio
-if platform.system() == "Windows":
-    proxy = None
-    print("Windows → اتصال مستقیم بدون پروکسی")
-else:
-    proxy = None
-    print("Linux/GitHub Actions → بدون پروکسی")
-
 import os
 import re
 import urllib.request
-import socks
 from telethon import TelegramClient
 from telethon.sessions import StringSession
 from telethon.network.connection import ConnectionTcpFull
 from dotenv import load_dotenv
 
 # -----------------------------
-# بارگذاری متغیرها از .env (فقط روی ویندوز)
+# تشخیص محیط (Windows یا GitHub)
+# -----------------------------
+IS_GITHUB = os.getenv("GITHUB_ACTIONS") == "true"
+
+# -----------------------------
+# بارگذاری متغیرها
 # -----------------------------
 load_dotenv()
 
-# -----------------------------
-# تنظیمات از محیط (روی ویندوز از .env، روی GitHub از Secrets)
-# -----------------------------
-API_ID = int(os.getenv("API_ID", "0"))  # این مقدار باید در .env یا GitHub Secrets تنظیم شود
-API_HASH = os.getenv("API_HASH", "")    # اینجا API_HASH تلگرام (در .env یا Secrets)
-MODE = os.getenv("MODE", "USER")        # USER یا BOT
-SESSION_STRING = os.getenv("SESSION_STRING", "")  # اینجا SESSION_STRING که ساختی
+API_ID = int(os.getenv("API_ID", "0"))
+API_HASH = os.getenv("API_HASH", "")
+MODE = os.getenv("MODE", "USER")
+SESSION_STRING = os.getenv("SESSION_STRING", "")
 SESSION_NAME = "session"
-BOT_TOKEN = os.getenv("BOT_TOKEN", "")  # اگر از ربات استفاده می‌کنی، توکن ربات را اینجا (در .env یا Secrets)
+BOT_TOKEN = os.getenv("BOT_TOKEN", "")
 
 CHANNELS = [
     "V2rayNG_VPN",
@@ -55,48 +47,37 @@ SUB_PATTERN = re.compile(
 )
 
 # -----------------------------
-# تشخیص پروکسی سیستم روی ویندوز
+# پروکسی فقط روی ویندوز
 # -----------------------------
-def get_system_proxy():
-    """
-    پروکسی سیستم ویندوز را می‌خواند.
-    اگر VPN/Proxy روی سیستم تنظیم شده باشد، اینجا شناسایی می‌شود.
-    """
+proxy = None
+
+if not IS_GITHUB and platform.system() == "Windows":
     try:
-        proxy = urllib.request.getproxies()
+        import socks
+        proxy_info = urllib.request.getproxies()
 
-        if "https" in proxy:
-            url = proxy["https"]
-        elif "http" in proxy:
-            url = proxy["http"]
+        if "https" in proxy_info:
+            url = proxy_info["https"]
+        elif "http" in proxy_info:
+            url = proxy_info["http"]
         else:
-            return None
+            url = None
 
-        if "://" in url:
-            url = url.split("://")[1]
+        if url:
+            if "://" in url:
+                url = url.split("://")[1]
+            host, port = url.split(":")
+            proxy = (socks.SOCKS5, host, int(port))
+            print("Windows → پروکسی سیستم شناسایی شد:", proxy)
+        else:
+            print("Windows → بدون پروکسی")
 
-        host, port = url.split(":")
-        return host, int(port)
-
-    except:
-        return None
-
-# -----------------------------
-# انتخاب پروکسی
-# -----------------------------
-if platform.system() == "Windows":
-    system_proxy = get_system_proxy()
-
-    if system_proxy:
-        host, port = system_proxy
-        proxy = (socks.SOCKS5, host, port)
-        print("پروکسی سیستم شناسایی شد:", proxy)
-    else:
+    except Exception as e:
+        print("خطا در تنظیم پروکسی:", e)
         proxy = None
-        print("هیچ پروکسی سیستمی پیدا نشد (اتصال مستقیم)")
+
 else:
-    proxy = None
-    print("Linux/GitHub Actions → بدون پروکسی")
+    print("GitHub Actions → بدون پروکسی")
 
 # -----------------------------
 # انتخاب نوع سشن
