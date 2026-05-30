@@ -2,7 +2,7 @@ name: Scraper Pipeline
 
 on:
   schedule:
-    - cron: "*/15 * * * *"   # هر 15 دقیقه
+    - cron: "*/15 * * * *"   # اجرای هر 15 دقیقه
   workflow_dispatch:
 
 jobs:
@@ -10,29 +10,38 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      # -------------------------
+      # Checkout repo
+      # -------------------------
       - name: Checkout repo
         uses: actions/checkout@v3
 
+      # -------------------------
+      # Python Setup
+      # -------------------------
       - name: Setup Python
         uses: actions/setup-python@v4
         with:
           python-version: "3.11"
 
-      - name: Install dependencies
+      - name: Install Python dependencies
         run: |
           cd scraper
           pip install -r requirements.txt
 
       - name: Run scraper
         env:
-          API_ID: ${{ secrets.API_ID }}                 # اینجا API_ID را در Secrets تعریف کن
-          API_HASH: ${{ secrets.API_HASH }}             # اینجا API_HASH را در Secrets تعریف کن
-          SESSION_STRING: ${{ secrets.SESSION_STRING }} # اینجا SESSION_STRING را در Secrets تعریف کن
+          API_ID: ${{ secrets.API_ID }}
+          API_HASH: ${{ secrets.API_HASH }}
+          SESSION_STRING: ${{ secrets.SESSION_STRING }}
           MODE: USER
         run: |
           cd scraper
           python scraper.py
 
+      # -------------------------
+      # Go Setup
+      # -------------------------
       - name: Setup Go
         uses: actions/setup-go@v4
         with:
@@ -43,22 +52,52 @@ jobs:
           cd processor
           go run main.go
 
-      - name: Send results to Telegram
+      # -------------------------
+      # Send results to ALL users
+      # -------------------------
+      - name: Send results to all users
         env:
-          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}   # اینجا توکن ربات را در Secrets تعریف کن
-          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}       # اینجا chat_id مقصد را در Secrets تعریف کن
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
         run: |
-          curl -F chat_id=$TELEGRAM_CHAT_ID \
-               -F document=@configs.txt \
-               https://api.telegram.org/bot$TELEGRAM_BOT_TOKEN/sendDocument
-          curl -F chat_id=$TELEGRAM_CHAT_ID \
-               -F document=@results.txt \
-               https://api.telegram.org/bot$TELEGRAM_BOT_TOKEN/sendDocument
+          cd $GITHUB_WORKSPACE
 
+          if [ ! -f users.txt ]; then
+            echo "users.txt not found. No users to send files to."
+            exit 0
+          fi
+
+          echo "Sending files to all users..."
+
+          while read chat_id; do
+            echo "Sending to $chat_id"
+
+            curl -s -F chat_id=$chat_id \
+                 -F document=@configs.txt \
+                 https://api.telegram.org/bot$TELEGRAM_BOT_TOKEN/sendDocument
+
+            curl -s -F chat_id=$chat_id \
+                 -F document=@results.txt \
+                 https://api.telegram.org/bot$TELEGRAM_BOT_TOKEN/sendDocument
+
+          done < users.txt
+
+      # -------------------------
+      # Commit results back to repo (only if changed)
+      # -------------------------
       - name: Commit results
         run: |
+          cd $GITHUB_WORKSPACE
+
           git config --global user.name "github-actions"
           git config --global user.email "actions@github.com"
-          git add configs.txt results.txt || echo "nothing to add"
-          git commit -m "Update configs and results" || echo "nothing to commit"
-          git push || echo "nothing to push"
+
+          git add -A
+
+          # اگر تغییری نبود → commit نکن
+          if git diff --cached --quiet; then
+            echo "No changes detected. Skipping commit."
+            exit 0
+          fi
+
+          git commit -m "Auto-update: configs, results, users"
+          git push
