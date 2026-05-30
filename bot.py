@@ -9,7 +9,8 @@ API_ID = int(os.getenv("API_ID"))
 API_HASH = os.getenv("API_HASH")
 BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 
-client = TelegramClient("bot_session", API_ID, API_HASH).start(bot_token=BOT_TOKEN)
+client = TelegramClient("bot_session_bot", API_ID, API_HASH).start(bot_token=BOT_TOKEN)
+
 
 @client.on(events.NewMessage(pattern="/start"))
 async def start(event):
