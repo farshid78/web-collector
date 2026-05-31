@@ -1,4 +1,4 @@
-name: Auto Scan + Send
+name: Full Auto Scraper + Sender
 
 on:
   schedule:
@@ -10,40 +10,92 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      # -------------------------
+      # Checkout repo
+      # -------------------------
       - name: Checkout repo
         uses: actions/checkout@v3
 
-      - name: Set up Python
+      # -------------------------
+      # Python Setup
+      # -------------------------
+      - name: Setup Python
         uses: actions/setup-python@v4
         with:
           python-version: "3.11"
 
-      - name: Install dependencies
+      - name: Install Python dependencies
         run: |
           pip install telethon python-dotenv requests beautifulsoup4 PySocks
 
+      # -------------------------
+      # Run scraper (Python)
+      # -------------------------
       - name: Run scraper
         env:
           API_ID: ${{ secrets.API_ID }}
           API_HASH: ${{ secrets.API_HASH }}
           SESSION_STRING: ${{ secrets.SESSION_STRING }}
-          MODE: "USER"
+          MODE: USER
         run: |
           python scraper/scraper.py
 
-      - name: Commit updated files
-        run: |
-          git config --global user.email "github-actions@github.com"
-          git config --global user.name "GitHub Actions"
-          git add .
-          git commit -m "Auto update" || echo "No changes"
-          git push || echo "Nothing to push"
+      # -------------------------
+      # Go Setup
+      # -------------------------
+      - name: Setup Go
+        uses: actions/setup-go@v4
+        with:
+          go-version: "1.22"
 
-      - name: Run bot
-        env:
-          API_ID: ${{ secrets.API_ID }}
-          API_HASH: ${{ secrets.API_HASH }}
-          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          MODE: "SEND"
+      - name: Run processor
         run: |
-          python bot.py
+          cd processor
+          go run main.go
+
+      # -------------------------
+      # Commit updated files
+      # -------------------------
+      - name: Commit results
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "actions@github.com"
+
+          git add -A
+
+          if git diff --cached --quiet; then
+            echo "No changes detected. Skipping commit."
+            exit 0
+          fi
+
+          git commit -m "Auto-update: configs, results, users"
+          git push
+
+      # -------------------------
+      # Send results to ALL users
+      # -------------------------
+      - name: Send results to all users
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+        run: |
+          cd $GITHUB_WORKSPACE
+
+          if [ ! -f users.txt ]; then
+            echo "users.txt not found. No users to send files to."
+            exit 0
+          fi
+
+          echo "Sending files to all users..."
+
+          while read chat_id; do
+            echo "Sending to $chat_id"
+
+            curl -s -F chat_id=$chat_id \
+                 -F document=@configs.txt \
+                 https://api.telegram.org/bot$TELEGRAM_BOT_TOKEN/sendDocument
+
+            curl -s -F chat_id=$chat_id \
+                 -F document=@results.txt \
+                 https://api.telegram.org/bot$TELEGRAM_BOT_TOKEN/sendDocument
+
+          done < users.txt
