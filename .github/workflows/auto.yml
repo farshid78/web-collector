@@ -37,9 +37,10 @@ jobs:
           git add -A
           if git diff --cached --quiet; then
             echo "No changes detected."
-          else:
+          else
             git commit -m "Auto-update: configs"
             git push
+          fi
 
       - name: Send file to all users
         env:
