@@ -13,7 +13,7 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
         with:
-          persist-credentials: true   # مهم برای push کردن تغییرات
+          persist-credentials: true
 
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -21,7 +21,8 @@ jobs:
           python-version: "3.11"
 
       - name: Install dependencies
-        run: pip install telethon python-dotenv requests
+        run: |
+          pip install telethon python-dotenv requests PySocks beautifulsoup4
 
       - name: Run Scraper
         env:
@@ -30,7 +31,7 @@ jobs:
           SESSION_STRING: ${{ secrets.SESSION_STRING }}
         run: |
           echo "=== Running Scraper ==="
-          timeout 7m python scraper/scraper.py
+          timeout 12m python scraper/scraper.py
 
       - name: Commit & Push changes
         run: |
@@ -52,4 +53,4 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
         run: |
           echo "=== Running Bot ==="
-          timeout 3m python bot.py   # افزایش زمان به ۳ دقیقه (بهتر است)
+          timeout 3m python bot.py
