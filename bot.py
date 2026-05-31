@@ -6,6 +6,7 @@ from telethon.sessions import StringSession
 import os
 import asyncio
 import sys
+import requests
 
 API_ID = int(os.getenv("API_ID"))
 API_HASH = os.getenv("API_HASH")
@@ -19,18 +20,28 @@ USERS_FILE = "users.txt"
 
 def add_user(user_id: int):
     user_id = str(user_id)
-
     if not os.path.exists(USERS_FILE):
         with open(USERS_FILE, "w") as f:
             f.write(user_id + "\n")
         return
-
     with open(USERS_FILE, "r") as f:
         users = f.read().splitlines()
-
     if user_id not in users:
         with open(USERS_FILE, "a") as f:
             f.write(user_id + "\n")
+
+
+# گرفتن آیدی‌ها از getUpdates
+def fetch_updates():
+    url = f"https://api.telegram.org/bot{BOT_TOKEN}/getUpdates"
+    try:
+        resp = requests.get(url).json()
+        if resp.get("ok"):
+            for update in resp["result"]:
+                chat_id = update["message"]["chat"]["id"]
+                add_user(chat_id)
+    except Exception as e:
+        print("Error fetching updates:", e)
 
 
 @client.on(events.NewMessage(pattern="/start"))
@@ -42,6 +53,9 @@ async def start(event):
 
 async def send_updates():
     await client.start(bot_token=BOT_TOKEN)
+
+    # قبل از ارسال، آیدی‌ها رو از getUpdates هم بگیر
+    fetch_updates()
 
     if os.path.exists("users.txt"):
         with open("users.txt") as f:
