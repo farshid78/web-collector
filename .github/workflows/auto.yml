@@ -1,4 +1,4 @@
-name: Full Auto Scraper + Telethon Sender
+name: Full Auto Scraper + Auto Sender
 
 on:
   schedule:
@@ -23,7 +23,7 @@ jobs:
           pip install telethon python-dotenv requests beautifulsoup4 PySocks
 
       # -------------------------
-      # Run scraper
+      # Run scraper (تولید good_configs.txt)
       # -------------------------
       - name: Run scraper
         env:
@@ -67,15 +67,15 @@ jobs:
 
           if git diff --cached --quiet; then
             echo "No changes detected. Continuing..."
-          else
+          else:
             git commit -m "Auto-update: configs, users"
             git push
           fi
 
       # -------------------------
-      # Run bot.py (ALWAYS RUN)
+      # Run bot.py in SEND mode
       # -------------------------
-      - name: Run bot sender
+      - name: Send file to all users
         env:
           API_ID: ${{ secrets.API_ID }}
           API_HASH: ${{ secrets.API_HASH }}
