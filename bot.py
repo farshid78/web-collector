@@ -10,7 +10,7 @@ import requests
 import sys
 
 API_ID = int(os.getenv("API_ID"))
-API_HASH = os.getenv("API_HASH"))
+API_HASH = os.getenv("API_HASH")
 BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 SESSION_STRING = os.getenv("SESSION_STRING")
 MODE = os.getenv("MODE", "LISTEN")
@@ -69,7 +69,6 @@ if MODE == "LISTEN":
 
     client.start()
     client.run_until_disconnected()
-
 
 else:
     client = TelegramClient("bot_session", API_ID, API_HASH)
