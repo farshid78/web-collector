@@ -2,7 +2,7 @@ name: Scraper Pipeline
 
 on:
   schedule:
-    - cron: "*/15 * * * *"   # اجرای هر 15 دقیقه
+    - cron: "*/05 * * * *"   # اجرای هر 15 دقیقه
   workflow_dispatch:
 
 jobs:
