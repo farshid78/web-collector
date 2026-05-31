@@ -1,2 +1,1 @@
 vless://1d6d79d2-786d-4a90-b93d-fb17b6aa640c@samdi.5on.ir:2086?security=&encryption=none&headerType=none&type=tcp#%40filembad
-vless://bea6939e-eafa-4067-8fda-5152d6fa7109@xn-fi.onlinernet.ir:25000?mode=multi&security=reality&encryption=none&pbk=D9EktvCfJb5l8mBkJHx3U31BIUwIBHJKV85OzyNnDlU&fp=chrome&type=grpc&serviceName=xyz&sni=xn--9iqr0tm1r4fi.onlinernet.ir&sid=6ba85179e30d4fc3#%40filembad
