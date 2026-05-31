@@ -2,6 +2,7 @@ from telethon import TelegramClient
 from telethon.errors import FloodWaitError
 import os
 import asyncio
+import requests
 import sys
 
 API_ID = int(os.getenv("API_ID"))
@@ -12,13 +13,49 @@ USERS_FILE = "users.txt"
 FINAL_FILE = "config.txt"   # فایل کانفیگ در ریشه پروژه
 
 
+def update_users():
+    """گرفتن کاربران از getUpdates و ذخیره در users.txt"""
+    print("Fetching users from getUpdates...")
+
+    url = f"https://api.telegram.org/bot{BOT_TOKEN}/getUpdates"
+    try:
+        resp = requests.get(url).json()
+        ids = []
+
+        if resp.get("ok"):
+            for update in resp["result"]:
+                if "message" in update:
+                    chat_id = update["message"]["chat"]["id"]
+                    ids.append(str(chat_id))
+
+        # ادغام با users.txt قبلی
+        if os.path.exists(USERS_FILE):
+            with open(USERS_FILE) as f:
+                old = f.read().splitlines()
+                ids.extend(old)
+
+        ids = sorted(set(ids))
+
+        with open(USERS_FILE, "w") as f:
+            f.write("\n".join(ids))
+
+        print("Users updated:", ids)
+
+    except Exception as e:
+        print("Error updating users:", e)
+
+
 async def main():
     print("Starting bot...")
 
+    # آپدیت کاربران
+    update_users()
+
+    # اتصال با Bot Token
     client = TelegramClient("bot_session", API_ID, API_HASH)
     await client.start(bot_token=BOT_TOKEN)
 
-    # چک فایل کاربران
+    # خواندن کاربران
     if not os.path.exists(USERS_FILE):
         print("❌ users.txt پیدا نشد!")
         return
