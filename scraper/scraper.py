@@ -58,19 +58,6 @@ def merge_multiline(lines):
     return merged
 
 
-def is_valid(cfg):
-    """تشخیص کانفیگ سالم"""
-    if cfg.startswith("vmess://") and len(cfg) > 20:
-        return True
-    if cfg.startswith("vless://") and "@" in cfg:
-        return True
-    if cfg.startswith("trojan://") and "@" in cfg:
-        return True
-    if cfg.startswith("ss://") and len(cfg) > 10:
-        return True
-    return False
-
-
 async def main():
     session = StringSession(SESSION_STRING) if SESSION_STRING else "session"
     client = TelegramClient(session, API_ID, API_HASH)
@@ -121,35 +108,22 @@ async def main():
             pass
 
     # -------------------------
-    # 3) فیلتر سالم/خراب
+    # 3) ذخیره همه کانفیگ‌ها بدون فیلتر
     # -------------------------
-    clean = []
-    bad = []
-
-    for cfg in raw + sub_configs:
-        if is_valid(cfg):
-            clean.append(cfg)
-        else:
-            bad.append(cfg)
-
-    clean = list(dict.fromkeys(clean))
-    bad = list(dict.fromkeys(bad))
+    all_cfgs = raw + sub_configs
+    all_cfgs = [c.strip() for c in all_cfgs if c.strip()]
+    all_cfgs = list(dict.fromkeys(all_cfgs))
 
     # -------------------------
     # 4) ذخیره نهایی
     # -------------------------
-    with open("../configs_final.txt", "w", encoding="utf-8") as f:
-        for c in clean:
-            f.write(c + "\n")
-
-    with open("../configs_bad.txt", "w", encoding="utf-8") as f:
-        for c in bad:
+    with open("configs_final.txt", "w", encoding="utf-8") as f:
+        for c in all_cfgs:
             f.write(c + "\n")
 
     print("RAW:", len(raw))
     print("SUB:", len(sub_configs))
-    print("CLEAN:", len(clean))
-    print("BAD:", len(bad))
+    print("TOTAL:", len(all_cfgs))
 
 
 if __name__ == "__main__":
