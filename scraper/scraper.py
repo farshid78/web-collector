@@ -6,6 +6,7 @@ import base64
 import requests
 import asyncio
 import sys
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from telethon import TelegramClient
 from telethon.sessions import StringSession
 from telethon.errors import FloodWaitError
@@ -30,7 +31,8 @@ CHANNELS = [
 STARTERS = ["vmess://", "vless://", "trojan://", "ss://"]
 SUB_PATTERN = re.compile(r"https?://[^\s]+(?:\.txt|/sub[^\s]*)")
 
-# ==================== Cache برای Country ====================
+IMPORTANT_COUNTRIES = {"IR", "TR", "US", "DE", "NL", "FI", "SG"}
+
 country_cache = {}
 
 def extract_configs(text):
@@ -81,14 +83,12 @@ def get_country_code(host: str):
         return country_cache[host]
 
     try:
-        # DNS Resolve
         if not host.replace(".", "").isdigit():
             host = socket.gethostbyname(host)
 
-        # درخواست بهینه
         r = requests.get(
             f"http://ip-api.com/json/{host}?fields=countryCode",
-            timeout=2.5
+            timeout=2
         )
         cc = r.json().get("countryCode", "UNKNOWN") or "UNKNOWN"
     except:
@@ -96,6 +96,25 @@ def get_country_code(host: str):
 
     country_cache[host] = cc
     return cc
+
+# ==================== Country Detection با Multithreading ====================
+def batch_get_countries(configs):
+    country_map = {}
+    with ThreadPoolExecutor(max_workers=15) as executor:
+        future_to_cfg = {executor.submit(get_country_code, extract_host(cfg)): cfg for cfg in configs}
+        
+        for i, future in enumerate(as_completed(future_to_cfg), 1):
+            cfg = future_to_cfg[future]
+            try:
+                cc = future.result()
+            except:
+                cc = "UNKNOWN"
+            country_map.setdefault(cc, []).append(cfg)
+
+            if i % 200 == 0:
+                print(f"   🌍 Country detection: {i}/{len(configs)} done", flush=True)
+    
+    return country_map
 
 # ==================== Main ====================
 async def main():
@@ -108,7 +127,6 @@ async def main():
     client = TelegramClient(StringSession(SESSION_STRING), API_ID, API_HASH)
 
     try:
-        print("⏳ Connecting...", flush=True)
         await asyncio.wait_for(client.connect(), timeout=30)
         if not await client.is_user_authorized():
             print("❌ SESSION NOT AUTHORIZED", flush=True)
@@ -128,44 +146,39 @@ async def main():
             entity = await client.get_entity(ch)
             count = 0
 
-            async for msg in client.iter_messages(entity, limit=150):  # بهینه شده
+            async for msg in client.iter_messages(entity, limit=100):   # دقیقاً طبق درخواستت
                 if msg.message:
                     text = msg.message
                     sub_links.extend(SUB_PATTERN.findall(text))
                     raw_configs.extend(extract_configs(text))
                     count += 1
 
-                if count % 40 == 0:
-                    await asyncio.sleep(0.6)
+                if count % 30 == 0:
+                    await asyncio.sleep(0.4)
 
             print(f"   📥 Fetched {count} messages from {ch}", flush=True)
 
         except FloodWaitError as e:
-            print(f"   ⏳ FloodWait in {ch}: {e.seconds}s", flush=True)
-            await asyncio.sleep(e.seconds + 3)
+            print(f"   ⏳ FloodWait: {e.seconds}s", flush=True)
+            await asyncio.sleep(e.seconds + 2)
         except Exception as e:
             print(f"   ❌ Error in {ch}: {e}", flush=True)
 
-        await asyncio.sleep(1.5)  # بین چنل‌ها
+        await asyncio.sleep(0.8)   # کاهش sleep بین چنل‌ها
 
-    # ==================== Debug Info ====================
-    print(f"📦 Raw configs collected: {len(raw_configs)}", flush=True)
-    print(f"🔗 Sub links found: {len(sub_links)}", flush=True)
+    print(f"📦 Raw configs: {len(raw_configs)} | Sub links: {len(sub_links)}", flush=True)
 
-    # ==================== Process Sub Links (بهینه) ====================
+    # Sub links (خیلی محدود)
     sub_configs = []
-    for url in sub_links[:20]:        # محدود شده
+    for url in sub_links[:10]:
         try:
-            r = requests.get(url, timeout=4)
+            r = requests.get(url, timeout=3)
             if r.status_code == 200:
                 merged = merge_multiline(split_stuck_configs(r.text))
                 sub_configs.extend([c for c in merged if any(c.startswith(s) for s in STARTERS)])
         except:
             continue
 
-    print(f"📥 Sub configs extracted: {len(sub_configs)}", flush=True)
-
-    # ==================== Final Merge ====================
     all_cfgs = list(dict.fromkeys([c.strip() for c in raw_configs + sub_configs if c.strip()]))
 
     root = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
@@ -173,26 +186,21 @@ async def main():
     with open(os.path.join(root, "configs.txt"), "w", encoding="utf-8") as f:
         f.write("\n".join(all_cfgs))
 
-    # ==================== Country Split با Progress ====================
-    print("🌍 Starting country detection...", flush=True)
-    country_map = {}
+    # ==================== Country Detection سریع ====================
+    print("🌍 Starting country detection (multithreaded)...", flush=True)
+    country_map = batch_get_countries(all_cfgs)
 
-    for i, cfg in enumerate(all_cfgs, 1):
-        host = extract_host(cfg)
-        cc = get_country_code(host)
-        
-        country_map.setdefault(cc, []).append(cfg)
-
-        if i % 100 == 0 or i == len(all_cfgs):
-            print(f"   🌍 Processed {i}/{len(all_cfgs)} configs...", flush=True)
-
-    # Save files
+    # ذخیره فایل‌ها
     for cc, cfgs in country_map.items():
-        filename = os.path.join(root, f"configs_{cc}.txt")
+        if cc in IMPORTANT_COUNTRIES:
+            filename = os.path.join(root, f"configs_{cc}.txt")
+        else:
+            filename = os.path.join(root, "configs_others.txt")
+        
         with open(filename, "w", encoding="utf-8") as f:
             f.write("\n".join(cfgs))
 
-    print("🌍 Countries found:", sorted(country_map.keys()), flush=True)
+    print("🌍 Important countries saved:", sorted(IMPORTANT_COUNTRIES & set(country_map.keys())), flush=True)
     print(f"📦 Total unique configs: {len(all_cfgs)}", flush=True)
     print("🏁 SCRAPER COMPLETED SUCCESSFULLY", flush=True)
 
