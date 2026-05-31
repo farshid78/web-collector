@@ -34,9 +34,6 @@ STARTERS = ["vmess://", "vless://", "trojan://", "ss://"]
 SUB_PATTERN = re.compile(r"https?://[^\s]+(?:\.txt|/sub[^\s]*)")
 
 
-# -----------------------------
-# اتصال با SESSION_STRING (User Mode)
-# -----------------------------
 async def safe_start(client: TelegramClient):
     if not SESSION_STRING:
         print("❌ ERROR: SESSION_STRING is empty! Check GitHub Secrets.")
@@ -54,9 +51,6 @@ async def safe_start(client: TelegramClient):
         return False
 
 
-# -----------------------------
-# استخراج کانفیگ‌ها
-# -----------------------------
 def extract_configs(text):
     return [
         line.strip()
@@ -93,9 +87,6 @@ def merge_multiline(lines):
     return merged
 
 
-# -----------------------------
-# استخراج host
-# -----------------------------
 def extract_host_from_vmess(cfg: str):
     try:
         raw = cfg[len("vmess://"):]
@@ -128,9 +119,6 @@ def extract_host(cfg: str):
     return extract_host_from_url(cfg)
 
 
-# -----------------------------
-# تشخیص کشور
-# -----------------------------
 def get_country_code(host: str):
     if not host:
         return "UNKNOWN"
@@ -144,9 +132,6 @@ def get_country_code(host: str):
         return "UNKNOWN"
 
 
-# -----------------------------
-# اجرای اصلی
-# -----------------------------
 async def main():
     print("SCRAPER STARTED (USER MODE)")
 
@@ -160,7 +145,6 @@ async def main():
     raw = []
     sub_links = []
 
-    # استخراج پیام‌ها
     for ch in CHANNELS:
         print(f"Reading channel: {ch}")
         try:
@@ -182,7 +166,6 @@ async def main():
             print(f"❌ Error while reading {ch}: {e}")
             continue
 
-    # sub لینک‌ها
     sub_configs = []
     for url in sub_links:
         try:
@@ -196,21 +179,15 @@ async def main():
         except:
             pass
 
-    # حذف تکراری‌ها
     all_cfgs = list(dict.fromkeys([c.strip() for c in raw + sub_configs if c.strip()]))
 
-    # مسیر ریشه
     root = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 
-    # فایل اصلی
     all_file = os.path.join(root, "configs.txt")
     with open(all_file, "w", encoding="utf-8") as f:
         for c in all_cfgs:
             f.write(c + "\n")
 
-    # -----------------------------
-    # ساخت فایل جدا برای هر کشور
-    # -----------------------------
     country_files = {}
 
     for cfg in all_cfgs:
@@ -222,7 +199,6 @@ async def main():
 
         country_files[cc].append(cfg)
 
-    # ذخیرهٔ فایل‌ها
     for cc, cfgs in country_files.items():
         filename = os.path.join(root, f"configs_{cc}.txt")
         with open(filename, "w", encoding="utf-8") as f:
