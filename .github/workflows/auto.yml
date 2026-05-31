@@ -1,5 +1,4 @@
 name: Full Auto Scraper + Sender
-
 on:
   schedule:
     - cron: "*/10 * * * *"
@@ -8,7 +7,6 @@ on:
 jobs:
   run:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
@@ -22,7 +20,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install telethon python-dotenv requests PySocks beautifulsoup4
+          pip install telethon python-dotenv requests PySocks
 
       - name: Run Scraper
         env:
@@ -53,4 +51,4 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
         run: |
           echo "=== Running Bot ==="
-          timeout 3m python bot.py
+          timeout 4m python bot.py   # کمی افزایش دادم
