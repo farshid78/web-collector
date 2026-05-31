@@ -1,141 +1,105 @@
-from telethon import TelegramClient
-from telethon.errors import FloodWaitError
 import os
+import json
 import asyncio
-import requests
-import sys
-import time
+from telethon import TelegramClient, events
+from telethon.errors import RPCError, FloodWaitError
+from dotenv import load_dotenv
 
-API_ID = int(os.getenv("API_ID"))
-API_HASH = os.getenv("API_HASH"))
-BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
+load_dotenv()
 
-USERS_FILE = "users.txt"
-FILE_DELAY = 1   # توقف بین ارسال هر فایل (برای جلوگیری از FloodWait)
+API_ID = int(os.getenv("API_ID", "0"))
+API_HASH = os.getenv("API_HASH", "")
+BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "")
+
+USERS_FILE = "users.json"
+CONFIG_DIR = "."  # پوشهٔ اصلی ریپو
 
 
-def update_users():
-    print("Fetching users from getUpdates...")
-
-    url = f"https://api.telegram.org/bot{BOT_TOKEN}/getUpdates"
+def load_users():
+    if not os.path.exists(USERS_FILE):
+        return []
     try:
-        resp = requests.get(url).json()
-        ids = []
-
-        if resp.get("ok"):
-            for update in resp["result"]:
-                if "message" in update:
-                    ids.append(str(update["message"]["chat"]["id"]))
-
-        # اضافه کردن کاربران قبلی
-        if os.path.exists(USERS_FILE):
-            with open(USERS_FILE) as f:
-                ids.extend(f.read().splitlines())
-
-        # حذف تکراری‌ها
-        ids = sorted(set(ids))
-
-        # ذخیره
-        with open(USERS_FILE, "w") as f:
-            f.write("\n".join(ids))
-
-        print("Users updated:", ids)
-
-        # پاک کردن آپدیت‌های مصرف‌شده
-        requests.get(f"https://api.telegram.org/bot{BOT_TOKEN}/getUpdates?offset=-1")
-
-    except Exception as e:
-        print("Error updating users:", e)
+        with open(USERS_FILE, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except:
+        return []
 
 
-def get_all_config_files():
-    """تمام فایل‌های configs_*.txt + configs.txt را پیدا می‌کند."""
+def save_users(users):
+    with open(USERS_FILE, "w", encoding="utf-8") as f:
+        json.dump(users, f, indent=2)
+
+
+def get_config_files():
     files = []
-
-    for f in os.listdir("."):
+    for f in os.listdir(CONFIG_DIR):
         if f.startswith("configs") and f.endswith(".txt"):
-            files.append(f)
-
+            files.append(os.path.join(CONFIG_DIR, f))
     return sorted(files)
 
 
 async def main():
-    start_time = time.time()
-
-    print("Starting bot...")
-
-    update_users()
+    print("BOT STARTED")
 
     client = TelegramClient("bot_session", API_ID, API_HASH)
-    await client.start(bot_token=BOT_TOKEN)
 
-    # بررسی users.txt
-    if not os.path.exists(USERS_FILE):
-        print("❌ users.txt پیدا نشد!")
+    try:
+        await client.start(bot_token=BOT_TOKEN)
+        print("✔ Bot connected successfully")
+    except Exception as e:
+        print("❌ ERROR connecting bot:", e)
         return
 
-    with open(USERS_FILE) as f:
-        users = [line.strip() for line in f if line.strip()]
+    users = load_users()
 
-    print("Users loaded:", users)
+    @client.on(events.NewMessage(pattern="/start"))
+    async def start_handler(event):
+        user_id = event.sender_id
 
-    # پیدا کردن همه فایل‌های configs_*.txt
-    config_files = get_all_config_files()
+        if user_id not in users:
+            users.append(user_id)
+            save_users(users)
+            print(f"✔ New user added: {user_id}")
 
-    if not config_files:
-        print("❌ هیچ فایل کانفیگی پیدا نشد!")
-        print("محتویات پوشه:", os.listdir("."))
-        return
+        await event.respond(
+            "سلام! 👋\n"
+            "من هر ۱۰ دقیقه آخرین کانفیگ‌های V2Ray را برای شما ارسال می‌کنم.\n"
+            "برای دریافت فایل، فقط صبر کنید تا آپدیت بعدی ارسال شود."
+        )
 
-    print("Found config files:", config_files)
+    async def send_to_all():
+        config_files = get_config_files()
 
-    # آمار
-    stats = {
-        "total_users": len(users),
-        "files_sent": 0,
-        "messages": 0,
-        "errors": 0,
-    }
+        if not config_files:
+            print("❌ No config files found!")
+            print("Folder content:", os.listdir(CONFIG_DIR))
+            return
 
-    # ارسال به همه کاربران (بدون Batch)
-    for user in users:
-        try:
-            uid = int(user)
-            print(f"\nSending to {uid}...")
+        print("Found config files:", config_files)
 
-            await client.send_message(uid, "آپدیت جدید کانفیگ‌ها آماده شد ✔")
-            stats["messages"] += 1
+        for user_id in users:
+            print(f"\nSending to {user_id}...")
 
-            # ارسال همه فایل‌ها
-            for file in config_files:
-                print(f"Sending file {file} to {uid}")
-                await client.send_file(uid, file)
-                stats["files_sent"] += 1
-                await asyncio.sleep(FILE_DELAY)
+            try:
+                await client.send_message(user_id, "آپدیت جدید کانفیگ‌ها آماده شد ✔")
 
-        except FloodWaitError as e:
-            print(f"FloodWait → {e.seconds} ثانیه صبر می‌کنیم")
-            await asyncio.sleep(e.seconds)
+                for file in config_files:
+                    print(f"Sending {file} to {user_id}")
+                    await client.send_file(user_id, file)
+                    await asyncio.sleep(1)
 
-        except Exception as e:
-            print("❌ Error sending to", user, e)
-            stats["errors"] += 1
+            except FloodWaitError as e:
+                print(f"FloodWait → {e.seconds} ثانیه صبر می‌کنیم")
+                await asyncio.sleep(e.seconds)
 
-    # گزارش نهایی
-    duration = round(time.time() - start_time, 2)
+            except Exception as e:
+                print(f"❌ Error sending to {user_id}:", e)
 
-    print("\n====================")
-    print("📊 REPORT")
-    print("====================")
-    print(f"👥 Total users: {stats['total_users']}")
-    print(f"📄 Total files sent: {stats['files_sent']}")
-    print(f"💬 Total messages sent: {stats['messages']}")
-    print(f"❌ Errors: {stats['errors']}")
-    print(f"⏱ Duration: {duration} seconds")
-    print("====================\n")
+    await send_to_all()
 
     await client.disconnect()
-    sys.exit(0)
+    print("BOT FINISHED")
 
 
-asyncio.run(main())
+if __name__ == "__main__":
+    asyncio.run(main())
