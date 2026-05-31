@@ -1,4 +1,4 @@
-name: Full Auto Scraper + Sender
+name: Full Auto Scraper + Telethon Sender
 
 on:
   schedule:
@@ -29,7 +29,7 @@ jobs:
           pip install telethon python-dotenv requests beautifulsoup4 PySocks
 
       # -------------------------
-      # Run scraper (Python)
+      # Run scraper
       # -------------------------
       - name: Run scraper
         env:
@@ -54,6 +54,31 @@ jobs:
           go run main.go
 
       # -------------------------
+      # Update users.txt from getUpdates
+      # -------------------------
+      - name: Update users list from Telegram API
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+        run: |
+          echo "Updating users.txt from getUpdates..."
+
+          curl -s "https://api.telegram.org/bot$TELEGRAM_BOT_TOKEN/getUpdates" > updates.json
+
+          # استخراج chat_id ها
+          cat updates.json | jq -r '.result[].message.chat.id' | sort -u > new_users.txt
+
+          # اگر users.txt وجود داشت → ادغام کن
+          if [ -f users.txt ]; then
+            cat users.txt >> new_users.txt
+          fi
+
+          # حذف تکراری‌ها
+          sort -u new_users.txt > users.txt
+
+          echo "Updated users:"
+          cat users.txt
+
+      # -------------------------
       # Commit updated files
       # -------------------------
       - name: Commit results
@@ -72,30 +97,13 @@ jobs:
           git push
 
       # -------------------------
-      # Send results to ALL users
+      # Run bot.py (Telethon SEND mode)
       # -------------------------
-      - name: Send results to all users
+      - name: Run bot sender
         env:
+          API_ID: ${{ secrets.API_ID }}
+          API_HASH: ${{ secrets.API_HASH }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          MODE: SEND
         run: |
-          cd $GITHUB_WORKSPACE
-
-          if [ ! -f users.txt ]; then
-            echo "users.txt not found. No users to send files to."
-            exit 0
-          fi
-
-          echo "Sending files to all users..."
-
-          while read chat_id; do
-            echo "Sending to $chat_id"
-
-            curl -s -F chat_id=$chat_id \
-                 -F document=@configs.txt \
-                 https://api.telegram.org/bot$TELEGRAM_BOT_TOKEN/sendDocument
-
-            curl -s -F chat_id=$chat_id \
-                 -F document=@results.txt \
-                 https://api.telegram.org/bot$TELEGRAM_BOT_TOKEN/sendDocument
-
-          done < users.txt
+          python bot.py
