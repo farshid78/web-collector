@@ -28,6 +28,16 @@ STARTERS = ["vmess://", "vless://", "trojan://", "ss://"]
 SUB_PATTERN = re.compile(r"https?://[^\s]+(?:\.txt|/sub[^\s]*)")
 
 
+def extract_configs(text):
+    """فقط خطوطی که کانفیگ واقعی هستند را استخراج می‌کند"""
+    configs = []
+    for line in text.splitlines():
+        line = line.strip()
+        if any(line.startswith(s) for s in STARTERS):
+            configs.append(line)
+    return configs
+
+
 def split_stuck_configs(text):
     """جدا کردن کانفیگ‌های چسبیده"""
     for s in STARTERS[1:]:
@@ -85,13 +95,9 @@ async def main():
             for s in SUB_PATTERN.findall(text):
                 sub_links.append(s)
 
-            # جدا کردن کانفیگ‌های چسبیده
-            lines = split_stuck_configs(text)
-
-            # merge چندخطی
-            merged = merge_multiline(lines)
-
-            raw.extend(merged)
+            # فقط کانفیگ‌های واقعی را استخراج کن
+            configs = extract_configs(text)
+            raw.extend(configs)
 
     # -------------------------
     # 2) دانلود sub لینک‌ها
@@ -103,12 +109,14 @@ async def main():
             if r.status_code == 200:
                 lines = split_stuck_configs(r.text)
                 merged = merge_multiline(lines)
-                sub_configs.extend(merged)
+                # فقط کانفیگ‌های واقعی
+                configs = [c for c in merged if any(c.startswith(s) for s in STARTERS)]
+                sub_configs.extend(configs)
         except:
             pass
 
     # -------------------------
-    # 3) ذخیره همه کانفیگ‌ها بدون فیلتر
+    # 3) حذف تکراری‌ها
     # -------------------------
     all_cfgs = raw + sub_configs
     all_cfgs = [c.strip() for c in all_cfgs if c.strip()]
