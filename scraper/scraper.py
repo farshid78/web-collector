@@ -12,7 +12,7 @@ from telethon.sessions import StringSession
 from telethon.errors import FloodWaitError
 from dotenv import load_dotenv
 
-load_dotenv()
+load_dotenv()  # بارگذاری متغیرهای محیطی
 
 print("🔧 DEBUG: Script started", file=sys.stderr)
 
@@ -22,24 +22,28 @@ SESSION_STRING = os.getenv("SESSION_STRING", "")
 
 print(f"🔧 DEBUG: SESSION_STRING length: {len(SESSION_STRING)}", file=sys.stderr)
 
+# لیست کانال‌های مبدا
 CHANNELS = ["filembad", "vpnine1", "ConfigsHUB2", "free_v2rayyy", "v2rayng_config", "v2rayng_org", "vasl_bashim", "configs_freeiran", "MARTiNCONFiG", "best_internet_iran", "persianvpnhub"]
 
-STARTERS = ["vmess://", "vless://", "trojan://", "ss://"]
-SUB_PATTERN = re.compile(r"https?://[^\s]+(?:\.txt|/sub[^\s]*)")
+STARTERS = ["vmess://", "vless://", "trojan://", "ss://"]          # پروتکل‌های معتبر
+SUB_PATTERN = re.compile(r"https?://[^\s]+(?:\.txt|/sub[^\s]*)")   # الگوی پیدا کردن لینک ساب
 
-IMPORTANT_COUNTRIES = {"IR", "TR", "US", "DE", "NL", "FI", "SG", "AE"}
+IMPORTANT_COUNTRIES = {"IR", "TR", "US", "DE", "NL", "FI", "SG", "AE"}  # کشورهای مهم
 
-country_cache = {}
+country_cache = {}   # کش برای جلوگیری از درخواست تکراری به ip-api
 
 def extract_configs(text):
+    """استخراج کانفیگ‌های معتبر از متن"""
     return [line.strip() for line in text.splitlines() if any(line.strip().startswith(s) for s in STARTERS)]
 
 def split_stuck_configs(text):
+    """جداسازی کانفیگ‌هایی که به هم چسبیده‌اند"""
     for s in STARTERS[1:]:
         text = text.replace(s, "\n" + s)
     return [line.strip() for line in text.splitlines() if line.strip()]
 
 def merge_multiline(lines):
+    """ادغام خطوط شکسته کانفیگ"""
     merged = []
     current = ""
     for line in lines:
@@ -54,6 +58,7 @@ def merge_multiline(lines):
     return merged
 
 def extract_host(cfg: str):
+    """استخراج آدرس هاست از کانفیگ"""
     try:
         if cfg.startswith("vmess://"):
             raw = cfg[8:]
@@ -72,6 +77,7 @@ def extract_host(cfg: str):
         return None
 
 def get_country_code(host: str):
+    """تشخیص کشور از طریق IP با کش"""
     if not host:
         return "UNKNOWN"
     if host in country_cache:
@@ -87,6 +93,7 @@ def get_country_code(host: str):
     return cc
 
 def batch_get_countries(configs):
+    """تشخیص کشور همه کانفیگ‌ها به صورت چندنخی (سریع)"""
     country_map = {}
     with ThreadPoolExecutor(max_workers=12) as executor:
         future_to_cfg = {executor.submit(get_country_code, extract_host(cfg)): cfg for cfg in configs}
@@ -99,12 +106,15 @@ def batch_get_countries(configs):
     return country_map
 
 async def main():
+    """تابع اصلی اسکریپر"""
     print("🚀 SCRAPER STARTED (USER MODE)", flush=True)
+    
     if not SESSION_STRING:
         print("❌ SESSION_STRING is empty!", flush=True)
         return
 
     client = TelegramClient(StringSession(SESSION_STRING), API_ID, API_HASH)
+    
     try:
         await asyncio.wait_for(client.connect(), timeout=30)
         if not await client.is_user_authorized():
@@ -118,6 +128,7 @@ async def main():
     raw_configs = []
     sub_links = []
 
+    # خواندن پیام‌های کانال‌ها
     for ch in CHANNELS:
         print(f"📌 Reading channel: {ch}", flush=True)
         try:
@@ -139,6 +150,7 @@ async def main():
             print(f"   ❌ Error in {ch}: {e}", flush=True)
         await asyncio.sleep(0.8)
 
+    # پردازش لینک‌های ساب
     sub_configs = []
     for url in sub_links[:10]:
         try:
@@ -149,12 +161,16 @@ async def main():
         except:
             continue
 
+    # ترکیب و حذف تکراری‌ها
     all_cfgs = list(dict.fromkeys([c.strip() for c in raw_configs + sub_configs if c.strip()]))
 
     root = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+    
+    # ذخیره فایل اصلی
     with open(os.path.join(root, "configs.txt"), "w", encoding="utf-8") as f:
         f.write("\n".join(all_cfgs))
 
+    # دسته‌بندی بر اساس کشور
     print("🌍 Starting country detection...", flush=True)
     country_map = batch_get_countries(all_cfgs)
 
@@ -168,6 +184,7 @@ async def main():
         else:
             others.extend(cfgs)
 
+    # ذخیره سایر کشورها
     if others:
         with open(os.path.join(root, "configs_others.txt"), "w", encoding="utf-8") as f:
             f.write("\n".join(others))
