@@ -7,6 +7,7 @@ import base64
 import requests
 from telethon import TelegramClient
 from telethon.sessions import StringSession
+from telethon.errors import RPCError
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -31,6 +32,25 @@ CHANNELS = [
 
 STARTERS = ["vmess://", "vless://", "trojan://", "ss://"]
 SUB_PATTERN = re.compile(r"https?://[^\s]+(?:\.txt|/sub[^\s]*)")
+
+
+# -----------------------------
+# اتصال امن با timeout
+# -----------------------------
+async def safe_start(client):
+    try:
+        await asyncio.wait_for(client.start(), timeout=20)
+        print("✔ Telegram connected successfully")
+        return True
+    except asyncio.TimeoutError:
+        print("❌ ERROR: Telegram connection timeout (SESSION_STRING probably invalid)")
+        return False
+    except RPCError as e:
+        print("❌ RPC ERROR:", e)
+        return False
+    except Exception as e:
+        print("❌ Unknown error during start():", e)
+        return False
 
 
 # -----------------------------
@@ -73,7 +93,7 @@ def merge_multiline(lines):
 
 
 # -----------------------------
-# استخراج host از کانفیگ‌ها
+# استخراج host
 # -----------------------------
 def extract_host_from_vmess(cfg: str):
     try:
@@ -127,18 +147,27 @@ def get_country_code(host: str):
 # اجرای اصلی
 # -----------------------------
 async def main():
+    print("SCRAPER STARTED")
+
     session = StringSession(SESSION_STRING) if SESSION_STRING else "session"
     client = TelegramClient(session, API_ID, API_HASH)
-    await client.start()
+
+    # اتصال امن
+    ok = await safe_start(client)
+    if not ok:
+        print("❌ SCRAPER STOPPED — SESSION_STRING INVALID OR TELEGRAM BLOCKED")
+        return
 
     raw = []
     sub_links = []
 
     # استخراج پیام‌ها
     for ch in CHANNELS:
+        print(f"Reading channel: {ch}")
         try:
             entity = await client.get_entity(ch)
         except:
+            print(f"❌ Cannot access channel: {ch}")
             continue
 
         async for msg in client.iter_messages(entity, limit=1000):
