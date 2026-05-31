@@ -9,32 +9,38 @@ API_HASH = os.getenv("API_HASH")
 BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 
 USERS_FILE = "users.txt"
-FINAL_FILE = "config.txt"   # فایل خام کانفیگ‌ها
+FINAL_FILE = "config.txt"   # فایل کانفیگ در ریشه پروژه
 
 
 async def main():
-    # اتصال با Bot Token
+    print("Starting bot...")
+
     client = TelegramClient("bot_session", API_ID, API_HASH)
     await client.start(bot_token=BOT_TOKEN)
 
     # چک فایل کاربران
     if not os.path.exists(USERS_FILE):
-        print("users.txt پیدا نشد!")
+        print("❌ users.txt پیدا نشد!")
         return
 
     with open(USERS_FILE) as f:
         users = [line.strip() for line in f.readlines() if line.strip()]
 
+    print("Users loaded:", users)
+
     if not users:
-        print("هیچ کاربری داخل users.txt نیست!")
+        print("❌ هیچ کاربری داخل users.txt نیست!")
         return
 
-    # چک فایل کانفیگ خام
+    # چک فایل کانفیگ
     if not os.path.exists(FINAL_FILE):
-        print("config.txt پیدا نشد!")
+        print(f"❌ فایل {FINAL_FILE} پیدا نشد!")
+        print("محتویات پوشه:", os.listdir("."))
         return
 
-    # ارسال برای همه کاربران
+    print("Found config.txt, sending to users...")
+
+    # ارسال برای همه
     for user in users:
         try:
             uid = int(user)
@@ -50,7 +56,7 @@ async def main():
             await asyncio.sleep(e.seconds)
 
         except Exception as e:
-            print("Error sending to", user, e)
+            print("❌ Error sending to", user, e)
 
     print("Done.")
     await client.disconnect()
