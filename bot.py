@@ -16,6 +16,7 @@ USERS_FILE = "users.json"
 
 def load_users():
     if not os.path.exists(USERS_FILE):
+        print("⚠️ users.json not found → Creating new empty file")
         save_users([])
         return []
     try:
@@ -24,53 +25,42 @@ def load_users():
             print(f"📋 Loaded {len(users)} users from users.json")
             return users
     except:
+        print("⚠️ Error reading users.json → Starting fresh")
+        save_users([])
         return []
 
 def save_users(users):
     try:
-        # حذف تکراری‌ها
         unique_users = list(dict.fromkeys(users))
         with open(USERS_FILE, "w", encoding="utf-8") as f:
             json.dump(unique_users, f, indent=2)
-        print(f"💾 Saved {len(unique_users)} users")
+        print(f"💾 Saved {len(unique_users)} users to users.json")
     except Exception as e:
-        print(f"❌ Error saving users: {e}")
+        print(f"❌ Error saving users.json: {e}")
 
 def get_users_from_telegram():
-    """دریافت کاربران جدید از getUpdates"""
     try:
         url = f"https://api.telegram.org/bot{BOT_TOKEN}/getUpdates"
-        response = requests.get(url, timeout=10)
-        if response.status_code != 200:
-            print(f"❌ getUpdates failed: {response.status_code}")
+        r = requests.get(url, timeout=10)
+        if r.status_code != 200:
             return []
-
-        data = response.json()
+        
         new_users = []
-
-        for update in data.get("result", []):
+        for update in r.json().get("result", []):
             if "message" in update:
-                user_id = update["message"]["from"]["id"]
-                new_users.append(user_id)
-
-        print(f"🔄 Found {len(new_users)} recent users from getUpdates")
+                uid = update["message"]["from"]["id"]
+                new_users.append(uid)
         return new_users
-
-    except Exception as e:
-        print(f"❌ Error in getUpdates: {e}")
+    except:
         return []
 
 def get_config_files():
     files = [f for f in os.listdir(".") if f.startswith("configs") and f.endswith(".txt")]
-    print(f"📁 Found {len(files)} config files: {files}")
+    print(f"📁 Found {len(files)} config files")
     return sorted(files)
 
 async def main():
     print("🤖 BOT STARTED")
-
-    if not BOT_TOKEN:
-        print("❌ BOT_TOKEN is missing!")
-        return
 
     client = TelegramClient("bot_session", API_ID, API_HASH)
 
@@ -78,56 +68,51 @@ async def main():
         await client.start(bot_token=BOT_TOKEN)
         print("✅ Bot connected successfully")
     except Exception as e:
-        print(f"❌ Bot connection error: {e}")
+        print(f"❌ Bot connection failed: {e}")
         return
 
-    # === بروزرسانی لیست کاربران ===
+    # بروزرسانی کاربران
     users = load_users()
     telegram_users = get_users_from_telegram()
 
-    # اضافه کردن کاربران جدید
     for uid in telegram_users:
         if uid not in users:
             users.append(uid)
-            print(f"➕ New user added from getUpdates: {uid}")
+            print(f"➕ New user added: {uid}")
 
     save_users(users)
 
     config_files = get_config_files()
 
-    # === ارسال پیام به کاربران ===
+    # ارسال به کاربران
     if users and config_files:
-        print(f"📤 Sending configs to {len(users)} users...")
+        print(f"📤 Sending to {len(users)} users...")
         for i, user_id in enumerate(users, 1):
-            print(f"[{i}/{len(users)}] → User {user_id}")
+            print(f"[{i}/{len(users)}] Sending to {user_id}")
             try:
                 await client.send_message(user_id, "🟢 آپدیت جدید کانفیگ‌ها آماده شد!")
-                
                 for file in config_files:
                     await client.send_file(user_id, file)
-                    await asyncio.sleep(1.3)
-                
-                print(f"✅ Sent to {user_id}")
+                    await asyncio.sleep(1.5)
+                print(f"✅ Sent successfully to {user_id}")
             except FloodWaitError as e:
                 print(f"⏳ FloodWait: {e.seconds} seconds")
                 await asyncio.sleep(e.seconds + 2)
             except Exception as e:
                 print(f"❌ Failed to send to {user_id}: {e}")
     else:
-        print("⚠️ No users or no config files to send.")
+        print("⚠️ No users or config files available.")
 
-    # Handler برای دستور /start
+    # Handler /start
     @client.on(events.NewMessage(pattern="/start"))
     async def start_handler(event):
         user_id = event.sender_id
         if user_id not in users:
             users.append(user_id)
             save_users(users)
-            print(f"➕ New user via /start: {user_id}")
-        await event.respond("✅ ربات فعال است.\nهر ۱۰ دقیقه آخرین کانفیگ‌ها براتون ارسال می‌شود.")
+        await event.respond("✅ ربات فعال است.\nهر ۱۰ دقیقه کانفیگ جدید ارسال می‌شود.")
 
-    print("🟢 Bot listening for 40 seconds...")
-    await asyncio.sleep(40)
+    await asyncio.sleep(35)
     await client.disconnect()
     print("🏁 BOT FINISHED")
 
