@@ -1,3 +1,4 @@
+print("SESSION_STRING:", SESSION_STRING[:20])
 import asyncio
 import os
 import re
