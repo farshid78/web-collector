@@ -2,7 +2,7 @@ name: Full Auto Scraper + Auto Sender
 
 on:
   schedule:
-    - cron: "*/5 * * * *"
+    - cron: "*/10 * * * *"
   workflow_dispatch:
 
 jobs:
@@ -40,7 +40,6 @@ jobs:
           else:
             git commit -m "Auto-update: configs"
             git push
-          fi
 
       - name: Send file to all users
         env:
