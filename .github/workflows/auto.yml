@@ -29,11 +29,11 @@ jobs:
         run: |
           pip install telethon python-dotenv requests beautifulsoup4 PySocks
 
-      - name: Run scraper (BOT MODE)
+      - name: Run scraper (USER MODE)
         env:
           API_ID: ${{ secrets.API_ID }}
           API_HASH: ${{ secrets.API_HASH }}
-          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          SESSION_STRING: ${{ secrets.SESSION_STRING }}
         run: |
           echo "=== Checking scraper path ==="
           if [ -f "scraper/scraper.py" ]; then
