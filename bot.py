@@ -10,7 +10,7 @@ API_HASH = os.getenv("API_HASH")
 BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 
 USERS_FILE = "users.txt"
-FINAL_FILE = "configs.txt"   # ← اسم درست فایل
+FINAL_FILE = "configs.txt"
 
 
 def update_users():
@@ -38,6 +38,12 @@ def update_users():
             f.write("\n".join(ids))
 
         print("Users updated:", ids)
+
+        # پاک کردن آپدیت‌های مصرف‌شده
+        try:
+            requests.get(f"https://api.telegram.org/bot{BOT_TOKEN}/getUpdates?offset=-1")
+        except Exception:
+            pass
 
     except Exception as e:
         print("Error updating users:", e)
