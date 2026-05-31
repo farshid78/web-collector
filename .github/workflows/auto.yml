@@ -30,20 +30,6 @@ jobs:
         run: |
           python scraper/scraper.py
 
-      - name: Update users list
-        env:
-          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-        run: |
-          echo "Updating users.txt from getUpdates..."
-          curl -s "https://api.telegram.org/bot$TELEGRAM_BOT_TOKEN/getUpdates" > updates.json
-          cat updates.json | jq -r '.result[].message.chat.id' | sort -u > new_users.txt
-          if [ -f users.txt ]; then
-            cat users.txt >> new_users.txt
-          fi
-          sort -u new_users.txt > users.txt
-          echo "Updated users:"
-          cat users.txt
-
       - name: Commit results
         run: |
           git config --global user.name "github-actions"
@@ -52,7 +38,7 @@ jobs:
           if git diff --cached --quiet; then
             echo "No changes detected."
           else:
-            git commit -m "Auto-update: configs, users"
+            git commit -m "Auto-update: configs"
             git push
           fi
 
