@@ -1,4 +1,3 @@
-print(">>> SCRAPER FILE LOADED <<<")
 import asyncio
 import os
 import re
@@ -7,7 +6,6 @@ import json
 import base64
 import requests
 from telethon import TelegramClient
-from telethon.sessions import StringSession
 from telethon.errors import RPCError
 from dotenv import load_dotenv
 
@@ -15,8 +13,7 @@ load_dotenv()
 
 API_ID = int(os.getenv("API_ID", "0"))
 API_HASH = os.getenv("API_HASH", "")
-SESSION_STRING = os.getenv("SESSION_STRING", "")
-print("SESSION_STRING:", SESSION_STRING[:20])
+BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "")
 
 CHANNELS = [
     "filembad",
@@ -37,21 +34,15 @@ SUB_PATTERN = re.compile(r"https?://[^\s]+(?:\.txt|/sub[^\s]*)")
 
 
 # -----------------------------
-# اتصال امن با timeout
+# اتصال با Bot Token (بدون SESSION_STRING)
 # -----------------------------
 async def safe_start(client):
     try:
-        await asyncio.wait_for(client.start(), timeout=20)
-        print("✔ Telegram connected successfully")
+        await asyncio.wait_for(client.start(bot_token=BOT_TOKEN), timeout=20)
+        print("✔ Bot connected successfully")
         return True
-    except asyncio.TimeoutError:
-        print("❌ ERROR: Telegram connection timeout (SESSION_STRING probably invalid)")
-        return False
-    except RPCError as e:
-        print("❌ RPC ERROR:", e)
-        return False
     except Exception as e:
-        print("❌ Unknown error during start():", e)
+        print("❌ ERROR connecting bot:", e)
         return False
 
 
@@ -149,15 +140,13 @@ def get_country_code(host: str):
 # اجرای اصلی
 # -----------------------------
 async def main():
-    print("SCRAPER STARTED")
+    print("SCRAPER STARTED (BOT MODE)")
 
-    session = StringSession(SESSION_STRING) if SESSION_STRING else "session"
-    client = TelegramClient(session, API_ID, API_HASH)
+    client = TelegramClient("bot_session_scraper", API_ID, API_HASH)
 
-    # اتصال امن
     ok = await safe_start(client)
     if not ok:
-        print("❌ SCRAPER STOPPED — SESSION_STRING INVALID OR TELEGRAM BLOCKED")
+        print("❌ SCRAPER STOPPED — BOT TOKEN INVALID OR BLOCKED")
         return
 
     raw = []
@@ -203,8 +192,6 @@ async def main():
 
     # فایل اصلی
     all_file = os.path.join(root, "configs.txt")
-    open(all_file, "w").close()
-
     with open(all_file, "w", encoding="utf-8") as f:
         for c in all_cfgs:
             f.write(c + "\n")
