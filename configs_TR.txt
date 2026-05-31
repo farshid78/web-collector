@@ -1,1 +1,1 @@
-vless://c5fe764a-92f9-4928-91c3-fea8a1dcc8ad@static.oneset.ir:3083?mode=auto&path=%2Fapi%2Fv2%2Fcontent&security=reality&alpn=h2%2Chttp%2F1.1&encryption=none&pbk=m2Rd8UuC1Jazs7D-BMD1EM0vmisK06jC30yhp5ZCSlk&fp=firefox&type=xhttp&sni=yahoo.com&sid=a48c59a382c99e17#%40filembad
+trojan://d6b8011a-c725-435a-9fec-bf6d3530392c@86.38.214.178:2096?sni=vle.amclubdns.dpdns.org#@DeltaKroneckerGithubvle
