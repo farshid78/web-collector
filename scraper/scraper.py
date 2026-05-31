@@ -1,3 +1,4 @@
+print(">>> SCRAPER FILE LOADED <<<")
 import asyncio
 import os
 import re
