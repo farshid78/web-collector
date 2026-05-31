@@ -2,7 +2,7 @@ name: Auto Scan + Send
 
 on:
   schedule:
-    - cron: "*/05 * * * *"
+    - cron: "*/5 * * * *"   # هر ۵ دقیقه
   workflow_dispatch:
 
 jobs:
@@ -44,5 +44,6 @@ jobs:
           API_ID: ${{ secrets.API_ID }}
           API_HASH: ${{ secrets.API_HASH }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          MODE: "SEND"
         run: |
           python bot.py

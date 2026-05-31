@@ -17,9 +17,6 @@ client = TelegramClient(StringSession(""), API_ID, API_HASH)
 USERS_FILE = "users.txt"
 
 
-# -----------------------------
-# ذخیره آیدی عددی کاربران
-# -----------------------------
 def add_user(user_id: int):
     user_id = str(user_id)
 
@@ -36,9 +33,6 @@ def add_user(user_id: int):
             f.write(user_id + "\n")
 
 
-# -----------------------------
-# ثبت کاربر با /start
-# -----------------------------
 @client.on(events.NewMessage(pattern="/start"))
 async def start(event):
     user_id = event.sender_id
@@ -46,9 +40,6 @@ async def start(event):
     await event.respond("سلام! شما با موفقیت ثبت شدید ✔")
 
 
-# -----------------------------
-# ارسال فایل‌ها به همه کاربران (مود SEND)
-# -----------------------------
 async def send_updates():
     await client.start(bot_token=BOT_TOKEN)
 
@@ -77,9 +68,6 @@ async def send_updates():
     sys.exit(0)
 
 
-# -----------------------------
-# اجرای اصلی
-# -----------------------------
 if __name__ == "__main__":
     if MODE == "SEND":
         asyncio.run(send_updates())
