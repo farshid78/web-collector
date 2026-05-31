@@ -1,0 +1,6 @@
+trojan://gcuCpQfaiVeDBdWG@jpbgp.netvigor.cc:19128?type=raw&headerType=none&security=tls&sni=yazhou10.dynu.net#🇹🇼TW-🚀@VPNine1
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3ZTczMWVjMy1mOGUxLTQzZjYtOTJjZi0zOTc4ZDE0NzA1YzQ=@r3mrcg001286ek2.cybervena.com:50099#🇹🇼TW-🚀@VPNine1
+trojan://gcuCpQfaiVeDBdWG@211.76.176.99:19128?security=tls&headerType=none&type=tcp&sni=yazhou10.dynu.net#🇹🇼TW-🚀@VPNine1
+trojan://gcuCpQfaiVeDBdWG@jpbgp.netvigor.cc:19128?security=tls&sni=yazhou10.dynu.net#🇹🇼TW-🚀@VPNine1
+trojan://6e1b9a65-884f-3aa9-9469-bf6ec0f08610@211.20.245.140:3462?security=tls&sni=a03.taipeicitygovernment.cn.ua&allowInsecure=1#@DeltaKroneckerGithub
+trojan://96983eb4-c8f1-316e-ab00-500014ed3d8b@61.221.189.241:8443?security=tls&sni=official.taipeicitygovernment.biz.ua&allowInsecure=1&fp=chrome&type=tcp#@DeltaKroneckerGithub

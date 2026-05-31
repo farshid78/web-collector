@@ -1,0 +1,2 @@
+vless://aeb37c73-b4f8-47a2-8575-250a1859b0c6@com3.hozheen.com:2096?path=%2Fws%3Fed%3D2560&security=tls&encryption=none&insecure=0&host=newgen14.hozheen.ir&fp=chrome&type=ws&allowInsecure=0&sni=afd2a4d32edfe126.hozheen.ir#🇱🇹LT-🚀@VPNine1
+vless://de8b874f-0b15-440c-b257-ce68852ffad0@45.81.58.159:2096?path=%2Fws%3Fed%3D2560&security=tls&encryption=none&insecure=0&host=newgen14.hozheen.ir&fp=chrome&type=ws&allowInsecure=0&sni=8ddb416cd7e662d1.hozheen.ir#🇱🇹LT-🚀@VPNine1
