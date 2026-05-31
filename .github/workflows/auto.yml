@@ -10,15 +10,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # -------------------------
-      # Checkout repo
-      # -------------------------
       - name: Checkout repo
         uses: actions/checkout@v3
 
-      # -------------------------
-      # Python Setup
-      # -------------------------
       - name: Setup Python
         uses: actions/setup-python@v4
         with:
@@ -29,19 +23,18 @@ jobs:
           pip install telethon python-dotenv requests beautifulsoup4 PySocks
 
       # -------------------------
-      # Run scraper (PRO version)
+      # Run scraper
       # -------------------------
       - name: Run scraper
         env:
           API_ID: ${{ secrets.API_ID }}
           API_HASH: ${{ secrets.API_HASH }}
           SESSION_STRING: ${{ secrets.SESSION_STRING }}
-          MODE: USER
         run: |
           python scraper/scraper.py
 
       # -------------------------
-      # Update users.txt from getUpdates
+      # Update users list
       # -------------------------
       - name: Update users list from Telegram API
         env:
@@ -51,15 +44,12 @@ jobs:
 
           curl -s "https://api.telegram.org/bot$TELEGRAM_BOT_TOKEN/getUpdates" > updates.json
 
-          # استخراج chat_id ها
           cat updates.json | jq -r '.result[].message.chat.id' | sort -u > new_users.txt
 
-          # اگر users.txt وجود داشت → ادغام کن
           if [ -f users.txt ]; then
             cat users.txt >> new_users.txt
           fi
 
-          # حذف تکراری‌ها
           sort -u new_users.txt > users.txt
 
           echo "Updated users:"
@@ -76,21 +66,21 @@ jobs:
           git add -A
 
           if git diff --cached --quiet; then
-            echo "No changes detected. Skipping commit."
-            exit 0
+            echo "No changes detected. Continuing..."
+          else
+            git commit -m "Auto-update: configs, users"
+            git push
           fi
 
-          git commit -m "Auto-update: configs, users"
-          git push
-
       # -------------------------
-      # Run bot.py (Telethon SEND mode)
+      # Run bot.py (ALWAYS RUN)
       # -------------------------
       - name: Run bot sender
         env:
           API_ID: ${{ secrets.API_ID }}
           API_HASH: ${{ secrets.API_HASH }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          SESSION_STRING: ${{ secrets.SESSION_STRING }}
           MODE: SEND
         run: |
           python bot.py
