@@ -7,22 +7,31 @@ from telethon.errors import FloodWaitError
 import os
 import asyncio
 import requests
+import sys
 
 API_ID = int(os.getenv("API_ID"))
 API_HASH = os.getenv("API_HASH")
 BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
-MODE = os.getenv("MODE", "LISTEN")  # LISTEN یا SEND
+SESSION_STRING = os.getenv("SESSION_STRING")
+MODE = os.getenv("MODE", "LISTEN")
 
 USERS_FILE = "users.txt"
 FINAL_FILE = "configs_final.txt"
 
-client = TelegramClient(StringSession(""), API_ID, API_HASH)
+client = TelegramClient(StringSession(SESSION_STRING), API_ID, API_HASH)
 
 
 # -----------------------------
-# ذخیره کاربر جدید
+# ذخیره کاربر جدید (فقط آیدی معتبر)
 # -----------------------------
-def add_user(user_id: int):
+def add_user(user_id):
+    try:
+        user_id = int(user_id)
+        if user_id <= 0 or user_id > 9999999999:  # آیدی معتبر تلگرام
+            return
+    except:
+        return
+
     user_id = str(user_id)
 
     if not os.path.exists(USERS_FILE):
@@ -59,15 +68,13 @@ def fetch_updates():
 # -----------------------------
 @client.on(events.NewMessage(pattern="/start"))
 async def start(event):
-    user_id = event.sender_id
-    add_user(user_id)
+    add_user(event.sender_id)
     await event.respond("سلام! شما با موفقیت ثبت شدید ✔")
 
 
 @client.on(events.NewMessage)
 async def any_message(event):
-    user_id = event.sender_id
-    add_user(user_id)
+    add_user(event.sender_id)
 
 
 # -----------------------------
@@ -76,7 +83,6 @@ async def any_message(event):
 async def send_updates():
     await client.start(bot_token=BOT_TOKEN)
 
-    # گرفتن کاربران از getUpdates
     fetch_updates()
 
     if os.path.exists(USERS_FILE):
@@ -95,7 +101,6 @@ async def send_updates():
             print(f"Sending to {uid}...")
 
             await client.send_message(uid, "آپدیت جدید آماده شد ✔")
-
             await client.send_file(uid, FINAL_FILE)
 
             await asyncio.sleep(1)
