@@ -16,16 +16,16 @@ SESSION_STRING = os.getenv("SESSION_STRING")
 MODE = os.getenv("MODE", "LISTEN")
 
 USERS_FILE = "users.txt"
-FINAL_FILE = "configs_final.txt"
+FINAL_FILE = "good_configs.txt"   # فایل خروجی تستر
 
 
 # -----------------------------
-# ذخیره کاربر جدید (فقط آیدی معتبر)
+# ذخیره کاربر جدید
 # -----------------------------
 def add_user(user_id):
     try:
         user_id = int(user_id)
-        if user_id <= 0 or user_id > 9999999999:
+        if user_id <= 0:
             return
     except:
         return
@@ -64,7 +64,7 @@ def fetch_updates():
 # ============================================================
 # حالت LISTEN → با SESSION_STRING (اکانت شخصی)
 # ============================================================
-if MODE != "SEND":
+if MODE == "LISTEN":
     client = TelegramClient(StringSession(SESSION_STRING), API_ID, API_HASH)
 
     @client.on(events.NewMessage(pattern="/start"))
@@ -81,7 +81,7 @@ if MODE != "SEND":
 
 
 # ============================================================
-# حالت SEND → با BOT_TOKEN (ارسال فقط با ربات)
+# حالت SEND → ارسال خودکار با Bot Token
 # ============================================================
 else:
     client = TelegramClient("bot_session", API_ID, API_HASH)
@@ -99,12 +99,16 @@ else:
         else:
             users = []
 
-        # فایل configs_final.txt باید وجود داشته باشد
-        if not os.path.exists(FINAL_FILE):
-            print("configs_final.txt پیدا نشد!")
+        if not users:
+            print("هیچ کاربری ثبت نشده!")
             return
 
-        # ارسال برای همه کاربران
+        # فایل خروجی تستر
+        if not os.path.exists(FINAL_FILE):
+            print(f"{FINAL_FILE} پیدا نشد!")
+            return
+
+        # ارسال برای همه
         for user in users:
             try:
                 uid = int(user)
