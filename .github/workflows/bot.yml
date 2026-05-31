@@ -1,12 +1,12 @@
-name: Telegram Bot Sender
+name: Auto Scan + Send
 
 on:
   schedule:
-    - cron: "*/10 * * * *"   # هر ۱۰ دقیقه
-  workflow_dispatch:         # اجرای دستی
+    - cron: "*/5 * * * *"
+  workflow_dispatch:
 
 jobs:
-  send:
+  run:
     runs-on: ubuntu-latest
 
     steps:
@@ -20,12 +20,30 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install telethon python-dotenv
+          pip install telethon python-dotenv requests beautifulsoup4 PySocks
+
+      - name: Run scraper
+        env:
+          API_ID: ${{ secrets.API_ID }}
+          API_HASH: ${{ secrets.API_HASH }}
+          SESSION_STRING: ${{ secrets.SESSION_STRING }}
+          MODE: "USER"
+        run: |
+          python scraper/scraper.py
+
+      - name: Commit updated files
+        run: |
+          git config --global user.email "github-actions@github.com"
+          git config --global user.name "GitHub Actions"
+          git add .
+          git commit -m "Auto update" || echo "No changes"
+          git push || echo "Nothing to push"
 
       - name: Run bot
         env:
           API_ID: ${{ secrets.API_ID }}
           API_HASH: ${{ secrets.API_HASH }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          MODE: "SEND"
         run: |
           python bot.py
