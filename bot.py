@@ -18,8 +18,6 @@ MODE = os.getenv("MODE", "LISTEN")
 USERS_FILE = "users.txt"
 FINAL_FILE = "configs_final.txt"
 
-client = TelegramClient(StringSession(SESSION_STRING), API_ID, API_HASH)
-
 
 # -----------------------------
 # ذخیره کاربر جدید (فقط آیدی معتبر)
@@ -27,7 +25,7 @@ client = TelegramClient(StringSession(SESSION_STRING), API_ID, API_HASH)
 def add_user(user_id):
     try:
         user_id = int(user_id)
-        if user_id <= 0 or user_id > 9999999999:  # آیدی معتبر تلگرام
+        if user_id <= 0 or user_id > 9999999999:
             return
     except:
         return
@@ -63,66 +61,69 @@ def fetch_updates():
         print("Error fetching updates:", e)
 
 
-# -----------------------------
-# حالت LISTEN → ثبت کاربران
-# -----------------------------
-@client.on(events.NewMessage(pattern="/start"))
-async def start(event):
-    add_user(event.sender_id)
-    await event.respond("سلام! شما با موفقیت ثبت شدید ✔")
+# ============================================================
+# حالت LISTEN → با SESSION_STRING (اکانت شخصی)
+# ============================================================
+if MODE != "SEND":
+    client = TelegramClient(StringSession(SESSION_STRING), API_ID, API_HASH)
+
+    @client.on(events.NewMessage(pattern="/start"))
+    async def start(event):
+        add_user(event.sender_id)
+        await event.respond("سلام! شما با موفقیت ثبت شدید ✔")
+
+    @client.on(events.NewMessage)
+    async def any_message(event):
+        add_user(event.sender_id)
+
+    client.start()
+    client.run_until_disconnected()
 
 
-@client.on(events.NewMessage)
-async def any_message(event):
-    add_user(event.sender_id)
+# ============================================================
+# حالت SEND → با BOT_TOKEN (ارسال فقط با ربات)
+# ============================================================
+else:
+    client = TelegramClient("bot_session", API_ID, API_HASH)
 
+    async def send_updates():
+        await client.start(bot_token=BOT_TOKEN)
 
-# -----------------------------
-# حالت SEND → ارسال فایل‌ها
-# -----------------------------
-async def send_updates():
-    await client.start(bot_token=BOT_TOKEN)
+        # گرفتن آیدی‌ها از getUpdates
+        fetch_updates()
 
-    fetch_updates()
+        # خواندن لیست کاربران
+        if os.path.exists(USERS_FILE):
+            with open(USERS_FILE) as f:
+                users = [line.strip() for line in f.readlines()]
+        else:
+            users = []
 
-    if os.path.exists(USERS_FILE):
-        with open(USERS_FILE) as f:
-            users = [line.strip() for line in f.readlines()]
-    else:
-        users = []
+        # فایل configs_final.txt باید وجود داشته باشد
+        if not os.path.exists(FINAL_FILE):
+            print("configs_final.txt پیدا نشد!")
+            return
 
-    if not os.path.exists(FINAL_FILE):
-        print("configs_final.txt پیدا نشد!")
-        return
+        # ارسال برای همه کاربران
+        for user in users:
+            try:
+                uid = int(user)
+                print(f"Sending to {uid}...")
 
-    for user in users:
-        try:
-            uid = int(user)
-            print(f"Sending to {uid}...")
+                await client.send_message(uid, "آپدیت جدید آماده شد ✔")
+                await client.send_file(uid, FINAL_FILE)
 
-            await client.send_message(uid, "آپدیت جدید آماده شد ✔")
-            await client.send_file(uid, FINAL_FILE)
+                await asyncio.sleep(1)
 
-            await asyncio.sleep(1)
+            except FloodWaitError as e:
+                print(f"FloodWait → {e.seconds} ثانیه صبر می‌کنیم")
+                await asyncio.sleep(e.seconds)
 
-        except FloodWaitError as e:
-            print(f"FloodWait → {e.seconds} ثانیه صبر می‌کنیم")
-            await asyncio.sleep(e.seconds)
+            except Exception as e:
+                print("Error sending to", user, e)
 
-        except Exception as e:
-            print("Error sending to", user, e)
+        print("Done.")
+        await client.disconnect()
+        sys.exit(0)
 
-    print("Done.")
-    await client.disconnect()
-    sys.exit(0)
-
-
-# -----------------------------
-# اجرای اصلی
-# -----------------------------
-if __name__ == "__main__":
-    if MODE == "SEND":
-        asyncio.run(send_updates())
-    else:
-        client.start(bot_token=BOT_TOKEN)
-        client.run_until_disconnected()
+    asyncio.run(send_updates())
