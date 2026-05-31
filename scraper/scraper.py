@@ -1,6 +1,9 @@
 import asyncio
 import os
 import re
+import socket
+import json
+import base64
 import requests
 from telethon import TelegramClient
 from telethon.sessions import StringSession
@@ -24,15 +27,21 @@ CHANNELS = [
     "MARTiNCONFiG",
     "best_internet_iran",
     "persianvpnhub",
-    
 ]
 
 STARTERS = ["vmess://", "vless://", "trojan://", "ss://"]
 SUB_PATTERN = re.compile(r"https?://[^\s]+(?:\.txt|/sub[^\s]*)")
 
 
+# -----------------------------
+# استخراج کانفیگ‌ها
+# -----------------------------
 def extract_configs(text):
-    return [line.strip() for line in text.splitlines() if any(line.strip().startswith(s) for s in STARTERS)]
+    return [
+        line.strip()
+        for line in text.splitlines()
+        if any(line.strip().startswith(s) for s in STARTERS)
+    ]
 
 
 def split_stuck_configs(text):
@@ -63,6 +72,60 @@ def merge_multiline(lines):
     return merged
 
 
+# -----------------------------
+# استخراج host از کانفیگ‌ها
+# -----------------------------
+def extract_host_from_vmess(cfg: str):
+    try:
+        raw = cfg[len("vmess://"):]
+        pad = len(raw) % 4
+        if pad:
+            raw += "=" * (4 - pad)
+        data = base64.b64decode(raw).decode("utf-8", errors="ignore")
+        j = json.loads(data)
+        return j.get("add") or j.get("host") or j.get("server")
+    except:
+        return None
+
+
+def extract_host_from_url(cfg: str):
+    try:
+        if "://" not in cfg:
+            return None
+        scheme, rest = cfg.split("://", 1)
+        if "@" in rest:
+            rest = rest.split("@", 1)[1]
+        host = rest.split("/")[0].split(":")[0]
+        return host
+    except:
+        return None
+
+
+def extract_host(cfg: str):
+    if cfg.startswith("vmess://"):
+        return extract_host_from_vmess(cfg)
+    return extract_host_from_url(cfg)
+
+
+# -----------------------------
+# تشخیص کشور
+# -----------------------------
+def get_country_code(host: str):
+    if not host:
+        return "UNKNOWN"
+    try:
+        if not host.replace(".", "").isdigit():
+            host = socket.gethostbyname(host)
+
+        r = requests.get(f"http://ip-api.com/json/{host}", timeout=5).json()
+        return r.get("countryCode", "UNKNOWN") or "UNKNOWN"
+    except:
+        return "UNKNOWN"
+
+
+# -----------------------------
+# اجرای اصلی
+# -----------------------------
 async def main():
     session = StringSession(SESSION_STRING) if SESSION_STRING else "session"
     client = TelegramClient(session, API_ID, API_HASH)
@@ -87,7 +150,7 @@ async def main():
             sub_links.extend(SUB_PATTERN.findall(text))
             raw.extend(extract_configs(text))
 
-    # دانلود sub لینک‌ها
+    # sub لینک‌ها
     sub_configs = []
     for url in sub_links:
         try:
@@ -95,25 +158,51 @@ async def main():
             if r.status_code == 200:
                 lines = split_stuck_configs(r.text)
                 merged = merge_multiline(lines)
-                sub_configs.extend([c for c in merged if any(c.startswith(s) for s in STARTERS)])
+                sub_configs.extend(
+                    [c for c in merged if any(c.startswith(s) for s in STARTERS)]
+                )
         except:
             pass
 
     # حذف تکراری‌ها
     all_cfgs = list(dict.fromkeys([c.strip() for c in raw + sub_configs if c.strip()]))
 
-    # ذخیره نهایی configs.txt در ریشه
-    out_file = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "configs.txt"))
+    # مسیر ریشه
+    root = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 
-    open(out_file, "w").close()
+    # فایل اصلی
+    all_file = os.path.join(root, "configs.txt")
+    open(all_file, "w").close()
 
-    with open(out_file, "w", encoding="utf-8") as f:
+    with open(all_file, "w", encoding="utf-8") as f:
         for c in all_cfgs:
             f.write(c + "\n")
+
+    # -----------------------------
+    # ساخت فایل جدا برای هر کشور
+    # -----------------------------
+    country_files = {}
+
+    for cfg in all_cfgs:
+        host = extract_host(cfg)
+        cc = get_country_code(host)
+
+        if cc not in country_files:
+            country_files[cc] = []
+
+        country_files[cc].append(cfg)
+
+    # ذخیرهٔ فایل‌ها
+    for cc, cfgs in country_files.items():
+        filename = os.path.join(root, f"configs_{cc}.txt")
+        with open(filename, "w", encoding="utf-8") as f:
+            for c in cfgs:
+                f.write(c + "\n")
 
     print("RAW:", len(raw))
     print("SUB:", len(sub_configs))
     print("TOTAL:", len(all_cfgs))
+    print("COUNTRIES:", list(country_files.keys()))
 
     await client.disconnect()
 
