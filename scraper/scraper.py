@@ -31,7 +31,8 @@ CHANNELS = [
 STARTERS = ["vmess://", "vless://", "trojan://", "ss://"]
 SUB_PATTERN = re.compile(r"https?://[^\s]+(?:\.txt|/sub[^\s]*)")
 
-IMPORTANT_COUNTRIES = {"IR", "TR", "US", "DE", "NL", "FI", "SG"}
+# ==================== لیست کشورهای مهم ====================
+IMPORTANT_COUNTRIES = {"IR", "TR", "US", "DE", "NL", "FI", "SG", "AE"}  # AE = امارات
 
 country_cache = {}
 
@@ -139,14 +140,13 @@ async def main():
     raw_configs = []
     sub_links = []
 
-    # ==================== Reading Channels ====================
     for ch in CHANNELS:
         print(f"📌 Reading channel: {ch}", flush=True)
         try:
             entity = await client.get_entity(ch)
             count = 0
 
-            async for msg in client.iter_messages(entity, limit=100):   # دقیقاً طبق درخواستت
+            async for msg in client.iter_messages(entity, limit=100):
                 if msg.message:
                     text = msg.message
                     sub_links.extend(SUB_PATTERN.findall(text))
@@ -164,11 +164,11 @@ async def main():
         except Exception as e:
             print(f"   ❌ Error in {ch}: {e}", flush=True)
 
-        await asyncio.sleep(0.8)   # کاهش sleep بین چنل‌ها
+        await asyncio.sleep(0.8)
 
     print(f"📦 Raw configs: {len(raw_configs)} | Sub links: {len(sub_links)}", flush=True)
 
-    # Sub links (خیلی محدود)
+    # Sub links
     sub_configs = []
     for url in sub_links[:10]:
         try:
@@ -186,21 +186,29 @@ async def main():
     with open(os.path.join(root, "configs.txt"), "w", encoding="utf-8") as f:
         f.write("\n".join(all_cfgs))
 
-    # ==================== Country Detection سریع ====================
+    # ==================== دسته‌بندی کشورها ====================
     print("🌍 Starting country detection (multithreaded)...", flush=True)
     country_map = batch_get_countries(all_cfgs)
 
-    # ذخیره فایل‌ها
+    # ذخیره فایل‌ها فقط برای کشورهای مهم + others
+    others = []
+
     for cc, cfgs in country_map.items():
         if cc in IMPORTANT_COUNTRIES:
             filename = os.path.join(root, f"configs_{cc}.txt")
+            with open(filename, "w", encoding="utf-8") as f:
+                f.write("\n".join(cfgs))
+            print(f"   💾 Saved {len(cfgs)} configs for {cc}", flush=True)
         else:
-            filename = os.path.join(root, "configs_others.txt")
-        
-        with open(filename, "w", encoding="utf-8") as f:
-            f.write("\n".join(cfgs))
+            others.extend(cfgs)
 
-    print("🌍 Important countries saved:", sorted(IMPORTANT_COUNTRIES & set(country_map.keys())), flush=True)
+    # ذخیره بقیه کشورها در فایل others
+    if others:
+        with open(os.path.join(root, "configs_others.txt"), "w", encoding="utf-8") as f:
+            f.write("\n".join(others))
+        print(f"   💾 Saved {len(others)} configs in configs_others.txt", flush=True)
+
+    print(f"🌍 Important countries: {sorted(IMPORTANT_COUNTRIES & set(country_map.keys()))}", flush=True)
     print(f"📦 Total unique configs: {len(all_cfgs)}", flush=True)
     print("🏁 SCRAPER COMPLETED SUCCESSFULLY", flush=True)
 
