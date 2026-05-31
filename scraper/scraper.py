@@ -1,4 +1,3 @@
-print("SESSION_STRING:", SESSION_STRING[:20])
 import asyncio
 import os
 import re
@@ -16,6 +15,7 @@ load_dotenv()
 API_ID = int(os.getenv("API_ID", "0"))
 API_HASH = os.getenv("API_HASH", "")
 SESSION_STRING = os.getenv("SESSION_STRING", "")
+print("SESSION_STRING:", SESSION_STRING[:20])
 
 CHANNELS = [
     "filembad",
