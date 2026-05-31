@@ -10,11 +10,10 @@ API_HASH = os.getenv("API_HASH")
 BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 
 USERS_FILE = "users.txt"
-FINAL_FILE = "config.txt"   # فایل کانفیگ در ریشه پروژه
+FINAL_FILE = "configs.txt"   # ← اسم درست فایل
 
 
 def update_users():
-    """گرفتن کاربران از getUpdates و ذخیره در users.txt"""
     print("Fetching users from getUpdates...")
 
     url = f"https://api.telegram.org/bot{BOT_TOKEN}/getUpdates"
@@ -28,7 +27,6 @@ def update_users():
                     chat_id = update["message"]["chat"]["id"]
                     ids.append(str(chat_id))
 
-        # ادغام با users.txt قبلی
         if os.path.exists(USERS_FILE):
             with open(USERS_FILE) as f:
                 old = f.read().splitlines()
@@ -48,14 +46,11 @@ def update_users():
 async def main():
     print("Starting bot...")
 
-    # آپدیت کاربران
     update_users()
 
-    # اتصال با Bot Token
     client = TelegramClient("bot_session", API_ID, API_HASH)
     await client.start(bot_token=BOT_TOKEN)
 
-    # خواندن کاربران
     if not os.path.exists(USERS_FILE):
         print("❌ users.txt پیدا نشد!")
         return
@@ -69,15 +64,13 @@ async def main():
         print("❌ هیچ کاربری داخل users.txt نیست!")
         return
 
-    # چک فایل کانفیگ
     if not os.path.exists(FINAL_FILE):
         print(f"❌ فایل {FINAL_FILE} پیدا نشد!")
         print("محتویات پوشه:", os.listdir("."))
         return
 
-    print("Found config.txt, sending to users...")
+    print("Found configs.txt, sending to users...")
 
-    # ارسال برای همه
     for user in users:
         try:
             uid = int(user)
