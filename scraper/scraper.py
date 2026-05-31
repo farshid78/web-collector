@@ -7,13 +7,14 @@ import base64
 import requests
 from telethon import TelegramClient
 from telethon.errors import RPCError
+from telethon.sessions import StringSession
 from dotenv import load_dotenv
 
 load_dotenv()
 
 API_ID = int(os.getenv("API_ID", "0"))
 API_HASH = os.getenv("API_HASH", "")
-BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "")
+SESSION_STRING = os.getenv("SESSION_STRING", "")
 
 CHANNELS = [
     "filembad",
@@ -34,15 +35,22 @@ SUB_PATTERN = re.compile(r"https?://[^\s]+(?:\.txt|/sub[^\s]*)")
 
 
 # -----------------------------
-# اتصال با Bot Token (بدون SESSION_STRING)
+# اتصال با SESSION_STRING (User Mode)
 # -----------------------------
-async def safe_start(client):
+async def safe_start(client: TelegramClient):
+    if not SESSION_STRING:
+        print("❌ ERROR: SESSION_STRING is empty! Check GitHub Secrets.")
+        return False
+
     try:
-        await asyncio.wait_for(client.start(bot_token=BOT_TOKEN), timeout=20)
-        print("✔ Bot connected successfully")
+        await asyncio.wait_for(client.connect(), timeout=20)
+        if not await client.is_user_authorized():
+            print("❌ ERROR: Session is not authorized. SESSION_STRING is invalid or expired.")
+            return False
+        print("✔ User session connected successfully")
         return True
     except Exception as e:
-        print("❌ ERROR connecting bot:", e)
+        print("❌ ERROR connecting user session:", e)
         return False
 
 
@@ -105,7 +113,7 @@ def extract_host_from_url(cfg: str):
     try:
         if "://" not in cfg:
             return None
-        scheme, rest = cfg.split("://", 1)
+        _, rest = cfg.split("://", 1)
         if "@" in rest:
             rest = rest.split("@", 1)[1]
         host = rest.split("/")[0].split(":")[0]
@@ -140,13 +148,13 @@ def get_country_code(host: str):
 # اجرای اصلی
 # -----------------------------
 async def main():
-    print("SCRAPER STARTED (BOT MODE)")
+    print("SCRAPER STARTED (USER MODE)")
 
-    client = TelegramClient("bot_session_scraper", API_ID, API_HASH)
+    client = TelegramClient(StringSession(SESSION_STRING), API_ID, API_HASH)
 
     ok = await safe_start(client)
     if not ok:
-        print("❌ SCRAPER STOPPED — BOT TOKEN INVALID OR BLOCKED")
+        print("❌ SCRAPER STOPPED — SESSION_STRING INVALID / EXPIRED / MISSING")
         return
 
     raw = []
@@ -157,18 +165,22 @@ async def main():
         print(f"Reading channel: {ch}")
         try:
             entity = await client.get_entity(ch)
-        except:
-            print(f"❌ Cannot access channel: {ch}")
+        except Exception as e:
+            print(f"❌ Cannot access channel {ch}: {e}")
             continue
 
-        async for msg in client.iter_messages(entity, limit=1000):
-            if not msg.message:
-                continue
+        try:
+            async for msg in client.iter_messages(entity, limit=1000):
+                if not msg.message:
+                    continue
 
-            text = msg.message
+                text = msg.message
 
-            sub_links.extend(SUB_PATTERN.findall(text))
-            raw.extend(extract_configs(text))
+                sub_links.extend(SUB_PATTERN.findall(text))
+                raw.extend(extract_configs(text))
+        except RPCError as e:
+            print(f"❌ Error while reading {ch}: {e}")
+            continue
 
     # sub لینک‌ها
     sub_configs = []
