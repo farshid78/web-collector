@@ -8,6 +8,7 @@ import asyncio
 import sys
 from telethon import TelegramClient
 from telethon.sessions import StringSession
+from telethon.errors import FloodWaitError
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -29,25 +30,21 @@ CHANNELS = [
 STARTERS = ["vmess://", "vless://", "trojan://", "ss://"]
 SUB_PATTERN = re.compile(r"https?://[^\s]+(?:\.txt|/sub[^\s]*)")
 
+# ==================== Cache برای Country ====================
+country_cache = {}
 
-# ==================== Extractors ====================
 def extract_configs(text):
     return [line.strip() for line in text.splitlines() if any(line.strip().startswith(s) for s in STARTERS)]
-
 
 def split_stuck_configs(text):
     for s in STARTERS[1:]:
         text = text.replace(s, "\n" + s)
-    return text.splitlines()
-
+    return [line.strip() for line in text.splitlines() if line.strip()]
 
 def merge_multiline(lines):
     merged = []
     current = ""
     for line in lines:
-        line = line.strip()
-        if not line:
-            continue
         if any(line.startswith(s) for s in STARTERS):
             if current:
                 merged.append(current)
@@ -57,7 +54,6 @@ def merge_multiline(lines):
     if current:
         merged.append(current)
     return merged
-
 
 def extract_host(cfg: str):
     try:
@@ -73,22 +69,33 @@ def extract_host(cfg: str):
             _, rest = cfg.split("://", 1)
             if "@" in rest:
                 rest = rest.split("@", 1)[1]
-            return rest.split("/")[0].split(":")[0]
+            return rest.split("/")[0].split(":")[0].split("?")[0]
     except:
         return None
-
 
 def get_country_code(host: str):
     if not host:
         return "UNKNOWN"
+    
+    if host in country_cache:
+        return country_cache[host]
+
     try:
+        # DNS Resolve
         if not host.replace(".", "").isdigit():
             host = socket.gethostbyname(host)
-        r = requests.get(f"http://ip-api.com/json/{host}", timeout=6).json()
-        return r.get("countryCode", "UNKNOWN") or "UNKNOWN"
-    except:
-        return "UNKNOWN"
 
+        # درخواست بهینه
+        r = requests.get(
+            f"http://ip-api.com/json/{host}?fields=countryCode",
+            timeout=2.5
+        )
+        cc = r.json().get("countryCode", "UNKNOWN") or "UNKNOWN"
+    except:
+        cc = "UNKNOWN"
+
+    country_cache[host] = cc
+    return cc
 
 # ==================== Main ====================
 async def main():
@@ -103,13 +110,10 @@ async def main():
     try:
         print("⏳ Connecting...", flush=True)
         await asyncio.wait_for(client.connect(), timeout=30)
-
         if not await client.is_user_authorized():
             print("❌ SESSION NOT AUTHORIZED", flush=True)
             return
-
         print("✅ Login successful!", flush=True)
-
     except Exception as e:
         print(f"❌ Connection Error: {e}", flush=True)
         return
@@ -117,66 +121,82 @@ async def main():
     raw_configs = []
     sub_links = []
 
-    # ==================== Read Channels ====================
+    # ==================== Reading Channels ====================
     for ch in CHANNELS:
         print(f"📌 Reading channel: {ch}", flush=True)
         try:
             entity = await client.get_entity(ch)
-            async for msg in client.iter_messages(entity, limit=500):
+            count = 0
+
+            async for msg in client.iter_messages(entity, limit=150):  # بهینه شده
                 if msg.message:
                     text = msg.message
                     sub_links.extend(SUB_PATTERN.findall(text))
                     raw_configs.extend(extract_configs(text))
+                    count += 1
+
+                if count % 40 == 0:
+                    await asyncio.sleep(0.6)
+
+            print(f"   📥 Fetched {count} messages from {ch}", flush=True)
+
+        except FloodWaitError as e:
+            print(f"   ⏳ FloodWait in {ch}: {e.seconds}s", flush=True)
+            await asyncio.sleep(e.seconds + 3)
         except Exception as e:
-            print(f"❌ Error in {ch}: {e}", flush=True)
-            continue
+            print(f"   ❌ Error in {ch}: {e}", flush=True)
 
-        await asyncio.sleep(1)
+        await asyncio.sleep(1.5)  # بین چنل‌ها
 
-    # ==================== Process Sub Links ====================
+    # ==================== Debug Info ====================
+    print(f"📦 Raw configs collected: {len(raw_configs)}", flush=True)
+    print(f"🔗 Sub links found: {len(sub_links)}", flush=True)
+
+    # ==================== Process Sub Links (بهینه) ====================
     sub_configs = []
-    for url in sub_links[:50]:
+    for url in sub_links[:20]:        # محدود شده
         try:
-            r = requests.get(url, timeout=10)
+            r = requests.get(url, timeout=4)
             if r.status_code == 200:
                 merged = merge_multiline(split_stuck_configs(r.text))
                 sub_configs.extend([c for c in merged if any(c.startswith(s) for s in STARTERS)])
         except:
-            pass
+            continue
 
-    # ==================== Merge & Deduplicate ====================
+    print(f"📥 Sub configs extracted: {len(sub_configs)}", flush=True)
+
+    # ==================== Final Merge ====================
     all_cfgs = list(dict.fromkeys([c.strip() for c in raw_configs + sub_configs if c.strip()]))
 
     root = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 
-    # Save main file
     with open(os.path.join(root, "configs.txt"), "w", encoding="utf-8") as f:
         f.write("\n".join(all_cfgs))
 
-    # ==================== Country Split ====================
+    # ==================== Country Split با Progress ====================
+    print("🌍 Starting country detection...", flush=True)
     country_map = {}
 
-    for cfg in all_cfgs:
+    for i, cfg in enumerate(all_cfgs, 1):
         host = extract_host(cfg)
         cc = get_country_code(host)
+        
+        country_map.setdefault(cc, []).append(cfg)
 
-        if cc not in country_map:
-            country_map[cc] = []
+        if i % 100 == 0 or i == len(all_cfgs):
+            print(f"   🌍 Processed {i}/{len(all_cfgs)} configs...", flush=True)
 
-        country_map[cc].append(cfg)
-
-    # Save per-country files
+    # Save files
     for cc, cfgs in country_map.items():
         filename = os.path.join(root, f"configs_{cc}.txt")
         with open(filename, "w", encoding="utf-8") as f:
             f.write("\n".join(cfgs))
 
-    print("🌍 Countries found:", list(country_map.keys()), flush=True)
-    print(f"📦 Total configs: {len(all_cfgs)}", flush=True)
+    print("🌍 Countries found:", sorted(country_map.keys()), flush=True)
+    print(f"📦 Total unique configs: {len(all_cfgs)}", flush=True)
+    print("🏁 SCRAPER COMPLETED SUCCESSFULLY", flush=True)
 
     await client.disconnect()
-    print("🏁 SCRAPER COMPLETED", flush=True)
-
 
 if __name__ == "__main__":
     asyncio.run(main())
