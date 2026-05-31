@@ -13,12 +13,18 @@ API_HASH = os.getenv("API_HASH", "")
 SESSION_STRING = os.getenv("SESSION_STRING", "")
 
 CHANNELS = [
-    "V2rayNG_VPN",
-    "ShadowProxy66",
+    "filembad",
+    "vpnine1",
     "ConfigsHUB2",
     "free_v2rayyy",
     "v2rayng_config",
     "v2rayng_org",
+    "vasl_bashim",
+    "configs_freeiran",
+    "MARTiNCONFiG",
+    "best_internet_iran",
+    "persianvpnhub",
+    
 ]
 
 STARTERS = ["vmess://", "vless://", "trojan://", "ss://"]
