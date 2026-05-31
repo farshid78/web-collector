@@ -24,13 +24,11 @@ def update_users():
         if resp.get("ok"):
             for update in resp["result"]:
                 if "message" in update:
-                    chat_id = update["message"]["chat"]["id"]
-                    ids.append(str(chat_id))
+                    ids.append(str(update["message"]["chat"]["id"]))
 
         if os.path.exists(USERS_FILE):
             with open(USERS_FILE) as f:
-                old = f.read().splitlines()
-                ids.extend(old)
+                ids.extend(f.read().splitlines())
 
         ids = sorted(set(ids))
 
@@ -40,10 +38,7 @@ def update_users():
         print("Users updated:", ids)
 
         # پاک کردن آپدیت‌های مصرف‌شده
-        try:
-            requests.get(f"https://api.telegram.org/bot{BOT_TOKEN}/getUpdates?offset=-1")
-        except Exception:
-            pass
+        requests.get(f"https://api.telegram.org/bot{BOT_TOKEN}/getUpdates?offset=-1")
 
     except Exception as e:
         print("Error updating users:", e)
@@ -62,13 +57,9 @@ async def main():
         return
 
     with open(USERS_FILE) as f:
-        users = [line.strip() for line in f.readlines() if line.strip()]
+        users = [line.strip() for line in f if line.strip()]
 
     print("Users loaded:", users)
-
-    if not users:
-        print("❌ هیچ کاربری داخل users.txt نیست!")
-        return
 
     if not os.path.exists(FINAL_FILE):
         print(f"❌ فایل {FINAL_FILE} پیدا نشد!")
