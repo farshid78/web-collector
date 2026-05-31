@@ -6,13 +6,12 @@ from telethon import TelegramClient, events
 from telethon.errors import FloodWaitError
 from dotenv import load_dotenv
 
-load_dotenv()
+load_dotenv()  # بارگذاری متغیرهای محیطی از فایل .env
 
-API_ID = int(os.getenv("API_ID", "0"))
-API_HASH = os.getenv("API_HASH", "")
-BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "")
-
-USERS_FILE = "users.json"
+API_ID = int(os.getenv("API_ID", "0"))                    # دریافت API ID از محیط
+API_HASH = os.getenv("API_HASH", "")                      # دریافت API Hash از محیط
+BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "")           # توکن ربات تلگرام
+USERS_FILE = "users.json"                                 # فایل ذخیره‌سازی اطلاعات کاربران
 
 # لیست دقیق فایل‌هایی که می‌خواهیم ارسال شود
 DESIRED_FILES = [
@@ -32,8 +31,9 @@ DESIRED_FILES = [
 # مدیریت کاربران
 # -----------------------------
 def load_users():
+    """بارگذاری لیست کاربران از فایل JSON"""
     if not os.path.exists(USERS_FILE):
-        save_users([])
+        save_users([])          # اگر فایل وجود نداشت، فایل جدید بساز
         return []
     try:
         with open(USERS_FILE, "r", encoding="utf-8") as f:
@@ -42,11 +42,13 @@ def load_users():
         return []
 
 def save_users(users):
-    users = list(dict.fromkeys(users))
+    """ذخیره لیست کاربران در فایل JSON"""
+    users = list(dict.fromkeys(users))   # حذف تکراری‌ها
     with open(USERS_FILE, "w", encoding="utf-8") as f:
         json.dump(users, f, indent=2)
 
 def get_users_from_telegram():
+    """دریافت کاربران جدید از طریق getUpdates تلگرام"""
     try:
         url = f"https://api.telegram.org/bot{BOT_TOKEN}/getUpdates?allowed_updates=message"
         r = requests.get(url, timeout=8)
@@ -64,11 +66,12 @@ def get_users_from_telegram():
 # دریافت فایل‌های کانفیگ (اصلاح شده)
 # -----------------------------
 def get_config_files():
+    """برگرداندن فقط فایل‌های مورد نظر که وجود دارند و خالی نیستند"""
     files = []
     for file in DESIRED_FILES:
         if os.path.exists(file) and os.path.getsize(file) > 0:
             files.append(file)
-    
+   
     print("📁 Files to send:", files)
     return files
 
@@ -76,9 +79,11 @@ def get_config_files():
 # اجرای اصلی بات
 # -----------------------------
 async def main():
+    """تابع اصلی اجرای ربات"""
     print("🤖 BOT STARTED")
-    client = TelegramClient("bot_session", API_ID, API_HASH)
     
+    client = TelegramClient("bot_session", API_ID, API_HASH)
+   
     try:
         await client.start(bot_token=BOT_TOKEN)
         print("✅ Bot connected")
@@ -101,16 +106,18 @@ async def main():
     for idx, user_id in enumerate(users, 1):
         print(f"\n[{idx}/{len(users)}] Sending to {user_id}")
         try:
+            # پیام اطلاع‌رسانی
             await client.send_message(
                 user_id,
                 "🟢 **آپدیت جدید کانفیگ‌ها آماده شد**\n"
                 "فایل‌ها بر اساس کشور دسته‌بندی شده‌اند:"
             )
-
+            
+            # ارسال فایل‌ها
             for file in config_files:
                 print(f" ↳ Sending {file}")
                 await client.send_file(user_id, file)
-                await asyncio.sleep(1.3)   # کمی افزایش برای ایمنی
+                await asyncio.sleep(1.3)   # جلوگیری از FloodWait
 
             print(f"✅ Done for {user_id}")
 
@@ -120,7 +127,7 @@ async def main():
         except Exception as e:
             print(f"❌ Error sending to {user_id}: {e}")
 
-    # هندلر /start
+    # هندلر دستور /start
     @client.on(events.NewMessage(pattern="/start"))
     async def start_handler(event):
         uid = event.sender_id
@@ -132,7 +139,7 @@ async def main():
             "از این به بعد هر ۱۰ دقیقه کانفیگ‌های جدید بر اساس کشور برات ارسال می‌شه."
         )
 
-    await asyncio.sleep(25)
+    await asyncio.sleep(25)          # زمان برای پردازش رویدادها
     await client.disconnect()
     print("🏁 BOT FINISHED")
 
