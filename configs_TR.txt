@@ -1,1 +1,1 @@
-trojan://d6b8011a-c725-435a-9fec-bf6d3530392c@86.38.214.178:2096?sni=vle.amclubdns.dpdns.org#@DeltaKroneckerGithubvle
+vless://15115772-74b5-4c9b-9049-d7237a9c68f9@37.221.79.69:8443?mode=auto&path=%2F&security=reality&encryption=none&extra=%7B%22xPaddingBytes%22%3A%22100-1000%22%7D&pbk=kSqgT4C5AcpCMLdW1VCvFSiv5UX6UDLaF33ECFpzUgQ&fp=chrome&spx=%2F&allowinsecure=1&type=xhttp&sni=www.yahoo.com&sid=41#%40filembad
