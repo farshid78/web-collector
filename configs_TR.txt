@@ -1,1 +1,2 @@
-vless://15115772-74b5-4c9b-9049-d7237a9c68f9@37.221.79.69:8443?mode=auto&path=%2F&security=reality&encryption=none&extra=%7B%22xPaddingBytes%22%3A%22100-1000%22%7D&pbk=kSqgT4C5AcpCMLdW1VCvFSiv5UX6UDLaF33ECFpzUgQ&fp=chrome&spx=%2F&allowinsecure=1&type=xhttp&sni=www.yahoo.com&sid=41#%40filembad
+vless://06b56297-f8b9-485d-928d-6c01d2654b3c@38.180.171.164:51264?encryption=none&type=ws&path=%2F&host=www.google.com#%40filembad
+vless://323e820c-5ee8-4e2f-a3cc-c1f198adcf9d@netnab.dgrozz.shop:26720?security=&encryption=none&type=grpc#%40filembad

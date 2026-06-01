@@ -1,4 +1,1 @@
-vless://a16f270b-c07e-4fa1-a4e3-bc499e90d133@farbood.drshoayb.top:80?encryption=none&host=play.google.com&path=%2Fws&security=none&type=ws#🇦🇪AE-🚀@VPNine1
-trojan://3ac6a6ca99f74941b1eaf892818e2ddb@154.90.55.81:443?type=tcp&security=tls#🇦🇪AE-🚀@VPNine1
-vless://01ea3b87-b7b1-4aef-b24a-9c43fbd3b26f@uae.sbrf-cdn342.ru:443?encryption=none&flow=xtls-rprx-vision&security=tls&sni=sub.sbrf-cdn342.ru&fp=random&insecure=0&allowInsecure=0&type=tcp&headerType=none#🇦🇪AE-🚀@VPNine1
-trojan://hYusOWkQizD8w36eZ3FGA5b4OY38lxF-Yj@38.54.75.193:20520?security=tls&sni=&fp=chrome&type=tcp#🇺🇸US-🚀@VPNine1
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphOWQ3MjdjZC0zMzBiLTRlZGQtODkxMS03YzIyNGRmNmFmZDU=@77.74.201.171:25891#🇦🇪AE-🚀@VPNine1
