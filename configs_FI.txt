@@ -1,6 +1,7 @@
-vless://f5a25ee5-ff24-41b0-80e8-ccafdc866614@193.233.23.121:40611?security=none&encryption=none&headerType=none&type=tcp#🇫🇮FI-🚀@VPNine1
 vless://57685d03-cd25-4ae1-b65c-894297c0d11e@panel.ropework.ir:4450?encryption=none&security=reality&sni=play.google.com&fp=ios&pbk=V9bFDpcbuHi1Ada6fQeierVohaOtlvWPyo7N53BIU30&type=tcp&headerType=none#🇫🇮FI-🚀@VPNine1
+vless://f5a25ee5-ff24-41b0-80e8-ccafdc866614@193.233.23.121:40611?security=none&encryption=none&headerType=none&type=tcp#🇫🇮FI-🚀@VPNine1
 trojan://c5691b8f-d833-41e4-9295-769f3edb4cd2@185.231.206.12:443?security=tls&type=tcp&sni=customer-185-231-206-12.stark-industries.solutions#@DeltaKroneckerGithub
 trojan://8r%3C%5B9%27l6hAO%238ZQi@188.215.31.178:8443?allowInsecure=0&sni=Koma-YT.PAGeS.Dev#@DeltaKroneckerGithubvle
 ss://f5a25ee5-ff24-41b0-80e8-ccafdc866614@193.233.23.121:40611?encryption=none&headerType=none&type=tcp#@DeltaKroneckerGithubvme
 trojan://8r%3C%5B9%27l6hAO%238ZQi@77.110.108.196:8443?allowInsecure=0&sni=Koma-YT.PAGeS.Dev#@DeltaKroneckerGithub
+vless://c931f737-cafe-4e4f-998a-a65517941256@node-fi.dostup-est.info:8443?security=reality&type=tcp&sni=cdnjs.com&fp=chrome&flow=xtls-rprx-vision&sid=88ce6b586fcaf681&pbk=Ubibgn_MlW_zHo9LwjNH_b6SLNWwTJFwq7wW2ggLtUs&encryption=none#[🇫🇮]t.me/ConfigsHub
