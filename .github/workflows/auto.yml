@@ -1,203 +1,201 @@
+```yaml
 name: Full Auto Scraper + Sender
 
 on:
-schedule:
-# هر 10 دقیقه (با offset برای کاهش skip)
-- cron: "3,13,23,33,43,53 * * * *"
+  schedule:
+    # هر 10 دقیقه (با offset برای کاهش skip)
+    - cron: "3,13,23,33,43,53 * * * *"
 
-workflow_dispatch:
+  workflow_dispatch:
 
 permissions:
-contents: write
+  contents: write
 
 concurrency:
-group: scraper-bot-main
-cancel-in-progress: false
+  group: scraper-bot-main
+  cancel-in-progress: false
 
 jobs:
-run:
-name: Scraper + Bot Runner
+  run:
+    name: Scraper + Bot Runner
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
 
-```
-runs-on: ubuntu-latest
-
-timeout-minutes: 25
-
-env:
-  PYTHONUNBUFFERED: "1"
-  PIP_DISABLE_PIP_VERSION_CHECK: "1"
-  TZ: UTC
-
-steps:
-  - name: Checkout repository
-    uses: actions/checkout@v4
-    with:
-      persist-credentials: true
-      fetch-depth: 1
-
-  - name: Show workflow info
-    run: |
-      echo "================================="
-      echo "🚀 WORKFLOW STARTED"
-      echo "UTC TIME: $(date -u)"
-      echo "EVENT: ${{ github.event_name }}"
-      echo "REPOSITORY: ${{ github.repository }}"
-      echo "RUN ID: ${{ github.run_id }}"
-      echo "================================="
-
-  - name: Setup Python
-    uses: actions/setup-python@v5
-    with:
-      python-version: "3.11"
-      cache: "pip"
-
-  - name: Install dependencies
-    run: |
-      python -m pip install --upgrade pip
-
-      pip install \
-        telethon \
-        python-dotenv \
-        requests \
-        PySocks
-
-  - name: Validate environment variables
     env:
-      API_ID: ${{ secrets.API_ID }}
-      API_HASH: ${{ secrets.API_HASH }}
-      SESSION_STRING: ${{ secrets.SESSION_STRING }}
-      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-    run: |
-      echo "🔍 Checking required secrets..."
+      PYTHONUNBUFFERED: "1"
+      PIP_DISABLE_PIP_VERSION_CHECK: "1"
+      TZ: UTC
 
-      [ -z "$API_ID" ] && echo "❌ API_ID missing" && exit 1
-      [ -z "$API_HASH" ] && echo "❌ API_HASH missing" && exit 1
-      [ -z "$SESSION_STRING" ] && echo "❌ SESSION_STRING missing" && exit 1
-      [ -z "$TELEGRAM_BOT_TOKEN" ] && echo "❌ TELEGRAM_BOT_TOKEN missing" && exit 1
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+          fetch-depth: 1
 
-      echo "✅ All secrets exist"
+      - name: Show workflow info
+        run: |
+          echo "================================="
+          echo "🚀 WORKFLOW STARTED"
+          echo "UTC TIME: $(date -u)"
+          echo "EVENT: ${{ github.event_name }}"
+          echo "REPOSITORY: ${{ github.repository }}"
+          echo "RUN ID: ${{ github.run_id }}"
+          echo "================================="
 
-  - name: Run Scraper (with retry)
-    env:
-      API_ID: ${{ secrets.API_ID }}
-      API_HASH: ${{ secrets.API_HASH }}
-      SESSION_STRING: ${{ secrets.SESSION_STRING }}
-    run: |
-      echo "================================="
-      echo "🕷️ STARTING SCRAPER"
-      echo "UTC: $(date -u)"
-      echo "================================="
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
 
-      SUCCESS=0
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
 
-      for i in 1 2 3
-      do
-        echo "---------------------------------"
-        echo "SCRAPER ATTEMPT: $i"
-        echo "---------------------------------"
+          pip install \
+            telethon \
+            python-dotenv \
+            requests \
+            PySocks
 
-        if timeout 12m python scraper/scraper.py
-        then
-          SUCCESS=1
-          echo "✅ Scraper success"
-          break
-        fi
+      - name: Validate environment variables
+        env:
+          API_ID: ${{ secrets.API_ID }}
+          API_HASH: ${{ secrets.API_HASH }}
+          SESSION_STRING: ${{ secrets.SESSION_STRING }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+        run: |
+          echo "🔍 Checking required secrets..."
 
-        echo "⚠️ Scraper failed"
-        echo "Sleeping 20 seconds..."
-        sleep 20
-      done
+          [ -z "$API_ID" ] && echo "❌ API_ID missing" && exit 1
+          [ -z "$API_HASH" ] && echo "❌ API_HASH missing" && exit 1
+          [ -z "$SESSION_STRING" ] && echo "❌ SESSION_STRING missing" && exit 1
+          [ -z "$TELEGRAM_BOT_TOKEN" ] && echo "❌ TELEGRAM_BOT_TOKEN missing" && exit 1
 
-      if [ "$SUCCESS" -ne 1 ]
-      then
-        echo "❌ Scraper failed after retries"
-        exit 1
-      fi
+          echo "✅ All secrets exist"
 
-  - name: Commit & Push changes
-    run: |
-      echo "================================="
-      echo "📦 COMMITTING FILES"
-      echo "================================="
+      - name: Run Scraper (with retry)
+        env:
+          API_ID: ${{ secrets.API_ID }}
+          API_HASH: ${{ secrets.API_HASH }}
+          SESSION_STRING: ${{ secrets.SESSION_STRING }}
+        run: |
+          echo "================================="
+          echo "🕷️ STARTING SCRAPER"
+          echo "UTC: $(date -u)"
+          echo "================================="
 
-      git config --global user.name "github-actions"
-      git config --global user.email "actions@github.com"
+          SUCCESS=0
 
-      git add -A
+          for i in 1 2 3
+          do
+            echo "---------------------------------"
+            echo "SCRAPER ATTEMPT: $i"
+            echo "---------------------------------"
 
-      if git diff --cached --quiet
-      then
-        echo "ℹ️ No changes detected"
-        exit 0
-      fi
+            if timeout 12m python scraper/scraper.py
+            then
+              SUCCESS=1
+              echo "✅ Scraper success"
+              break
+            fi
 
-      git commit -m "Auto update: configs $(date -u +'%Y-%m-%d %H:%M:%S UTC')"
+            echo "⚠️ Scraper failed"
+            echo "Sleeping 20 seconds..."
+            sleep 20
+          done
 
-      PUSH_SUCCESS=0
+          if [ "$SUCCESS" -ne 1 ]
+          then
+            echo "❌ Scraper failed after retries"
+            exit 1
+          fi
 
-      for i in 1 2 3
-      do
-        echo "Push attempt: $i"
+      - name: Commit & Push changes
+        run: |
+          echo "================================="
+          echo "📦 COMMITTING FILES"
+          echo "================================="
 
-        git pull --rebase origin main || true
+          git config --global user.name "github-actions"
+          git config --global user.email "actions@github.com"
 
-        if git push
-        then
-          PUSH_SUCCESS=1
-          echo "✅ Push success"
-          break
-        fi
+          git add -A
 
-        echo "⚠️ Push failed"
-        sleep 15
-      done
+          if git diff --cached --quiet
+          then
+            echo "ℹ️ No changes detected"
+            exit 0
+          fi
 
-      if [ "$PUSH_SUCCESS" -ne 1 ]
-      then
-        echo "❌ Push failed after retries"
-        exit 1
-      fi
+          git commit -m "Auto update: configs $(date -u +'%Y-%m-%d %H:%M:%S UTC')"
 
-  - name: Run Bot (with retry)
-    env:
-      API_ID: ${{ secrets.API_ID }}
-      API_HASH: ${{ secrets.API_HASH }}
-      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-    run: |
-      echo "================================="
-      echo "🤖 STARTING BOT"
-      echo "UTC: $(date -u)"
-      echo "================================="
+          PUSH_SUCCESS=0
 
-      SUCCESS=0
+          for i in 1 2 3
+          do
+            echo "Push attempt: $i"
 
-      for i in 1 2 3
-      do
-        echo "BOT ATTEMPT: $i"
+            git pull --rebase origin main || true
 
-        if timeout 5m python bot.py
-        then
-          SUCCESS=1
-          echo "✅ Bot success"
-          break
-        fi
+            if git push
+            then
+              PUSH_SUCCESS=1
+              echo "✅ Push success"
+              break
+            fi
 
-        echo "⚠️ Bot failed"
-        sleep 15
-      done
+            echo "⚠️ Push failed"
+            sleep 15
+          done
 
-      if [ "$SUCCESS" -ne 1 ]
-      then
-        echo "❌ Bot failed after retries"
-        exit 1
-      fi
+          if [ "$PUSH_SUCCESS" -ne 1 ]
+          then
+            echo "❌ Push failed after retries"
+            exit 1
+          fi
 
-  - name: Workflow summary
-    if: always()
-    run: |
-      echo "================================="
-      echo "🏁 WORKFLOW FINISHED"
-      echo "UTC TIME: $(date -u)"
-      echo "STATUS: DONE"
-      echo "================================="
+      - name: Run Bot (with retry)
+        env:
+          API_ID: ${{ secrets.API_ID }}
+          API_HASH: ${{ secrets.API_HASH }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+        run: |
+          echo "================================="
+          echo "🤖 STARTING BOT"
+          echo "UTC: $(date -u)"
+          echo "================================="
+
+          SUCCESS=0
+
+          for i in 1 2 3
+          do
+            echo "BOT ATTEMPT: $i"
+
+            if timeout 5m python bot.py
+            then
+              SUCCESS=1
+              echo "✅ Bot success"
+              break
+            fi
+
+            echo "⚠️ Bot failed"
+            sleep 15
+          done
+
+          if [ "$SUCCESS" -ne 1 ]
+          then
+            echo "❌ Bot failed after retries"
+            exit 1
+          fi
+
+      - name: Workflow summary
+        if: always()
+        run: |
+          echo "================================="
+          echo "🏁 WORKFLOW FINISHED"
+          echo "UTC TIME: $(date -u)"
+          echo "STATUS: DONE"
+          echo "================================="
 ```
