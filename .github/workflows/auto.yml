@@ -1,9 +1,8 @@
-```yaml
 name: Full Auto Scraper + Sender
 
 on:
   schedule:
-    # هر 10 دقیقه (با offset برای کاهش skip)
+    # هر 10 دقیقه با offset
     - cron: "3,13,23,33,43,53 * * * *"
 
   workflow_dispatch:
@@ -68,10 +67,25 @@ jobs:
         run: |
           echo "🔍 Checking required secrets..."
 
-          [ -z "$API_ID" ] && echo "❌ API_ID missing" && exit 1
-          [ -z "$API_HASH" ] && echo "❌ API_HASH missing" && exit 1
-          [ -z "$SESSION_STRING" ] && echo "❌ SESSION_STRING missing" && exit 1
-          [ -z "$TELEGRAM_BOT_TOKEN" ] && echo "❌ TELEGRAM_BOT_TOKEN missing" && exit 1
+          if [ -z "$API_ID" ]; then
+            echo "❌ API_ID missing"
+            exit 1
+          fi
+
+          if [ -z "$API_HASH" ]; then
+            echo "❌ API_HASH missing"
+            exit 1
+          fi
+
+          if [ -z "$SESSION_STRING" ]; then
+            echo "❌ SESSION_STRING missing"
+            exit 1
+          fi
+
+          if [ -z "$TELEGRAM_BOT_TOKEN" ]; then
+            echo "❌ TELEGRAM_BOT_TOKEN missing"
+            exit 1
+          fi
 
           echo "✅ All secrets exist"
 
@@ -112,7 +126,7 @@ jobs:
             exit 1
           fi
 
-      - name: Commit & Push changes
+      - name: Commit and Push changes
         run: |
           echo "================================="
           echo "📦 COMMITTING FILES"
@@ -126,34 +140,33 @@ jobs:
           if git diff --cached --quiet
           then
             echo "ℹ️ No changes detected"
-            exit 0
-          fi
+          else
+            git commit -m "Auto update: configs $(date -u +'%Y-%m-%d %H:%M:%S UTC')"
 
-          git commit -m "Auto update: configs $(date -u +'%Y-%m-%d %H:%M:%S UTC')"
+            PUSH_SUCCESS=0
 
-          PUSH_SUCCESS=0
+            for i in 1 2 3
+            do
+              echo "Push attempt: $i"
 
-          for i in 1 2 3
-          do
-            echo "Push attempt: $i"
+              git pull --rebase origin main || true
 
-            git pull --rebase origin main || true
+              if git push
+              then
+                PUSH_SUCCESS=1
+                echo "✅ Push success"
+                break
+              fi
 
-            if git push
+              echo "⚠️ Push failed"
+              sleep 15
+            done
+
+            if [ "$PUSH_SUCCESS" -ne 1 ]
             then
-              PUSH_SUCCESS=1
-              echo "✅ Push success"
-              break
+              echo "❌ Push failed after retries"
+              exit 1
             fi
-
-            echo "⚠️ Push failed"
-            sleep 15
-          done
-
-          if [ "$PUSH_SUCCESS" -ne 1 ]
-          then
-            echo "❌ Push failed after retries"
-            exit 1
           fi
 
       - name: Run Bot (with retry)
@@ -198,4 +211,3 @@ jobs:
           echo "UTC TIME: $(date -u)"
           echo "STATUS: DONE"
           echo "================================="
-```
