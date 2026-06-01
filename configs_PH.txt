@@ -1,1 +1,0 @@
-vless://ff302fe7-f2c6-4fa9-8a2b-14bfdf042094@web.subster.ir:2083?path=%2F%3Fed%3D2048&security=tls&encryption=none&insecure=0&host=holo.x-upload.org&type=ws&allowInsecure=0&sni=holo.x-upload.org#%40filembad

@@ -1,2 +1,0 @@
-vless://41d480fd-1dcc-4766-8e01-a67e7faa5934@microsoft.com:443?encryption=none&type=ws&security=tls&path=%2Fid-amz&host=investors.spotify.com.cyylr.eu.cc&sni=investors.spotify.com.cyylr.eu.cc&allowInsecure=0&ech=ip.gs%2Budp%3A%2F%2F8.8.8.8#🇺🇸US-🚀@VPNine1
-vless://cc752a3e-1537-4e86-bb50-1b897bf7b33c@microsoft.com:443?encryption=none&type=ws&security=tls&path=%2Fsg-melbi&host=cyylr.eu.cc&sni=cyylr.eu.cc&allowInsecure=0&ech=ip.gs%2Budp%3A%2F%2F8.8.8.8#🇺🇸US-🚀@VPNine1

@@ -1,1 +1,0 @@
-trojan://d6b8011a-c725-435a-9fec-bf6d3530392c@190.93.247.178:2096?sni=vle.amclubdns.dpdns.org#@DeltaKroneckerGithub

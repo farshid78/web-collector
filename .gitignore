@@ -1,3 +1,14 @@
-scraper/session.session
-scraper/session.session-journal
+__pycache__/
+*.pyc
 .env
+
+bot_session.session
+bot_session.session-journal
+
+*.log
+logs/*.log
+
+.vscode/
+
+output/*.tmp
+state/*.tmp

@@ -1,0 +1,216 @@
+name: Sender Bot
+
+on:
+  workflow_dispatch:
+
+  workflow_run:
+    workflows: ["Scraper"]
+    types:
+      - completed
+
+  schedule:
+    - cron: "5 * * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sender-bot
+  cancel-in-progress: false
+
+jobs:
+  send:
+    name: Send Config Files
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    if: >
+      github.event_name == 'workflow_dispatch' ||
+      github.event_name == 'schedule' ||
+      (
+        github.event.workflow_run.conclusion == 'success'
+      )
+
+    env:
+      PYTHONUNBUFFERED: "1"
+      PIP_DISABLE_PIP_VERSION_CHECK: "1"
+      TZ: UTC
+
+    steps:
+
+      # ==========================================
+      # CHECKOUT
+      # ==========================================
+
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+          fetch-depth: 1
+
+      # ==========================================
+      # INFO
+      # ==========================================
+
+      - name: Workflow info
+        run: |
+          echo "================================="
+          echo "🤖 SENDER STARTED"
+          echo "UTC: $(date -u)"
+          echo "EVENT: ${{ github.event_name }}"
+          echo "RUN ID: ${{ github.run_id }}"
+          echo "================================="
+
+      # ==========================================
+      # PYTHON
+      # ==========================================
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      # ==========================================
+      # DEPENDENCIES
+      # ==========================================
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+
+          pip install \
+            telethon \
+            python-dotenv \
+            requests \
+            PySocks
+
+      # ==========================================
+      # VALIDATE SECRETS
+      # ==========================================
+
+      - name: Validate secrets
+        env:
+          API_ID: ${{ secrets.API_ID }}
+          API_HASH: ${{ secrets.API_HASH }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+        run: |
+
+          echo "🔍 checking secrets"
+
+          if [ -z "$API_ID" ]; then
+            echo "❌ API_ID missing"
+            exit 1
+          fi
+
+          if [ -z "$API_HASH" ]; then
+            echo "❌ API_HASH missing"
+            exit 1
+          fi
+
+          if [ -z "$TELEGRAM_BOT_TOKEN" ]; then
+            echo "❌ TELEGRAM_BOT_TOKEN missing"
+            exit 1
+          fi
+
+          echo "✅ secrets ok"
+
+      # ==========================================
+      # VERIFY FILES
+      # ==========================================
+
+      - name: Verify output files
+        run: |
+
+          echo "📁 checking output"
+
+          mkdir -p output
+          mkdir -p state
+          mkdir -p logs
+
+          ls -lah output || true
+
+      # ==========================================
+      # RUN BOT
+      # ==========================================
+
+      - name: Run bot
+        env:
+          API_ID: ${{ secrets.API_ID }}
+          API_HASH: ${{ secrets.API_HASH }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+        run: |
+
+          echo "================================="
+          echo "🤖 STARTING BOT"
+          echo "================================="
+
+          SUCCESS=0
+
+          for i in 1 2 3
+          do
+
+            echo "BOT ATTEMPT: $i"
+
+            if timeout 12m python bot.py
+            then
+              SUCCESS=1
+              echo "✅ bot success"
+              break
+            fi
+
+            echo "⚠️ bot failed"
+
+            sleep 15
+
+          done
+
+          if [ "$SUCCESS" -ne 1 ]
+          then
+            echo "❌ bot failed"
+            exit 1
+          fi
+
+      # ==========================================
+      # SAVE STATE
+      # ==========================================
+
+      - name: Commit state changes
+        run: |
+
+          git config --global user.name "github-actions"
+          git config --global user.email "actions@github.com"
+
+          git add \
+            users.json \
+            state/ \
+            logs/ \
+            || true
+
+          if git diff --cached --quiet
+          then
+            echo "ℹ️ no state changes"
+
+          else
+
+            git commit -m \
+            "bot state update $(date -u +'%Y-%m-%d %H:%M:%S UTC')" \
+            || true
+
+            git pull --rebase origin main || true
+
+            git push || true
+
+          fi
+
+      # ==========================================
+      # SUMMARY
+      # ==========================================
+
+      - name: Summary
+        if: always()
+        run: |
+          echo "================================="
+          echo "🏁 SENDER FINISHED"
+          echo "UTC: $(date -u)"
+          echo "================================="
