@@ -3,7 +3,7 @@ name: Full Auto Scraper + Sender
 on:
   schedule:
     # هر 10 دقیقه با offset
-    - cron: "3,13,23,33,43,53 * * * *"
+    - cron: "50 * * * *"
 
   workflow_dispatch:
 
