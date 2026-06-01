@@ -147,8 +147,8 @@ logger = logging.getLogger(
 # ==========================================================
 
 THREAD_POOL_WORKERS = 16
-HTTP_TIMEOUT = 5
-CHANNEL_MESSAGE_LIMIT = 100
+HTTP_TIMEOUT = 3
+CHANNEL_MESSAGE_LIMIT = 90
 MAX_SUB_LINKS = 50
 
 CACHE_TTL_DAYS = 14
@@ -806,91 +806,143 @@ def get_country_code(
 def batch_get_countries(
     configs
 ):
+    """
+    Fast country detection
+    resolve unique hosts only
+    """
 
     country_map = {}
 
     if not configs:
         return country_map
 
+    # ==================================
+    # BUILD UNIQUE HOST MAP
+    # ==================================
+
+    host_to_configs = {}
+
+    for cfg in configs:
+
+        try:
+
+            host = extract_host(
+                cfg
+            )
+
+            if not host:
+                host = "UNKNOWN"
+
+            host_to_configs\
+                .setdefault(
+                    host,
+                    []
+                )\
+                .append(cfg)
+
+        except Exception:
+            continue
+
+    unique_hosts = list(
+        host_to_configs.keys()
+    )
+
+    total_hosts = len(
+        unique_hosts
+    )
+
+    logger.info(
+        f"🌍 unique hosts="
+        f"{total_hosts}"
+    )
+
+    host_country_map = {}
+
+    # ==================================
+    # PARALLEL LOOKUP
+    # ==================================
+
     with ThreadPoolExecutor(
         max_workers=
         THREAD_POOL_WORKERS
     ) as executor:
 
-        futures = {}
+        futures = {
 
-        for cfg in configs:
+            executor.submit(
+                get_country_code,
+                host
+            ): host
 
-            host = (
-                extract_host(
-                    cfg
-                )
-            )
-
-            future = (
-                executor.submit(
-                    get_country_code,
-                    host
-                )
-            )
-
-            futures[
-                future
-            ] = cfg
+            for host
+            in unique_hosts
+        }
 
         completed = 0
-        total = len(
-            futures
-        )
 
-        for future in (
-            as_completed(
-                futures
-            )
+        for future in as_completed(
+            futures
         ):
 
-            cfg = (
-                futures[
-                    future
-                ]
-            )
+            host = futures[
+                future
+            ]
 
             try:
 
-                cc = (
-                    future.result()
-                )
+                cc = future.result()
+
+                if not cc:
+                    cc = "UNKNOWN"
 
             except Exception:
 
-                cc = (
-                    "UNKNOWN"
-                )
+                cc = "UNKNOWN"
 
-            country_map\
-                .setdefault(
-                    cc,
-                    []
-                )\
-                .append(
-                    cfg
-                )
+            host_country_map[
+                host
+            ] = cc
 
             completed += 1
 
             if (
-                completed % 100
+                completed % 50
                 == 0
                 or
                 completed
-                == total
+                == total_hosts
             ):
 
                 logger.info(
                     f"🌍 "
                     f"{completed}/"
-                    f"{total}"
+                    f"{total_hosts}"
                 )
+
+    # ==================================
+    # REBUILD COUNTRY MAP
+    # ==================================
+
+    for host, cfgs in (
+        host_to_configs.items()
+    ):
+
+        cc = (
+            host_country_map
+            .get(
+                host,
+                "UNKNOWN"
+            )
+        )
+
+        country_map\
+            .setdefault(
+                cc,
+                []
+            )\
+            .extend(
+                cfgs
+            )
 
     return country_map
 
