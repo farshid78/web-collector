@@ -1,0 +1,1 @@
+vless://7a685dc5-f93c-4e19-8b9b-b77998feb042@31.59.39.192:443?security=tls&type=tcp&packetEncoding=none&allowInsecure=1&sni=www.amd.com&fp=chrome#[🇷🇦]t.me/ConfigsHub
