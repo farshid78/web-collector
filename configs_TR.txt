@@ -1,2 +1,2 @@
-vless://06b56297-f8b9-485d-928d-6c01d2654b3c@38.180.171.164:51264?encryption=none&type=ws&path=%2F&host=www.google.com#%40filembad
-vless://323e820c-5ee8-4e2f-a3cc-c1f198adcf9d@netnab.dgrozz.shop:26720?security=&encryption=none&type=grpc#%40filembad
+vless://9acc2508-1e6e-9f22-4db8-363f85c02759@turkeyeah.pou-ria.com:8084?encryption=none&security=reality&sni=play.google.com&fp=firefox&pbk=-g0bzNFN2Of9vbBXL5ZWXQ5GIrwS1uZlFPcmphN0PiI&sid=bbcdcac5&spx=%2F&type=tcp&headerType=none#🇹🇷TR-🚀@VPNine1
+vmess://eyJ2IjogIjIiLCAicHMiOiAiXHVkODNjXHVkZGYyXHVkODNjXHVkZGU5TUQtXHVkODNkXHVkZTgwQFZQTmluZTEiLCAiYWRkIjogIjYyLjMuMTIuMTQwIiwgInBvcnQiOiAiMjA4NyIsICJpZCI6ICI5MGE3YTIwMS1kZTcxLTQ2OTYtYmU0NC1mMmMwNGFhMzYzNDgiLCAiYWlkIjogIjAiLCAic2N5IjogImF1dG8iLCAibmV0IjogImh0dHAiLCAidHlwZSI6ICJub25lIiwgImhvc3QiOiAiIiwgInBhdGgiOiAiIiwgInRscyI6ICIiLCAic25pIjogIiJ9
