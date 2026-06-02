@@ -1292,7 +1292,6 @@ async def scrape_channels(
 # SAVE COUNTRY FILES
 # ==========================================================
 def save_country_files(country_map):
-
     """
     فایل کشورهایی که کمتر از threshold هستند
     ساخته نمی‌شوند و داخل others می‌روند.
@@ -1313,7 +1312,7 @@ def save_country_files(country_map):
             # --------------------------------
             if cc in IMPORTANT_COUNTRIES:
 
-                # اگر کمتر از حد مجاز بود
+                # اگر کمتر از حداقل بود
                 if total_configs < MIN_COUNTRY_CONFIGS:
 
                     logger.info(
@@ -1321,11 +1320,13 @@ def save_country_files(country_map):
                         f"({total_configs} < "
                         f"{MIN_COUNTRY_CONFIGS})"
                     )
+
                     file_path = (
                         OUTPUT_DIR /
                         f"configs_{cc}.txt"
                     )
 
+                    # حذف فایل قدیمی اگر وجود دارد
                     if file_path.exists():
 
                         try:
@@ -1347,6 +1348,7 @@ def save_country_files(country_map):
                     others.extend(cfgs)
                     continue
 
+                # ذخیره فایل کشور
                 file_path = (
                     OUTPUT_DIR /
                     f"configs_{cc}.txt"
@@ -1376,39 +1378,46 @@ def save_country_files(country_map):
     # others
     # --------------------------------
 
-    others = dedupe_preserve_order(others)
-
-if len(others) >= 1:
-
-    atomic_write(
-        str(
-            OUTPUT_DIR /
-            "configs_others.txt"
-        ),
-        "\n".join(
-            dedupe_preserve_order(
-                others
-            )
-        )
+    others = dedupe_preserve_order(
+        others
     )
 
-    logger.info(
-        f"💾 others="
-        f"{len(others)}"
-    )
-
-else:
-
-    file_path = (
+    others_file = (
         OUTPUT_DIR /
         "configs_others.txt"
     )
 
-    if file_path.exists():
+    if others:
 
-        file_path.unlink()
+        atomic_write(
+            str(others_file),
+            "\n".join(others)
+        )
 
+        logger.info(
+            f"💾 others="
+            f"{len(others)}"
+        )
 
+    else:
+        # اگر خالی بود فایل قبلی حذف شود
+        if others_file.exists():
+
+            try:
+
+                others_file.unlink()
+
+                logger.info(
+                    "🗑️ removed "
+                    "configs_others.txt"
+                )
+
+            except Exception as e:
+
+                logger.warning(
+                    f"remove others "
+                    f"failed: {e}"
+                )
 # ==========================================================
 # CLEANUP FILES
 # ==========================================================
