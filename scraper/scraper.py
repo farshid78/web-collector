@@ -205,7 +205,8 @@ IMPORTANT_COUNTRIES = {
     "SG",
     "AE"
 }
-
+# حداقل تعداد کانفیگ برای ساخت فایل کشوری
+MIN_COUNTRY_CONFIGS = 50
 # ==========================================================
 # COUNTRY FILTER SETTINGS
 # ==========================================================
@@ -1296,44 +1297,85 @@ async def scrape_channels(
 # SAVE COUNTRY FILES
 # ==========================================================
 
-def save_country_files(
-    country_map
-):
+def save_country_files(country_map):
+
     """
-    Professional country filtering
-
-    >=50
-        file مستقل
-
-    20-49
-        merge into others
-
-    <20
-        ignore
+    فایل کشورهایی که کمتر از threshold هستند
+    ساخته نمی‌شوند و داخل others می‌روند.
     """
 
     others = []
 
-    for cc, cfgs in (
-        country_map.items()
-    ):
+    for cc, cfgs in country_map.items():
 
         try:
 
-            cfgs = (
-                dedupe_preserve_order(
-                    cfgs
+            cfgs = dedupe_preserve_order(cfgs)
+
+            total_configs = len(cfgs)
+
+            # --------------------------------
+            # کشورهای مهم
+            # --------------------------------
+            if cc in IMPORTANT_COUNTRIES:
+
+                # اگر کمتر از حد مجاز بود
+                if total_configs < MIN_COUNTRY_CONFIGS:
+
+                    logger.info(
+                        f"⏭️ skip {cc} "
+                        f"({total_configs} < "
+                        f"{MIN_COUNTRY_CONFIGS})"
+                    )
+
+                    others.extend(cfgs)
+                    continue
+
+                file_path = (
+                    OUTPUT_DIR /
+                    f"configs_{cc}.txt"
                 )
+
+                atomic_write(
+                    str(file_path),
+                    "\n".join(cfgs)
+                )
+
+                logger.info(
+                    f"💾 {cc}="
+                    f"{total_configs}"
+                )
+
+            else:
+                others.extend(cfgs)
+
+        except Exception as e:
+
+            logger.warning(
+                f"save fail "
+                f"{cc}: {e}"
             )
 
-            config_count = len(
-                cfgs
-            )
+    # --------------------------------
+    # others
+    # --------------------------------
 
-            logger.info(
-                f"🌍 {cc}="
-                f"{config_count}"
-            )
+    others = dedupe_preserve_order(others)
+
+    if others:
+
+        atomic_write(
+            str(
+                OUTPUT_DIR /
+                "configs_others.txt"
+            ),
+            "\n".join(others)
+        )
+
+        logger.info(
+            f"💾 others="
+            f"{len(others)}"
+        )
 
             # =====================================
             # کشور مهم + تعداد کافی
