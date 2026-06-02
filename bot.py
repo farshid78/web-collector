@@ -1164,6 +1164,10 @@ async def register_handlers(
 # RUN SENDER PIPELINE
 # ==========================================================
 
+# ==========================================================
+# RUN SENDER PIPELINE
+# ==========================================================
+
 async def run_sender_pipeline(
     client: TelegramClient,
     user_manager: UserManager
@@ -1230,15 +1234,16 @@ async def run_sender_pipeline(
         logger.exception(
             f"Pipeline Error: {e}"
         )
-# ======================================
-# SAVE HASHES AFTER SUCCESSFUL SEND
-# ======================================
 
-if success_count > 0:
+    # ======================================
+    # SAVE HASHES AFTER SUCCESSFUL SEND
+    # ======================================
 
-    save_file_hashes(
-        files
-    )
+    if success_count > 0:
+
+        save_file_hashes(
+            files
+        )
 
     # ======================================
     # SAVE ANALYTICS
@@ -1259,7 +1264,7 @@ if success_count > 0:
     )
 
     logger.info(
-        f"Failed={failed_count}"
+        f"Failed/..={failed_count}"
     )
 
     logger.info(
@@ -1269,8 +1274,6 @@ if success_count > 0:
     logger.info(
         "===================="
     )
-
-
 # ==========================================================
 # CLIENT FACTORY
 # ==========================================================
