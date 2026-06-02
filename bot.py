@@ -665,9 +665,7 @@ def save_file_hashes(files: List[str]):
 
 def build_update_message():
 
-    files = (
-        get_output_files()
-    )
+    files = get_output_files()
 
     total_configs = 0
 
@@ -689,8 +687,7 @@ def build_update_message():
                 total_configs = len(
                     [
                         x for x
-                        in f.read()
-                        .splitlines()
+                        in f.read().splitlines()
                         if x.strip()
                     ]
                 )
@@ -698,33 +695,37 @@ def build_update_message():
     except Exception:
         pass
 
+    countries = " • ".join(
+        SUPPORTED_COUNTRIES
+    )
+
     return f"""
-╔════════════════════════════════════╗
-    🤖 کانفیگ‌های جدید آماده ارسال
-╚════════════════════════════════════╝
+🚀 <b>بروزرسانی جدید کانفیگ‌ها</b>
 
 سلام 👋
 
-بسته جدید کانفیگ‌ها آماده شد.
+بسته جدید آماده شد و فایل‌ها در ادامه ارسال می‌شوند.
 
-📦 تعداد کانفیگ‌ها:
-{total_configs}
+━━━━━━━━━━━━━━━━━━
 
-🌍 کشورها:
-{' / '.join(SUPPORTED_COUNTRIES)}
+📦 <b>تعداد کانفیگ‌ها</b>
+<code>{total_configs}</code>
 
-📁 فایل‌های آماده:
-{len(files)}
+🌍 <b>کشورهای موجود</b>
+{countries}
 
-🔗 Subscription Link:
+📁 <b>فایل‌های آماده</b>
+<code>{len(files)}</code>
+
+🔗 <b>Subscription</b>
 {PROJECT_SUBSCRIPTION_LINK}
 
-🕒 زمان بروزرسانی:
-{datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC")}
+🕒 <b>آخرین بروزرسانی</b>
+<code>{datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC")}</code>
 
-   ━━━━━━━━━━━━━━         ━━━━━━━━━━━━━━
-    ✅ فایل‌ها در ادامه ارسال می‌شوند
-    ━━━━━━━━━━━━━━        ━━━━━━━━━━━━━━
+━━━━━━━━━━━━━━━━━━
+✅ ارسال فایل‌ها شروع شد
+━━━━━━━━━━━━━━━━━━
 """.strip()
 # ==========================================================
 # BOT.PY (PART 2/3)
@@ -751,8 +752,9 @@ async def safe_send_message(
         try:
 
             result = await client.send_message(
-                entity=user_id,
-                message=text
+             entity=user_id,
+            message=text,
+            parse_mode="html"
             )
 
             return result
@@ -853,61 +855,62 @@ async def safe_send_file(
 def build_start_message():
 
     return """
-╔════════════════════╗
-🤖 ربات بروزرسانی کانفیگ
-╚════════════════════╝
+🚀 <b>ربات بروزرسانی کانفیگ فعال شد</b>
 
 سلام 👋
 
-ربات با موفقیت فعال شد.
+از این لحظه بعد از هر بروزرسانی، فایل‌های جدید به‌صورت خودکار برای شما ارسال می‌شوند.
 
-از این لحظه بعد از هر بروزرسانی،
-فایل‌های جدید به‌صورت خودکار
-برای شما ارسال می‌شوند.
+━━━━━━━━━━━━━━━━━━
 
-📦 امکانات:
+📦 <b>امکانات</b>
 
-• ارسال خودکار فایل‌ها
-• تفکیک کانفیگ کشورها
-• Subscription Links
-• بروزرسانی منظم
+• ارسال خودکار فایل‌ها  
+• تفکیک کانفیگ کشورها  
+• Subscription Links  
+• بروزرسانی مداوم
 
-📌 دستورات:
+━━━━━━━━━━━━━━━━━━
 
-/help
-/ping
-/stats
+📌 <b>دستورات</b>
 
-━━━━━━━━━━━━━━
+<code>/help</code>
+راهنمای ربات
+
+<code>/ping</code>
+بررسی وضعیت سرویس
+
+<code>/stats</code>
+نمایش آمار سیستم
+
+━━━━━━━━━━━━━━━━━━
 ✅ سرویس فعال شد
-━━━━━━━━━━━━━━
+━━━━━━━━━━━━━━━━━━
 """.strip()
 
 
 def build_help_message():
 
     return """
-╔════════════════════╗
-📘 راهنمای ربات
-╚════════════════════╝
+📘 <b>راهنمای ربات</b>
 
-دستورات:
+━━━━━━━━━━━━━━━━━━
 
-/start
-فعال‌سازی ربات
+<code>/start</code>
+فعال‌سازی دریافت بروزرسانی‌ها
 
-/help
+<code>/help</code>
 نمایش راهنما
 
-/ping
-بررسی وضعیت اتصال
+<code>/ping</code>
+بررسی وضعیت آنلاین بودن ربات
 
-/stats
+<code>/stats</code>
 نمایش آمار سیستم
 
-━━━━━━━━━━━━━━
-🤖 Auto Config Delivery
-━━━━━━━━━━━━━━
+━━━━━━━━━━━━━━━━━━
+🤖 Auto Config Delivery Bot
+━━━━━━━━━━━━━━━━━━
 """.strip()
 
 
