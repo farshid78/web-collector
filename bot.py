@@ -565,6 +565,78 @@ def get_output_files() -> List[str]:
     return files
 
 
+def get_changed_files(
+    files: List[str]
+) -> List[str]:
+    """
+    تشخیص فایل‌های تغییر‌یافته
+    بر اساس hash
+    """
+
+    try:
+
+        hashes = {}
+
+        if FILE_HASHES_FILE.exists():
+
+            with open(
+                FILE_HASHES_FILE,
+                "r",
+                encoding="utf-8"
+            ) as f:
+
+                hashes = json.load(f)
+
+        changed_files = []
+        new_hashes = {}
+
+        for file_path in files:
+
+            try:
+
+                with open(
+                    file_path,
+                    "rb"
+                ) as f:
+
+                    file_hash = hashlib.sha256(
+                        f.read()
+                    ).hexdigest()
+
+                new_hashes[file_path] = (
+                    file_hash
+                )
+
+                if (
+                    hashes.get(
+                        file_path
+                    )
+                    != file_hash
+                ):
+
+                    changed_files.append(
+                        file_path
+                    )
+
+            except Exception:
+                pass
+
+        atomic_write(
+            FILE_HASHES_FILE,
+            new_hashes
+        )
+
+        return changed_files
+
+    except Exception as e:
+
+        logger.error(
+            f"Changed Files Error: {e}"
+        )
+
+        return files
+
+
 # ==========================================================
 # PROFESSIONAL UPDATE UI
 # ==========================================================
@@ -1016,53 +1088,49 @@ async def register_handlers(
     )
     async def stats_handler(event):
 
-        analytics = (
-            AnalyticsManager()
-            .load()
-        )
-
-        users = await (
-            user_manager
-            .load_users()
-        )
-
-        files = (
-            get_output_files()
-        )
-
-        text = f"""
-╔════════════════════╗
-📊 آمار سیستم
-╚════════════════════╝
-
-👥 کاربران:
-{len(users)}
-
-📁 فایل‌ها:
-{len(files)}
-
-✅ ارسال موفق:
-{analytics.get("success",0)}
-
-❌ خطا:
-{analytics.get("failed",0)}
-
-🚫 حذف‌شده:
-{analytics.get("removed",0)}
-
-🕒 آخرین اجرا:
-{analytics.get("last_run","-")}
-
-━━━━━━━━━━━━━━
-🤖 Production Bot
-━━━━━━━━━━━━━━
-""".strip()
-
-        await safe_send_message(
-            client,
-            event.sender_id,
-            text
-        )
+            analytics = (
+                AnalyticsManager()
+                .load()
+            )
+    
+            users = await (
+                user_manager
+                .load_users()
+            )
+    
+            files = get_changed_files(
+                get_output_files()
+            )
+    
+            text = f"""
+    👥 کاربران:
+    {len(users)}
+    
+    📁 فایل‌ها:
+    {len(files)}
+    
+    ✅ ارسال موفق:
+    {analytics.get("success",0)}
+    
+    ❌ خطا:
+    {analytics.get("failed",0)}
+    
+    🚫 حذف‌شده:
+    {analytics.get("removed",0)}
+    
+    🕒 آخرین اجرا:
+    {analytics.get("last_run","-")}
+    
+    ━━━━━━━━━━━━━━
+    🤖 Production Bot
+    ━━━━━━━━━━━━━━
+    """.strip()
+    
+            await safe_send_message(
+                client,
+                event.sender_id,
+                text
+            )
 
     logger.info(
         "Handlers Registered"
@@ -1101,19 +1169,20 @@ async def run_sender_pipeline(
         return
 
     files = (
-    get_changed_files(
+            get_output_files()
+        )
+    files = get_changed_files(
         get_output_files()
-                    )
-             )
+    )
 
     if not files:
 
-    logger.info(
-        "ℹ️ no changed files"
-    )
+        logger.info(
+            "ℹ️ no changed files"
+        )
 
-    await client.disconnect()
-    return
+        await client.disconnect()
+        return
 
     success_count = 0
     failed_count = 0
@@ -1382,3 +1451,4 @@ if __name__ == "__main__":
         logger.info(
             "Cleanup Done"
         )
+    
