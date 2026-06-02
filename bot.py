@@ -6,6 +6,10 @@
 
 from __future__ import annotations
 
+# ==========================================================
+# IMPORTS
+# ==========================================================
+
 import os
 import json
 import time
@@ -19,8 +23,16 @@ from typing import List, Dict, Optional
 
 from dotenv import load_dotenv
 
-from telethon import TelegramClient, events
-from telethon.errors import FloodWaitError, UserIsBlockedError, ChatWriteForbiddenError
+from telethon import (
+    TelegramClient,
+    events
+)
+
+from telethon.errors import (
+    FloodWaitError,
+    UserIsBlockedError,
+    ChatWriteForbiddenError
+)
 
 # ==========================================================
 # ENV
@@ -28,36 +40,96 @@ from telethon.errors import FloodWaitError, UserIsBlockedError, ChatWriteForbidd
 
 load_dotenv()
 
-API_ID = int(os.getenv("API_ID", "0"))
-API_HASH = os.getenv("API_HASH", "")
-BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "")
+API_ID = int(
+    os.getenv(
+        "API_ID",
+        "0"
+    )
+)
+
+API_HASH = os.getenv(
+    "API_HASH",
+    ""
+)
+
+BOT_TOKEN = os.getenv(
+    "TELEGRAM_BOT_TOKEN",
+    ""
+)
+
+# ==========================================================
+# ENV VALIDATION
+# ==========================================================
 
 if not API_ID:
-    raise RuntimeError("API_ID missing")
+    raise RuntimeError(
+        "API_ID missing"
+    )
 
 if not API_HASH:
-    raise RuntimeError("API_HASH missing")
+    raise RuntimeError(
+        "API_HASH missing"
+    )
 
 if not BOT_TOKEN:
-    raise RuntimeError("BOT_TOKEN missing")
+    raise RuntimeError(
+        "BOT_TOKEN missing"
+    )
 
 # ==========================================================
 # PATHS
 # ==========================================================
 
-ROOT_DIR = Path(__file__).resolve().parent
+ROOT_DIR = (
+    Path(__file__)
+    .resolve()
+    .parent
+)
 
-OUTPUT_DIR = ROOT_DIR / "output"
-STATE_DIR = ROOT_DIR / "state"
-LOGS_DIR = ROOT_DIR / "logs"
+OUTPUT_DIR = (
+    ROOT_DIR
+    / "output"
+)
 
-USERS_FILE = ROOT_DIR / "users.json"
-ANALYTICS_FILE = STATE_DIR / "analytics.json"
-FILE_HASHES_FILE = STATE_DIR / "file_hashes.json"
+STATE_DIR = (
+    ROOT_DIR
+    / "state"
+)
 
-OUTPUT_DIR.mkdir(exist_ok=True)
-STATE_DIR.mkdir(exist_ok=True)
-LOGS_DIR.mkdir(exist_ok=True)
+LOGS_DIR = (
+    ROOT_DIR
+    / "logs"
+)
+
+USERS_FILE = (
+    ROOT_DIR
+    / "users.json"
+)
+
+ANALYTICS_FILE = (
+    STATE_DIR
+    / "analytics.json"
+)
+FILE_HASHES_FILE = (
+    STATE_DIR
+    / "file_hashes.json"
+)
+
+# ==========================================================
+# CREATE DIRS
+# ==========================================================
+
+OUTPUT_DIR.mkdir(
+    exist_ok=True
+)
+
+STATE_DIR.mkdir(
+    exist_ok=True
+)
+
+LOGS_DIR.mkdir(
+    exist_ok=True
+)
 
 # ==========================================================
 # LOGGING
@@ -65,14 +137,24 @@ LOGS_DIR.mkdir(exist_ok=True)
 
 logging.basicConfig(
     level=logging.INFO,
-    format="%(asctime)s | %(levelname)s | %(message)s",
+    format=(
+        "%(asctime)s | "
+        "%(levelname)s | "
+        "%(message)s"
+    ),
     handlers=[
-        logging.FileHandler(LOGS_DIR / "bot.log", encoding="utf-8"),
+        logging.FileHandler(
+            LOGS_DIR
+            / "bot.log",
+            encoding="utf-8"
+        ),
         logging.StreamHandler()
     ]
 )
 
-logger = logging.getLogger("SENDER_BOT")
+logger = logging.getLogger(
+    "SENDER_BOT"
+)
 
 # ==========================================================
 # SETTINGS
@@ -82,9 +164,15 @@ PARALLEL_USERS = 8
 RETRY_COUNT = 3
 SEND_DELAY = 0.8
 
+# فایل‌هایی که باید ارسال شوند
+# bundle_info و project_subscription
+# عمداً حذف شدند
 DESIRED_FILES = [
+
     "configs.txt",
+
     "subscription_links.txt",
+
     "configs_IR.txt",
     "configs_TR.txt",
     "configs_US.txt",
@@ -93,10 +181,9 @@ DESIRED_FILES = [
     "configs_FI.txt",
     "configs_SG.txt",
     "configs_AE.txt",
+
     "configs_others.txt"
 ]
-
-SUPPORTED_COUNTRIES = ["IR", "TR", "US", "DE", "NL", "FI", "SG", "AE"]
 
 PROJECT_SUBSCRIPTION_LINK = (
     "https://raw.githubusercontent.com/"
@@ -105,128 +192,450 @@ PROJECT_SUBSCRIPTION_LINK = (
     "main/output/configs.txt"
 )
 
+SUPPORTED_COUNTRIES = [
+    "IR",
+    "TR",
+    "US",
+    "DE",
+    "NL",
+    "FI",
+    "SG",
+    "AE"
+]
+
 # ==========================================================
 # FILE HELPERS
 # ==========================================================
 
-def atomic_write(path: Path, data):
-    tmp = path.with_suffix(".tmp")
+def atomic_write(
+    path: Path,
+    data
+):
+    """
+    نوشتن امن فایل
+    برای جلوگیری از corruption
+    """
 
-    with open(tmp, "w", encoding="utf-8") as f:
-        json.dump(data, f, indent=2, ensure_ascii=False)
+    temp_path = (
+        path.with_suffix(
+            ".tmp"
+        )
+    )
 
-    os.replace(tmp, path)
+    with open(
+        temp_path,
+        "w",
+        encoding="utf-8"
+    ) as f:
+
+        json.dump(
+            data,
+            f,
+            indent=2,
+            ensure_ascii=False
+        )
+
+    os.replace(
+        temp_path,
+        path
+    )
+
 
 # ==========================================================
-# DELTA SYSTEM (NEW)
+# USER MANAGER
 # ==========================================================
 
-def load_file_hashes():
-    try:
-        if not FILE_HASHES_FILE.exists():
-            return {}
+class UserManager:
+    """
+    مدیریت کاربران
+    """
 
-        with open(FILE_HASHES_FILE, "r", encoding="utf-8") as f:
-            return json.load(f)
+    def __init__(self):
 
-    except Exception:
-        return {}
+        self.file_path = (
+            USERS_FILE
+        )
 
+        self.lock = (
+            asyncio.Lock()
+        )
 
-def save_file_hashes(data):
-    try:
-        atomic_write(FILE_HASHES_FILE, data)
-    except Exception as e:
-        logger.warning(f"hash save fail {e}")
+    async def load_users(
+        self
+    ) -> List[int]:
 
+        async with self.lock:
 
-def get_file_hash(file_path: str):
-    try:
-        md5 = hashlib.md5()
+            try:
 
-        with open(file_path, "rb") as f:
-            while True:
-                chunk = f.read(8192)
-                if not chunk:
-                    break
-                md5.update(chunk)
+                if not (
+                    self.file_path
+                    .exists()
+                ):
 
-        return md5.hexdigest()
+                    with open(
+                        self.file_path,
+                        "w",
+                        encoding="utf-8"
+                    ) as f:
 
-    except Exception:
-        return None
+                        json.dump(
+                            [],
+                            f
+                        )
 
+                    return []
 
-def get_changed_files(files: List[str]) -> List[str]:
-    previous = load_file_hashes()
-    current = {}
-    changed = []
+                with open(
+                    self.file_path,
+                    "r",
+                    encoding="utf-8"
+                ) as f:
 
-    for path in files:
+                    data = (
+                        json.load(
+                            f
+                        )
+                    )
 
-        name = os.path.basename(path)
-        h = get_file_hash(path)
+                users = []
 
-        if not h:
-            continue
+                for uid in data:
 
-        current[name] = h
+                    try:
 
-        if previous.get(name) != h:
-            changed.append(path)
+                        uid = int(uid)
 
-    save_file_hashes(current)
+                        if (
+                            uid
+                            not in users
+                        ):
+                            users.append(
+                                uid
+                            )
 
-    logger.info(f"📦 changed={len(changed)}")
+                    except Exception:
+                        pass
 
-    return changed
+                logger.info(
+                    f"Users Loaded="
+                    f"{len(users)}"
+                )
 
-# ==========================================================
-# OUTPUT FILES (FIXED - SINGLE VERSION ONLY)
-# ==========================================================
+                return sorted(
+                    users
+                )
 
-def get_output_files() -> List[str]:
-    files = []
+            except Exception as e:
 
-    for file_name in DESIRED_FILES:
-        path = OUTPUT_DIR / file_name
+                logger.error(
+                    f"Load Users "
+                    f"Error: {e}"
+                )
 
-        try:
-            if path.exists() and path.is_file() and path.stat().st_size > 0:
-                files.append(str(path))
-        except Exception:
-            pass
+                return []
 
-    logger.info(f"Output Files={len(files)}")
-    return files
+    async def save_users(
+        self,
+        users: List[int]
+    ):
+
+        async with self.lock:
+
+            try:
+
+                users = sorted(
+                    list(
+                        dict.fromkeys(
+                            int(x)
+                            for x in users
+                        )
+                    )
+                )
+
+                atomic_write(
+                    self.file_path,
+                    users
+                )
+
+            except Exception as e:
+
+                logger.error(
+                    f"Save Users "
+                    f"Error: {e}"
+                )
+
+    async def add_user(
+        self,
+        user_id: int
+    ):
+
+        users = await (
+            self.load_users()
+        )
+
+        if (
+            user_id
+            not in users
+        ):
+
+            users.append(
+                user_id
+            )
+
+            await (
+                self.save_users(
+                    users
+                )
+            )
+
+            logger.info(
+                f"User Added "
+                f"{user_id}"
+            )
+
+    async def remove_user(
+        self,
+        user_id: int
+    ):
+
+        users = await (
+            self.load_users()
+        )
+
+        if (
+            user_id
+            in users
+        ):
+
+            users.remove(
+                user_id
+            )
+
+            await (
+                self.save_users(
+                    users
+                )
+            )
+
+            logger.warning(
+                f"User Removed "
+                f"{user_id}"
+            )
+
 
 # ==========================================================
 # ANALYTICS MANAGER
 # ==========================================================
 
 class AnalyticsManager:
+    """
+    مدیریت آمار سیستم
+    """
 
     def __init__(self):
-        self.file_path = ANALYTICS_FILE
 
-    def load(self) -> Dict:
+        self.file_path = (
+            ANALYTICS_FILE
+        )
+
+    def load(
+        self
+    ) -> Dict:
+
         try:
-            if not self.file_path.exists():
+
+            if not (
+                self.file_path
+                .exists()
+            ):
                 return {}
-            with open(self.file_path, "r", encoding="utf-8") as f:
-                return json.load(f)
+
+            with open(
+                self.file_path,
+                "r",
+                encoding="utf-8"
+            ) as f:
+
+                return json.load(
+                    f
+                )
+
         except Exception:
+
             return {}
 
-    def save(self, success=0, failed=0, removed=0):
-        data = self.load()
+    def save(
+        self,
+        success: int = 0,
+        failed: int = 0,
+        removed: int = 0
+    ):
 
-        data["last_run"] = datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S UTC")
-        data["success"] = data.get("success", 0) + success
-        data["failed"] = data.get("failed", 0) + failed
-        data["removed"] = data.get("removed", 0) + removed
+        analytics = (
+            self.load()
+        )
 
-        atomic_write(self.file_path, data)
+        analytics[
+            "last_run"
+        ] = (
+            datetime.utcnow()
+            .strftime(
+                "%Y-%m-%d %H:%M:%S UTC"
+            )
+        )
+
+        analytics[
+            "success"
+        ] = (
+            analytics.get(
+                "success",
+                0
+            )
+            + success
+        )
+
+        analytics[
+            "failed"
+        ] = (
+            analytics.get(
+                "failed",
+                0
+            )
+            + failed
+        )
+
+        analytics[
+            "removed"
+        ] = (
+            analytics.get(
+                "removed",
+                0
+            )
+            + removed
+        )
+
+        atomic_write(
+            self.file_path,
+            analytics
+        )
+
+
+# ==========================================================
+# OUTPUT FILES
+# ==========================================================
+
+def get_output_files() -> List[str]:
+    """
+    کشف فایل‌های خروجی معتبر
+    """
+
+    files = []
+
+    for file_name in (
+        DESIRED_FILES
+    ):
+
+        path = (
+            OUTPUT_DIR
+            / file_name
+        )
+
+        try:
+
+            if (
+                path.exists()
+                and path.is_file()
+                and path.stat()
+                .st_size > 0
+            ):
+
+                files.append(
+                    str(path)
+                )
+
+        except Exception:
+            pass
+
+    logger.info(
+        f"Output Files="
+        f"{len(files)}"
+    )
+
+    return files
+
+
+# ==========================================================
+# PROFESSIONAL UPDATE UI
+# ==========================================================
+
+def build_update_message():
+
+    files = (
+        get_output_files()
+    )
+
+    total_configs = 0
+
+    try:
+
+        configs_file = (
+            OUTPUT_DIR
+            / "configs.txt"
+        )
+
+        if configs_file.exists():
+
+            with open(
+                configs_file,
+                "r",
+                encoding="utf-8"
+            ) as f:
+
+                total_configs = len(
+                    [
+                        x for x
+                        in f.read()
+                        .splitlines()
+                        if x.strip()
+                    ]
+                )
+
+    except Exception:
+        pass
+
+    return f"""
+╔════════════════════╗
+🚀 بروزرسانی جدید کانفیگ
+╚════════════════════╝
+
+سلام 👋
+
+بسته جدید کانفیگ‌ها آماده شد.
+
+📦 تعداد کانفیگ‌ها:
+{total_configs}
+
+🌍 کشورها:
+{' / '.join(SUPPORTED_COUNTRIES)}
+
+📁 فایل‌های آماده:
+{len(files)}
+
+🔗 Subscription Link:
+{PROJECT_SUBSCRIPTION_LINK}
+
+🕒 زمان بروزرسانی:
+{datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC")}
+
+━━━━━━━━━━━━━━
+✅ فایل‌ها در ادامه ارسال می‌شوند
+━━━━━━━━━━━━━━
+""".strip()
+# ==========================================================
+# BOT.PY (PART 2/3)
+# Sender Pipeline + Commands + Safe Send
+# ==========================================================
 
 # ==========================================================
 # SAFE SEND HELPERS
@@ -238,25 +647,51 @@ async def safe_send_message(
     text: str,
     retries: int = RETRY_COUNT
 ):
+    """
+    ارسال امن پیام
+    مدیریت FloodWait + Retry
+    """
 
     for attempt in range(retries):
 
         try:
-            return await client.send_message(
+
+            result = await client.send_message(
                 entity=user_id,
                 message=text
             )
 
-        except FloodWaitError as e:
-            wait_time = e.seconds + 2
-            logger.warning(f"FloodWait msg {user_id} {wait_time}s")
-            await asyncio.sleep(wait_time)
+            return result
 
-        except (UserIsBlockedError, ChatWriteForbiddenError):
+        except FloodWaitError as e:
+
+            wait_time = e.seconds + 2
+
+            logger.warning(
+                f"FloodWait Message "
+                f"{user_id} "
+                f"{wait_time}s"
+            )
+
+            await asyncio.sleep(
+                wait_time
+            )
+
+        except (
+            UserIsBlockedError,
+            ChatWriteForbiddenError
+        ):
             raise
 
         except Exception as e:
-            logger.warning(f"msg retry {attempt+1}/{retries}: {e}")
+
+            logger.warning(
+                f"Message Retry "
+                f"{attempt+1}/"
+                f"{retries} "
+                f"{user_id}: {e}"
+            )
+
             await asyncio.sleep(2)
 
     return None
@@ -268,51 +703,90 @@ async def safe_send_file(
     file_path: str,
     retries: int = RETRY_COUNT
 ):
+    """
+    ارسال امن فایل
+    """
 
     for attempt in range(retries):
 
         try:
-            return await client.send_file(
+
+            result = await client.send_file(
                 entity=user_id,
                 file=file_path
             )
 
-        except FloodWaitError as e:
-            wait_time = e.seconds + 2
-            logger.warning(f"FloodWait file {user_id} {wait_time}s")
-            await asyncio.sleep(wait_time)
+            return result
 
-        except (UserIsBlockedError, ChatWriteForbiddenError):
+        except FloodWaitError as e:
+
+            wait_time = e.seconds + 2
+
+            logger.warning(
+                f"FloodWait File "
+                f"{user_id} "
+                f"{wait_time}s"
+            )
+
+            await asyncio.sleep(
+                wait_time
+            )
+
+        except (
+            UserIsBlockedError,
+            ChatWriteForbiddenError
+        ):
             raise
 
         except Exception as e:
-            logger.warning(f"file retry {attempt+1}/{retries}: {e}")
+
+            logger.warning(
+                f"File Retry "
+                f"{attempt+1}/"
+                f"{retries} "
+                f"{user_id}: {e}"
+            )
+
             await asyncio.sleep(2)
 
     return None
 
 
 # ==========================================================
-# UI MESSAGES
+# PROFESSIONAL UI
 # ==========================================================
 
 def build_start_message():
 
     return """
-       ╔════════════════════╗
-🤖 ربات بروزرسانی        کانفیگ
-       ╚════════════════════╝
+╔════════════════════╗
+🤖 ربات بروزرسانی کانفیگ
+╚════════════════════╝
 
 سلام 👋
 
-ربات فعال شد.
+ربات با موفقیت فعال شد.
 
-📦 ارسال خودکار فایل‌ها
-🌍 تفکیک کشورها
-🔗 Subscription لینک‌ها
+از این لحظه بعد از هر بروزرسانی،
+فایل‌های جدید به‌صورت خودکار
+برای شما ارسال می‌شوند.
 
-دستورات:
-/help /ping /stats
+📦 امکانات:
+
+• ارسال خودکار فایل‌ها
+• تفکیک کانفیگ کشورها
+• Subscription Links
+• بروزرسانی منظم
+
+📌 دستورات:
+
+/help
+/ping
+/stats
+
+━━━━━━━━━━━━━━
+✅ سرویس فعال شد
+━━━━━━━━━━━━━━
 """.strip()
 
 
@@ -320,13 +794,26 @@ def build_help_message():
 
     return """
 ╔════════════════════╗
-📘 راهنما
+📘 راهنمای ربات
 ╚════════════════════╝
 
-/start شروع
-/help راهنما
-/ping وضعیت
-/stats آمار
+دستورات:
+
+/start
+فعال‌سازی ربات
+
+/help
+نمایش راهنما
+
+/ping
+بررسی وضعیت اتصال
+
+/stats
+نمایش آمار سیستم
+
+━━━━━━━━━━━━━━
+🤖 Auto Config Delivery
+━━━━━━━━━━━━━━
 """.strip()
 
 
@@ -335,42 +822,14 @@ def build_ping_message():
     return f"""
 🏓 Pong
 
-✅ آنلاین
-⚡ فعال
+✅ وضعیت:
+آنلاین
 
-🕒 {datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC")}
-""".strip()
+⚡ اتصال:
+فعال
 
-
-def build_update_message():
-
-    files = get_output_files()
-
-    total_configs = 0
-
-    try:
-        cfg = OUTPUT_DIR / "configs.txt"
-
-        if cfg.exists():
-            total_configs = len(
-                [
-                    x for x in cfg.read_text(encoding="utf-8").splitlines()
-                    if x.strip()
-                ]
-            )
-    except Exception:
-        pass
-
-    return f"""
-🚀 بروزرسانی کانفیگ
-
-📦 کانفیگ‌ها: {total_configs}
-🌍 کشورها: {' / '.join(SUPPORTED_COUNTRIES)}
-📁 فایل‌ها: {len(files)}
-
-🔗 {PROJECT_SUBSCRIPTION_LINK}
-
-🕒 {datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC")}
+🕒 زمان:
+{datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC")}
 """.strip()
 
 
@@ -384,9 +843,13 @@ async def send_to_user(
     files: List[str],
     user_manager: UserManager
 ):
+    """
+    ارسال حرفه‌ای فایل‌ها برای هر کاربر
+    """
 
     try:
 
+        # پیام بروزرسانی
         await safe_send_message(
             client,
             user_id,
@@ -395,7 +858,7 @@ async def send_to_user(
 
         await asyncio.sleep(1)
 
-        sent = 0
+        sent_count = 0
 
         for file_path in files:
 
@@ -406,24 +869,44 @@ async def send_to_user(
             )
 
             if result:
-                sent += 1
+                sent_count += 1
 
-            await asyncio.sleep(SEND_DELAY)
+            await asyncio.sleep(
+                SEND_DELAY
+            )
 
-        logger.info(f"Send OK {user_id} {sent}/{len(files)}")
+        logger.info(
+            f"Send Success "
+            f"{user_id} "
+            f"{sent_count}/"
+            f"{len(files)}"
+        )
 
         return "success"
 
-    except (UserIsBlockedError, ChatWriteForbiddenError):
+    except (
+        UserIsBlockedError,
+        ChatWriteForbiddenError
+    ):
 
-        await user_manager.remove_user(user_id)
-        logger.warning(f"User removed {user_id}")
+        await user_manager.remove_user(
+            user_id
+        )
+
+        logger.warning(
+            f"Removed User "
+            f"{user_id}"
+        )
 
         return "removed"
 
     except Exception as e:
 
-        logger.error(f"Send error {user_id}: {e}")
+        logger.error(
+            f"Send Failed "
+            f"{user_id}: {e}"
+        )
+
         return "failed"
 
 
@@ -437,76 +920,159 @@ async def process_batch(
     files: List[str],
     user_manager: UserManager
 ):
+    """
+    ارسال موازی کنترل‌شده
+    """
 
-    semaphore = asyncio.Semaphore(PARALLEL_USERS)
+    semaphore = asyncio.Semaphore(
+        PARALLEL_USERS
+    )
 
     async def worker(uid):
 
         async with semaphore:
+
             return await send_to_user(
-                client,
-                uid,
-                files,
-                user_manager
+                client=client,
+                user_id=uid,
+                files=files,
+                user_manager=user_manager
             )
 
-    tasks = [worker(u) for u in users]
+    tasks = [
+        worker(uid)
+        for uid in users
+    ]
 
-    return await asyncio.gather(*tasks, return_exceptions=True)
+    return await asyncio.gather(
+        *tasks,
+        return_exceptions=True
+    )
 
 
 # ==========================================================
 # COMMAND HANDLERS
 # ==========================================================
 
-async def register_handlers(client: TelegramClient, user_manager: UserManager):
+async def register_handlers(
+    client: TelegramClient,
+    user_manager: UserManager
+):
+    """
+    ثبت commandها
+    """
 
-    @client.on(events.NewMessage(pattern=r"^/start$"))
-    async def start(event):
+    @client.on(
+        events.NewMessage(
+            pattern=r"^/start$"
+        )
+    )
+    async def start_handler(event):
 
-        uid = int(event.sender_id)
+        user_id = int(
+            event.sender_id
+        )
 
-        await user_manager.add_user(uid)
+        await user_manager.add_user(
+            user_id
+        )
 
-        await safe_send_message(client, uid, build_start_message())
+        await safe_send_message(
+            client,
+            user_id,
+            build_start_message()
+        )
 
+    @client.on(
+        events.NewMessage(
+            pattern=r"^/help$"
+        )
+    )
+    async def help_handler(event):
 
-    @client.on(events.NewMessage(pattern=r"^/help$"))
-    async def help(event):
+        await safe_send_message(
+            client,
+            event.sender_id,
+            build_help_message()
+        )
 
-        await safe_send_message(client, event.sender_id, build_help_message())
+    @client.on(
+        events.NewMessage(
+            pattern=r"^/ping$"
+        )
+    )
+    async def ping_handler(event):
 
+        await safe_send_message(
+            client,
+            event.sender_id,
+            build_ping_message()
+        )
 
-    @client.on(events.NewMessage(pattern=r"^/ping$"))
-    async def ping(event):
+    @client.on(
+        events.NewMessage(
+            pattern=r"^/stats$"
+        )
+    )
+    async def stats_handler(event):
 
-        await safe_send_message(client, event.sender_id, build_ping_message())
+        analytics = (
+            AnalyticsManager()
+            .load()
+        )
 
+        users = await (
+            user_manager
+            .load_users()
+        )
 
-    @client.on(events.NewMessage(pattern=r"^/stats$"))
-    async def stats(event):
+        files = (
+            get_output_files()
+        )
 
-        analytics = AnalyticsManager().load()
-        users = await user_manager.load_users()
-        files = get_output_files()
+        text = f"""
+╔════════════════════╗
+📊 آمار سیستم
+╚════════════════════╝
 
-        msg = f"""
-📊 Stats
+👥 کاربران:
+{len(users)}
 
-👥 Users: {len(users)}
-📁 Files: {len(files)}
+📁 فایل‌ها:
+{len(files)}
 
-✅ Success: {analytics.get("success",0)}
-❌ Failed: {analytics.get("failed",0)}
-🚫 Removed: {analytics.get("removed",0)}
+✅ ارسال موفق:
+{analytics.get("success",0)}
 
-🕒 Last: {analytics.get("last_run","-")}
+❌ خطا:
+{analytics.get("failed",0)}
+
+🚫 حذف‌شده:
+{analytics.get("removed",0)}
+
+🕒 آخرین اجرا:
+{analytics.get("last_run","-")}
+
+━━━━━━━━━━━━━━
+🤖 Production Bot
+━━━━━━━━━━━━━━
 """.strip()
 
-        await safe_send_message(client, event.sender_id, msg)
+        await safe_send_message(
+            client,
+            event.sender_id,
+            text
+        )
 
-    logger.info("Handlers registered")
+    logger.info(
+        "Handlers Registered"
+    )
     # ==========================================================
+# BOT.PY (PART 3/3)
+# Main Lifecycle + Auto Sender + Graceful Shutdown
+# ==========================================================
+
+# ==========================================================
 # RUN SENDER PIPELINE
 # ==========================================================
 
@@ -514,30 +1080,44 @@ async def run_sender_pipeline(
     client: TelegramClient,
     user_manager: UserManager
 ):
+    """
+    اجرای pipeline ارسال فایل‌ها
+    """
 
-    logger.info("🚀 Starting Sender Pipeline")
+    logger.info(
+        "Starting Sender Pipeline"
+    )
 
-    users = await user_manager.load_users()
+    users = await (
+        user_manager
+        .load_users()
+    )
 
     if not users:
-        logger.warning("No users found")
+
+        logger.warning(
+            "No users found"
+        )
         return
 
-    # ✅ DELTA SYSTEM ACTIVE
-    files = get_changed_files(get_output_files())
+    files = (
+    get_changed_files(
+        get_output_files()
+                    )
+             )
 
-    # ❗ FIX: این بخش قبلاً indentation خراب داشت
     if not files:
 
-        logger.info("ℹ️ no changed files")
+    logger.info(
+        "ℹ️ no changed files"
+    )
 
-        return
+    await client.disconnect()
+    return
 
-    logger.info(f"Users={len(users)} | Files={len(files)}")
-
-    success = 0
-    failed = 0
-    removed = 0
+    success_count = 0
+    failed_count = 0
+    removed_count = 0
 
     try:
 
@@ -548,35 +1128,55 @@ async def run_sender_pipeline(
             user_manager=user_manager
         )
 
-        for r in results:
+        for result in results:
 
-            if r == "success":
-                success += 1
+            if result == "success":
 
-            elif r == "removed":
-                removed += 1
+                success_count += 1
+
+            elif result == "removed":
+
+                removed_count += 1
 
             else:
-                failed += 1
+
+                failed_count += 1
 
     except Exception as e:
-        logger.exception(f"Pipeline error: {e}")
 
-    # ======================================================
+        logger.exception(
+            f"Pipeline Error: {e}"
+        )
+
+    # ======================================
     # SAVE ANALYTICS
-    # ======================================================
+    # ======================================
 
     AnalyticsManager().save(
-        success=success,
-        failed=failed,
-        removed=removed
+        success=success_count,
+        failed=failed_count,
+        removed=removed_count
     )
 
-    logger.info("━━━━━━━━━━━━━━━━━━")
-    logger.info(f"Success={success}")
-    logger.info(f"Failed={failed}")
-    logger.info(f"Removed={removed}")
-    logger.info("━━━━━━━━━━━━━━━━━━")
+    logger.info(
+        "===================="
+    )
+
+    logger.info(
+        f"Success={success_count}"
+    )
+
+    logger.info(
+        f"Failed={failed_count}"
+    )
+
+    logger.info(
+        f"Removed={removed_count}"
+    )
+
+    logger.info(
+        "===================="
+    )
 
 
 # ==========================================================
@@ -584,8 +1184,13 @@ async def run_sender_pipeline(
 # ==========================================================
 
 async def create_client():
+    """
+    ساخت Telegram Client
+    """
 
-    logger.info("Connecting Telegram...")
+    logger.info(
+        "Connecting Telegram..."
+    )
 
     client = TelegramClient(
         "bot_session",
@@ -593,20 +1198,46 @@ async def create_client():
         API_HASH
     )
 
-    await client.start(bot_token=BOT_TOKEN)
+    try:
 
-    logger.info("Telegram Connected")
+        await client.start(
+            bot_token=BOT_TOKEN
+        )
 
-    return client
+        logger.info(
+            "Telegram Connected"
+        )
+
+        return client
+
+    except Exception as e:
+
+        logger.exception(
+            f"Client Error: {e}"
+        )
+
+        try:
+
+            await client.disconnect()
+
+        except Exception:
+            pass
+
+        raise
 
 
 # ==========================================================
-# MAIN LOOP (FIXED - PRODUCTION SAFE)
+# MAIN
 # ==========================================================
 
 async def main():
+    """
+    Main Application
+    """
 
-    logger.info("🚀 Bot Starting...")
+    logger.info(
+        "🚀 Bot Starting..."
+    )
 
     start_time = time.time()
 
@@ -614,54 +1245,106 @@ async def main():
 
     try:
 
-        # INIT MANAGER
-        user_manager = UserManager()
+        # ==================================
+        # INIT MANAGERS
+        # ==================================
 
-        # CONNECT
-        client = await create_client()
+        user_manager = (
+            UserManager()
+        )
 
-        # REGISTER HANDLERS
-        await register_handlers(client, user_manager)
+        # ==================================
+        # CONNECT CLIENT
+        # ==================================
 
-        logger.info("Handlers Ready")
+        client = await (
+            create_client()
+        )
 
-        # SMALL DELAY FOR TELEGRAM STABILITY
+        # ==================================
+        # REGISTER COMMANDS
+        # ==================================
+
+        await register_handlers(
+            client,
+            user_manager
+        )
+
+        logger.info(
+            "Commands Registered"
+        )
+
+        # ==================================
+        # WAIT FOR TELEGRAM READY
+        # ==================================
+
         await asyncio.sleep(2)
 
-        # ==================================================
-        # RUN PIPELINE ON START
-        # ==================================================
+        # ==================================
+        # AUTO SEND FILES
+        # ==================================
 
-        await run_sender_pipeline(client, user_manager)
+        await run_sender_pipeline(
+            client,
+            user_manager
+        )
 
-        # ==================================================
-        # KEEP BOT ALIVE (IMPORTANT FIX)
-        # ==================================================
-        logger.info("Bot is now online...")
+        # ==================================
+        # KEEP BOT ONLINE
+        # برای دریافت commandها
+        # ==================================
 
-        # ❗ FIX: قبلاً فقط sleep بود → باعث خاموشی ربات می‌شد
-        await client.run_until_disconnected()
+        logger.info(
+            "Bot Online..."
+        )
+
+        await asyncio.sleep(25)
+
+        elapsed = round(
+            time.time()
+            - start_time,
+            2
+        )
+
+        logger.info(
+            f"Finished in "
+            f"{elapsed}s"
+        )
 
     except KeyboardInterrupt:
-        logger.warning("Interrupted by user")
+
+        logger.warning(
+            "Interrupted"
+        )
 
     except Exception as e:
-        logger.exception(f"Fatal error: {e}")
+
+        logger.exception(
+            f"Fatal Error: {e}"
+        )
 
     finally:
 
-        logger.info("Graceful shutdown...")
+        logger.info(
+            "Graceful Shutdown..."
+        )
 
         try:
+
             if client:
+
                 await client.disconnect()
+
         except Exception as e:
-            logger.warning(f"Disconnect error: {e}")
 
-        elapsed = round(time.time() - start_time, 2)
+            logger.warning(
+                f"Disconnect Error: "
+                f"{e}"
+            )
 
-        logger.info(f"Exit after {elapsed}s")
-        logger.info("🏁 Bot stopped")
+        logger.info(
+            "🏁 Exit"
+        )
 
 
 # ==========================================================
@@ -671,13 +1354,31 @@ async def main():
 if __name__ == "__main__":
 
     try:
-        asyncio.run(main())
+
+        asyncio.run(
+            main()
+        )
 
     except KeyboardInterrupt:
-        logger.warning("Stopped manually")
+
+        logger.warning(
+            "Stopped Manually"
+        )
+
+    except RuntimeError as e:
+
+        logger.exception(
+            f"Runtime Error: {e}"
+        )
 
     except Exception as e:
-        logger.exception(f"Crash: {e}")
+
+        logger.exception(
+            f"Crash: {e}"
+        )
 
     finally:
-        logger.info("Cleanup done")
+
+        logger.info(
+            "Cleanup Done"
+        )

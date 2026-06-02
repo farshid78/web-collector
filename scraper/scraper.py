@@ -212,9 +212,6 @@ IMPORTANT_COUNTRIES = {
 # ساخت فایل مستقل
 MIN_COUNTRY_CONFIGS = 50
 
-# merge داخل others
-MIN_COUNTRY_KEEP = 20
-
 PROJECT_SUBSCRIPTION_URL = (
     "https://raw."
     "githubusercontent.com/"
@@ -1294,145 +1291,83 @@ async def scrape_channels(
 # ==========================================================
 # SAVE COUNTRY FILES
 # ==========================================================
-def save_country_files(
-    country_map
-):
+def save_country_files(country_map):
+
     """
-    Professional country filtering
-
-    >=50
-        file مستقل
-
-    20-49
-        merge into others
-
-    <20
-        ignore
+    فایل کشورهایی که کمتر از threshold هستند
+    ساخته نمی‌شوند و داخل others می‌روند.
     """
 
     others = []
 
-    for cc, cfgs in (
-        country_map.items()
-    ):
+    for cc, cfgs in country_map.items():
 
         try:
 
-            cfgs = (
-                dedupe_preserve_order(
-                    cfgs
-                )
-            )
+            cfgs = dedupe_preserve_order(cfgs)
 
-            config_count = len(
-                cfgs
-            )
+            total_configs = len(cfgs)
 
-            logger.info(
-                f"🌍 {cc}="
-                f"{config_count}"
-            )
+            # --------------------------------
+            # کشورهای مهم
+            # --------------------------------
+            if cc in IMPORTANT_COUNTRIES:
 
-            # =====================================
-            # کشور مهم + تعداد کافی
-            # =====================================
+                # اگر کمتر از حد مجاز بود
+                if total_configs < MIN_COUNTRY_CONFIGS:
 
-            if (
-                cc
-                in IMPORTANT_COUNTRIES
-                and
-                config_count
-                >=
-                MIN_COUNTRY_CONFIGS
-            ):
+                    logger.info(
+                        f"⏭️ skip {cc} "
+                        f"({total_configs} < "
+                        f"{MIN_COUNTRY_CONFIGS})"
+                    )
+
+                    others.extend(cfgs)
+                    continue
 
                 file_path = (
-                    OUTPUT_DIR
-                    /
+                    OUTPUT_DIR /
                     f"configs_{cc}.txt"
                 )
 
                 atomic_write(
-                    str(
-                        file_path
-                    ),
-                    "\n".join(
-                        cfgs
-                    )
+                    str(file_path),
+                    "\n".join(cfgs)
                 )
 
                 logger.info(
-                    f"✅ saved "
-                    f"{cc} "
-                    f"({config_count})"
+                    f"💾 {cc}="
+                    f"{total_configs}"
                 )
-
-            # =====================================
-            # merge into others
-            # =====================================
-
-            elif (
-                config_count
-                >=
-                MIN_COUNTRY_KEEP
-            ):
-
-                others.extend(
-                    cfgs
-                )
-
-                logger.info(
-                    f"📦 merged "
-                    f"{cc} "
-                    f"into others "
-                    f"({config_count})"
-                )
-
-            # =====================================
-            # ignore
-            # =====================================
 
             else:
-
-                logger.info(
-                    f"🚫 skipped "
-                    f"{cc} "
-                    f"({config_count})"
-                )
+                others.extend(cfgs)
 
         except Exception as e:
 
             logger.warning(
-                f"country save "
-                f"fail {cc}: "
-                f"{e}"
+                f"save fail "
+                f"{cc}: {e}"
             )
 
-    # =====================================
-    # SAVE OTHERS
-    # =====================================
+    # --------------------------------
+    # others
+    # --------------------------------
 
-    others = (
-        dedupe_preserve_order(
-            others
-        )
-    )
+    others = dedupe_preserve_order(others)
 
     if others:
 
         atomic_write(
             str(
-                OUTPUT_DIR
-                /
+                OUTPUT_DIR /
                 "configs_others.txt"
             ),
-            "\n".join(
-                others
-            )
+            "\n".join(others)
         )
 
         logger.info(
-            f"📦 others="
+            f"💾 others="
             f"{len(others)}"
         )
 
