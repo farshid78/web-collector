@@ -1,6 +1,8 @@
+vless://20afe519-9ef3-4c70-a2cf-5336b1125090@195.133.2.45:26048?Telegram=@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad&type=tcp&encryption=none&security=none#%40filembad
+vless://20afe519-9ef3-4c70-a2cf-5336b1125090@195.133.2.45:26048?type=tcp&encryption=none&security=none#%40filembad
+vless://20afe519-9ef3-4c70-a2cf-5336b1125090@195.133.2.45:26048?type=tcp&encryption=none&security=none#[🇫🇮]t.me/ConfigsHub
 vless://a845ce7c-ea10-47b0-8de4-92810260eeab@fi.corsair-web.space:8443?security=reality&encryption=none&pbk=TNsQJHoX2M2u07a6oEPb3tY9U08Aph4Qvdk76dAZdio&headerType=none&fp=random&type=tcp&flow=xtls-rprx-vision&sni=mozilla.org&sid=82ed5803a8047a3e#%40filembad
 vless://a845ce7c-ea10-47b0-8de4-92810260eeab@fi.corsair-web.space:8443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=mozilla.org&fp=random&pbk=TNsQJHoX2M2u07a6oEPb3tY9U08Aph4Qvdk76dAZdio&sid=82ed5803a8047a3e&type=tcp&headerType=none#🇫🇮FI-🚀@VPNine1
-vless://a845ce7c-ea10-47b0-8de4-92810260eeab@fi.corsair-web.space:8443?security=reality&encryption=none&pbk=TNsQJHoX2M2u07a6oEPb3tY9U08Aph4Qvdk76dAZdio&headerType=none&fp=random&type=tcp&flow=xtls-rprx-vision&sni=mozilla.org&sid=82ed5803a8047a3e#[🇫🇮]t.me/ConfigsHub
 vless://8619ddb9-1324-4b90-b80f-24074b3474fb@6de3c95bea330571.vertalist.ir:1310?security=none&encryption=none&host=play.google.com&headerType=http&type=tcp#%40filembad
 vless://8619ddb9-1324-4b90-b80f-24074b3474fb@6de3c95bea330571.vertalist.ir:1310?encryption=none&type=tcp&headerType=http&host=play.google.com#%40filembad
 vless://41b92d9f-6c8d-4ac3-8eeb-eb3fcf48e102@138.124.8.85:443?type=tcp&security=reality&sni=web.max.ru&fp=chrome&flow=xtls-rprx-vision&pbk=amq7QKz02gDCNYF4hrZxjVLkR0dSEjhUCAoA_kImrT0&sid=dca74860c39d60fe#🇨🇭CH-🚀@VPNine1
@@ -8,8 +10,6 @@ vless://95ecd28f-aa73-4e7a-91e0-aae8c6e85ba6@hel.ll2ll.xyz:443?encryption=none&f
 vless://0eca1f22-e5a1-4888-a0fa-c2345e87cf2f@bc-de-wc.ray-balance.space:4443?mode=gun&security=none&encryption=none&authority=&type=grpc&serviceName=#🇫🇮FI-🚀@VPNine1
 vless://ec9a9c43-0d86-420c-a5e5-9f20a6a83ba6@78.17.3.113:443?type=tcp&headerType=none&security=reality&encryption=none&sni=ozon.ru&fp=chrome&pbk=zOi7yEDq1jccA285Ax-V8Fu8JxOmTXqCsDY034OoUUU&sid=15d10c9b72c2f0a7&spx=%2F5CE01VwCkz6tJIT#🇫🇮FI-🚀@VPNine1
 vless://f5a25ee5-ff24-41b0-80e8-ccafdc866614@193.233.23.121:40611?security=&encryption=none&headerType=none&type=tcp#🇫🇮FI-🚀@VPNine1
-vless://20afe519-9ef3-4c70-a2cf-5336b1125090@195.133.2.45:26048?type=tcp&encryption=none&security=none#[🇫🇮]t.me/ConfigsHub
-vless://20afe519-9ef3-4c70-a2cf-5336b1125090@195.133.2.45:26048?Telegram=@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad&type=tcp&encryption=none&security=none#[🇫🇮]t.me/ConfigsHub
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToyTndzdmJrQnRzNWUyUUN6WVo3ZXR5MzlFR1hld1dGNktxUThYbmZqM0g5bmppTEgxZ3Z1TVFGamN1OXh3dUZhREVFNnlTTEo2aDFrdHpLaUVhdGlUNnVGV1E2R2lyMko@185.5.38.111:55988#@DeltaKroneckerGithub
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToyQ1lUYmJBeEpNV2R6TXhlUHBDTURqa3ViMTNDRHhVMkJxYUp6YjFadDNIQllHV3NmS3dOZ1FLaHpFYTd1QUp1dDc0Qmo0Zmhpd0o2Q0tGQnU0TWlRNDNRRWU5eEQydTc=@185.5.38.111:55988?#@DeltaKroneckerGithub
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozWlIyQndLcnlHQ2R2UFVMMzVoMVliU3pBcDNmZ3d1blJMSDVZQWlBc01IUVk4V1htZnNUQjJrVHNWMkw3M3ZGSm44S01oR1UyN3o2UkF3YWJma25jcmRnYzF5eFBGb0M=@185.5.38.111:55988#@DeltaKroneckerGithub
