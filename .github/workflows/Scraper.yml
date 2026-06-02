@@ -3,8 +3,8 @@ name: Scraper
 on:
   workflow_dispatch:
 
-  # اجرای خودکار هر 10 دقیقه
   schedule:
+    # هر 10 دقیقه
     - cron: "*/10 * * * *"
 
 permissions:
@@ -34,8 +34,8 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          persist-credentials: true
           fetch-depth: 0
+          persist-credentials: true
 
       # ==================================================
       # INFO
@@ -83,20 +83,9 @@ jobs:
 
           echo "🔍 validating secrets"
 
-          if [ -z "$API_ID" ]; then
-            echo "❌ API_ID missing"
-            exit 1
-          fi
-
-          if [ -z "$API_HASH" ]; then
-            echo "❌ API_HASH missing"
-            exit 1
-          fi
-
-          if [ -z "$SESSION_STRING" ]; then
-            echo "❌ SESSION_STRING missing"
-            exit 1
-          fi
+          [ -z "$API_ID" ] && echo "❌ API_ID missing" && exit 1
+          [ -z "$API_HASH" ] && echo "❌ API_HASH missing" && exit 1
+          [ -z "$SESSION_STRING" ] && echo "❌ SESSION_STRING missing" && exit 1
 
           echo "✅ secrets valid"
 
@@ -105,11 +94,7 @@ jobs:
       # ==================================================
       - name: Prepare folders
         run: |
-          mkdir -p output
-          mkdir -p state
-          mkdir -p scraper
-          mkdir -p logs
-
+          mkdir -p output state scraper logs
           echo "📁 folders prepared"
 
       # ==================================================
@@ -120,18 +105,15 @@ jobs:
 
           echo "Checking project files..."
 
-          if [ ! -f "scraper/scraper.py" ]; then
+          test -f scraper/scraper.py || (
             echo "❌ scraper.py missing"
             exit 1
-          fi
+          )
 
-          if [ ! -f "scraper/channels.json" ]; then
+          test -f scraper/channels.json || (
             echo "❌ channels.json missing"
             exit 1
-          fi
-
-          echo "Channels:"
-          cat scraper/channels.json || true
+          )
 
           echo "✅ verification complete"
 
@@ -153,10 +135,7 @@ jobs:
 
           for i in 1 2 3
           do
-
-            echo ""
             echo "SCRAPER ATTEMPT: $i"
-            echo ""
 
             if timeout 25m python scraper/scraper.py
             then
@@ -167,8 +146,10 @@ jobs:
 
             echo "⚠️ scraper crashed"
 
-            sleep 20
+            BACKOFF=$((i * 20))
+            echo "sleep ${BACKOFF}s"
 
+            sleep $BACKOFF
           done
 
           if [ "$SUCCESS" -ne 1 ]
@@ -182,11 +163,9 @@ jobs:
       # ==================================================
       - name: Show output files
         run: |
-
           echo "================================="
           echo "📁 OUTPUT FILES"
           echo "================================="
-
           ls -lah output || true
 
       # ==================================================
@@ -198,50 +177,41 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add \
-            output/ \
-            state/ \
-            scraper/channels.json \
-            || true
+          git add output/ state/ scraper/channels.json || true
 
           if git diff --cached --quiet
           then
             echo "ℹ️ no changes"
+            exit 0
+          fi
 
-          else
+          git commit -m \
+          "🕷️ scraper update $(date -u +'%Y-%m-%d %H:%M:%S UTC')" \
+          || true
 
-            git commit -m \
-            "🕷️ scraper update $(date -u +'%Y-%m-%d %H:%M:%S UTC')" \
-            || true
+          PUSH_SUCCESS=0
 
-            PUSH_SUCCESS=0
+          for i in 1 2 3
+          do
+            echo "push attempt $i"
 
-            for i in 1 2 3
-            do
+            git pull --rebase origin main || true
 
-              echo "push attempt $i"
-
-              git pull \
-                --rebase \
-                origin main \
-                || true
-
-              if git push
-              then
-                PUSH_SUCCESS=1
-                echo "✅ push success"
-                break
-              fi
-
-              sleep 10
-
-            done
-
-            if [ "$PUSH_SUCCESS" -ne 1 ]
+            if git push
             then
-              echo "❌ push failed"
-              exit 1
+              PUSH_SUCCESS=1
+              echo "✅ push success"
+              break
             fi
+
+            BACKOFF=$((i * 15))
+            sleep $BACKOFF
+          done
+
+          if [ "$PUSH_SUCCESS" -ne 1 ]
+          then
+            echo "❌ push failed"
+            exit 1
           fi
 
       # ==================================================
@@ -253,5 +223,4 @@ jobs:
           echo "================================="
           echo "🏁 SCRAPER FINISHED"
           echo "UTC: $(date -u)"
-          echo "STATUS: DONE"
           echo "================================="

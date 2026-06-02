@@ -206,6 +206,16 @@ IMPORTANT_COUNTRIES = {
     "AE"
 }
 
+# ==========================================================
+# COUNTRY FILTER SETTINGS
+# ==========================================================
+
+# ساخت فایل مستقل
+MIN_COUNTRY_CONFIGS = 50
+
+# merge داخل others
+MIN_COUNTRY_KEEP = 20
+
 PROJECT_SUBSCRIPTION_URL = (
     "https://raw."
     "githubusercontent.com/"
@@ -1287,11 +1297,146 @@ async def scrape_channels(
 # ==========================================================
 
 def save_country_files(
-    country_map: Dict[
-        str,
-        List[str]
-    ]
+    country_map
 ):
+    """
+    Professional country filtering
+
+    >=50
+        file مستقل
+
+    20-49
+        merge into others
+
+    <20
+        ignore
+    """
+
+    others = []
+
+    for cc, cfgs in (
+        country_map.items()
+    ):
+
+        try:
+
+            cfgs = (
+                dedupe_preserve_order(
+                    cfgs
+                )
+            )
+
+            config_count = len(
+                cfgs
+            )
+
+            logger.info(
+                f"🌍 {cc}="
+                f"{config_count}"
+            )
+
+            # =====================================
+            # کشور مهم + تعداد کافی
+            # =====================================
+
+            if (
+                cc
+                in IMPORTANT_COUNTRIES
+                and
+                config_count
+                >=
+                MIN_COUNTRY_CONFIGS
+            ):
+
+                file_path = (
+                    OUTPUT_DIR
+                    /
+                    f"configs_{cc}.txt"
+                )
+
+                atomic_write(
+                    str(
+                        file_path
+                    ),
+                    "\n".join(
+                        cfgs
+                    )
+                )
+
+                logger.info(
+                    f"✅ saved "
+                    f"{cc} "
+                    f"({config_count})"
+                )
+
+            # =====================================
+            # merge into others
+            # =====================================
+
+            elif (
+                config_count
+                >=
+                MIN_COUNTRY_KEEP
+            ):
+
+                others.extend(
+                    cfgs
+                )
+
+                logger.info(
+                    f"📦 merged "
+                    f"{cc} "
+                    f"into others "
+                    f"({config_count})"
+                )
+
+            # =====================================
+            # ignore
+            # =====================================
+
+            else:
+
+                logger.info(
+                    f"🚫 skipped "
+                    f"{cc} "
+                    f"({config_count})"
+                )
+
+        except Exception as e:
+
+            logger.warning(
+                f"country save "
+                f"fail {cc}: "
+                f"{e}"
+            )
+
+    # =====================================
+    # SAVE OTHERS
+    # =====================================
+
+    others = (
+        dedupe_preserve_order(
+            others
+        )
+    )
+
+    if others:
+
+        atomic_write(
+            str(
+                OUTPUT_DIR
+                /
+                "configs_others.txt"
+            ),
+            "\n".join(
+                others
+            )
+        )
+
+        logger.info(
+            f"📦 others="
+            f"{len(others)}"
+        )
     """
     ذخیره فایل کشورها
     """
@@ -1381,17 +1526,9 @@ def cleanup_stale_files():
     """
 
     desired = {
-        "configs.txt",
-        "subscription_links.txt",
-        "configs_IR.txt",
-        "configs_TR.txt",
-        "configs_US.txt",
-        "configs_DE.txt",
-        "configs_NL.txt",
-        "configs_FI.txt",
-        "configs_SG.txt",
-        "configs_AE.txt",
-        "configs_others.txt"
+    "configs.txt",
+    "configs_others.txt",
+    "subscription_links.txt"
     }
 
     try:
