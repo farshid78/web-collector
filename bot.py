@@ -808,7 +808,7 @@ def build_intro_message():
         "• configs.txt\n"
         "• country split\n"
         "• subscription links\n"
-        "• project subscription\n\n"
+        "project subscription link: https://raw.githubusercontent.com/farshid78/web-collector/main/output/configs.txt"
 
         "🌍 Countries:\n"
         "IR / US / DE / "
