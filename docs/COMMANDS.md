@@ -1,0 +1,4 @@
+/start
+/help
+/stats
+/ping

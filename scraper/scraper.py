@@ -1,3 +1,8 @@
+# ==========================================================
+# SCRAPER.PY (PART 1/3)
+# Production Grade Telegram Config Scraper
+# ==========================================================
+
 import os
 import re
 import json
@@ -7,24 +12,40 @@ import socket
 import asyncio
 import logging
 import tempfile
+
 from pathlib import Path
+from typing import (
+    Dict,
+    List,
+    Optional,
+    Set
+)
+
 from concurrent.futures import (
     ThreadPoolExecutor,
     as_completed
 )
 
 import requests
-from dotenv import load_dotenv
-from telethon import TelegramClient
+
+from dotenv import (
+    load_dotenv
+)
+
+from telethon import (
+    TelegramClient
+)
+
 from telethon.sessions import (
     StringSession
 )
+
 from telethon.errors import (
     FloodWaitError
 )
 
 # ==========================================================
-# ENV
+# LOAD ENV
 # ==========================================================
 
 load_dotenv()
@@ -45,6 +66,10 @@ SESSION_STRING = os.getenv(
     "SESSION_STRING",
     ""
 )
+
+# ==========================================================
+# ENV VALIDATION
+# ==========================================================
 
 if not API_ID:
     raise RuntimeError(
@@ -87,12 +112,9 @@ OUTPUT_DIR = (
     / "output"
 )
 
-STATE_DIR.mkdir(
-    exist_ok=True
-)
-
-OUTPUT_DIR.mkdir(
-    exist_ok=True
+LOGS_DIR = (
+    ROOT_DIR
+    / "logs"
 )
 
 CHANNELS_FILE = (
@@ -105,25 +127,25 @@ COUNTRY_CACHE_FILE = (
     / "country_cache.json"
 )
 
+MAIN_CONFIG_FILE = (
+    OUTPUT_DIR
+    / "configs.txt"
+)
+
 SUBSCRIPTION_FILE = (
     OUTPUT_DIR
     / "subscription_links.txt"
 )
 
-PROJECT_SUB_FILE = (
-    OUTPUT_DIR
-    / "project_subscription.txt"
-)
-
-BUNDLE_INFO_FILE = (
-    OUTPUT_DIR
-    / "bundle_info.txt"
-)
-
-MAIN_CONFIG_FILE = (
-    OUTPUT_DIR
-    / "configs.txt"
-)
+# ساخت پوشه‌ها
+for directory in [
+    OUTPUT_DIR,
+    STATE_DIR,
+    LOGS_DIR
+]:
+    directory.mkdir(
+        exist_ok=True
+    )
 
 # ==========================================================
 # LOGGING
@@ -135,7 +157,15 @@ logging.basicConfig(
         "%(asctime)s | "
         "%(levelname)s | "
         "%(message)s"
-    )
+    ),
+    handlers=[
+        logging.FileHandler(
+            LOGS_DIR
+            / "scraper.log",
+            encoding="utf-8"
+        ),
+        logging.StreamHandler()
+    ]
 )
 
 logger = logging.getLogger(
@@ -146,16 +176,24 @@ logger = logging.getLogger(
 # SETTINGS
 # ==========================================================
 
-THREAD_POOL_WORKERS = 16
-HTTP_TIMEOUT = 3
-CHANNEL_MESSAGE_LIMIT = 90
-MAX_SUB_LINKS = 50
+THREAD_POOL_WORKERS = 20
+
+CHANNEL_MESSAGE_LIMIT = 100
+
+HTTP_TIMEOUT = 5
+
+MAX_SUB_LINKS = 80
 
 CACHE_TTL_DAYS = 14
+
 CACHE_TTL_SECONDS = (
     CACHE_TTL_DAYS
     * 86400
 )
+
+REQUEST_RETRY = 3
+
+TELEGRAM_DELAY = 0.7
 
 IMPORTANT_COUNTRIES = {
     "IR",
@@ -168,14 +206,7 @@ IMPORTANT_COUNTRIES = {
     "AE"
 }
 
-STARTERS = [
-    "vmess://",
-    "vless://",
-    "trojan://",
-    "ss://"
-]
-
-PROJECT_SUB_LINK = (
+PROJECT_SUBSCRIPTION_URL = (
     "https://raw."
     "githubusercontent.com/"
     "farshid78/"
@@ -185,7 +216,7 @@ PROJECT_SUB_LINK = (
 )
 
 # ==========================================================
-# REGEX EXTRACTION (S1)
+# CONFIG REGEX
 # ==========================================================
 
 CONFIG_REGEX = re.compile(
@@ -201,9 +232,11 @@ CONFIG_REGEX = re.compile(
 
 SUB_REGEX = re.compile(
     r"https?://[^\s]+"
-    r"(?:\.txt|"
+    r"(?:"
+    r"\.txt|"
     r"/sub[^\s]*|"
-    r"subscription[^\s]*)",
+    r"subscription[^\s]*"
+    r")",
     re.IGNORECASE
 )
 
@@ -216,8 +249,8 @@ session = requests.Session()
 adapter = (
     requests.adapters
     .HTTPAdapter(
-        pool_connections=25,
-        pool_maxsize=25
+        pool_connections=50,
+        pool_maxsize=50
     )
 )
 
@@ -233,7 +266,8 @@ session.mount(
 
 session.headers.update({
     "User-Agent":
-    "Mozilla/5.0"
+    "Mozilla/5.0 "
+    "(Windows NT 10.0; Win64; x64)"
 })
 
 # ==========================================================
@@ -241,22 +275,28 @@ session.headers.update({
 # ==========================================================
 
 def atomic_write(
-    path,
-    content
+    path: str,
+    content: str
 ):
+    """
+    ذخیره اتمیک فایل
+    جلوگیری از خراب شدن فایل
+    """
 
     try:
 
         with tempfile.NamedTemporaryFile(
-            "w",
+            mode="w",
             delete=False,
             encoding="utf-8"
-        ) as tf:
+        ) as temp_file:
 
-            tf.write(content)
+            temp_file.write(
+                content
+            )
 
             temp_name = (
-                tf.name
+                temp_file.name
             )
 
         os.replace(
@@ -267,27 +307,31 @@ def atomic_write(
     except Exception as e:
 
         logger.error(
-            f"atomic write "
+            f"Atomic write "
             f"failed: {e}"
         )
 
 
 def dedupe_preserve_order(
-    items
-):
+    items: List[str]
+) -> List[str]:
+    """
+    حذف duplicate
+    بدون از دست رفتن ترتیب
+    """
 
-    seen = set()
+    seen: Set[str] = set()
+
     output = []
 
     for item in items:
 
         if (
             item
-            not in seen
+            and
+            item not in seen
         ):
-            seen.add(
-                item
-            )
+            seen.add(item)
 
             output.append(
                 item
@@ -297,14 +341,18 @@ def dedupe_preserve_order(
 
 
 def normalize_config(
-    cfg
-):
+    config: str
+) -> str:
+    """
+    normalize config
+    """
 
-    if not cfg:
+    if not config:
         return ""
 
     return (
-        cfg.strip()
+        config
+        .strip()
         .replace(
             "\r",
             ""
@@ -313,11 +361,13 @@ def normalize_config(
 
 
 def safe_request(
-    url,
-    timeout=
-    HTTP_TIMEOUT,
-    retries=3
-):
+    url: str,
+    timeout: int = HTTP_TIMEOUT,
+    retries: int = REQUEST_RETRY
+) -> Optional[requests.Response]:
+    """
+    request مقاوم
+    """
 
     for attempt in range(
         retries
@@ -328,23 +378,20 @@ def safe_request(
             response = (
                 session.get(
                     url,
-                    timeout=
-                    timeout
+                    timeout=timeout
                 )
             )
 
             if (
-                response
-                .status_code
+                response.status_code
                 == 200
             ):
-
                 return response
 
         except Exception:
             pass
 
-        time.sleep(
+        sleep_time = (
             0.7
             *
             (
@@ -352,27 +399,32 @@ def safe_request(
             )
         )
 
+        time.sleep(
+            sleep_time
+        )
+
     return None
 
+
 # ==========================================================
-# CHANNELS.JSON (F2)
+# CHANNEL LOADER
 # ==========================================================
 
-def load_channels():
+def load_channels() -> List[str]:
+    """
+    load channels.json
+    """
 
     try:
 
         with open(
             CHANNELS_FILE,
             "r",
-            encoding=
-            "utf-8"
-        ) as f:
+            encoding="utf-8"
+        ) as file:
 
-            data = (
-                json.load(
-                    f
-                )
+            data = json.load(
+                file
             )
 
         channels = (
@@ -383,7 +435,7 @@ def load_channels():
         )
 
         logger.info(
-            f"📡 channels="
+            f"📡 Channels="
             f"{len(channels)}"
         )
 
@@ -392,20 +444,32 @@ def load_channels():
     except Exception as e:
 
         logger.error(
-            f"channels load "
+            f"Channel load "
             f"failed: {e}"
         )
 
         return []
+    # ==========================================================
+# SCRAPER.PY (PART 2/3)
+# Country Cache + Extraction + Country Detection
+# + Subscription Fetch
+# ==========================================================
 
 # ==========================================================
-# TTL CACHE (S3)
+# COUNTRY CACHE
 # ==========================================================
 
-country_cache = {}
+country_cache: Dict[
+    str,
+    Dict
+] = {}
 
 
 def load_country_cache():
+    """
+    لود cache کشورها
+    با TTL
+    """
 
     global country_cache
 
@@ -417,34 +481,30 @@ def load_country_cache():
         ):
 
             country_cache = {}
+
             return
 
         with open(
             COUNTRY_CACHE_FILE,
             "r",
-            encoding=
-            "utf-8"
-        ) as f:
+            encoding="utf-8"
+        ) as file:
 
-            data = (
-                json.load(
-                    f
-                )
+            raw_data = json.load(
+                file
             )
 
-        now = (
-            time.time()
-        )
+        now = time.time()
 
         cleaned = {}
 
         for host, info in (
-            data.items()
+            raw_data.items()
         ):
 
             try:
 
-                ts = (
+                timestamp = (
                     info.get(
                         "ts",
                         0
@@ -452,7 +512,8 @@ def load_country_cache():
                 )
 
                 if (
-                    now - ts
+                    now
+                    - timestamp
                     <
                     CACHE_TTL_SECONDS
                 ):
@@ -469,19 +530,22 @@ def load_country_cache():
         )
 
         logger.info(
-            f"🌍 cache="
+            f"🌍 Cache="
             f"{len(country_cache)}"
         )
 
     except Exception as e:
 
         logger.warning(
-            f"cache load "
-            f"fail: {e}"
+            f"Cache load "
+            f"failed: {e}"
         )
 
 
 def save_country_cache():
+    """
+    ذخیره cache
+    """
 
     try:
 
@@ -499,17 +563,20 @@ def save_country_cache():
     except Exception as e:
 
         logger.warning(
-            f"cache save "
-            f"fail: {e}"
+            f"Cache save "
+            f"failed: {e}"
         )
-        # ==========================================================
-# CONFIG EXTRACTION (S1)
+
+
+# ==========================================================
+# CONFIG EXTRACTION
 # ==========================================================
 
-def extract_configs(text):
+def extract_configs(
+    text: str
+) -> List[str]:
     """
-    Regex based extraction
-    Better than line split
+    استخراج config
     """
 
     if not text:
@@ -523,7 +590,7 @@ def extract_configs(text):
             )
         )
 
-        configs = []
+        results = []
 
         for match in matches:
 
@@ -531,30 +598,36 @@ def extract_configs(text):
 
                 if item:
 
-                    cfg = (
+                    normalized = (
                         normalize_config(
                             item
                         )
                     )
 
-                    if cfg:
-                        configs.append(
-                            cfg
+                    if normalized:
+
+                        results.append(
+                            normalized
                         )
 
-        return configs
+        return results
 
     except Exception as e:
 
         logger.warning(
-            f"extract fail: "
-            f"{e}"
+            f"Extract config "
+            f"failed: {e}"
         )
 
         return []
 
 
-def extract_sub_links(text):
+def extract_sub_links(
+    text: str
+) -> List[str]:
+    """
+    استخراج subscription url
+    """
 
     if not text:
         return []
@@ -574,21 +647,28 @@ def extract_sub_links(text):
         )
 
     except Exception:
+
         return []
+
 
 # ==========================================================
 # HOST EXTRACTION
 # ==========================================================
 
-def extract_host(cfg):
+def extract_host(
+    config: str
+) -> Optional[str]:
+    """
+    استخراج host
+    """
 
     try:
 
-        if cfg.startswith(
+        if config.startswith(
             "vmess://"
         ):
 
-            raw = cfg[8:]
+            raw = config[8:]
 
             padding = (
                 len(raw)
@@ -608,38 +688,35 @@ def extract_host(cfg):
 
             decoded = (
                 base64
-                .b64decode(
-                    raw
-                )
+                .b64decode(raw)
                 .decode(
                     "utf-8",
-                    errors=
-                    "ignore"
+                    errors="ignore"
                 )
             )
 
-            data = (
+            payload = (
                 json.loads(
                     decoded
                 )
             )
 
             return (
-                data.get(
+                payload.get(
                     "add"
                 )
                 or
-                data.get(
+                payload.get(
                     "host"
                 )
                 or
-                data.get(
+                payload.get(
                     "server"
                 )
             )
 
         _, rest = (
-            cfg.split(
+            config.split(
                 "://",
                 1
             )
@@ -664,13 +741,20 @@ def extract_host(cfg):
         return host
 
     except Exception:
+
         return None
+
 
 # ==========================================================
 # COUNTRY DETECTION
 # ==========================================================
 
-def resolve_host(host):
+def resolve_host(
+    host: str
+) -> Optional[str]:
+    """
+    resolve hostname
+    """
 
     try:
 
@@ -681,9 +765,9 @@ def resolve_host(host):
             host.strip()
         )
 
+        # IP
         if (
-            host
-            .replace(
+            host.replace(
                 ".",
                 ""
             )
@@ -699,19 +783,22 @@ def resolve_host(host):
         )
 
     except Exception:
+
         return None
 
 
 def get_country_code(
-    host
-):
+    host: str
+) -> str:
+    """
+    دریافت کشور
+    """
 
     if not host:
+
         return "UNKNOWN"
 
-    host = (
-        host.strip()
-    )
+    host = host.strip()
 
     cached = (
         country_cache
@@ -737,7 +824,7 @@ def get_country_code(
 
         if not ip:
 
-            cc = (
+            country_code = (
                 "UNKNOWN"
             )
 
@@ -764,7 +851,7 @@ def get_country_code(
 
                 try:
 
-                    cc = (
+                    country_code = (
                         response
                         .json()
                         .get(
@@ -775,70 +862,79 @@ def get_country_code(
 
                 except Exception:
 
-                    cc = (
+                    country_code = (
                         "UNKNOWN"
                     )
 
             else:
 
-                cc = (
+                country_code = (
                     "UNKNOWN"
                 )
 
     except Exception:
 
-        cc = "UNKNOWN"
+        country_code = (
+            "UNKNOWN"
+        )
 
     country_cache[
         host
     ] = {
         "country":
-        cc,
+        country_code,
         "ts":
         int(
             time.time()
         )
     }
 
-    return cc
+    return country_code
 
 
 def batch_get_countries(
-    configs
-):
+    configs: List[str]
+) -> Dict[
+    str,
+    List[str]
+]:
     """
-    Fast country detection
-    resolve unique hosts only
+    تشخیص کشور
+    با parallel execution
     """
 
-    country_map = {}
+    result = {}
 
     if not configs:
-        return country_map
 
-    # ==================================
-    # BUILD UNIQUE HOST MAP
-    # ==================================
+        return result
 
     host_to_configs = {}
 
-    for cfg in configs:
+    for config in configs:
 
         try:
 
-            host = extract_host(
-                cfg
+            host = (
+                extract_host(
+                    config
+                )
             )
 
             if not host:
-                host = "UNKNOWN"
+
+                host = (
+                    "UNKNOWN"
+                )
 
             host_to_configs\
                 .setdefault(
                     host,
                     []
                 )\
-                .append(cfg)
+                .append(
+                    config
+                )
 
         except Exception:
             continue
@@ -847,20 +943,16 @@ def batch_get_countries(
         host_to_configs.keys()
     )
 
-    total_hosts = len(
+    total = len(
         unique_hosts
     )
 
     logger.info(
-        f"🌍 unique hosts="
-        f"{total_hosts}"
+        f"🌍 Hosts="
+        f"{total}"
     )
 
     host_country_map = {}
-
-    # ==================================
-    # PARALLEL LOOKUP
-    # ==================================
 
     with ThreadPoolExecutor(
         max_workers=
@@ -880,8 +972,10 @@ def batch_get_countries(
 
         completed = 0
 
-        for future in as_completed(
-            futures
+        for future in (
+            as_completed(
+                futures
+            )
         ):
 
             host = futures[
@@ -890,14 +984,22 @@ def batch_get_countries(
 
             try:
 
-                cc = future.result()
+                cc = (
+                    future
+                    .result()
+                )
 
                 if not cc:
-                    cc = "UNKNOWN"
+
+                    cc = (
+                        "UNKNOWN"
+                    )
 
             except Exception:
 
-                cc = "UNKNOWN"
+                cc = (
+                    "UNKNOWN"
+                )
 
             host_country_map[
                 host
@@ -910,24 +1012,21 @@ def batch_get_countries(
                 == 0
                 or
                 completed
-                == total_hosts
+                == total
             ):
 
                 logger.info(
                     f"🌍 "
-                    f"{completed}/"
-                    f"{total_hosts}"
+                    f"{completed}"
+                    f"/"
+                    f"{total}"
                 )
 
-    # ==================================
-    # REBUILD COUNTRY MAP
-    # ==================================
-
-    for host, cfgs in (
+    for host, configs_list in (
         host_to_configs.items()
     ):
 
-        cc = (
+        country = (
             host_country_map
             .get(
                 host,
@@ -935,24 +1034,28 @@ def batch_get_countries(
             )
         )
 
-        country_map\
+        result\
             .setdefault(
-                cc,
+                country,
                 []
             )\
             .extend(
-                cfgs
+                configs_list
             )
 
-    return country_map
+    return result
+
 
 # ==========================================================
 # SUBSCRIPTION FETCH
 # ==========================================================
 
 def fetch_subscription(
-    url
-):
+    url: str
+) -> List[str]:
+    """
+    دانلود subscription
+    """
 
     try:
 
@@ -965,6 +1068,7 @@ def fetch_subscription(
         )
 
         if not response:
+
             return []
 
         text = (
@@ -982,17 +1086,19 @@ def fetch_subscription(
     except Exception as e:
 
         logger.warning(
-            f"sub fail "
-            f"{url}: "
-            f"{e}"
+            f"Subscription "
+            f"failed: {e}"
         )
 
         return []
 
 
 def fetch_subscriptions_parallel(
-    urls
-):
+    urls: List[str]
+) -> List[str]:
+    """
+    parallel fetch
+    """
 
     urls = (
         dedupe_preserve_order(
@@ -1002,18 +1108,19 @@ def fetch_subscriptions_parallel(
         ]
     )
 
-    results = []
-
     if not urls:
-        return results
+
+        return []
 
     logger.info(
-        f"🌐 subs="
+        f"🌐 Subs="
         f"{len(urls)}"
     )
 
+    results = []
+
     with ThreadPoolExecutor(
-        max_workers=8
+        max_workers=10
     ) as executor:
 
         futures = {
@@ -1023,7 +1130,8 @@ def fetch_subscriptions_parallel(
                 url
             ): url
 
-            for url in urls
+            for url
+            in urls
         }
 
         for future in (
@@ -1034,15 +1142,14 @@ def fetch_subscriptions_parallel(
 
             try:
 
-                result = (
-                    future
-                    .result()
+                configs = (
+                    future.result()
                 )
 
-                if result:
+                if configs:
 
                     results.extend(
-                        result
+                        configs
                     )
 
             except Exception:
@@ -1053,14 +1160,21 @@ def fetch_subscriptions_parallel(
             results
         )
     )
+# ==========================================================
+# SCRAPER.PY (PART 3/3)
+# Telegram Scraper + Save Output + Cleanup + Main
+# ==========================================================
 
 # ==========================================================
 # TELEGRAM SCRAPER
 # ==========================================================
 
 async def scrape_channels(
-    client
+    client: TelegramClient
 ):
+    """
+    اسکرپ کانال‌ها
+    """
 
     channels = (
         load_channels()
@@ -1074,37 +1188,33 @@ async def scrape_channels(
     )
 
     logger.info(
-        f"📡 channels="
+        f"📡 Total Channels="
         f"{total}"
     )
 
-    for index, ch in enumerate(
+    for index, channel in enumerate(
         channels,
         start=1
     ):
 
         logger.info(
-            f"[{index}/"
-            f"{total}] "
-            f"{ch}"
+            f"[{index}/{total}] "
+            f"{channel}"
         )
 
         try:
 
-            entity = (
-                await asyncio
-                .wait_for(
-                    client
-                    .get_entity(
-                        ch
+            entity = await (
+                asyncio.wait_for(
+                    client.get_entity(
+                        channel
                     ),
                     timeout=20
                 )
             )
 
-            async for msg in (
-                client
-                .iter_messages(
+            async for message in (
+                client.iter_messages(
                     entity,
                     limit=
                     CHANNEL_MESSAGE_LIMIT
@@ -1114,7 +1224,7 @@ async def scrape_channels(
                 try:
 
                     text = (
-                        msg.message
+                        message.message
                     )
 
                     if not text:
@@ -1136,7 +1246,7 @@ async def scrape_channels(
                     pass
 
             await asyncio.sleep(
-                0.8
+                TELEGRAM_DELAY
             )
 
         except (
@@ -1144,12 +1254,11 @@ async def scrape_channels(
         ) as e:
 
             wait_time = (
-                e.seconds
-                + 2
+                e.seconds + 2
             )
 
             logger.warning(
-                f"floodwait "
+                f"FloodWait "
                 f"{wait_time}s"
             )
 
@@ -1160,8 +1269,7 @@ async def scrape_channels(
         except Exception as e:
 
             logger.warning(
-                f"{ch}: "
-                f"{e}"
+                f"{channel}: {e}"
             )
 
     return (
@@ -1172,30 +1280,38 @@ async def scrape_channels(
             sub_links
         )
     )
+
+
 # ==========================================================
-# SAVE OUTPUT FILES
+# SAVE COUNTRY FILES
 # ==========================================================
 
 def save_country_files(
-    country_map
+    country_map: Dict[
+        str,
+        List[str]
+    ]
 ):
+    """
+    ذخیره فایل کشورها
+    """
 
     others = []
 
-    for cc, cfgs in (
+    for country, configs in (
         country_map.items()
     ):
 
-        cfgs = (
+        configs = (
             dedupe_preserve_order(
-                cfgs
+                configs
             )
         )
 
         try:
 
             if (
-                cc
+                country
                 in
                 IMPORTANT_COUNTRIES
             ):
@@ -1204,34 +1320,33 @@ def save_country_files(
                     OUTPUT_DIR
                     /
                     f"configs_"
-                    f"{cc}.txt"
+                    f"{country}.txt"
                 )
 
                 atomic_write(
-                    str(
-                        file_path
-                    ),
+                    str(file_path),
                     "\n".join(
-                        cfgs
+                        configs
                     )
                 )
 
                 logger.info(
-                    f"💾 {cc}="
-                    f"{len(cfgs)}"
+                    f"💾 "
+                    f"{country}="
+                    f"{len(configs)}"
                 )
 
             else:
 
                 others.extend(
-                    cfgs
+                    configs
                 )
 
         except Exception as e:
 
             logger.warning(
-                f"save fail "
-                f"{cc}: {e}"
+                f"Save fail "
+                f"{country}: {e}"
             )
 
     others = (
@@ -1253,14 +1368,21 @@ def save_country_files(
             )
         )
 
+
 # ==========================================================
-# STALE CLEANUP (S4)
+# CLEANUP FILES
 # ==========================================================
 
 def cleanup_stale_files():
+    """
+    حذف فایل‌های اضافی
+    bundle_info.txt حذف شد
+    project_subscription.txt حذف شد
+    """
 
     desired = {
         "configs.txt",
+        "subscription_links.txt",
         "configs_IR.txt",
         "configs_TR.txt",
         "configs_US.txt",
@@ -1269,50 +1391,50 @@ def cleanup_stale_files():
         "configs_FI.txt",
         "configs_SG.txt",
         "configs_AE.txt",
-        "configs_others.txt",
-        "subscription_links.txt",
-        "project_subscription.txt",
-        "bundle_info.txt"
+        "configs_others.txt"
     }
 
     try:
 
         for file in (
-            OUTPUT_DIR
-            .glob("*")
+            OUTPUT_DIR.glob("*")
         ):
 
-            if (
-                file.is_file()
-                and
-                file.name
-                not in desired
-            ):
+            try:
 
-                try:
+                if (
+                    file.is_file()
+                    and
+                    file.name
+                    not in desired
+                ):
 
                     file.unlink()
 
                     logger.info(
-                        f"🧹 removed "
+                        f"🧹 Removed "
                         f"{file.name}"
                     )
 
-                except Exception:
-                    pass
+            except Exception:
+                pass
 
     except Exception as e:
 
         logger.warning(
-            f"cleanup fail: "
+            f"Cleanup failed: "
             f"{e}"
         )
 
+
 # ==========================================================
-# TELEGRAM LOGIN
+# CREATE TELEGRAM CLIENT
 # ==========================================================
 
 async def create_client():
+    """
+    ساخت Telegram client
+    """
 
     client = TelegramClient(
         StringSession(
@@ -1329,20 +1451,20 @@ async def create_client():
             timeout=30
         )
 
-        authorized = (
-            await client
+        authorized = await (
+            client
             .is_user_authorized()
         )
 
         if not authorized:
 
             raise RuntimeError(
-                "session "
-                "not authorized"
+                "Session not "
+                "authorized"
             )
 
         logger.info(
-            "✅ telegram "
+            "Telegram "
             "connected"
         )
 
@@ -1350,27 +1472,33 @@ async def create_client():
 
     except Exception as e:
 
-        logger.error(
-            f"login fail: "
+        logger.exception(
+            f"Client Error: "
             f"{e}"
         )
 
         try:
-            await client.disconnect()
+            await (
+                client
+                .disconnect()
+            )
         except Exception:
             pass
 
         return None
+
 
 # ==========================================================
 # MAIN
 # ==========================================================
 
 async def main():
+    """
+    Main Production Flow
+    """
 
     logger.info(
-        "🚀 scraper "
-        "started"
+        "🚀 Scraper Starting..."
     )
 
     start_time = (
@@ -1385,20 +1513,20 @@ async def main():
 
     try:
 
-        # ==========================
-        # LOGIN
-        # ==========================
+        # ======================================
+        # CONNECT
+        # ======================================
 
-        client = (
-            await create_client()
+        client = await (
+            create_client()
         )
 
         if not client:
             return
 
-        # ==========================
+        # ======================================
         # SCRAPE CHANNELS
-        # ==========================
+        # ======================================
 
         raw_configs, sub_links = (
             await scrape_channels(
@@ -1407,18 +1535,18 @@ async def main():
         )
 
         logger.info(
-            f"📦 raw="
+            f"📦 Raw="
             f"{len(raw_configs)}"
         )
 
         logger.info(
-            f"🌐 links="
+            f"🌐 Links="
             f"{len(sub_links)}"
         )
 
-        # ==========================
-        # SAVE SUB LINKS
-        # ==========================
+        # ======================================
+        # SAVE LINKS
+        # ======================================
 
         atomic_write(
             str(
@@ -1429,50 +1557,53 @@ async def main():
             )
         )
 
-        # ==========================
-        # FETCH SUBS
-        # ==========================
+        # ======================================
+        # FETCH SUBSCRIPTIONS
+        # ======================================
 
-        sub_configs = (
+        subscription_configs = (
             fetch_subscriptions_parallel(
                 sub_links
             )
         )
 
         logger.info(
-            f"📥 subs="
-            f"{len(sub_configs)}"
+            f"📥 Subs="
+            f"{len(subscription_configs)}"
         )
 
-        # ==========================
-        # COMBINE
-        # ==========================
+        # ======================================
+        # MERGE CONFIGS
+        # ======================================
 
         all_configs = (
             dedupe_preserve_order(
                 raw_configs
                 +
-                sub_configs
+                subscription_configs
             )
         )
 
         all_configs = [
+
             normalize_config(
-                x
+                item
             )
-            for x
+
+            for item
             in all_configs
-            if x
+
+            if item
         ]
 
         logger.info(
-            f"📦 total="
+            f"📦 Total="
             f"{len(all_configs)}"
         )
 
-        # ==========================
+        # ======================================
         # SAVE MAIN FILE
-        # ==========================
+        # ======================================
 
         atomic_write(
             str(
@@ -1483,24 +1614,13 @@ async def main():
             )
         )
 
-        # ==========================
-        # PROJECT SUB FILE
-        # ==========================
-
-        atomic_write(
-            str(
-                PROJECT_SUB_FILE
-            ),
-            PROJECT_SUB_LINK
-        )
-
-        # ==========================
+        # ======================================
         # COUNTRY DETECTION
-        # ==========================
+        # ======================================
 
         logger.info(
-            "🌍 country "
-            "detecting..."
+            "🌍 Country "
+            "Detection..."
         )
 
         country_map = (
@@ -1513,37 +1633,9 @@ async def main():
             country_map
         )
 
-        # ==========================
-        # BUNDLE INFO
-        # ==========================
-
-        bundle_info = (
-            "WEB COLLECTOR\n"
-            "================\n\n"
-            f"Configs: "
-            f"{len(all_configs)}\n"
-            f"Subscription "
-            f"Links: "
-            f"{len(sub_links)}\n"
-            f"Countries: "
-            f"{len(country_map)}\n\n"
-            "Project "
-            "Subscription:\n"
-            f"{PROJECT_SUB_LINK}\n\n"
-            f"Updated UTC:\n"
-            f"{time.strftime('%Y-%m-%d %H:%M:%S')}"
-        )
-
-        atomic_write(
-            str(
-                BUNDLE_INFO_FILE
-            ),
-            bundle_info
-        )
-
-        # ==========================
+        # ======================================
         # SAVE CACHE
-        # ==========================
+        # ======================================
 
         save_country_cache()
 
@@ -1554,14 +1646,15 @@ async def main():
         )
 
         logger.info(
-            f"🏁 done "
-            f"{elapsed}s"
+            f"🏁 Finished "
+            f"in {elapsed}s"
         )
 
     except Exception as e:
 
         logger.exception(
-            f"fatal: {e}"
+            f"Fatal Error: "
+            f"{e}"
         )
 
     finally:
@@ -1570,15 +1663,25 @@ async def main():
 
             if client:
 
-                await client.disconnect()
+                await (
+                    client
+                    .disconnect()
+                )
 
         except Exception:
             pass
 
         try:
+
             session.close()
+
         except Exception:
             pass
+
+        logger.info(
+            "Graceful Shutdown"
+        )
+
 
 # ==========================================================
 # ENTRYPOINT
@@ -1595,12 +1698,25 @@ if __name__ == "__main__":
     except KeyboardInterrupt:
 
         logger.warning(
-            "interrupted"
+            "Stopped "
+            "Manually"
+        )
+
+    except RuntimeError as e:
+
+        logger.exception(
+            f"Runtime "
+            f"Error: {e}"
         )
 
     except Exception as e:
 
         logger.exception(
-            f"crash: {e}"
+            f"Crash: {e}"
         )
-        
+
+    finally:
+
+        logger.info(
+            "Cleanup Done"
+        )
