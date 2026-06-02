@@ -1,14 +1,26 @@
+# Python
 __pycache__/
 *.pyc
-.env
+*.pyo
+*.pyd
 
-bot_session.session
-bot_session.session-journal
+# Sessions
+*.session
+*.session-journal
 
-*.log
+# Logs
 logs/*.log
 
-.vscode/
-
-output/*.tmp
+# State temp
 state/*.tmp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Env
+.env

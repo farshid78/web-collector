@@ -3,78 +3,83 @@ name: Sender Bot
 on:
   workflow_dispatch:
 
+  # اجرای خودکار بعد از پایان Scraper
   workflow_run:
-    workflows: ["Scraper"]
+    workflows:
+      - Scraper
     types:
       - completed
 
+  # بکاپ زمان‌بندی
   schedule:
-    - cron: "5 * * * *"
+    - cron: "*/15 * * * *"
 
 permissions:
   contents: write
 
 concurrency:
-  group: sender-bot
+  group: sender-bot-main
   cancel-in-progress: false
 
 jobs:
   send:
-    name: Send Config Files
+    name: Telegram Sender Bot
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 30
 
-    if: >
+    # فقط اگر:
+    # 1) دستی ران شد
+    # 2) schedule بود
+    # 3) scraper موفق تمام شد
+    if: |
       github.event_name == 'workflow_dispatch' ||
       github.event_name == 'schedule' ||
       (
+        github.event_name == 'workflow_run' &&
         github.event.workflow_run.conclusion == 'success'
       )
 
     env:
       PYTHONUNBUFFERED: "1"
+      PYTHONDONTWRITEBYTECODE: "1"
       PIP_DISABLE_PIP_VERSION_CHECK: "1"
       TZ: UTC
 
     steps:
 
-      # ==========================================
+      # ==================================================
       # CHECKOUT
-      # ==========================================
-
+      # ==================================================
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
+          fetch-depth: 0
           persist-credentials: true
-          fetch-depth: 1
 
-      # ==========================================
+      # ==================================================
       # INFO
-      # ==========================================
-
-      - name: Workflow info
+      # ==================================================
+      - name: Workflow Info
         run: |
           echo "================================="
-          echo "🤖 SENDER STARTED"
+          echo "🤖 TELEGRAM BOT STARTED"
           echo "UTC: $(date -u)"
           echo "EVENT: ${{ github.event_name }}"
           echo "RUN ID: ${{ github.run_id }}"
           echo "================================="
 
-      # ==========================================
+      # ==================================================
       # PYTHON
-      # ==========================================
-
+      # ==================================================
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
           cache: "pip"
 
-      # ==========================================
-      # DEPENDENCIES
-      # ==========================================
-
+      # ==================================================
+      # INSTALL DEPENDENCIES
+      # ==================================================
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
@@ -85,10 +90,9 @@ jobs:
             requests \
             PySocks
 
-      # ==========================================
+      # ==================================================
       # VALIDATE SECRETS
-      # ==========================================
-
+      # ==================================================
       - name: Validate secrets
         env:
           API_ID: ${{ secrets.API_ID }}
@@ -96,7 +100,7 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
         run: |
 
-          echo "🔍 checking secrets"
+          echo "🔍 validating secrets"
 
           if [ -z "$API_ID" ]; then
             echo "❌ API_ID missing"
@@ -113,28 +117,41 @@ jobs:
             exit 1
           fi
 
-          echo "✅ secrets ok"
+          echo "✅ secrets valid"
 
-      # ==========================================
-      # VERIFY FILES
-      # ==========================================
-
-      - name: Verify output files
+      # ==================================================
+      # PREPARE DIRECTORIES
+      # ==================================================
+      - name: Prepare folders
         run: |
-
-          echo "📁 checking output"
-
           mkdir -p output
           mkdir -p state
           mkdir -p logs
 
+          echo "📁 folders prepared"
+
+      # ==================================================
+      # VERIFY FILES
+      # ==================================================
+      - name: Verify bot files
+        run: |
+
+          echo "Checking bot files..."
+
+          if [ ! -f "bot.py" ]; then
+            echo "❌ bot.py missing"
+            exit 1
+          fi
+
+          echo "Output directory:"
           ls -lah output || true
 
-      # ==========================================
-      # RUN BOT
-      # ==========================================
+          echo "✅ verification complete"
 
-      - name: Run bot
+      # ==================================================
+      # RUN BOT
+      # ==================================================
+      - name: Run Telegram Bot
         env:
           API_ID: ${{ secrets.API_ID }}
           API_HASH: ${{ secrets.API_HASH }}
@@ -142,7 +159,7 @@ jobs:
         run: |
 
           echo "================================="
-          echo "🤖 STARTING BOT"
+          echo "🚀 STARTING TELEGRAM BOT"
           echo "================================="
 
           SUCCESS=0
@@ -150,16 +167,18 @@ jobs:
           for i in 1 2 3
           do
 
+            echo ""
             echo "BOT ATTEMPT: $i"
+            echo ""
 
-            if timeout 12m python bot.py
+            if timeout 20m python bot.py
             then
               SUCCESS=1
               echo "✅ bot success"
               break
             fi
 
-            echo "⚠️ bot failed"
+            echo "⚠️ bot crashed"
 
             sleep 15
 
@@ -171,15 +190,14 @@ jobs:
             exit 1
           fi
 
-      # ==========================================
-      # SAVE STATE
-      # ==========================================
-
-      - name: Commit state changes
+      # ==================================================
+      # COMMIT STATE
+      # ==================================================
+      - name: Commit bot state
         run: |
 
-          git config --global user.name "github-actions"
-          git config --global user.email "actions@github.com"
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
           git add \
             users.json \
@@ -194,23 +212,47 @@ jobs:
           else
 
             git commit -m \
-            "bot state update $(date -u +'%Y-%m-%d %H:%M:%S UTC')" \
+            "🤖 bot state update $(date -u +'%Y-%m-%d %H:%M:%S UTC')" \
             || true
 
-            git pull --rebase origin main || true
+            PUSH_SUCCESS=0
 
-            git push || true
+            for i in 1 2 3
+            do
 
+              echo "push attempt $i"
+
+              git pull \
+                --rebase \
+                origin main \
+                || true
+
+              if git push
+              then
+                PUSH_SUCCESS=1
+                echo "✅ push success"
+                break
+              fi
+
+              sleep 10
+
+            done
+
+            if [ "$PUSH_SUCCESS" -ne 1 ]
+            then
+              echo "❌ push failed"
+              exit 1
+            fi
           fi
 
-      # ==========================================
+      # ==================================================
       # SUMMARY
-      # ==========================================
-
+      # ==================================================
       - name: Summary
         if: always()
         run: |
           echo "================================="
-          echo "🏁 SENDER FINISHED"
+          echo "🏁 TELEGRAM BOT FINISHED"
           echo "UTC: $(date -u)"
+          echo "STATUS: DONE"
           echo "================================="
