@@ -622,10 +622,7 @@ def get_changed_files(
             except Exception:
                 pass
 
-        atomic_write(
-            FILE_HASHES_FILE,
-            new_hashes
-        )
+       
 
         return changed_files
 
@@ -636,6 +633,30 @@ def get_changed_files(
         )
 
         return files
+
+
+def save_file_hashes(files: List[str]):
+    """
+    ذخیره hash فایل‌ها
+    فقط بعد از ارسال موفق
+    """
+
+    try:
+        hashes = {}
+
+        for file_path in files:
+            try:
+                with open(file_path, "rb") as f:
+                    file_hash = hashlib.sha256(f.read()).hexdigest()
+
+                hashes[file_path] = file_hash
+            except Exception:
+                pass
+
+        atomic_write(FILE_HASHES_FILE, hashes)
+        logger.info("File hashes updated")
+    except Exception as e:
+        logger.error(f"Save Hash Error: {e}")
 
 
 # ==========================================================
@@ -1099,9 +1120,7 @@ async def register_handlers(
                 .load_users()
             )
     
-            files = get_changed_files(
-                get_output_files()
-            )
+            files = get_output_files()
     
             text = f"""
     👥 کاربران:
@@ -1211,6 +1230,15 @@ async def run_sender_pipeline(
         logger.exception(
             f"Pipeline Error: {e}"
         )
+# ======================================
+# SAVE HASHES AFTER SUCCESSFUL SEND
+# ======================================
+
+if success_count > 0:
+
+    save_file_hashes(
+        files
+    )
 
     # ======================================
     # SAVE ANALYTICS
@@ -1359,10 +1387,28 @@ async def main():
         # ==================================
 
         logger.info(
-            "Bot Online..."
+            "Persistent Window Active"
         )
 
-        await asyncio.sleep(540)
+        # ==================================
+        # KEEP BOT ONLINE
+        # ==================================
+
+        BOT_UPTIME_SECONDS = 660
+
+        logger.info(
+            f"Bot alive for "
+            f"{BOT_UPTIME_SECONDS}s"
+        )
+
+        end_time = (
+            time.time()
+            + BOT_UPTIME_SECONDS
+        )
+
+        while time.time() < end_time:
+
+            await asyncio.sleep(15)
 
         elapsed = round(
             time.time()
@@ -1388,7 +1434,16 @@ async def main():
         )
 
     finally:
+        elapsed = round(
+            time.time()
+            - start_time,
+            2
+        )
 
+        logger.info(
+            f"Bot runtime="
+            f"{elapsed}s"
+        )
         logger.info(
             "Graceful Shutdown..."
         )

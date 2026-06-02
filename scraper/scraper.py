@@ -1378,20 +1378,35 @@ def save_country_files(country_map):
 
     others = dedupe_preserve_order(others)
 
-    if others:
+if len(others) >= 1:
 
-        atomic_write(
-            str(
-                OUTPUT_DIR /
-                "configs_others.txt"
-            ),
-            "\n".join(others)
+    atomic_write(
+        str(
+            OUTPUT_DIR /
+            "configs_others.txt"
+        ),
+        "\n".join(
+            dedupe_preserve_order(
+                others
+            )
         )
+    )
 
-        logger.info(
-            f"💾 others="
-            f"{len(others)}"
-        )
+    logger.info(
+        f"💾 others="
+        f"{len(others)}"
+    )
+
+else:
+
+    file_path = (
+        OUTPUT_DIR /
+        "configs_others.txt"
+    )
+
+    if file_path.exists():
+
+        file_path.unlink()
 
 
 # ==========================================================

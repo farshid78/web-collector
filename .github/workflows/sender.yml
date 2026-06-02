@@ -3,9 +3,10 @@ name: Sender Bot
 on:
   workflow_dispatch:
 
-  schedule:
-    # دو دقیقه بعد از scraper
-    - cron: "5,15,25,35,45,55 * * * *"
+  workflow_run:
+    workflows: ["Scraper"]
+    types:
+      - completed
 
 permissions:
   contents: write
@@ -14,11 +15,15 @@ concurrency:
   group: sender-bot-main
   cancel-in-progress: true
 
+
 jobs:
   send:
+    if: >
+      github.event_name == 'workflow_dispatch' ||
+      github.event.workflow_run.conclusion == 'success'
     name: Telegram Sender Bot
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 14
 
     env:
       PYTHONUNBUFFERED: "1"

@@ -1,0 +1,15 @@
+{
+  "last_scrape": "2026-06-02 13:10",
+  "last_send": "2026-06-02 13:15",
+  "configs_total": 9231,
+  "active_users": 218,
+  "country_counts": {
+    "US": 122,
+    "TR": 88,
+    "DE": 14
+  },
+  "changed_files": [
+    "configs_TR.txt",
+    "configs_US.txt"
+  ]
+}
