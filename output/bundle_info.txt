@@ -1,12 +1,12 @@
 WEB COLLECTOR
 ================
 
-Configs: 1838
+Configs: 1829
 Subscription Links: 3
-Countries: 51
+Countries: 52
 
 Project Subscription:
 https://raw.githubusercontent.com/farshid78/web-collector/main/output/configs.txt
 
 Updated UTC:
-2026-06-01 23:08:05
+2026-06-02 01:37:40
