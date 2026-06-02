@@ -84,6 +84,7 @@ ROOT_DIR = (
     Path(__file__)
     .resolve()
     .parent
+    .resolve()
 )
 
 OUTPUT_DIR = (
@@ -547,7 +548,7 @@ def get_output_files() -> List[str]:
                 path.exists()
                 and path.is_file()
                 and path.stat()
-                .st_size > 0
+                .st_size > 30
             ):
 
                 files.append(
@@ -1168,20 +1169,14 @@ async def run_sender_pipeline(
         )
         return
 
-    files = (
-            get_output_files()
-        )
-    files = get_changed_files(
-        get_output_files()
-    )
+    files = get_output_files()
+    files = get_changed_files(files)
 
     if not files:
 
         logger.info(
             "ℹ️ no changed files"
         )
-
-        await client.disconnect()
         return
 
     success_count = 0
@@ -1367,7 +1362,7 @@ async def main():
             "Bot Online..."
         )
 
-        await asyncio.sleep(25)
+        await asyncio.sleep(540)
 
         elapsed = round(
             time.time()

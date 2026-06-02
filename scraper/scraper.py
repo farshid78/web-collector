@@ -1321,6 +1321,28 @@ def save_country_files(country_map):
                         f"({total_configs} < "
                         f"{MIN_COUNTRY_CONFIGS})"
                     )
+                    file_path = (
+                        OUTPUT_DIR /
+                        f"configs_{cc}.txt"
+                    )
+
+                    if file_path.exists():
+
+                        try:
+
+                            file_path.unlink()
+
+                            logger.info(
+                                f"🗑️ removed stale "
+                                f"{file_path.name}"
+                            )
+
+                        except Exception as e:
+
+                            logger.warning(
+                                f"failed remove "
+                                f"{file_path.name}: {e}"
+                            )
 
                     others.extend(cfgs)
                     continue
@@ -1384,10 +1406,31 @@ def cleanup_stale_files():
     """
 
     desired = {
-    "configs.txt",
+     "configs.txt",
+
+    "subscription_links.txt",
+
     "configs_others.txt",
-    "subscription_links.txt"
+
+    "configs_IR.txt",
+
+    "configs_TR.txt",
+
+    "configs_US.txt",
+
+    "configs_DE.txt",
+
+    "configs_NL.txt",
+
+    "configs_FI.txt",
+
+    "configs_SG.txt",
+
+    "configs_AE.txt"
     }
+
+
+
 
     try:
 

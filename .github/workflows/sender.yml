@@ -5,20 +5,20 @@ on:
 
   schedule:
     # دو دقیقه بعد از scraper
-    - cron: "2,12,22,32,42,52 * * * *"
+    - cron: "5,15,25,35,45,55 * * * *"
 
 permissions:
   contents: write
 
 concurrency:
   group: sender-bot-main
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   send:
     name: Telegram Sender Bot
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 15
 
     env:
       PYTHONUNBUFFERED: "1"
