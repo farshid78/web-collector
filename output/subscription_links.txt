@@ -1,3 +1,1 @@
-https://xx.pat-law.net/sub/djMsMTk2NzgxLDE3ODAyMjE3MzYd54ba75043
-https://xx.pat-law.net/sub/djMsMTk2OTQyLDE3ODAyMjI1Mzgce865472e8
 https://github.com/Delta-Kronecker/V2ray-Config/raw/refs/heads/main/config/batches/v2ray/batch_001.txt
