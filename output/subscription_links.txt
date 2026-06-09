@@ -1,12 +1,5 @@
 https://riotvpn.eu/sub/QM5S-Q6veUtsVLSK
 https://riotvpn.eu/sub/JEAA0WngAYFyThmK
-https://riotvpn.eu/sub/b74J26qsJLZeLare
-https://riotvpn.eu/sub/0dtdCWeGz8UtuAfZ
-https://riotvpn.eu/sub/24eBDdsPysgsMUDA
-https://riotvpn.eu/sub/oQXVCzn-t0g6UxdJ
-https://riotvpn.eu/sub/g29R57-h7QtKCPDG
-https://riotvpn.eu/sub/wyy7CQW4ESa2UTan
-https://riotvpn.eu/sub/6xKJFsDuq4mRznG1
 https://raw.githubusercontent.com/masir-sefid/Sub/main/@Masir_Sefid.txt
 https://github.com/Delta-Kronecker/V2ray-Config/raw/refs/heads/main/config/batches/v2ray/batch_001.txt
 https://riotvpn.eu/sub/Ue96qmwxoR8cmu_1
