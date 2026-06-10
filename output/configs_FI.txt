@@ -1,6 +1,5 @@
 vless://621c8430-afe6-4a24-83b1-32f2ff9c3f10@65.109.252.77:443?encryption=none&security=reality&type=tcp&headerType=none&sni=play.google.com&fp=chrome&pbk=LLfsDGAOEfQmBXP9xt7sUmBS0_Z02YMNZM8uaUfYxRU&sid=7a6f3a67c13dea23#%40filembad
 vless://5694013d-027f-44c0-b15b-8ef0457fa940@fi.mobileemdad.top:42538?encryption=none&security=none&type=tcp&headerType=http&path=/&host=fi.mobileemdad.top#🇫🇮FI-🚀@VPNine1
-vless://3abddd98-1402-4352-b87c-ce8340d33b68@fi.mobileemdad.top:42538?type=tcp&headerType=http&host=fi.mobileemdad.top&path=/&security=none#🇫🇮FI-🚀@VPNine1
 vless://fe449d30-e6ba-4787-97b3-bb3b84c8d120@65.109.221.167:443?path=/farasati1&security=reality&encryption=none&pbk=as04WkYoj-P4vEjJFXB3LeA_Rkt7Ud4pV2oTZ3bZwQg&fp=chrome&spx=/&type=xhttp&sni=www.wikipedia.org&sid=1c213fd68e13#🇫🇮FI-🚀@VPNine1
 vless://5694013d-027f-44c0-b15b-8ef0457fa940@finland.nonpath.ir:42542?encryption=none&security=none&type=tcp&headerType=http&path=/&host=play.google.com#🇫🇮FI-🚀@VPNine1
 vless://597923cd-1877-495f-9413-d0dfbd166c14@dns.dressforida.monster:443?security=reality&type=tcp&packetEncoding=none&allowInsecure=1&sni=www.microsoft.com&fp=chrome&flow=xtls-rprx-vision&sid=2d8dc1a8a7fe&pbk=4YLfHf90V012Oyd2wHbwAXaJNvNUGrKWmatTKc165U8#🇳🇱NL-🚀@VPNine1
@@ -39,11 +38,10 @@ trojan://8r%3C%5B9%27l6hAO%238ZQi@94.183.191.228:8443?path=/trTelegram%F0%9F%87%
 vless://d501e466-b9a0-4321-8014-47d04d2ddc8d@109.120.187.223:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=www.intel.com&fp=firefox&security=reality&pbk=AQhB5LgVFJq87Kbavc9qYWwqYYnGx0Bj0ci4TXcboDw&sid=a1b2c3d4#🇫🇮FI-🚀@VPNine1
 vless://3559f1f7-7d70-46c9-82db-d2b46269300b@109.120.185.230:443?security=reality&type=tcp&sni=dipvpn.ru&fp=chrome&flow=xtls-rprx-vision&pbk=1BdgrQ_esOEya01sDCBYK4MGpJgaUhssHQG-aWJkyFQ&encryption=none#🇫🇮FI-🚀@VPNine1
 vless://10b95aca-ae4f-45ee-b656-2e67adf167ce@46.62.194.124:2087?encryption=none&fp=chrome&pbk=KEgNj45qlGhHllTUkQ3q3Yc3XjU8vxblHBQd9pNyY08&security=reality&sid=34a1af3793a10c&sni=www.oracle.com&spx=/IrW9VX7ulLX9W2z&type=tcp#🇫🇮FI-🚀@VPNine1
-vless://10b95aca-ae4f-45ee-b656-2e67adf167ce@46.62.194.124:2087?encryption=none&fp=chrome&pbk=KEgNj45qlGhHllTUkQ3q3Yc3XjU8vxblHBQd9pNyY08&security=reality&sid=34a1af3793a10c&sni=www.oracle.com&spx=/IrW9VX7ulLX9W2z&type=tcp#[🇫🇮]t.me/ConfigsHub
-vless://b4a10cb3-9835-4027-a5d5-9404ec7b1e4e@212.87.222.32:443?encryption=none&security=tls&sni=us2.wxgqlfx.xyz&type=ws&host=us2.wxgqlfx.xyz&path=/TG@VPNine1&fp=chrome&alpn=http/1.1#🇫🇮FI-🚀@VPNine1
-vless://b4a10cb3-9835-4027-a5d5-9404ec7b1e4e@31.56.227.30:8443?encryption=none&security=tls&sni=us2.wxgqlfx.xyz&type=ws&host=us2.wxgqlfx.xyz&path=/TG@VPNine1&fp=chrome&alpn=http/1.1#🇫🇮FI-🚀@VPNine1
-vless://b4a10cb3-9835-4027-a5d5-9404ec7b1e4e@95.182.99.108:2053?encryption=none&security=tls&sni=us2.wxgqlfx.xyz&type=ws&host=us2.wxgqlfx.xyz&path=/TG@VPNine1&fp=chrome&alpn=http/1.1#🇫🇮FI-🚀@VPNine1
-vless://b4a10cb3-9835-4027-a5d5-9404ec7b1e4e@212.87.222.247:8443?encryption=none&security=tls&sni=us2.wxgqlfx.xyz&type=ws&host=us2.wxgqlfx.xyz&path=/TG@VPNine1&fp=chrome&alpn=http/1.1#🇫🇮FI-🚀@VPNine1
+vless://5a23e6b2-3cd3-4475-898e-0885d71da6ec@45.12.146.12:443?encryption=none&security=tls&sni=us2.wxgqlfx.xyz&type=ws&host=us2.wxgqlfx.xyz&path=/TG@wxgqlfx&fp=chrome&alpn=http/1.1#[🇫🇮]t.me/ConfigsHub
+vless://5481bfe3-bf42-425c-b561-cb9d64bff7ff@w6.homestorage.online:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=A3PWLCRX9oeSyPvrmrwj2jUXcLo2uCwAISRBHtNE1Xw&sni=5post-gate.x5.ru#[🇫🇮]t.me/ConfigsHub
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp5S1ZNb0IzQXdpVEV6bnBub3EyRllS@193.47.60.186:28687#%20
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp5S1ZNb0IzQXdpVEV6bnBub3EyRllS@193.47.60.186:28687#@DeltaKroneckerGithub
 vless://46131752-b3d9-4548-9890-13cae88c531b@38.244.137.150:8443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.google.com&fp=chrome&pbk=CZ2EMR0chMVqiZoXHaxamN9_PS7eHsU8OlHMdStPr10&sid=d35ab2cea576&type=tcp&headerType=none#@DeltaKroneckerGithub
 trojan://62b78c9b-16cb-4ee6-824b-a4f856cf18f3@65.108.205.61:443/?type=tcp&security=tls&allowInsecure=1#@DeltaKroneckerGithub
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToyOG1lUWRWcG1hN0prQ3RzRVVXY1M2Z2llS21GWGlhd0N3Z0ZNY0pxQ1hNcVMyZDlXckdwdWN5bk5haXk2bVVhc2Ria01pUlZESjVCaFNyckF1Z0N1Q0puWHViUkJIZXo@185.5.38.111:55988#@DeltaKroneckerGithub
@@ -60,4 +58,3 @@ trojan://8r%3C%5B9%27l6hAO%238ZQi@46.8.238.49:2053?allowInsecure=0&sni=Koma-YT.P
 vless://e4e7866d-920b-4a53-a8e2-6ae9b2a42fc2@89.167.25.28:11005?encryption=none&flow=xtls-rprx-vision&fp=&pbk=tPxRwVtrFklP9kJ8kWgHIcR-XSBBkZiYbwGCAaBrtgE&security=reality&sid=f98c&sni=www.cloudflare.com&type=tcp#@DeltaKroneckerGithub
 trojan://fHngvzC1ut%23YqsV4X@212.193.18.121:21936?fp=chrome&sni=singingrobot.click#@DeltaKroneckerGithub
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp0bmRDUDJEZjktUFR4X0owc1plb0htVGR2a2cwdzRLdg@144.31.7.129:51523#@DeltaKroneckerGithub
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp5S1ZNb0IzQXdpVEV6bnBub3EyRllS@193.47.60.186:28687#@DeltaKroneckerGithub
