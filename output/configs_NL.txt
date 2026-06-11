@@ -1,3 +1,7 @@
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.210:8080#%40filembad
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.210:8080#[🏁]t.me/ConfigsHub
+vless://931729a8-3c20-4841-89a1-f18dc9ce0a6f@46.229.243.76:8443?security=tls&encryption=none&insecure=0&headerType=&fp=chrome&type=tcp&allowInsecure=0&sni=cdn3-87.vk-cdnvideo.com#%40filembad
+vless://931729a8-3c20-4841-89a1-f18dc9ce0a6f@46.229.243.76:8443?security=tls&encryption=none&insecure=0&headerType=&fp=chrome&type=tcp&allowInsecure=0&sni=cdn3-87.vk-cdnvideo.com#[🏁]t.me/ConfigsHub
 vless://394f6981-a782-4779-9a85-e6cf22935d93@185.229.191.183:8443?security=tls&encryption=none&insecure=1&headerType=&type=tcp&allowInsecure=1&sni=ams1.fromblancwithlove.com#%40filembad
 vless://394f6981-a782-4779-9a85-e6cf22935d93@185.229.191.183:8443?security=tls&encryption=none&insecure=1&headerType=&type=tcp&allowInsecure=1&sni=ams1.fromblancwithlove.com#[🏁]t.me/ConfigsHub
 vless://9bbddc9c-b39f-4928-8e34-a694112200ca@188.42.88.254:2096?path=%2F&security=tls&encryption=none&insecure=0&host=holy-pine-9a1c.mr-amirzareei.workers.dev&fp=chrome&type=ws&allowInsecure=0&sni=holy-pine-9a1c.mr-amirzareei.workers.dev#%40filembad
@@ -7,17 +11,14 @@ vless://ce8e7714-ec2f-40b1-a6b7-548489ced574@nl2.gamelistak.com:443?mode=auto&pa
 vless://8bbf020e-653f-4a82-9900-1214e4e37dab@195.184.247.134:443?security=reality&encryption=none&pbk=gXc2c9NIWxhUTb7HoBCjvo-uB1L4iQj4TH38g4YhxHE&headerType=&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=www.microsoft.com&sid=fcd9787f#%40filembad
 vless://394f6981-a782-4779-9a85-e6cf22935d93@195.181.173.199:8443?security=tls&alpn=http%2F1.1&encryption=none&insecure=0&headerType=&fp=chrome&type=tcp&allowInsecure=0&sni=ams1.fromblancwithlove.com#%40filembad
 vless://931729a8-3c20-4841-89a1-f18dc9ce0a6f@77.74.123.170:8443?security=tls&encryption=none&insecure=0&headerType=&fp=chrome&type=tcp&allowInsecure=0&sni=cdn3-87.vk-cdnvideo.com#%40filembad
-vless://931729a8-3c20-4841-89a1-f18dc9ce0a6f@77.74.123.170:8443?security=tls&encryption=none&insecure=0&headerType=none&fp=chrome&type=tcp&allowInsecure=0&sni=cdn3-87.vk-cdnvideo.com#%40filembad
 vless://931729a8-3c20-4841-89a1-f18dc9ce0a6f@77.74.123.170:8443?security=tls&encryption=none&insecure=0&headerType=none&fp=chrome&type=tcp&allowInsecure=0&sni=cdn3-87.vk-cdnvideo.com#🇷🇴RO-🚀@VPNine1
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.149:8080#%40filembad
 vless://394f6981-a782-4779-9a85-e6cf22935d93@ams1.fromblancwithlove.com:8443?security=tls&encryption=none&insecure=0&headerType=&fp=chrome&type=tcp&allowInsecure=0&sni=ams1.fromblancwithlove.com#%40filembad
 vless://394f6981-a782-4779-9a85-e6cf22935d93@ams1.fromblancwithlove.com:8443?security=tls&encryption=none&insecure=0&headerType=none&type=tcp&allowInsecure=0#🇳🇱NL-🚀@VPNine1
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.192:8080#%40filembad
 vless://931729a8-3c20-4841-89a1-f18dc9ce0a6f@77.74.123.163:8443?security=tls&encryption=none&headerType=none&fp=chrome&type=tcp&sni=cdn3-87.vk-cdnvideo.com#%40filembad
-vless://931729a8-3c20-4841-89a1-f18dc9ce0a6f@77.74.123.163:8443?security=tls&encryption=none&insecure=0&headerType=none&fp=chrome&type=tcp&allowInsecure=0&sni=cdn3-87.vk-cdnvideo.com#%40filembad
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.190:8080#%40filembad
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.190:8080#🇬🇧GB-🚀@VPNine1
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.190:8080#[🏁]t.me/ConfigsHub
 vless://1c0277ad-bb4d-496f-bc0c-40ccee03fca5@195.184.247.252:7443?security=reality&encryption=none&pbk=5QAO98ot2U7TcGs_f6EEaQjCzNOJLNHqPf6smYsdFVI&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.microsoft.com&sid=d82fb387#%40filembad
 vless://1c0277ad-bb4d-496f-bc0c-40ccee03fca5@195.184.247.252:7443?encryption=none&type=tcp&security=reality&headerType=none&sni=www.microsoft.com&fp=chrome&insecure=0&allowInsecure=0&pbk=5QAO98ot2U7TcGs_f6EEaQjCzNOJLNHqPf6smYsdFVI&sid=d82fb387&flow=xtls-rprx-vision#🇳🇱NL-🚀@VPNine1
 vless://931729a8-3c20-4841-89a1-f18dc9ce0a6f@77.74.123.168:8443?security=tls&encryption=none&host=%2F%3FBIA_TELEGRAM%40MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI&headerType=none&fp=chrome&type=tcp&sni=cdn3-87.vk-cdnvideo.com#%40filembad
@@ -80,7 +81,6 @@ vless://33bd7d64-2b03-4b19-82e5-9610afde3c3d@nl.tgru.in:8443?mode=auto&path=/&se
 vless://a0c7638b-dd64-4fa2-80c4-d6a5561208d0@fi.linetcyberspace.com:443?encryption=none&type=tcp&security=reality&headerType=none&sni=yahoo.com&fp=chrome&allowInsecure=1&pbk=bcUB_Hf9cspkrUIdqbJVmWPyDo-mb4xVvsAeAqK-5Q4&sid=978658ec&spx=/#🇳🇱NL-🚀@VPNine1
 vless://1c0277ad-bb4d-496f-bc0c-40ccee03fca5@130.12.242.112:7443?flow=xtls-rprx-vision&security=reality&allowInsecure=0&encryption=none&type=tcp&sni=www.microsoft.com&sid=be0ce047&fp=chrome&pbk=5QAO98ot2U7TcGs_f6EEaQjCzNOJLNHqPf6smYsdFVI&headerType=none#🇳🇱NL-🚀@VPNine1
 vless://1c0277ad-bb4d-496f-bc0c-40ccee03fca5@130.12.242.112:7443?flow=xtls-rprx-vision&security=reality&allowInsecure=0&encryption=none&type=tcp&sni=www.microsoft.com&sid=be0ce047&fp=chrome&pbk=5QAO98ot2U7TcGs_f6EEaQjCzNOJLNHqPf6smYsdFVI&headerType=none¬e=Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---Telegram---@Raiv2mmr---#%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%AC%F0%9F%87%A7%20%F0%9F%87%B3%F0%9F%87%B1%20%5B%2ACIDR%5D
-vless://931729a8-3c20-4841-89a1-f18dc9ce0a6f@46.229.243.76:8443?security=tls&encryption=none&insecure=0&headerType=&fp=chrome&type=tcp&allowInsecure=0&sni=cdn3-87.vk-cdnvideo.com#[🏁]t.me/ConfigsHub
 vless://905b71d2-3aab-4752-b005-0078a13f5a30@92.119.164.122:443?flow=xtls-rprx-vision&fp=firefox&pbk=8NuzBWyudzM52G9-QdbQfAoKvQTRM-9HQXsllDW0phY&security=reality&sid=6ba85179c4d7f2a1&sni=archive.cloudera.com&type=tcp#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%2C%20Amsterdam%20%7C%20%5BBL%5D
 vless://0a12381a-e241-4b63-a03c-1a5a45a95977@194.242.127.59:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=freenl.aiage.work&fp=chrome&security=reality&pbk=gYMI6_kvxK_r6sOPHp91ZYYKSUQfSp8JADHB3ZfuGUo&sid=af11583cadc0f8c2#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%2C%20Dronten%20%7C%20%5BBL%5D
 vless://0a12381a-e241-4b63-a03c-1a5a45a95977@194.242.127.59:443?flow=xtls-rprx-vision&fp=firefox&headertype=none&pbk=gYMI6_kvxK_r6sOPHp91ZYYKSUQfSp8JADHB3ZfuGUo&security=reality&sid=af11583cadc0f8c2&sni=freenl.aiage.work&spx=%2F&type=tcp#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%2C%20Dronten%20%7C%20%5BBL%5D
