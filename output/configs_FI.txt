@@ -1,9 +1,13 @@
-vless://394f6981-a782-4779-9a85-e6cf22935d93@46.246.34.171:8443?security=tls&encryption=none&headerType=none&type=tcp&sni=ams1.fromblancwithlove.com#%40filembad
-vless://394f6981-a782-4779-9a85-e6cf22935d93@46.246.34.171:8443?security=tls&encryption=none&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=ams1.fromblancwithlove.com#%40filembad
+vless://631a40d9-8537-4e64-b8d6-7b512d4af67d@finland.nonpath.ir:42542?security=&encryption=none&host=play.google.com&headerType=http&type=tcp#%40filembad
+vless://0970ff22-ef41-4dce-b05c-0ba0d1f73e67@finland.nonpath.ir:42542?encryption=none&security=none&type=tcp&headerType=http&path=/&host=play.google.com#🇫🇮FI-🚀@VPNine1
+vless://631a40d9-8537-4e64-b8d6-7b512d4af67d@finland.nonpath.ir:42542?security=&encryption=none&host=play.google.com&headerType=http&type=tcp#[🇫🇮]t.me/ConfigsHub
+vless://631a40d9-8537-4e64-b8d6-7b512d4af67d@fi.mobileemdad.top:42538?security=&encryption=none&host=fi.mobileemdad.top&headerType=http&type=tcp#%40filembad
+vless://0970ff22-ef41-4dce-b05c-0ba0d1f73e67@fi.mobileemdad.top:42538?encryption=none&security=none&type=tcp&headerType=http&path=/&host=fi.mobileemdad.top#🇫🇮FI-🚀@VPNine1
+vless://631a40d9-8537-4e64-b8d6-7b512d4af67d@fi.mobileemdad.top:42538?security=&encryption=none&host=fi.mobileemdad.top&headerType=http&type=tcp#[🇫🇮]t.me/ConfigsHub
+vless://207fb1be-e784-4053-94c1-b0e96333152f@plan.opann.ir:443?encryption=none&security=none&type=tcp#%40filembad
+vless://207fb1be-e784-4053-94c1-b0e96333152f@plan.opann.ir:443?encryption=none&security=none&type=tcp#🇫🇮FI-🚀@VPNine1
+vless://207fb1be-e784-4053-94c1-b0e96333152f@plan.opann.ir:443?security=&encryption=none&headerType=none&type=tcp#[🇫🇮]t.me/ConfigsHub
 vless://394f6981-a782-4779-9a85-e6cf22935d93@46.246.34.14:8443?security=tls&encryption=none&headerType=none&type=tcp&sni=ams1.fromblancwithlove.com#%40filembad
-vless://394f6981-a782-4779-9a85-e6cf22935d93@46.246.34.14:8443?security=tls&encryption=none&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=ams1.fromblancwithlove.com#%40filembad
-vmess://eyJhZGQiOiI2NS4xMDkuMjIxLjI0NSIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiIyZWU3ZWIyNi04MTE4LTRkMGEtYTMwMC04ZDBlZGNmZGU2ZTUiLCJpbnNlY3VyZSI6IjAiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiL0JlZ29vX1ZQTi9CZWdvb19WUE4vQmVnb29fVlBOL0JlZ29vX1ZQTi9CZWdvb19WUE4vQmVnb29fVlBOL0JlZ29vX1ZQTi9CZWdvb19WUE4vQmVnb29fVlBOL0JlZ29vX1ZQTi9CZWdvb19WUE4vQmVnb29fVlBOL0JlZ29vX1ZQTiIsInBvcnQiOiIzMzM2NiIsInBzIjoiQGZpbGVtYmFkIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIifQ==
-vless://394f6981-a782-4779-9a85-e6cf22935d93@46.246.34.162:8443?security=tls&encryption=none&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=ams1.fromblancwithlove.com#%40filembad
 vless://ce967499-9b55-480f-9d8e-6f2d37bba843@193.233.137.60:4111?mode=gun&security=reality&encryption=none&pbk=DW2C6G0T-udzyIjKtBHiEZFkJT1OE2AcQaGjnpI2pno&fp=qq&type=grpc&serviceName=yourServiceName&sni=www.icloud.com&sid=9e0df5878ac2f3c8#%40filembad
 vless://ce967499-9b55-480f-9d8e-6f2d37bba843@193.233.137.60:4111?mode=gun&security=reality&encryption=none&pbk=DW2C6G0T-udzyIjKtBHiEZFkJT1OE2AcQaGjnpI2pno&fp=qq&type=grpc&serviceName=yourServiceName&sni=www.icloud.com&sid=9e0df5878ac2f3c8#🇫🇮FI-🚀@VPNine1
 vless://fa46aee0-69a8-4a9a-a330-518077b6feab@45.38.41.237:443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=yEE21-pgEgQ9Ca4qLlFk9RAZh7qD6AQfQ8eQwc52SjM&security=reality&sid=2d&sni=www.yahoo.com&spx=/MdMy2KNUf16VvmG&type=tcp#🇫🇮FI-🚀@VPNine1
@@ -42,9 +46,7 @@ vless://0a64cb80-90f5-4848-ae33-debd0b45cde4@65.109.210.149:52219?type=tcp&encry
 vless://814ea8d7-d0b1-4508-841f-6f059d216149@65.109.210.149:52219?type=tcp&encryption=none&security=reality&pbk=cKE3i_J1asS5PgauqF-Ci8OlabLXmfUo1KaJ0Kc_rWQ&fp=chrome&sni=www.nvidia.com&sid=f8&spx=/&flow=xtls-rprx-vision#🇫🇮FI-🚀@VPNine1
 vless://04c96001-0fdc-4940-8cdc-182b9c1077d9@65.109.210.149:52219?type=tcp&encryption=none&security=reality&pbk=cKE3i_J1asS5PgauqF-Ci8OlabLXmfUo1KaJ0Kc_rWQ&fp=chrome&sni=www.nvidia.com&sid=f8&spx=/&flow=xtls-rprx-vision#🇫🇮FI-🚀@VPNine1
 vless://6fb6d8c7-6a43-41a9-9c94-755c0ebf6e56@65.109.210.149:2096?security=reality&encryption=none&pbk=cKE3i_J1asS5PgauqF-Ci8OlabLXmfUo1KaJ0Kc_rWQ&headerType=&fp=chrome&spx=/y0ND1SMx88iXEwa&type=tcp&flow=xtls-rprx-vision&sni=www.nvidia.com&sid=0a1b#@DeltaKroneckerGithub
-vless://0970ff22-ef41-4dce-b05c-0ba0d1f73e67@fi.mobileemdad.top:42538?encryption=none&security=none&type=tcp&headerType=http&path=/&host=fi.mobileemdad.top#🇫🇮FI-🚀@VPNine1
 vmess://eyJhZGQiOiAiOTUuMjE3LjE3NS4yMjEiLCAiaWQiOiAiNjNlNDY5YTQtNjU2OC00MjU1LThhNmMtZWU0MWU2MjRlN2ZlIiwgIm5ldCI6ICJ0Y3AiLCAicG9ydCI6IDE0OTkxLCAicHMiOiAiXHVkODNjXHVkZGViXHVkODNjXHVkZGVlRkktXHVkODNkXHVkZTgwQFZQTmluZTEiLCAic2N5IjogIiIsICJ0bHMiOiAibm9uZSIsICJ0eXBlIjogIm5vbmUiLCAidiI6ICIyIn0=
-vless://0970ff22-ef41-4dce-b05c-0ba0d1f73e67@finland.nonpath.ir:42542?encryption=none&security=none&type=tcp&headerType=http&path=/&host=play.google.com#🇫🇮FI-🚀@VPNine1
 vmess://eyJhZGQiOiAiOTUuMjE3LjE3NS4xNzAiLCAiaWQiOiAiNjNlNDY5YTQtNjU2OC00MjU1LThhNmMtZWU0MWU2MjRlN2ZlIiwgIm5ldCI6ICJ0Y3AiLCAicG9ydCI6IDE0OTkxLCAicHMiOiAiXHVkODNjXHVkZGViXHVkODNjXHVkZGVlRkktXHVkODNkXHVkZTgwQFZQTmluZTEiLCAic2N5IjogIiIsICJ0bHMiOiAibm9uZSIsICJ0eXBlIjogIm5vbmUiLCAidiI6ICIyIn0=
 vless://3e93ee06-7e40-48d6-a40b-e185fab4e84c@65.109.177.59:443?encryption=none&security=reality&sni=www.sony.com&fp=chrome&pbk=9lGHXwAIoUGzps6JuhDhQVmcu3-pVce7IBdy05V6OFo&sid=46e93dfd&spx=/PgSko4I56M8Si16&type=tcp&headerType=none#🇫🇮FI-🚀@VPNine1
 vless://77f1f68f-3629-4d93-9014-f18baf20b943@wizi.wizardx1.com:8086?encryption=none&security=reality&type=tcp&headerType=none&sni=www.speedtest.net&fp=chrome&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc#🇩🇪DE-🚀@VPNine1
@@ -52,6 +54,7 @@ vless://77f1f68f-3629-4d93-9014-f18baf20b943@wizi.wizardx1.com:2045?encryption=n
 vless://631ae4e0-da9a-4d17-8c7d-c96d0bfb40d5@45.38.41.9:555?encryption=none&fp=chrome&pbk=XjZAyaenH5YE8T41tWUdyJoG6D_fSZSoFgjRjpa0yDI&security=reality&sid=ad&sni=www.google.com&spx=/YSd6Cmmhvlmrkbf&type=tcp#🇫🇮FI-🚀@VPNine1
 vless://ff2418b7-8696-4dcb-a85f-4c241be58fc8@31.56.179.20:8569?type=tcp&encryption=none&security=reality&pbk=WcBqCGRtATszTpPPIXF3aIoB1fPyoChIJJS2XGkxhH0&fp=chrome&sni=www.canva.com&sid=508f4008&spx=/#🇫🇮FI-🚀@VPNine1
 vless://ff2418b7-8696-4dcb-a85f-4c241be58fc8@31.56.179.20:8569?type=tcp&encryption=none&security=reality&pbk=WcBqCGRtATszTpPPIXF3aIoB1fPyoChIJJS2XGkxhH0&fp=chrome&sni=www.canva.com&sid=508f4008&spx=%2F#Test
-vless://49b9b2fc-707d-4f77-a3af-e861845108cc@violin.novamusic.site:42542?encryption=none&security=none&type=tcp&headerType=http&path=/&host=play.google.com#🇩🇪DE-🚀@VPNine1
+vless://3007b043-acdf-43a4-900e-c7c015406f89@193.233.23.196:26048?security=&encryption=none&headerType=none&type=tcp#[🇫🇮]t.me/ConfigsHub
+vless://e8bf51de-efc9-42a4-be50-1a6bc3170c63@85.192.49.10:443?flow=xtls-rprx-vision&fp=firefox&pbk=PELuW4m1_4d0YSyJUlix9sKHz_lXtsh8s3s2MbMANgg&security=reality&sid=a1b2c3d4&sni=pimg.mycdn.me&type=tcp#%F0%9F%87%AB%F0%9F%87%AE%20Finland%2C%20Helsinki%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
 vless://394f6981-a782-4779-9a85-e6cf22935d93@46.246.34.172:8443?security=tls&encryption=none&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=ams1.fromblancwithlove.com#@DeltaKroneckerGithub
 trojan://8r%3C%5B9%27l6hAO%238ZQi@46.8.237.174:8443?allowInsecure=0&sni=Koma-YT.PAGeS.Dev#@DeltaKroneckerGithub
