@@ -1,212 +1,4 @@
 {
-  "172.64.153.100": {
-    "country": "CA",
-    "ts": 1781141814
-  },
-  "64.176.4.154": {
-    "country": "CL",
-    "ts": 1781141814
-  },
-  "64.176.10.195": {
-    "country": "CL",
-    "ts": 1781141814
-  },
-  "104.31.16.31": {
-    "country": "CA",
-    "ts": 1781141814
-  },
-  "104.24.166.225": {
-    "country": "CA",
-    "ts": 1781141814
-  },
-  "2.26.78.18": {
-    "country": "US",
-    "ts": 1781141814
-  },
-  "188.114.96.66": {
-    "country": "CA",
-    "ts": 1781141814
-  },
-  "172.64.153.105": {
-    "country": "CA",
-    "ts": 1781141814
-  },
-  "89.167.80.120": {
-    "country": "FI",
-    "ts": 1781141814
-  },
-  "104.21.38.220": {
-    "country": "CA",
-    "ts": 1781141814
-  },
-  "damp-sound-f99c.golamirreza19954312.workers.dev": {
-    "country": "CA",
-    "ts": 1781141814
-  },
-  "64.176.15.110": {
-    "country": "CL",
-    "ts": 1781141814
-  },
-  "46.224.2.35": {
-    "country": "DE",
-    "ts": 1781141814
-  },
-  "104.24.218.41": {
-    "country": "CA",
-    "ts": 1781141814
-  },
-  "158.160.155.249": {
-    "country": "RU",
-    "ts": 1781141814
-  },
-  "172.67.151.222": {
-    "country": "CA",
-    "ts": 1781141814
-  },
-  "172.64.153.150": {
-    "country": "CA",
-    "ts": 1781141814
-  },
-  "45.198.87.84": {
-    "country": "DE",
-    "ts": 1781141814
-  },
-  "64.49.46.222": {
-    "country": "HK",
-    "ts": 1781141814
-  },
-  "5.61.24.228": {
-    "country": "IR",
-    "ts": 1781141814
-  },
-  "45.153.190.26": {
-    "country": "RU",
-    "ts": 1781141814
-  },
-  "187.124.98.130": {
-    "country": "IN",
-    "ts": 1781141814
-  },
-  "194.147.149.214": {
-    "country": "NL",
-    "ts": 1781141814
-  },
-  "31.56.188.60": {
-    "country": "AE",
-    "ts": 1781141814
-  },
-  "45.141.118.146": {
-    "country": "GB",
-    "ts": 1781141814
-  },
-  "207.241.172.215": {
-    "country": "US",
-    "ts": 1781141814
-  },
-  "217.149.29.60": {
-    "country": "RU",
-    "ts": 1781141814
-  },
-  "147.45.235.51": {
-    "country": "RU",
-    "ts": 1781141814
-  },
-  "45.144.30.150": {
-    "country": "RU",
-    "ts": 1781141814
-  },
-  "45.151.70.66": {
-    "country": "RU",
-    "ts": 1781141814
-  },
-  "199.232.47.99": {
-    "country": "US",
-    "ts": 1781141814
-  },
-  "199.36.158.10": {
-    "country": "US",
-    "ts": 1781141814
-  },
-  "2.26.118.38": {
-    "country": "DE",
-    "ts": 1781141814
-  },
-  "nl.tgru.in": {
-    "country": "NL",
-    "ts": 1781141814
-  },
-  "87.228.52.147": {
-    "country": "RU",
-    "ts": 1781141814
-  },
-  "212.104.141.184": {
-    "country": "US",
-    "ts": 1781141814
-  },
-  "23.141.52.196": {
-    "country": "US",
-    "ts": 1781141814
-  },
-  "dir-1.varzesh3.com.de": {
-    "country": "FI",
-    "ts": 1781141814
-  },
-  "nl.locklance.lol": {
-    "country": "NL",
-    "ts": 1781141814
-  },
-  "46.29.142.57": {
-    "country": "HU",
-    "ts": 1781141814
-  },
-  "s5.db-link.in": {
-    "country": "TW",
-    "ts": 1781141814
-  },
-  "hu2.vpnjantit.com": {
-    "country": "HU",
-    "ts": 1781141814
-  },
-  "ro.maximum-vpn.com": {
-    "country": "RO",
-    "ts": 1781141814
-  },
-  "hype-1.topupaxme.icu": {
-    "country": "RU",
-    "ts": 1781141814
-  },
-  "sgp-nf-1.akijp.cloud": {
-    "country": "SG",
-    "ts": 1781141814
-  },
-  "us.americanprime.vip": {
-    "country": "US",
-    "ts": 1781141814
-  },
-  "at.maximum-vpn.com": {
-    "country": "AT",
-    "ts": 1781141814
-  },
-  "fast19.coretraffic.org": {
-    "country": "RU",
-    "ts": 1781141814
-  },
-  "cz.pink-service.ru": {
-    "country": "GB",
-    "ts": 1781141814
-  },
-  "tr.pink-service.ru": {
-    "country": "TR",
-    "ts": 1781141814
-  },
-  "netherland.soft26.ir": {
-    "country": "NL",
-    "ts": 1781141814
-  },
-  "freeus.locklance.lol": {
-    "country": "US",
-    "ts": 1781141814
-  },
   "45.82.14.144": {
     "country": "KZ",
     "ts": 1781159122
@@ -45338,5 +45130,101 @@
   "s2.dipvpn.ru": {
     "country": "FI",
     "ts": 1782351419
+  },
+  "dnot-connect": {
+    "country": "UNKNOWN",
+    "ts": 1782366653
+  },
+  "YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDVANTQuMTk5LjE1LjcwOjQ0Mw==#[🏁]t.me": {
+    "country": "UNKNOWN",
+    "ts": 1782366653
+  },
+  "shhproxy.varzesh3-cnd.site": {
+    "country": "UNKNOWN",
+    "ts": 1782366653
+  },
+  "endpoint.vipdatanetwork.com": {
+    "country": "DE",
+    "ts": 1782366653
+  },
+  "104.24.218.41": {
+    "country": "CA",
+    "ts": 1782366653
+  },
+  "91.107.183.8": {
+    "country": "DE",
+    "ts": 1782366653
+  },
+  "170.114.46.6": {
+    "country": "US",
+    "ts": 1782366653
+  },
+  "172.67.128.253": {
+    "country": "CA",
+    "ts": 1782366653
+  },
+  "51.91.248.253": {
+    "country": "FR",
+    "ts": 1782366653
+  },
+  "38.110.1.246": {
+    "country": "US",
+    "ts": 1782366653
+  },
+  "64.225.72.24": {
+    "country": "NL",
+    "ts": 1782366653
+  },
+  "104.27.119.148": {
+    "country": "CA",
+    "ts": 1782366653
+  },
+  "zeus-panel-g75bgi.zeus-1e8zqa.workers.dev": {
+    "country": "CA",
+    "ts": 1782366653
+  },
+  "172.67.139.85": {
+    "country": "CA",
+    "ts": 1782366653
+  },
+  "45.144.51.67": {
+    "country": "PL",
+    "ts": 1782366653
+  },
+  "103.240.147.113": {
+    "country": "IT",
+    "ts": 1782366653
+  },
+  "104.20.46.193": {
+    "country": "CA",
+    "ts": 1782366653
+  },
+  "nl.fast-cone.com": {
+    "country": "NL",
+    "ts": 1782366653
+  },
+  "185.17.0.39": {
+    "country": "RU",
+    "ts": 1782366653
+  },
+  "myip.check.nonpath.ir": {
+    "country": "TR",
+    "ts": 1782366653
+  },
+  "54.250.183.37": {
+    "country": "JP",
+    "ts": 1782366653
+  },
+  "104.167.197.97": {
+    "country": "US",
+    "ts": 1782366653
+  },
+  "afrcloud22.mmv.kr": {
+    "country": "CA",
+    "ts": 1782366654
+  },
+  "ip.shakhle.ir": {
+    "country": "CA",
+    "ts": 1782366654
   }
 }
