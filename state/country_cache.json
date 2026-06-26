@@ -1,200 +1,4 @@
 {
-  "172.67.153.234": {
-    "country": "CA",
-    "ts": 1781218627
-  },
-  "85.234.73.63": {
-    "country": "AE",
-    "ts": 1781218627
-  },
-  "91.107.154.222": {
-    "country": "DE",
-    "ts": 1781218627
-  },
-  "77.110.114.75": {
-    "country": "US",
-    "ts": 1781218627
-  },
-  "162.159.235.240": {
-    "country": "CA",
-    "ts": 1781218627
-  },
-  "104.24.164.8": {
-    "country": "CA",
-    "ts": 1781218627
-  },
-  "olds-1.lubbs.de": {
-    "country": "CA",
-    "ts": 1781218627
-  },
-  "104.16.188.40": {
-    "country": "CA",
-    "ts": 1781218627
-  },
-  "45.131.5.144": {
-    "country": "BZ",
-    "ts": 1781218627
-  },
-  "104.19.105.108": {
-    "country": "CA",
-    "ts": 1781218627
-  },
-  "172.66.193.207": {
-    "country": "CA",
-    "ts": 1781218627
-  },
-  "104.16.190.140": {
-    "country": "CA",
-    "ts": 1781218627
-  },
-  "104.17.248.9": {
-    "country": "CA",
-    "ts": 1781218627
-  },
-  "104.16.194.109": {
-    "country": "CA",
-    "ts": 1781218627
-  },
-  "94.237.115.30": {
-    "country": "FI",
-    "ts": 1781218627
-  },
-  "89.251.8.203": {
-    "country": "TR",
-    "ts": 1781218627
-  },
-  "104.21.15.105": {
-    "country": "CA",
-    "ts": 1781218627
-  },
-  "172.67.145.191": {
-    "country": "CA",
-    "ts": 1781218627
-  },
-  "45.130.125.6": {
-    "country": "SC",
-    "ts": 1781218627
-  },
-  "104.16.191.196": {
-    "country": "CA",
-    "ts": 1781218627
-  },
-  "172.67.159.147": {
-    "country": "CA",
-    "ts": 1781218627
-  },
-  "77.90.60.136": {
-    "country": "DE",
-    "ts": 1781218627
-  },
-  "178.248.238.91": {
-    "country": "AE",
-    "ts": 1781218627
-  },
-  "104.18.0.100": {
-    "country": "CA",
-    "ts": 1781218627
-  },
-  "154.92.9.171": {
-    "country": "CY",
-    "ts": 1781218627
-  },
-  "free.server6peekconfig.workers.dev": {
-    "country": "CA",
-    "ts": 1781218627
-  },
-  "191.44.118.101": {
-    "country": "DE",
-    "ts": 1781218627
-  },
-  "m1vp.meytii.xyz": {
-    "country": "DE",
-    "ts": 1781218627
-  },
-  "172.64.229.224": {
-    "country": "CA",
-    "ts": 1781218627
-  },
-  "82.115.16.58": {
-    "country": "DE",
-    "ts": 1781218627
-  },
-  "172.64.159.52": {
-    "country": "CA",
-    "ts": 1781218627
-  },
-  "104.21.53.183": {
-    "country": "CA",
-    "ts": 1781218627
-  },
-  "mng.artmn.site": {
-    "country": "IR",
-    "ts": 1781218627
-  },
-  "212.67.12.8": {
-    "country": "RU",
-    "ts": 1781218627
-  },
-  "164.92.207.154": {
-    "country": "DE",
-    "ts": 1781218627
-  },
-  "93.123.11.62": {
-    "country": "GB",
-    "ts": 1781218627
-  },
-  "167.233.61.17": {
-    "country": "DE",
-    "ts": 1781218627
-  },
-  "13.159.19.79": {
-    "country": "JP",
-    "ts": 1781218627
-  },
-  "ghahve.nikanix.lol": {
-    "country": "CA",
-    "ts": 1781218627
-  },
-  "152.53.193.215": {
-    "country": "US",
-    "ts": 1781218627
-  },
-  "pc.amirxshot.ir": {
-    "country": "CA",
-    "ts": 1781218627
-  },
-  "sca34.mysilipdir.com": {
-    "country": "IT",
-    "ts": 1781218627
-  },
-  "axs.amirxshot.ir": {
-    "country": "DE",
-    "ts": 1781218627
-  },
-  "library2.ketabkhane.dpdns.org": {
-    "country": "CA",
-    "ts": 1781218627
-  },
-  "5e0yC.c6tu5uwk9.buzz": {
-    "country": "CA",
-    "ts": 1781218627
-  },
-  "claiming.bimehmarkazi.qzz.io": {
-    "country": "CA",
-    "ts": 1781218627
-  },
-  "rekio.naxy.ir": {
-    "country": "DE",
-    "ts": 1781218627
-  },
-  "lumora15.playon.ir": {
-    "country": "CA",
-    "ts": 1781218627
-  },
-  "s2.tehranionliine.ir": {
-    "country": "IR",
-    "ts": 1781218627
-  },
   "162.159.152.149": {
     "country": "CA",
     "ts": 1781223727
@@ -46922,5 +46726,77 @@
   "francev1.sorcepack.ir": {
     "country": "FR",
     "ts": 1782427871
+  },
+  "eyJhZGQiOiIxNzAuNjQuMTI4LjkiLCJ2IjoyLCJwcyI6IvCfh6bwn4e6X0FVX+a+s+Wkp+WIqeS6ml8xMiIsInBvcnQiOiI4MDgwIiwiaWQiOiJiZGQyMjg0MS1jNGQyLTRhYTgtYWNmMi05NWFhOTEyNWYxNTkiLCJhaWQiOiIwIiwic2N5IjoiYXV0byIsIm5ldCI6IndzIiwidHlwZSI6IiIsInRscyI6InRscyIsInBhdGgiOiIvIn0=#[🏁]t.me": {
+    "country": "UNKNOWN",
+    "ts": 1782432711
+  },
+  "olds-1.lubbs.de": {
+    "country": "CA",
+    "ts": 1782432711
+  },
+  "85.133.240.19": {
+    "country": "IR",
+    "ts": 1782432711
+  },
+  "185.229.191.183": {
+    "country": "NL",
+    "ts": 1782432711
+  },
+  "172.66.162.109": {
+    "country": "CA",
+    "ts": 1782432711
+  },
+  "138.124.4.132": {
+    "country": "EE",
+    "ts": 1782432711
+  },
+  "axs.amirxshot.ir": {
+    "country": "DE",
+    "ts": 1782432711
+  },
+  "pl.viralforge.ru": {
+    "country": "PL",
+    "ts": 1782432711
+  },
+  "tr.freepath.ir": {
+    "country": "TR",
+    "ts": 1782432711
+  },
+  "V2rAy.SiMsPeEdUp.CoM": {
+    "country": "TH",
+    "ts": 1782432711
+  },
+  "188.95.12.226": {
+    "country": "BE",
+    "ts": 1782432711
+  },
+  "trktaklink.serendpiti.ir": {
+    "country": "TR",
+    "ts": 1782432711
+  },
+  "v2ray.simspeedup.com": {
+    "country": "TH",
+    "ts": 1782432711
+  },
+  "93.114.98.241": {
+    "country": "TR",
+    "ts": 1782432711
+  },
+  "85.234.84.162": {
+    "country": "LU",
+    "ts": 1782432711
+  },
+  "cdntrkkk.serendpiti.ir": {
+    "country": "CA",
+    "ts": 1782432711
+  },
+  "static.oneset.ir": {
+    "country": "CA",
+    "ts": 1782432711
+  },
+  "namavamovie.easyodin.ir": {
+    "country": "FI",
+    "ts": 1782432711
   }
 }
