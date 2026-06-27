@@ -1,3 +1,5 @@
+vless://37449985-a4a7-4c16-ae6c-464e46b4939e@khoroos4.helsinki2upload.shop:443?security=reality&encryption=none&pbk=H31-ZOmrmgdlPwXBr7K-NuEW5Ro3qAnXwS-W0gxsjxQ&headerType=none&fp=chrome&spx=%2FWmAS2BcSqmCQEO5&allowinsecure=0&type=tcp&sni=www.aparat.com&sid=cc441e7e540f#%40filembad
+vless://eab915bc-d2df-73d1-47d0-6eb240497055@ps2.dservice.ir:2095?path=%2FDL%3Fed%3D2053&security=&encryption=none&host=ps2.dservice.ir&type=ws#%40filembad
 vless://14685255-6257-41b5-87b2-9c0ae2f34c80@188.121.118.233:19376?encryption=none&security=none&type=tcp#%40filembad
 vless://67bc943b-00b1-4f94-8df6-2e9180b43bf6@188.121.118.233:19365?security=none&encryption=none&headerType=none&type=tcp#🇮🇷IR-🚀@VPNine1
 vless://08103371-4b64-419b-b78c-10bb96fb4536@95.38.186.27:443?mode=auto&pcs=610792abc1380f3fe53381ed3ba0c1a6a71a893755106d729b9d80e5930ae8be&security=tls&encryption=none&extra=%7B%22scMaxEachPostBytes%22%3A%2B1000000%2C%2B%22scMaxConcurrentPosts%22%3A%2B100%2C%2B%22scMinPostsIntervalMs%22%3A%2B30%2C%2B%22xPaddingBytes%22%3A%2B%22100-1000%22%2C%2B%22noGRPCHeader%22%3A%2Bfalse%7D&insecure=1&host=cdn.gapfilm.org&fp=chrome&type=xhttp&allowInsecure=1&sni=cdn.gapfilm.org#%40filembad
@@ -15,10 +17,8 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpZelMya20zMEZoTEtrVThR@ir9.nextping.xyz:44352
 vless://3ace64d9-05e7-4e8f-b130-9fcba76638e6@tun.w-ert.org:444?mode=auto&path=%2F&security=reality&encryption=none&pbk=woId47r1U8pEuDwHoC026bJHVWha2RHjufq1Kw3QoRU&fp=chrome&type=xhttp&sni=www.aparat.com&sid=ca4134a0ed2592b6#%40filembad
 vless://3ace64d9-05e7-4e8f-b130-9fcba76638e6@tun.w-ert.org:444?mode=auto&path=/&security=reality&encryption=none&pbk=woId47r1U8pEuDwHoC026bJHVWha2RHjufq1Kw3QoRU&fp=chrome&type=xhttp&sni=www.aparat.com&sid=ca4134a0ed2592b6#🇮🇷IR-🚀@VPNine1
 vless://6bfd7636-da3f-4e6f-ad6c-c45f53ce00c8@tun.w-ert.org:444?encryption=none&security=reality&type=xhttp&headerType=none&path=/&mode=auto&sni=www.aparat.com&fp=chrome&pbk=woId47r1U8pEuDwHoC026bJHVWha2RHjufq1Kw3QoRU&sid=ca4134a0ed2592b6#🇮🇷IR-🚀@VPNine1
-vless://3ace64d9-05e7-4e8f-b130-9fcba76638e6@tun.w-ert.org:444?mode=auto&path=%2F&security=reality&encryption=none&pbk=woId47r1U8pEuDwHoC026bJHVWha2RHjufq1Kw3QoRU&fp=chrome&type=xhttp&sni=www.aparat.com&sid=ca4134a0ed2592b6#[🇮🇷]t.me/ConfigsHub
-vless://0e24de3d-d9f4-4842-b9a0-5201a0fa4a23@tun3.w-ert.org:442?encryption=none&security=reality&type=xhttp&headerType=none&path=%2F&mode=auto&sni=www.aparat.com&fp=chrome&pbk=woId47r1U8pEuDwHoC026bJHVWha2RHjufq1Kw3QoRU&sid=ca4134a0ed2592b6#%40filembad
+vless://7ea1b456-86b2-450d-9215-486b11276f22@185.206.95.22:17735?encryption=none&security=none&type=tcp#🇮🇷IR-🚀@VPNine1
 vless://a3087447-269f-43c5-a5f9-d5686f452612@185.143.233.5:2082?path=/&security=none&encryption=none&host=cdn.mizbanertebatfarda.ir&type=ws#🇮🇷IR-🚀@VPNine1
-vless://a3087447-269f-43c5-a5f9-d5686f452612@185.143.233.5:2082?path=%2F&security=none&encryption=none&host=cdn.mizbanertebatfarda.ir&type=ws#[🇮🇷]t.me/ConfigsHub
 vless://0fb86db2-a2bd-44a6-03fe-7b2cd4d1f367@s2.zynavo.ir:2087?mode=auto&path=/BetForward&security=tls&alpn=h3,h2,http/1.1&encryption=none&insecure=1&host=cdn.zynavo.ir&fp=chrome&type=xhttp&allowInsecure=1&sni=cdn.zynavo.ir#🇮🇷IR-🚀@VPNine1
 vless://b258bb67-0d9f-43f1-033b-18f6e8263a1e@s2.zynavo.ir:2087?encryption=none&security=tls&sni=cdn.zynavo.ir&fp=chrome&alpn=h3,h2,http/1.1&insecure=1&allowInsecure=1&type=xhttp&host=cdn.zynavo.ir&path=/BetForward&mode=auto#🇮🇷IR-🚀@VPNine1
 vless://59582f51-e808-4214-4aa2-2625f687170e@s2.zynavo.ir:2087?mode=auto&path=/BetForward&security=tls&alpn=h3,h2,http/1.1&encryption=none&insecure=1&host=cdn.zynavo.ir&fp=chrome&type=xhttp&allowInsecure=1&sni=cdn.zynavo.ir#🇮🇷IR-🚀@VPNine1
@@ -51,11 +51,8 @@ trojan://8tj7ffjlp4fnof1r@speedgate.dezhawo.ir:8443?fp=chrome&pbk=RRhhzaYH5WVK0w
 vless://587df7a3-1818-4351-8a55-43d0101f178d@n.hiraclub.ir:2082?type=ws&encryption=none&path=/&host=&security=none#🇮🇷IR-🚀@VPNine1
 vless://fdfa6120-6f97-4153-ac3d-979d9ecae058@193.151.141.36:2026?type=tcp&%3Bencryption=none&%3Bsecurity=none#🇮🇷IR-🚀@VPNine1
 vless://60bcdc9e-9dbc-405e-a3c3-abacb65d017f@iran.mersconnect.ir:8392?security=reality&encryption=none&pbk=lczfo2hU9dpq63bCK26_3V0dZwQWu_5vrScV6AUDyQU&headerType=none&fp=chrome&type=tcp&sni=www.oracle.com&sid=1664#🇮🇷IR-🚀@VPNine1
-ss://YWVzLTI1Ni1nY206cCtzc2xUdlBSNWpVdUVDWndqYVRMWmlJbUpQVG5jL0J0NG43YytoMXZ5Zz0%3D@85.198.9.136:443#🇮🇷IR-🚀@VPNine1
-ss://YWVzLTI1Ni1nY206cCtzc2xUdlBSNWpVdUVDWndqYVRMWmlJbUpQVG5jL0J0NG43YytoMXZ5Zz0=@85.198.9.136:443#🇮🇷IR-🚀@VPNine1
-vless://3a40f6b1-8915-4f26-a9d7-a14cff2d497a@94.183.181.7:3803?encryption=none&security=none&type=tcp&headerType=none#[🇮🇷]t.me/ConfigsHub
-vless://eab915bc-d2df-73d1-47d0-6eb240497055@ps2.dservice.ir:2095?path=%2FDL%3Fed%3D2053&security=none&encryption=none&host=ps2.dservice.ir&type=ws#[🇮🇷]t.me/ConfigsHub
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo4cFQ1OWVicjN6dERRQ3FI@bfqji.Packetnet.de:22807#%40best_internet_iran%E2%9A%A1
+vless://65a998d5-b0f7-4bcf-8455-c53d0e553945@95.38.195.30:24559?type=tcp&encryption=none&security=none#%D8%A7%DA%AF%D9%87%20%D9%85%DB%8C%D8%AE%D9%88%D8%A7%DB%8C%20%D9%82%D8%B7%D8%B9%20%D9%86%D8%B4%DB%8C%20%D8%AC%D9%88%DB%8C%D9%86%20%D8%B4%D9%88%20%3A%20%40farsiproxy
 trojan://humanity@2.144.21.112:40443?path=%2Fassignment&security=tls&insecure=0&host=www.ignitelimit.com&type=ws&allowInsecure=0&sni=www.ignitelimit.com#%F0%9F%87%AB%F0%9F%87%B7%20France%2C%20Paris%20%7C%20%5BBL%5D
 ss://bm9uZTpSU3pFSWtrMkVzSEVBVmoxNU41RS9BPT0=@185.188.106.10:443#@DeltaKroneckerGithub
 ss://bm9uZTpSU3pFSWtrMkVzSEVBVmoxNU41RS9BPT0=@185.188.104.12:443#@DeltaKroneckerGithub
