@@ -1,8 +1,6 @@
 vless://eab915bc-d2df-73d1-47d0-6eb240497055@ps2.dservice.ir:2095?path=%2FDL%3Fed%3D2053&security=&encryption=none&host=ps2.dservice.ir&type=ws#%40filembad
-vless://eab915bc-d2df-73d1-47d0-6eb240497055@ps2.dservice.ir:2095?path=%2FDL%3Fed%3D2053&security=&encryption=none&host=ps2.dservice.ir&type=ws#[🇮🇷]t.me/ConfigsHub
 vless://eab915bc-d2df-73d1-47d0-6eb240497055@ps5.topmarket1.ir:8880?path=%2FDL%3Fed%3D2053&security=&encryption=none&host=ps5.topmarket1.ir&type=ws#%40filembad
 vless://eab915bc-d2df-73d1-47d0-6eb240497055@ps5.topmarket1.ir:8880?path=/DL?ed=2053&security=none&encryption=none&host=&type=ws#🇮🇷IR-🚀@VPNine1
-vless://eab915bc-d2df-73d1-47d0-6eb240497055@ps5.topmarket1.ir:8880?path=%2FDL%3Fed%3D2053&security=&encryption=none&host=ps5.topmarket1.ir&type=ws#[🇮🇷]t.me/ConfigsHub
 vless://eab915bc-d2df-73d1-47d0-6eb240497055@ps5.topmarket1.ir:8880?path=%2FDL%3Fed%3D2053&security=none&encryption=none&host=ps5.topmarket1.ir&type=ws#%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%2C%20London%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
 vless://eab915bc-d2df-73d1-47d0-6eb240497055@ps5.topmarket1.ir:8880?Telegram=@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad&path=%2FDL%3Fed%3D2053&security=none&encryption=none&host=&type=ws#%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%2C%20London%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
 vless://fda185e3-67a0-4b36-a761-45a7f8c3d666@xonline.sbs:8443?alpn=h2%2Chttp%2F1.1&encryption=none&extra=%7B%22xPaddingBytes%22%3A%22100-1000%22%7D&fp=chrome&host=x.xonline.sbs&mode=auto&path=%2Fdljdlanrof&security=tls&sni=x.xonline.sbs&type=xhttp&x_padding_bytes=100-1000#%40filembad
@@ -33,7 +31,6 @@ vless://26ac1dac-81ef-4892-4e17-e7b6181c24cc@s2.zynavo.ir:2087?mode=auto&path=/B
 vless://87df4771-f4ad-4221-0f62-df287ca60bbc@s2.zynavo.ir:2087?mode=auto&path=/BetForward&security=tls&alpn=h3,h2,http/1.1&encryption=none&insecure=1&host=cdn.zynavo.ir&fp=chrome&type=xhttp&allowInsecure=1&sni=cdn.zynavo.ir#🇮🇷IR-🚀@VPNine1
 vless://09b9f957-201b-4b1d-0d8c-bae93d36dc76@s2.zynavo.ir:2087?mode=auto&path=/BetForward&security=tls&alpn=h3,h2,http/1.1&encryption=none&insecure=1&host=cdn.zynavo.ir&fp=chrome&type=xhttp&allowInsecure=1&sni=cdn.zynavo.ir#🇮🇷IR-🚀@VPNine1
 vless://4a5935af-4493-448d-e1c1-90caed9cf0a1@s2.zynavo.ir:2087?mode=auto&path=/BetForward&security=tls&alpn=h3,h2,http/1.1&encryption=none&insecure=1&host=cdn.zynavo.ir&fp=chrome&type=xhttp&allowInsecure=1&sni=cdn.zynavo.ir#🇮🇷IR-🚀@VPNine1
-vless://bff0d795-7b8c-4638-8a58-10443e96f1d7@s2.zynavo.ir:2087?mode=auto&path=/BetForward&security=tls&alpn=h3,h2,http/1.1&encryption=none&insecure=1&host=cdn.zynavo.ir&fp=chrome&type=xhttp&allowInsecure=1&sni=cdn.zynavo.ir#🇮🇷IR-🚀@VPNine1
 vless://2484e0e4-15d5-4596-501b-aa623930acb9@s2.zynavo.ir:2087?mode=auto&path=%2FBetForward&security=tls&alpn=h3%2Ch2%2Chttp%2F1.1&encryption=none&insecure=1&host=cdn.zynavo.ir&fp=chrome&type=xhttp&allowInsecure=1&sni=cdn.zynavo.ir#%D8%A7%DA%AF%D9%87%20%D9%85%DB%8C%D8%AE%D9%88%D8%A7%DB%8C%20%D9%82%D8%B7%D8%B9%20%D9%86%D8%B4%DB%8C%20%D8%AC%D9%88%DB%8C%D9%86%20%D8%B4%D9%88%20%3A%20%40farsiproxy
 trojan://R53uZPoBbv@cloud.n2team-iran.top:42804?security=none&type=tcp#🇮🇷IR-🚀@VPNine1
 ss://YWVzLTI1Ni1nY206TUdabVlqZGxZamhoTXpBd05qazBPREJtWm1KaFpXUmhZelUxT0RrMA@193.176.243.75:11116?prefix=%16%03%01%00%C2%A8%01%01#🇮🇷IR-🚀@VPNine1
@@ -43,6 +40,7 @@ vless://13b03c7d-9acd-4c9d-a1ec-aeee6fc368ab@app.wordqress.sbs:43596?security=&e
 vless://42e530c7-6870-4953-9538-650507e760ba@app.wordqress.sbs:43596?security=&encryption=none&headerType=&type=tcp#🇮🇷IR-🚀@VPNine1
 vless://662cfcf9-56b3-437b-a4cc-db3b2ff43244@www.arvancloud.ir:8080?encryption=none&host=vip.melotus.ir&path=/wss&security=none&type=ws#🇮🇷IR-🚀@VPNine1
 vless://4783d719-6dfc-475a-a6be-d779ecffaf26@185.143.235.200:80?path=/arvancloud.ir&security=none&encryption=none&host=taraneh.pointspeed.ir&type=ws#🇮🇷IR-🚀@VPNine1
+vless://c1d05f0a-c18c-4490-906c-42d2a20ce694@185.143.235.200:80?path=/arvancloud.ir&security=none&encryption=none&host=taraneh.pointspeed.ir&type=ws#[🇮🇷]t.me/ConfigsHub
 vless://4783d719-6dfc-475a-a6be-d779ecffaf26@185.143.235.200:80?path=%2Farvancloud.ir&security=none&encryption=none&host=taraneh.pointspeed.ir&type=ws#%40NETMelliAnti
 vless://42e530c7-6870-4953-9538-650507e760ba@81.12.54.106:43596?security=&encryption=none&headerType=&type=tcp#🇮🇷IR-🚀@VPNine1
 vless://fc7f5780-4c4e-11f1-a3f8-b58432c62d9c@arvan.jmovies.ir:8880?path=/?ed=2560&security=none&encryption=none&host=sv-2.jmovies.ir&type=ws#🇮🇷IR-🚀@VPNine1
@@ -62,9 +60,7 @@ vless://ba877bf6-fc84-4683-a3da-2b6cf17c736c@arvancloud.ir:80?encryption=none&ho
 vless://208e18ac-ef98-433b-ac51-eeea3ac3acfa@tuns.textin.ir:2096?alpn=http/1.1&insecure=0&host=tuns.textin.ir&fp=chrome&encryption=none&type=ws&allowInsecure=0&sni=tuns.textin.ir&path=/cdn-sync&security=tls#🇮🇷IR-🚀@VPNine1
 vless://57dd76e5-4588-4e45-8e7b-147092672b0f@cd3.videobazi.com:2053?path=/ws?ed=2560&security=tls&alpn=h3,h2,http/1.1&encryption=none&insecure=0&host=airb.app9.ir&fp=chrome&type=ws&allowInsecure=0&sni=airb.app9.ir#🇳🇱NL-🚀@VPNine1
 vless://74056a6c-5d51-40ce-9177-01f468b37cd9@edge.mcinet.live:443?security=reality&encryption=none&pbk=cF3Y4-bXsmD6TKJTETjCwsIesD3PoFE8YDprf-J67C8&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=telewebion.ir&sid=0123abcd#🇮🇷IR-🚀@VPNine1
-ss://9b4a2cd4-7d28-4ebe-d701-95723b811aff@ZULA.IR:80?path=%2FTelegram%3A%40NUFiLTER-Telegram%3A%40NUFiLTER-Telegram%3A%40NUFiLTER-Telegram%3A%40NUFiLTER-Telegram%3A%40NUFiLTER-Telegram%3A%40NUFiLTER-Telegram%3A%40NUFiLTER-Telegram%3A%40NUFiLTER-Telegram%3A%40NUFiLTER-Telegram%3A%40NUFiLTER-Telegram%3A%40NUFiLTER&security=none&encryption=none&host=xnsjsbsh-skcbdk.arashcamera.ir&type=ws#[🇮🇷]t.me/ConfigsHub
-ss://MjAyMi1ibGFrZTMtY2hhY2hhMjAtcG9seTEzMDU6SG56SU4xQ0xHR0VoK21EL3V6YmJ2VFFjL0FscStoa21yQzdQbzNENGs0RT0=@46.38.143.236:60633?note=@FreeOnlineVPN#[🇮🇷]t.me/ConfigsHub
-ss://7ea1b456-86b2-450d-9215-486b11276f22@185.206.95.22:17735?security=none&encryption=none&headerType=none&type=tcp#[🇮🇷]t.me/ConfigsHub
+vless://5f1683f3-20a8-4523-8620-b7212270350d@s5.tehranionliine.ir:80?path=/&security=none&encryption=none&type=ws#[🇮🇷]t.me/ConfigsHub
 trojan://MiTiVPN@45.131.4.118:443?path=%2FMiTiVPN%3DSe&security=tls&alpn=http%2F1.1&insecure=0&host=95r.ir&fp=firefox&type=ws&allowInsecure=0&sni=95r.ir#[🇮🇷]t.me/ConfigsHub
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo4cFQ1OWVicjN6dERRQ3FI@bfqji.Packetnet.de:22807#%40best_internet_iran%E2%9A%A1
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpZelMya20zMEZoTEtrVThR@ir9.nextping.xyz:44352#@DeltaKroneckerGithub
