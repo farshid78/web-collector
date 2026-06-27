@@ -1,88 +1,4 @@
 {
-  "91.107.159.245": {
-    "country": "DE",
-    "ts": 1781390048
-  },
-  "188.114.99.11": {
-    "country": "US",
-    "ts": 1781390048
-  },
-  "188.114.97.79": {
-    "country": "CA",
-    "ts": 1781390048
-  },
-  "93.114.98.239": {
-    "country": "TR",
-    "ts": 1781390048
-  },
-  "172.66.132.44": {
-    "country": "CA",
-    "ts": 1781390048
-  },
-  "188.114.99.205": {
-    "country": "US",
-    "ts": 1781390048
-  },
-  "188.114.99.134": {
-    "country": "US",
-    "ts": 1781390048
-  },
-  "188.114.97.8": {
-    "country": "CA",
-    "ts": 1781390048
-  },
-  "84.201.189.14": {
-    "country": "RU",
-    "ts": 1781390048
-  },
-  "fast2.datgame.ir": {
-    "country": "SC",
-    "ts": 1781390048
-  },
-  "Ioohjuhrgj.dadashinet3223.shop": {
-    "country": "TR",
-    "ts": 1781390048
-  },
-  "panel.hardvezoo.ir": {
-    "country": "DE",
-    "ts": 1781390048
-  },
-  "lumora30.playon.ir": {
-    "country": "CA",
-    "ts": 1781390049
-  },
-  "sdeovbmthdpwdlxsc.dadashinet10.ir": {
-    "country": "TR",
-    "ts": 1781390049
-  },
-  "13.40.24.152": {
-    "country": "GB",
-    "ts": 1781390049
-  },
-  "158.160.127.123": {
-    "country": "RU",
-    "ts": 1781390049
-  },
-  "84.201.146.104": {
-    "country": "RU",
-    "ts": 1781390049
-  },
-  "47.254.17.235": {
-    "country": "US",
-    "ts": 1781390049
-  },
-  "118.107.46.173": {
-    "country": "HK",
-    "ts": 1781390049
-  },
-  "akutgdecgh.dadashinet3223.shop": {
-    "country": "TR",
-    "ts": 1781390049
-  },
-  "kjkjkmarzgfsfjsbans.dadashinet10.ir": {
-    "country": "TR",
-    "ts": 1781390049
-  },
   "172.67.153.119": {
     "country": "CA",
     "ts": 1781394289
@@ -46118,5 +46034,93 @@
   "lb2.benyinglis1.com": {
     "country": "FI",
     "ts": 1782595959
+  },
+  "84.201.180.178": {
+    "country": "RU",
+    "ts": 1782600128
+  },
+  "91.99.231.218": {
+    "country": "DE",
+    "ts": 1782600128
+  },
+  "54.38.224.200": {
+    "country": "FR",
+    "ts": 1782600128
+  },
+  "54.250.165.160": {
+    "country": "JP",
+    "ts": 1782600128
+  },
+  "51.250.95.42": {
+    "country": "RU",
+    "ts": 1782600128
+  },
+  "103.238.213.96": {
+    "country": "VN",
+    "ts": 1782600128
+  },
+  "hfhh.hshsh7261.workers.dev": {
+    "country": "CA",
+    "ts": 1782600128
+  },
+  "52.199.164.162": {
+    "country": "JP",
+    "ts": 1782600128
+  },
+  "65.109.218.246": {
+    "country": "FI",
+    "ts": 1782600128
+  },
+  "84.201.164.23": {
+    "country": "RU",
+    "ts": 1782600128
+  },
+  "109.73.195.191": {
+    "country": "RU",
+    "ts": 1782600128
+  },
+  "185.251.89.168": {
+    "country": "RU",
+    "ts": 1782600128
+  },
+  "185.71.67.223": {
+    "country": "RU",
+    "ts": 1782600128
+  },
+  "84.201.131.127": {
+    "country": "RU",
+    "ts": 1782600128
+  },
+  "mci3.downbala.com": {
+    "country": "DE",
+    "ts": 1782600128
+  },
+  "13.230.201.208": {
+    "country": "JP",
+    "ts": 1782600128
+  },
+  "ZULA.IR": {
+    "country": "IR",
+    "ts": 1782600128
+  },
+  "dd.teain.org": {
+    "country": "SE",
+    "ts": 1782600128
+  },
+  "ee.janusgate.org": {
+    "country": "DE",
+    "ts": 1782600128
+  },
+  "gateru.janusgate.org": {
+    "country": "US",
+    "ts": 1782600128
+  },
+  "cdn.stroimvmeste.icu": {
+    "country": "RU",
+    "ts": 1782600128
+  },
+  "ehvip.93at.com": {
+    "country": "CA",
+    "ts": 1782600128
   }
 }
