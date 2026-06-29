@@ -1,4 +1,7 @@
-https://nova-swift-cloud-34e2.nova-e6ef64.workers.dev/sub?sub=amirpanel&key=7b8b8f192b6a&b64
+https://nova-orbit-stack-b203.nova-cd9ac8.workers.dev/sub?sub=xifitxci&key=52312cff0b82
+https://sub2.donyavps.ir:2096/sub/20e8fbb62f2719c3
+https://sub2.donyavps.ir:2096/sub/de7f0da5393c7104
+https://sub.donyavps.ir:2096/sub/1f3b40178e35b831
 https://raw.githubusercontent.com/LimeHi/LimeVPN/refs/heads/main/LimeVPN.txt
 https://raw.githubusercontent.com/patterniha/Serverless-for-Iran/refs/heads/main/Subscription/Serverless-for-Iran.json
 https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/Vless-Reality-White-Lists-Rus-Mobile.txt
