@@ -1,5 +1,6 @@
 vless://ea05c213-71cb-433f-99dc-060cb94fba07@snapp.ir:2086?type=ws&encryption=none&path=%2F&host=Pan122e.nexoratechcenter.ir&security=none#%40filembad
 vless://cd8af747-115f-403f-aa72-0ad3aac3ec2e@snapp.ir:8080?path=%2F&security=&encryption=none&host=arvan1.snllshop.ir&type=ws#%40filembad
+vless://ea05c213-71cb-433f-99dc-060cb94fba07@snapp.ir:2086?type=ws&encryption=none&path=/&host=Pan122e.nexoratechcenter.ir&security=none#🇮🇷IR-🚀@VPNine1
 trojan://33ws1asxa8vmbehw@snapp.ir:80?path=%2F&security=none&host=web.maxisup.ir&type=ws#Configs_FreeIran
 vless://cd8af747-115f-403f-aa72-0ad3aac3ec2e@snapp.ir:8080?path=%2F&security=&encryption=none&host=arvan1.snllshop.ir&type=ws#🔵@chillguy_vpn
 vless://9e082cb6-42aa-444b-80ed-05173cac9097@91.102.127.202:8924?encryption=none&fp=chrome&pbk=ybxaKzX5F8QbUeSN6mIEUIh9E_ZMcyIuOSsYgrNdK0A&security=reality&sid=6eb63f23&sni=yt.be&spx=%2FZPubkx742mvwDj6&type=tcp#%40filembad
@@ -10,6 +11,9 @@ trojan://MiTiVPN@45.131.4.115:443?path=%2FMiTiVPN%3DN-L&security=tls&alpn=h3%2Ch
 trojan://@45.131.4.115:443?type=ws&security=tls&path=/=N-L&host=Nl-L.App-Cloud.ir&sni=Nl-L.App-Cloud.ir&alpn=h3,h2,http/1.1&fp=chrome&insecure=0&allowInsecure=0#🇳🇱NL-🚀@VPNine1
 trojan://%4D%69%54%69%56%50%4E@45.131.4.115:443?path=/MiTiVPN=N-L&security=tls&alpn=h3,h2,http/1.1&insecure=0&host=Nl-L.App-Cloud.ir&fp=chrome&type=ws&allowInsecure=0&sni=Nl-L.App-Cloud.ir#🇳🇱NL-🚀@VPNine1
 trojan://MiTiVPN@45.131.4.115:443?path=/MiTiVPN=N-L&security=tls&alpn=h3,h2,http/1.1&sni=Nl-L.App-Cloud.ir&fp=chrome&type=ws&sni=Nl-L.App-Cloud.ir#%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%F0%9F%87%AB%F0%9F%87%B7%20%7C%20%5BBL%5D
+ss://YWVzLTI1Ni1nY206TWprME5tRTRaamxpTjJKa1pEZzJPR1F6TXpaaVltWmhaVFpqWWpreQ@193.176.243.75:9138?prefix=%16%03%01%00%C2%A8%01%01#🇮🇷IR-🚀@VPNine1
+vless://a3087447-269f-43c5-a5f9-d5686f452612@185.143.233.5:2082?path=/&security=none&encryption=none&host=cdn.mizbanertebatfarda.ir&type=ws#🇮🇷IR-🚀@VPNine1
+vless://a3087447-269f-43c5-a5f9-d5686f452612@185.143.233.5:2082?path=%2F&security=none&encryption=none&host=cdn.mizbanertebatfarda.ir&type=ws#%D8%A7%DA%AF%D9%87%20%D9%85%DB%8C%D8%AE%D9%88%D8%A7%DB%8C%20%D9%82%D8%B7%D8%B9%20%D9%86%D8%B4%DB%8C%20%D8%AC%D9%88%DB%8C%D9%86%20%D8%B4%D9%88%20%3A%20%40farsiproxy
 vless://24b8181c-9a7f-4562-d72b-8e4d34c75a5f@s1.zynavo.ir:2087?allowInsecure=1&alpn=h3,h2,http/1.1&encryption=none&extra=%7B%22mode%22:%22auto%22,%22xPaddingBytes%22:%22100-1000%22%7D&fp=chrome&host=sub.zynavo.ir&mode=auto&path=/BetForward&pcs=cfaf89f7dc2bc4364ecd891d7937642c0ae54a91536850ab6b32a68064c8b084&security=tls&sni=sub.zynavo.ir&type=xhttp&x_padding_bytes=100-1000#🇮🇷IR-🚀@VPNine1
 vless://5c00c141-856a-4439-56ec-e1ccffb310fe@s1.zynavo.ir:2087?mode=auto&path=#🇮🇷IR-🚀@VPNine1
 vless://4b8be562-7f46-4d98-be9a-408160f4add7@185.143.235.201:80?encryption=none&security=none&type=ws&headerType=none&path=/&host=t1i7.niropardaz.ir#🇮🇷IR-🚀@VPNine1
@@ -35,8 +39,6 @@ vless://b43cc996-4436-3779-b9ec-95f300000008@185.166.104.93:443?encryption=none&
 vless://56f35627-4f61-4b6c-bfc6-ecec18f80942@45.131.4.118:2087?alpn=http/1.1&encryption=none&fp=chrome&host=&path=/&security=tls&sni=api.devilishez.com&type=ws#🇳🇱NL-🚀@VPNine1
 vless://203819ee-8e88-4876-88b0-ca2001c68a43@188.213.196.201:2070?encryption=none&security=none&type=tcp#🇮🇷IR-🚀@VPNine1
 vless://991e8e3a-9c23-4855-816a-571fe3cf3856@217.144.107.202:28831?security=none&encryption=none&headerType=none&type=tcp#🇮🇷IR-🚀@VPNine1
-vless://ee961ac4-f366-4f86-b210-9f61bbb7201a@178.239.148.217:1198?security=reality&type=tcp&headerType=&path=&host=&sni=play.google.com&fp=chrome&pbk=9JlqfIsxCgGA1keNoE-HmYowjJ-bY3mjFCvCyU9nTT8&sid=abac515e4c72542d#🇮🇷IR-🚀@VPNine1
-vless://ac9b2102-53de-4e07-98e5-5aec6dee694b@188.213.198.238:7080?security=none&headerType=none&encryption=none&type=tcp#🇮🇷IR-🚀@VPNine1
 vless://15f918a6-fa3c-45cd-9d54-2e4d2d830bf6@193.151.135.64:4438?security=none&encryption=none&headerType=none&type=tcp#%40Configs_FreeIran
 vless://544129ad-a0bd-4af8-8887-5ff7c414217e@pishi.hardvezoo.ir:6026?security=none&type=ws&headerType=&path=&host=#%F0%9F%87%A8%F0%9F%87%A6%20%7C%20%F0%9D%90%82%F0%9D%90%9A%F0%9D%90%A7%F0%9D%90%9A%F0%9D%90%9D%F0%9D%90%9A%20%F0%9D%90%93%F0%9D%90%AE%F0%9D%90%A7%F0%9D%90%A7%F0%9D%90%9E%F0%9D%90%A5
 vless://544129ad-a0bd-4af8-8887-5ff7c414217e@pishi.hardvezoo.ir:7957?security=none&type=ws&headerType=&path=&host=#%F0%9F%87%AB%F0%9F%87%B7%20%7C%20%F0%9D%90%85%F0%9D%90%AB%F0%9D%90%9A%F0%9D%90%A7%F0%9D%90%9C%F0%9D%90%9E%20%F0%9D%90%93%F0%9D%90%94%F0%9D%90%8D%F0%9D%90%8D%F0%9D%90%84%F0%9D%90%8B%20
