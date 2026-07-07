@@ -1,144 +1,4 @@
 {
-  "188.164.248.193": {
-    "country": "NL",
-    "ts": 1782249382
-  },
-  "83.228.201.6": {
-    "country": "CH",
-    "ts": 1782249382
-  },
-  "91.193.58.246": {
-    "country": "GB",
-    "ts": 1782249382
-  },
-  "104.17.122.16": {
-    "country": "CA",
-    "ts": 1782249382
-  },
-  "151.101.0.60": {
-    "country": "CA",
-    "ts": 1782249382
-  },
-  "151.101.0.35": {
-    "country": "CA",
-    "ts": 1782249382
-  },
-  "188.255.236.134": {
-    "country": "SG",
-    "ts": 1782249382
-  },
-  "15.237.241.88": {
-    "country": "FR",
-    "ts": 1782249382
-  },
-  "zeus-panel-5kd9xf.peekconfigtelegram.workers.dev": {
-    "country": "CA",
-    "ts": 1782249382
-  },
-  "188.114.97.0": {
-    "country": "CA",
-    "ts": 1782249382
-  },
-  "167.233.87.60": {
-    "country": "DE",
-    "ts": 1782249382
-  },
-  "141.98.118.70": {
-    "country": "TR",
-    "ts": 1782249382
-  },
-  "185.191.118.33": {
-    "country": "DE",
-    "ts": 1782249382
-  },
-  "104.31.16.36": {
-    "country": "CA",
-    "ts": 1782249382
-  },
-  "176.125.231.5": {
-    "country": "AE",
-    "ts": 1782249382
-  },
-  "tr.talavpn.org": {
-    "country": "DE",
-    "ts": 1782249382
-  },
-  "da.mobileemdad.top": {
-    "country": "DE",
-    "ts": 1782249382
-  },
-  "172.93.146.210": {
-    "country": "US",
-    "ts": 1782249382
-  },
-  "206.189.135.13": {
-    "country": "IN",
-    "ts": 1782249382
-  },
-  "ips.it.mobileemdad.top": {
-    "country": "IT",
-    "ts": 1782249382
-  },
-  "37.156.45.168": {
-    "country": "CH",
-    "ts": 1782249382
-  },
-  "k5.adamak.top": {
-    "country": "IR",
-    "ts": 1782249382
-  },
-  "finland.nonpath.ir": {
-    "country": "FI",
-    "ts": 1782249382
-  },
-  "s1.gmax12.ir": {
-    "country": "IT",
-    "ts": 1782249382
-  },
-  "i.nonpath.ir": {
-    "country": "AE",
-    "ts": 1782249382
-  },
-  "am.nonpath.ir": {
-    "country": "FR",
-    "ts": 1782249382
-  },
-  "m247-br-01.live": {
-    "country": "BR",
-    "ts": 1782249382
-  },
-  "coco.lumin0usnet.shop": {
-    "country": "DE",
-    "ts": 1782249382
-  },
-  "zone.fi.linkora.ir": {
-    "country": "IR",
-    "ts": 1782249382
-  },
-  "aam1.pirghoch.ir": {
-    "country": "UNKNOWN",
-    "ts": 1782249382
-  },
-  "tr2.ips.gmax12.ir": {
-    "country": "TR",
-    "ts": 1782249382
-  },
-  "ns2.zabidat.ir": {
-    "country": "US",
-    "ts": 1782249382
-  },
-  "zone.tr.netlume.ir": {
-    "country": "IR",
-    "ts": 1782249382
-  },
-  "5a36450113d4f907.moparsia.ir": {
-    "country": "SE",
-    "ts": 1782249382
-  },
-  "cncdn.cc": {
-    "country": "SG",
-    "ts": 1782249383
-  },
   "82.38.31.203": {
     "country": "NL",
     "ts": 1782254475
@@ -46514,5 +46374,77 @@
   "sca26.myfymain.com": {
     "country": "UNKNOWN",
     "ts": 1783458001
+  },
+  "162.243.115.21": {
+    "country": "US",
+    "ts": 1783462732
+  },
+  "169.40.32.167": {
+    "country": "DE",
+    "ts": 1783462732
+  },
+  "104.18.117.71": {
+    "country": "CA",
+    "ts": 1783462732
+  },
+  "104.17.246.42": {
+    "country": "CA",
+    "ts": 1783462732
+  },
+  "143.198.31.221": {
+    "country": "US",
+    "ts": 1783462732
+  },
+  "64.177.65.95": {
+    "country": "IL",
+    "ts": 1783462732
+  },
+  "178.104.66.83": {
+    "country": "DE",
+    "ts": 1783462732
+  },
+  "153.52.92.148": {
+    "country": "US",
+    "ts": 1783462732
+  },
+  "ger.frdmhere.com": {
+    "country": "DE",
+    "ts": 1783462732
+  },
+  "media.frdmhere.com": {
+    "country": "DE",
+    "ts": 1783462732
+  },
+  "46.8.209.56": {
+    "country": "RU",
+    "ts": 1783462732
+  },
+  "185.86.145.231": {
+    "country": "RU",
+    "ts": 1783462732
+  },
+  "57.129.132.223": {
+    "country": "GB",
+    "ts": 1783462732
+  },
+  "37.9.4.38": {
+    "country": "RU",
+    "ts": 1783462732
+  },
+  "79.174.92.180": {
+    "country": "RU",
+    "ts": 1783462732
+  },
+  "reseau.proxy.rlwy.net": {
+    "country": "US",
+    "ts": 1783462732
+  },
+  "cc.ircybersec.org": {
+    "country": "CA",
+    "ts": 1783462732
+  },
+  "ns2.zabidat.ir": {
+    "country": "CA",
+    "ts": 1783462732
   }
 }
