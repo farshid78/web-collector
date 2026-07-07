@@ -7,11 +7,12 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxdzcyXzR2UzY4Z2U4aHQyVmpjMzdja0k@bot.sobhanp
 vless://599c9a3d-29e2-4a85-9159-eb92a96bdcba@bot.sobhanpor.ir:443?security=tls&encryption=none&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=bot.sobhanpor.ir#🇫🇮FI-🚀@VPNine1
 vless://ffb9d5b2-cbf8-4be1-ad65-c342f34a2e07@bot.sobhanpor.ir:443?security=tls&encryption=none&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=bot.sobhanpor.ir#🇫🇮FI-🚀@VPNine1
 trojan://Bpi3Yj8lqdWvz6I2JSAZhT57kx5QqTbG@193.233.136.157:2095?security=reality&type=tcp&headerType=none&sni=play.google.com&fp=chrome&pbk=0r2yv_VMH5jino3sZ6SF6vl4HhDf4BEyc3ybFbF1_V4&sid=eb769d7505cb9e86#%40filembad
+trojan://Bpi3Yj8lqdWvz6I2JSAZhT57kx5QqTbG@193.233.136.157:2095?security=reality&type=tcp&headerType=none&sni=play.google.com&fp=chrome&pbk=0r2yv_VMH5jino3sZ6SF6vl4HhDf4BEyc3ybFbF1_V4&sid=eb769d7505cb9e86#🇫🇮FI-🚀@VPNine1
 vless://0211eef0-efd0-4cfa-8301-ab074daa4775@31.57.62.87:666?security=reality&encryption=none&pbk=KnwRRMjFPJDtaGLg10ONkoEnRYgI7bNZchPU54aoOw&headerType=none&fp=chrome&spx=%2FeW3VTllMyTqNn44&type=tcp&sni=www.cloudflare.com&sid=f3#%40filembad
 vless://9b8a334b-e4e1-424c-99b4-4fd203ffb571@65.109.209.71:8442?encryption=none&security=reality&type=tcp&headerType=none&flow=xtls-rprx-vision&sni=play.google.com&fp=ios&pbk=vsk5Gct4zcJxWTgDqAj5wtv9dCa-Zk-uNVQHq44vFhI&sid=2a7f6b8788caca70#%40filembad
 vless://9b8a334b-e4e1-424c-99b4-4fd203ffb571@65.109.209.71:8441?encryption=none&security=none&type=tcp&headerType=http&path=%2F&host=play.google.com#%40filembad
 vless://9b8a334b-e4e1-424c-99b4-4fd203ffb571@65.109.209.71:8442?encryption=none&security=reality&type=tcp&headerType=none&flow=xtls-rprx-vision&sni=play.google.com&fp=ios&pbk=vsk5Gct4zcJxWTgDqAj5wtv9dCa-Zk-uNVQHq44vFhI&sid=2a7f6b8788caca70#🇫🇮FI-🚀@VPNine1
-vless://3559f1f7-7d70-46c9-82db-d2b46269300b@109.120.185.230:443?security=reality&encryption=none&pbk=1BdgrQ_esOEya01sDCBYK4MGpJgaUhssHQG-aWJkyFQ&host=%2F%3FBIA_TELEGRAM%40MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=dipvpn.ru#%40filembad
+vless://12ae6c88-273b-46a2-a941-b20c61badfa9@f1.parhamm1.ir:4001?encryption=none&security=reality&type=tcp&headerType=none&path=/favicon.ico&sni=wikipedia.org&fp=chrome&pbk=-iX3lVRjEk6pwISY7bhMVueewch6F3xSXo_cEkvQuk0&sid=5634ffbc9295b548#🇫🇮FI-🚀@VPNine1
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowQ1l2SjlaV1RaVmdSSTV5OXpSaHJT@195.133.2.2:34898#🇫🇮FI-🚀@VPNine1
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYNWRTTkhLTkl1WEpUWHV5WWxITEdn@195.133.2.2:34898#@DeltaKroneckerGithub
 vless://86c3eca1-a417-4a3f-95c0-a7b040f76a55@nok.iblamelooks.ir:443?encryption=none&host=play.google.com&path=/&security=none&type=ws#🇱🇻LV-🚀@VPNine1
