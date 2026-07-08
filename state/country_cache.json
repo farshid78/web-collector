@@ -1,200 +1,4 @@
 {
-  "104.252.53.31": {
-    "country": "FI",
-    "ts": 1782321427
-  },
-  "93.114.194.131": {
-    "country": "DE",
-    "ts": 1782321427
-  },
-  "167.82.101.213": {
-    "country": "US",
-    "ts": 1782321427
-  },
-  "172.66.44.137": {
-    "country": "CA",
-    "ts": 1782321427
-  },
-  "172.66.47.119": {
-    "country": "CA",
-    "ts": 1782321427
-  },
-  "gl1.guardiansangel.cv": {
-    "country": "DE",
-    "ts": 1782321427
-  },
-  "5.160.77.107": {
-    "country": "IR",
-    "ts": 1782321427
-  },
-  "pl4.guardiansangel.cv": {
-    "country": "PL",
-    "ts": 1782321427
-  },
-  "132.145.80.230": {
-    "country": "KR",
-    "ts": 1782321427
-  },
-  "mniuoi.serveirc.com": {
-    "country": "TR",
-    "ts": 1782321427
-  },
-  "underline.xp98.usdtbama.site": {
-    "country": "SG",
-    "ts": 1782321427
-  },
-  "82.38.31.192": {
-    "country": "NL",
-    "ts": 1782321427
-  },
-  "37.156.44.50": {
-    "country": "CH",
-    "ts": 1782321427
-  },
-  "104.17.0.1": {
-    "country": "CA",
-    "ts": 1782321427
-  },
-  "63.182.11.148": {
-    "country": "DE",
-    "ts": 1782321427
-  },
-  "45.130.125.20": {
-    "country": "SC",
-    "ts": 1782321427
-  },
-  "35.157.64.242": {
-    "country": "DE",
-    "ts": 1782321427
-  },
-  "zeus-panel-7rtl8g.zeus-uj1cvu.workers.dev": {
-    "country": "CA",
-    "ts": 1782321427
-  },
-  "90.156.254.164": {
-    "country": "LV",
-    "ts": 1782321427
-  },
-  "47.79.39.45": {
-    "country": "JP",
-    "ts": 1782321427
-  },
-  "54.253.37.164": {
-    "country": "AU",
-    "ts": 1782321427
-  },
-  "188.40.237.132": {
-    "country": "DE",
-    "ts": 1782321427
-  },
-  "151.101.128.223": {
-    "country": "CA",
-    "ts": 1782321427
-  },
-  "104.17.121.227": {
-    "country": "CA",
-    "ts": 1782321427
-  },
-  "147.182.212.232": {
-    "country": "US",
-    "ts": 1782321427
-  },
-  "18.194.191.87": {
-    "country": "DE",
-    "ts": 1782321427
-  },
-  "ez-81349f.ezaccess1f8f911.workers.dev": {
-    "country": "CA",
-    "ts": 1782321427
-  },
-  "82.38.31.207": {
-    "country": "NL",
-    "ts": 1782321427
-  },
-  "185.171.202.201": {
-    "country": "FR",
-    "ts": 1782321427
-  },
-  "51.158.206.93": {
-    "country": "NL",
-    "ts": 1782321427
-  },
-  "5.255.110.147": {
-    "country": "NL",
-    "ts": 1782321427
-  },
-  "185.143.233.68": {
-    "country": "IR",
-    "ts": 1782321427
-  },
-  "104.16.150.246": {
-    "country": "CA",
-    "ts": 1782321427
-  },
-  "46.4.162.63": {
-    "country": "DE",
-    "ts": 1782321427
-  },
-  "104.16.219.215": {
-    "country": "CA",
-    "ts": 1782321427
-  },
-  "89.22.238.213": {
-    "country": "SE",
-    "ts": 1782321427
-  },
-  "13.51.6.239": {
-    "country": "SE",
-    "ts": 1782321427
-  },
-  "94.156.112.71": {
-    "country": "DE",
-    "ts": 1782321427
-  },
-  "151.101.56.6": {
-    "country": "US",
-    "ts": 1782321427
-  },
-  "or-full.deepinsane.com": {
-    "country": "CA",
-    "ts": 1782321427
-  },
-  "kuame.missionsec.us": {
-    "country": "JP",
-    "ts": 1782321427
-  },
-  "62.152.60.158": {
-    "country": "RU",
-    "ts": 1782321427
-  },
-  "138.124.19.48": {
-    "country": "PL",
-    "ts": 1782321427
-  },
-  "argovpn.imanaghapour.ir": {
-    "country": "FR",
-    "ts": 1782321428
-  },
-  "sv3.wwwss-taro.ru": {
-    "country": "FI",
-    "ts": 1782321428
-  },
-  "itarmy.com.ua": {
-    "country": "CA",
-    "ts": 1782321428
-  },
-  "ger.ernesst.ir": {
-    "country": "TR",
-    "ts": 1782321428
-  },
-  "sefroyek.luckyvisa.ir": {
-    "country": "DE",
-    "ts": 1782321428
-  },
-  "www.spark.red": {
-    "country": "SG",
-    "ts": 1782321428
-  },
   "154.222.9.163": {
     "country": "DE",
     "ts": 1782327787
@@ -45530,5 +45334,125 @@
   "x4g-production-eaf4.up.railway.app": {
     "country": "US",
     "ts": 1783530391
+  },
+  "77.91.68.70": {
+    "country": "AM",
+    "ts": 1783536139
+  },
+  "x4g-production-5110.up.railway.app": {
+    "country": "US",
+    "ts": 1783536139
+  },
+  "151.101.34.144": {
+    "country": "US",
+    "ts": 1783536139
+  },
+  "179.237.75.21": {
+    "country": "CH",
+    "ts": 1783536139
+  },
+  "37.156.44.233": {
+    "country": "CH",
+    "ts": 1783536139
+  },
+  "pl.karzino-connected.com": {
+    "country": "PL",
+    "ts": 1783536139
+  },
+  "69.46.46.122": {
+    "country": "US",
+    "ts": 1783536139
+  },
+  "94.183.225.143": {
+    "country": "IR",
+    "ts": 1783536139
+  },
+  "x4g-production-135d.up.railway.app": {
+    "country": "US",
+    "ts": 1783536139
+  },
+  "130.12.242.106": {
+    "country": "NL",
+    "ts": 1783536139
+  },
+  "x4g-production-213b.up.railway.app": {
+    "country": "US",
+    "ts": 1783536139
+  },
+  "80.76.43.32": {
+    "country": "DE",
+    "ts": 1783536139
+  },
+  "89.124.91.115": {
+    "country": "NL",
+    "ts": 1783536139
+  },
+  "84.32.230.201": {
+    "country": "TR",
+    "ts": 1783536139
+  },
+  "89.124.116.169": {
+    "country": "NL",
+    "ts": 1783536139
+  },
+  "72.56.4.94": {
+    "country": "RU",
+    "ts": 1783536139
+  },
+  "mmd-production-13bc.up.railway.app": {
+    "country": "US",
+    "ts": 1783536139
+  },
+  "89.169.90.10": {
+    "country": "RU",
+    "ts": 1783536139
+  },
+  "x4g-production-e82f.up.railway.app": {
+    "country": "US",
+    "ts": 1783536139
+  },
+  "finland.radanjami.org": {
+    "country": "IR",
+    "ts": 1783536139
+  },
+  "x4g-production-e814.up.railway.app": {
+    "country": "US",
+    "ts": 1783536139
+  },
+  "pl.wubbalubbadubdubb.ir": {
+    "country": "PL",
+    "ts": 1783536139
+  },
+  "IGSHHSHSHIJSJSJJSJSJSSJ.SUJJSJSJJS.mamli11.ir": {
+    "country": "IT",
+    "ts": 1783536139
+  },
+  "usa-efddr-343e-3rder-4r-4f4r-2-d2e-5f-tg-4eee.codesystem.ir": {
+    "country": "US",
+    "ts": 1783536139
+  },
+  "YSHHSHSGSHSHGSYHSG.EUHEHEJJDHEHEH.mamli13.ir": {
+    "country": "DE",
+    "ts": 1783536139
+  },
+  "gr.wubbalubbadubdubb.ir": {
+    "country": "DE",
+    "ts": 1783536139
+  },
+  "HDHSHJDJJDJEJSJJ.ISUSJJJSJ.eorvexo.ir": {
+    "country": "DE",
+    "ts": 1783536139
+  },
+  "ger3.fastcodz.ir": {
+    "country": "DE",
+    "ts": 1783536139
+  },
+  "ger2.fastcodz.ir": {
+    "country": "NL",
+    "ts": 1783536139
+  },
+  "fn2.fastcodz.ir": {
+    "country": "DE",
+    "ts": 1783536139
   }
 }
