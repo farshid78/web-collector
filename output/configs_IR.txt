@@ -1,10 +1,9 @@
-vless://3788e28f-f48a-485e-9b90-482a6f8ca51d@gostar27.irtour123.com:443?path=%2Fvr1027%3Fed%3D2560&security=tls&encryption=none&insecure=0&fp=firefox&type=ws&allowInsecure=0&sni=gostar27.irtour123.com#%40filembad
-vless://3788e28f-f48a-485e-9b90-482a6f8ca51d@gostar27.irtour123.com:443?path=/vr1027?ed=2560&security=tls&encryption=none&insecure=0&fp=firefox&type=ws&allowInsecure=0&sni=gostar27.irtour123.com#🇮🇷IR-🚀@VPNine1
-vless://3788e28f-f48a-485e-9b90-482a6f8ca51d@gostar27.irtour123.com:443?path=%2Fvr1027%3Fed%3D2560&security=tls&encryption=none&insecure=0&fp=firefox&type=ws&allowInsecure=0&sni=gostar27.irtour123.com#🔵@chillguy_vpn
-vless://158d8200-913f-4cd7-988b-179f2d2b5dd1@95.38.234.154:51267?security=none&encryption=none&headerType=none&type=tcp#%40filembad
-trojan://humanity@2.144.21.112:40443?path=/assignment&security=tls&insecure=0&type=ws&allowInsecure=0&sni=www.creationlong.org#🇮🇷IR-🚀@VPNine1
+vless://c282b04e-f7a1-4196-8368-5701c6882a58@81.90.147.151:9185?security=none&encryption=none&headerType=none&type=tcp#%40filembad
 vless://c282b04e-f7a1-4196-8368-5701c6882a58@81.90.147.151:9185?security=none&encryption=none&headerType=none&type=tcp#🇮🇷IR-🚀@VPNine1
 vless://c282b04e-f7a1-4196-8368-5701c6882a58@81.90.147.151:9185?security=none&encryption=none&headerType=none&type=tcp#%40FarazV2ray
+trojan://humanity@2.144.21.112:40443?path=/assignment&security=tls&insecure=0&type=ws&allowInsecure=0&sni=www.creationlong.org#🇮🇷IR-🚀@VPNine1
+vless://3788e28f-f48a-485e-9b90-482a6f8ca51d@gostar27.irtour123.com:443?path=/vr1027?ed=2560&security=tls&encryption=none&insecure=0&fp=firefox&type=ws&allowInsecure=0&sni=gostar27.irtour123.com#🇮🇷IR-🚀@VPNine1
+vless://3788e28f-f48a-485e-9b90-482a6f8ca51d@gostar27.irtour123.com:443?path=%2Fvr1027%3Fed%3D2560&security=tls&encryption=none&insecure=0&fp=firefox&type=ws&allowInsecure=0&sni=gostar27.irtour123.com#🔵@chillguy_vpn
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkOTM4bWlsY3k1eHM3OXk0@finland.radanjami.org:48894#🇮🇷IR-🚀@VPNine1
 vless://7acaf8e3-97ac-4103-80ea-5eb1d31e314b@94.183.225.143:1881?type=tcp&security=none#🇮🇷IR-🚀@VPNine1
 vless://bac0cba4-c371-448d-8519-8db0059bc9fe@ar2.mcinet.live:443?security=reality&encryption=none&pbk=cF3Y4-bXsmD6TKJTETjCwsIesD3PoFE8YDprf-J67C8&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=telewebion.ir&sid=0123abcd#🇮🇷IR-🚀@VPNine1
