@@ -1,216 +1,4 @@
 {
-  "hkt.iamnotagoodman.com": {
-    "country": "UNKNOWN",
-    "ts": 1782595950
-  },
-  "j1.capigodserv.ir": {
-    "country": "TR",
-    "ts": 1782595951
-  },
-  "141.11.202.247": {
-    "country": "HU",
-    "ts": 1782595951
-  },
-  "141.11.202.37": {
-    "country": "HU",
-    "ts": 1782595951
-  },
-  "v2proxy.v2p.top": {
-    "country": "US",
-    "ts": 1782595951
-  },
-  "47.80.60.254": {
-    "country": "KR",
-    "ts": 1782595951
-  },
-  "k9.capigodserv.ir": {
-    "country": "TR",
-    "ts": 1782595951
-  },
-  "194.156.26.220": {
-    "country": "DE",
-    "ts": 1782595951
-  },
-  "5.10.215.99": {
-    "country": "GB",
-    "ts": 1782595951
-  },
-  "104.16.5.34": {
-    "country": "CA",
-    "ts": 1782595951
-  },
-  "141.11.202.245": {
-    "country": "HU",
-    "ts": 1782595951
-  },
-  "104.252.111.21": {
-    "country": "FR",
-    "ts": 1782595951
-  },
-  "5.10.215.70": {
-    "country": "GB",
-    "ts": 1782595951
-  },
-  "104.21.18.41": {
-    "country": "CA",
-    "ts": 1782595951
-  },
-  "141.11.202.36": {
-    "country": "HU",
-    "ts": 1782595951
-  },
-  "141.11.202.244": {
-    "country": "HU",
-    "ts": 1782595951
-  },
-  "141.11.202.241": {
-    "country": "HU",
-    "ts": 1782595951
-  },
-  "141.11.202.246": {
-    "country": "HU",
-    "ts": 1782595951
-  },
-  "140.248.75.255": {
-    "country": "DE",
-    "ts": 1782595951
-  },
-  "173.245.59.14": {
-    "country": "CA",
-    "ts": 1782595951
-  },
-  "cdn4.sudonetwork.com": {
-    "country": "CW",
-    "ts": 1782595951
-  },
-  "h4.capigodserv.ir": {
-    "country": "TR",
-    "ts": 1782595951
-  },
-  "ir4.benyinglis1.com": {
-    "country": "IR",
-    "ts": 1782595951
-  },
-  "195.133.93.17": {
-    "country": "CY",
-    "ts": 1782595951
-  },
-  "151.101.117.223": {
-    "country": "US",
-    "ts": 1782595951
-  },
-  "141.11.202.134": {
-    "country": "HU",
-    "ts": 1782595951
-  },
-  "141.11.202.133": {
-    "country": "HU",
-    "ts": 1782595951
-  },
-  "104.16.0.1": {
-    "country": "CA",
-    "ts": 1782595951
-  },
-  "104.16.90.120": {
-    "country": "CA",
-    "ts": 1782595951
-  },
-  "45.195.137.142": {
-    "country": "TR",
-    "ts": 1782595951
-  },
-  "45.195.137.147": {
-    "country": "TR",
-    "ts": 1782595951
-  },
-  "91.228.227.6": {
-    "country": "TR",
-    "ts": 1782595951
-  },
-  "130.94.59.236": {
-    "country": "SA",
-    "ts": 1782595951
-  },
-  "45.11.27.86": {
-    "country": "RU",
-    "ts": 1782595951
-  },
-  "2.27.170.152": {
-    "country": "EE",
-    "ts": 1782595951
-  },
-  "37.140.242.53": {
-    "country": "TR",
-    "ts": 1782595951
-  },
-  "141.98.6.146": {
-    "country": "NL",
-    "ts": 1782595951
-  },
-  "kz.wequ.host": {
-    "country": "KZ",
-    "ts": 1782595951
-  },
-  "43.163.89.186": {
-    "country": "SG",
-    "ts": 1782595951
-  },
-  "ru-dc.wequ.host": {
-    "country": "TW",
-    "ts": 1782595951
-  },
-  "tr.wequ.host": {
-    "country": "TR",
-    "ts": 1782595951
-  },
-  "hk.wequ.host": {
-    "country": "HK",
-    "ts": 1782595951
-  },
-  "80.66.196.231": {
-    "country": "US",
-    "ts": 1782595951
-  },
-  "mo.wequ.host": {
-    "country": "MO",
-    "ts": 1782595951
-  },
-  "kr2.wequ.host": {
-    "country": "KR",
-    "ts": 1782595951
-  },
-  "fi.wequ.host": {
-    "country": "FI",
-    "ts": 1782595951
-  },
-  "jp5.wequ.host": {
-    "country": "JP",
-    "ts": 1782595951
-  },
-  "ee2.wequ.host": {
-    "country": "EE",
-    "ts": 1782595951
-  },
-  "bmi.ir.marandcity.com": {
-    "country": "DE",
-    "ts": 1782595951
-  },
-  "us.wequ.ickly.co.uk": {
-    "country": "US",
-    "ts": 1782595951
-  },
-  "jp2.wequ.world": {
-    "country": "JP",
-    "ts": 1782595951
-  },
-  "ir2.benyinglis1.com": {
-    "country": "IR",
-    "ts": 1782595951
-  },
-  "lb2.benyinglis1.com": {
-    "country": "FI",
-    "ts": 1782595959
-  },
   "84.201.180.178": {
     "country": "RU",
     "ts": 1782600128
@@ -43566,5 +43354,73 @@
   "trus.sannest.ir": {
     "country": "TR",
     "ts": 1783805448
+  },
+  "69.46.46.2": {
+    "country": "US",
+    "ts": 1783808956
+  },
+  "69.46.46.16": {
+    "country": "US",
+    "ts": 1783808956
+  },
+  "69.46.46.17": {
+    "country": "US",
+    "ts": 1783808956
+  },
+  "69.46.46.23": {
+    "country": "US",
+    "ts": 1783808956
+  },
+  "69.46.46.10": {
+    "country": "US",
+    "ts": 1783808956
+  },
+  "69.46.46.25": {
+    "country": "US",
+    "ts": 1783808956
+  },
+  "69.46.46.3": {
+    "country": "US",
+    "ts": 1783808956
+  },
+  "web.filpower.shop": {
+    "country": "NL",
+    "ts": 1783808956
+  },
+  "95.181.173.111": {
+    "country": "US",
+    "ts": 1783808956
+  },
+  "193.134.101.181": {
+    "country": "IR",
+    "ts": 1783808956
+  },
+  "155.212.168.164": {
+    "country": "RU",
+    "ts": 1783808956
+  },
+  "zeus-panel-36dzp1.javadxpro.workers.dev": {
+    "country": "CA",
+    "ts": 1783808956
+  },
+  "104.16.90.120": {
+    "country": "CA",
+    "ts": 1783808956
+  },
+  "7vk1g6pjec97.dx1dx.com": {
+    "country": "DE",
+    "ts": 1783808956
+  },
+  "node-8025482792-69cde2-production.up.railway.app": {
+    "country": "US",
+    "ts": 1783808956
+  },
+  "xnod3x.artemida.live": {
+    "country": "RU",
+    "ts": 1783808956
+  },
+  "v.pvnetwork.ir": {
+    "country": "IR",
+    "ts": 1783808956
   }
 }
