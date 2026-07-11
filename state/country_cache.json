@@ -1,624 +1,4 @@
 {
-  "141.227.152.129": {
-    "country": "NL",
-    "ts": 1782548388
-  },
-  "104.17.127.41": {
-    "country": "CA",
-    "ts": 1782548388
-  },
-  "104.16.255.182": {
-    "country": "CA",
-    "ts": 1782548388
-  },
-  "cd3.videobazi.com": {
-    "country": "IR",
-    "ts": 1782548388
-  },
-  "zeus-panel-9mo308.kingworkerqwqqw.workers.dev": {
-    "country": "CA",
-    "ts": 1782548388
-  },
-  "162.159.129.53": {
-    "country": "CA",
-    "ts": 1782548388
-  },
-  "3.127.10.163": {
-    "country": "DE",
-    "ts": 1782548388
-  },
-  "172.67.73.163": {
-    "country": "CA",
-    "ts": 1782548388
-  },
-  "104.27.25.24": {
-    "country": "CA",
-    "ts": 1782548388
-  },
-  "104.18.42.68": {
-    "country": "CA",
-    "ts": 1782548388
-  },
-  "104.26.13.101": {
-    "country": "CA",
-    "ts": 1782548388
-  },
-  "down.notinthearchives.net": {
-    "country": "TR",
-    "ts": 1782548388
-  },
-  "104.21.12.150": {
-    "country": "CA",
-    "ts": 1782548388
-  },
-  "bio.ramos90.ca": {
-    "country": "DE",
-    "ts": 1782548388
-  },
-  "162.159.18.241": {
-    "country": "CA",
-    "ts": 1782548388
-  },
-  "185.185.71.112": {
-    "country": "RU",
-    "ts": 1782548388
-  },
-  "acha.claudify.org": {
-    "country": "CA",
-    "ts": 1782548388
-  },
-  "khar290.snappshp.com": {
-    "country": "CA",
-    "ts": 1782548388
-  },
-  "159.69.42.76": {
-    "country": "DE",
-    "ts": 1782548388
-  },
-  "dl2.irqsistemas.net": {
-    "country": "FI",
-    "ts": 1782548388
-  },
-  "195.181.173.194": {
-    "country": "NL",
-    "ts": 1782548388
-  },
-  "70.34.206.32": {
-    "country": "SE",
-    "ts": 1782548388
-  },
-  "45.11.26.234": {
-    "country": "RU",
-    "ts": 1782548388
-  },
-  "85.193.91.193": {
-    "country": "RU",
-    "ts": 1782548388
-  },
-  "log.bpminecraft.com": {
-    "country": "CA",
-    "ts": 1782548388
-  },
-  "ru.jykvpn.com": {
-    "country": "RU",
-    "ts": 1782548388
-  },
-  "104.16.159.1": {
-    "country": "CA",
-    "ts": 1782548388
-  },
-  "tun2.textin.ir": {
-    "country": "IR",
-    "ts": 1782548388
-  },
-  "3.168.86.26": {
-    "country": "US",
-    "ts": 1782548388
-  },
-  "dl-jp6.steamdownload.top": {
-    "country": "CA",
-    "ts": 1782548388
-  },
-  "SW-ser.serendpiti.ir": {
-    "country": "CA",
-    "ts": 1782548388
-  },
-  "217.60.248.94": {
-    "country": "HK",
-    "ts": 1782548388
-  },
-  "Franc2.serendpiti.ir": {
-    "country": "CA",
-    "ts": 1782548388
-  },
-  "154.197.75.178": {
-    "country": "DE",
-    "ts": 1782548388
-  },
-  "162.159.153.247": {
-    "country": "CA",
-    "ts": 1782548388
-  },
-  "104.18.146.214": {
-    "country": "CA",
-    "ts": 1782548388
-  },
-  "213.219.247.178": {
-    "country": "RU",
-    "ts": 1782548388
-  },
-  "104.31.16.178": {
-    "country": "CA",
-    "ts": 1782548388
-  },
-  "104.26.15.137": {
-    "country": "CA",
-    "ts": 1782548388
-  },
-  "45.84.88.204": {
-    "country": "FR",
-    "ts": 1782548388
-  },
-  "45.144.51.81": {
-    "country": "PL",
-    "ts": 1782548389
-  },
-  "172.67.140.61": {
-    "country": "CA",
-    "ts": 1782548389
-  },
-  "185.18.184.178": {
-    "country": "NL",
-    "ts": 1782548389
-  },
-  "188.114.97.36": {
-    "country": "CA",
-    "ts": 1782548389
-  },
-  "45.205.0.93": {
-    "country": "US",
-    "ts": 1782548389
-  },
-  "154.197.64.178": {
-    "country": "US",
-    "ts": 1782548389
-  },
-  "185.117.89.88": {
-    "country": "SE",
-    "ts": 1782548389
-  },
-  "yg1.ygkkk.dpdns.org": {
-    "country": "CA",
-    "ts": 1782548389
-  },
-  "104.21.88.3": {
-    "country": "CA",
-    "ts": 1782548389
-  },
-  "45.198.87.67": {
-    "country": "HU",
-    "ts": 1782548389
-  },
-  "54.251.79.155": {
-    "country": "SG",
-    "ts": 1782548389
-  },
-  "52.229.164.27": {
-    "country": "HK",
-    "ts": 1782548389
-  },
-  "8.209.242.121": {
-    "country": "JP",
-    "ts": 1782548389
-  },
-  "51.83.186.142": {
-    "country": "PL",
-    "ts": 1782548389
-  },
-  "162.159.38.165": {
-    "country": "US",
-    "ts": 1782548389
-  },
-  "51.89.41.22": {
-    "country": "DE",
-    "ts": 1782548389
-  },
-  "154.194.0.178": {
-    "country": "NL",
-    "ts": 1782548389
-  },
-  "154.17.29.221": {
-    "country": "US",
-    "ts": 1782548389
-  },
-  "161.35.34.48": {
-    "country": "GB",
-    "ts": 1782548389
-  },
-  "77.74.228.178": {
-    "country": "US",
-    "ts": 1782548389
-  },
-  "104.152.48.205": {
-    "country": "BG",
-    "ts": 1782548389
-  },
-  "154.92.9.253": {
-    "country": "CY",
-    "ts": 1782548389
-  },
-  "in-full.privateip.net": {
-    "country": "IN",
-    "ts": 1782548389
-  },
-  "8.6.112.253": {
-    "country": "US",
-    "ts": 1782548389
-  },
-  "swxxx2.serendpiti.ir": {
-    "country": "CA",
-    "ts": 1782548389
-  },
-  "45.195.137.131": {
-    "country": "TR",
-    "ts": 1782548389
-  },
-  "104.18.23.4": {
-    "country": "CA",
-    "ts": 1782548389
-  },
-  "45.67.201.210": {
-    "country": "HK",
-    "ts": 1782548389
-  },
-  "172.64.146.59": {
-    "country": "CA",
-    "ts": 1782548389
-  },
-  "Trk-seren.serendpiti.ir": {
-    "country": "TR",
-    "ts": 1782548389
-  },
-  "103.160.204.40": {
-    "country": "HK",
-    "ts": 1782548389
-  },
-  "45.198.87.25": {
-    "country": "HU",
-    "ts": 1782548389
-  },
-  "104.16.150.188": {
-    "country": "CA",
-    "ts": 1782548389
-  },
-  "edge.mcinet.live": {
-    "country": "IR",
-    "ts": 1782548389
-  },
-  "162.159.61.23": {
-    "country": "CA",
-    "ts": 1782548389
-  },
-  "168.144.36.249": {
-    "country": "SG",
-    "ts": 1782548389
-  },
-  "104.21.49.59": {
-    "country": "CA",
-    "ts": 1782548389
-  },
-  "60.250.152.208": {
-    "country": "TW",
-    "ts": 1782548389
-  },
-  "104.18.37.111": {
-    "country": "CA",
-    "ts": 1782548389
-  },
-  "104.17.146.18": {
-    "country": "CA",
-    "ts": 1782548389
-  },
-  "185.18.250.50": {
-    "country": "ES",
-    "ts": 1782548389
-  },
-  "38.244.20.124": {
-    "country": "US",
-    "ts": 1782548389
-  },
-  "93.113.171.95": {
-    "country": "NL",
-    "ts": 1782548389
-  },
-  "dl1.app20.ir": {
-    "country": "DE",
-    "ts": 1782548389
-  },
-  "190.93.247.178": {
-    "country": "CR",
-    "ts": 1782548389
-  },
-  "46.8.238.49": {
-    "country": "FI",
-    "ts": 1782548389
-  },
-  "94.247.142.178": {
-    "country": "GB",
-    "ts": 1782548389
-  },
-  "sefroyekkk01.netyaram.ir": {
-    "country": "GB",
-    "ts": 1782548389
-  },
-  "5.253.189.215": {
-    "country": "NL",
-    "ts": 1782548389
-  },
-  "139.162.61.193": {
-    "country": "SG",
-    "ts": 1782548389
-  },
-  "125.137.138.240": {
-    "country": "UNKNOWN",
-    "ts": 1782548391
-  },
-  "run.gigicalla.ir": {
-    "country": "UNKNOWN",
-    "ts": 1782548391
-  },
-  "45.89.105.65": {
-    "country": "UNKNOWN",
-    "ts": 1782548391
-  },
-  "104.16.100.66": {
-    "country": "UNKNOWN",
-    "ts": 1782548391
-  },
-  "104.17.27.106": {
-    "country": "UNKNOWN",
-    "ts": 1782548391
-  },
-  "213.182.199.178": {
-    "country": "UNKNOWN",
-    "ts": 1782548391
-  },
-  "188.114.97.215": {
-    "country": "UNKNOWN",
-    "ts": 1782548391
-  },
-  "italyy2.serendpiti.ir": {
-    "country": "UNKNOWN",
-    "ts": 1782548391
-  },
-  "142.93.226.128": {
-    "country": "UNKNOWN",
-    "ts": 1782548391
-  },
-  "52.194.99.211": {
-    "country": "UNKNOWN",
-    "ts": 1782548391
-  },
-  "157.90.113.148": {
-    "country": "UNKNOWN",
-    "ts": 1782548391
-  },
-  "FR-ser.serendpiti.ir": {
-    "country": "UNKNOWN",
-    "ts": 1782548391
-  },
-  "31.220.4.189": {
-    "country": "UNKNOWN",
-    "ts": 1782548391
-  },
-  "dl.bale.lovelyteam.ir": {
-    "country": "UNKNOWN",
-    "ts": 1782548391
-  },
-  "104.17.68.85": {
-    "country": "UNKNOWN",
-    "ts": 1782548391
-  },
-  "104.16.133.220": {
-    "country": "UNKNOWN",
-    "ts": 1782548391
-  },
-  "104.19.188.107": {
-    "country": "UNKNOWN",
-    "ts": 1782548391
-  },
-  "192.0.54.30": {
-    "country": "UNKNOWN",
-    "ts": 1782548391
-  },
-  "fast.postshup.ir": {
-    "country": "UNKNOWN",
-    "ts": 1782548391
-  },
-  "cf5.466688.xyz": {
-    "country": "UNKNOWN",
-    "ts": 1782548391
-  },
-  "167.68.4.178": {
-    "country": "UNKNOWN",
-    "ts": 1782548393
-  },
-  "151.243.101.40": {
-    "country": "UNKNOWN",
-    "ts": 1782548393
-  },
-  "104.21.82.226": {
-    "country": "UNKNOWN",
-    "ts": 1782548393
-  },
-  "54.37.18.204": {
-    "country": "UNKNOWN",
-    "ts": 1782548393
-  },
-  "104.21.35.43": {
-    "country": "UNKNOWN",
-    "ts": 1782548393
-  },
-  "147.135.214.161": {
-    "country": "UNKNOWN",
-    "ts": 1782548393
-  },
-  "154.218.15.30": {
-    "country": "UNKNOWN",
-    "ts": 1782548393
-  },
-  "104.16.143.191": {
-    "country": "UNKNOWN",
-    "ts": 1782548393
-  },
-  "155.138.209.175": {
-    "country": "UNKNOWN",
-    "ts": 1782548393
-  },
-  "45.144.51.133": {
-    "country": "UNKNOWN",
-    "ts": 1782548393
-  },
-  "172.66.45.43": {
-    "country": "UNKNOWN",
-    "ts": 1782548393
-  },
-  "162.159.3.186": {
-    "country": "UNKNOWN",
-    "ts": 1782548393
-  },
-  "104.17.62.253": {
-    "country": "UNKNOWN",
-    "ts": 1782548393
-  },
-  "113.30.190.244": {
-    "country": "UNKNOWN",
-    "ts": 1782548393
-  },
-  "154.197.64.30": {
-    "country": "UNKNOWN",
-    "ts": 1782548393
-  },
-  "r1.tube-cat.com": {
-    "country": "UNKNOWN",
-    "ts": 1782548393
-  },
-  "199.119.137.77": {
-    "country": "UNKNOWN",
-    "ts": 1782548393
-  },
-  "59.9.136.68": {
-    "country": "UNKNOWN",
-    "ts": 1782548393
-  },
-  "135.84.74.253": {
-    "country": "UNKNOWN",
-    "ts": 1782548393
-  },
-  "45.206.0.45": {
-    "country": "UNKNOWN",
-    "ts": 1782548393
-  },
-  "103.169.142.178": {
-    "country": "UNKNOWN",
-    "ts": 1782548395
-  },
-  "185.162.230.178": {
-    "country": "UNKNOWN",
-    "ts": 1782548395
-  },
-  "123.140.124.25": {
-    "country": "UNKNOWN",
-    "ts": 1782548395
-  },
-  "52.79.40.3": {
-    "country": "UNKNOWN",
-    "ts": 1782548395
-  },
-  "77.42.73.123": {
-    "country": "UNKNOWN",
-    "ts": 1782548395
-  },
-  "218.152.201.153": {
-    "country": "UNKNOWN",
-    "ts": 1782548396
-  },
-  "172.67.164.152": {
-    "country": "UNKNOWN",
-    "ts": 1782548396
-  },
-  "141.95.74.53": {
-    "country": "UNKNOWN",
-    "ts": 1782548399
-  },
-  "45.77.161.86": {
-    "country": "UNKNOWN",
-    "ts": 1782548399
-  },
-  "45.207.156.255": {
-    "country": "UNKNOWN",
-    "ts": 1782548399
-  },
-  "144.31.66.244": {
-    "country": "UNKNOWN",
-    "ts": 1782548399
-  },
-  "172.67.72.18": {
-    "country": "UNKNOWN",
-    "ts": 1782548399
-  },
-  "172.66.47.200": {
-    "country": "UNKNOWN",
-    "ts": 1782548399
-  },
-  "140.83.34.214": {
-    "country": "UNKNOWN",
-    "ts": 1782548399
-  },
-  "45.195.137.96": {
-    "country": "UNKNOWN",
-    "ts": 1782548399
-  },
-  "64.110.104.30": {
-    "country": "UNKNOWN",
-    "ts": 1782548400
-  },
-  "104.17.28.89": {
-    "country": "UNKNOWN",
-    "ts": 1782548400
-  },
-  "175.213.181.45": {
-    "country": "UNKNOWN",
-    "ts": 1782548400
-  },
-  "77.239.98.191": {
-    "country": "UNKNOWN",
-    "ts": 1782548402
-  },
-  "104.17.5.136": {
-    "country": "UNKNOWN",
-    "ts": 1782548402
-  },
-  "wing2452.nyc.mn": {
-    "country": "UNKNOWN",
-    "ts": 1782548403
-  },
-  "72.56.85.104": {
-    "country": "UNKNOWN",
-    "ts": 1782548403
-  },
-  "31.57.107.41": {
-    "country": "UNKNOWN",
-    "ts": 1782548406
-  },
-  "173.245.58.178": {
-    "country": "UNKNOWN",
-    "ts": 1782548406
-  },
-  "104.16.196.91": {
-    "country": "UNKNOWN",
-    "ts": 1782548406
-  },
   "150.251.113.8": {
     "country": "PL",
     "ts": 1782556198
@@ -43742,5 +43122,161 @@
   "13.228.125.36": {
     "country": "UNKNOWN",
     "ts": 1783753076
+  },
+  "3x-ui-upgrade-production-9831.up.railway.app": {
+    "country": "US",
+    "ts": 1783760066
+  },
+  "172.64.146.229": {
+    "country": "CA",
+    "ts": 1783760066
+  },
+  "38.244.20.203": {
+    "country": "US",
+    "ts": 1783760066
+  },
+  "cf1.danesh-bonyan.com": {
+    "country": "US",
+    "ts": 1783760066
+  },
+  "195.181.173.194": {
+    "country": "NL",
+    "ts": 1783760066
+  },
+  "www.npmjs.com": {
+    "country": "CA",
+    "ts": 1783760066
+  },
+  "45.38.41.10": {
+    "country": "FI",
+    "ts": 1783760066
+  },
+  "94.126.204.75": {
+    "country": "RU",
+    "ts": 1783760066
+  },
+  "x.pars-azad.shop": {
+    "country": "IR",
+    "ts": 1783760066
+  },
+  "app-q0zc4t.user-4gfyh5.workers.dev": {
+    "country": "CA",
+    "ts": 1783760066
+  },
+  "vless-addr.takehost.nl-01.security-sbrf.ru": {
+    "country": "NL",
+    "ts": 1783760066
+  },
+  "176.109.85.85": {
+    "country": "RU",
+    "ts": 1783760066
+  },
+  "voidlatency-sp0q52.rezarezaiy1.workers.dev": {
+    "country": "CA",
+    "ts": 1783760066
+  },
+  "vless-addr.wl-01.security-sbrf.ru": {
+    "country": "RU",
+    "ts": 1783760066
+  },
+  "cf2.danesh-bonyan.com": {
+    "country": "US",
+    "ts": 1783760067
+  },
+  "45.67.201.210": {
+    "country": "HK",
+    "ts": 1783760067
+  },
+  "172.66.47.200": {
+    "country": "CA",
+    "ts": 1783760067
+  },
+  "limited.cloud134.ru": {
+    "country": "RU",
+    "ts": 1783760067
+  },
+  "51.89.41.22": {
+    "country": "DE",
+    "ts": 1783760067
+  },
+  "guard.cloud134.ru": {
+    "country": "RU",
+    "ts": 1783760067
+  },
+  "guard1.cloud134.ru": {
+    "country": "RU",
+    "ts": 1783760067
+  },
+  "guard3.cloud134.ru": {
+    "country": "RU",
+    "ts": 1783760067
+  },
+  "fan.plytob.ir": {
+    "country": "FI",
+    "ts": 1783760067
+  },
+  "vip.zarins.ir": {
+    "country": "IR",
+    "ts": 1783760067
+  },
+  "arman.daltoonserver.ir": {
+    "country": "DE",
+    "ts": 1783760067
+  },
+  "arman.best-cloud.ir": {
+    "country": "TR",
+    "ts": 1783760067
+  },
+  "log.bpminecraft.com": {
+    "country": "CA",
+    "ts": 1783760067
+  },
+  "wng.legendcr.ir": {
+    "country": "FR",
+    "ts": 1783760067
+  },
+  "tt4.cloud134.ru": {
+    "country": "RU",
+    "ts": 1783760067
+  },
+  "limited2.cloud134.ru": {
+    "country": "RU",
+    "ts": 1783760067
+  },
+  "vip7.zarins.ir": {
+    "country": "IR",
+    "ts": 1783760067
+  },
+  "vip4.zarins.ir": {
+    "country": "IR",
+    "ts": 1783760067
+  },
+  "vip3.zarins.ir": {
+    "country": "IR",
+    "ts": 1783760067
+  },
+  "guard4.cloud134.ru": {
+    "country": "RU",
+    "ts": 1783760067
+  },
+  "guard2.cloud134.ru": {
+    "country": "RU",
+    "ts": 1783760067
+  },
+  "vip5.zarins.ir": {
+    "country": "IR",
+    "ts": 1783760067
+  },
+  "vip9.zarinv.ir": {
+    "country": "IR",
+    "ts": 1783760067
+  },
+  "vip6.zarins.ir": {
+    "country": "IR",
+    "ts": 1783760067
+  },
+  "cf5.466688.xyz": {
+    "country": "CA",
+    "ts": 1783760067
   }
 }
