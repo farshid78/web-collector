@@ -1,112 +1,4 @@
 {
-  "161.118.242.129": {
-    "country": "SG",
-    "ts": 1782591246
-  },
-  "45.95.0.219": {
-    "country": "DE",
-    "ts": 1782591246
-  },
-  "104.21.22.186": {
-    "country": "CA",
-    "ts": 1782591246
-  },
-  "45.206.0.52": {
-    "country": "GB",
-    "ts": 1782591246
-  },
-  "193.23.219.140": {
-    "country": "DE",
-    "ts": 1782591246
-  },
-  "95.173.199.80": {
-    "country": "RO",
-    "ts": 1782591246
-  },
-  "172.67.172.246": {
-    "country": "CA",
-    "ts": 1782591246
-  },
-  "63.177.240.253": {
-    "country": "DE",
-    "ts": 1782591246
-  },
-  "71.19.148.143": {
-    "country": "US",
-    "ts": 1782591246
-  },
-  "91.107.244.55": {
-    "country": "DE",
-    "ts": 1782591246
-  },
-  "rezerv20.yunus.guru": {
-    "country": "NL",
-    "ts": 1782591246
-  },
-  "178.209.127.33": {
-    "country": "RU",
-    "ts": 1782591246
-  },
-  "62.112.222.47": {
-    "country": "PL",
-    "ts": 1782591246
-  },
-  "139.162.58.13": {
-    "country": "SG",
-    "ts": 1782591246
-  },
-  "132.243.213.174": {
-    "country": "DE",
-    "ts": 1782591246
-  },
-  "35.181.116.34": {
-    "country": "FR",
-    "ts": 1782591246
-  },
-  "nameless-moon-7c4d.shafmrhjlos23.workers.dev": {
-    "country": "CA",
-    "ts": 1782591246
-  },
-  "0000-000-00-000032662252.poki-pakipon.ir": {
-    "country": "CH",
-    "ts": 1782591246
-  },
-  "germanc1.jobwebs.ir": {
-    "country": "DE",
-    "ts": 1782591247
-  },
-  "mrzold1.dadehpardazeshiran.ir": {
-    "country": "IR",
-    "ts": 1782591247
-  },
-  "fanlandt1.jobwebs.ir": {
-    "country": "FI",
-    "ts": 1782591247
-  },
-  "franced1.jobwebs.ir": {
-    "country": "FR",
-    "ts": 1782591247
-  },
-  "fanlandv1.jobwebs.ir": {
-    "country": "FI",
-    "ts": 1782591247
-  },
-  "francer1.jobwebs.ir": {
-    "country": "FR",
-    "ts": 1782591247
-  },
-  "Dubaiv1.jobwebs.ir": {
-    "country": "CZ",
-    "ts": 1782591247
-  },
-  "turkv1.jobwebs.ir": {
-    "country": "TR",
-    "ts": 1782591247
-  },
-  "swedenv1.jobwebs.ir": {
-    "country": "SE",
-    "ts": 1782591250
-  },
   "hkt.iamnotagoodman.com": {
     "country": "UNKNOWN",
     "ts": 1782595950
@@ -43590,5 +43482,37 @@
   "cdn.paradoxidhffuyfoti.ir": {
     "country": "FR",
     "ts": 1783799020
+  },
+  "45.39.33.174": {
+    "country": "US",
+    "ts": 1783801970
+  },
+  "178.236.17.86": {
+    "country": "KZ",
+    "ts": 1783801970
+  },
+  "141.147.174.243": {
+    "country": "JP",
+    "ts": 1783801970
+  },
+  "85.239.43.213": {
+    "country": "RU",
+    "ts": 1783801970
+  },
+  "194.55.239.210": {
+    "country": "RU",
+    "ts": 1783801970
+  },
+  "176.109.94.127": {
+    "country": "RU",
+    "ts": 1783801970
+  },
+  "gr1.fifapes.monster": {
+    "country": "FI",
+    "ts": 1783801970
+  },
+  "daf80c680a7237ee.monopolitass.ir": {
+    "country": "DE",
+    "ts": 1783801970
   }
 }
