@@ -1,76 +1,4 @@
 {
-  "،#%40filembad": {
-    "country": "UNKNOWN",
-    "ts": 1782586634
-  },
-  "104.25.252.37": {
-    "country": "CA",
-    "ts": 1782586634
-  },
-  "104.17.122.10": {
-    "country": "CA",
-    "ts": 1782586634
-  },
-  "159.223.228.35": {
-    "country": "NL",
-    "ts": 1782586634
-  },
-  "172.67.183.26": {
-    "country": "CA",
-    "ts": 1782586634
-  },
-  "104.19.96.58": {
-    "country": "CA",
-    "ts": 1782586634
-  },
-  "51.45.54.27": {
-    "country": "FR",
-    "ts": 1782586634
-  },
-  "104.21.64.1": {
-    "country": "CA",
-    "ts": 1782586634
-  },
-  "rvg-production-b337.up.railway.app": {
-    "country": "US",
-    "ts": 1782586634
-  },
-  "85.133.240.55": {
-    "country": "IR",
-    "ts": 1782586634
-  },
-  "5.188.114.132": {
-    "country": "RU",
-    "ts": 1782586634
-  },
-  "bear.wequ.host": {
-    "country": "RU",
-    "ts": 1782586634
-  },
-  "ruh.nodes.rocketnetwork.ru": {
-    "country": "RU",
-    "ts": 1782586634
-  },
-  "V2rayclover.spdnet.store": {
-    "country": "US",
-    "ts": 1782586634
-  },
-  "nl2.wequ.host": {
-    "country": "NL",
-    "ts": 1782586634
-  },
-  "lte24.wequ.host": {
-    "country": "RU",
-    "ts": 1782586634
-  },
-  "tiger.ickly.co.uk": {
-    "country": "RU",
-    "ts": 1782586634
-  },
-  "germand1.jobwebs.ir": {
-    "country": "DE",
-    "ts": 1782586639
-  },
   "161.118.242.129": {
     "country": "SG",
     "ts": 1782591246
@@ -43578,5 +43506,89 @@
   "8b7e03244bf12600.monopolitass.ir": {
     "country": "DE",
     "ts": 1783794447
+  },
+  "162.159.38.143": {
+    "country": "US",
+    "ts": 1783799019
+  },
+  "104.16.246.89": {
+    "country": "CA",
+    "ts": 1783799019
+  },
+  "x4g-production-dac6.up.railway.app": {
+    "country": "US",
+    "ts": 1783799019
+  },
+  "8.35.211.65": {
+    "country": "US",
+    "ts": 1783799019
+  },
+  "94.103.167.116": {
+    "country": "NL",
+    "ts": 1783799019
+  },
+  "173.245.59.174": {
+    "country": "CA",
+    "ts": 1783799019
+  },
+  "31.76.78.98": {
+    "country": "NL",
+    "ts": 1783799019
+  },
+  "104.19.151.98": {
+    "country": "CA",
+    "ts": 1783799019
+  },
+  "104.17.214.253": {
+    "country": "CA",
+    "ts": 1783799019
+  },
+  "108.162.198.85": {
+    "country": "US",
+    "ts": 1783799019
+  },
+  "13.38.232.222": {
+    "country": "FR",
+    "ts": 1783799019
+  },
+  "94.183.207.211": {
+    "country": "GB",
+    "ts": 1783799019
+  },
+  "188.164.248.125": {
+    "country": "NL",
+    "ts": 1783799019
+  },
+  "172.67.79.45": {
+    "country": "CA",
+    "ts": 1783799019
+  },
+  "36.224.169.242": {
+    "country": "TW",
+    "ts": 1783799019
+  },
+  "49.12.66.102": {
+    "country": "DE",
+    "ts": 1783799019
+  },
+  "ez-835e84.ezaccess1d374c8.workers.dev": {
+    "country": "CA",
+    "ts": 1783799020
+  },
+  "x4g-production-4140.up.railway.app": {
+    "country": "US",
+    "ts": 1783799020
+  },
+  "aa.parsa.best.mytbsm.com": {
+    "country": "NL",
+    "ts": 1783799020
+  },
+  "ci.temas-fars.ir": {
+    "country": "TR",
+    "ts": 1783799020
+  },
+  "cdn.paradoxidhffuyfoti.ir": {
+    "country": "FR",
+    "ts": 1783799020
   }
 }
