@@ -4,7 +4,6 @@ vless://e3c56988-5261-400f-b21b-6af5fa6efae1@130.49.185.196:443?encryption=none&
 vless://3f176170-afe0-4847-91f9-64e05d004eec@netherland.panelbaz.com:5000?security=reality&encryption=none&pbk=lQbgwNDYw6Zbjdim0JtXUarzb-3GSjDvtX6FJYZD9Qo&host=%2F%3FBIA_TELEGRAM%40MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI&headerType=none&fp=qq&type=tcp&sni=play.google.com#%40filembad
 vless://3f176170-afe0-4847-91f9-64e05d004eec@netherland.panelbaz.com:5000?security=reality&encryption=none&pbk=lQbgwNDYw6Zbjdim0JtXUarzb-3GSjDvtX6FJYZD9Qo&headerType=none&fp=qq&type=tcp&sni=play.google.com#%40filembad
 vless://3f176170-afe0-4847-91f9-64e05d004eec@netherland.panelbaz.com:5000?security=reality&encryption=none&pbk=lQbgwNDYw6Zbjdim0JtXUarzb-3GSjDvtX6FJYZD9Qo&host=%2F%3FBIA_TELEGRAM-mtmvpn&headerType=none&fp=qq&type=tcp&sni=play.google.com#%40filembad
-vless://fb32e1b5-f675-4156-a51c-2c6bd1a0cb45@ads.30eam.ir:8080?encryption=none&extra=%7B%22mode%22%3A%22auto%22%2C%22xPaddingBytes%22%3A%22100-1000%22%7D&fp=chrome&host=&mode=auto&path=%2F&pbk=Gcwb-jSNPA0M51JVcoI1WyLvG5IKIXO-2v47VnDZVTw&security=reality&sid=c8ba7786ed2fb3&sni=www.samsung.com&spx=%2FK4puBFccZe3EDcx&type=xhttp&x_padding_bytes=100-1000#%40filembad
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpUbDN5YkU5eExsMlNwd2pRbC1sZUxldzl4VmhKRnFDTQ==@netherland.mrapanel.shop:1080#🇮🇷IR-🚀@VPNine1
 vless://30968ce5-b309-45ed-8f0b-68e48aaf2fc9@netherland.mrapanel.shop:64584?encryption=none&security=none&type=tcp&headerType=none#🇮🇷IR-🚀@VPNine1
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.11:8080#🇬🇧GB-🚀@VPNine1
