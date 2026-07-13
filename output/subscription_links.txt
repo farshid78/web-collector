@@ -1,4 +1,3 @@
-https://nova-luna-bridge-1c64.nova-59d56e.workers.dev/sub?sub=khabari-bashim&key=0b3e5dcce69b
 https://raw.githubusercontent.com/LimeHi/LimeVPN/refs/heads/main/LimeVPN.txt
 https://raw.githubusercontent.com/patterniha/Serverless-for-Iran/refs/heads/main/Subscription/Serverless-for-Iran.json
 https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/Vless-Reality-White-Lists-Rus-Mobile.txt
