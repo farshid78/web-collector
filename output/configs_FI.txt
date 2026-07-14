@@ -1,12 +1,12 @@
 vless://1ebd0a03-3ffd-47f2-80e8-3b701ef2a49a@sub.anespy.xyz:3351?encryption=none&security=none&type=tcp&headerType=none#%40filembad
 vless://1ebd0a03-3ffd-47f2-80e8-3b701ef2a49a@sub.anespy.xyz:3351?encryption=none&security=none&type=tcp&headerType=none#🇱🇻LV-🚀@VPNine1
 vless://1ebd0a03-3ffd-47f2-80e8-3b701ef2a49a@sub.anespy.xyz:3351?security=none&type=tcp&packetEncoding=xudp&encryption=none#🇫🇮🍁@Config_jo
-vless://1ebd0a03-3ffd-47f2-80e8-3b701ef2a49a@sub.anespy.xyz:3351?security=none&encryption=none&headerType=none&type=tcp#🇱🇻🍁@Config_jo
 vless://62cdf075-a753-4836-9ebc-83ff409d85f5@95.217.16.41:4432?security=reality&encryption=none&pbk=Di0QmKK7rRWwAzTMLtVX4-ND6jEYU_pNLmX4e3ES52Q&headerType=none&fp=qq&type=tcp&sni=play.google.com&sid=2a7f6b8788caca70#%40filembad
 vless://645b66cc-d007-41bd-a01c-83869e395f2b@95.217.16.41:4431?security=none&encryption=none&host=play.google.com&headerType=http&type=tcp#🇫🇮FI-🚀@VPNine1
 vless://44971fcb-034f-4453-ac1e-2eaa339c6267@ithoughtthatitwouldkillmebutitdidnt.itsnotfair.ir:1008?security=reality&alpn=h2&encryption=none&pbk=KR_f-E_pR8kfCW3Su1tjR3FWRtpcYAn_ajfKjiPZAAQ&headerType=none&fp=edge&type=tcp&flow=xtls-rprx-vision&sni=play.google.com&sid=ec8926fc13a19d95#%40filembad
 vless://ca6d7b36-4c32-42ef-a9e3-868e4cc67409@a.fin.axylegend.shop:20200?encryption=none&security=reality&sni=icloud.com&fp=ios&pbk=FHwu__BwuyQOgcqMA_GVvN9xPiJ6VSKGi7G0xT7heH8&sid=7c614a954e08&spx=%2F77aaac9ea82ae88&type=tcp&headerType=none#%40filembad
 vless://8f5c24b5-4d21-4c5e-b206-d8f4490460b7@a.fin.axylegend.shop:20200?encryption=none&fp=ios&pbk=FHwu__BwuyQOgcqMA_GVvN9xPiJ6VSKGi7G0xT7heH8&security=reality&sid=f4f4006e6c1f5a&sni=icloud.com&spx=/Ag2EJI1j2kP44OR&type=tcp#🇫🇮FI-🚀@VPNine1
+vless://155c6f96-4ceb-4438-b6e6-c119e43efabc@fin.fast-cone.com:443?security=reality&encryption=none&pbk=xIbs1fXscfNgz_ZIzg8XEG0iPoZnl9HUn9kkKvDyDho&headerType=none&fp=edge&spx=/&type=tcp&flow=xtls-rprx-vision&sni=fin.fast-cone.com&sid=14#🇫🇮FI-🚀@VPNine1
 vless://b51b1aa7-6a66-4998-aeb3-d7d8bb2597bb@65.109.183.83:59849?security=none&encryption=none&host=play.google.com&headerType=http&type=tcp#🇫🇮FI-🚀@VPNine1
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToyYnlmTzRUZE9EOTg0dW1ZaFVOcTBSNXRJdXRpc0lGMQ==@bot.sobhanpor.ir:1080#🇫🇮FI-🚀@VPNine1
 vless://522a9ec4-d970-4840-969b-266814f85be5@bot.sobhanpor.ir:443?encryption=none&security=tls&type=tcp&headerType=none&sni=bot.sobhanpor.ir#🇫🇮FI-🚀@VPNine1
