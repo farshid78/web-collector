@@ -1,48 +1,4 @@
 {
-  "64.176.23.205": {
-    "country": "CL",
-    "ts": 1782947895
-  },
-  "144.225.65.168": {
-    "country": "US",
-    "ts": 1782947895
-  },
-  "78.135.87.247": {
-    "country": "TR",
-    "ts": 1782947895
-  },
-  "87.228.101.33": {
-    "country": "RU",
-    "ts": 1782947895
-  },
-  "172.66.44.189": {
-    "country": "CA",
-    "ts": 1782947895
-  },
-  "62.109.21.190": {
-    "country": "RU",
-    "ts": 1782947895
-  },
-  "78.24.216.191": {
-    "country": "RU",
-    "ts": 1782947895
-  },
-  "81.94.159.62": {
-    "country": "RU",
-    "ts": 1782947895
-  },
-  "198.62.62.23": {
-    "country": "US",
-    "ts": 1782947895
-  },
-  "ffdownload.dlc-bazigame.ir": {
-    "country": "CA",
-    "ts": 1782947896
-  },
-  "cdn.yandex-api.it.com": {
-    "country": "RU",
-    "ts": 1782947896
-  },
   "217.179.5.182": {
     "country": "DE",
     "ts": 1782955679
@@ -43526,5 +43482,33 @@
   "mkfa.msrbw.ir": {
     "country": "UNKNOWN",
     "ts": 1784155403
+  },
+  "xhttp-production-315c.up.railway.app": {
+    "country": "US",
+    "ts": 1784159050
+  },
+  "x4g-production-4a16.up.railway.app": {
+    "country": "US",
+    "ts": 1784159050
+  },
+  "x4g-production-feed4.up.railway.app": {
+    "country": "US",
+    "ts": 1784159050
+  },
+  "104.19.45.7": {
+    "country": "CA",
+    "ts": 1784159050
+  },
+  "n1.nod.pingirani.ir": {
+    "country": "FI",
+    "ts": 1784159050
+  },
+  "jsv-ir2.randino.ir": {
+    "country": "TR",
+    "ts": 1784159050
+  },
+  "n3.nod.pingirani.ir": {
+    "country": "TR",
+    "ts": 1784159050
   }
 }
