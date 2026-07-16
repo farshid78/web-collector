@@ -1,176 +1,4 @@
 {
-  "91.107.241.155": {
-    "country": "DE",
-    "ts": 1783018317
-  },
-  "2.27.41.157": {
-    "country": "DE",
-    "ts": 1783018317
-  },
-  "142.93.97.131": {
-    "country": "DE",
-    "ts": 1783018317
-  },
-  "45.82.120.176": {
-    "country": "DE",
-    "ts": 1783018317
-  },
-  "31.56.117.173": {
-    "country": "LV",
-    "ts": 1783018317
-  },
-  "104.21.74.64": {
-    "country": "CA",
-    "ts": 1783018317
-  },
-  "178.83.46.163": {
-    "country": "US",
-    "ts": 1783018317
-  },
-  "149.202.58.99": {
-    "country": "FR",
-    "ts": 1783018317
-  },
-  "13.36.120.79": {
-    "country": "FR",
-    "ts": 1783018317
-  },
-  "relay-production-0ec0.up.railway.app": {
-    "country": "US",
-    "ts": 1783018317
-  },
-  "45.198.87.231": {
-    "country": "HU",
-    "ts": 1783018317
-  },
-  "45.198.87.176": {
-    "country": "HU",
-    "ts": 1783018317
-  },
-  "45.198.87.113": {
-    "country": "HU",
-    "ts": 1783018317
-  },
-  "45.198.87.204": {
-    "country": "HU",
-    "ts": 1783018317
-  },
-  "98.93.21.112": {
-    "country": "US",
-    "ts": 1783018317
-  },
-  "72.62.211.211": {
-    "country": "GB",
-    "ts": 1783018317
-  },
-  "82.38.31.47": {
-    "country": "NL",
-    "ts": 1783018317
-  },
-  "149.28.136.177": {
-    "country": "SG",
-    "ts": 1783018317
-  },
-  "46.8.208.49": {
-    "country": "RU",
-    "ts": 1783018317
-  },
-  "85.208.139.100": {
-    "country": "DE",
-    "ts": 1783018317
-  },
-  "doomvex1.doomvex1.workers.dev": {
-    "country": "CA",
-    "ts": 1783018317
-  },
-  "194.55.239.181": {
-    "country": "RU",
-    "ts": 1783018317
-  },
-  "89.106.64.91": {
-    "country": "DE",
-    "ts": 1783018317
-  },
-  "80.90.185.66": {
-    "country": "RU",
-    "ts": 1783018317
-  },
-  "sc-thenetherlands2.09vpn.com": {
-    "country": "NL",
-    "ts": 1783018317
-  },
-  "omg.herumhas.shop": {
-    "country": "RU",
-    "ts": 1783018317
-  },
-  "ws-2.hysteria.ltd": {
-    "country": "DE",
-    "ts": 1783018317
-  },
-  "ch-zrh-1.blook.network": {
-    "country": "CH",
-    "ts": 1783018317
-  },
-  "bc-pl-hn.ray-balance.space": {
-    "country": "PL",
-    "ts": 1783018317
-  },
-  "fi-hel-2-x.blook.network": {
-    "country": "RU",
-    "ts": 1783018317
-  },
-  "md-kiv-2-x.blook.network": {
-    "country": "PL",
-    "ts": 1783018317
-  },
-  "sg-sin-2-x.blook.network": {
-    "country": "SG",
-    "ts": 1783018317
-  },
-  "ch-zrh-1-x.blook.network": {
-    "country": "CH",
-    "ts": 1783018317
-  },
-  "ru-svo-1-x.blook.network": {
-    "country": "RU",
-    "ts": 1783018317
-  },
-  "a10.maxriser.ir": {
-    "country": "DE",
-    "ts": 1783018317
-  },
-  "Wor1.persianshield.ir": {
-    "country": "CA",
-    "ts": 1783018317
-  },
-  "swa.linuxbase.ir": {
-    "country": "SE",
-    "ts": 1783018317
-  },
-  "nls.linuxbase.ir": {
-    "country": "NL",
-    "ts": 1783018317
-  },
-  "digitalocean.com": {
-    "country": "CA",
-    "ts": 1783018317
-  },
-  "Wor5.persianshield.ir": {
-    "country": "CA",
-    "ts": 1783018317
-  },
-  "Wor4.persianshield.ir": {
-    "country": "CA",
-    "ts": 1783018317
-  },
-  "turk.sub-rock.ir": {
-    "country": "IR",
-    "ts": 1783018317
-  },
-  "Cool.persianshield.ir": {
-    "country": "CA",
-    "ts": 1783018317
-  },
   "104.18.72.78": {
     "country": "CA",
     "ts": 1783023623
@@ -43378,5 +43206,89 @@
   "pl-play.montago-shop.ir": {
     "country": "DE",
     "ts": 1784224302
+  },
+  "178.128.195.253": {
+    "country": "DE",
+    "ts": 1784229265
+  },
+  "23.227.38.3": {
+    "country": "CA",
+    "ts": 1784229265
+  },
+  "15.224.123.16": {
+    "country": "FR",
+    "ts": 1784229265
+  },
+  "162.159.38.183": {
+    "country": "US",
+    "ts": 1784229265
+  },
+  "172.67.152.170": {
+    "country": "CA",
+    "ts": 1784229265
+  },
+  "85.239.44.8": {
+    "country": "RU",
+    "ts": 1784229265
+  },
+  "104.21.5.137": {
+    "country": "CA",
+    "ts": 1784229265
+  },
+  "193.151.150.135": {
+    "country": "IR",
+    "ts": 1784229265
+  },
+  "79.175.149.107": {
+    "country": "IR",
+    "ts": 1784229265
+  },
+  "ansooyefilter-channel-production-8be6.up.railway.app": {
+    "country": "US",
+    "ts": 1784229265
+  },
+  "45.9.14.48": {
+    "country": "RU",
+    "ts": 1784229265
+  },
+  "104.17.163.123": {
+    "country": "CA",
+    "ts": 1784229265
+  },
+  "130.17.2.37": {
+    "country": "US",
+    "ts": 1784229265
+  },
+  "x4g-production-3a2b.up.railway.app": {
+    "country": "US",
+    "ts": 1784229265
+  },
+  "185.146.173.26": {
+    "country": "SE",
+    "ts": 1784229265
+  },
+  "nova-sunny-core-fa7a.nova-70ed54.workers.dev": {
+    "country": "CA",
+    "ts": 1784229265
+  },
+  "193.124.112.67": {
+    "country": "RU",
+    "ts": 1784229265
+  },
+  "104.17.162.123": {
+    "country": "CA",
+    "ts": 1784229265
+  },
+  "speedtestgoogleyahoobingyandexgmailappleaol.xbx24.ir": {
+    "country": "CA",
+    "ts": 1784229265
+  },
+  "tur.forbluewhales.dpdns.org": {
+    "country": "TR",
+    "ts": 1784229266
+  },
+  "namahdod.tehran-game.ir": {
+    "country": "NL",
+    "ts": 1784229269
   }
 }
