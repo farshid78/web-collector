@@ -1,116 +1,4 @@
 {
-  "138.201.170.108": {
-    "country": "DE",
-    "ts": 1783028367
-  },
-  "84.54.58.243": {
-    "country": "RU",
-    "ts": 1783028367
-  },
-  "104.18.152.225": {
-    "country": "CA",
-    "ts": 1783028367
-  },
-  "104.17.135.110": {
-    "country": "CA",
-    "ts": 1783028367
-  },
-  "104.17.128.87": {
-    "country": "CA",
-    "ts": 1783028367
-  },
-  "93.115.240.146": {
-    "country": "AM",
-    "ts": 1783028367
-  },
-  "104.17.130.182": {
-    "country": "CA",
-    "ts": 1783028367
-  },
-  "104.18.94.58": {
-    "country": "CA",
-    "ts": 1783028367
-  },
-  "194.55.239.86": {
-    "country": "RU",
-    "ts": 1783028367
-  },
-  "35.181.221.97": {
-    "country": "FR",
-    "ts": 1783028367
-  },
-  "185.22.234.32": {
-    "country": "RU",
-    "ts": 1783028367
-  },
-  "212.33.203.70": {
-    "country": "IR",
-    "ts": 1783028367
-  },
-  "104.17.100.130": {
-    "country": "CA",
-    "ts": 1783028367
-  },
-  "large-baboon.rooster465.autos": {
-    "country": "JP",
-    "ts": 1783028367
-  },
-  "45.139.27.106": {
-    "country": "RU",
-    "ts": 1783028367
-  },
-  "204.168.255.112": {
-    "country": "FI",
-    "ts": 1783028367
-  },
-  "zeus-panel-n4jlnw.zeus-r00fu6.workers.dev": {
-    "country": "CA",
-    "ts": 1783028367
-  },
-  "217.herumhas.shop": {
-    "country": "RU",
-    "ts": 1783028367
-  },
-  "kw8.mobilenovin12.ir": {
-    "country": "UNKNOWN",
-    "ts": 1783028367
-  },
-  "kw7.mobilenovin12.ir": {
-    "country": "UNKNOWN",
-    "ts": 1783028367
-  },
-  "kw12.mobilenovin12.ir": {
-    "country": "UNKNOWN",
-    "ts": 1783028367
-  },
-  "x.vukah.com": {
-    "country": "DE",
-    "ts": 1783028367
-  },
-  "kw11.mobilenovin12.ir": {
-    "country": "UNKNOWN",
-    "ts": 1783028367
-  },
-  "xn-usa.dbsll.ir": {
-    "country": "US",
-    "ts": 1783028367
-  },
-  "kw9.mobilenovin12.ir": {
-    "country": "UNKNOWN",
-    "ts": 1783028367
-  },
-  "kw2.mobilenovin12.ir": {
-    "country": "CA",
-    "ts": 1783028367
-  },
-  "api.gruztrack.online": {
-    "country": "RU",
-    "ts": 1783028367
-  },
-  "kw1.mobilenovin12.ir": {
-    "country": "CA",
-    "ts": 1783028367
-  },
   "108.162.196.86": {
     "country": "CA",
     "ts": 1783032399
@@ -43430,5 +43318,41 @@
   "nld-01.node.lumixnet.com": {
     "country": "DE",
     "ts": 1784237298
+  },
+  "172.67.169.139": {
+    "country": "CA",
+    "ts": 1784241108
+  },
+  "172.67.139.111": {
+    "country": "CA",
+    "ts": 1784241108
+  },
+  "172.66.47.166": {
+    "country": "CA",
+    "ts": 1784241108
+  },
+  "162.159.153.230": {
+    "country": "CA",
+    "ts": 1784241108
+  },
+  "46.182.24.19": {
+    "country": "RU",
+    "ts": 1784241108
+  },
+  "104.19.89.63": {
+    "country": "CA",
+    "ts": 1784241108
+  },
+  "waysi10-production.up.railway.app": {
+    "country": "US",
+    "ts": 1784241108
+  },
+  "static.41.139.168.204.clients.your-server.de": {
+    "country": "FI",
+    "ts": 1784241108
+  },
+  "film.peetak.ir": {
+    "country": "CA",
+    "ts": 1784241108
   }
 }
