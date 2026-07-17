@@ -61,7 +61,6 @@ vless://e4514801-0d5a-42ba-869f-39bd605aef9e@3.125.5.177:22222?encryption=none&s
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@3.125.5.177:22223?encryption=none&security=none&type=tcp#🇩🇪DE-🚀@VPNine1
 vless://a77cedab-f429-40bb-b6d4-fd9dd681e675@45.146.131.110:443?security=reality&encryption=none&pbk=oZTV3mNyn9tWeA_cTVonIidR6boRj5K9Wo8c1uQtZhk&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=ads.x5.ru&sid=473acf#%40filembad
 vless://a77cedab-f429-40bb-b6d4-fd9dd681e675@45.146.131.110:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=ads.x5.ru&fp=firefox&pbk=oZTV3mNyn9tWeA_cTVonIidR6boRj5K9Wo8c1uQtZhk&sid=473acf&type=tcp&headerType=none#🇷🇺RU-🚀@VPNine1
-vless://a77cedab-f429-40bb-b6d4-fd9dd681e675@45.146.131.110:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=oZTV3mNyn9tWeA_cTVonIidR6boRj5K9Wo8c1uQtZhk&security=reality&sid=473acf&sni=ads.x5.ru&type=tcp#%F0%9F%87%A9%F0%9F%87%AA%20Germany%20%5B%2ACIDR%5D
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@3.127.97.180:22223?security=none&encryption=none&headerType=none&type=tcp#%40filembad
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@3.127.97.180:22224?security=none&encryption=none&headerType=none&type=tcp#%40filembad
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@3.127.97.180:22222?security=none&encryption=none&headerType=none&type=tcp#%40filembad
@@ -79,12 +78,15 @@ vless://e4514801-0d5a-42ba-869f-39bd605aef9e@52.29.73.217:22223?encryption=none&
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@52.29.73.217:22223?encryption=none&security=none&type=tcp#🇩🇪DE-🚀@VPNine1
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@52.29.73.217:22222?encryption=none&security=none&type=tcp#🇩🇪DE-🚀@VPNine1
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@52.29.73.217:22224?encryption=none&security=none&type=tcp#🇩🇪DE-🚀@VPNine1
-vless://9f31692b-7308-4a97-9a4b-5ffac8992a3e@167.233.115.73:1070?security=reality&type=tcp&headerType=none&path=&host=&sni=yahoo.com&fp=chrome&pbk=dODBH3TVhSwElfHRRlIBu5mtTOh3Opm_EYplb3Wqkic&sid=62398309a87b4f27#🇩🇪DE-🚀@VPNine1
-trojan://dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q@185.137.157.135:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=185.137.157.135#🇩🇪DE-🚀@VPNine1
-trojan://dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q@185.137.157.135:443#@DeltaKroneckerGithub
+vless://9204bccb-42c7-4379-9c60-69feccb7832d@de1.jamezwin.org:8443?mode=gun&security=reality&encryption=none&pbk=Bfnl0sY6HyVYRyE8KbMNGPkAzutvH-sqq4L_vQ4pvDk&fp=firefox&spx=/IIOpxFuGoMjQE3F&type=grpc&sni=fulcrum.partners.nvidia.com&sid=8719#🇩🇪DE-🚀@VPNine1
+trojan://NQ26071394@quiet-condor.rooster465.autos:443?allowInsecure=0&sni=quiet-condor.rooster465.autos#🇩🇪DE-🚀@VPNine1
+vless://78d46959-b17f-4fc6-ad8f-27ca667c3428@real1.gogoli.xyz:53921?security=reality&pbk=1BpNelF0e6LBCHdN6BbOL4Mb--MoiWVIgcZPl-0rE0Y&fp=chrome&sni=www.yahoo.com&sid=c2&spx=/&encryption=none&flow=xtls-rprx-vision&type=tcp#🇬🇧GB-🚀@VPNine1
 vless://4dab17f2-e243-48ad-90f7-f069f449b14b@real1.gogoli.xyz:53921?security=reality&pbk=1BpNelF0e6LBCHdN6BbOL4Mb--MoiWVIgcZPl-0rE0Y&fp=chrome&sni=www.yahoo.com&sid=c2&spx=/&encryption=none&flow=xtls-rprx-vision&type=tcp#🇬🇧GB-🚀@VPNine1
 vless://1414bd61-ef9c-42fc-94b6-0ac796b6a845@real1.gogoli.xyz:53921?security=reality&pbk=1BpNelF0e6LBCHdN6BbOL4Mb--MoiWVIgcZPl-0rE0Y&fp=chrome&sni=www.yahoo.com&sid=c2&spx=/&encryption=none&flow=xtls-rprx-vision&type=tcp#🇷🇺RU-🚀@VPNine1
 vless://fed9710d-1b00-4bde-928b-b463d3fd1814@real1.gogoli.xyz:53921?security=reality&pbk=1BpNelF0e6LBCHdN6BbOL4Mb--MoiWVIgcZPl-0rE0Y&fp=chrome&sni=www.yahoo.com&sid=c2&spx=/&encryption=none&flow=xtls-rprx-vision&type=tcp#🇷🇺RU-🚀@VPNine1
+vless://9f31692b-7308-4a97-9a4b-5ffac8992a3e@167.233.115.73:1070?security=reality&type=tcp&headerType=none&path=&host=&sni=yahoo.com&fp=chrome&pbk=dODBH3TVhSwElfHRRlIBu5mtTOh3Opm_EYplb3Wqkic&sid=62398309a87b4f27#🇩🇪DE-🚀@VPNine1
+trojan://dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q@185.137.157.135:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=185.137.157.135#🇩🇪DE-🚀@VPNine1
+trojan://dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q@185.137.157.135:443#@DeltaKroneckerGithub
 vless://df1017aa-1d35-4301-8266-f908c0bedc56@tun.temas-bor.ir:443?security=reality&type=tcp&headerType=&path=&host=&sni=login.yahoo.com&fp=firefox&pbk=OncWhxWwzrKOFH21JT9WxcenacQuc7ZmuQy_rZFJ8xg&sid=c6e19c434dc87df7&spx=/#🇩🇪DE-🚀@VPNine1
 vless://260f04b6-c2c3-4ff5-ae80-d1b13ddd60dc@tun.temas-bor.ir:443?security=reality&type=tcp&headerType=&path=&host=&sni=login.yahoo.com&fp=firefox&pbk=OncWhxWwzrKOFH21JT9WxcenacQuc7ZmuQy_rZFJ8xg&sid=c6e19c434dc87df7&spx=/#🇫🇮FI-🚀@VPNine1
 vless://df1017aa-1d35-4301-8266-f908c0bedc56@Tun.temas-bor.iR:2087?security=none&type=tcp&headerType=http&path=/&host=play.google.com#🇩🇪DE-🚀@VPNine1
