@@ -1,284 +1,4 @@
 {
-  "104.16.174.36": {
-    "country": "CA",
-    "ts": 1783207053
-  },
-  "162.159.36.250": {
-    "country": "CA",
-    "ts": 1783207053
-  },
-  "kia.ipsafe2.site": {
-    "country": "DE",
-    "ts": 1783207053
-  },
-  "store.ubi.com": {
-    "country": "CA",
-    "ts": 1783207053
-  },
-  "162.159.133.196": {
-    "country": "CA",
-    "ts": 1783207053
-  },
-  "173.245.58.77": {
-    "country": "CA",
-    "ts": 1783207053
-  },
-  "germani.alfaserverforevery.com": {
-    "country": "DE",
-    "ts": 1783207053
-  },
-  "51.195.116.82": {
-    "country": "DE",
-    "ts": 1783207053
-  },
-  "instasho.ir": {
-    "country": "CA",
-    "ts": 1783207053
-  },
-  "162.159.62.247": {
-    "country": "CA",
-    "ts": 1783207053
-  },
-  "nl.ipsafe2.site": {
-    "country": "NL",
-    "ts": 1783207053
-  },
-  "b2n.ir": {
-    "country": "CA",
-    "ts": 1783207053
-  },
-  "master.proxymaster.online": {
-    "country": "CA",
-    "ts": 1783207053
-  },
-  "162.159.42.182": {
-    "country": "CA",
-    "ts": 1783207053
-  },
-  "162.159.93.9": {
-    "country": "CA",
-    "ts": 1783207053
-  },
-  "furnilux.ir": {
-    "country": "CA",
-    "ts": 1783207053
-  },
-  "151.101.3.147": {
-    "country": "CA",
-    "ts": 1783207053
-  },
-  "45.38.37.81": {
-    "country": "US",
-    "ts": 1783207053
-  },
-  "162.159.135.9": {
-    "country": "CA",
-    "ts": 1783207053
-  },
-  "95.182.90.46": {
-    "country": "CZ",
-    "ts": 1783207053
-  },
-  "104.21.18.219": {
-    "country": "CA",
-    "ts": 1783207053
-  },
-  "188.226.185.55": {
-    "country": "NL",
-    "ts": 1783207053
-  },
-  "204.168.185.57": {
-    "country": "FI",
-    "ts": 1783207053
-  },
-  "5.180.173.222": {
-    "country": "ES",
-    "ts": 1783207053
-  },
-  "213.165.44.57": {
-    "country": "DE",
-    "ts": 1783207053
-  },
-  "78.41.111.87": {
-    "country": "RU",
-    "ts": 1783207053
-  },
-  "5.42.106.202": {
-    "country": "RU",
-    "ts": 1783207053
-  },
-  "usaconfig.alfaserverforevery.com": {
-    "country": "US",
-    "ts": 1783207053
-  },
-  "37.143.14.106": {
-    "country": "RU",
-    "ts": 1783207053
-  },
-  "zeus-panel-ie10jn.mehdifarhadi1376.workers.dev": {
-    "country": "CA",
-    "ts": 1783207053
-  },
-  "217.16.18.174": {
-    "country": "RU",
-    "ts": 1783207053
-  },
-  "159.195.59.107": {
-    "country": "DE",
-    "ts": 1783207053
-  },
-  "138.124.123.198": {
-    "country": "US",
-    "ts": 1783207053
-  },
-  "213.171.30.172": {
-    "country": "RU",
-    "ts": 1783207053
-  },
-  "89.19.223.92": {
-    "country": "RU",
-    "ts": 1783207053
-  },
-  "5.188.115.117": {
-    "country": "RU",
-    "ts": 1783207053
-  },
-  "82.38.31.202": {
-    "country": "NL",
-    "ts": 1783207053
-  },
-  "allnet.sanaiehdasti.com": {
-    "country": "US",
-    "ts": 1783207053
-  },
-  "151.101.129.51": {
-    "country": "CA",
-    "ts": 1783207053
-  },
-  "185.23.34.50": {
-    "country": "RU",
-    "ts": 1783207053
-  },
-  "5.178.85.182": {
-    "country": "RU",
-    "ts": 1783207053
-  },
-  "DE248RX.fillmoo.pro": {
-    "country": "DE",
-    "ts": 1783207053
-  },
-  "195.63.169.19": {
-    "country": "NL",
-    "ts": 1783207053
-  },
-  "194.87.226.71": {
-    "country": "RU",
-    "ts": 1783207053
-  },
-  "DE-TR-122.cdn9.us": {
-    "country": "DE",
-    "ts": 1783207053
-  },
-  "2.27.15.95": {
-    "country": "DE",
-    "ts": 1783207053
-  },
-  "89.19.223.139": {
-    "country": "RU",
-    "ts": 1783207053
-  },
-  "72.56.38.194": {
-    "country": "RU",
-    "ts": 1783207053
-  },
-  "151.101.193.51": {
-    "country": "CA",
-    "ts": 1783207053
-  },
-  "45.86.159.142": {
-    "country": "GB",
-    "ts": 1783207053
-  },
-  "news.microsoft.com": {
-    "country": "US",
-    "ts": 1783207053
-  },
-  "43.160.233.94": {
-    "country": "SG",
-    "ts": 1783207053
-  },
-  "151.101.65.51": {
-    "country": "CA",
-    "ts": 1783207053
-  },
-  "45.86.159.136": {
-    "country": "GB",
-    "ts": 1783207053
-  },
-  "45.86.159.134": {
-    "country": "GB",
-    "ts": 1783207053
-  },
-  "45.86.159.135": {
-    "country": "GB",
-    "ts": 1783207053
-  },
-  "87.199.200.144": {
-    "country": "NL",
-    "ts": 1783207053
-  },
-  "31.56.186.146": {
-    "country": "AE",
-    "ts": 1783207053
-  },
-  "62.84.101.72": {
-    "country": "NL",
-    "ts": 1783207053
-  },
-  "151.101.1.51": {
-    "country": "CA",
-    "ts": 1783207053
-  },
-  "195.63.167.5": {
-    "country": "NL",
-    "ts": 1783207053
-  },
-  "31.76.246.19": {
-    "country": "GB",
-    "ts": 1783207053
-  },
-  "us.ipsafe2.site": {
-    "country": "US",
-    "ts": 1783207053
-  },
-  "de.ipsafe2.site": {
-    "country": "DE",
-    "ts": 1783207053
-  },
-  "r3mrcg001286ek2.cybervena.com": {
-    "country": "TW",
-    "ts": 1783207053
-  },
-  "cf-mci.coixconqwe1.ir": {
-    "country": "US",
-    "ts": 1783207053
-  },
-  "fi21.iofast5ping.info": {
-    "country": "FI",
-    "ts": 1783207053
-  },
-  "simpletr.asan-ps.ir": {
-    "country": "CA",
-    "ts": 1783207053
-  },
-  "hk11.network-cdn-gw-yd.net": {
-    "country": "HK",
-    "ts": 1783207054
-  },
-  "simplefv.asan-ps.ir": {
-    "country": "CA",
-    "ts": 1783207057
-  },
   "172.67.177.58": {
     "country": "CA",
     "ts": 1783213880
@@ -45302,5 +45022,53 @@
   "s2.insta-service.ir": {
     "country": "IR",
     "ts": 1784413792
+  },
+  "172.67.71.247": {
+    "country": "CA",
+    "ts": 1784417509
+  },
+  "104.16.72.251": {
+    "country": "CA",
+    "ts": 1784417509
+  },
+  "185.148.107.40": {
+    "country": "NL",
+    "ts": 1784417509
+  },
+  "62.152.56.73": {
+    "country": "RU",
+    "ts": 1784417509
+  },
+  "213.226.112.199": {
+    "country": "RU",
+    "ts": 1784417509
+  },
+  "marzban-node-production-069b.up.railway.app": {
+    "country": "US",
+    "ts": 1784417509
+  },
+  "media2.hexogate.net": {
+    "country": "RU",
+    "ts": 1784417509
+  },
+  "cf-mci.coixconqwe1.ir": {
+    "country": "CA",
+    "ts": 1784417509
+  },
+  "HDKVHBFJKKGJF.PASARGUARDSPEED.IR": {
+    "country": "DE",
+    "ts": 1784417509
+  },
+  "store.ubi.com": {
+    "country": "CA",
+    "ts": 1784417509
+  },
+  "france.zarfena.ir": {
+    "country": "FR",
+    "ts": 1784417509
+  },
+  "simplefv.asan-ps.ir": {
+    "country": "CA",
+    "ts": 1784417509
   }
 }

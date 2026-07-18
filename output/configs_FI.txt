@@ -26,6 +26,8 @@ vless://8f0560ec-ba22-4431-a6a7-318dc59d5233@85.192.48.81:443?encryption=none&fl
 vless://90072ab6-6d9b-41e5-9ab5-ce3bf19c6640@tr.sv.temas-bor.ir:22028?security=reality&encryption=none&pbk=OncWhxWwzrKOFH21JT9WxcenacQuc7ZmuQy_rZFJ8xg&headerType=none&fp=firefox&spx=%2F&type=tcp&sni=login.yahoo.com&sid=c6e19c434dc87df7#%40filembad
 vless://90072ab6-6d9b-41e5-9ab5-ce3bf19c6640@tr.sv.temas-bor.ir:22028?security=reality&encryption=none&pbk=OncWhxWwzrKOFH21JT9WxcenacQuc7ZmuQy_rZFJ8xg&headerType=&fp=firefox&spx=%2F&type=tcp&sni=login.yahoo.com&sid=c6e19c434dc87df7#%40filembad
 vless://90072ab6-6d9b-41e5-9ab5-ce3bf19c6640@tr.sv.temas-bor.ir:22028?security=reality&encryption=none&pbk=OncWhxWwzrKOFH21JT9WxcenacQuc7ZmuQy_rZFJ8xg&headerType=none&fp=firefox&spx=/&type=tcp&sni=login.yahoo.com&sid=c6e19c434dc87df7#🇩🇪DE-🚀@VPNine1
+vless://a38c256e-0032-4071-9abb-a516715fae4e@65.109.9.230:64402?security=none&encryption=none&host=play.google.com&headerType=http&type=tcp#🇫🇮FI-🚀@VPNine1
+vless://a38c256e-0032-4071-9abb-a516715fae4e@65.109.9.230:64402?security=none&encryption=none&host=play.google.com&headerType=http&type=tcp#free%20vpn35
 vless://01675f3b-e863-44ba-bd69-d0509aaf067c@ch-play.montago-shop.ir:443?encryption=none&security=reality&type=tcp&headerType=none&sni=play.google.com&fp=qq&pbk=PjR-SM4fOm2fY4mTqWoqZDRyxontvpailM0gBqUxlUQ&sid=cbe2503ffd040d#🇫🇮FI-🚀@VPNine1
 vless://5a3c6bc5-03fa-4a62-b165-1a24b39123e5@65.109.216.56:40038?security=none&encryption=none&host=play.google.com&headerType=http&type=tcp#🇫🇮FI-🚀@VPNine1
 vless://aeb9e730-5f9e-404d-a8af-9e2e68dc7f5d@fin1.panel11.ru:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=lQ8pnlOU0kqS77TA7Fftl8nSzktXLzFpOLGqCZEAhjg&security=reality&sid=aaec521b22bbe6cb&sni=fin1.panel11.ru&type=tcp#🇻🇬VG-🚀@VPNine1
@@ -45,7 +47,6 @@ vless://6871b29e-bb51-4b6b-b2fa-6e2b98ad3859@46.62.240.221:80?encryption=none&ty
 vless://cfb7f5f1-320b-47d6-9f9a-7a67e355ac30@bot.sobhanpor.ir:443?security=tls&encryption=none&headerType=none&type=tcp&sni=bot.sobhanpor.ir#🇫🇮FI-🚀@VPNine1
 vless://13deef01-0a60-47ec-aa9c-8a3481e1c87f@bot.sobhanpor.ir:443?security=tls&encryption=none&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=bot.sobhanpor.ir#@DeltaKroneckerGithub
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3YVBVOWNDbmc3RkZuWXdQRjk4ckxJakRvM1pCemxxcw@bot.sobhanpor.ir:1080#@DeltaKroneckerGithub
-vless://a38c256e-0032-4071-9abb-a516715fae4e@65.109.9.230:64402?security=none&encryption=none&host=play.google.com&headerType=http&type=tcp#free%20vpn35
 vless://de0683f5-ad03-40c4-90f2-59feec9003b9@fi.plus-hit.ru:443?encryption=none&flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&sni=fi.plus-hit.ru&fp=random&pbk=ayJjf8TJwT_INFKDDHk9uv3zyoERmbG2gECNX1fwFxo&sid=94c2ae0f7b6d3e15&spx=%2F#%F0%9F%87%AB%F0%9F%87%AE%20Finland%2C%20Helsinki%20%7C%20%5BBL%5D
 vless://b6f29f8d-016e-4f30-b57f-c0cdafab2a40@31.76.80.205:443?security=reality&encryption=none&fm=%7B%22fragment%22%3A%7B%22length%22%3A%2250-100%22%2C%22packets%22%3A%22tlshello%22%2C%22interval%22%3A%2210-20%22%7D%7D&pbk=nPcUKydxoRI66O3tT9O4QCZpLjOBvkGsiXG7pDX1BBw&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=ads.x5.ru&sid=6ba85179e30d4fc2#@DeltaKroneckerGithub
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpVWlFZOWhOalZOV3dhbWFqclhBZjF2dDh1NjNuajBmRg@31.76.80.205:8388#@DeltaKroneckerGithub
