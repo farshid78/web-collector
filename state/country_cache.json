@@ -1,64 +1,4 @@
 {
-  "199.181.197.149": {
-    "country": "US",
-    "ts": 1783265705
-  },
-  "172.67.181.75": {
-    "country": "CA",
-    "ts": 1783265705
-  },
-  "172.67.139.95": {
-    "country": "CA",
-    "ts": 1783265705
-  },
-  "173.245.59.1": {
-    "country": "CA",
-    "ts": 1783265705
-  },
-  "45.196.182.79": {
-    "country": "US",
-    "ts": 1783265705
-  },
-  "94.183.207.190": {
-    "country": "GB",
-    "ts": 1783265705
-  },
-  "104.18.46.60": {
-    "country": "CA",
-    "ts": 1783265705
-  },
-  "31.56.146.68": {
-    "country": "FR",
-    "ts": 1783265705
-  },
-  "194.67.102.216": {
-    "country": "RU",
-    "ts": 1783265705
-  },
-  "188.132.234.156": {
-    "country": "TR",
-    "ts": 1783265705
-  },
-  "185.83.127.82": {
-    "country": "AZ",
-    "ts": 1783265705
-  },
-  "mohammadrezakamraniseovaneshan.tarafe3vm.ir": {
-    "country": "CA",
-    "ts": 1783265705
-  },
-  "ecanet.ir": {
-    "country": "CA",
-    "ts": 1783265705
-  },
-  "psf-3.zdshop.ir": {
-    "country": "US",
-    "ts": 1783265705
-  },
-  "fast3.slopllex.app": {
-    "country": "RU",
-    "ts": 1783265705
-  },
   "104.25.105.122": {
     "country": "CA",
     "ts": 1783269658
@@ -44714,5 +44654,21 @@
   "istanbul.pelzimo.ir": {
     "country": "TR",
     "ts": 1784472194
+  },
+  "185.173.144.38": {
+    "country": "US",
+    "ts": 1784475698
+  },
+  "gemrnakcie.premiumv3ray.com": {
+    "country": "DE",
+    "ts": 1784475698
+  },
+  "sw.pasargadgames.ir": {
+    "country": "FI",
+    "ts": 1784475698
+  },
+  "nlc.tunnelguard.ru": {
+    "country": "RU",
+    "ts": 1784475698
   }
 }
