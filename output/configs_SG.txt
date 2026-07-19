@@ -1,3 +1,4 @@
+trojan://ON38567014@crucial-moth.rooster465.autos:443?allowInsecure=0&sni=crucial-moth.rooster465.autos#🇸🇬SG-🚀@VPNine1
 vmess://eyJhZGQiOiAiMTQ5Ljg4LjIzLjIwMiIsICJhaWQiOiAiMCIsICJhbHBuIjogIiIsICJmcCI6ICIiLCAiaG9zdCI6ICIiLCAiaWQiOiAiZjhjOGRjM2QtMGQzNy00NmIwLThiMzQtYTcyMzI4ODJmY2ZlIiwgImluc2VjdXJlIjogIjAiLCAibmV0IjogInRjcCIsICJwYXRoIjogIi8iLCAicG9ydCI6ICIxODAwMCIsICJwcyI6ICJcdWQ4M2NcdWRkZjhcdWQ4M2NcdWRkZWNTRy1cdWQ4M2RcdWRlODBAVlBOaW5lMSIsICJzY3kiOiAiYXV0byIsICJzbmkiOiAiIiwgInRscyI6ICIiLCAidHlwZSI6ICJub25lIiwgInYiOiAiMiJ9
 vmess://eyJhZGQiOiIxNDkuODguMjMuMjAyIiwiYWlkIjoiMCIsImlkIjoiZjhjOGRjM2QtMGQzNy00NmIwLThiMzQtYTcyMzI4ODJmY2ZlIiwibmV0IjoicmF3IiwicG9ydCI6IjE4MDAwIiwicHMiOiJARGVsdGFLcm9uZWNrZXJHaXRodWIiLCJzY3kiOiJhdXRvIiwidGxzIjoiIiwidHlwZSI6IiIsInYiOiIyIn0=
 trojan://HW85960347@master-possum.rooster465.autos:443?allowInsecure=0&sni=master-possum.rooster465.autos#🇸🇬SG-🚀@VPNine1
@@ -24,15 +25,6 @@ trojan://HW85960347@curious-llama.rooster465.autos:443?allowInsecure=1&sni=curio
 trojan://HW85960347@happy-porpoise.rooster465.autos:443?allowInsecure=1&sni=happy-porpoise.rooster465.autos#🇸🇬SG-🚀@VPNine1
 trojan://HW85960347@happy-porpoise.rooster465.autos:443?allowInsecure=1&sni=happy-porpoise.rooster465.autos#@DeltaKroneckerGithub
 trojan://JA96378052@trusting-moccasin.rooster465.autos:443?allowInsecure=1&sni=trusting-moccasin.rooster465.autos#🇸🇬SG-🚀@VPNine1
-trojan://HW85960347@aware-coyote.rooster465.autos:443?allowInsecure=0&sni=aware-coyote.rooster465.autos#🇸🇬SG-🚀@VPNine1
-trojan://HW85960347@pro-mako.rooster465.autos:443?allowInsecure=0&sni=pro-mako.rooster465.autos#🇸🇬SG-🚀@VPNine1
-trojan://PD07395842@learning-ladybug.rooster465.autos:443?allowInsecure=1&sni=learning-ladybug.rooster465.autos#🇸🇬SG-🚀@VPNine1
-trojan://PD07395842@excited-sole.rooster465.autos:443?allowInsecure=1&sni=excited-sole.rooster465.autos#🇸🇬SG-🚀@VPNine1
-trojan://JA96378052@willing-eagle.rooster465.autos:443?allowInsecure=0&sni=willing-eagle.rooster465.autos#🇸🇬SG-🚀@VPNine1
-trojan://PD07395842@hopeful-burro.rooster465.autos:443?allowInsecure=1&sni=hopeful-burro.rooster465.autos#🇸🇬SG-🚀@VPNine1
-trojan://JA96378052@inspired-goshawk.rooster465.autos:443?allowInsecure=0&sni=inspired-goshawk.rooster465.autos#🇸🇬SG-🚀@VPNine1
-trojan://PD07395842@pumped-sailfish.rooster465.autos:443?allowInsecure=1&sni=pumped-sailfish.rooster465.autos#🇯🇵JP-🚀@VPNine1
-trojan://HW85960347@feasible-guppy.rooster465.autos:443?allowInsecure=0&sni=feasible-guppy.rooster465.autos#🇸🇬SG-🚀@VPNine1
 vless://14b59caf-a196-4ec2-8c70-c7b388062f5b@45.8.211.217:443?encryption=none&type=ws&security=tls&path=%2Frdfgtws&host=vangoghhh.info&sni=vangoghhh.info&insecure=0&allowInsecure=0#@vasl_bashim
 vless://1a17b19d-4896-4531-af79-6e91d8ef8228@13.212.140.244:8686?encryption=none&security=reality&sni=www.apple.com&fp=chrome&pbk=A3NXnUIT-W0m1Y_leRnv5so2IeCvk9FCFgL31PulfTw&sid=628b3c90c98ead4f&type=tcp&headerType=none#%40Configs_FreeIran
 ss://MjAyMi1ibGFrZTMtYWVzLTI1Ni1nY206TURWbU1EWm1NamN4TUdWaFpUaGxZbVZrWkdFd09UaGlObUpqWVRZek16Yz06WVRsa056STNZMlF0TXpNd1lpMDBaV1JrTFRnNU1URXROMk15TWpSa1pqWT0@sg-01.jjsdns.com:19822?#%40Configs_FreeIran
