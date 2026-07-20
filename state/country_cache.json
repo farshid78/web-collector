@@ -1,92 +1,4 @@
 {
-  "185.155.97.58": {
-    "country": "EE",
-    "ts": 1783371935
-  },
-  "x4g-production-b36f.up.railway.app": {
-    "country": "US",
-    "ts": 1783371935
-  },
-  "hikvision-plus.com": {
-    "country": "CA",
-    "ts": 1783371935
-  },
-  "2.144.21.112": {
-    "country": "IR",
-    "ts": 1783371935
-  },
-  "104.18.22.8": {
-    "country": "CA",
-    "ts": 1783371935
-  },
-  "ansooyefilter4.up.railway.app": {
-    "country": "US",
-    "ts": 1783371935
-  },
-  "turntable.proxy.rlwy.net": {
-    "country": "US",
-    "ts": 1783371935
-  },
-  "manage.fastly.com": {
-    "country": "US",
-    "ts": 1783371935
-  },
-  "176.109.88.217": {
-    "country": "RU",
-    "ts": 1783371935
-  },
-  "95.179.223.98": {
-    "country": "FR",
-    "ts": 1783371935
-  },
-  "154.83.159.144": {
-    "country": "NL",
-    "ts": 1783371935
-  },
-  "5.161.254.157": {
-    "country": "US",
-    "ts": 1783371935
-  },
-  "45.196.182.98": {
-    "country": "US",
-    "ts": 1783371935
-  },
-  "46.33.8.19": {
-    "country": "GB",
-    "ts": 1783371935
-  },
-  "x4g-production-feb9.up.railway.app": {
-    "country": "US",
-    "ts": 1783371935
-  },
-  "x4g-production-b104.up.railway.app": {
-    "country": "US",
-    "ts": 1783371935
-  },
-  "57.131.17.109": {
-    "country": "IT",
-    "ts": 1783371935
-  },
-  "5.188.115.226": {
-    "country": "RU",
-    "ts": 1783371935
-  },
-  "176.109.88.218": {
-    "country": "RU",
-    "ts": 1783371935
-  },
-  "www.ancientiranianstudies.ir": {
-    "country": "CA",
-    "ts": 1783371935
-  },
-  "cdc.mazinosub.ir": {
-    "country": "CA",
-    "ts": 1783371935
-  },
-  "s.vnexjet.ir": {
-    "country": "CA",
-    "ts": 1783371935
-  },
   "13.38.149.14": {
     "country": "FR",
     "ts": 1783377274
@@ -44950,5 +44862,173 @@
   "de01.clarionvpn.com": {
     "country": "DE",
     "ts": 1784578141
+  },
+  "51.77.109.92": {
+    "country": "GB",
+    "ts": 1784583113
+  },
+  "91.124.63.229": {
+    "country": "TR",
+    "ts": 1784583113
+  },
+  "185.212.129.53": {
+    "country": "NL",
+    "ts": 1784583113
+  },
+  "enhanced-dassie.rooster465.autos": {
+    "country": "JP",
+    "ts": 1784583113
+  },
+  "raygan.up.railway.app": {
+    "country": "US",
+    "ts": 1784583113
+  },
+  "104.26.14.16": {
+    "country": "CA",
+    "ts": 1784583113
+  },
+  "66.33.22.73": {
+    "country": "US",
+    "ts": 1784583113
+  },
+  "amazed-burro.rooster465.autos": {
+    "country": "JP",
+    "ts": 1784583113
+  },
+  "45.130.125.200": {
+    "country": "SC",
+    "ts": 1784583113
+  },
+  "66.33.23.152": {
+    "country": "US",
+    "ts": 1784583113
+  },
+  "104.21.8.238": {
+    "country": "CA",
+    "ts": 1784583113
+  },
+  "zeus-panel-rdil7t.zeus-qm5lw3.workers.dev": {
+    "country": "CA",
+    "ts": 1784583113
+  },
+  "95.182.90.211": {
+    "country": "LV",
+    "ts": 1784583113
+  },
+  "45.130.125.138": {
+    "country": "SC",
+    "ts": 1784583113
+  },
+  "37.49.230.107": {
+    "country": "FR",
+    "ts": 1784583113
+  },
+  "83.243.86.45": {
+    "country": "DE",
+    "ts": 1784583113
+  },
+  "190.93.246.37": {
+    "country": "CR",
+    "ts": 1784583113
+  },
+  "8.6.112.7": {
+    "country": "US",
+    "ts": 1784583113
+  },
+  "194.59.9.13": {
+    "country": "DE",
+    "ts": 1784583113
+  },
+  "104.21.46.33": {
+    "country": "CA",
+    "ts": 1784583113
+  },
+  "moving-wren.rooster465.autos": {
+    "country": "IE",
+    "ts": 1784583113
+  },
+  "164.37.104.146": {
+    "country": "GB",
+    "ts": 1784583113
+  },
+  "152.42.217.27": {
+    "country": "SG",
+    "ts": 1784583113
+  },
+  "89.106.86.58": {
+    "country": "NL",
+    "ts": 1784583113
+  },
+  "31.56.178.216": {
+    "country": "US",
+    "ts": 1784583113
+  },
+  "27.50.48.142": {
+    "country": "HK",
+    "ts": 1784583113
+  },
+  "154.90.62.70": {
+    "country": "KR",
+    "ts": 1784583113
+  },
+  "72.56.40.33": {
+    "country": "US",
+    "ts": 1784583113
+  },
+  "185.125.203.221": {
+    "country": "NL",
+    "ts": 1784583113
+  },
+  "x4g-production-ec83.up.railway.app": {
+    "country": "US",
+    "ts": 1784583113
+  },
+  "tehran.npveniltuo.com": {
+    "country": "IR",
+    "ts": 1784583113
+  },
+  "x4g-production-fcc8.up.railway.app": {
+    "country": "US",
+    "ts": 1784583113
+  },
+  "max.sorat-fazaei.ir": {
+    "country": "ES",
+    "ts": 1784583113
+  },
+  "531f38f34b1b1689.mbcloudy.ir": {
+    "country": "SE",
+    "ts": 1784583113
+  },
+  "it.sorat-fazaei.ir": {
+    "country": "FR",
+    "ts": 1784583113
+  },
+  "ire02.myxasecure.space": {
+    "country": "IE",
+    "ts": 1784583113
+  },
+  "b95a29ad12426134.nimaghaffarzadeh.ir": {
+    "country": "DE",
+    "ts": 1784583113
+  },
+  "tu.levikogjgfdd.ir": {
+    "country": "DE",
+    "ts": 1784583113
+  },
+  "sdr.servicebamaplus.ir": {
+    "country": "TR",
+    "ts": 1784583113
+  },
+  "fast.service-vip.ir": {
+    "country": "TR",
+    "ts": 1784583113
+  },
+  "fr.sorat-fazaei.ir": {
+    "country": "FR",
+    "ts": 1784583113
+  },
+  "p9kz7mp4a97c1f-r7.edg3.org": {
+    "country": "HK",
+    "ts": 1784583113
   }
 }
