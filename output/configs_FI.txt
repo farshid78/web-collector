@@ -9,11 +9,9 @@ vless://2d6a30d2-886e-4660-b1dc-82f587ca4cae@cz-play.montago-shop.ir:443?encrypt
 vless://fb99f0a6-c2d9-4243-ac92-0120d970da19@0720-zard.kovira2.ir:13424?path=%2F&security=none&encryption=none&host=chatgpt.com&type=ws#%40filembad
 vless://fb99f0a6-c2d9-4243-ac92-0120d970da19@0720-zard.kovira2.ir:13424?path=%2F&security=&encryption=none&host=chatgpt.com&type=ws#%40filembad
 vless://fb99f0a6-c2d9-4243-ac92-0120d970da19@0720-zard.kovira2.ir:13424?path=/&security=none&encryption=none&host=chatgpt.com&type=ws#🇫🇮FI-🚀@VPNine1
-vless://fb99f0a6-c2d9-4243-ac92-0120d970da19@0720-zard.kovira2.ir:13424?path=%2F&security=none&encryption=none&host=chatgpt.com&type=ws#Channel%20%3A%20%40Daily_Configs
 vless://d55b396c-0010-4afe-8bbf-fae21808abb5@f35.england-shoes.shop:8080?path=%2Fimi&security=none&encryption=mlkem768x25519plus.native.0rtt.k3rBLf_MvdMnaFy_MiGYaPmEu3z8R487OiM-sq08yHo&host=play.google.com&type=ws#%40filembad
 vless://d55b396c-0010-4afe-8bbf-fae21808abb5@f35.england-shoes.shop:8080?path=/imi&security=none&encryption=mlkem768x25519plus.native.0rtt.k3rBLf_MvdMnaFy_MiGYaPmEu3z8R487OiM-sq08yHo&host=play.google.com&type=ws#🇫🇮FI-🚀@VPNine1
-vless://112a40cd-a9b2-46e1-8904-e46ba5b01f17@ch-play.montago-shop.ir:443?security=reality&encryption=none&pbk=PjR-SM4fOm2fY4mTqWoqZDRyxontvpailM0gBqUxlUQ&headerType=none&fp=qq&type=tcp&sni=play.google.com&sid=377d#%40filembad
-vless://112a40cd-a9b2-46e1-8904-e46ba5b01f17@ch-play.montago-shop.ir:443?security=reality&encryption=none&pbk=PjR-SM4fOm2fY4mTqWoqZDRyxontvpailM0gBqUxlUQ&headerType=none&fp=qq&type=tcp&sni=play.google.com&sid=377d#🇫🇮FI-🚀@VPNine1
+vless://bbae962a-b6e9-46e6-990c-6abf13e6b075@85.192.49.165:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=V4SeM4OMxXoSKBmmyC5C0kZEhgL33a5vVZBe7ysJ42U&security=reality&sid=0a30e2aee95a7571&sni=fi.buycloud.app&type=tcp#🇫🇮FI-🚀@VPNine1
 vless://2869afeb-f117-4206-9c29-2cdbeeb87f58@faland.aliyostd.com:2096?mode=gun&security=reality&encryption=none&pbk=r-7MEg2UtIiQrzZP16EXHjIUDqkKzzRqf7XlYxPbHB8&fp=edge&spx=/&type=grpc&sni=www.icloud.com&sid=fbb8a1c698a0f918#🇫🇮FI-🚀@VPNine1
 vless://7512ace9-cdf2-40d2-9f7f-55a91c0193ca@fr.sv.temas-bor.ir:22011?encryption=none&security=reality&sni=login.yahoo.com&fp=firefox&pbk=OncWhxWwzrKOFH21JT9WxcenacQuc7ZmuQy_rZFJ8xg&sid=c6e19c434dc87df7&spx=/&type=tcp&headerType=none#🇩🇪DE-🚀@VPNine1
 vless://7512ace9-cdf2-40d2-9f7f-55a91c0193ca@es.sv.temas-bor.ir:22009?encryption=none&security=reality&sni=login.yahoo.com&fp=firefox&pbk=OncWhxWwzrKOFH21JT9WxcenacQuc7ZmuQy_rZFJ8xg&sid=c6e19c434dc87df7&spx=/&type=tcp&headerType=none#🇩🇪DE-🚀@VPNine1
@@ -31,11 +29,12 @@ vless://764a2d3e-7916-4da7-b3cc-195b7d30540c@fl2.cr7com1.ir:53416?security=none&
 vless://764a2d3e-7916-4da7-b3cc-195b7d30540c@fl2.cr7com1.ir:8888?security=none&encryption=none&headerType=none&type=tcp#🇫🇮FI-🚀@VPNine1
 vless://764a2d3e-7916-4da7-b3cc-195b7d30540c@fl2.cr7com1.ir:444?path=/api/jsjs&security=none&encryption=none&host=cdn-apple.com&type=httpupgrade#🇫🇮FI-🚀@VPNine1
 vless://764a2d3e-7916-4da7-b3cc-195b7d30540c@fl5.cr7com1.ir:2083?path=/api/jsjs&security=none&encryption=none&host=cdn-yahoo.com&type=httpupgrade#🇫🇮FI-🚀@VPNine1
+vless://764a2d3e-7916-4da7-b3cc-195b7d30540c@fl5.cr7com1.ir:2083?path=%2Fapi%2Fjsjs&security=none&encryption=none&host=cdn-yahoo.com&type=httpupgrade#%40W570W
+vless://112a40cd-a9b2-46e1-8904-e46ba5b01f17@ch-play.montago-shop.ir:443?security=reality&encryption=none&pbk=PjR-SM4fOm2fY4mTqWoqZDRyxontvpailM0gBqUxlUQ&headerType=none&fp=qq&type=tcp&sni=play.google.com&sid=377d#🇫🇮FI-🚀@VPNine1
 vless://09852c5b-fd6e-4dff-8fb8-7e0814b9453f@65.21.58.191:2052?sid=82ae77613d419414&fp=firefox&type=tcp&security=reality&encryption=none&pbk=QHrOrkjP7ASw8KrfNj4GhBREj-ela6kJbfCK_gdtdVk&headerType=none&sni=www.yahoo.com#🇫🇮FI-🚀@VPNine1
 vless://3f646f4d-b96e-4ba4-b562-0fd4854391a8@135.181.45.18:2056?mode=auto&path=/path&security=reality&encryption=none&pbk=qXZfqpQScWQea7Kpr69if9iHhiA7IMLwUgZflIvuWh8&host=hostname&fp=chrome&type=xhttp&sni=yahoo.com&sid=4eee3ae71639f189#🇫🇮FI-🚀@VPNine1
 vless://2c326e00-d936-42e1-b463-5022c90d4597@se.sv.temas-bor.ir:22024?security=reality&encryption=none&pbk=OncWhxWwzrKOFH21JT9WxcenacQuc7ZmuQy_rZFJ8xg&headerType=none&fp=firefox&spx=/&type=tcp&sni=login.yahoo.com&sid=c6e19c434dc87df7#🇫🇮FI-🚀@VPNine1
 vless://83b55f47-5106-4e9a-91ec-e94843b7b13e@65.21.158.19:43380?security=none&encryption=none&host=play.google.com&headerType=http&type=tcp#🇫🇮FI-🚀@VPNine1
-vless://41366bf9-8bc2-4d41-bd48-abb64bb65e49@a.fin.axylegend.shop:20200?security=reality&encryption=none&pbk=FHwu__BwuyQOgcqMA_GVvN9xPiJ6VSKGi7G0xT7heH8&headerType=none&fp=ios&spx=/de3keJ7seT8YB25&type=tcp&sni=icloud.com&sid=7c614a954e08#🇫🇮FI-🚀@VPNine1
 vless://37182b68-6422-4414-9518-7df6776c0150@fn2-unlimited.pavilof.ir:1020?security=reality&encryption=none&pbk=jILgyIiDR7xY8WDrU9EMx_iXUi6nKr3LapCgglBVBAU&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=yahoo.com&sid=3fa2fdb7dce16b8b#@vasl_bashim
 vless://6871b29e-bb51-4b6b-b2fa-6e2b98ad3859@46.62.240.221:80?encryption=none&type=tcp&headerType=http&host=khamenei.ir#T.me/CONFiGiR98
 vless://c04bf2df-2b7f-44da-a893-3792d3910fd8@fl16.myxasecure.space:443?security=reality&flow=xtls-rprx-vision&type=raw&sni=fl16.myxasecure.space&fp=qq&pbk=OCLtjVdRxsou3429LRfjkDYgiAPs24TSgSeFZpChCEw&sid=d67ec5a8fc40ebea#%F0%9F%87%AB%F0%9F%87%AE%20Finland%2C%20Helsinki%20%28Harju%29%20%7C%20%5BBL%5D
