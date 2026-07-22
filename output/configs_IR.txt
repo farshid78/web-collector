@@ -1,3 +1,4 @@
+ss://YWVzLTI1Ni1nY206TUdOallXRXhNamhoTVRReU1tRTBNV1JpWm1VME9UVTFOVEJtTVRaaA@188.121.100.157:11104#%40filembad
 vless://3b42c5de-276f-41db-bd4e-b79038af4b0c@Tamland.ir:2082?path=%2F&security=none&encryption=none&host=FBI.LithiumHost.ir&type=ws#%40filembad
 vless://63e470ce-91ba-48f0-a61c-b38e42219558@185.143.233.5:80?path=%2F&security=none&encryption=none&host=ger2h2.ketabkhan24.ir&type=ws#%40filembad
 vless://63e470ce-91ba-48f0-a61c-b38e42219558@185.143.233.5:80?path=/&security=none&encryption=none&host=ger2h2.ketabkhan24.ir&type=ws#🇮🇷IR-🚀@VPNine1
@@ -22,8 +23,6 @@ vless://d93ae5d8-2684-43a3-b9d3-92ca4f946b3e@87.107.110.209:8443?encryption=none
 vless://2ac24ac6-590c-414c-b6b0-66de9a8370bd@87.107.110.209:8443?encryption=none&extra=%7B%22scMaxEachPostBytes%22:%221000000%22,%22xPaddingBytes%22:%22100-1000%22%7D&fp=chrome&host=&mode=auto&path=/&pbk=RgWeG-Ud1zAhuvPOvMohAuluAwqDsYnyJxf1FSJnkmc&security=reality&sid=4af5c7ad948e&sni=www.sony.com&spx=/UE61KHXOu1LIiwW&type=xhttp&x_padding_bytes=100-1000#🇮🇷IR-🚀@VPNine1
 vless://097f9732-6dc9-40ef-a181-13a931314364@87.236.208.10:80?security=none&encryption=none&headerType=none&type=tcp#%40filembad
 vless://097f9732-6dc9-40ef-a181-13a931314364@87.236.208.10:80?security=none&encryption=none&headerType=none&type=tcp#🇮🇷IR-🚀@VPNine1
-vmess://eyJhZGQiOiJ2aXAxLmhvbGRlcmJyaWRnZS5zaXRlIiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiIiLCJpZCI6IjFhOGJjZjRiLTVkY2ItNGMwMC04Njg3LWE1NmIzYmQxMmVkMCIsImluc2VjdXJlIjoiMCIsIm5ldCI6InRjcCIsInBhdGgiOiIiLCJwb3J0IjoiODg4MCIsInBzIjoiQGZpbGVtYmFkIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIifQ==
-vmess://eyJhZGQiOiAidmlwMS5ob2xkZXJicmlkZ2Uuc2l0ZSIsICJhaWQiOiAiMCIsICJob3N0IjogIiIsICJpZCI6ICIxYThiY2Y0Yi01ZGNiLTRjMDAtODY4Ny1hNTZiM2JkMTJlZDAiLCAibmV0IjogInRjcCIsICJwYXRoIjogIiIsICJwb3J0IjogIjg4ODAiLCAicHMiOiAiXHVkODNjXHVkZGVlXHVkODNjXHVkZGY3SVItXHVkODNkXHVkZTgwQFZQTmluZTEiLCAic2N5IjogImF1dG8iLCAic25pIjogIiIsICJ0bHMiOiAiIiwgInR5cGUiOiAibm9uZSIsICJ2IjogIjIifQ==
 vless://e9ae74fe-4a72-49fd-9416-aff58a674d09@dlc-srv3.treenix-ping.com:9000?security=none&allowInsecure=0&encryption=none&type=tcp&headerType=none#🇮🇷IR-🚀@VPNine1
 vless://b1cebe1d-2ca1-46db-bde6-91ac6d78fb57@45.131.4.0:2086?encryption=none&security=none&type=xhttp&headerType=none&path=/?ed=2082&host=mci.ir.cafearen.ir&mode=auto#🇳🇱NL-🚀@VPNine1
 vless://86dc27f6-a1e3-4cd2-87eb-8f14f5f43ab5@45.131.4.0:2086?encryption=none&security=none&type=xhttp&headerType=none&path=/?ed=2082&host=mci.ir.cafearen.ir&mode=auto#🇳🇱NL-🚀@VPNine1
@@ -48,17 +47,13 @@ vless://41bc5a50-7c41-4078-9a2a-611ab1c6dddb@snapp.ir:2095?path=/&security=none&
 trojan://33ws1asxa8vmbehw@snapp.ir:80?path=%2F&security=none&host=web.maxisup.ir&type=ws#Configs_FreeIran
 ss://%40V2ConfigPro@biomaze.ir:443?mode=auto&path=/user&security=tls&encryption=none&extra=%7B%22mode%22:%22auto%22,%22xPaddingBytes%22:%22100-1000%22%7D&insecure=0&host=youqp-ab9040c5d6-sss.apps.ir-central1.arvancaas.ir&fp=chrome&type=xhttp&allowInsecure=0&sni=youqp-ab9040c5d6-sss.apps.ir-central1.arvancaas.ir#🇮🇷IR-🚀@VPNine1
 vless://ccb97736-185f-439f-86a0-f2376bfedab0@45.82.138.177:9000?alpn=h2,http/1.1&authority=&encryption=none&fp=ios&security=tls&serviceName=tunnel-1&sni=kansas.axonshield.ir&type=grpc#🇮🇷IR-🚀@VPNine1
+vmess://eyJhZGQiOiAidmlwMS5ob2xkZXJicmlkZ2Uuc2l0ZSIsICJhaWQiOiAiMCIsICJob3N0IjogIiIsICJpZCI6ICIxYThiY2Y0Yi01ZGNiLTRjMDAtODY4Ny1hNTZiM2JkMTJlZDAiLCAibmV0IjogInRjcCIsICJwYXRoIjogIiIsICJwb3J0IjogIjg4ODAiLCAicHMiOiAiXHVkODNjXHVkZGVlXHVkODNjXHVkZGY3SVItXHVkODNkXHVkZTgwQFZQTmluZTEiLCAic2N5IjogImF1dG8iLCAic25pIjogIiIsICJ0bHMiOiAiIiwgInR5cGUiOiAibm9uZSIsICJ2IjogIjIifQ==
 vless://0d1c3cee-2952-4a3e-a03e-fbe99d32dc72@de22.fastplus7.site:2086?type=ws&encryption=none&path=/&host=de21.fastplus11.ir&security=none#🇮🇷IR-🚀@VPNine1
 ss://YWVzLTI1Ni1nY206TmpNME9HVXdNekU0WVRaaU56WTNNek0xWWpZelpURmtaak5sWVRZeA@188.213.196.222:11104#🇮🇷IR-🚀@VPNine1
-ss://YWVzLTI1Ni1nY206TmpNME9HVXdNekU0WVRaaU56WTNNek0xWWpZelpURmtaak5sWVRZeA@188.213.196.222:11104#%D8%A7%DA%AF%D9%87%20%D9%85%DB%8C%D8%AE%D9%88%D8%A7%DB%8C%20%D9%82%D8%B7%D8%B9%20%D9%86%D8%B4%DB%8C%20%D8%AC%D9%88%DB%8C%D9%86%20%D8%B4%D9%88%20%3A%20%40farsiproxy
 ss://YWVzLTI1Ni1nY206TmpCallUZ3pObUV3TmpjMk1EUXlOREU1T0RZME1UWmpaRGxrWldKaQ@95.38.166.233:11104#🇮🇷IR-🚀@VPNine1
 vless://a8c6e908-fa7e-4d53-abdf-162fc47fe456@185.143.233.235:2053?encryption=none&security=tls&sni=top.mobixaco.ir&fp=random&insecure=0&allowInsecure=0&type=ws&host=top.mobixaco.ir&path=%2F#%40Configs_FreeIran
 vless://15f918a6-fa3c-45cd-9d54-2e4d2d830bf6@193.151.135.64:4438?security=none&encryption=none&headerType=none&type=tcp#%40Configs_FreeIran
 trojan://humanity@2.144.21.112:40443?path=%2Fassignment&security=tls&insecure=0&host=www.ignitelimit.com&type=ws&allowInsecure=0&sni=www.ignitelimit.com#🇫🇷🍁@Config_jo
-vless://9d6104a5-fc6d-4fe6-95b7-80d8f699e09d@45.131.4.21:2087?type=xhttp&headerType=none&security=tls&encryption=none&sni=ch-de.sdcards.ir&alpn=h2%2Chttp%2F1.1&path=%2F%3FTelegram-WangCai2&host=ch-de.sdcards.ir&insecure=0#%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Falkenstein%20%7C%20%5BBL%5D
-vless://9d6104a5-fc6d-4fe6-95b7-80d8f699e09d@45.131.4.21:2087?type=xhttp&security=tls&fp=firefox&sni=ch-de.sdcards.ir&path=/?Telegram-WangCai2&mode=auto#%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Falkenstein%20%7C%20%5BBL%5D
-vless://9d6104a5-fc6d-4fe6-95b7-80d8f699e09d@45.131.4.21:2087?type=xhttp&security=tls&sni=ch-de.sdcards.ir&path=/?Telegram-WangCai2&mode=auto#%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Falkenstein%20%7C%20%5BBL%5D
-vless://3bd18e39-0562-4111-bf53-84e6619c72f5@onss.dequa.ir:23857?alpn=h2,http/1.1&ech=AFP+DQBPAAAgACDbEt/64PNdR6dC05FbUb68aYUKzdCmoM6S7zzAsZHUfAAkAAEAAQABAAIAAQADAAIAAQACAAIAAgADAAMAAQADAAIAAwADAAAAAA==&encryption=none&fp=chrome&security=tls&sni=dash1.dequa.ir&type=tcp#%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Falkenstein%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
 ss://bm9uZTpSU3pFSWtrMkVzSEVBVmoxNU41RS9BPT0=@185.188.105.11:443#@DeltaKroneckerGithub
 ss://bm9uZTpSU3pFSWtrMkVzSEVBVmoxNU41RS9BPT0=@185.188.104.11:443#@DeltaKroneckerGithub
 ss://bm9uZTpSU3pFSWtrMkVzSEVBVmoxNU41RS9BPT0@185.188.104.11:443#@DeltaKroneckerGithub
