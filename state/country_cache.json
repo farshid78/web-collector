@@ -1,84 +1,4 @@
 {
-  "172.67.152.85": {
-    "country": "CA",
-    "ts": 1783541544
-  },
-  "81.90.147.151": {
-    "country": "IR",
-    "ts": 1783541544
-  },
-  "89.106.64.15": {
-    "country": "DE",
-    "ts": 1783541544
-  },
-  "172.64.35.37": {
-    "country": "CA",
-    "ts": 1783541544
-  },
-  "162.159.32.29": {
-    "country": "CA",
-    "ts": 1783541544
-  },
-  "x4g-production-9855.up.railway.app": {
-    "country": "US",
-    "ts": 1783541544
-  },
-  "x4g-production-6503.up.railway.app": {
-    "country": "US",
-    "ts": 1783541544
-  },
-  "69.46.46.55": {
-    "country": "US",
-    "ts": 1783541544
-  },
-  "yas.aliyasi.ali3amaconfigs.shop": {
-    "country": "GB",
-    "ts": 1783541544
-  },
-  "x4g-production-f80a.up.railway.app": {
-    "country": "US",
-    "ts": 1783541544
-  },
-  "173.245.59.162": {
-    "country": "CA",
-    "ts": 1783541544
-  },
-  "178.104.222.34": {
-    "country": "DE",
-    "ts": 1783541544
-  },
-  "s.telewebion.ir.varzesh3.com.de": {
-    "country": "DE",
-    "ts": 1783541544
-  },
-  "runheng.cloud": {
-    "country": "CA",
-    "ts": 1783541544
-  },
-  "pan3.mashkestan.com": {
-    "country": "FI",
-    "ts": 1783541544
-  },
-  "dabz.dezhawo.ir": {
-    "country": "DE",
-    "ts": 1783541544
-  },
-  "ping.wargen-alkaline.ir": {
-    "country": "SE",
-    "ts": 1783541544
-  },
-  "trsrv.azmoon361.ir": {
-    "country": "TR",
-    "ts": 1783541544
-  },
-  "admin.ninenight.site": {
-    "country": "FI",
-    "ts": 1783541544
-  },
-  "olds-2.lubbs.de": {
-    "country": "SC",
-    "ts": 1783541544
-  },
   "104.21.45.11": {
     "country": "CA",
     "ts": 1783546437
@@ -45838,5 +45758,77 @@
   "tr.manqivo.ir": {
     "country": "TR",
     "ts": 1784748439
+  },
+  "217.160.189.0": {
+    "country": "DE",
+    "ts": 1784753133
+  },
+  "104.18.209.251": {
+    "country": "CA",
+    "ts": 1784753133
+  },
+  "54.38.138.14": {
+    "country": "PL",
+    "ts": 1784753133
+  },
+  "167.233.213.99": {
+    "country": "DE",
+    "ts": 1784753133
+  },
+  "104.25.64.103": {
+    "country": "CA",
+    "ts": 1784753133
+  },
+  "150.230.156.17": {
+    "country": "DE",
+    "ts": 1784753133
+  },
+  "168.119.156.101": {
+    "country": "DE",
+    "ts": 1784753133
+  },
+  "ezaccess1-x4g-ezaccess1-70fb.up.railway.app": {
+    "country": "US",
+    "ts": 1784753133
+  },
+  "162.159.82.155": {
+    "country": "HU",
+    "ts": 1784753133
+  },
+  "timazadi-production-c026.up.railway.app": {
+    "country": "US",
+    "ts": 1784753133
+  },
+  "104.20.9.79": {
+    "country": "CA",
+    "ts": 1784753133
+  },
+  "176.32.39.122": {
+    "country": "RU",
+    "ts": 1784753133
+  },
+  "d.tl-fitma.ir": {
+    "country": "DE",
+    "ts": 1784753133
+  },
+  "fl4.cr7com1.ir": {
+    "country": "FI",
+    "ts": 1784753133
+  },
+  "ipwhite-cdncloudflare2.reallyclody.ir": {
+    "country": "BG",
+    "ts": 1784753133
+  },
+  "app.nuerotec.ir": {
+    "country": "IR",
+    "ts": 1784753133
+  },
+  "ava2.singbox4.ir": {
+    "country": "IR",
+    "ts": 1784753133
+  },
+  "olds-2.lubbs.de": {
+    "country": "SC",
+    "ts": 1784753133
   }
 }
