@@ -46,8 +46,6 @@ vless://e4514801-0d5a-42ba-869f-39bd605aef9e@52.57.117.158:22224?encryption=none
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@52.57.117.158:22222?encryption=none&security=none&type=tcp#🇩🇪DE-🚀@VPNine1
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@52.57.117.158:22223?encryption=none&security=none&type=tcp&headerType=none#🔵@chillguy_vpn
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@52.57.117.158:22224?encryption=none&security=none&type=tcp#%D8%A7%DA%AF%D9%87%20%D9%85%DB%8C%D8%AE%D9%88%D8%A7%DB%8C%20%D9%82%D8%B7%D8%B9%20%D9%86%D8%B4%DB%8C%20%D8%AC%D9%88%DB%8C%D9%86%20%D8%B4%D9%88%20%3A%20%40farsiproxy
-vless://e4514801-0d5a-42ba-869f-39bd605aef9e@52.57.117.158:22223?encryption=none&security=none&type=tcp#%D8%A7%DA%AF%D9%87%20%D9%85%DB%8C%D8%AE%D9%88%D8%A7%DB%8C%20%D9%82%D8%B7%D8%B9%20%D9%86%D8%B4%DB%8C%20%D8%AC%D9%88%DB%8C%D9%86%20%D8%B4%D9%88%20%3A%20%40farsiproxy
-vless://e4514801-0d5a-42ba-869f-39bd605aef9e@52.57.117.158:22222?encryption=none&security=none&type=tcp#(S102)🇩🇪t.me/PrivateVPNs
 vless://e51796bb-3305-ac88-f39d-22fd9dd63b4f@170.168.99.3:443?mode=auto&path=%2F&security=reality&encryption=none&pbk=R8Mogel1wypEIpcUXnGmG1cuzT9POghNhqJcw4-CLx0&fp=chrome&type=xhttp&sni=cdn.steamstatic.com#%40filembad
 vless://e51796bb-3305-ac88-f39d-22fd9dd63b4f@170.168.99.3:443?mode=auto&path=/&security=reality&encryption=none&pbk=R8Mogel1wypEIpcUXnGmG1cuzT9POghNhqJcw4-CLx0&fp=chrome&type=xhttp&sni=cdn.steamstatic.com#🇩🇪DE-🚀@VPNine1
 vless://e51796bb-3305-ac88-f39d-22fd9dd63b4f@170.168.99.3:443?mode=auto&path=%2F&security=reality&encryption=none&pbk=R8Mogel1wypEIpcUXnGmG1cuzT9POghNhqJcw4-CLx0&fp=chrome&type=xhttp&sni=cdn.steamstatic.com#%40outline_ir
@@ -66,6 +64,7 @@ vless://e4514801-0d5a-42ba-869f-39bd605aef9e@63.185.19.86:22222?encryption=none&
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@63.185.19.86:22223?encryption=none&security=none&type=tcp#🇩🇪DE-🚀@VPNine1
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@63.185.19.86:22222?encryption=none&security=none&type=tcp#🇩🇪DE-🚀@VPNine1
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@63.185.19.86:22224?encryption=none&security=none&type=tcp#🇩🇪DE-🚀@VPNine1
+vless://5d4f3f07-22a5-4355-9c9d-fe59fd064dc2@red2.pro--iran.co.uk:8443?mode=auto&path=/?ed=1024&security=reality&encryption=none&extra=%7B%22mode%22:%22auto%22,%22xPaddingBytes%22:%22100-1000%22%7D&pbk=idmxoAusKN5aa5ZvTya0cGmCJDuWxAsCHeXr6TV5aXQ&host=www.speedtest.net&fp=chrome&spx=/FzPgKGGPsHsarN1&type=xhttp&sni=www.yahoo.com&sid=74b334aa#🇩🇪DE-🚀@VPNine1
 vless://419bfbd4-3097-4cef-a6b3-aebd78506ed7@94.156.122.197:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=PjeRJM1RK0LzLMTyBE81vEYD5o-61q0D9RVNkLObugo&security=reality&sid=fecf00f90f921026&sni=de2.themesh.site&type=tcp#🇩🇪DE-🚀@VPNine1
 vless://1b73f053-2709-4698-bbec-cb20e8a5f288@167.233.26.112:1080?security=none&encryption=none&host=play.google.com&headerType=http&type=tcp#🇩🇪DE-🚀@VPNine1
 vless://b12eebc2-369c-4f3c-96a0-a8bd150ca8d5@138.124.126.158:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=Lxs8Ruv2zHH0XW5EiQmuCaScfkGPCxWjW02YDWH8pyU&security=reality&sid=eb0cca7312345678&sni=eh.vk.com&type=tcp#🇩🇪DE-🚀@VPNine1
@@ -109,8 +108,6 @@ vless://43eb972f-f2fa-5553-9916-85322c6e2c47@89.169.12.64.tyr-agentstvo.tech:443
 vless://43eb972f-f2fa-5452-9916-85322c6e2c47@89.169.12.64.tyr-agentstvo.tech:443?encryption=none&security=tls&sni=89.169.12.64.tyr-agentstvo.tech&fp=edge&alpn=h2&insecure=0&allowInsecure=0&type=ws&path=%2Fsequre%2Fws%3Fed%3D2560#@DeltaKroneckerGithub
 ss://MjAyMi1ibGFrZTMtYWVzLTI1Ni1nY206ZnVJTHdRN1d5ekd0Y1VRQmJuU2dmaldVd0EycVhBeUZkUGdLTHlDMEcxdz06d0cwMlJrajNBcXBTRngrTEpjRjJYZ2lweGdGSFNreENzVjhvdWFndGs1QT0=@153.52.92.102:42166#🇩🇪DE-🚀@VPNine1
 vless://4bf4c3ce-c4bb-4e0b-85d8-79238539c4a9@2.27.25.13:443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=vnjp7zIK2H3CGdjSis_79KXqS6IG-opmpbETPUD-EC8&security=reality&sid=15affa0af66dfc79&sni=deepl.com&type=tcp#🇩🇪DE-🚀@VPNine1
-vless://ac2249c1-75d9-45d6-becc-5d987fbf5d11@rs.sv.temas-bor.ir:22023?security=reality&encryption=none&pbk=OncWhxWwzrKOFH21JT9WxcenacQuc7ZmuQy_rZFJ8xg&headerType=none&fp=firefox&spx=/&type=tcp&sni=login.yahoo.com&sid=c6e19c434dc87df7#🇩🇪DE-🚀@VPNine1
-vless://ac2249c1-75d9-45d6-becc-5d987fbf5d11@rs.sv.temas-bor.ir:22023?security=reality&encryption=none&pbk=OncWhxWwzrKOFH21JT9WxcenacQuc7ZmuQy_rZFJ8xg&headerType=none&fp=firefox&spx=%2F&type=tcp&sni=login.yahoo.com&sid=c6e19c434dc87df7#@DeltaKroneckerGithub
 vmess://eyJhZGQiOiIxNTkuODkuMjkuMTM2IiwiYWlkIjoiMCIsImhvc3QiOiJjeC5jb20iLCJpZCI6ImQyMGQ2ZWRlLTQzM2MtMTFlZC1iODFmLWNmZDkwNWRmOTk1OCIsIm5ldCI6IndzIiwicGF0aCI6Ii92bWVzcyIsInBvcnQiOiI4MCIsInBzIjoidmlwIG1haHNhIPCfh7rwn4eyIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiIiLCJ2IjoiMiJ9
 vless://d9fc2109-33ee-4f57-b67a-7c6ea3a1c645@sof.edgeptr.org:443?security=reality&encryption=none&pbk=EtKRG8sxUJsdy-KwUOtYUNJnSn5VMx2sfKvvdpzg2X0&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.lovelive-anime.jp&sid=f0eb800bd980b00b#@vasl_bashim
 trojan://dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q@185.137.157.145:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0#@vasl_bashim
@@ -154,6 +151,7 @@ vless://859a537b-09cf-4bce-8da4-ecbb72950e3a@159.195.44.159:443?security=reality
 trojan://WG39087154@certain-prawn.rooster465.autos:443?sni=certain-prawn.rooster465.autos&type=tcp&fp=chrome#@DeltaKroneckerGithub
 vless://1d16c6e0-1bbe-435b-b661-90043fee999c@5.175.141.123:443?ed=2560&eh=Sec-WebSocket-Protocol&encryption=none&host=notls.lukongtou.eu.org&path=Telegram-WangCai2&security=tls&sni=notls.lukongtou.eu.org&type=ws#@DeltaKroneckerGithub
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@18.156.147.82:22223?encryption=none&security=none&type=tcp#@DeltaKroneckerGithub
+vless://ac2249c1-75d9-45d6-becc-5d987fbf5d11@rs.sv.temas-bor.ir:22023?security=reality&encryption=none&pbk=OncWhxWwzrKOFH21JT9WxcenacQuc7ZmuQy_rZFJ8xg&headerType=none&fp=firefox&spx=%2F&type=tcp&sni=login.yahoo.com&sid=c6e19c434dc87df7#@DeltaKroneckerGithub
 trojan://b8808043-6566-4923-9195-e66bfb553d57@51.38.99.96:443?security=tls&sni=ba24.ir#@DeltaKroneckerGithub
 trojan://PD07395842@optimum-bull.rooster465.autos:443?fp=chrome#@DeltaKroneckerGithub
 trojan://WG39087154@optimum-bull.rooster465.autos:443?sni=optimum-bull.rooster465.autos&type=tcp&fp=chrome#@DeltaKroneckerGithub
