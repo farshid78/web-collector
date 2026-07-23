@@ -1,172 +1,4 @@
 {
-  "45.131.211.111": {
-    "country": "BZ",
-    "ts": 1783620806
-  },
-  "128.140.34.64": {
-    "country": "DE",
-    "ts": 1783620806
-  },
-  "23.26.37.120": {
-    "country": "DE",
-    "ts": 1783620806
-  },
-  "3.121.203.159": {
-    "country": "DE",
-    "ts": 1783620806
-  },
-  "fi-google.mobileemdad.top": {
-    "country": "FI",
-    "ts": 1783620806
-  },
-  "45.129.3.157": {
-    "country": "RU",
-    "ts": 1783620806
-  },
-  "157.180.72.116": {
-    "country": "FI",
-    "ts": 1783620806
-  },
-  "104.18.150.215": {
-    "country": "CA",
-    "ts": 1783620806
-  },
-  "69.46.46.21": {
-    "country": "US",
-    "ts": 1783620806
-  },
-  "x4g-production-5f19.up.railway.app": {
-    "country": "US",
-    "ts": 1783620806
-  },
-  "69.46.46.35": {
-    "country": "US",
-    "ts": 1783620806
-  },
-  "95.182.90.187": {
-    "country": "CZ",
-    "ts": 1783620806
-  },
-  "0.0.0.0": {
-    "country": "UNKNOWN",
-    "ts": 1783620806
-  },
-  "tung.clashbez.com": {
-    "country": "GB",
-    "ts": 1783620806
-  },
-  "node-7946883854-bfd146-production.up.railway.app": {
-    "country": "US",
-    "ts": 1783620806
-  },
-  "63.177.32.122": {
-    "country": "DE",
-    "ts": 1783620806
-  },
-  "84.201.138.139": {
-    "country": "RU",
-    "ts": 1783620806
-  },
-  "104.194.144.187": {
-    "country": "GB",
-    "ts": 1783620806
-  },
-  "plw.sanaiehdasti.com": {
-    "country": "PL",
-    "ts": 1783620806
-  },
-  "fgssesrfxdt.jgfrdeewar.pihuigrtsres.net.emir.vpncitywg.com": {
-    "country": "IR",
-    "ts": 1783620806
-  },
-  "5.188.80.211": {
-    "country": "RU",
-    "ts": 1783620806
-  },
-  "63.180.181.46": {
-    "country": "DE",
-    "ts": 1783620806
-  },
-  "kakoolnewse.up.railway.app": {
-    "country": "US",
-    "ts": 1783620806
-  },
-  "138.124.98.135": {
-    "country": "NL",
-    "ts": 1783620806
-  },
-  "84.201.134.98": {
-    "country": "RU",
-    "ts": 1783620806
-  },
-  "156.231.115.96": {
-    "country": "JP",
-    "ts": 1783620806
-  },
-  "151.101.129.242": {
-    "country": "CA",
-    "ts": 1783620806
-  },
-  "x4g-production-ea08.up.railway.app": {
-    "country": "US",
-    "ts": 1783620806
-  },
-  "94.183.157.58": {
-    "country": "IR",
-    "ts": 1783620806
-  },
-  "124.156.208.160": {
-    "country": "JP",
-    "ts": 1783620806
-  },
-  "x4g-production-983f.up.railway.app": {
-    "country": "US",
-    "ts": 1783620806
-  },
-  "zeus-panel-ehqukv.ewrw34634532.workers.dev": {
-    "country": "CA",
-    "ts": 1783620806
-  },
-  "uk.r.stockym.com": {
-    "country": "GB",
-    "ts": 1783620806
-  },
-  "shot3.diiginet.ir": {
-    "country": "IR",
-    "ts": 1783620806
-  },
-  "p-l-1-3r-dsir-ir.codesystem.ir": {
-    "country": "PL",
-    "ts": 1783620806
-  },
-  "w.r.stockym.com": {
-    "country": "PL",
-    "ts": 1783620806
-  },
-  "centerbeam.proxy.rlwy.net": {
-    "country": "US",
-    "ts": 1783620806
-  },
-  "tr-wsdxc-sds-w-sd-wd-s-w-2w-23.codesystem.ir": {
-    "country": "TR",
-    "ts": 1783620806
-  },
-  "de2.codesystem.ir": {
-    "country": "DE",
-    "ts": 1783620806
-  },
-  "zwolf.bkneed.ir": {
-    "country": "US",
-    "ts": 1783620806
-  },
-  "tu1-azad.petshopcloud.ir": {
-    "country": "TR",
-    "ts": 1783620806
-  },
-  "takehost-ger.shakhle.ir": {
-    "country": "DE",
-    "ts": 1783620806
-  },
   "hd.serverkingomz.ir#%40filembad": {
     "country": "UNKNOWN",
     "ts": 1783627811
@@ -46082,5 +45914,57 @@
   "seaworkshop.lampshop.org": {
     "country": "IR",
     "ts": 1784828661
+  },
+  "45.131.211.111": {
+    "country": "BZ",
+    "ts": 1784832773
+  },
+  "104.16.159.5": {
+    "country": "CA",
+    "ts": 1784832773
+  },
+  "0.0.0.0": {
+    "country": "UNKNOWN",
+    "ts": 1784832773
+  },
+  "45.59.122.95": {
+    "country": "CH",
+    "ts": 1784832773
+  },
+  "one.alpheratzz.org": {
+    "country": "RU",
+    "ts": 1784832773
+  },
+  "23.26.37.120": {
+    "country": "DE",
+    "ts": 1784832773
+  },
+  "fi.alpheratzz.org": {
+    "country": "RU",
+    "ts": 1784832773
+  },
+  "194.87.133.25": {
+    "country": "RU",
+    "ts": 1784832773
+  },
+  "15.224.131.242": {
+    "country": "FR",
+    "ts": 1784832773
+  },
+  "join-v2ngnet-vhkfy.up.railway.app": {
+    "country": "US",
+    "ts": 1784832773
+  },
+  "rokervpn-production-46c3.up.railway.app": {
+    "country": "US",
+    "ts": 1784832773
+  },
+  "switchyard.proxy.rlwy.net": {
+    "country": "US",
+    "ts": 1784832774
+  },
+  "out.mamad-imnix.ir": {
+    "country": "DE",
+    "ts": 1784832774
   }
 }
