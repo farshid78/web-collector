@@ -40,7 +40,6 @@ vless://8436b233-7fe6-4712-a14f-33135e1e06c3@console.panel.dash.store.exit.logou
 vless://13ce37df-0738-4130-9b02-a87658921feb@95.217.159.175:2087?security=none&encryption=none&host=play.google.com&headerType=http&type=tcp#🇫🇮FI-🚀@VPNine1
 vless://d8f894b6-abc4-44b6-8d8a-980e9dd2f8fc@gr1.fifapes.monster:8882?security=&encryption=none&host=play.google.com&headerType=http&type=tcp#🇫🇷FR-🚀@VPNine1
 vless://ab51054f-de76-4a0f-9f3a-b44c8df86a6c@77.221.159.165:40443?flow=xtls-rprx-vision&encryption=none&security=reality&sni=deepl.com&pbk=6AOnobBShzL_N96JRBNMfbL84_3myz8ZbKfZUEqRXiY&allowinsecure=0&type=tcp&headerType=none#🇫🇮FI-🚀@VPNine1
-vless://d3aebc17-a731-40fb-a755-aac1a4cf80f2@95.181.167.171:9090?security=none&encryption=none&headerType=none&type=tcp#🇫🇮FI-🚀@VPNine1
 vless://37182b68-6422-4414-9518-7df6776c0150@fn2-unlimited.pavilof.ir:1020?security=reality&encryption=none&pbk=jILgyIiDR7xY8WDrU9EMx_iXUi6nKr3LapCgglBVBAU&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=yahoo.com&sid=3fa2fdb7dce16b8b#@vasl_bashim
 vless://6871b29e-bb51-4b6b-b2fa-6e2b98ad3859@46.62.240.221:80?encryption=none&type=tcp&headerType=http&host=khamenei.ir#T.me/CONFiGiR98
 vless://0a76a766-d141-44b8-944e-dff757d7116f@163.5.153.153:443?security=reality&encryption=none&pbk=aB_2Tcf0A5LoiIEZHztR_l-ZOFeJKxYRH67s_OVQ9C0&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.samsung.com&sid=a91045bc#@DeltaKroneckerGithub
