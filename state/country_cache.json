@@ -1,76 +1,4 @@
 {
-  "172.67.146.67": {
-    "country": "CA",
-    "ts": 1783719916
-  },
-  "104.21.72.25": {
-    "country": "CA",
-    "ts": 1783719916
-  },
-  "104.25.255.254": {
-    "country": "CA",
-    "ts": 1783719916
-  },
-  "159.69.14.87": {
-    "country": "DE",
-    "ts": 1783719916
-  },
-  "172.67.138.79": {
-    "country": "CA",
-    "ts": 1783719916
-  },
-  "172.67.214.2": {
-    "country": "CA",
-    "ts": 1783719916
-  },
-  "216.24.57.73": {
-    "country": "US",
-    "ts": 1783719916
-  },
-  "104.21.59.94": {
-    "country": "CA",
-    "ts": 1783719916
-  },
-  "x1.pingonet.xyz": {
-    "country": "NL",
-    "ts": 1783719916
-  },
-  "zeus-panel-k74prm.zeus-eh9ytg.workers.dev": {
-    "country": "CA",
-    "ts": 1783719916
-  },
-  "3x-ui-upgrade-production-1a93.up.railway.app": {
-    "country": "US",
-    "ts": 1783719916
-  },
-  "s5.cnavippanel.com": {
-    "country": "DE",
-    "ts": 1783719916
-  },
-  "kerigsadembapefomarj2.ticklitickli.ir": {
-    "country": "NL",
-    "ts": 1783719916
-  },
-  "kerigsadembapefomarj1.ticklitickli.ir": {
-    "country": "KZ",
-    "ts": 1783719916
-  },
-  "panel.accountfreelancer.ir": {
-    "country": "CA",
-    "ts": 1783719916
-  },
-  "gioogle.ir": {
-    "country": "CA",
-    "ts": 1783719916
-  },
-  "www.ramito.ir": {
-    "country": "CA",
-    "ts": 1783719916
-  },
-  "271f.ir": {
-    "country": "CA",
-    "ts": 1783719916
-  },
   "162.159.18.122": {
     "country": "CA",
     "ts": 1783723445
@@ -46118,5 +46046,37 @@
   "fr.fifapes.monster": {
     "country": "FI",
     "ts": 1784927150
+  },
+  "104.21.36.87": {
+    "country": "CA",
+    "ts": 1784931380
+  },
+  "45.130.125.229": {
+    "country": "SC",
+    "ts": 1784931380
+  },
+  "91.206.71.47": {
+    "country": "NL",
+    "ts": 1784931380
+  },
+  "dlpit.ccloudtvapp.com": {
+    "country": "TR",
+    "ts": 1784931380
+  },
+  "77.104.95.250": {
+    "country": "IR",
+    "ts": 1784931380
+  },
+  "gm1.namirasly.com": {
+    "country": "DE",
+    "ts": 1784931380
+  },
+  "can.k44lawm.ir": {
+    "country": "CA",
+    "ts": 1784931380
+  },
+  "cf.3666888.xyz": {
+    "country": "CA",
+    "ts": 1784931380
   }
 }
