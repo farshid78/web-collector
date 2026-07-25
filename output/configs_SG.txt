@@ -1,6 +1,6 @@
+vless://e996abc7-cff3-4d9f-a9dc-0d717048a345@s.avrilon.us:443?security=reality&encryption=mlkem768x25519plus.native.0rtt.acjHXqKWEZtVE-QeN5i1dfX8rrQHE0eGw8wctrJNMVo&pbk=pak_xgMOqICE2oAimyRphnruNEP7HptVJVI5p1HjGmA&headerType=none&fp=chrome&spx=%2F0d4729593b0c130&type=tcp&flow=xtls-rprx-vision&sni=cdn.samsung.com&sid=0bad329e858e70da#%40filembad
 vless://4476eabb-509c-42d3-bb42-6838bf6fcd1e@104.64.206.42:57137?encryption=none&security=none&type=ws&host=m.zoom.us&path=%2FFREE%20By%20Tharuwa%20%280767597317%29#%40filembad
 vless://4476eabb-509c-42d3-bb42-6838bf6fcd1e@104.64.206.42:57137?encryption=none&security=none&type=ws&host=m.zoom.us&path=/FREE%20By%20Tharuwa%20%280767597317%29#🇸🇬SG-🚀@VPNine1
-vless://e996abc7-cff3-4d9f-a9dc-0d717048a345@s.avrilon.us:443?security=reality&encryption=mlkem768x25519plus.native.0rtt.acjHXqKWEZtVE-QeN5i1dfX8rrQHE0eGw8wctrJNMVo&pbk=pak_xgMOqICE2oAimyRphnruNEP7HptVJVI5p1HjGmA&headerType=none&fp=chrome&spx=%2F0d4729593b0c130&type=tcp&flow=xtls-rprx-vision&sni=cdn.samsung.com&sid=0bad329e858e70da#%40filembad
 trojan://JT80563429@healthy-louse.rooster465.autos:443?allowInsecure=1#🇸🇬SG-🚀@VPNine1
 trojan://IQ68037294@45.135.228.211:443?sni=endless-kiwi.rooster465.autos#🇸🇬SG-🚀@VPNine1
 trojan://IQ68037294@81.28.13.9:443?sni=prepared-turkey.rooster465.autos#🇸🇬SG-🚀@VPNine1
@@ -11,9 +11,6 @@ vless://1a17b19d-4896-4531-af79-6e91d8ef8228@13.212.140.244:8686?encryption=none
 ss://MjAyMi1ibGFrZTMtYWVzLTI1Ni1nY206TURWbU1EWm1NamN4TUdWaFpUaGxZbVZrWkdFd09UaGlObUpqWVRZek16Yz06WVRsa056STNZMlF0TXpNd1lpMDBaV1JrTFRnNU1URXROMk15TWpSa1pqWT0@sg-01.jjsdns.com:19822?#%40Configs_FreeIran
 vless://0970324b-8c61-4ae7-8c3f-385a6f1e17e4@45.8.211.14:443?encryption=none&type=ws&security=tls&path=%2F&host=vpn47.cc.cd&sni=vpn47.cc.cd&fp=chrome&insecure=0&allowInsecure=0#T.me/CONFiGiR98
 vless://14b59caf-a196-4ec2-8c70-c7b388062f5b@45.8.211.14:443?encryption=none&security=tls&sni=vangoghhh.info&type=ws&host=vangoghhh.info&path=/rdfgtws&packetEncoding=xudp#@DeltaKroneckerGithub
-vless://bc6bc7f9-6bf4-44e2-9d20-512b2e359d3c@159.138.85.179:10428?encryption=none&security=tls&sni=5iv93opy8jus9z.bjo5si35c9i9ud4242fado49188obkoiermjuxj7zgxu.workers.dev&fp=chrome&type=ws&host=5iv93opy8jus9z.bjo5si35c9i9ud4242fado49188obkoiermjuxj7zgxu.workers.dev&path=%2F%40Marisa_kristi#%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AE%F0%9F%87%AA%20%F0%9F%87%B8%F0%9F%87%AC%20%7C%20%5BBL%5D
-vless://9abc2783-1f8f-4197-80cd-2810394bab52@159.138.85.179:10428?encryption=none&type=ws&host=2-gys60wmzb6bqzd.qpsjn114hh3vlph9z60sesz0agjawpwroneg.workers.dev&path=%2F%40Marisa_kristi&security=tls&fp=chrome&sni=2-gys60wmzb6bqzd.qpsjn114hh3vlph9z60sesz0agjawpwroneg.workers.dev#%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%AE%F0%9F%87%AA%20%F0%9F%87%AF%F0%9F%87%B5%20%F0%9F%87%B8%F0%9F%87%AC%20%7C%20%5BBL%5D
-vless://4b5876a0-749e-4303-832d-ef39b00887bf@159.138.85.179:10428?encryption=none&security=tls&sni=sxyyvihkektlx4rjxsdj.pkc73phpweu4rbxbatm444.workers.dev&fp=chrome&insecure=0&allowInsecure=0&ech=cloudflare-ech.com%2Bhttps%3A%2F%2Fdns.alidns.com%2Fdns-query&type=ws&host=sxyyvihkektlx4rjxsdj.pkc73phpweu4rbxbatm444.workers.dev&path=%2F%40Marisa_kristi#@DeltaKroneckerGithub
 trojan://IQ68037294@smooth-cougar.rooster465.autos:443?sni=smooth-cougar.rooster465.autos&fp=chrome&type=tcp&path=/#@DeltaKroneckerGithub
 trojan://FC60532879@smooth-cougar.rooster465.autos:443?sni=smooth-cougar.rooster465.autos&fp=chrome&type=tcp&path=/#@DeltaKroneckerGithub
 trojan://ttfang@91.192.81.154:8443?sni=ttfang.fange.me#@DeltaKroneckerGithub
@@ -49,6 +46,7 @@ vless://8525fe74-67e6-4a55-8a26-95f227bd1384@8.222.193.153:443?encryption=none&s
 trojan://IQ68037294@humane-hawk.rooster465.autos:443?allowInsecure=0&sni=humane-hawk.rooster465.autos#@DeltaKroneckerGithub
 trojan://FC60532879@casual-stallion.rooster465.autos:443?sni=casual-stallion.rooster465.autos&fp=chrome&type=tcp&path=/#@DeltaKroneckerGithub
 trojan://WG39087154@casual-stallion.rooster465.autos:443?sni=casual-stallion.rooster465.autos&fp=chrome&type=tcp&path=/#@DeltaKroneckerGithub
+vless://4b5876a0-749e-4303-832d-ef39b00887bf@159.138.85.179:10428?encryption=none&security=tls&sni=sxyyvihkektlx4rjxsdj.pkc73phpweu4rbxbatm444.workers.dev&fp=chrome&insecure=0&allowInsecure=0&ech=cloudflare-ech.com%2Bhttps%3A%2F%2Fdns.alidns.com%2Fdns-query&type=ws&host=sxyyvihkektlx4rjxsdj.pkc73phpweu4rbxbatm444.workers.dev&path=%2F%40Marisa_kristi#@DeltaKroneckerGithub
 trojan://WG39087154@full-mackerel.rooster465.autos:443?sni=full-mackerel.rooster465.autos&fp=chrome&type=tcp&path=/#@DeltaKroneckerGithub
 trojan://XG59623478@pet-albacore.rooster465.autos:443?allowInsecure=1#@DeltaKroneckerGithub
 trojan://WG39087154@91.243.81.101:443?sni=still-mastodon.rooster465.autos&fp=chrome&type=tcp&path=/#@DeltaKroneckerGithub
