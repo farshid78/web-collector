@@ -6,13 +6,12 @@ trojan://IQ68037294@45.135.228.169:443?sni=fun-salmon.rooster465.autos#🇸🇬S
 trojan://JT80563429@healthy-louse.rooster465.autos:443?allowInsecure=1#🇸🇬SG-🚀@VPNine1
 trojan://IQ68037294@45.135.228.211:443?sni=endless-kiwi.rooster465.autos#🇸🇬SG-🚀@VPNine1
 trojan://IQ68037294@81.28.13.9:443?sni=prepared-turkey.rooster465.autos#🇸🇬SG-🚀@VPNine1
-trojan://0_Oms89nH82l_Ki813_Nxmw81_Rbt_Jq190Kl_m@167.150.100.133:450?security=tls&insecure=0&headerType=none&fp=chrome&type=tcp&allowInsecure=0&sni=grape-power-sg.roxa.org#🇸🇬SG-🚀@VPNine1
-trojan://0_Oms89nH82l_Ki813_Nxmw81_Rbt_Jq190Kl_m@167.150.100.133:450?security=tls&insecure=0&headerType=none&fp=chrome&type=tcp&allowInsecure=0&sni=grape-power-sg.roxa.org#%40FarazV2ray
 vless://14b59caf-a196-4ec2-8c70-c7b388062f5b@45.8.211.217:443?encryption=none&type=ws&security=tls&path=%2Frdfgtws&host=vangoghhh.info&sni=vangoghhh.info&insecure=0&allowInsecure=0#@vasl_bashim
 vless://1a17b19d-4896-4531-af79-6e91d8ef8228@13.212.140.244:8686?encryption=none&security=reality&sni=www.apple.com&fp=chrome&pbk=A3NXnUIT-W0m1Y_leRnv5so2IeCvk9FCFgL31PulfTw&sid=628b3c90c98ead4f&type=tcp&headerType=none#%40Configs_FreeIran
 ss://MjAyMi1ibGFrZTMtYWVzLTI1Ni1nY206TURWbU1EWm1NamN4TUdWaFpUaGxZbVZrWkdFd09UaGlObUpqWVRZek16Yz06WVRsa056STNZMlF0TXpNd1lpMDBaV1JrTFRnNU1URXROMk15TWpSa1pqWT0@sg-01.jjsdns.com:19822?#%40Configs_FreeIran
 vless://0970324b-8c61-4ae7-8c3f-385a6f1e17e4@45.8.211.14:443?encryption=none&type=ws&security=tls&path=%2F&host=vpn47.cc.cd&sni=vpn47.cc.cd&fp=chrome&insecure=0&allowInsecure=0#T.me/CONFiGiR98
 vless://14b59caf-a196-4ec2-8c70-c7b388062f5b@45.8.211.14:443?encryption=none&security=tls&sni=vangoghhh.info&type=ws&host=vangoghhh.info&path=/rdfgtws&packetEncoding=xudp#@DeltaKroneckerGithub
+trojan://0_Oms89nH82l_Ki813_Nxmw81_Rbt_Jq190Kl_m@167.150.100.133:450?security=tls&insecure=0&headerType=none&fp=chrome&type=tcp&allowInsecure=0&sni=grape-power-sg.roxa.org#%40FarazV2ray
 vless://cdd37253-5f9b-4dcb-8b01-ad60a29384b8@sgp3xui.jzy88.top:54324?fp=chrome&security=tls&serviceName=grpc&sni=sgp3xui.jzy88.top&type=grpc#%F0%9F%87%B8%F0%9F%87%AC%20Singapore%2C%20Singapore%20%7C%20%5BBL%5D
 vless://6eca3cb7-eab5-4a96-b95d-444eb566309b@sgaws.ccwink.photos:51227?type=tcp&headerType=none&security=reality&encryption=none&sni=docs.aws.amazon.com&fp=chrome&pbk=Zt1a3po4F6TVMXZ3LrDK-8kxjHuRzJA9l1QKRDiGEU0&sid=1526f2&spx=/&flow=xtls-rprx-vision#%F0%9F%87%B9%F0%9F%87%BC%20Taiwan%2C%20Taipei%20%7C%20%5BBL%5D
 trojan://IQ68037294@smooth-cougar.rooster465.autos:443?sni=smooth-cougar.rooster465.autos&fp=chrome&type=tcp&path=/#@DeltaKroneckerGithub
