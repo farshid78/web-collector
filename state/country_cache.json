@@ -1,88 +1,4 @@
 {
-  "167.233.227.166": {
-    "country": "DE",
-    "ts": 1783786375
-  },
-  "216.227.169.104": {
-    "country": "US",
-    "ts": 1783786375
-  },
-  "2.26.7.59": {
-    "country": "SE",
-    "ts": 1783786375
-  },
-  "3x-ui-upgrade-production-6923.up.railway.app": {
-    "country": "US",
-    "ts": 1783786375
-  },
-  "77.246.109.191": {
-    "country": "NL",
-    "ts": 1783786375
-  },
-  "54.36.174.134": {
-    "country": "PL",
-    "ts": 1783786375
-  },
-  "31.57.28.16": {
-    "country": "LV",
-    "ts": 1783786375
-  },
-  "69.46.46.32": {
-    "country": "US",
-    "ts": 1783786375
-  },
-  "69.46.46.18": {
-    "country": "US",
-    "ts": 1783786375
-  },
-  "nova-orbit-spark-b52f.nova-b339f7.workers.dev": {
-    "country": "CA",
-    "ts": 1783786375
-  },
-  "ziba.maxic.ir": {
-    "country": "DE",
-    "ts": 1783786375
-  },
-  "hiya.maxic.ir": {
-    "country": "DE",
-    "ts": 1783786375
-  },
-  "b2.maxic.ir": {
-    "country": "DE",
-    "ts": 1783786375
-  },
-  "bezan.maxic.ir": {
-    "country": "DE",
-    "ts": 1783786375
-  },
-  "mommy.maxic.ir": {
-    "country": "DE",
-    "ts": 1783786375
-  },
-  "lopp.dearhossein-taktaz.ir": {
-    "country": "SE",
-    "ts": 1783786375
-  },
-  "b1.maxic.ir": {
-    "country": "DE",
-    "ts": 1783786375
-  },
-  "young.maxic.ir": {
-    "country": "DE",
-    "ts": 1783786375
-  },
-  "amin.sylixteam.ir": {
-    "country": "CA",
-    "ts": 1783786375
-  },
-  "by.maxic.ir": {
-    "country": "DE",
-    "ts": 1783786375
-  },
-  "sp-tr555555.th3team.ir": {
-    "country": "TR",
-    "ts": 1783786375
-  },
   "s.avrilon.uk": {
     "country": "SG",
     "ts": 1783790747
@@ -45494,5 +45410,57 @@
   "germ-node.datamove.online": {
     "country": "DE",
     "ts": 1784994042
+  },
+  "147.78.140.5": {
+    "country": "BG",
+    "ts": 1784997485
+  },
+  "185.247.226.138": {
+    "country": "IS",
+    "ts": 1784997485
+  },
+  "15.204.9.172": {
+    "country": "US",
+    "ts": 1784997485
+  },
+  "94.126.204.159": {
+    "country": "RU",
+    "ts": 1784997485
+  },
+  "94.139.251.9": {
+    "country": "RU",
+    "ts": 1784997485
+  },
+  "94.139.251.191": {
+    "country": "RU",
+    "ts": 1784997485
+  },
+  "94.126.206.117": {
+    "country": "RU",
+    "ts": 1784997485
+  },
+  "218.102.12.37": {
+    "country": "HK",
+    "ts": 1784997485
+  },
+  "s1.esantion.info": {
+    "country": "FI",
+    "ts": 1784997485
+  },
+  "3x-ui-production-a246.up.railway.app": {
+    "country": "US",
+    "ts": 1784997485
+  },
+  "216.227.169.104": {
+    "country": "US",
+    "ts": 1784997485
+  },
+  "ru-1.node.cis-game.com": {
+    "country": "RU",
+    "ts": 1784997486
+  },
+  "s82.fishservices.ru": {
+    "country": "RU",
+    "ts": 1784997486
   }
 }
