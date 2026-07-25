@@ -1,7 +1,6 @@
 vless://e996abc7-cff3-4d9f-a9dc-0d717048a345@s.avrilon.us:443?security=reality&encryption=mlkem768x25519plus.native.0rtt.acjHXqKWEZtVE-QeN5i1dfX8rrQHE0eGw8wctrJNMVo&pbk=pak_xgMOqICE2oAimyRphnruNEP7HptVJVI5p1HjGmA&headerType=none&fp=chrome&spx=%2F0d4729593b0c130&type=tcp&flow=xtls-rprx-vision&sni=cdn.samsung.com&sid=0bad329e858e70da#%40filembad
 vless://4476eabb-509c-42d3-bb42-6838bf6fcd1e@104.64.206.42:57137?encryption=none&security=none&type=ws&host=m.zoom.us&path=%2FFREE%20By%20Tharuwa%20%280767597317%29#%40filembad
 vless://4476eabb-509c-42d3-bb42-6838bf6fcd1e@104.64.206.42:57137?encryption=none&security=none&type=ws&host=m.zoom.us&path=/FREE%20By%20Tharuwa%20%280767597317%29#🇸🇬SG-🚀@VPNine1
-vless://4476eabb-509c-42d3-bb42-6838bf6fcd1e@104.64.206.42:57137?path=%2FFREE%20By%20Tharuwa%20%280767597317%29&security=none&encryption=none&host=m.zoom.us&type=ws#%F0%9F%87%B8%F0%9F%87%AC%20Singapore%2C%20Singapore%20%28Somapah%29%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
 vless://be0fa2b7-fcf9-4636-8a89-b2a245fc4e02@qzc6tbpu04c4.dop69.com:10962?security=none&encryption=mlkem768x25519plus.native.0rtt.X89bst5pyjkexho_hHA5hJhmor55v0lFu-avO03xo3k&headerType=none&type=tcp#🇸🇬SG-🚀@VPNine1
 vless://be0fa2b7-fcf9-4636-8a89-b2a245fc4e02@qzc6tbpu04c4.dop69.com:10962?security=none&encryption=mlkem768x25519plus.native.0rtt.X89bst5pyjkexho_hHA5hJhmor55v0lFu-avO03xo3k&headerType=none&type=tcp#%DA%86%D9%87%E2%80%8C%D9%81%D8%B1%D9%85%D8%A7%D9%86%E2%80%8C%DB%8C%D8%B2%D8%AF%D8%A7%D9%86%E2%80%8C%DA%86%D9%87%E2%80%8C%D9%81%D8%B1%D9%85%D8%A7%D9%86%E2%80%8C%D8%B4%D8%A7%D9%87%F0%9F%91%91
 trojan://IQ68037294@45.135.228.169:443?sni=fun-salmon.rooster465.autos#🇸🇬SG-🚀@VPNine1
@@ -13,8 +12,6 @@ vless://1a17b19d-4896-4531-af79-6e91d8ef8228@13.212.140.244:8686?encryption=none
 ss://MjAyMi1ibGFrZTMtYWVzLTI1Ni1nY206TURWbU1EWm1NamN4TUdWaFpUaGxZbVZrWkdFd09UaGlObUpqWVRZek16Yz06WVRsa056STNZMlF0TXpNd1lpMDBaV1JrTFRnNU1URXROMk15TWpSa1pqWT0@sg-01.jjsdns.com:19822?#%40Configs_FreeIran
 vless://0970324b-8c61-4ae7-8c3f-385a6f1e17e4@45.8.211.14:443?encryption=none&type=ws&security=tls&path=%2F&host=vpn47.cc.cd&sni=vpn47.cc.cd&fp=chrome&insecure=0&allowInsecure=0#T.me/CONFiGiR98
 vless://14b59caf-a196-4ec2-8c70-c7b388062f5b@45.8.211.14:443?encryption=none&security=tls&sni=vangoghhh.info&type=ws&host=vangoghhh.info&path=/rdfgtws&packetEncoding=xudp#@DeltaKroneckerGithub
-vless://cdd37253-5f9b-4dcb-8b01-ad60a29384b8@sgp3xui.jzy88.top:54324?fp=chrome&security=tls&serviceName=grpc&sni=sgp3xui.jzy88.top&type=grpc#%F0%9F%87%B8%F0%9F%87%AC%20Singapore%2C%20Singapore%20%7C%20%5BBL%5D
-vless://6eca3cb7-eab5-4a96-b95d-444eb566309b@sgaws.ccwink.photos:51227?type=tcp&headerType=none&security=reality&encryption=none&sni=docs.aws.amazon.com&fp=chrome&pbk=Zt1a3po4F6TVMXZ3LrDK-8kxjHuRzJA9l1QKRDiGEU0&sid=1526f2&spx=/&flow=xtls-rprx-vision#%F0%9F%87%B9%F0%9F%87%BC%20Taiwan%2C%20Taipei%20%7C%20%5BBL%5D
 trojan://IQ68037294@smooth-cougar.rooster465.autos:443?sni=smooth-cougar.rooster465.autos&fp=chrome&type=tcp&path=/#@DeltaKroneckerGithub
 trojan://FC60532879@smooth-cougar.rooster465.autos:443?sni=smooth-cougar.rooster465.autos&fp=chrome&type=tcp&path=/#@DeltaKroneckerGithub
 trojan://ttfang@91.192.81.154:8443?sni=ttfang.fange.me#@DeltaKroneckerGithub
