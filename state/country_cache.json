@@ -1,208 +1,4 @@
 {
-  "speednet-x4g.up.railway.app": {
-    "country": "US",
-    "ts": 1783864346
-  },
-  "104.17.122.18": {
-    "country": "CA",
-    "ts": 1783864346
-  },
-  "172.64.229.115": {
-    "country": "CA",
-    "ts": 1783864346
-  },
-  "89.19.223.236": {
-    "country": "RU",
-    "ts": 1783864346
-  },
-  "89.19.223.217": {
-    "country": "RU",
-    "ts": 1783864346
-  },
-  "5.253.59.156": {
-    "country": "NL",
-    "ts": 1783864346
-  },
-  "65.109.215.50": {
-    "country": "FI",
-    "ts": 1783864346
-  },
-  "89.208.231.82": {
-    "country": "RU",
-    "ts": 1783864346
-  },
-  "91.99.173.29": {
-    "country": "DE",
-    "ts": 1783864346
-  },
-  "5.188.141.144": {
-    "country": "RU",
-    "ts": 1783864346
-  },
-  "13.38.226.13": {
-    "country": "FR",
-    "ts": 1783864346
-  },
-  "109.237.98.134": {
-    "country": "RU",
-    "ts": 1783864346
-  },
-  "alireza-production-44f4.up.railway.app": {
-    "country": "US",
-    "ts": 1783864346
-  },
-  "87.228.101.211": {
-    "country": "RU",
-    "ts": 1783864346
-  },
-  "81.163.22.249": {
-    "country": "RU",
-    "ts": 1783864346
-  },
-  "mx.bexumconnect.ltd": {
-    "country": "RU",
-    "ts": 1783864346
-  },
-  "89.19.223.82": {
-    "country": "RU",
-    "ts": 1783864346
-  },
-  "vk.linuxmirror.host": {
-    "country": "RU",
-    "ts": 1783864346
-  },
-  "er3.serverkingomz.ir": {
-    "country": "US",
-    "ts": 1783864346
-  },
-  "fi.tlsov.pro": {
-    "country": "NL",
-    "ts": 1783864346
-  },
-  "us1.plasdomain.ir": {
-    "country": "US",
-    "ts": 1783864346
-  },
-  "su1.plasdomain.ir": {
-    "country": "SE",
-    "ts": 1783864346
-  },
-  "alb.serverkingomz.ir": {
-    "country": "AL",
-    "ts": 1783864346
-  },
-  "urmbf.sylixteam.ir": {
-    "country": "TR",
-    "ts": 1783864346
-  },
-  "195.162.69.241": {
-    "country": "TR",
-    "ts": 1783868313
-  },
-  "69.46.46.102": {
-    "country": "US",
-    "ts": 1783868313
-  },
-  "82.47.63.121": {
-    "country": "GB",
-    "ts": 1783868313
-  },
-  "69.46.46.46": {
-    "country": "US",
-    "ts": 1783868313
-  },
-  "103.111.114.80": {
-    "country": "IN",
-    "ts": 1783868313
-  },
-  "43.160.247.127": {
-    "country": "SG",
-    "ts": 1783868313
-  },
-  "69.46.46.85": {
-    "country": "US",
-    "ts": 1783868313
-  },
-  "69.46.46.24": {
-    "country": "US",
-    "ts": 1783868313
-  },
-  "31.76.31.111": {
-    "country": "FI",
-    "ts": 1783868313
-  },
-  "182.16.61.2": {
-    "country": "HK",
-    "ts": 1783868313
-  },
-  "45.116.14.38": {
-    "country": "JP",
-    "ts": 1783868313
-  },
-  "89.34.227.47": {
-    "country": "SG",
-    "ts": 1783868313
-  },
-  "x4g-production-0a45.up.railway.app": {
-    "country": "US",
-    "ts": 1783868313
-  },
-  "virgin.ggsw01.auragg.org": {
-    "country": "HK",
-    "ts": 1783868313
-  },
-  "q4x-lab.se.auragg.org": {
-    "country": "US",
-    "ts": 1783868313
-  },
-  "z9m-ctrl.nu.auragg.org": {
-    "country": "US",
-    "ts": 1783868313
-  },
-  "sca34.mysilipdir.com": {
-    "country": "IT",
-    "ts": 1783868313
-  },
-  "dc9ee2e040041de4.mbcloudynias.ir": {
-    "country": "DE",
-    "ts": 1783868313
-  },
-  "031c1bf3e9d44591.mechanicir.ir": {
-    "country": "FR",
-    "ts": 1783868313
-  },
-  "c4d0c173a443abc8.nimaghaffarzadeh.ir": {
-    "country": "DE",
-    "ts": 1783868313
-  },
-  "145nl.Crackerbinam.com": {
-    "country": "NL",
-    "ts": 1783868313
-  },
-  "armgnl03.auragg.org": {
-    "country": "NL",
-    "ts": 1783868313
-  },
-  "165c182d369eb7bc.mbcloudy.ir": {
-    "country": "SE",
-    "ts": 1783868313
-  },
-  "f5e7bd2b21baf62a.monopolitass.ir": {
-    "country": "DE",
-    "ts": 1783868313
-  },
-  "466d522caa33481c.mbmovietime.ir": {
-    "country": "DE",
-    "ts": 1783868313
-  },
-  "d9959d6a5cdfb4a9.jobwebs.ir": {
-    "country": "DE",
-    "ts": 1783868313
-  },
-  "ge-6.flowersyellow.ru": {
-    "country": "DE",
-    "ts": 1783868313
-  },
   "104.16.196.53": {
     "country": "CA",
     "ts": 1783872297
@@ -46502,5 +46298,41 @@
   "s2059.sspcccdn.xyz": {
     "country": "UNKNOWN",
     "ts": 1785073961
+  },
+  "182.16.61.2": {
+    "country": "HK",
+    "ts": 1785078407
+  },
+  "configfori5.up.railway.app": {
+    "country": "US",
+    "ts": 1785078407
+  },
+  "144.126.228.230": {
+    "country": "GB",
+    "ts": 1785078407
+  },
+  "103.111.114.80": {
+    "country": "IN",
+    "ts": 1785078407
+  },
+  "hv-node-production.up.railway.app": {
+    "country": "US",
+    "ts": 1785078407
+  },
+  "91.185.83.42": {
+    "country": "RU",
+    "ts": 1785078407
+  },
+  "ez-07fe63.ezaccess1cf3741.workers.dev": {
+    "country": "CA",
+    "ts": 1785078407
+  },
+  "w1s1.nyxenpro.ir": {
+    "country": "CA",
+    "ts": 1785078407
+  },
+  "sca34.mysilipdir.com": {
+    "country": "IT",
+    "ts": 1785078407
   }
 }
