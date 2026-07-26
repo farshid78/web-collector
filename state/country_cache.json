@@ -1,132 +1,4 @@
 {
-  "152.233.43.77": {
-    "country": "PL",
-    "ts": 1783884915
-  },
-  "199.232.78.143": {
-    "country": "US",
-    "ts": 1783884915
-  },
-  "104.18.155.229": {
-    "country": "CA",
-    "ts": 1783884915
-  },
-  "152.233.41.30": {
-    "country": "HU",
-    "ts": 1783884915
-  },
-  "104.21.55.229": {
-    "country": "CA",
-    "ts": 1783884915
-  },
-  "50.7.177.179": {
-    "country": "NL",
-    "ts": 1783884915
-  },
-  "192.124.181.250": {
-    "country": "FI",
-    "ts": 1783884915
-  },
-  "x4g-production-f44e.up.railway.app": {
-    "country": "US",
-    "ts": 1783884915
-  },
-  "61.221.84.107": {
-    "country": "TW",
-    "ts": 1783884915
-  },
-  "x4g-production-9cd5.up.railway.app": {
-    "country": "US",
-    "ts": 1783884915
-  },
-  "x4g-production-ea42.up.railway.app": {
-    "country": "US",
-    "ts": 1783884915
-  },
-  "89.222.123.211": {
-    "country": "DE",
-    "ts": 1783884915
-  },
-  "51.44.137.10": {
-    "country": "FR",
-    "ts": 1783884915
-  },
-  "tel-timazadiiiii-85.up.railway.app": {
-    "country": "US",
-    "ts": 1783884915
-  },
-  "212.183.88.30": {
-    "country": "AT",
-    "ts": 1783884915
-  },
-  "151.101.117.184": {
-    "country": "US",
-    "ts": 1783884915
-  },
-  "x4g-production-a10a.up.railway.app": {
-    "country": "US",
-    "ts": 1783884915
-  },
-  "163.5.201.5": {
-    "country": "GB",
-    "ts": 1783884915
-  },
-  "ez-1bc8ab.sekiro-c18.workers.dev": {
-    "country": "CA",
-    "ts": 1783884915
-  },
-  "103.47.186.14": {
-    "country": "JP",
-    "ts": 1783884915
-  },
-  "77.83.246.233": {
-    "country": "PL",
-    "ts": 1783884915
-  },
-  "185.207.197.12": {
-    "country": "NL",
-    "ts": 1783884915
-  },
-  "64.186.255.128": {
-    "country": "US",
-    "ts": 1783884915
-  },
-  "melinet1.temas-arvha.ir": {
-    "country": "DE",
-    "ts": 1783884915
-  },
-  "Melinet1.temas-arvhA.iR": {
-    "country": "DE",
-    "ts": 1783884915
-  },
-  "ads.30eam.ir": {
-    "country": "NL",
-    "ts": 1783884915
-  },
-  "sw-game-2.cloudgamings.org": {
-    "country": "CH",
-    "ts": 1783884915
-  },
-  "tk1.degeristir.ir": {
-    "country": "TR",
-    "ts": 1783884915
-  },
-  "runner.app20.ir": {
-    "country": "DE",
-    "ts": 1783884915
-  },
-  "n9.sixmax.ir": {
-    "country": "IR",
-    "ts": 1783884915
-  },
-  "T3.digikalamagg.com": {
-    "country": "IR",
-    "ts": 1783884915
-  },
-  "cdn-mws.garagecloud.ru": {
-    "country": "RU",
-    "ts": 1783884916
-  },
   "3.145.57.90": {
     "country": "US",
     "ts": 1783887907
@@ -47150,5 +47022,101 @@
   "batman3.kovira2.ir": {
     "country": "FI",
     "ts": 1785090920
+  },
+  "104.18.13.149": {
+    "country": "CA",
+    "ts": 1785095443
+  },
+  "217.216.82.85": {
+    "country": "US",
+    "ts": 1785095443
+  },
+  "204.10.192.226": {
+    "country": "TR",
+    "ts": 1785095443
+  },
+  "92.242.61.92": {
+    "country": "RU",
+    "ts": 1785095443
+  },
+  "104.18.38.202": {
+    "country": "CA",
+    "ts": 1785095443
+  },
+  "13.36.17.132": {
+    "country": "FR",
+    "ts": 1785095443
+  },
+  "104.21.55.229": {
+    "country": "CA",
+    "ts": 1785095443
+  },
+  "162.159.44.100": {
+    "country": "US",
+    "ts": 1785095443
+  },
+  "162.159.3.186": {
+    "country": "CA",
+    "ts": 1785095443
+  },
+  "77.83.246.233": {
+    "country": "PL",
+    "ts": 1785095443
+  },
+  "152.233.41.30": {
+    "country": "HU",
+    "ts": 1785095443
+  },
+  "162.159.153.12": {
+    "country": "CA",
+    "ts": 1785095443
+  },
+  "104.18.155.229": {
+    "country": "CA",
+    "ts": 1785095443
+  },
+  "172.64.38.215": {
+    "country": "CA",
+    "ts": 1785095443
+  },
+  "ezaccess1-rvg-ezaccess1-eeeb.up.railway.app": {
+    "country": "US",
+    "ts": 1785095443
+  },
+  "84.32.10.63": {
+    "country": "NL",
+    "ts": 1785095443
+  },
+  "bot.paydar.site": {
+    "country": "DE",
+    "ts": 1785095443
+  },
+  "rvg-production-8541.up.railway.app": {
+    "country": "US",
+    "ts": 1785095443
+  },
+  "balanced-goat.rooster465.autos": {
+    "country": "SG",
+    "ts": 1785095443
+  },
+  "xpasargarldd.kdns.fr": {
+    "country": "CA",
+    "ts": 1785095443
+  },
+  "batman2.kovira2.ir": {
+    "country": "FI",
+    "ts": 1785095443
+  },
+  "batman4.kovira2.ir": {
+    "country": "FI",
+    "ts": 1785095443
+  },
+  "batman1.kovira2.ir": {
+    "country": "FI",
+    "ts": 1785095443
+  },
+  "gov.viranix.ir": {
+    "country": "DE",
+    "ts": 1785095443
   }
 }
