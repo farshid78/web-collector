@@ -1,64 +1,4 @@
 {
-  "13.159.19.79": {
-    "country": "JP",
-    "ts": 1783895063
-  },
-  "176.109.85.89": {
-    "country": "RU",
-    "ts": 1783895063
-  },
-  "185.43.5.51": {
-    "country": "RU",
-    "ts": 1783895063
-  },
-  "85.239.54.134": {
-    "country": "RU",
-    "ts": 1783895063
-  },
-  "78.159.250.189": {
-    "country": "RU",
-    "ts": 1783895063
-  },
-  "92.53.99.72": {
-    "country": "RU",
-    "ts": 1783895063
-  },
-  "94.250.252.5": {
-    "country": "RU",
-    "ts": 1783895063
-  },
-  "84.201.152.200": {
-    "country": "RU",
-    "ts": 1783895063
-  },
-  "78.159.250.245": {
-    "country": "RU",
-    "ts": 1783895063
-  },
-  "176.109.85.77": {
-    "country": "RU",
-    "ts": 1783895063
-  },
-  "x4g-production-1761.up.railway.app": {
-    "country": "US",
-    "ts": 1783895063
-  },
-  "shop.tundarroid.top": {
-    "country": "IR",
-    "ts": 1783895063
-  },
-  "trail.brdgstealth.online": {
-    "country": "RU",
-    "ts": 1783895063
-  },
-  "tw1.serviceoda.ru": {
-    "country": "RU",
-    "ts": 1783895063
-  },
-  "tw.serviceoda.ru": {
-    "country": "RU",
-    "ts": 1783895064
-  },
   "45.195.228.124": {
     "country": "VE",
     "ts": 1783898850
@@ -47186,5 +47126,37 @@
   "direct.doctor-alan-cloud.ir": {
     "country": "DE",
     "ts": 1785103620
+  },
+  "31.15.16.220": {
+    "country": "NL",
+    "ts": 1785107437
+  },
+  "23.100.56.187": {
+    "country": "IE",
+    "ts": 1785107437
+  },
+  "79.174.78.217": {
+    "country": "RU",
+    "ts": 1785107437
+  },
+  "185.96.80.205": {
+    "country": "RU",
+    "ts": 1785107437
+  },
+  "frd.nomac.ir": {
+    "country": "FR",
+    "ts": 1785107437
+  },
+  "indd.appcodes.ir": {
+    "country": "IN",
+    "ts": 1785107437
+  },
+  "nod.appcodes.ir": {
+    "country": "NL",
+    "ts": 1785107437
+  },
+  "phone.systemcont.ir": {
+    "country": "NL",
+    "ts": 1785107437
   }
 }
