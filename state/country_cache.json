@@ -1,156 +1,4 @@
 {
-  "45.195.228.124": {
-    "country": "VE",
-    "ts": 1783898850
-  },
-  "ee1.netfix.app": {
-    "country": "EE",
-    "ts": 1783898850
-  },
-  "31.77.201.85": {
-    "country": "GB",
-    "ts": 1783898850
-  },
-  "3x-ui-production-c69b.up.railway.app": {
-    "country": "US",
-    "ts": 1783898850
-  },
-  "154.222.9.208": {
-    "country": "DE",
-    "ts": 1783898850
-  },
-  "hokm-t2.igatel.com": {
-    "country": "US",
-    "ts": 1783898850
-  },
-  "154.83.159.200": {
-    "country": "NL",
-    "ts": 1783898850
-  },
-  "netherlands1.banovano.space": {
-    "country": "NL",
-    "ts": 1783898850
-  },
-  "germany1.banovano.space": {
-    "country": "NL",
-    "ts": 1783898850
-  },
-  "169.40.1.168": {
-    "country": "LV",
-    "ts": 1783898850
-  },
-  "193.233.174.195": {
-    "country": "NL",
-    "ts": 1783898850
-  },
-  "pol3.odavpn.online": {
-    "country": "PL",
-    "ts": 1783898850
-  },
-  "87.120.107.201": {
-    "country": "FI",
-    "ts": 1783898850
-  },
-  "hokm-t1.igatel.com": {
-    "country": "FI",
-    "ts": 1783898850
-  },
-  "213.238.180.99": {
-    "country": "TR",
-    "ts": 1783898850
-  },
-  "sweden1.banovano.space": {
-    "country": "SE",
-    "ts": 1783898850
-  },
-  "169.40.4.97": {
-    "country": "LV",
-    "ts": 1783898850
-  },
-  "169.40.5.105": {
-    "country": "LV",
-    "ts": 1783898850
-  },
-  "169.40.5.115": {
-    "country": "LV",
-    "ts": 1783898850
-  },
-  "13.140.8.4": {
-    "country": "SE",
-    "ts": 1783898850
-  },
-  "cdn-b305c2ba.glomedia-cdn.com": {
-    "country": "NL",
-    "ts": 1783898850
-  },
-  "130.49.185.196": {
-    "country": "NL",
-    "ts": 1783898850
-  },
-  "198.202.211.1": {
-    "country": "US",
-    "ts": 1783898850
-  },
-  "bc-de-ytc.ray-balance.space": {
-    "country": "DE",
-    "ts": 1783898850
-  },
-  "166.88.97.239": {
-    "country": "JP",
-    "ts": 1783898850
-  },
-  "179.237.74.76": {
-    "country": "CH",
-    "ts": 1783898850
-  },
-  "45.195.228.168": {
-    "country": "VE",
-    "ts": 1783898850
-  },
-  "shw.grwm-syncra.online": {
-    "country": "IN",
-    "ts": 1783898850
-  },
-  "plaza.grwm-syncra.online": {
-    "country": "FR",
-    "ts": 1783898850
-  },
-  "unity.gg-linkvault.online": {
-    "country": "LT",
-    "ts": 1783898850
-  },
-  "ads.yandex-dev.online": {
-    "country": "US",
-    "ts": 1783898850
-  },
-  "casey.gg-linkvault.ru": {
-    "country": "HU",
-    "ts": 1783898850
-  },
-  "flask.gconexustun.ru": {
-    "country": "DK",
-    "ts": 1783898850
-  },
-  "norris.gg-linkvault.ru": {
-    "country": "EE",
-    "ts": 1783898850
-  },
-  "flute.gg-linkvault.ru": {
-    "country": "LV",
-    "ts": 1783898850
-  },
-  "glen.gconexustun.ru": {
-    "country": "NL",
-    "ts": 1783898850
-  },
-  "umbr.gconexustun.ru": {
-    "country": "GB",
-    "ts": 1783898850
-  },
-  "cdn1.portalcode.ir": {
-    "country": "BE",
-    "ts": 1783898850
-  },
   "104.18.45.104": {
     "country": "CA",
     "ts": 1783904818
@@ -47158,5 +47006,33 @@
   "phone.systemcont.ir": {
     "country": "NL",
     "ts": 1785107437
+  },
+  "130.49.185.196": {
+    "country": "NL",
+    "ts": 1785111378
+  },
+  "5.180.173.248": {
+    "country": "ES",
+    "ts": 1785111378
+  },
+  "198.202.211.1": {
+    "country": "US",
+    "ts": 1785111378
+  },
+  "5.75.219.123": {
+    "country": "DE",
+    "ts": 1785111378
+  },
+  "digi.riziro.ir": {
+    "country": "DE",
+    "ts": 1785111378
+  },
+  "tr.helpower.ir": {
+    "country": "TR",
+    "ts": 1785111378
+  },
+  "cdn1.portalcode.ir": {
+    "country": "BE",
+    "ts": 1785111379
   }
 }
