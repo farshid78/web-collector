@@ -1,6 +1,5 @@
-vless://d8b42cd5-a149-4356-9e61-111111111111@78.154.108.11:1447?security=none&encryption=none&headerType=none&type=tcp#%40filembad
-vless://d8b42cd5-a149-4356-9e61-111111111111@78.154.108.11:1447?security=none&encryption=none&headerType=none&type=tcp#🇬🇧GB-🚀@VPNine1
 vmess://eyJhZGQiOiAiY2luZHk1OC5jZW9paWkuY29tIiwgImFpZCI6ICIwIiwgImhvc3QiOiAiYWpheC5taWNyb3NvZnQuY29tIiwgImlkIjogImQ1Y2FjN2VhLWEwMmYtM2NmMi05Y2E4LWY0OGI2NjY2YjQxOSIsICJuZXQiOiAid3MiLCAicGF0aCI6ICIvaGxzL2NjdHY1cGhkLm0zdTgiLCAicG9ydCI6ICIzNjgwOSIsICJwcyI6ICJcdWQ4M2NcdWRkZjhcdWQ4M2NcdWRkZWNTRy1cdWQ4M2RcdWRlODBAVlBOaW5lMSIsICJzY3kiOiAiYXV0byIsICJzbmkiOiAiIiwgInRscyI6ICIiLCAidHlwZSI6ICJub25lIiwgInYiOiAiMiJ9
+vless://d8b42cd5-a149-4356-9e61-111111111111@78.154.108.11:1447?security=none&encryption=none&headerType=none&type=tcp#🇬🇧GB-🚀@VPNine1
 vless://9c79aceb-4649-44ea-9698-b5e9ecf6d6da@50.114.55.14:10001?security=reality&encryption=none&pbk=7qP6YKWx5CJXia1qjQoIcD7FRjUBbioaioioI729D34&headerType=&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.icloud.com&sid=2afe4310#🇸🇬SG-🚀@VPNine1
 trojan://WG39087154@81.28.13.185:443?security=tls&sni=closing-falcon.rooster465.autos&fp=chrome&insecure=0&allowInsecure=0&type=tcp&headerType=none&path=/#🇸🇬SG-🚀@VPNine1
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpZMlF3WlRRME1EWXpPV0ZoTmpBNVltRTBOVFpoTldGa09Ea3pNV05tT0RVPQ==@161.118.215.232:56927#🇸🇬SG-🚀@VPNine1
@@ -47,6 +46,7 @@ trojan://JT80563429@81.28.13.202:443?sni=definite-sturgeon.rooster465.autos&fp=c
 trojan://WG39087154@91.243.81.165:443?sni=magnetic-woodcock.rooster465.autos&fp=chrome&type=tcp&path=/#%F0%9F%87%B8%F0%9F%87%AC
 trojan://FC60532879@91.243.81.165:443?sni=magnetic-woodcock.rooster465.autos&fp=chrome&type=tcp&path=/#%F0%9F%87%B8%F0%9F%87%AC
 trojan://IQ68037294@45.135.228.211:443?security=tls&sni=endless-kiwi.rooster465.autos&path=/#%F0%9F%87%B8%F0%9F%87%AC
+ss://bm9uZTpodHRwczovL3QubWUvV2FuZ0NhaTLwn4eo8J%2BHsw@47.82.155.79:2053?plugin=v2ray-plugin%3Bmode%3Dwebsocket%3Bhost%3Dwoshinidie-et3.pages.dev%3Bpath%3D59fc5f8c-5697-4eb8-acf2-8ae363f203a2%2F%3Fed%5C%3D2560%3Btls%3Bmux%3D0#%F0%9F%87%B8%F0%9F%87%AC
 trojan://JT80563429@45.135.228.179:443?sni=electric-rhino.rooster465.autos&fp=chrome&type=tcp&path=/#%F0%9F%87%B8%F0%9F%87%AC
 vless://b8f3a337-ad39-4064-95f1-33a725a65877@152.42.217.27:4321?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.yahoo.com&fp=chrome&pbk=iFKNWOLqlwrSmvR8wkxap1u85leVrr6YqEBy3Vn8WX0&sid=950e9d42106bedae&type=tcp&headerType=none#%F0%9F%87%B8%F0%9F%87%AC
 trojan://JT80563429@81.28.13.9:443?sni=prepared-turkey.rooster465.autos&fp=chrome&type=tcp&path=/#%F0%9F%87%B8%F0%9F%87%AC
