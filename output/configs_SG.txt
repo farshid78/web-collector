@@ -1,11 +1,7 @@
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpZMlF3WlRRME1EWXpPV0ZoTmpBNVltRTBOVFpoTldGa09Ea3pNV05tT0RVPQ@138.2.75.33:56927#%40filembad
 vless://d8b42cd5-a149-4356-9e61-000000000000@194.242.129.162:2550?security=none&encryption=none&headerType=none&type=tcp#%40filembad
 vless://d8b42cd5-a149-4356-9e61-000000000000@194.242.129.162:2550?security=none&encryption=none&headerType=none&type=tcp#🇬🇧GB-🚀@VPNine1
 vless://d8b42cd5-a149-4356-9e61-000000000000@194.242.129.162:2550?encryption=none&type=tcp&headerType=none#@vasl_bashim
-vless://d8b42cd5-a149-4356-9e61-000000000000@78.154.108.200:2551?security=none&encryption=none&headerType=none&type=tcp#%40filembad
-vless://d8b42cd5-a149-4356-9e61-000000000000@78.154.108.200:2551?security=&encryption=none&headerType=&type=tcp#%F0%9F%87%B8%F0%9F%87%AC
-vless://d8b42cd5-a149-4356-9e61-111111111111@78.154.108.51:1446?security=none&encryption=none&headerType=none&type=tcp#%40filembad
-vless://d8b42cd5-a149-4356-9e61-111111111111@78.154.108.26:1447?security=none&encryption=none&headerType=none&type=tcp#%40filembad
-vless://d8b42cd5-a149-4356-9e61-000000000000@78.154.108.146:2550?security=none&encryption=none&headerType=none&type=tcp#%40filembad
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp0MHNybWR4cm0zeHlqbnZxejlld2x4YjJteXE3cmp1dg@47.129.228.114:2377?plugin=obfs-local%3Bobfs=tls%3Bobfs-host=%28Telegram%F0%9F%87%A8%F0%9F%87%B3%20@VPNine1%295e0ac85:109156#🇸🇬SG-🚀@VPNine1
 vless://814bd064-544d-4255-a070-5705c03f6da9@3.0.111.82:12972?encryption=none&flow=xtls-rprx-vision&fp=&pbk=k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0&security=reality&sid=48050fab&sni=www.apple.com&type=tcp#🇸🇬SG-🚀@VPNine1
 vless://814bd064-544d-4255-a070-5705c03f6da9@3.0.111.82:12972?encryption=none&flow=xtls-rprx-vision&fp=&pbk=k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0&security=reality&sid=48050fab&sni=www.apple.com&type=tcp#%D8%A7%DA%AF%D9%87%20%D9%85%DB%8C%D8%AE%D9%88%D8%A7%DB%8C%20%D9%82%D8%B7%D8%B9%20%D9%86%D8%B4%DB%8C%20%D8%AC%D9%88%DB%8C%D9%86%20%D8%B4%D9%88%20%3A%20%40farsiproxy
@@ -42,6 +38,7 @@ trojan://IQ68037294@45.135.228.28:443?security=tls&sni=pleased-sawfly.rooster465
 ss://bm9uZTo1OWZjNWY4Yy01Njk3LTRlYjgtYWNmMi04YWUzNjNmMjAzYTI@194.87.10.77:443?plugin=v2ray-plugin%3Bmode%3Dwebsocket%3Bhost%3Dwoshinidie-et3.pages.dev%3Bpath%3D%2F59fc5f8c-5697-4eb8-acf2-8ae363f203a2%2F%3Fed%5C%3D2560%3Btls%3Bmux%3D0#@DeltaKroneckerGithub
 trojan://FC60532879@casual-stallion.rooster465.autos:443?sni=casual-stallion.rooster465.autos&fp=chrome&type=tcp&path=/#%F0%9F%87%B8%F0%9F%87%AC
 vless://b8f3a337-ad39-4064-95f1-33a725a65877@152.42.217.27:4321?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.yahoo.com&fp=chrome&pbk=iFKNWOLqlwrSmvR8wkxap1u85leVrr6YqEBy3Vn8WX0&sid=950e9d42106bedae&type=tcp&headerType=none#%F0%9F%87%B8%F0%9F%87%AC
+vless://d8b42cd5-a149-4356-9e61-000000000000@78.154.108.200:2551?security=&encryption=none&headerType=&type=tcp#%F0%9F%87%B8%F0%9F%87%AC
 trojan://IQ68037294@endless-kiwi.rooster465.autos:443?security=tls#%F0%9F%87%B8%F0%9F%87%AC
 trojan://WG39087154@91.243.81.178:443?sni=brave-cattle.rooster465.autos&fp=chrome&type=tcp&path=/#%F0%9F%87%B8%F0%9F%87%AC
 ss://YWVzLTI1Ni1nY206WTZSOXBBdHZ4eHptR0M=@103.106.229.69:9090#@DeltaKroneckerGithub
