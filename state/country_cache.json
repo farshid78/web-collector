@@ -1,116 +1,4 @@
 {
-  "ansooyefilter-3x-ui-production-7511.up.railway.app": {
-    "country": "US",
-    "ts": 1784315588
-  },
-  "104.21.51.243": {
-    "country": "CA",
-    "ts": 1784315588
-  },
-  "5.252.26.173": {
-    "country": "DE",
-    "ts": 1784315588
-  },
-  "ansooyefilter-3x-ui-production.up.railway.app": {
-    "country": "US",
-    "ts": 1784315588
-  },
-  "tery.aliyostd.com": {
-    "country": "TR",
-    "ts": 1784315588
-  },
-  "farnce.aliyostd.com": {
-    "country": "FR",
-    "ts": 1784315588
-  },
-  "52.47.123.79": {
-    "country": "FR",
-    "ts": 1784315588
-  },
-  "46.8.231.216": {
-    "country": "NL",
-    "ts": 1784315588
-  },
-  "104.25.249.215": {
-    "country": "CA",
-    "ts": 1784315588
-  },
-  "16.163.143.214": {
-    "country": "HK",
-    "ts": 1784315588
-  },
-  "212.227.98.235": {
-    "country": "ES",
-    "ts": 1784315588
-  },
-  "151.101.56.7": {
-    "country": "US",
-    "ts": 1784315588
-  },
-  "185.133.35.46": {
-    "country": "BR",
-    "ts": 1784315588
-  },
-  "185.229.9.164": {
-    "country": "RU",
-    "ts": 1784315588
-  },
-  "194.55.239.247": {
-    "country": "RU",
-    "ts": 1784315588
-  },
-  "ansooyefilter-3x-ui-production-645c.up.railway.app": {
-    "country": "US",
-    "ts": 1784315588
-  },
-  "185.229.9.185": {
-    "country": "RU",
-    "ts": 1784315588
-  },
-  "ansooyefilter-3x-ui-production-03cf.up.railway.app": {
-    "country": "US",
-    "ts": 1784315588
-  },
-  "holan.aliyostd.com": {
-    "country": "NL",
-    "ts": 1784315588
-  },
-  "89.19.223.157": {
-    "country": "RU",
-    "ts": 1784315588
-  },
-  "199.232.78.140": {
-    "country": "US",
-    "ts": 1784315588
-  },
-  "x4g-production-cc8b.up.railway.app": {
-    "country": "US",
-    "ts": 1784315588
-  },
-  "iFi.torflay.ir": {
-    "country": "FI",
-    "ts": 1784315588
-  },
-  "cjfdt35fh.mehrsam2.ir": {
-    "country": "GB",
-    "ts": 1784315588
-  },
-  "ipwhite-cdncloudflare3.reallyclody.ir": {
-    "country": "US",
-    "ts": 1784315588
-  },
-  "london.afra1.ir": {
-    "country": "GB",
-    "ts": 1784315588
-  },
-  "hivadata.ir": {
-    "country": "CA",
-    "ts": 1784315588
-  },
-  "cn1.poefauscw.ir": {
-    "country": "US",
-    "ts": 1784315588
-  },
   "130.185.122.193": {
     "country": "NL",
     "ts": 1784319347
@@ -44518,5 +44406,173 @@
   "cdn2.subo-kick.com": {
     "country": "AE",
     "ts": 1785522118
+  },
+  "15.224.129.178": {
+    "country": "FR",
+    "ts": 1785528159
+  },
+  "104.16.219.108": {
+    "country": "CA",
+    "ts": 1785528159
+  },
+  "194.242.129.110": {
+    "country": "SG",
+    "ts": 1785528159
+  },
+  "70.39.197.13": {
+    "country": "US",
+    "ts": 1785528159
+  },
+  "70.39.198.93": {
+    "country": "US",
+    "ts": 1785528159
+  },
+  "194.242.129.111": {
+    "country": "SG",
+    "ts": 1785528159
+  },
+  "151.101.56.7": {
+    "country": "US",
+    "ts": 1785528159
+  },
+  "4.210.66.171": {
+    "country": "IE",
+    "ts": 1785528159
+  },
+  "194.242.129.183": {
+    "country": "SG",
+    "ts": 1785528159
+  },
+  "201.34.129.44": {
+    "country": "SC",
+    "ts": 1785528159
+  },
+  "208.103.161.206": {
+    "country": "US",
+    "ts": 1785528159
+  },
+  "15.224.27.66": {
+    "country": "FR",
+    "ts": 1785528159
+  },
+  "104.19.45.13": {
+    "country": "CA",
+    "ts": 1785528159
+  },
+  "tr1.ferape.shop": {
+    "country": "TR",
+    "ts": 1785528159
+  },
+  "104.17.83.238": {
+    "country": "CA",
+    "ts": 1785528159
+  },
+  "167.233.47.127": {
+    "country": "DE",
+    "ts": 1785528159
+  },
+  "83.228.197.104": {
+    "country": "CH",
+    "ts": 1785528159
+  },
+  "172.67.185.103": {
+    "country": "CA",
+    "ts": 1785528159
+  },
+  "69.84.182.127": {
+    "country": "US",
+    "ts": 1785528159
+  },
+  "172.67.70.191": {
+    "country": "CA",
+    "ts": 1785528159
+  },
+  "104.19.110.50": {
+    "country": "CA",
+    "ts": 1785528159
+  },
+  "70.39.198.35": {
+    "country": "US",
+    "ts": 1785528159
+  },
+  "f35-production-0a75.up.railway.app": {
+    "country": "US",
+    "ts": 1785528159
+  },
+  "104.21.74.119": {
+    "country": "CA",
+    "ts": 1785528159
+  },
+  "89.116.161.121": {
+    "country": "US",
+    "ts": 1785528159
+  },
+  "104.31.16.104": {
+    "country": "CA",
+    "ts": 1785528159
+  },
+  "clsmfd.vdioshop.com": {
+    "country": "TR",
+    "ts": 1785528159
+  },
+  "157.245.68.190": {
+    "country": "NL",
+    "ts": 1785528159
+  },
+  "138.201.191.71": {
+    "country": "DE",
+    "ts": 1785528159
+  },
+  "f35-production.up.railway.app": {
+    "country": "US",
+    "ts": 1785528159
+  },
+  "154.37.223.56": {
+    "country": "HK",
+    "ts": 1785528159
+  },
+  "217.16.25.61": {
+    "country": "RU",
+    "ts": 1785528159
+  },
+  "ha.corecloud.space": {
+    "country": "NL",
+    "ts": 1785528159
+  },
+  "x4g-production-a10a.up.railway.app": {
+    "country": "US",
+    "ts": 1785528159
+  },
+  "ss.l90909l.vip": {
+    "country": "RU",
+    "ts": 1785528159
+  },
+  "tr.iblamelooks.ir": {
+    "country": "TR",
+    "ts": 1785528159
+  },
+  "nok.iblamelooks.ir": {
+    "country": "LV",
+    "ts": 1785528159
+  },
+  "html.lornavps.ir": {
+    "country": "PL",
+    "ts": 1785528159
+  },
+  "mtod.gorqino.ir": {
+    "country": "DE",
+    "ts": 1785528159
+  },
+  "pllla.ihsg.ir": {
+    "country": "LV",
+    "ts": 1785528159
+  },
+  "school.fizikade.ir": {
+    "country": "PL",
+    "ts": 1785528159
+  },
+  "blog.doctorflutter.ir": {
+    "country": "UNKNOWN",
+    "ts": 1785528160
   }
 }
