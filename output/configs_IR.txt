@@ -2,6 +2,7 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpUSVRwcE81WUVoTTV1SUp3ME5RUXJ6WmJGVlVDOHQ5a3A
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpJUGhOQlMydllXL3FJMC8vdXBEb2g4VHhwaXJKcUw5eU1ZZ1gxZWZoR0E0PQ@e1.cover20.ir:51570?type=tcp#🇮🇷IR-🚀@VPNine1
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpUSVRwcE81WUVoTTV1SUp3ME5RUXJ6WmJGVlVDOHQ5a3AyZlZVUEZxdG5nPQ@e1.cover20.ir:51570?type=tcp#🇮🇷IR-🚀@VPNine1
 ss://YWVzLTI1Ni1nY206WkdNNVpXWXlNakF6TlRka1pHWTFOV1JtTVRaaFltVTFZalEyWWpCag@37.32.27.224:9147?prefix=%16%03%01%00%C2%A8%01%01#%40filembad
+ss://YWVzLTI1Ni1nY206WkdNNVpXWXlNakF6TlRka1pHWTFOV1JtTVRaaFltVTFZalEyWWpCag@37.32.27.224:9147?prefix=%16%03%01%00%C2%A8%01%01#🇮🇷IR-🚀@VPNine1
 vless://82c91f31-470c-4ea7-8602-27e3d916d62b@62.60.212.251:8580?security=none&type=tcp&host=speedtest.net&headerType=http#%40filembad
 vmess://eyJhZGQiOiJ0dW4xLndpemFyZHgxLmNvbSIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiI4YzIwNzY4Mi1lMDA3LTRhMGQtODhhMy02OGI4NjM4YjNkMTAiLCJpbnNlY3VyZSI6IjAiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiIiwicGNzIjoiIiwicG9ydCI6IjIwNzgiLCJwcyI6IkBmaWxlbWJhZCIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoibm9uZSIsInYiOiIyIiwidmNuIjoiIn0=
 ss://YWVzLTI1Ni1nY206WXpNMU9UaGxaalU1Wm1KaFpXRmpPV1UwTWpJME5HTXdPV00yTlRkaA@193.176.242.16:11117#%40filembad
@@ -47,8 +48,6 @@ vless://529cd8b2-0432-4fe7-80a2-89076c818f25@185.118.15.160:2095?security=none&e
 vless://dca1dde7-3d0c-4110-8c3f-decc38e47c61@tr4.lnsync.online:443?security=reality&encryption=none&pbk=HPM2WjNFOV-Uh4OalZxLDGX3r98a5xSY6lkfq4AJgH8&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.aparat.com&sid=4db607e3#🇮🇷IR-🚀@VPNine1
 vless://dca1dde7-3d0c-4110-8c3f-decc38e47c61@de4.lnsync.online:443?security=reality&encryption=none&pbk=LFudRORdUU5pY21kMG-e_LIbiFmKwdPMsvl26ljBdBc&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.aparat.com&sid=65eac51f#🇮🇷IR-🚀@VPNine1
 ss://%40%F0%9D%90%95%F0%9D%9F%90%F0%9D%90%97%F0%9D%90%8D%F0%9D%90%84%F0%9D%90%93@185.143.235.253:443?mode=auto&path=/user&security=tls&encryption=none&extra=%7B%22mode%22:%22auto%22,%22xPaddingBytes%22:%22100-1000%22%7D&insecure=0&host=youqp-ab9040c5d6-sss.apps.ir-central1.arvancaas.ir&fp=chrome&type=xhttp&allowInsecure=0&sni=youqp-ab9040c5d6-sss.apps.ir-central1.arvancaas.ir#🇮🇷IR-🚀@VPNine1
-ss://YWVzLTI1Ni1nY206TWpVeVltSTVPV0l6Tm1RMk4yVmlaakJqT1Raall6WTJNRGN5WlRGag@37.32.25.196:9112?prefix=%16%03%01%00%C2%A8%01%01#🇮🇷IR-🚀@VPNine1
-vless://0d1c3cee-2952-4a3e-a03e-fbe99d32dc72@de22.fastplus7.site:2086?type=ws&encryption=none&path=/&host=de21.fastplus11.ir&security=none#🇮🇷IR-🚀@VPNine1
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowdTQ3eEp2cDJfcEdiQTVjMTNBU0hLODdEeER3azV6bQ@coco2.farajet.net:2020#@vasl_bashim
 vless://a8c6e908-fa7e-4d53-abdf-162fc47fe456@185.143.233.235:2053?encryption=none&security=tls&sni=top.mobixaco.ir&fp=random&insecure=0&allowInsecure=0&type=ws&host=top.mobixaco.ir&path=%2F#%40Configs_FreeIran
 vless://15f918a6-fa3c-45cd-9d54-2e4d2d830bf6@193.151.135.64:4438?security=none&encryption=none&headerType=none&type=tcp#%40Configs_FreeIran
