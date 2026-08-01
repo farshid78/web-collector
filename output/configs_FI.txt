@@ -1,4 +1,8 @@
+vless://f66e556c-a006-5d1a-2d52-a8de1df7d18c@204.168.172.119:8443?sid=f49da53c&type=xhttp&sni=play.google.com&mode=auto&pbk=xXaCtONWKzYdCWya3nzOe3_UYfHplbmdThukm0__smI&host=play.google.com&security=reality&spx=%2F&encryption=none&fp=firefox#%40filembad
+vless://f66e556c-a006-5d1a-2d52-a8de1df7d18c@204.168.172.119:8443?sid=f49da53c&type=xhttp&sni=play.google.com&mode=auto&pbk=xXaCtONWKzYdCWya3nzOe3_UYfHplbmdThukm0__smI&host=play.google.com&security=reality&spx=/&encryption=none&fp=firefox#🇩🇪DE-🚀@VPNine1
+vless://9faad682-fbcd-7b3f-b70c-22fae8774236@204.168.172.119:8443?encryption=none&type=tcp&security=reality&headerType=http&host=play.google.com&sni=play.google.com&fp=firefox&insecure=1&allowInsecure=1&pbk=xXaCtONWKzYdCWya3nzOe3_UYfHplbmdThukm0__smI&sid=f49da53c&spx=%2F#@vasl_bashim
 ss://MjAyMi1ibGFrZTMtYWVzLTI1Ni1nY206MzlDNHQxVUhMTGtHY0xPVDVwMldGY2c2Ykg2RnJmTzFVRHBlYVlNVi9JOD06K0IxMDhUOEp1QVhIT3hISmpoRDZSREpBejBoY1draVRCOUpBR252anN3ST0@185.126.64.86:10536?#%40filembad
+ss://MjAyMi1ibGFrZTMtYWVzLTI1Ni1nY206MzlDNHQxVUhMTGtHY0xPVDVwMldGY2c2Ykg2RnJmTzFVRHBlYVlNVi9JOD06K0IxMDhUOEp1QVhIT3hISmpoRDZSREpBejBoY1draVRCOUpBR252anN3ST0@185.126.64.86:10536#🇸🇨SC-🚀@VPNine1
 vless://4926d92f-81e2-4c68-9ddf-4470f376c49c@65.109.219.3:443?security=reality&encryption=none&pbk=eVLFrQx077o9uFmtkX2jFL3SMjru1BBdKJBHFFn3shQ&headerType=&fp=qq&spx=%2F&type=tcp&sni=play.google.com&sid=b7ebb6c8#%40filembad
 vless://4926d92f-81e2-4c68-9ddf-4470f376c49c@65.109.219.3:443?security=reality&encryption=none&pbk=eVLFrQx077o9uFmtkX2jFL3SMjru1BBdKJBHFFn3shQ&headerType=&fp=qq&spx=/&type=tcp&sni=play.google.com&sid=b7ebb6c8#🇫🇮FI-🚀@VPNine1
 vless://381247e0-5a14-461b-8a87-19df5f53a172@45.38.170.239:2084?encryption=none&security=none&type=ws&headerType=none&path=%2Fws&host=play.google.com#%40filembad
@@ -51,13 +55,10 @@ vless://ee60f92c-de7d-4ad8-9fe2-25e0a0d80c75@pi.paydar.site:80?security=none&enc
 vless://ba36ca25-5d46-49f2-8f03-fb22932e7607@pi.paydar.site:80?security=none&encryption=none&host=play.google.com&headerType=http&type=tcp#🇫🇮FI-🚀@VPNine1
 vless://515cd866-b9a4-4a42-bfe0-100ad8c6f575@62.238.56.217:20417?headerType=http&host=play.google.com&path=/&security=none&type=tcp#🇫🇮FI-🚀@VPNine1
 vless://e80636f5-b3b7-466e-a51d-901a869f832a@62.238.56.217:41982?security=none&encryption=none&host=play.google.com&headerType=http&type=tcp#🇫🇮FI-🚀@VPNine1
-vless://e0bb1141-31b2-4215-a201-2113e753cb5c@62.238.56.217:41982?security=none&encryption=none&host=play.google.com&headerType=http&type=tcp#🇫🇮FI-🚀@VPNine1
 vless://6daae99a-82f8-4675-9069-a34a165b6c6b@ficdn-17.nem-osh-rkp.net:443?security=tls&encryption=none&insecure=0&headerType=none&type=tcp&allowInsecure=0#🇫🇮FI-🚀@VPNine1
 vless://28cb2674-f643-320e-3316-93049bd12ada@dl2dl2dl2.lornavps.ir:8855?security=&encryption=none&host=play.google.com&headerType=http&type=tcp#🇫🇮FI-🚀@VPNine1
-vless://78f5bccc-4401-7862-9790-3e105faccf3c@dl2dl2dl2.lornavps.ir:8855?security=none&type=tcp&headerType=http&encryption=none&path=/&host=play.google.com&fragment=10-100,100-200,tlshello&noise=rand:10-20,100-200#🇫🇮FI-🚀@VPNine1
 vless://42713553-c2e5-408a-8a1b-651b2facf01e@85.192.49.203:443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&sni=www.nvidia.com&fp=firefox&pbk=KlybaLW0-grtjEATyTVFIYoWIaoW-Duxi4lcM54_t2U#🇫🇮FI-🚀@VPNine1
 vless://ba36ca25-5d46-49f2-8f03-fb22932e7607@95.216.190.180:80?security=none&encryption=none&host=play.google.com&headerType=http&type=tcp#🇫🇮FI-🚀@VPNine1
-vless://9faad682-fbcd-7b3f-b70c-22fae8774236@204.168.172.119:8443?encryption=none&type=tcp&security=reality&headerType=http&host=play.google.com&sni=play.google.com&fp=firefox&insecure=1&allowInsecure=1&pbk=xXaCtONWKzYdCWya3nzOe3_UYfHplbmdThukm0__smI&sid=f49da53c&spx=%2F#@vasl_bashim
 vless://37182b68-6422-4414-9518-7df6776c0150@fn2-unlimited.pavilof.ir:1020?security=reality&encryption=none&pbk=jILgyIiDR7xY8WDrU9EMx_iXUi6nKr3LapCgglBVBAU&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=yahoo.com&sid=3fa2fdb7dce16b8b#@vasl_bashim
 vless://6871b29e-bb51-4b6b-b2fa-6e2b98ad3859@46.62.240.221:80?encryption=none&type=tcp&headerType=http&host=khamenei.ir#T.me/CONFiGiR98
 vless://c7e9c591-2764-423a-afca-efbd010fd396@45.38.170.27:2053?host=forfreeuse.sub-flow.online&path=%2F&security=tls&sni=forfreeuse.sub-flow.online&type=ws#%F0%9F%87%AB%F0%9F%87%AE%20Finland%2C%20Helsinki%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
