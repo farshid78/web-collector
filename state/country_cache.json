@@ -1,76 +1,4 @@
 {
-  "8.208.35.217": {
-    "country": "GB",
-    "ts": 1784413792
-  },
-  "173.245.58.76": {
-    "country": "CA",
-    "ts": 1784413792
-  },
-  "api2.hexogate.net": {
-    "country": "AE",
-    "ts": 1784413792
-  },
-  "176.124.221.208": {
-    "country": "DE",
-    "ts": 1784413792
-  },
-  "172.66.45.32": {
-    "country": "CA",
-    "ts": 1784413792
-  },
-  "84.201.157.107": {
-    "country": "RU",
-    "ts": 1784413792
-  },
-  "45.130.125.162": {
-    "country": "SC",
-    "ts": 1784413792
-  },
-  "ch-play.montago-shop.ir": {
-    "country": "FI",
-    "ts": 1784413792
-  },
-  "217.198.13.31": {
-    "country": "RU",
-    "ts": 1784413792
-  },
-  "italy.prostoshield.ru": {
-    "country": "IT",
-    "ts": 1784413792
-  },
-  "o7jzg.pastilbastani.ir": {
-    "country": "NL",
-    "ts": 1784413792
-  },
-  "tg.hrmp.kdns.fr": {
-    "country": "CA",
-    "ts": 1784413792
-  },
-  "sv9.nonpath.ir": {
-    "country": "DE",
-    "ts": 1784413792
-  },
-  "dl3-54231678trust.nivoxa.ir": {
-    "country": "IR",
-    "ts": 1784413792
-  },
-  "gb-play.montago-shop.ir": {
-    "country": "DE",
-    "ts": 1784413792
-  },
-  "jsengineer.org": {
-    "country": "AT",
-    "ts": 1784413792
-  },
-  "s1.insta-service.ir": {
-    "country": "IR",
-    "ts": 1784413792
-  },
-  "s2.insta-service.ir": {
-    "country": "IR",
-    "ts": 1784413792
-  },
   "172.67.71.247": {
     "country": "CA",
     "ts": 1784417509
@@ -40386,5 +40314,69 @@
   "YaMaL.Sav-savteAm.iR": {
     "country": "DE",
     "ts": 1785620104
+  },
+  "104.17.237.220": {
+    "country": "CA",
+    "ts": 1785623709
+  },
+  "104.18.23.65": {
+    "country": "CA",
+    "ts": 1785623709
+  },
+  "62.238.39.20": {
+    "country": "FI",
+    "ts": 1785623709
+  },
+  "160.79.105.66": {
+    "country": "US",
+    "ts": 1785623709
+  },
+  "159.89.22.74": {
+    "country": "DE",
+    "ts": 1785623709
+  },
+  "172.66.45.32": {
+    "country": "CA",
+    "ts": 1785623709
+  },
+  "104.16.209.146": {
+    "country": "CA",
+    "ts": 1785623709
+  },
+  "84.32.223.22": {
+    "country": "DE",
+    "ts": 1785623709
+  },
+  "shop.fasfood.top": {
+    "country": "IR",
+    "ts": 1785623709
+  },
+  "134.209.236.18": {
+    "country": "DE",
+    "ts": 1785623709
+  },
+  "64.226.106.122": {
+    "country": "DE",
+    "ts": 1785623709
+  },
+  "64.226.68.43": {
+    "country": "DE",
+    "ts": 1785623709
+  },
+  "ssl.hostirann.xyz": {
+    "country": "CA",
+    "ts": 1785623709
+  },
+  "s2.milaty.ir": {
+    "country": "GE",
+    "ts": 1785623709
+  },
+  "upload.ir": {
+    "country": "CA",
+    "ts": 1785623709
+  },
+  "kp-play.montago-shop.ir": {
+    "country": "TR",
+    "ts": 1785623709
   }
 }
