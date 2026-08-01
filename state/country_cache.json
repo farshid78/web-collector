@@ -1,56 +1,4 @@
 {
-  "8.208.25.123": {
-    "country": "GB",
-    "ts": 1784399263
-  },
-  "104.18.26.94": {
-    "country": "CA",
-    "ts": 1784399263
-  },
-  "167.82.101.252": {
-    "country": "US",
-    "ts": 1784399263
-  },
-  "5.129.201.40": {
-    "country": "RU",
-    "ts": 1784399263
-  },
-  "104.19.38.62": {
-    "country": "CA",
-    "ts": 1784399263
-  },
-  "104.171.137.196": {
-    "country": "RU",
-    "ts": 1784399263
-  },
-  "104.171.137.39": {
-    "country": "RU",
-    "ts": 1784399263
-  },
-  "81.19.135.179": {
-    "country": "RU",
-    "ts": 1784399263
-  },
-  "195.58.49.41": {
-    "country": "RU",
-    "ts": 1784399263
-  },
-  "pnl.horlutr.ir": {
-    "country": "NL",
-    "ts": 1784399263
-  },
-  "DE.IPSENTER.ORG": {
-    "country": "DE",
-    "ts": 1784399263
-  },
-  "MelineT3.Sav-savteAm.iR": {
-    "country": "DE",
-    "ts": 1784399263
-  },
-  "check08.allenshop66244.ir": {
-    "country": "DE",
-    "ts": 1784399264
-  },
   "108.162.198.136": {
     "country": "US",
     "ts": 1784403863
@@ -40662,5 +40610,77 @@
   "afrcloud22.mmv.kr": {
     "country": "CA",
     "ts": 1785605182
+  },
+  "20.17.157.81": {
+    "country": "MY",
+    "ts": 1785609015
+  },
+  "198.41.219.236": {
+    "country": "US",
+    "ts": 1785609015
+  },
+  "217.163.76.225": {
+    "country": "GB",
+    "ts": 1785609015
+  },
+  "185.126.93.17": {
+    "country": "RU",
+    "ts": 1785609015
+  },
+  "185.143.233.122": {
+    "country": "IR",
+    "ts": 1785609015
+  },
+  "185.91.52.36": {
+    "country": "RU",
+    "ts": 1785609015
+  },
+  "193.111.30.245": {
+    "country": "JP",
+    "ts": 1785609015
+  },
+  "4.240.110.47": {
+    "country": "IN",
+    "ts": 1785609015
+  },
+  "104.17.3.193": {
+    "country": "CA",
+    "ts": 1785609015
+  },
+  "210.236.228.126": {
+    "country": "JP",
+    "ts": 1785609015
+  },
+  "russia2.ethicsdinnerpave.online": {
+    "country": "RU",
+    "ts": 1785609015
+  },
+  "z-e-u-s-panel-k3eeai.parham4362.workers.dev": {
+    "country": "CA",
+    "ts": 1785609015
+  },
+  "valley.wildgarden.digital": {
+    "country": "RU",
+    "ts": 1785609015
+  },
+  "x4g-production-286d.up.railway.app": {
+    "country": "US",
+    "ts": 1785609015
+  },
+  "d7e209882c98f0ecd7e209882c98f0ec.ssdhdd.org": {
+    "country": "TR",
+    "ts": 1785609015
+  },
+  "ru-msk.sillyvpn.cc": {
+    "country": "RU",
+    "ts": 1785609015
+  },
+  "nop.jupitter.ir": {
+    "country": "CA",
+    "ts": 1785609015
+  },
+  "nl4.wireguardvpnbotik.com": {
+    "country": "RU",
+    "ts": 1785609015
   }
 }
