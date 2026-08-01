@@ -19,10 +19,6 @@ vmess://eyJ2IjogIjIiLCAicHMiOiAiXHVkODNjXHVkZGVlXHVkODNjXHVkZGY3SVItXHVkODNkXHVk
 vless://1bc7aa95-9100-4e8e-de41-ae62b3419ae9@185.126.14.200:10635?type=tcp&encryption=none&security=none#🇮🇷IR-🚀@VPNine1
 vless://6a55cbf2-cd1d-40dc-ab4c-143e18e73b74@185.126.14.200:51033?type=grpc&encryption=none&serviceName=&authority=&security=none#🇮🇷IR-🚀@VPNine1
 vless://ced3f588-d14f-4363-8171-33d8f0087606@185.126.14.200:11980?type=ws&encryption=none&path=/&host=&security=none#🇮🇷IR-🚀@VPNine1
-vless://ab028723-1171-4785-985d-3eaad0b0906c@raja.ir:2052?path=%2F&security=none&encryption=none&host=ns.linuxes.cfd&type=ws#%40filembad
-vless://ab028723-1171-4785-985d-3eaad0b0906c@raja.ir:2052?path=/&security=none&encryption=none&host=ns.linuxes.cfd&type=ws#🇮🇷IR-🚀@VPNine1
-vless://8ebb4d50-0d9a-466c-9aa4-a49d170490cc@185.141.213.184:2052?security=reality&encryption=none&pbk=DEHLqKRES372jqMRudEOm3POk1UQBi-PzSpdLYhHAmI&headerType=none&fp=chrome&spx=%2F72pjw4gCqn2lu2I&type=tcp&sni=www.sony.com&sid=f385#%40filembad
-vless://8ebb4d50-0d9a-466c-9aa4-a49d170490cc@185.141.213.184:2052?encryption=none&type=tcp&security=reality&headerType=none&sni=www.sony.com&fp=chrome&insecure=1&allowInsecure=1&pbk=DEHLqKRES372jqMRudEOm3POk1UQBi-PzSpdLYhHAmI&sid=f385&spx=/72pjw4gCqn2lu2I#🇮🇷IR-🚀@VPNine1
 vless://3ccbad0a-cedc-dd42-1638-559ce522cecd@forallpanel.srtongston.ir:8880?type=httpupgrade&path=/?ed=2082&encryption=none&security=none&host=Wwwusa.Ayar24gold.coM.#🇳🇱NL-🚀@VPNine1
 vless://3ccbad0a-cedc-dd42-1638-559ce522cecd@forallpanel.srtongston.ir:443?insecure=0&alpn=h3,h2,http/1.1&allowInsecure=0&fp=chrome&type=ws&path=/ws?ed=2560&security=tls&sni=yasturdyitfuoygh.ayar24gold.com&encryption=none&host=yasturdyitfuoygh.ayar24gold.com#🇳🇱NL-🚀@VPNine1
 vless://9ce2c239-1301-c676-f9e6-d31a48854fa8@forallpanel.srtongston.ir:443?host=wwwg333.phonemarketshop.com.&allowInsecure=0&encryption=none&security=tls&insecure=0&sni=wwwg333.phonemarketshop.com.&type=ws&path=/ws?ed=2560&alpn=h3,h2,http/1.1&fp=chrome#🇳🇱NL-🚀@VPNine1
@@ -31,7 +27,6 @@ vless://838bbe05-8aca-406f-eccd-fb62dfe8e02e@forallpanel.srtongston.ir:8880?host
 vless://27c3370e-581f-eab2-4ef5-30b0d6aa4e64@forallpanel.srtongston.ir:8880?encryption=none&security=none&type=httpupgrade&host=wwwww2.luxmoboleshop.com.&path=%2F%3Fed%3D2082#%40best_internet_iran
 vless://27c3370e-581f-eab2-4ef5-30b0d6aa4e64@forallpanel.srtongston.ir:8880?encryption=none&security=none&type=httpupgrade&host=wwww.luxmoboleshop.com.&path=%2F%3Fed%3D2082#%40best_internet_iran
 vless://27c3370e-581f-eab2-4ef5-30b0d6aa4e64@forallpanel.srtongston.ir:8880?encryption=none&security=none&type=httpupgrade&host=wwwuk.mobilex55.com.&path=%2F%3Fed%3D2082#%40best_internet_iran
-vless://3ccbad0a-cedc-dd42-1638-559ce522cecd@forallpanel.srtongston.ir:443?insecure=0&alpn=h3%2Ch2%2Chttp%2F1.1&allowInsecure=0&fp=chrome&type=ws&path=%2Fws%3Fed%3D2560&security=tls&sni=yasturdyitfuoygh.ayar24gold.com&encryption=none&host=yasturdyitfuoygh.ayar24gold.com#%D8%A7%DA%AF%D9%87%20%D9%85%DB%8C%D8%AE%D9%88%D8%A7%DB%8C%20%D9%82%D8%B7%D8%B9%20%D9%86%D8%B4%DB%8C%20%D8%AC%D9%88%DB%8C%D9%86%20%D8%B4%D9%88%20%3A%20%40farsiproxy
 vless://c387b0f2-5d9e-4c95-882d-1d5eeb443ce2@varzesh3.com:443?path=/movie&security=tls&alpn=h2,http/1.1&encryption=none&insecure=0&host=nginx-3b1e7ed824-abol.apps.ir-central1.arvancaas.ir&fp=chrome&type=ws&allowInsecure=0&sni=nginx-3b1e7ed824-abol.apps.ir-central1.arvancaas.ir#🇮🇷IR-🚀@VPNine1
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo4amZvbGIzSmlzejhpOVZGZGs5ay8xN0JNN21BQTZXSFg4YktYa245TlBVPQ@e2.cover20.ir:30874?type=tcp#🇮🇷IR-🚀@VPNine1
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpCU1FmVVBwRWY3ekRPNENJSE5wNTcyUVJWekl6ZFYramxBT05aZk4wTUdFPQ@e2.cover20.ir:30874?type=tcp#🇮🇷IR-🚀@VPNine1
@@ -41,7 +36,9 @@ vmess://eyJhZGQiOiAiMi5hcnphbmthZGVoLmNhbSIsICJhaWQiOiAiMCIsICJob3N0IjogIiIsICJp
 vless://c2122a8d-914b-414b-e6b5-c1575c2b09e0@zula.ir:80?encryption=none&security=none&type=ws&host=44-rEFaQaT.yArAyaragAHi12.info&path=/df38fGe9tgDG0dkg84LsdfOdjg8.#🇮🇷IR-🚀@VPNine1
 vless://0f5da327-c0b9-4859-8152-70fbb9830f11@zula.ir:80?path=/melo/is/needed&security=none&encryption=none&host=ch1.dontbow.store.&type=ws#🇮🇷IR-🚀@VPNine1
 vless://db89d081-76c1-4fed-9547-0a4031cb45f2@37.152.186.116:42798?security=none&encryption=none&headerType=none&type=tcp#🇮🇷IR-🚀@VPNine1
+vless://ab028723-1171-4785-985d-3eaad0b0906c@raja.ir:2052?path=/&security=none&encryption=none&host=ns.linuxes.cfd&type=ws#🇮🇷IR-🚀@VPNine1
 vless://ca3206b2-d8c5-4c5c-a932-0b1efc47538a@cos.degeristcs.ir:443?path=/SHJHSRJYYYYYYYYGDU&security=tls&encryption=none&insecure=0&host=cos.degeristcs.ir&fp=chrome&type=ws&allowInsecure=0&sni=cos.degeristcs.ir#🇮🇷IR-🚀@VPNine1
+vless://8ebb4d50-0d9a-466c-9aa4-a49d170490cc@185.141.213.184:2052?encryption=none&type=tcp&security=reality&headerType=none&sni=www.sony.com&fp=chrome&insecure=1&allowInsecure=1&pbk=DEHLqKRES372jqMRudEOm3POk1UQBi-PzSpdLYhHAmI&sid=f385&spx=/72pjw4gCqn2lu2I#🇮🇷IR-🚀@VPNine1
 vless://0a85da84-bbb4-4b0e-b67c-0c3eb4a8df19@zxcvbnm1.roozaraa.ir:8880?path=/&security=tls&encryption=none&insecure=0&host=zxcvbnm1.roozaraa.ir&fp=chrome&type=ws&allowInsecure=0&sni=zxcvbnm1.roozaraa.ir#🇮🇷IR-🚀@VPNine1
 vless://0a85da84-bbb4-4b0e-b67c-0c3eb4a8df19@zxcvbnm1.roozaraa.ir:8880?path=/&security=tls&encryption=none&insecure=0&host=&fp=chrome&type=ws&allowInsecure=0&sni=#🇮🇷IR-🚀@VPNine1
 vless://529cd8b2-0432-4fe7-80a2-89076c818f25@185.118.15.160:2095?security=none&encryption=none&headerType=none&type=tcp#🇮🇷IR-🚀@VPNine1
@@ -51,7 +48,10 @@ ss://%40%F0%9D%90%95%F0%9D%9F%90%F0%9D%90%97%F0%9D%90%8D%F0%9D%90%84%F0%9D%90%93
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowdTQ3eEp2cDJfcEdiQTVjMTNBU0hLODdEeER3azV6bQ@coco2.farajet.net:2020#@vasl_bashim
 vless://a8c6e908-fa7e-4d53-abdf-162fc47fe456@185.143.233.235:2053?encryption=none&security=tls&sni=top.mobixaco.ir&fp=random&insecure=0&allowInsecure=0&type=ws&host=top.mobixaco.ir&path=%2F#%40Configs_FreeIran
 vless://15f918a6-fa3c-45cd-9d54-2e4d2d830bf6@193.151.135.64:4438?security=none&encryption=none&headerType=none&type=tcp#%40Configs_FreeIran
-trojan://humanity@2.144.21.150:2000?path=%2Fassignment&security=tls&insecure=1&host=www.ignitelimit.com&type=ws&allowInsecure=1&sni=www.ignitelimit.com&fp=edge#%F0%9F%87%AB%F0%9F%87%B7%20France%2C%20Paris%20%7C%20%5BBL%5D
+vless://10430407-a3bd-46e6-b881-b271655e551f@jmyusti.tinshopmarket.ir:443?security=reality&encryption=none&pbk=cAyrINjoyGdw0VlAWjB_N7zFpfvnaj7s9PpX9Dqw2zs&headerType=&fp=chrome&spx=%2F&type=tcp&sni=www.aparat.com&sid=eaa31296402dac#%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Nuremberg%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
+vless://1ee1f28d-4975-4d7c-95c7-76172c20eed5@185.143.234.238:2086?security=none&type=ws&host=parsi.parsi.sbs&path=/#%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Nuremberg%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
+vless://1ee1f28d-4975-4d7c-95c7-76172c20eed5@p01.parsi.sbs:2086?type=ws&path=/&host=parsi.parsi.sbs&security=none#%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Nuremberg%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
+trojan://humanity@2.144.21.150:2000?path=/assignment&security=tls&sni=www.ignitelimit.com&type=ws&sni=www.ignitelimit.com&fp=edge#%F0%9F%87%AB%F0%9F%87%B7%20France%2C%20Paris%20%7C%20%5BBL%5D
 trojan://humanity@2.144.21.150:2000?path=%2Fassignment&security=tls&insecure=1&host=www.ignitelimit.com&type=ws&allowInsecure=1&sni=www.ignitelimit.com&fp=firefox#%F0%9F%87%AB%F0%9F%87%B7%20France%2C%20Paris%20%7C%20%5BBL%5D
 trojan://humanity@2.144.21.150:2000?path=%2Fassignment&security=tls&insecure=1&host=www.ignitelimit.com&type=ws&allowInsecure=1&sni=www.ignitelimit.com&fp=ios#%F0%9F%87%AB%F0%9F%87%B7%20France%2C%20Paris%20%7C%20%5BBL%5D
 ss://bm9uZTpSU3pFSWtrMkVzSEVBVmoxNU41RS9BPT0=@185.188.104.12:443#%F0%9F%87%AE%F0%9F%87%B7
