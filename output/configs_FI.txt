@@ -1,3 +1,6 @@
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpUbVhTcGNSQmJodkhEZzY2Ym8ydzg5YlRveFFzYk1vYQ==@31.76.30.79:10808#%40filembad
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpUbVhTcGNSQmJodkhEZzY2Ym8ydzg5YlRveFFzYk1vYQ==@31.76.30.79:10808#🇫🇮FI-🚀@VPNine1
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpUbVhTcGNSQmJodkhEZzY2Ym8ydzg5YlRveFFzYk1vYQ==@31.76.30.79:10808#%D8%A7%DA%AF%D9%87%20%D9%85%DB%8C%D8%AE%D9%88%D8%A7%DB%8C%20%D9%82%D8%B7%D8%B9%20%D9%86%D8%B4%DB%8C%20%D8%AC%D9%88%DB%8C%D9%86%20%D8%B4%D9%88%20%3A%20%40farsiproxy
 vless://f66e556c-a006-5d1a-2d52-a8de1df7d18c@204.168.172.119:8443?sid=f49da53c&type=xhttp&sni=play.google.com&mode=auto&pbk=xXaCtONWKzYdCWya3nzOe3_UYfHplbmdThukm0__smI&host=play.google.com&security=reality&spx=%2F&encryption=none&fp=firefox#%40filembad
 vless://f66e556c-a006-5d1a-2d52-a8de1df7d18c@204.168.172.119:8443?sid=f49da53c&type=xhttp&sni=play.google.com&mode=auto&pbk=xXaCtONWKzYdCWya3nzOe3_UYfHplbmdThukm0__smI&host=play.google.com&security=reality&spx=/&encryption=none&fp=firefox#🇩🇪DE-🚀@VPNine1
 vless://9faad682-fbcd-7b3f-b70c-22fae8774236@204.168.172.119:8443?encryption=none&type=tcp&security=reality&headerType=http&host=play.google.com&sni=play.google.com&fp=firefox&insecure=1&allowInsecure=1&pbk=xXaCtONWKzYdCWya3nzOe3_UYfHplbmdThukm0__smI&sid=f49da53c&spx=%2F#@vasl_bashim
@@ -52,7 +55,6 @@ vless://8d0718bd-5b4b-4e6a-92af-669a65740869@h.telegram-tirexnet.kdns.fr:58369?e
 vless://b91abe1a-80ca-417b-998b-2b542661c16f@fi.feywebsite.ir:8008?path=/api/v1/stream&security=reality&encryption=none&pbk=KtGLrfLQ2sjyevmG3I5Xpi2CVt-YeNKeLmHyAylrj1A&fp=chrome&type=xhttp&sni=yahoo.com&sid=57e46f39#🇫🇮FI-🚀@VPNine1
 vless://32e4f6aa-4c8a-45ba-9f73-75e58980a37f@r1yps.pastilbastani.ir:443?encryption=none&type=tcp&headerType=http&host=play.google.com&path=/&security=none#🇫🇮FI-🚀@VPNine1
 vless://ee60f92c-de7d-4ad8-9fe2-25e0a0d80c75@pi.paydar.site:80?security=none&encryption=none&host=play.google.com&headerType=http&type=tcp#🇫🇮FI-🚀@VPNine1
-vless://ba36ca25-5d46-49f2-8f03-fb22932e7607@pi.paydar.site:80?security=none&encryption=none&host=play.google.com&headerType=http&type=tcp#🇫🇮FI-🚀@VPNine1
 vless://515cd866-b9a4-4a42-bfe0-100ad8c6f575@62.238.56.217:20417?headerType=http&host=play.google.com&path=/&security=none&type=tcp#🇫🇮FI-🚀@VPNine1
 vless://e80636f5-b3b7-466e-a51d-901a869f832a@62.238.56.217:41982?security=none&encryption=none&host=play.google.com&headerType=http&type=tcp#🇫🇮FI-🚀@VPNine1
 vless://6daae99a-82f8-4675-9069-a34a165b6c6b@ficdn-17.nem-osh-rkp.net:443?security=tls&encryption=none&insecure=0&headerType=none&type=tcp&allowInsecure=0#🇫🇮FI-🚀@VPNine1
@@ -73,3 +75,4 @@ vless://57b64254-5191-4c37-9d2e-bf5406c23e8a@83.147.216.66:50000?encryption=none
 vless://67eb6b17-7797-4ded-bf52-423c4c5f6cbd@lists.soloramtin.cyou:443?flow=xtls-rprx-vision&security=reality&sni=www.foxsports.com&fp=chrome&pbk=G7bpUPFSW28-oE6ff8qZac1_apU6PiJ-GHmi7tAPDSY&sid=91af08b1ce1f&type=tcp&path=/#%F0%9F%87%AB%F0%9F%87%AE
 vless://8ba5361f-2d12-40fe-9f33-eca6847f1475@wizi1.wizardx1.com:2045?mode=gun&security=reality&encryption=none&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&fp=chrome&type=grpc&serviceName=xyz&sni=icloud.com#%F0%9F%87%AB%F0%9F%87%AE
 vless://902ec216-e0c4-46fd-a2de-0351f2e28b3a@2.26.91.98:1443?encryption=none&type=ws&host=3tmj2egtm-fno.49bnithzk8vphybv36d1z1xkzfvogt2m6.workers.dev&path=%2F%40Marisa_kristi&security=tls&fp=chrome&sni=3tmj2egtm-fno.49bnithzk8vphybv36d1z1xkzfvogt2m6.workers.dev#%F0%9F%87%AB%F0%9F%87%AE
+trojan://62b78c9b-16cb-4ee6-824b-a4f856cf18f3@65.108.205.61:443#%F0%9F%87%AB%F0%9F%87%AE
