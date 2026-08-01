@@ -1,3 +1,4 @@
+ss://YWVzLTI1Ni1nY206WXpZM1kySmhZakF5TjJFeU9ESXlNREF5TjJZMU9ESTJNMlV5TW1ZMw@iran.tonanimalia.com:11102?prefix=%16%03%01%00%C2%A8%01%01#%40filembad
 vless://5c88fccb-a7ea-499c-9320-a12274cdf002@tun.speed.hardvezoo.ir:443?security=none&type=ws&headerType=&path=&host=#%40filembad
 vless://5c88fccb-a7ea-499c-9320-a12274cdf002@tun.speed.hardvezoo.ir:443?security=none&type=ws&headerType=&path=&host=#🇮🇷IR-🚀@VPNine1
 ss://YWVzLTI1Ni1nY206TmpSbFl6a3lPRFkyWWprNE9UQXpOREUyT1daa01qRXhPR0pqWWpVMg@95.38.186.235:9147?prefix=%16%03%01%00%C2%A8%01%01#%40filembad
@@ -10,8 +11,7 @@ ss://YWVzLTI1Ni1nY206WkdNNVpXWXlNakF6TlRka1pHWTFOV1JtTVRaaFltVTFZalEyWWpCag@37.3
 ss://YWVzLTI1Ni1nY206WkdNNVpXWXlNakF6TlRka1pHWTFOV1JtTVRaaFltVTFZalEyWWpCag@37.32.27.224:9147?prefix=%16%03%01%00%C2%A8%01%01#🇮🇷IR-🚀@VPNine1
 vless://82c91f31-470c-4ea7-8602-27e3d916d62b@62.60.212.251:8580?security=none&type=tcp&host=speedtest.net&headerType=http#%40filembad
 vmess://eyJhZGQiOiJ0dW4xLndpemFyZHgxLmNvbSIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiI4YzIwNzY4Mi1lMDA3LTRhMGQtODhhMy02OGI4NjM4YjNkMTAiLCJpbnNlY3VyZSI6IjAiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiIiwicGNzIjoiIiwicG9ydCI6IjIwNzgiLCJwcyI6IkBmaWxlbWJhZCIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoibm9uZSIsInYiOiIyIiwidmNuIjoiIn0=
-vmess://eyJhZGQiOiJ0dW4xLndpemFyZHgxLmNvbSIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiI4YzIwNzY4Mi1lMDA3LTRhMGQtODhhMy02OGI4NjM4YjNkMTAiLCJpbnNlY3VyZSI6IjAiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiIiwicGNzIjoiIiwicG9ydCI6IjIwNzgiLCJwcyI6IuKcqCBATmFtaXJhQ29uZmlncyB8IOKdpO+4jyDZiNi12YQg2LTYr9uMINis2YjbjNmGINi02YggfCDimqEgfCDwn4eu8J+HtyIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoibm9uZSIsInYiOiIyIiwidmNuIjoiIn0=
-ss://YWVzLTI1Ni1nY206WXpNMU9UaGxaalU1Wm1KaFpXRmpPV1UwTWpJME5HTXdPV00yTlRkaA@193.176.242.16:11117#%40filembad
+vmess://eyJhZGQiOiAidmlwMS5zaG93dGltZWxlc3Muc2l0ZSIsICJpZCI6ICI5MGVlNTVkOC0yNjUxLTRkMGEtYjlkYy1mM2Q0YmRjN2MyOTUiLCAibmV0IjogInRjcCIsICJwb3J0IjogODg4MCwgInBzIjogIlx1ZDgzY1x1ZGRlZVx1ZDgzY1x1ZGRmN0lSLVx1ZDgzZFx1ZGU4MEBWUE5pbmUxIiwgInNjeSI6ICJhdXRvIiwgInRscyI6ICJub25lIiwgInR5cGUiOiAibm9uZSIsICJ2IjogIjIifQ==
 vless://51d19c6d-d0bf-4e0b-8eef-9a1d3f13c7e6@avval.ir:8443/?type=ws&encryption=none&host=vip-romax-tiktok.hsjsak.ir&security=tls&sni=vip-romax-tiktok.hsjsak.ir&fp=random#🇮🇷IR-🚀@VPNine1
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpnbVVVaGZRclFicmhGNk5YUnArR3hxSFRQQzZaR0N4UkR2QU1yamVvUWZrPQ@e3.cover20.ir:56985?type=tcp#🇮🇷IR-🚀@VPNine1
 vless://3ccbad0a-cedc-dd42-1638-559ce522cecd@forallpanel.srtongston.ir:8880?type=httpupgrade&path=/?ed=2082&encryption=none&security=none&host=Wwwusa.Ayar24gold.coM.#🇳🇱NL-🚀@VPNine1
@@ -42,12 +42,12 @@ vless://8ebb4d50-0d9a-466c-9aa4-a49d170490cc@185.141.213.184:2052?encryption=non
 vless://0a85da84-bbb4-4b0e-b67c-0c3eb4a8df19@zxcvbnm1.roozaraa.ir:8880?path=/&security=tls&encryption=none&insecure=0&host=zxcvbnm1.roozaraa.ir&fp=chrome&type=ws&allowInsecure=0&sni=zxcvbnm1.roozaraa.ir#🇮🇷IR-🚀@VPNine1
 vless://0a85da84-bbb4-4b0e-b67c-0c3eb4a8df19@zxcvbnm1.roozaraa.ir:8880?path=/&security=tls&encryption=none&insecure=0&host=&fp=chrome&type=ws&allowInsecure=0&sni=#🇮🇷IR-🚀@VPNine1
 vless://529cd8b2-0432-4fe7-80a2-89076c818f25@185.118.15.160:2095?security=none&encryption=none&headerType=none&type=tcp#🇮🇷IR-🚀@VPNine1
-vless://dca1dde7-3d0c-4110-8c3f-decc38e47c61@tr4.lnsync.online:443?security=reality&encryption=none&pbk=HPM2WjNFOV-Uh4OalZxLDGX3r98a5xSY6lkfq4AJgH8&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.aparat.com&sid=4db607e3#🇮🇷IR-🚀@VPNine1
-vless://dca1dde7-3d0c-4110-8c3f-decc38e47c61@de4.lnsync.online:443?security=reality&encryption=none&pbk=LFudRORdUU5pY21kMG-e_LIbiFmKwdPMsvl26ljBdBc&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.aparat.com&sid=65eac51f#🇮🇷IR-🚀@VPNine1
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowdTQ3eEp2cDJfcEdiQTVjMTNBU0hLODdEeER3azV6bQ@coco2.farajet.net:2020#@vasl_bashim
 vless://a8c6e908-fa7e-4d53-abdf-162fc47fe456@185.143.233.235:2053?encryption=none&security=tls&sni=top.mobixaco.ir&fp=random&insecure=0&allowInsecure=0&type=ws&host=top.mobixaco.ir&path=%2F#%40Configs_FreeIran
 vless://15f918a6-fa3c-45cd-9d54-2e4d2d830bf6@193.151.135.64:4438?security=none&encryption=none&headerType=none&type=tcp#%40Configs_FreeIran
+vless://1ee1f28d-4975-4d7c-95c7-76172c20eed5@185.143.233.238:2086?security=none&type=ws&host=parsi.parsi.sbs&path=/#%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Nuremberg%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
 vless://1ee1f28d-4975-4d7c-95c7-76172c20eed5@185.143.234.238:2086?security=none&type=ws&host=parsi.parsi.sbs&path=/#%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Nuremberg%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
+vless://1ee1f28d-4975-4d7c-95c7-76172c20eed5@p01.parsi.sbs:2086?encryption=none&type=ws&host=parsi.parsi.sbs&path=%2F&security=none#%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Nuremberg%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
 vless://a7b22989-6c1f-4b59-b0f3-0605401813c4@45.131.4.115:80?&type=ws&headerType=none&host=worker3.gigak25604.workers.dev&path=%2FeyJqdW5rIjoiQXoydFJwaWM0WSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0%3D#%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D
 trojan://humanity@2.144.21.150:2000?path=/assignment&security=tls&sni=www.ignitelimit.com&type=ws&sni=www.ignitelimit.com&fp=edge#%F0%9F%87%AB%F0%9F%87%B7%20France%2C%20Paris%20%7C%20%5BBL%5D
 trojan://humanity@2.144.21.150:2000?path=/assignment&security=tls&sni=www.ignitelimit.com&type=ws&sni=www.ignitelimit.com&fp=ios#%F0%9F%87%AB%F0%9F%87%B7%20France%2C%20Paris%20%7C%20%5BBL%5D
@@ -56,8 +56,6 @@ trojan://humanity@2.144.21.150:2000?path=%2Fassignment&security=tls&insecure=1&h
 trojan://humanity@2.144.21.150:2000?path=%2Fassignment&security=tls&insecure=1&host=www.ignitelimit.com&type=ws&allowInsecure=1&sni=www.ignitelimit.com&fp=firefox#%F0%9F%87%AB%F0%9F%87%B7%20France%2C%20Paris%20%7C%20%5BBL%5D
 trojan://humanity@2.144.21.150:2000?path=%2Fassignment&security=tls&insecure=1&host=www.ignitelimit.com&type=ws&allowInsecure=1&sni=www.ignitelimit.com&fp=ios#%F0%9F%87%AB%F0%9F%87%B7%20France%2C%20Paris%20%7C%20%5BBL%5D
 trojan://humanity@2.144.21.150:2000?path=/assignment&security=tls&sni=www.ignitelimit.com&type=ws&sni=www.ignitelimit.com&fp=firefox#%F0%9F%87%AB%F0%9F%87%B7%20France%2C%20Paris%20%7C%20%5BBL%5D
-vless://1ee1f28d-4975-4d7c-95c7-76172c20eed5@185.143.233.238:2086?security=none&type=ws&host=parsi.parsi.sbs&path=/#%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Nuremberg%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
-vless://1ee1f28d-4975-4d7c-95c7-76172c20eed5@p01.parsi.sbs:2086?encryption=none&type=ws&host=parsi.parsi.sbs&path=%2F&security=none#%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Nuremberg%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
 ss://bm9uZTpSU3pFSWtrMkVzSEVBVmoxNU41RS9BPT0@185.188.105.10:443#%F0%9F%87%AE%F0%9F%87%B7
 ss://bm9uZTpSU3pFSWtrMkVzSEVBVmoxNU41RS9BPT0=@185.188.105.11:443#%F0%9F%87%AE%F0%9F%87%B7
 ss://bm9uZTpSU3pFSWtrMkVzSEVBVmoxNU41RS9BPT0@185.188.104.10:443#@DeltaKroneckerGithub
