@@ -1,140 +1,4 @@
 {
-  "69.84.182.20": {
-    "country": "US",
-    "ts": 1784472193
-  },
-  "45.80.110.130": {
-    "country": "EE",
-    "ts": 1784472193
-  },
-  "tough-pigeon.rooster465.autos": {
-    "country": "FR",
-    "ts": 1784472193
-  },
-  "x4g-production-5126.up.railway.app": {
-    "country": "US",
-    "ts": 1784472193
-  },
-  "zeus-panel-511yyv.zeus-lwomqi.workers.dev": {
-    "country": "CA",
-    "ts": 1784472193
-  },
-  "stream.noneok.com": {
-    "country": "DE",
-    "ts": 1784472193
-  },
-  "teain.org": {
-    "country": "SE",
-    "ts": 1784472193
-  },
-  "web-production-e8b78.up.railway.app": {
-    "country": "US",
-    "ts": 1784472193
-  },
-  "zeus-panel-u01kmr.nova-765c7d.workers.dev": {
-    "country": "CA",
-    "ts": 1784472193
-  },
-  "x4g-production-4c24.up.railway.app": {
-    "country": "US",
-    "ts": 1784472193
-  },
-  "104.16.164.228": {
-    "country": "CA",
-    "ts": 1784472193
-  },
-  "193.124.204.145": {
-    "country": "KZ",
-    "ts": 1784472193
-  },
-  "15.204.97.206": {
-    "country": "US",
-    "ts": 1784472193
-  },
-  "gw.anotherok.com": {
-    "country": "DE",
-    "ts": 1784472193
-  },
-  "x4g-production-a803e.up.railway.app": {
-    "country": "US",
-    "ts": 1784472193
-  },
-  "69.46.46.6": {
-    "country": "US",
-    "ts": 1784472193
-  },
-  "91.193.58.183": {
-    "country": "GB",
-    "ts": 1784472193
-  },
-  "151.115.167.6": {
-    "country": "IT",
-    "ts": 1784472193
-  },
-  "x4g-production-e14f.up.railway.app": {
-    "country": "US",
-    "ts": 1784472193
-  },
-  "104.16.72.50": {
-    "country": "CA",
-    "ts": 1784472193
-  },
-  "160.79.105.42": {
-    "country": "US",
-    "ts": 1784472193
-  },
-  "pretty-quail.rooster465.autos": {
-    "country": "FR",
-    "ts": 1784472193
-  },
-  "portal.support.panel.console.admin.developer.iranvatan.vidboxco.ir": {
-    "country": "NL",
-    "ts": 1784472193
-  },
-  "sitstrafficproxiedthroughcloudflare.iranis.print88.ir": {
-    "country": "DE",
-    "ts": 1784472193
-  },
-  "495-4080-b3.de.v.8715.iranisystembaz.ir": {
-    "country": "GB",
-    "ts": 1784472193
-  },
-  "iedthroughcloudflare.soundmusic77.soundmusic77.ir": {
-    "country": "FR",
-    "ts": 1784472193
-  },
-  "naran-mil-ow.fizikade.ir": {
-    "country": "IT",
-    "ts": 1784472193
-  },
-  "console.panel.dash.store.exit.logout.iranvatanam.soundmusic77.ir": {
-    "country": "FI",
-    "ts": 1784472193
-  },
-  "present-warthog.rooster465.autos": {
-    "country": "NL",
-    "ts": 1784472193
-  },
-  "xxl.orbit-escape.ru": {
-    "country": "NL",
-    "ts": 1784472193
-  },
-  "at03.tunnely.ru": {
-    "country": "AT",
-    "ts": 1784472193
-  },
-  "finland.oorluma.ir": {
-    "country": "FI",
-    "ts": 1784472193
-  },
-  "red-fhmq5ehr3ievlnabv8l2.concept7.ru": {
-    "country": "RU",
-    "ts": 1784472193
-  },
-  "istanbul.pelzimo.ir": {
-    "country": "TR",
-    "ts": 1784472194
-  },
   "185.173.144.38": {
     "country": "US",
     "ts": 1784475698
@@ -40982,5 +40846,77 @@
   "hentai.colorbox.space": {
     "country": "RU",
     "ts": 1785679348
+  },
+  "217.16.29.32": {
+    "country": "RU",
+    "ts": 1785683786
+  },
+  "196.240.57.35": {
+    "country": "DE",
+    "ts": 1785683786
+  },
+  "82.198.246.250": {
+    "country": "US",
+    "ts": 1785683786
+  },
+  "104.21.7.50": {
+    "country": "CA",
+    "ts": 1785683786
+  },
+  "196.240.57.178": {
+    "country": "DE",
+    "ts": 1785683786
+  },
+  "132.243.242.152": {
+    "country": "DE",
+    "ts": 1785683786
+  },
+  "104.16.232.249": {
+    "country": "CA",
+    "ts": 1785683786
+  },
+  "104.19.45.139": {
+    "country": "CA",
+    "ts": 1785683786
+  },
+  "104.19.47.171": {
+    "country": "CA",
+    "ts": 1785683786
+  },
+  "176.98.176.110": {
+    "country": "RU",
+    "ts": 1785683786
+  },
+  "104.26.10.138": {
+    "country": "CA",
+    "ts": 1785683786
+  },
+  "est.vrsvpn.com": {
+    "country": "EE",
+    "ts": 1785683786
+  },
+  "201.51.0.38": {
+    "country": "RU",
+    "ts": 1785683786
+  },
+  "3x-ui-production-0061.up.railway.app": {
+    "country": "US",
+    "ts": 1785683786
+  },
+  "kumpan-cdn.ru": {
+    "country": "RU",
+    "ts": 1785683786
+  },
+  "gotveran.sav-savteam.ir": {
+    "country": "DE",
+    "ts": 1785683786
+  },
+  "vpna.poorifast.ir": {
+    "country": "TR",
+    "ts": 1785683786
+  },
+  "friendlynode.site": {
+    "country": "RU",
+    "ts": 1785683786
   }
 }
