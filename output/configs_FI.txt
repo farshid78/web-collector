@@ -4,7 +4,6 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpUbVhTcGNSQmJodkhEZzY2Ym8ydzg5YlRveFFzYk1vYQ@
 vless://ddd9a320-9e93-437f-a5b6-6bf9647334a9@fin.sillyvpn.cc:31013?#%40filembad
 vless://ddd9a320-9e93-437f-a5b6-6bf9647334a9@fin.sillyvpn.cc:31013#🇫🇮FI-🚀@VPNine1
 vless://8309566b-1905-43c6-a4f0-22fc97109111@62.238.55.46:9145?security=reality&encryption=none&pbk=Fw1tpKBQ_bT_eSTbaCSYBthpXAQ76kujwfywvjgpUA0&headerType=none&fp=chrome&type=tcp&sni=www.yahoo.com&sid=5e06032a9c448538#%40filembad
-vless://8309566b-1905-43c6-a4f0-22fc97109111@62.238.55.46:9145?security=reality&encryption=none&pbk=Fw1tpKBQ_bT_eSTbaCSYBthpXAQ76kujwfywvjgpUA0&headerType=none&fp=chrome&type=tcp&sni=www.yahoo.com&sid=5e06032a9c448538#🇫🇮FI-🚀@VPNine1
 vless://57d52736-888b-4139-a3d5-9b6d7c91c030@62.238.39.20:8999?security=reality&encryption=none&pbk=dx7cY0aeosAvz0hzRR9DrAtAiKAuMH44KRBSufYYMmk&headerType=none&fp=ios&type=tcp&flow=xtls-rprx-vision&sni=play.google.com&sid=992a171518f6f60e#%40filembad
 vless://f66e556c-a006-5d1a-2d52-a8de1df7d18c@204.168.172.119:8443?sid=f49da53c&type=xhttp&sni=play.google.com&mode=auto&pbk=xXaCtONWKzYdCWya3nzOe3_UYfHplbmdThukm0__smI&host=play.google.com&security=reality&spx=%2F&encryption=none&fp=firefox#%40filembad
 vless://413ce54e-f38c-8d82-6bca-abd345865b1b@204.168.172.119:8443?security=reality&sid=f49da53c&sni=icloud.com&host=play.google.com&mode=auto&type=xhttp&fp=firefox&pbk=xXaCtONWKzYdCWya3nzOe3_UYfHplbmdThukm0__smI&spx=/&encryption=none#🇩🇪DE-🚀@VPNine1
@@ -18,11 +17,11 @@ vless://83e13b2f-250f-43e4-8257-486c341ffb81@fl.lorzema.ir:2583?mode=gun&securit
 vless://83e13b2f-250f-43e4-8257-486c341ffb81@fl.lorzema.ir:2050?security=reality&encryption=none&pbk=d00ZgCDuY5ncLM1aF9nocq5oBthFMFetgobyJ2qUTg4&headerType=none&fp=firefox&type=tcp&sni=yahoo.com&sid=339d7c53d8832086#🇫🇮FI-🚀@VPNine1
 vless://024e8431-13d1-426b-98b8-2f31cbd6c8fc@fl.lorzema.ir:2050?security=reality&encryption=none&pbk=d00ZgCDuY5ncLM1aF9nocq5oBthFMFetgobyJ2qUTg4&headerType=none&fp=firefox&type=tcp&sni=yahoo.com&sid=339d7c53d8832086#🇫🇮FI-🚀@VPNine1
 vless://cf546c96-ed5e-46cc-b080-1cacf1770a5c@62.238.63.51:1234?encryption=none&type=tcp&headerType=http&path=/&host=play.google.com#🇫🇮FI-🚀@VPNine1
+vless://8b0c48db-c228-47d9-b634-6ea6edf81e22@62.238.63.51:1234?security=none&encryption=none&host=play.google.com&headerType=http&type=tcp#%40FarazV2ray
 vless://41ceab8f-fa26-4561-bd00-0ab94cf45a4e@pi.paydar.site:80?encryption=none&type=tcp&headerType=http&host=play.google.com&security=none#🇫🇮FI-🚀@VPNine1
 vless://9d0020c8-7cd0-42be-a7bf-40371d7048da@62.238.56.217:20417?headerType=http&host=play.google.com&path=/&security=none&type=tcp#🇫🇮FI-🚀@VPNine1
 vless://69b2721a-bf60-477c-a594-08cd1315acd0@62.238.55.96:1234?security=none&encryption=none&host=play.google.com&headerType=http&type=tcp#🇫🇮FI-🚀@VPNine1
 vless://60111042-2b80-4e11-9d02-82696ae4cabd@62.238.55.96:1234?security=&encryption=none&host=play.google.com&headerType=http&type=tcp#🇫🇮FI-🚀@VPNine1
-vless://5de3f60c-7cc2-4f66-9177-706a2693dc19@62.238.55.96:1234?security=&encryption=none&host=play.google.com&headerType=http&type=tcp#🇫🇮FI-🚀@VPNine1
 vless://06d44c57-8e1a-41f4-b9c4-65d35869e078@fl11.skorostnet.space:443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=aBNWkd8CVkuimbtzgsDNsIUIENI-PQuKkpUInLncz2o&security=reality&sid=fdda9806fe5d8584&sni=fl11.skorostnet.space&type=tcp#🇫🇮FI-🚀@VPNine1
 vmess://eyJhZGQiOiAiNy5ibWkuaXIudmFyemVzaDMuY29tLmRlIiwgImFpZCI6ICIwIiwgImFscG4iOiAiaHR0cC8xLjEiLCAiZnAiOiAiZmlyZWZveCIsICJob3N0IjogImZhc3QuY29tIiwgImlkIjogImY1Mzg1N2RlLTY0ZDctNGMzZC1hMjE2LTBmYjI2MTRjMGQxYiIsICJpbnNlY3VyZSI6ICIwIiwgIm5ldCI6ICJ0Y3AiLCAicGF0aCI6ICIvZjliR2JHN1pOeTVMMHRkUXBVYkxYSEhJQWxHdiIsICJwb3J0IjogIjgwIiwgInBzIjogIlx1ZDgzY1x1ZGRlYlx1ZDgzY1x1ZGRlZUZJLVx1ZDgzZFx1ZGU4MEBWUE5pbmUxIiwgInNjeSI6ICJhdXRvIiwgInNuaSI6ICJmYXN0LmNvbSIsICJ0bHMiOiAiIiwgInR5cGUiOiAiaHR0cCIsICJ2IjogIjIifQ==
 vless://9f323699-9f2b-4697-add2-46a6fd1217a9@7.bmi.ir.varzesh3.com.de:443?security=reality&alpn=http/1.1&encryption=none&pbk=JtA0d5K6Jnmg35oWP9SDOsc1ceuqaxOsNg33fiPHJQs&host=play.google.com&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=play.google.com&sid=e915#🇫🇮FI-🚀@VPNine1
