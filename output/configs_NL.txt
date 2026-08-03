@@ -1,3 +1,4 @@
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.42:8080#%40filembad
 vless://a7fb5f01-c13c-47d2-afd4-9ce46f12f533@107.189.20.41:9990?security=reality&encryption=none&pbk=rOaA_Qh474Lv7B-_1uxOBScCcRjUVlz2aZXmhbFwlFY&headerType=none&fp=chrome&spx=%2FjIunFMrzVGN3CYG&type=tcp&flow=xtls-rprx-vision&sni=play.google.com&sid=c01e8de7c49080#%40filembad
 vless://a7fb5f01-c13c-47d2-afd4-9ce46f12f533@107.189.20.41:9990?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=rOaA_Qh474Lv7B-_1uxOBScCcRjUVlz2aZXmhbFwlFY&security=reality&sid=c01e8de7c49080&sni=play.google.com&spx=%2FjIunFMrzVGN3CYG&type=tcp#%40filembad
 vless://98a0a5cd-994d-49ca-8a64-e526afa8db28@107.189.20.41:9990?security=reality&encryption=none&pbk=rOaA_Qh474Lv7B-_1uxOBScCcRjUVlz2aZXmhbFwlFY&headerType=none&fp=chrome&spx=%2FY7vPvjIeUOpXQSq&type=tcp&flow=xtls-rprx-vision&sni=play.google.com&sid=a114#%40filembad
@@ -9,13 +10,19 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.175:8
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpZVEV5WkRJME9HUXdNMlptWmpjNFpUZzFaVEJpWVRObFpUWmtaakl4T0RNPQ@144.21.36.9:45819#%40filembad
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpZVEV5WkRJME9HUXdNMlptWmpjNFpUZzFaVEJpWVRObFpUWmtaakl4T0RNPQ@144.21.36.9:45819#🇳🇱NL-🚀@VPNine1
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0YTJyZml4b3BoZGpmZmE4S1ZBNEFh@193.29.139.234:8080#%40filembad
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0YTJyZml4b3BoZGpmZmE4S1ZBNEFh@193.29.139.234:8080#@mtproto_proserver
 vless://34eaf2f3-894f-472e-a36c-0e08a30f0829@185.199.198.182:443?security=reality&encryption=none&pbk=GwjzHvbNB5Wn6Jj7E3WSc5pc32bjeJCvv9yf0ibDnRs&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=deepl.com&sid=15affa0af66dfc79#%40filembad
 vless://34eaf2f3-894f-472e-a36c-0e08a30f0829@185.199.198.182:443?security=reality&encryption=none&pbk=GwjzHvbNB5Wn6Jj7E3WSc5pc32bjeJCvv9yf0ibDnRs&headerType=none&fp=qq&type=tcp&flow=xtls-rprx-vision&sni=deepl.com&sid=15affa0af66dfc79#%40filembad
 vless://a5ea9247-79f3-4655-aece-3fb51e1e669e@78.40.195.56:443?security=reality&encryption=none&pbk=APXp2igsjxFmGkpb3L98I__FTySIY6saN6skP2y0ank&headerType=&type=tcp&flow=xtls-rprx-vision&sni=19.07-7.yunus.guru&sid=c6d439fd92614ab0#%40filembad
 vless://a5ea9247-79f3-4655-aece-3fb51e1e669e@78.40.195.56:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=APXp2igsjxFmGkpb3L98I__FTySIY6saN6skP2y0ank&security=reality&sid=c6d439fd92614ab0&sni=19.07-7.yunus.guru&type=tcp#%40filembad
 vless://be4494a3-9544-4eb6-b166-5a733706d505@89.105.210.102:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=ivgTfLR13A6xBsicIA28OPoav2tXlsstTTmGuETfnSk&security=reality&sid=6d6f13013d3e1d0c&sni=ru-1.videoproeditor.com&type=tcp#%40filembad
 vless://9c427309-bf9c-48ac-aaa6-bec5941bea99@taha2020.farshadsdrnz.ir:34767?encryption=none&security=none&type=tcp#%40filembad
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.218:8080#🇬🇧GB-🚀@VPNine1
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.218:8080#@DeltaKroneckerGithub
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.176:8080#🇬🇧GB-🚀@VPNine1
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@193.29.139.184:8080#🇳🇱NL-🚀@VPNine1
+vless://1ee1cd47-2683-4e65-b238-4e53362efd91@art-nl.igatel.com:8527?encryption=none&security=reality&type=tcp&headerType=none&sni=www.yahoo.com&fp=firefox&alpn=h2,http/1.1&pbk=-zNDEqKkScKvMWB7spEper78GE_u-nR4jDHZ3DpOoxM&sid=62ad184af31fc8cf#🇮🇷IR-🚀@VPNine1
+vless://f3d2dbde-f8c1-4fd1-a4ff-32c2fd476d65@nod1.kaafserver.ir:8443?encryption=none&security=reality&type=tcp&headerType=none&flow=xtls-rprx-vision&sni=play.google.com&fp=safari&pbk=QCLXkk19RkRbBuMqyCggYr_57_eT9f3Xe-vnr_IrQhY&sid=79b983feac02921c#🇳🇱NL-🚀@VPNine1
+vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@134.98.152.122:62145?type=tcp&headerType=none&path=/#🇳🇱NL-🚀@VPNine1
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.35:8080#🇬🇧GB-🚀@VPNine1
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.35:8080#@DeltaKroneckerGithub
 vless://c1a5112b-26ea-46f4-90a2-78127cbda2a6@nl.koomeh.net:80?encryption=none&type=xhttp&path=/?ed=2048&host=nl.koomeh.net&mode=stream-one&security=none#🇹🇷TR-🚀@VPNine1
@@ -25,6 +32,7 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.192:8
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.186:8080#🇬🇧GB-🚀@VPNine1
 vless://c46e2605-be24-4555-b7db-0fc6773ad004@45.137.43.70:30160?security=reality&pbk=vqr3sFlSCpzBjw61NnufMWLDfevzkuT24qo1SaEhp1k&fp=firefox&sni=yandex.tr&type=xhttp#🇸🇨SC-🚀@VPNine1
 vless://c46e2605-be24-4555-b7db-0fc6773ad004@45.137.43.147:30160?encryption=none&type=xhttp&mode=auto&path=/&security=reality&fp=firefox&pbk=vqr3sFlSCpzBjw61NnufMWLDfevzkuT24qo1SaEhp1k&sni=yandex.tr#🇸🇨SC-🚀@VPNine1
+vless://c46e2605-be24-4555-b7db-0fc6773ad004@45.137.43.147:30160?mode=auto&security=reality&encryption=none&pbk=vqr3sFlSCpzBjw61NnufMWLDfevzkuT24qo1SaEhp1k&type=xhttp&sni=yandex.tr#%D8%A7%DA%AF%D9%87%20%D9%85%DB%8C%D8%AE%D9%88%D8%A7%DB%8C%20%D9%82%D8%B7%D8%B9%20%D9%86%D8%B4%DB%8C%20%D8%AC%D9%88%DB%8C%D9%86%20%D8%B4%D9%88%20%3A%20%40farsiproxy
 vless://ab7d5ea9-6eca-47c3-b14b-67378fc2d7c2@138.249.117.33:443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=z0sVn6TJzORVJQX_vhS-ucGnJCKhDMD6eqnOdQrjrUQ&security=reality&sid=f3a9d2b1c7e4f608&sni=ne.tunnelx.space&type=tcp#🇳🇱NL-🚀@VPNine1
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXVkxodFNRRDNiVmpLUkFNMG9mb2ZC@creativeboxnl.zanity.net:5228#🇳🇱NL-🚀@VPNine1
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.3:8080#🇬🇧GB-🚀@VPNine1
@@ -84,7 +92,6 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@193.29.139.144
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@193.29.139.144:8080?prefix =
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@193.29.139.144:8080#@DeltaKroneckerGithub
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.213:8080#@DeltaKroneckerGithub
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.218:8080#@DeltaKroneckerGithub
 trojan://WG39087154@legible-possum.rooster465.autos:443?sni=legible-possum.rooster465.autos&type=tcp&fp=chrome#@DeltaKroneckerGithub
 trojan://KV63147582@legible-possum.rooster465.autos:443?sni=legible-possum.rooster465.autos&fp=chrome&type=tcp&path=%2f#@DeltaKroneckerGithub
 vless://c61a813a-3429-4a20-8b7f-f7a3cd795b24@31.172.78.208:8443?security=tls&type=ws&ech=godotengine.org%2Budp%3A%2F%2F208.67.220.220%3A443&host=ft76mv43.b1gqbrn7f2j6degb6bgs.workers.dev&fp=chrome&sni=ft76mv43.b1gqbrn7f2j6degb6bgs.workers.dev&path=%2Flessons%2Ffavourites%2Fep%3Fed%3D2560&encryption=none#@DeltaKroneckerGithub
