@@ -5,8 +5,7 @@ vless://a7fb5f01-c13c-47d2-afd4-9ce46f12f533@107.189.20.41:9990?encryption=none&
 vless://a7fb5f01-c13c-47d2-afd4-9ce46f12f533@107.189.20.41:9990?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=rOaA_Qh474Lv7B-_1uxOBScCcRjUVlz2aZXmhbFwlFY&security=reality&sid=c01e8de7c49080&sni=play.google.com&spx=/jIunFMrzVGN3CYG&type=tcp#🇳🇱NL-🚀@VPNine1
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.175:8080#%40filembad
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.175:8080#🇬🇧GB-🚀@VPNine1
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpZVEV5WkRJME9HUXdNMlptWmpjNFpUZzFaVEJpWVRObFpUWmtaakl4T0RNPQ@144.21.36.9:45819#%40filembad
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpZVEV5WkRJME9HUXdNMlptWmpjNFpUZzFaVEJpWVRObFpUWmtaakl4T0RNPQ@144.21.36.9:45819#🇳🇱NL-🚀@VPNine1
+vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@84.235.166.124:62145#🇳🇱NL-🚀@VPNine1
 vless://b783c6d6-3a0f-4c13-bbd1-86bf1ec4d94d@104.238.31.71:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=unitbook.net&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid=6ba85179e30d4fc2&type=tcp&headerType=none@VPNine1#🇳🇱NL-🚀@VPNine1
 vless://aa64b809-f6b6-4942-ae47-624989ddd6b6@107.189.19.254:2083?encryption=none&extra=%7B%22scMaxEachPostBytes%22:%221000000%22,%22xPaddingBytes%22:%22100-1000%22%7D&fp=chrome&host=&mode=auto&path=/&pbk=g2GBIGI6smS4p_nqwJYqFQFHx_n-QXWSnCfn0AJ7r38&security=reality&sid=9971cac9&sni=www.amd.com&spx=/pPvmBFrAqnsctGE&type=xhttp&x_padding_bytes=100-1000#🇳🇱NL-🚀@VPNine1
 vless://d06911e3-e8a8-4f70-83e8-8f0311cdc3cf@193.227.99.54:2082?path=/oopksl?&security=none&encryption=none&host=Bangerop.lorqino.ir&type=httpupgrade#🇲🇹MT-🚀@VPNine1
@@ -22,9 +21,6 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.218:8
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.176:8080#🇬🇧GB-🚀@VPNine1
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@193.29.139.184:8080#🇳🇱NL-🚀@VPNine1
 vless://1ee1cd47-2683-4e65-b238-4e53362efd91@art-nl.igatel.com:8527?encryption=none&security=reality&type=tcp&headerType=none&sni=www.yahoo.com&fp=firefox&alpn=h2,http/1.1&pbk=-zNDEqKkScKvMWB7spEper78GE_u-nR4jDHZ3DpOoxM&sid=62ad184af31fc8cf#🇮🇷IR-🚀@VPNine1
-vless://1ee1cd47-2683-4e65-b238-4e53362efd91@art-nl.igatel.com:8527?encryption=none&security=reality&type=tcp&headerType=none&sni=www.yahoo.com&alpn=h2%2Chttp%2F1.1&pbk=-zNDEqKkScKvMWB7spEper78GE_u-nR4jDHZ3DpOoxM&sid=62ad184af31fc8cf&fp=firefox#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
-vless://1ee1cd47-2683-4e65-b238-4e53362efd91@art-nl.igatel.com:8527?encryption=none&security=reality&type=tcp&headerType=none&sni=www.yahoo.com&alpn=h2%2Chttp%2F1.1&pbk=-zNDEqKkScKvMWB7spEper78GE_u-nR4jDHZ3DpOoxM&sid=62ad184af31fc8cf&fp=qq#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
-vless://1ee1cd47-2683-4e65-b238-4e53362efd91@art-nl.igatel.com:8527?encryption=none&security=reality&type=tcp&headerType=none&sni=www.yahoo.com&alpn=h2%2Chttp%2F1.1&pbk=-zNDEqKkScKvMWB7spEper78GE_u-nR4jDHZ3DpOoxM&sid=62ad184af31fc8cf&fp=android#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
 vless://f3d2dbde-f8c1-4fd1-a4ff-32c2fd476d65@nod1.kaafserver.ir:8443?encryption=none&security=reality&type=tcp&headerType=none&flow=xtls-rprx-vision&sni=play.google.com&fp=safari&pbk=QCLXkk19RkRbBuMqyCggYr_57_eT9f3Xe-vnr_IrQhY&sid=79b983feac02921c#🇳🇱NL-🚀@VPNine1
 vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@134.98.152.122:62145?type=tcp&headerType=none&path=/#🇳🇱NL-🚀@VPNine1
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.35:8080#🇬🇧GB-🚀@VPNine1
@@ -34,7 +30,7 @@ vless://a5ea9247-79f3-4655-aece-3fb51e1e669e@19.07-7.yunus.guru:443?encryption=n
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@193.29.139.152:8080#🇳🇱NL-🚀@VPNine1
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.192:8080#🇬🇧GB-🚀@VPNine1
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.186:8080#🇬🇧GB-🚀@VPNine1
-vless://c46e2605-be24-4555-b7db-0fc6773ad004@45.137.43.70:30160?security=reality&pbk=vqr3sFlSCpzBjw61NnufMWLDfevzkuT24qo1SaEhp1k&fp=firefox&sni=yandex.tr&type=xhttp#🇸🇨SC-🚀@VPNine1
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpZVEV5WkRJME9HUXdNMlptWmpjNFpUZzFaVEJpWVRObFpUWmtaakl4T0RNPQ@144.21.36.9:45819#🇳🇱NL-🚀@VPNine1
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.180:8080#@vasl_bashim
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.180:8080#@DeltaKroneckerGithub
 vless://05caca6c-9e97-4c0f-8edf-7b88a6e572c5@mypanel.unixzone.us:12068?encryption=none&type=ws&path=%2F#@vasl_bashim
@@ -45,11 +41,11 @@ vless://4bf5a71c-d726-4585-b095-7396675706d5@cdn.netraidly.ru:40443/?type=tcp&en
 vless://906be882-7f16-47c3-8702-59db2ada9688@2.26.82.237:443?mode=gun&security=reality&encryption=none&authority=BIA_TELEGRAM%40MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI&pbk=VmBEjLUpiEnoNIaPNGDfVPIOzH_ktSDdsGGAvissxgI&type=grpc&serviceName=grpc&sni=speed.cloudflare.com#@vasl_bashim
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.32:443#@vasl_bashim
 vless://e3c56988-5261-400f-b21b-6af5fa6efae1@130.49.185.196:443?encryption=none&type=tcp&security=reality&headerType=none&sni=site.rumedia-cdn.com&insecure=1&allowInsecure=1&pbk=4ndg8TcyXMWmnEvthjh9mIWJ9mc85jzy_G9D4D5xGxM&sid=808a7e8a2e32c697&flow=xtls-rprx-vision#T.me/CONFiGiR98
-vless://c7e9c591-2764-423a-afca-efbd010fd396@103.54.16.230:2053?security=tls&sni=forfreeuse.sub-flow.online&type=ws&headerType=none&host=forfreeuse.sub-flow.online&path=%2F&fp=chrome#%F0%9F%87%AB%F0%9F%87%AE%20Finland%2C%20Helsinki%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
-vless://c7e9c591-2764-423a-afca-efbd010fd396@103.54.16.230:2053?security=tls&sni=forfreeuse.sub-flow.online&type=ws&headerType=none&host=forfreeuse.sub-flow.online&path=%2F&fp=qq#%F0%9F%87%AB%F0%9F%87%AE%20Finland%2C%20Helsinki%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
-vless://c7e9c591-2764-423a-afca-efbd010fd396@103.54.16.230:2053?security=tls&sni=forfreeuse.sub-flow.online&type=ws&headerType=none&host=forfreeuse.sub-flow.online&path=%2F&fp=edge#%F0%9F%87%AB%F0%9F%87%AE%20Finland%2C%20Helsinki%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
-vless://c7e9c591-2764-423a-afca-efbd010fd396@62.84.98.74:2053?host=forfreeuse.sub-flow.online&path=%2F&security=tls&sni=forfreeuse.sub-flow.online&type=ws&fp=chrome#%F0%9F%87%AB%F0%9F%87%AE%20Finland%2C%20Helsinki%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
+vless://c7e9c591-2764-423a-afca-efbd010fd396@62.84.98.74:2053?encryption=none&security=tls&sni=forfreeuse.sub-flow.online&insecure=0&allowInsecure=0&type=ws&host=forfreeuse.sub-flow.online&path=%2F&fp=firefox#%F0%9F%87%AB%F0%9F%87%AE%20Finland%2C%20Helsinki%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
+vless://c7e9c591-2764-423a-afca-efbd010fd396@62.84.98.74:2053?fp=chrome&host=forfreeuse.sub-flow.online&path=%2F&security=tls&sni=forfreeuse.sub-flow.online&type=ws#%F0%9F%87%AB%F0%9F%87%AE%20Finland%2C%20Helsinki%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
 vless://c7e9c591-2764-423a-afca-efbd010fd396@62.84.98.74:2053?host=forfreeuse.sub-flow.online&path=%2F&security=tls&sni=forfreeuse.sub-flow.online&type=ws&fp=qq#%F0%9F%87%AB%F0%9F%87%AE%20Finland%2C%20Helsinki%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
+vless://631ee34f-4faf-4ad7-b49d-e6f50403cf0e@89.105.197.203:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=mza5Hn1aolSz65qu-UwvBP3oesxMe25r11o4nxvikF0&sid=64c1fe36c7846400&sni=anyfile2file.com#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%2C%20Enschede%20%7C%20%5BBL%5D
+vless://7e8f7489-e65f-4be6-93ed-867a74ec6759@95.85.228.161:8443?mode=gun&security=&encryption=none&type=grpc&serviceName=grpc#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%2C%20Eygelshoven%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
 vless://2c634977-584e-4e1f-b501-1b70c77a6743@78.159.245.32:28474?encryption=none&flow=xtls-rprx-vision&security=tls&sni=secure.furrycdn.net&type=tcp#%F0%9F%87%AA%F0%9F%87%AA%20%D0%AD%D1%81%D1%82%D0%BE%D0%BD%D0%B8%D1%8F
 vless://2c634977-584e-4e1f-b501-1b70c77a6743@78.159.245.32:28474?encryption=none&flow=xtls-rprx-vision&security=tls&sni=secure.furrycdn.net&type=tcp#%F0%9F%87%B3%F0%9F%87%B1%20%D0%9D%D0%B8%D0%B4%D0%B5%D1%80%D0%BB%D0%B0%D0%BD%D0%B4%D1%8B
 vless://2c634977-584e-4e1f-b501-1b70c77a6743@78.159.245.32:28474?encryption=none&flow=xtls-rprx-vision&security=tls&sni=secure.furrycdn.net&type=tcp#%F0%9F%87%B7%F0%9F%87%BA%20%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F%20%D0%91%D0%A1%201
