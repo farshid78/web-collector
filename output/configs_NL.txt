@@ -1,3 +1,8 @@
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5dHFoTWRJclRrZ1E0NlB2aHlBdE1I@92.112.126.90:443#%40filembad
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpSRkszOENnN0FQbmVTQjVjV0RjcGJt@92.112.126.90:443#%40filembad
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpSRkszOENnN0FQbmVTQjVjV0RjcGJt@92.112.126.90:443#🇳🇱NL-🚀@VPNine1
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5dHFoTWRJclRrZ1E0NlB2aHlBdE1I@92.112.126.90:443#🇳🇱NL-🚀@VPNine1
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5dHFoTWRJclRrZ1E0NlB2aHlBdE1I@92.112.126.90:443#@DeltaKroneckerGithub
 vless://e528aae9-7a7c-4b5f-ae12-1691d1f17fe3@185.31.200.243:47301?encryption=none&security=none&type=tcp#%40filembad
 vless://02a3132c-6a0d-4c02-b715-95e704e0e96a@185.31.200.243:47301?encryption=none&security=none&type=tcp#%40filembad
 vless://e528aae9-7a7c-4b5f-ae12-1691d1f17fe3@185.31.200.243:47301?encryption=none&security=none&type=tcp#🇳🇱NL-🚀@VPNine1
@@ -7,11 +12,6 @@ vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@134.98.150.57:62145?#%40filembad
 vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@158.101.194.120:62145?#%40filembad
 vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@158.101.194.120:62145#🇳🇱NL-🚀@VPNine1
 vless://70df38ff-5a22-4ffc-a3f9-1725515e0ea5@205.237.109.215:448?security=reality&encryption=none&pbk=IuB1jsALd-wN_8jRTGxVLBbVG5eSxNbOXjvFyZlm3UU&headerType=none&type=tcp&sni=www.samsung.com&sid=113241ad01e99a2d#%40filembad
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpSRkszOENnN0FQbmVTQjVjV0RjcGJt@92.112.126.90:443#%40filembad
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5dHFoTWRJclRrZ1E0NlB2aHlBdE1I@92.112.126.90:443#%40filembad
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpSRkszOENnN0FQbmVTQjVjV0RjcGJt@92.112.126.90:443#🇳🇱NL-🚀@VPNine1
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5dHFoTWRJclRrZ1E0NlB2aHlBdE1I@92.112.126.90:443#🇳🇱NL-🚀@VPNine1
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5dHFoTWRJclRrZ1E0NlB2aHlBdE1I@92.112.126.90:443#@DeltaKroneckerGithub
 vless://41a96908-a598-4e98-8c2b-65392104f136@nl1.foot8all.ir:80?security=reality&encryption=none&pbk=NpgXDQ6jl_HGPdHAHFeiBl5Ym7bywxmw_EYovmFjVQs&headerType=none&fp=ios&type=tcp&flow=xtls-rprx-vision&sni=play.google.com&sid=9af7c9c0334675be#%40filembad
 vless://da31680a-2a6b-4031-b7fa-70fd8d696089@nl1.foot8all.ir:80?encryption=none&security=reality&type=tcp&headerType=none&flow=xtls-rprx-vision&sni=play.google.com&fp=ios&pbk=NpgXDQ6jl_HGPdHAHFeiBl5Ym7bywxmw_EYovmFjVQs&sid=29a833ab20778306#🇳🇱NL-🚀@VPNine1
 vless://41a96908-a598-4e98-8c2b-65392104f136@nl1.foot8all.ir:80?security=reality&encryption=none&pbk=NpgXDQ6jl_HGPdHAHFeiBl5Ym7bywxmw_EYovmFjVQs&headerType=none&fp=ios&type=tcp&flow=xtls-rprx-vision&sni=play.google.com&sid=9af7c9c0334675be#🇳🇱NL-🚀@VPNine1
@@ -34,9 +34,6 @@ vless://6d3f20bc-0993-422e-b0cd-be6bcfc645be@178.236.255.234:654?security=&encry
 vmess://eyJhZGQiOiIxNzYuNjUuMTUxLjIxMiIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiIxZTdjYWJjOS0wNmFiLTQ3M2UtYjljMC0yNmI5NzY3ZTgyMjYiLCJpbnNlY3VyZSI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvaXNldGVta2E2ZiIsInBjcyI6IiIsInBvcnQiOiIzMDU3NCIsInBzIjoiQGZpbGVtYmFkIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiItLS0iLCJ2IjoiMiIsInZjbiI6IiJ9
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpGUExRYTN0WE9NeE5LQzRfUTNEeTVaRkRSb3dlVWJpOA@176.65.151.212:36937#🇳🇱NL-🚀@VPNine1
 vmess://eyJhZGQiOiAiMTc2LjY1LjE1MS4yMTIiLCAiYWlkIjogIjAiLCAiaG9zdCI6ICIiLCAiaWQiOiAiMWU3Y2FiYzktMDZhYi00NzNlLWI5YzAtMjZiOTc2N2U4MjI2IiwgIm5ldCI6ICJ3cyIsICJwYXRoIjogIi9pc2V0ZW1rYTZmIiwgInBvcnQiOiAiMzA1NzQiLCAicHMiOiAiXHVkODNjXHVkZGYzXHVkODNjXHVkZGYxTkwtXHVkODNkXHVkZTgwQFZQTmluZTEiLCAic2N5IjogImF1dG8iLCAic25pIjogIiIsICJ0bHMiOiAiIiwgInR5cGUiOiAiLS0tIiwgInYiOiAiMiJ9
-vless://2181d0c8-448a-4f75-b848-1718029baef9@31.77.170.228:2096?Telegram=@soskeynets,@soskeynets,@soskeynets,@soskeynets,@soskeynets,@soskeynets,@soskeynets&mode=multi&security=reality&encryption=none&pbk=-Dg4mGAAM5Lwe9ri7Bx5WlYdPBsyYJy-Pai2Z0FGlyc&fp=firefox&type=grpc&serviceName=grpc2&sni=max.ru&sid=afee962d#%40filembad
-vless://2181d0c8-448a-4f75-b848-1718029baef9@31.77.170.228:2096?mode=multi&security=reality&encryption=none&pbk=-Dg4mGAAM5Lwe9ri7Bx5WlYdPBsyYJy-Pai2Z0FGlyc&fp=firefox&type=grpc&serviceName=grpc2&sni=max.ru&sid=afee962d#%40filembad
-vless://2181d0c8-448a-4f75-b848-1718029baef9@31.77.170.228:2096?mode=multi&security=reality&encryption=none&pbk=-Dg4mGAAM5Lwe9ri7Bx5WlYdPBsyYJy-Pai2Z0FGlyc&fp=firefox&type=grpc&serviceName=grpc2&sni=max.ru&sid=afee962d#🇳🇱NL-🚀@VPNine1
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpRQ1hEeHVEbFRUTUQ3anRnSFVqSW9q@193.29.139.168:8080#🇳🇱NL-🚀@VPNine1
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpRQ1hEeHVEbFRUTUQ3anRnSFVqSW9q@193.29.139.168:8080#@DeltaKroneckerGithub
 vless://48987d2a-b236-4c3b-9bc3-f8560c572779@minet.krusofiya.fun:443?security=reality&encryption=none&pbk=JyGEUBH6kxI1gt_8zjN_g6XvHGJCx85LQhNHjSX0HQY&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=minet.krusofiya.fun&sid=6e65d5722d5f9d16#🇳🇱NL-🚀@VPNine1
@@ -71,12 +68,8 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.214:8
 vless://6202b230-417c-4d8e-b624-0f71afa9c75d@185.170.166.30:8880?type=ws&host=vms.lifetime04.workers.dev&path=/#🇬🇧GB-🚀@VPNine1
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.32:443#🇬🇧GB-🚀@VPNine1
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.32:443#@vasl_bashim
+vless://2181d0c8-448a-4f75-b848-1718029baef9@31.77.170.228:2096?mode=multi&security=reality&encryption=none&pbk=-Dg4mGAAM5Lwe9ri7Bx5WlYdPBsyYJy-Pai2Z0FGlyc&fp=firefox&type=grpc&serviceName=grpc2&sni=max.ru&sid=afee962d#🇳🇱NL-🚀@VPNine1
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@193.29.139.230:8080#🇳🇱NL-🚀@VPNine1
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@193.29.139.198:8080#🇳🇱NL-🚀@VPNine1
-vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@84.235.165.206:62145?encryption=none&security=none&type=tcp#🇳🇱NL-🚀@VPNine1
-vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@84.235.165.206:62145?type=tcp&encryption=none&host=&path=&headerType=none&quicSecurity=none&serviceName=&security=&flow=&fp=chrome&insecure=1#@DeltaKroneckerGithub
-vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@141.144.196.166:62145#🇳🇱NL-🚀@VPNine1
-vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@141.148.235.203:62145?encryption=none&security=none&type=tcp#🇳🇱NL-🚀@VPNine1
 vless://631ee34f-4faf-4ad7-b49d-e6f50403cf0e@89.105.197.203:443?security=reality&encryption=none&pbk=mza5Hn1aolSz65qu-UwvBP3oesxMe25r11o4nxvikF0&headerType=none&type=tcp&flow=xtls-rprx-vision&sni=anyfile2file.com&sid=64c1fe36c7846400#@vasl_bashim
 vless://631ee34f-4faf-4ad7-b49d-e6f50403cf0e@89.105.197.203:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=mza5Hn1aolSz65qu-UwvBP3oesxMe25r11o4nxvikF0&sid=64c1fe36c7846400&sni=anyfile2file.com#@DeltaKroneckerGithub
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.180:8080#@vasl_bashim
@@ -98,6 +91,7 @@ vless://2a6b708e-6799-473e-85e9-d4b116c5eedc@titandarkness.mooo.com:443?encrypti
 trojan://32b2m2w7hsdd93z7@titandarkness.mooo.com:443?authority=titandarkness.mooo.com&security=tls&serviceName=%2F43588%2FG43plZahWW&type=grpc&fp=ios#%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A7%F0%9F%87%B7%20%F0%9F%87%A8%F0%9F%87%BF%20%7C%20%5BBL%5D
 trojan://581e14a5fcc14107b9326cc54f047891@titandarkness.mooo.com:443?authority=titandarkness.mooo.com&security=tls&serviceName=%2F43588%2FG43plZahWW&type=grpc&fp=safari#%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A7%F0%9F%87%B7%20%F0%9F%87%A8%F0%9F%87%BF%20%7C%20%5BBL%5D
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.46:8080#%F0%9F%87%B3%F0%9F%87%B1%20%F0%9F%8D%8B%E2%80%8D%F0%9F%9F%A9@LimeVPNFREE%F0%9F%8D%8B%E2%80%8D%F0%9F%9F%A9
+vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@84.235.165.206:62145?type=tcp&encryption=none&host=&path=&headerType=none&quicSecurity=none&serviceName=&security=&flow=&fp=chrome&insecure=1#@DeltaKroneckerGithub
 trojan://PD07395842@193.169.239.14:443?sni=emerging-weevil.rooster465.autos&fp=chrome&type=tcp&path=/#@DeltaKroneckerGithub
 vless://fc1ee51e-72ec-4af0-ab0f-540c9e22427b@31.76.79.118:2444?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=JsSTmS0VKNaHF-_QKYS-_utnS-LJuPOBrWcMbVE2RDA&sid=0809f782a29a2030&sni=www.cloudflare.com#@DeltaKroneckerGithub
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.216:8080#@DeltaKroneckerGithub
