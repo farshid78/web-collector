@@ -1,164 +1,4 @@
 {
-  "83.228.251.190": {
-    "country": "CH",
-    "ts": 1784917150
-  },
-  "204.168.172.119": {
-    "country": "FI",
-    "ts": 1784917150
-  },
-  "45.9.16.239": {
-    "country": "RU",
-    "ts": 1784917150
-  },
-  "45.9.16.240": {
-    "country": "RU",
-    "ts": 1784917150
-  },
-  "64.49.15.199": {
-    "country": "TR",
-    "ts": 1784917150
-  },
-  "83.228.251.168": {
-    "country": "CH",
-    "ts": 1784917150
-  },
-  "194.55.239.100": {
-    "country": "RU",
-    "ts": 1784917150
-  },
-  "194.55.239.101": {
-    "country": "RU",
-    "ts": 1784917150
-  },
-  "x4g-production-b64c.up.railway.app": {
-    "country": "US",
-    "ts": 1784917150
-  },
-  "146.185.197.32": {
-    "country": "RU",
-    "ts": 1784917150
-  },
-  "178.253.42.156": {
-    "country": "RU",
-    "ts": 1784917150
-  },
-  "194.55.239.99": {
-    "country": "RU",
-    "ts": 1784917150
-  },
-  "194.55.235.202": {
-    "country": "RU",
-    "ts": 1784917150
-  },
-  "46.8.210.59": {
-    "country": "RU",
-    "ts": 1784917150
-  },
-  "62.76.89.189": {
-    "country": "RU",
-    "ts": 1784917150
-  },
-  "92.119.230.139": {
-    "country": "RU",
-    "ts": 1784917150
-  },
-  "ar.plus.mashtinet.shop": {
-    "country": "US",
-    "ts": 1784917150
-  },
-  "pop.paydar.site": {
-    "country": "DE",
-    "ts": 1784917150
-  },
-  "45.10.110.3": {
-    "country": "RU",
-    "ts": 1784917150
-  },
-  "146.185.197.54": {
-    "country": "RU",
-    "ts": 1784917150
-  },
-  "45.139.27.188": {
-    "country": "RU",
-    "ts": 1784917150
-  },
-  "195.80.238.135": {
-    "country": "RU",
-    "ts": 1784917150
-  },
-  "212.113.123.31": {
-    "country": "RU",
-    "ts": 1784917150
-  },
-  "185.147.27.119": {
-    "country": "RU",
-    "ts": 1784917150
-  },
-  "fr-language.f7r.ir": {
-    "country": "CH",
-    "ts": 1784917150
-  },
-  "92.38.139.69": {
-    "country": "RU",
-    "ts": 1784917150
-  },
-  "stirring-dane.rooster465.autos": {
-    "country": "AU",
-    "ts": 1784917150
-  },
-  "hikvision-plus.com": {
-    "country": "CA",
-    "ts": 1784917150
-  },
-  "WHITE-MT.jorzel.ir": {
-    "country": "DE",
-    "ts": 1784917150
-  },
-  "uk.tarqivo.ir": {
-    "country": "GB",
-    "ts": 1784917150
-  },
-  "concise-buck.rooster465.autos": {
-    "country": "AU",
-    "ts": 1784917150
-  },
-  "nl.qarvian.ir": {
-    "country": "LV",
-    "ts": 1784917150
-  },
-  "www.f7r.ir": {
-    "country": "CH",
-    "ts": 1784917150
-  },
-  "cdn.f7r.ir": {
-    "country": "CH",
-    "ts": 1784917150
-  },
-  "gbb.rarmexa.ir": {
-    "country": "DE",
-    "ts": 1784917150
-  },
-  "dev.f7r.ir": {
-    "country": "CH",
-    "ts": 1784917150
-  },
-  "gbbb.tarqivo.ir": {
-    "country": "DE",
-    "ts": 1784917150
-  },
-  "web.f7r.ir": {
-    "country": "TR",
-    "ts": 1784917150
-  },
-  "fr.qarqexo.ir": {
-    "country": "FR",
-    "ts": 1784917150
-  },
-  "e1.cover20.ir": {
-    "country": "IR",
-    "ts": 1784917150
-  },
   "150.241.103.47": {
     "country": "FI",
     "ts": 1784922733
@@ -42746,5 +42586,133 @@
   "sa-84018978331c4eaf.sr-37f423695609b2ef.r.vpvpn.club": {
     "country": "US",
     "ts": 1786126041
+  },
+  "165.140.216.142": {
+    "country": "US",
+    "ts": 1786129946
+  },
+  "3x-ui-production-4ad3.up.railway.app": {
+    "country": "US",
+    "ts": 1786129946
+  },
+  "87.76.154.18": {
+    "country": "TR",
+    "ts": 1786129946
+  },
+  "15.188.231.197": {
+    "country": "FR",
+    "ts": 1786129946
+  },
+  "104.18.20.15": {
+    "country": "CA",
+    "ts": 1786129946
+  },
+  "104.17.60.97": {
+    "country": "CA",
+    "ts": 1786129946
+  },
+  "40.74.100.138": {
+    "country": "JP",
+    "ts": 1786129946
+  },
+  "faranse.duravex.net": {
+    "country": "DE",
+    "ts": 1786129946
+  },
+  "87.76.154.21": {
+    "country": "TR",
+    "ts": 1786129946
+  },
+  "104.17.245.151": {
+    "country": "CA",
+    "ts": 1786129946
+  },
+  "104.168.90.119": {
+    "country": "US",
+    "ts": 1786129946
+  },
+  "5.252.26.220": {
+    "country": "DE",
+    "ts": 1786129946
+  },
+  "185.140.13.212": {
+    "country": "DE",
+    "ts": 1786129946
+  },
+  "160.123.255.208": {
+    "country": "ZA",
+    "ts": 1786129946
+  },
+  "104.16.219.229": {
+    "country": "CA",
+    "ts": 1786129946
+  },
+  "104.17.6.146": {
+    "country": "CA",
+    "ts": 1786129946
+  },
+  "13.62.244.130": {
+    "country": "SE",
+    "ts": 1786129946
+  },
+  "marzban-node-production-136b.up.railway.app": {
+    "country": "US",
+    "ts": 1786129946
+  },
+  "206.238.237.40": {
+    "country": "SG",
+    "ts": 1786129946
+  },
+  "204.168.172.119": {
+    "country": "FI",
+    "ts": 1786129946
+  },
+  "172.67.199.159": {
+    "country": "CA",
+    "ts": 1786129946
+  },
+  "104.17.63.247": {
+    "country": "CA",
+    "ts": 1786129946
+  },
+  "ru6.ethicsdinnerpave.online": {
+    "country": "RU",
+    "ts": 1786129946
+  },
+  "qwesd.rutendingaltos.top": {
+    "country": "RU",
+    "ts": 1786129946
+  },
+  "wqeds.denverpresents.top": {
+    "country": "RU",
+    "ts": 1786129946
+  },
+  "stirring-dane.rooster465.autos": {
+    "country": "AU",
+    "ts": 1786129946
+  },
+  "larkix.pulsio.cfd": {
+    "country": "RU",
+    "ts": 1786129946
+  },
+  "gg1.serviceoda.ru": {
+    "country": "RU",
+    "ts": 1786129946
+  },
+  "node5.get-tres.ru": {
+    "country": "FR",
+    "ts": 1786129946
+  },
+  "viruskade.ir": {
+    "country": "DE",
+    "ts": 1786129947
+  },
+  "cdn-cloudflare162.korvexe.ir": {
+    "country": "UNKNOWN",
+    "ts": 1786129947
+  },
+  "e1.cover20.ir": {
+    "country": "IR",
+    "ts": 1786129947
   }
 }

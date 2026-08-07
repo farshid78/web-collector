@@ -10,7 +10,6 @@ vless://d9b7eec6-0424-494f-aeee-981ec07fcaf3@185.143.233.235:2052?path=%2F&secur
 vless://d9b7eec6-0424-494f-aeee-981ec07fcaf3@185.143.233.235:2052?path=/&security=none&encryption=none&host=trir.sarzaminshadi13.ir&type=ws#🇮🇷IR-🚀@VPNine1
 vless://a8c6e908-fa7e-4d53-abdf-162fc47fe456@185.143.233.235:2053?encryption=none&security=tls&sni=top.mobixaco.ir&fp=random&insecure=0&allowInsecure=0&type=ws&host=top.mobixaco.ir&path=%2F#%40Configs_FreeIran
 ss://YWVzLTI1Ni1nY206T1dJNE1HUXhPRGMyTnpjNU5qYzFNbUkyT1RFMk9UbGhPRGt6WkRsaw@37.32.25.222:11116#%40filembad
-ss://YWVzLTI1Ni1nY206WldVeU0yRTBZV0l3TkRjM1pUbGhaRE13T1dReFpUaGhNekV5WXpFMQ@37.32.25.222:9112?prefix=%16%03%01%00%C2%A8%01%01#%40filembad
 ss://YWVzLTI1Ni1nY206T1dJNE1HUXhPRGMyTnpjNU5qYzFNbUkyT1RFMk9UbGhPRGt6WkRsaw@37.32.25.222:11116#🇮🇷IR-🚀@VPNine1
 ss://YWVzLTI1Ni1nY206Wm1Nek5EUXlOV1E1T1dVeE5ETTJaVGN6T1dNeFlUTTFNamswTm1JMg@37.32.27.224:11104#%40filembad
 ss://YWVzLTI1Ni1nY206T0dOaE5EZGxOekF4WlRWak1qaGtNRGc1Tmprd01UaGtNemRoWlRrNA@37.32.27.224:9130#%40filembad
@@ -29,8 +28,6 @@ ss://YWVzLTI1Ni1nY206TTJVNE9UWmhOemMzWW1abU5qUmxZemMzTkRrd1pUZ3paR1E1TVdSaw@95.3
 vless://07730597-ba4f-4ca8-abe5-a53b28ad318c@vip.sinavm.ir:443?security=reality&encryption=none&pbk=7JDEwF5DtVN9ym8x_tHcdA5-L5hH_JlYNf-ZXUYqu18&headerType=none&fp=chrome&spx=%2Fsinavm_sinavm_SiNAVM_SiNAVM&type=tcp&sni=android.com&sid=3f958af268#%40filembad
 ss://YWVzLTI1Ni1nY206WmpnelpEWmhZVGN3WVRRME1UTTVPV1ptWlRjeE5qZGtPVFUzWkRGag@37.32.25.196:9118?prefix=%16%03%01%00%C2%A8%01%01#%40filembad
 ss://YWVzLTI1Ni1nY206T1RRNU4yWm1aREk1WTJWa1pUTTFabU15WTJReE9EUXhNRFZtWkRabA@37.32.25.196:9110?prefix=%16%03%01%00%C2%A8%01%01#%40filembad
-ss://YWVzLTI1Ni1nY206WkRBNE56aG1NREkzWVRRd1l6RXpNalV4T1RnNVptVTJaakk0TVRjMA@95.38.187.71:11109?prefix=%16%03%01%00%C2%A8%01%01#%40filembad
-vless://de339c9b-3aa1-49cb-bf97-58ab5a3d98d9@77.104.95.53:2052?encryption=none&headerType=none&security=none&type=tcp#%40filembad
 vless://c0785153-19bb-4c68-a7c2-814531ed3192@pa1.rmspeed.shop:38168?security=reality&encryption=none&pbk=26P655mk6VDm8vtWHdlF3cOYyS-T2TaGccg2reXkwyg&headerType=none&fp=chrome&spx=/Fn9GFyZyQs8bnNN&type=tcp&sni=www.aparat.com&sid=c06a035146af20#🇮🇷IR-🚀@VPNine1
 vless://7ac72490-5e77-459f-bf8a-bccb07659e53@s1.zynetraq.ir:2087?alpn=h2,http/1.1,h3&encryption=none&extra=%7B%22mode%22:%22auto%22,%22xPaddingBytes%22:%22100-1000%22%7D&fp=chrome&host=s1.zynetraq.ir&mode=auto&path=/BetForward&pcs=1997b017f0bf863fcbb3591f4aac662874e00c2d81d8aabbbf6ed66d4779c233&security=tls&sni=s1.zynetraq.ir&type=xhttp&x_padding_bytes=100-1000#🇮🇷IR-🚀@VPNine1
 vless://7ac72490-5e77-459f-bf8a-bccb07659e53@s1.zynetraq.ir:2087?alpn=h2%2Chttp%2F1.1%2Ch3&encryption=none&extra=%7B%22mode%22%3A%22auto%22%2C%22xPaddingBytes%22%3A%22100-1000%22%7D&fp=chrome&host=s1.zynetraq.ir&mode=auto&path=%2FBetForward&pcs=1997b017f0bf863fcbb3591f4aac662874e00c2d81d8aabbbf6ed66d4779c233&security=tls&sni=s1.zynetraq.ir&type=xhttp&x_padding_bytes=100-1000#🪄
