@@ -1,6 +1,12 @@
+vless://d9b7eec6-0424-494f-aeee-981ec07fcaf3@185.143.233.235:2052?path=%2F&security=none&encryption=none&host=trir.sarzaminshadi13.ir&type=ws#%40filembad
+vless://a8c6e908-fa7e-4d53-abdf-162fc47fe456@185.143.233.235:2053?encryption=none&security=tls&sni=top.mobixaco.ir&fp=random&insecure=0&allowInsecure=0&type=ws&host=top.mobixaco.ir&path=%2F#%40Configs_FreeIran
+vless://01a95af3-a2f6-453e-9f88-b2fc011627cc@92.114.24.95:43630?security=none&encryption=none&headerType=none&type=tcp#%40filembad
+vless://01a95af3-a2f6-453e-9f88-b2fc011627cc@92.114.24.95:43630?security=&encryption=none&headerType=none&type=tcp#%40filembad
+vless://01a95af3-a2f6-453e-9f88-b2fc011627cc@92.114.24.95:43630?security=none&encryption=none&headerType=none&type=tcp#🇮🇷IR-🚀@VPNine1
 ss://YWVzLTI1Ni1nY206T1dJNE1HUXhPRGMyTnpjNU5qYzFNbUkyT1RFMk9UbGhPRGt6WkRsaw@37.32.25.222:11116#%40filembad
 ss://YWVzLTI1Ni1nY206WldVeU0yRTBZV0l3TkRjM1pUbGhaRE13T1dReFpUaGhNekV5WXpFMQ@37.32.25.222:9112?prefix=%16%03%01%00%C2%A8%01%01#%40filembad
 ss://YWVzLTI1Ni1nY206T0dRMk1qSmxaamMxWm1FeVpUZ3hPV0kxT0RCbE1HRmxOR1JtTTJWbQ@37.32.25.222:11104#%40filembad
+ss://YWVzLTI1Ni1nY206T1dJNE1HUXhPRGMyTnpjNU5qYzFNbUkyT1RFMk9UbGhPRGt6WkRsaw@37.32.25.222:11116#🇮🇷IR-🚀@VPNine1
 ss://YWVzLTI1Ni1nY206Wm1Nek5EUXlOV1E1T1dVeE5ETTJaVGN6T1dNeFlUTTFNamswTm1JMg@37.32.27.224:11104#%40filembad
 ss://YWVzLTI1Ni1nY206T0dOaE5EZGxOekF4WlRWak1qaGtNRGc1Tmprd01UaGtNemRoWlRrNA@37.32.27.224:9130#%40filembad
 ss://YWVzLTI1Ni1nY206T0dOaE5EZGxOekF4WlRWak1qaGtNRGc1Tmprd01UaGtNemRoWlRrNA@37.32.27.224:9130?prefix=%16%03%01%00%C2%A8%01%01#%40filembad
@@ -12,9 +18,6 @@ ss://YWVzLTI1Ni1nY206Wm1ReE9EQXpOREExT0RWaE9UbGtPV0V4TVRGbE1qVTFaV0poTTJReA@188.
 ss://YWVzLTI1Ni1nY206TTJSalptTTROVFF3WVdFMllqTmtZbVZtTnpJd1ptTXdOakEwT1dZdw@188.213.196.222:9112?prefix=%16%03%01%00%C2%A8%01%01#🇮🇷IR-🚀@VPNine1
 ss://YWVzLTI1Ni1nY206WldRelpXRmxaREV6TVRCbVl6Vm1PRFUyWVRWalpUQXlPR0kyTnpRMQ@95.38.167.78:9147?prefix=%16%03%01%00%C2%A8%01%01#%40filembad
 ss://YWVzLTI1Ni1nY206WldRelpXRmxaREV6TVRCbVl6Vm1PRFUyWVRWalpUQXlPR0kyTnpRMQ@95.38.167.78:9147?prefix=%16%03%01%00%C2%A8%01%01#🇮🇷IR-🚀@VPNine1
-vless://01a95af3-a2f6-453e-9f88-b2fc011627cc@92.114.24.95:43630?security=&encryption=none&headerType=none&type=tcp#%40filembad
-vless://01a95af3-a2f6-453e-9f88-b2fc011627cc@92.114.24.95:43630?security=none&encryption=none&headerType=none&type=tcp#%40filembad
-vless://01a95af3-a2f6-453e-9f88-b2fc011627cc@92.114.24.95:43630?security=none&encryption=none&headerType=none&type=tcp#🇮🇷IR-🚀@VPNine1
 vless://c690fd2c-b6eb-41b0-97fd-4d45d218ac7e@5.159.49.157:13891?path=%2F&security=none&encryption=none&type=ws#%40filembad
 vless://297d481a-615b-4717-8430-09253bc9af57@185.143.233.122:80?path=%2F&security=&encryption=none&host=veryfast1.ir&type=ws#%40filembad
 vless://1ee1f28d-4975-4d7c-95c7-76172c20eed5@185.143.234.238:2086?path=%2F&security=none&encryption=none&host=parsi.parsi.sbs&type=ws#%40filembad
@@ -33,7 +36,6 @@ vless://e795891a-d0c9-41f3-83e9-ae7a9114f433@new1.maktabmotahari.ir:37194?pbk=Oj
 vmess://eyJhZGQiOiJzdGF0dXMubml4b25jaG9zdC50b3AiLCJpZCI6ImIyMDA3YTg2LTdlMjQtNDliZi1hNjRmLTE1ZDRmNmUyNWYwNSIsIm5ldCI6InRjcCIsInBvcnQiOjU0NzQ3LCJwcyI6IkBmaWxlbWJhZCIsInNjeSI6ImF1dG8iLCJ0bHMiOiJub25lIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9
 vmess://eyJhZGQiOiIxODUuMTczLjEwNC43OSIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiJlNGIzNjM5MS0wMTRmLTQ0NjItODA5Yy04ZTY0YWE4NDM1OWUiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiL0JlZ29vX1ZQTi9CZWdvb19WUE4vQmVnb29fVlBOL0JlZ29vX1ZQTi9CZWdvb19WUE4vQmVnb29fVlBOL0JlZ29vX1ZQTi9CZWdvb19WUE4vQmVnb29fVlBOL0JlZ29vX1ZQTi9CZWdvb19WUE4vQmVnb29fVlBOL0JlZ29vX1ZQTiIsInBvcnQiOiIyMDMwIiwicHMiOiJAZmlsZW1iYWQiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9
 vmess://eyJhZGQiOiIxODUuMTczLjEwNC43OSIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiJlNGIzNjM5MS0wMTRmLTQ0NjItODA5Yy04ZTY0YWE4NDM1OWUiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiL1Byb3h5X1N0YXRpb24vIiwicG9ydCI6IjIwMzAiLCJwcyI6IkBmaWxlbWJhZCIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoibm9uZSIsInYiOiIyIn0=
-vmess://eyJhZGQiOiIxODUuMTczLjEwNC43OSIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiJlNGIzNjM5MS0wMTRmLTQ0NjItODA5Yy04ZTY0YWE4NDM1OWUiLCJpbnNlY3VyZSI6IjAiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiL1Byb3h5X1N0YXRpb24vIiwicGNzIjoiIiwicG9ydCI6IjIwMzAiLCJwcyI6IkBmaWxlbWJhZCIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoibm9uZSIsInYiOiIyIiwidmNuIjoiIn0=
 vless://5ee33caf-7223-4b7e-9406-4cc997179337@arvancloud.ir:2083?alpn=h2,http/1.1&encryption=mlkem768x25519plus.native.0rtt.QcS0mBrPcbrb4NfAmM7O_llJ55aKnuH83plbiugIRU8&fp=chrome&host=ir2.amirghmehdiat.ir&path=/6113&security=tls&sni=ir2.amirghmehdiat.ir&type=ws#🇮🇷IR-🚀@VPNine1
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5ZmRIWG05QXhrSmx4K0FZQ2IxS0ZSUXVqaEpBWFlOQkdhVDNQYUhsN2YwPQ@e3.cover20.ir:56985?type=tcp#🇮🇷IR-🚀@VPNine1
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvUXdTK3Z5K1pYaDlqWFIydVVhZXJJelVpWDBhb2psRVhBMUQzS1g5c0lNPQ@e3.cover20.ir:56985?type=tcp#🇮🇷IR-🚀@VPNine1
@@ -50,14 +52,9 @@ vless://99c2034b-f7e7-42f4-b55d-faf4a7ca6d7a@46.29.34.13:2525?security=tls&encry
 ss://YWVzLTI1Ni1nY206TVdZM1lUSmpNREExTVRKak9ESmhPR1JtWkRFMlpUYzRORGM1WTJKbA@95.38.187.39:11104#🇮🇷IR-🚀@VPNine1
 vless://5781c996-f32e-4151-bf75-4dc04fa13c05@vip.cdkshop.ir:443?encryption=none&fp=chrome&pbk=SJdAKRmq9WVXSd1T92Nbk-JftCM7JZMNpBaNCnhLYjk&security=reality&sid=6b16ee683359&sni=pwa.snapptrip.com&spx=/887556991d5b67c&type=tcp#🇮🇷IR-🚀@VPNine1
 vless://a526f664-dfe3-4e41-9460-08db56a11cc1@217.26.222.99:1501?security=none&encryption=none&headerType=http&type=tcp#🇮🇷IR-🚀@VPNine1
-vless://66f52bd2-41c7-40af-98a7-142848fc3cf1@2.144.24.109:3456?path=/&security=tls&encryption=none&insecure=0&type=ws&allowInsecure=0&sni=panel.ecofreenetping.com#🇮🇷IR-🚀@VPNine1
-vless://20d21fbc-0965-4f8e-9d21-ed31fac8ade9@tun.speed.hardvezoo.ir:8443?security=none&encryption=none&host=play.google.com&headerType=http&type=tcp#🇮🇷IR-🚀@VPNine1
-vless://20d21fbc-0965-4f8e-9d21-ed31fac8ade9@45.144.16.24:8443?security=none&encryption=none&host=play.google.com&headerType=http&type=tcp#🇮🇷IR-🚀@VPNine1
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowdTQ3eEp2cDJfcEdiQTVjMTNBU0hLODdEeER3azV6bQ@coco2.farajet.net:2020#@vasl_bashim
-vless://a8c6e908-fa7e-4d53-abdf-162fc47fe456@185.143.233.235:2053?encryption=none&security=tls&sni=top.mobixaco.ir&fp=random&insecure=0&allowInsecure=0&type=ws&host=top.mobixaco.ir&path=%2F#%40Configs_FreeIran
 trojan://33ws1asxa8vmbehw@snapp.ir:80?path=%2F&security=none&host=web.maxisup.ir&type=ws#Configs_FreeIran
 vless://15f918a6-fa3c-45cd-9d54-2e4d2d830bf6@193.151.135.64:4438?security=none&encryption=none&headerType=none&type=tcp#%40Configs_FreeIran
-vless://a7b22989-6c1f-4b59-b0f3-0605401813c4@45.131.4.115:80?&type=ws&headerType=none&host=worker3.gigak25604.workers.dev&path=%2FeyJqdW5rIjoiQXoydFJwaWM0WSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0%3D#%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D
 ss://bm9uZTpSU3pFSWtrMkVzSEVBVmoxNU41RS9BPT0@185.188.104.11:443#@DeltaKroneckerGithub
 ss://bm9uZTpSU3pFSWtrMkVzSEVBVmoxNU41RS9BPT0@185.188.105.10:443#@DeltaKroneckerGithub
 ss://bm9uZTpSU3pFSWtrMkVzSEVBVmoxNU41RS9BPT0@185.188.104.10:443#@DeltaKroneckerGithub
