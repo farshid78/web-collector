@@ -5,7 +5,6 @@ vless://f692629b-3557-488a-9c9b-60775331e423@144.31.218.18:443?encryption=none&f
 vless://f692629b-3557-488a-9c9b-60775331e423@144.31.218.18:443?mode=gun&security=reality&encryption=none&pbk=f3Mwf_vaM2TDw1X8HZORkYPLY0-DE5smNYgHuhrQLTA&type=grpc&serviceName=fi1cosmos&sni=fi1-cosmostechnology.ru#VIP%20%40AzadNet
 vless://e0bb3250-1873-4b9d-b9b5-7aa6c863885f@95.85.233.181:443?mode=gun&security=reality&encryption=none&authority=BIA_TELEGRAM%40MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI&pbk=S05RWQUVH-p3uqekd0iRpIeH__NpCt0XEN2xCiQJs3Y&fp=firefox&type=grpc&sni=c.primarymaster.online&sid=c56c3ba3b9f676c5#%40filembad
 vless://e0bb3250-1873-4b9d-b9b5-7aa6c863885f@95.85.233.181:443?mode=gun&security=reality&encryption=none&pbk=S05RWQUVH-p3uqekd0iRpIeH__NpCt0XEN2xCiQJs3Y&fp=firefox&type=grpc&sni=c.primarymaster.online&sid=c56c3ba3b9f676c5#%40filembad
-vless://e0bb3250-1873-4b9d-b9b5-7aa6c863885f@95.85.233.181:443?encryption=none&security=reality&sni=c.primarymaster.online&fp=firefox&pbk=S05RWQUVH-p3uqekd0iRpIeH__NpCt0XEN2xCiQJs3Y&sid=c56c3ba3b9f676c5&type=grpc#%40Daily_Configs
 vless://b32366bd-7cda-4801-8f96-d506c96201fa@167.233.23.44:33858?encryption=none&host=play.google.com&path=%2F&security=none&type=ws#%40filembad
 vless://b32366bd-7cda-4801-8f96-d506c96201fa@167.233.23.44:33858?encryption=none&host=play.google.com&path=/&security=none&type=ws#🇩🇪DE-🚀@VPNine1
 vless://f692629b-3557-488a-9c9b-60775331e423@132.243.225.143:443?security=reality&encryption=none&pbk=N0QyBaacGqSpRv_Ib4jsSx5A1kfE8IE1w0HcDB5w1BE&headerType=none&type=tcp&flow=xtls-rprx-vision&sni=fi1-cosmostechnology.ru#%40filembad
@@ -172,9 +171,9 @@ trojan://dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q@185.137.157.140:443?type=tcp&securit
 trojan://dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q@185.137.157.142:443?type=tcp&security=tls&headerType=none&insecure=0&allowInsecure=0#T.me/CONFiGiR98
 vless://b16fe24d-42ab-4d3a-8b0b-ef421f1cce53@49.12.66.102:1373?security=none&encryption=none&host=www.icloud.com&headerType=http&type=tcp#T.me/CONFiGiR98
 vless://90ea2329-d77b-4d8a-a6fc-d86e1c13bf16@serv1.ecv-winapp.ir:8880?security=none&encryption=none&host=play.google.com&headerType=http&type=tcp#best_internet_iran
+trojan://UO36402987@3.120.37.181:443?sni=many-cricket.rooster465.autos#%F0%9F%87%A9%F0%9F%87%AA%20%F0%9F%8D%8B%E2%80%8D%F0%9F%9F%A9@LimeVPNFREE%F0%9F%8D%8B%E2%80%8D%F0%9F%9F%A9
 vless://f83d8e60-f039-45c8-95d2-2a44c59025f6@freetg.strettenvpn.com:9999?type=tcp&security=none&encryption=none#%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Frankfurt%20am%20Main%20%7C%20%5BBL%5D
 trojan://humanity@45.147.228.249:443?path=%2Fassignment&security=tls&insecure=0&host=www.calmlunch.com&type=ws&allowInsecure=0&sni=www.calmlunch.com#%F0%9F%87%AB%F0%9F%87%B7%20France%2C%20Paris%20%7C%20%5BBL%5D
-trojan://UO36402987@3.120.37.181:443?sni=many-cricket.rooster465.autos#%F0%9F%87%A9%F0%9F%87%AA%20%F0%9F%8D%8B%E2%80%8D%F0%9F%9F%A9@LimeVPNFREE%F0%9F%8D%8B%E2%80%8D%F0%9F%9F%A9
 vless://6202b230-417c-4d8e-b624-0f71afa9c75d@31.185.108.30:8880?security=none&type=ws&path=/&host=vms.lifetime23.workers.dev&packetEncoding=xudp&encryption=none#@DeltaKroneckerGithub
 vless://b3c0e083-7608-48b1-84ac-efd75522b745@91.98.99.36:2087?security=none&type=ws&path=/&host=play.google.com&encryption=none#@DeltaKroneckerGithub
 trojan://665c944d-047d-4659-80d5-3eaac70241a9@139.162.158.172:443?security=tls&sni=de2-full.privateip.net&allowInsecure=1&fp=chrome&type=tcp#@DeltaKroneckerGithub
