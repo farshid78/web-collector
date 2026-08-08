@@ -1,64 +1,4 @@
 {
-  "104.64.206.42": {
-    "country": "SG",
-    "ts": 1784979564
-  },
-  "213.156.152.42": {
-    "country": "TR",
-    "ts": 1784979564
-  },
-  "20.107.187.192": {
-    "country": "IE",
-    "ts": 1784979564
-  },
-  "162.159.152.70": {
-    "country": "CA",
-    "ts": 1784979564
-  },
-  "www.zsu.gov.ua": {
-    "country": "CA",
-    "ts": 1784979564
-  },
-  "172.64.32.154": {
-    "country": "CA",
-    "ts": 1784979564
-  },
-  "5.129.193.109": {
-    "country": "RU",
-    "ts": 1784979564
-  },
-  "90.156.255.198": {
-    "country": "LV",
-    "ts": 1784979564
-  },
-  "ruded3.onlinestreamself.com": {
-    "country": "RU",
-    "ts": 1784979564
-  },
-  "ruded2.onlinestreamself.com": {
-    "country": "RU",
-    "ts": 1784979564
-  },
-  "15.224.44.226": {
-    "country": "FR",
-    "ts": 1784979564
-  },
-  "151.115.166.53": {
-    "country": "IT",
-    "ts": 1784979564
-  },
-  "coco3.farajet.net": {
-    "country": "IR",
-    "ts": 1784979564
-  },
-  "45.9.13.238": {
-    "country": "RU",
-    "ts": 1784979564
-  },
-  "d685649136224f6fd685649136224f6f.ssdhdd.org": {
-    "country": "TR",
-    "ts": 1784979564
-  },
   "65.109.211.253": {
     "country": "FI",
     "ts": 1784983450
@@ -44354,5 +44294,61 @@
   "Fanland.horlutr.ir": {
     "country": "FI",
     "ts": 1786187766
+  },
+  "188.166.171.17": {
+    "country": "GB",
+    "ts": 1786189690
+  },
+  "140.245.109.33": {
+    "country": "SG",
+    "ts": 1786189690
+  },
+  "45.130.125.229": {
+    "country": "SC",
+    "ts": 1786189690
+  },
+  "157.137.221.79": {
+    "country": "CO",
+    "ts": 1786189690
+  },
+  "212.192.15.159": {
+    "country": "HK",
+    "ts": 1786189690
+  },
+  "84.32.110.58": {
+    "country": "LT",
+    "ts": 1786189690
+  },
+  "158.247.126.16": {
+    "country": "CO",
+    "ts": 1786189690
+  },
+  "germany.benjaminclouds.ir": {
+    "country": "IR",
+    "ts": 1786189690
+  },
+  "15.224.44.226": {
+    "country": "FR",
+    "ts": 1786189690
+  },
+  "186.246.6.234": {
+    "country": "RU",
+    "ts": 1786189690
+  },
+  "3x-ui-production-5dcf.up.railway.app": {
+    "country": "US",
+    "ts": 1786189690
+  },
+  "de12.fi1-cosmostechnology.ru": {
+    "country": "DE",
+    "ts": 1786189690
+  },
+  "sh8.persianfilmdl.ir": {
+    "country": "IR",
+    "ts": 1786189690
+  },
+  "turboping.persianfilmdl.ir": {
+    "country": "IR",
+    "ts": 1786189690
   }
 }
