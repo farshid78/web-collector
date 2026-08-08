@@ -40,6 +40,7 @@ vless://7678cb4e-45a4-4459-9691-4f6647e23432@itr.vipvirtualnet.eu:8082?alpn=h2,h
 vless://7678cb4e-45a4-4459-9691-4f6647e23432@itr.vipvirtualnet.eu:8081?alpn=h2,http/1.1&authority=/Ox-Secure&encryption=none&fp=chrome&security=tls&serviceName=&sni=hxo.vipvirtualnet.eu&type=grpc#🇮🇷IR-🚀@VPNine1
 vless://7678cb4e-45a4-4459-9691-4f6647e23432@usa.vipvirtualnet.eu:2052?alpn=h2,http/1.1,h3&authority=/wex-secure&encryption=none&fp=chrome&security=tls&serviceName=aparat-stream&sni=us.vipvirtualnet.eu&type=grpc#🇮🇷IR-🚀@VPNine1
 vless://f526e941-52ac-4d28-ba49-5ba2fc0a984b@zula.ir:80?path=/vless&security=none&encryption=none&host=uk2-vless.sshmax.xyz&type=ws#🇮🇷IR-🚀@VPNine1
+vless://880790cd-0111-466f-8225-8593520737d6@zula.ir:80?path=%2Fmelo%2Fis%2Fneeded&security=none&encryption=none&host=ch1.dontbow.store.&type=ws#@Hope_Net-join-us-on-Telegram
 vless://50ba492e-252a-4c6d-8f4a-ab8edeb92607@185.143.233.5:443?security=tls&sni=anten.ir.oadeflantrogmuk6.bintanalumina.net&type=ws&host=anten.ir.oadeflantrogmuk6.bintanalumina.net&path=/?ed=S06GDdbZzs&fp=randomized&allowInsecure=1#🇮🇷IR-🚀@VPNine1
 vless://6fc9a744-93de-4db5-dee4-372b8356410e@185.143.233.5:8080?security=none&type=ws&host=htesjtrsu.com&path=/@VPNine1,%20@VPNine1,%20@VPNine1,%20@VPNine1,%20@VPNine1,%20@VPNine1,%20@VPNine1,%20@VPNine1,%20@VPNine1,%20@VPNine1,%20@VPNine1,%20@VPNine1,%20@VPNine1,%20@VPNine1#🇮🇷IR-🚀@VPNine1
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp0Yy1JSDU5VEVQajRBUnpfRDI3eFdsTndUbjQ0SjVPNQ%3D%3D@b2.hivaphone.ir:2096#🇮🇷IR-🚀@VPNine1
