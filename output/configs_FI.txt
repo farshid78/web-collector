@@ -2,7 +2,6 @@ vless://0b0915d7-6800-4580-a44b-77d84f105e6a@185.79.138.71:448?security=reality&
 vless://0b0915d7-6800-4580-a44b-77d84f105e6a@185.79.138.71:448?security=reality&encryption=none&pbk=CsDgNRcCwCkPIslfZpKTIK71KFpIFNsotbdzKcZVoH8&host=%2F%3FBIA_TELEGRAM%40MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI&headerType=none&fp=chrome&type=tcp&sni=www.samsung.com&sid=cd21e552537c7c0b#%40FarazV2ray
 vless://b4469373-b425-4902-80d4-a00e00ada7de@65.108.156.124:50303?path=%2F&security=none&encryption=none&host=play.google.com&type=ws#%40filembad
 vless://b4469373-b425-4902-80d4-a00e00ada7de@65.108.156.124:50303?path=/&security=none&encryption=none&host=play.google.com&type=ws#🇫🇮FI-🚀@VPNine1
-vless://b4469373-b425-4902-80d4-a00e00ada7de@65.108.156.124:50303?path=%2F&security=none&encryption=none&host=play.google.com&type=ws#%D9%86%D8%A7%D9%85%D8%AD%D8%AF%D9%88%D8%AF%20%D9%81%D9%82%D8%B7%20%20100%F0%9F%91%88confing_star1
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpUbVhTcGNSQmJodkhEZzY2Ym8ydzg5YlRveFFzYk1vYQ@31.76.30.79:10808#%40filembad
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpUbVhTcGNSQmJodkhEZzY2Ym8ydzg5YlRveFFzYk1vYQ@31.76.30.79:10808#🇫🇮FI-🚀@VPNine1
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpUbVhTcGNSQmJodkhEZzY2Ym8ydzg5YlRveFFzYk1vYQ@31.76.30.79:10808#%40FarazV2ray
@@ -45,6 +44,7 @@ vless://0a76a766-d141-44b8-944e-dff757d7116f@163.5.153.153:443?security=reality&
 vless://52988652-6e1d-4276-964a-10f167579f32@FN-UNlimiTed.relqino.ir:1020?security=reality&encryption=none&pbk=jILgyIiDR7xY8WDrU9EMx_iXUi6nKr3LapCgglBVBAU&host=FN-UNlimiTed.relqino.ir&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.samsung.com&sid=3fa2fdb7dce16b8b#🇺🇸US-🚀@VPNine1
 vless://9faad682-fbcd-7b3f-b70c-22fae8774236@204.168.172.119:8443?encryption=none&type=tcp&security=reality&headerType=http&host=play.google.com&sni=play.google.com&fp=firefox&insecure=1&allowInsecure=1&pbk=xXaCtONWKzYdCWya3nzOe3_UYfHplbmdThukm0__smI&sid=f49da53c&spx=%2F#@vasl_bashim
 vless://6871b29e-bb51-4b6b-b2fa-6e2b98ad3859@46.62.240.221:80?encryption=none&type=tcp&headerType=http&host=khamenei.ir#T.me/CONFiGiR98
+vless://c1372e6d-ba03-4262-9a06-5487c13ad479@Fanland.horlutr.ir:2087?security=none&encryption=none&host=play.google.com&headerType=http&type=tcp#%D8%A7%D8%B3%D8%AA%D9%81%D8%A7%D8%AF%D9%87%20%D8%A8%D8%AF%D9%88%D9%86%20%D8%AC%D9%88%DB%8C%D9%86%20%D8%AD%D8%B1%D8%A7%D9%85%20%40JOFAVPN
 vless://f319a005-6bd0-44b3-910c-a596a2573efe@77.91.84.96:57228?encryption=none&type=tcp&security=reality&pbk=iWiQ0JyYhl_yzWSbIh4L4wOiiXBOhNVMhWmgtDvF1jo&sid=6e3e0d3abe3e78a4&sni=www.googletagmanager.com&fp=chrome&flow=xtls-rprx-vision#@DeltaKroneckerGithub
 vless://f5a3bf49-07ca-0021-a96b-9606781e3600@185.218.194.63:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=b4n1pcO8ST3JkGtj8YymXVrW17LEe2EHec5wY7hMMR4&sid=6e3f0a5b&sni=www.amd.com#@DeltaKroneckerGithub
 vless://f5a3bf49-07ca-0021-a96b-9606781e3600@185.218.194.62:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=b4n1pcO8ST3JkGtj8YymXVrW17LEe2EHec5wY7hMMR4&sid=6e3f0a5b&sni=www.amd.com#@DeltaKroneckerGithub
