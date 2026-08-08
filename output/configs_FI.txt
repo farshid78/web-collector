@@ -1,4 +1,7 @@
+vless://dc2a36c3-1eec-444e-abcd-d435adf0a74f@45.131.185.205:47504?headerType=none&type=tcp&security=none&encryption=none#%40filembad
 vless://dc2a36c3-1eec-444e-abcd-d435adf0a74f@45.131.185.205:47504?security=none&encryption=none&headerType=none&type=tcp#%40filembad
+vless://dc2a36c3-1eec-444e-abcd-d435adf0a74f@45.131.185.205:47504?encryption=none&type=tcp&headerType=none#%40filembad
+vless://dc2a36c3-1eec-444e-abcd-d435adf0a74f@45.131.185.205:47504?encryption=none&type=tcp&headerType=none#🇫🇮FI-🚀@VPNine1
 vless://0b0915d7-6800-4580-a44b-77d84f105e6a@185.79.138.71:448?security=reality&encryption=none&pbk=CsDgNRcCwCkPIslfZpKTIK71KFpIFNsotbdzKcZVoH8&host=%2F%3FBIA_TELEGRAM%40MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI&headerType=none&fp=chrome&type=tcp&sni=www.samsung.com&sid=cd21e552537c7c0b#%40filembad
 vless://22448df3-17f8-40a6-9199-babaca108b46@95.85.251.116:59631?mode=gun&security=reality&encryption=none&pbk=bymilcd_vnDoof7qAq4QpFTm-hMeFPZwXPTMFXdasSg&fp=firefox&type=grpc&sni=google.com&sid=4b#%40filembad
 vless://22448df3-17f8-40a6-9199-babaca108b46@95.85.251.116:59631?mode=gun&security=reality&encryption=none&authority=&pbk=bymilcd_vnDoof7qAq4QpFTm-hMeFPZwXPTMFXdasSg&fp=firefox&type=grpc&serviceName=&sni=google.com&sid=4b#%40filembad
