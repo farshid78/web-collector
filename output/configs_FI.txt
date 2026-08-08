@@ -1,3 +1,6 @@
+vless://b4469373-b425-4902-80d4-a00e00ada7de@65.108.156.124:50303?path=%2F&security=none&encryption=none&host=play.google.com&type=ws#%40filembad
+vless://b4469373-b425-4902-80d4-a00e00ada7de@65.108.156.124:50303?path=/&security=none&encryption=none&host=play.google.com&type=ws#🇫🇮FI-🚀@VPNine1
+vless://b4469373-b425-4902-80d4-a00e00ada7de@65.108.156.124:50303?path=%2F&security=none&encryption=none&host=play.google.com&type=ws#%D9%86%D8%A7%D9%85%D8%AD%D8%AF%D9%88%D8%AF%20%D9%81%D9%82%D8%B7%20%20100%F0%9F%91%88confing_star1
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpUbVhTcGNSQmJodkhEZzY2Ym8ydzg5YlRveFFzYk1vYQ@31.76.30.79:10808#%40filembad
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpUbVhTcGNSQmJodkhEZzY2Ym8ydzg5YlRveFFzYk1vYQ@31.76.30.79:10808#🇫🇮FI-🚀@VPNine1
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpUbVhTcGNSQmJodkhEZzY2Ym8ydzg5YlRveFFzYk1vYQ==@31.76.30.79:10808#@DeltaKroneckerGithub
@@ -19,7 +22,6 @@ vless://67cb031f-e54e-47b3-81ca-3c5ca38e10d5@31.76.53.122:443?encryption=none&fl
 vless://67cb031f-e54e-47b3-81ca-3c5ca38e10d5@31.76.53.122:443?encryption=none&flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=firefox&sni=max.ru&pbk=S0yglnqVx6WzLXW9ONhCQmDEm1G7m-I_7Ln4Ss02cxE&sid=d5a9#🇺🇸US-🚀@VPNine1
 vless://037b3d04-3e2f-40e1-858d-466e95ddf881@65.109.221.38:443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=WZGmgNkzx6Pc2vbrV4mUmgsqciQ2-CYSWduaRTh69wA&security=reality&sid=910c87f421&sni=www.cdn.amazon.com&spx=%2F1472b3c1a7ac296&type=tcp#%40filembad
 vless://037b3d04-3e2f-40e1-858d-466e95ddf881@65.109.221.38:443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=WZGmgNkzx6Pc2vbrV4mUmgsqciQ2-CYSWduaRTh69wA&security=reality&sid=910c87f421&sni=www.cdn.amazon.com&spx=/1472b3c1a7ac296&type=tcp#🇫🇮FI-🚀@VPNine1
-vless://0b0915d7-6800-4580-a44b-77d84f105e6a@185.79.138.71:448?security=reality&encryption=none&pbk=CsDgNRcCwCkPIslfZpKTIK71KFpIFNsotbdzKcZVoH8&headerType=none&fp=chrome&type=tcp&sni=www.samsung.com&sid=cd21e552537c7c0b#%40filembad
 vless://735f7616-a5cc-45ce-9bdc-b741054cb13e@finl-reali.12l.ir:11009?encryption=none&security=reality&sni=play.google.com&fp=qq&pbk=ElePaKAWaOiEafrGXJsK_oUPq_Xn64FToGAjhodysQ4&sid=133002321cf61ff4&type=tcp&headerType=none#🇫🇮FI-🚀@VPNine1
 vless://735f7616-a5cc-45ce-9bdc-b741054cb13e@finl-reali.12l.ir:11009?encryption=none&security=reality&sni=play.google.com&fp=qq&pbk=ElePaKAWaOiEafrGXJsK_oUPq_Xn64FToGAjhodysQ4&sid=133002321cf61ff4&type=tcp&headerType=none#%40Daily_Configs%20%3A%20%DA%A9%D8%A7%D9%86%D8%A7%D9%84
 vless://7678cb4e-45a4-4459-9691-4f6647e23432@cdn.vipvirtualnet.eu:2087?alpn=h2,http/1.1,h3&encryption=none&extra=%7B%22mode%22:%22auto%22,%22xPaddingBytes%22:%22100-1000%22%7D&fp=chrome&host=cdn.vipvirtualnet.eu&mode=auto&path=/wex-secure&security=tls&sni=wx.vipvirtualnet.eu&type=xhttp&x_padding_bytes=100-1000#🇫🇮FI-🚀@VPNine1
@@ -32,7 +34,6 @@ vless://b6591693-d398-4179-a3b8-182cdc5e55d8@62.238.49.122:52874?security=&encry
 vless://5fb84240-dc77-48cb-9a53-0ea77a6fcd3c@62.238.49.122:52874?security=none&encryption=none&host=play.google.com&headerType=http&type=tcp#🇫🇮FI-🚀@VPNine1
 vless://b6591693-d398-4179-a3b8-182cdc5e55d8@62.238.49.122:52874?encryption=none&type=tcp&headerType=http&host=play.google.com#@vasl_bashim
 vmess://eyJhZGQiOiAiZmluMS5sZXZpa29namdmZGQuaXIiLCAiYWlkIjogIjAiLCAiYWxwbiI6ICIiLCAiZnAiOiAiIiwgImhvc3QiOiAiVGVsZWdyYW0tTGV2aWtvX3YycmF5IiwgImlkIjogImM4OTY0MDZiLWNjYzQtNGMzNy04YjhjLTE1OTY0ZjMyYTlhMiIsICJuZXQiOiAidGNwIiwgInBhdGgiOiAiIiwgInBvcnQiOiAiNDY5NjIiLCAicHMiOiAiXHVkODNjXHVkZGViXHVkODNjXHVkZGVlRkktXHVkODNkXHVkZTgwQFZQTmluZTEiLCAic2N5IjogImF1dG8iLCAic25pIjogIiIsICJ0bHMiOiAiIiwgInR5cGUiOiAibm9uZSIsICJ2IjogIjIifQ==
-vless://dfb60992-8a36-44bb-851e-ac9c2448b7ea@ping.wargen-alkaline.ir:27804?encryption=none&type=httpupgrade&host=speedtest.net&path=/&security=none#🇫🇮FI-🚀@VPNine1
 vless://9faad682-fbcd-7b3f-b70c-22fae8774236@204.168.172.119:8443?encryption=none&type=tcp&security=reality&headerType=http&host=play.google.com&sni=play.google.com&fp=firefox&insecure=1&allowInsecure=1&pbk=xXaCtONWKzYdCWya3nzOe3_UYfHplbmdThukm0__smI&sid=f49da53c&spx=%2F#@vasl_bashim
 vless://6871b29e-bb51-4b6b-b2fa-6e2b98ad3859@46.62.240.221:80?encryption=none&type=tcp&headerType=http&host=khamenei.ir#T.me/CONFiGiR98
 vless://f319a005-6bd0-44b3-910c-a596a2573efe@77.91.84.96:57228?encryption=none&type=tcp&security=reality&pbk=iWiQ0JyYhl_yzWSbIh4L4wOiiXBOhNVMhWmgtDvF1jo&sid=6e3e0d3abe3e78a4&sni=www.googletagmanager.com&fp=chrome&flow=xtls-rprx-vision#@DeltaKroneckerGithub
