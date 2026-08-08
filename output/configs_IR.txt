@@ -4,6 +4,8 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTptLVFndzUxcFo4ZUVmWC1qTnhld0xBMmpsNUd2b0JRNg=
 vless://5b3fa4fc-0533-4023-b99e-ccb6ee03a44e@185.141.213.168:8880?security=&encryption=mlkem768x25519plus.native.0rtt.RGsrmjEh1INvgoYhtnXh8UYG6BJUmkyipIWtR_AUSTA&headerType=none&type=tcp#%40filembad
 vless://5b3fa4fc-0533-4023-b99e-ccb6ee03a44e@185.141.213.168:8880?security=none&encryption=mlkem768x25519plus.native.0rtt.RGsrmjEh1INvgoYhtnXh8UYG6BJUmkyipIWtR_AUSTA&headerType=none&type=tcp#%40filembad
 vless://5b3fa4fc-0533-4023-b99e-ccb6ee03a44e@185.141.213.168:8880?security=none&encryption=mlkem768x25519plus.native.0rtt.RGsrmjEh1INvgoYhtnXh8UYG6BJUmkyipIWtR_AUSTA&headerType=none&type=tcp#🇮🇷IR-🚀@VPNine1
+vless://518aec02-e1c7-4d9c-eee0-c55a69c28b62@s2.zynetraq.ir:2087?alpn=h2,http/1.1,h3&encryption=none&extra=%7B%22mode%22:%22auto%22,%22xPaddingBytes%22:%22100-1000%22%7D&fp=chrome&host=s2.zynetraq.ir&mode=auto&path=/BetForward&pcs=0258c1ff5f1251a516a8ac42c354d3f757e43355dce7ac49e870acf3973ab711&security=tls&sni=s2.zynetraq.ir&type=xhttp&x_padding_bytes=100-1000#🇮🇷IR-🚀@VPNine1
+vless://13209faf-c675-4e6f-dbe8-1f962b2f4e37@s2.zynetraq.ir:2087?alpn=h2,http/1.1,h3&encryption=none&extra=%7B%22mode%22:%22auto%22,%22xPaddingBytes%22:%22100-1000%22%7D&fp=chrome&host=s2.zynetraq.ir&mode=auto&path=/BetForward&pcs=0258c1ff5f1251a516a8ac42c354d3f757e43355dce7ac49e870acf3973ab711&security=tls&sni=s2.zynetraq.ir&type=xhttp&x_padding_bytes=100-1000#🇮🇷IR-🚀@VPNine1
 vless://737910b4-5b20-428b-8a14-62f1f1b57e12@185.218.139.222:2000?encryption=none&security=none&type=tcp#🇮🇷IR-🚀@VPNine1
 vless://737910b4-5b20-428b-8a14-62f1f1b57e12@185.218.139.222:8080?encryption=none&extra=%7B%22scMaxEachPostBytes%22:%221000000%22,%22xPaddingBytes%22:%22100-1000%22%7D&fp=chrome&host=&mode=auto&path=/&pbk=KKuA4eyhlE6PtHejltulCvKvC5TYgm8PfA38PqRhe3A&security=reality&sid=799f7f490be9&sni=www.intel.com&spx=/sFoCTdQJxnexpj8&type=xhttp&x_padding_bytes=100-1000#🇮🇷IR-🚀@VPNine1
 vless://737910b4-5b20-428b-8a14-62f1f1b57e12@185.218.139.222:1500?encryption=none&extra=%7B%22scMaxEachPostBytes%22:%221000000%22,%22xPaddingBytes%22:%22100-1000%22%7D&fp=chrome&host=&mode=auto&path=/&pbk=uawuZi92GK3qW-Vwa6eThRM2oAXcTSl2EKOvqYyf0RI&security=reality&sid=b6fb78&sni=www.nvidia.com&spx=/7L6W85ndFLxMunt&type=xhttp&x_padding_bytes=100-1000#🇮🇷IR-🚀@VPNine1
@@ -16,7 +18,6 @@ vless://bcade6b3-8a72-47d9-858d-4918c1a9ecad@185.218.139.222:2000?encryption=non
 vless://ea33bf0d-5367-4496-9b36-8d736ce7ee3a@185.218.139.222:2000?encryption=none&security=none&type=tcp#🇮🇷IR-🚀@VPNine1
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp2MDBzbUVEaHAxMFZOZXpERE1oVHZTcW80dEVDQzh6YUVLSHZFRmdtZi84PQ@e3.cover20.ir:56985?type=tcp#🇮🇷IR-🚀@VPNine1
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpOSG5SL0NaOVhTVEsyaElLVlo2cUNWTEtIZTRjYlpzb3pZNThFSXEvSFpJPQ@e3.cover20.ir:56985?type=tcp#🇮🇷IR-🚀@VPNine1
-vless://13209faf-c675-4e6f-dbe8-1f962b2f4e37@s2.zynetraq.ir:2087?alpn=h2,http/1.1,h3&encryption=none&extra=%7B%22mode%22:%22auto%22,%22xPaddingBytes%22:%22100-1000%22%7D&fp=chrome&host=s2.zynetraq.ir&mode=auto&path=/BetForward&pcs=0258c1ff5f1251a516a8ac42c354d3f757e43355dce7ac49e870acf3973ab711&security=tls&sni=s2.zynetraq.ir&type=xhttp&x_padding_bytes=100-1000#🇮🇷IR-🚀@VPNine1
 vless://512a764b-846f-4d51-b337-74aabfa13663@panel.northforex.ir:997?path=/mmd&security=none&encryption=none&type=ws#🇮🇷IR-🚀@VPNine1
 vless://512a764b-846f-4d51-b337-74aabfa13663@panel.northforex.ir:995?path=/mmd&security=none&encryption=none&type=ws#🇮🇷IR-🚀@VPNine1
 vless://512a764b-846f-4d51-b337-74aabfa13663@panel.northforex.ir:998?path=/mmd&security=none&encryption=none&type=ws#🇮🇷IR-🚀@VPNine1
@@ -47,7 +48,6 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp0Yy1JSDU5VEVQajRBUnpfRDI3eFdsTndUbjQ0SjVPNQ%
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpTeWhGTlpVTWtzY0RJYWp2dUJua0lvbmtBU1lzaUhJYTIxNnhZRGJuREtZPQ@e1.cover20.ir:51570?type=tcp#🇮🇷IR-🚀@VPNine1
 vless://44de73bc-eb6d-429d-9c2f-ec0a6e4a6681@my.configfast.site:4013?security=none&encryption=none&host=bale.ai,web.splus.ir,igap.net&headerType=http&type=tcp#🇮🇷IR-🚀@VPNine1
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkYzIxMzRkYi0zMzJmLTRkZjAtYWQwZC1hY2VjNDU4MmE5Zjg%3D@hub.mmdoof.ir:443#🇮🇷IR-🚀@VPNine1
-ss://YWVzLTI1Ni1nY206WXpjNE5qaGxOVFkzWkdVNU56ZG1PR1ZqT1RrMFpURmhNek01WVdObQ@95.38.166.233:11109#🇮🇷IR-🚀@VPNine1
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowdTQ3eEp2cDJfcEdiQTVjMTNBU0hLODdEeER3azV6bQ@coco2.farajet.net:2020#@vasl_bashim
 vless://a8c6e908-fa7e-4d53-abdf-162fc47fe456@185.143.233.235:2053?encryption=none&security=tls&sni=top.mobixaco.ir&fp=random&insecure=0&allowInsecure=0&type=ws&host=top.mobixaco.ir&path=%2F#%40Configs_FreeIran
 trojan://33ws1asxa8vmbehw@snapp.ir:80?path=%2F&security=none&host=web.maxisup.ir&type=ws#Configs_FreeIran
