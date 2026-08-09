@@ -1,3 +1,5 @@
+vless://ebae54a2-227d-4f69-b3df-f5355c1dbc45@185.14.160.173:8080?type=tcp&encryption=none&headerType=none&security=none#%40filembad
+vless://ebae54a2-227d-4f69-b3df-f5355c1dbc45@185.14.160.173:8080?type=tcp&encryption=none&headerType=none&security=none#🇮🇷IR-🚀@VPNine1
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozcmZuajExcTV4dmc3Mnkx@185.215.228.132:2044?security=none&type=tcp#%40filembad
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozcmZuajExcTV4dmc3Mnkx@185.215.228.132:2044?security=none&type=tcp#🇮🇷IR-🚀@VPNine1
 vless://450340b0-e455-4e4b-9325-64244338a795@185.218.139.222:2000?type=tcp&encryption=none&headerType=none&security=none#%40filembad
@@ -43,7 +45,6 @@ vless://c4ca80f8-6df0-4f6a-89cb-fbc8c5affc7f@zula.ir:80?type=ws&path=/@VPNine1,@
 vless://c2122a8d-914b-414b-e6b5-c1575c2b09e0@zula.ir:80?path=/df38fGe9tgDG0dkg84LsdfOdjg8.&security=none&encryption=none&host=44-rEFaQaT.yArAyaragAHi12.info&type=ws#🇮🇷IR-🚀@VPNine1
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo1S0xwY3ZwcE8xYnI3bHJYY0E3cFpjK2Q0MDA2NHJWSzFVK0t2U0ltcVkwPQ@e1.cover20.ir:51570?type=tcp#🇮🇷IR-🚀@VPNine1
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpQOXJ0Q0NMU2J5M1VEVmlVOXdEY00rV0Y2RFM3SGh4K1U0RHB0amRSL1FBPQ@e1.cover20.ir:51570?type=tcp#🇮🇷IR-🚀@VPNine1
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowK3RIUjB2WHJsYm0zNnE0NEdOVVVUTXlPQ3I2L3grQTNKa0pjWjZlSGxFPQ@e1.cover20.ir:51570?type=tcp#🇮🇷IR-🚀@VPNine1
 ss://MjAyMi1ibGFrZTMtYWVzLTI1Ni1nY206eW1VRUl3Ukwzb1VtMC9PUkhhZGR2UXU1aUtVcW1oNzFWaDlLUGtMMTltVT06SGtpNEkyTUhrak9WcFRTelBQOUJlMjNFQ0U3MXJKU1h2TWdZN1dsLzRhaz0@irntu.libertyspeed.ir:2030?security=none&type=tcp#🇮🇷IR-🚀@VPNine1
 ss://YWVzLTI1Ni1nY206T0dOak1EUTJPVGN3TnpJeE5HTXdaakUwWkRRNVltVmpaR1JsT1RRNQ@94.101.181.25:9130?prefix=%16%03%01%00%C2%A8%01%01#🇮🇷IR-🚀@VPNine1
 vless://9a3cd028-8b85-463e-bb3b-e267f45ecd3a@tr.mrpgd.ir:6009?security=reality&encryption=none&pbk=JFSkIP3ey2MgTvbtr2JI08g61caz-cuNDV9IXcZFfnI&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=play.google.com&sid=8b64e71e68af986e#🇮🇷IR-🚀@VPNine1
@@ -53,8 +54,6 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowRVFXT1dpWTZwUlJvcHFwelAwU1NXOEhicEtlRFRWMDV
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozWXBxcjFoQmZLN3kxQzA3emo4TDdqVFBvSUFTS3ZoWWlWWk82Ty9qdm53PQ@e3.cover20.ir:56985?type=tcp#🇮🇷IR-🚀@VPNine1
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphQnNhb280cUtWZ1o2Mlo5SUk1ditDeHlkbTlmNHVwRHFtZTl1MDllTU1nPQ@e3.cover20.ir:56985?type=tcp#🇮🇷IR-🚀@VPNine1
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpTZkpxQytiTmQ0UXRZZ0lSMys2NnRKU3A3emlKT1VseHQxcDRKUHkzN0JBPQ@e2.cover20.ir:30874?type=tcp#🇮🇷IR-🚀@VPNine1
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0WVFEdFlRbEVyRWJZeSs2SU5IK2RjTk9FeGM2c2JsMmxFaUEvMTV6aGZJPQ@e2.cover20.ir:30874?type=tcp#🇮🇷IR-🚀@VPNine1
-vless://928cfab8-097c-4f24-9bad-0d6e2abdfc66@95.lorqino.ir:998?path=/mmd&security=none&encryption=none&type=ws#🇮🇷IR-🚀@VPNine1
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowdTQ3eEp2cDJfcEdiQTVjMTNBU0hLODdEeER3azV6bQ@coco2.farajet.net:2020#@vasl_bashim
 vless://a8c6e908-fa7e-4d53-abdf-162fc47fe456@185.143.233.235:2053?encryption=none&security=tls&sni=top.mobixaco.ir&fp=random&insecure=0&allowInsecure=0&type=ws&host=top.mobixaco.ir&path=%2F#%40Configs_FreeIran
 trojan://33ws1asxa8vmbehw@snapp.ir:80?path=%2F&security=none&host=web.maxisup.ir&type=ws#Configs_FreeIran
