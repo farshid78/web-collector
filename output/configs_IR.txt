@@ -4,6 +4,9 @@ vless://450340b0-e455-4e4b-9325-64244338a795@185.218.139.222:2000?type=tcp&encry
 vless://450340b0-e455-4e4b-9325-64244338a795@185.218.139.222:8880?security=reality&encryption=none&pbk=nSm8X2IETT4-xYk-goRLHdQ4FlgeD-zCVrCstE2tPHQ&headerType=none&fp=chrome&spx=%2FeW10M94Ji1nUvQ0&type=tcp&sni=www.intel.com&sid=b8#%40filembad
 vless://450340b0-e455-4e4b-9325-64244338a795@185.218.139.222:8080?mode=auto&path=%2F&security=reality&encryption=none&extra=%7B%22scMaxEachPostBytes%22%3A%221000000%22%2C%22xPaddingBytes%22%3A%22100-1000%22%7D&pbk=KKuA4eyhlE6PtHejltulCvKvC5TYgm8PfA38PqRhe3A&fp=chrome&spx=%2Fu21oNLT6woKwxzI&type=xhttp&sni=www.intel.com&sid=457500#%40filembad
 vless://450340b0-e455-4e4b-9325-64244338a795@185.218.139.222:2000?security=none&encryption=none&headerType=none&type=tcp#%40filembad
+vless://f0867805-25a9-4959-bc4c-45efee8515fe@185.218.139.222:8080?encryption=none&extra=%7B%22scMaxEachPostBytes%22:%221000000%22,%22xPaddingBytes%22:%22100-1000%22%7D&fp=chrome&host=&mode=auto&path=/&pbk=KKuA4eyhlE6PtHejltulCvKvC5TYgm8PfA38PqRhe3A&security=reality&sid=457500&sni=www.intel.com&spx=/QAfHpvZ3UAqpheh&type=xhttp&x_padding_bytes=100-1000#🇮🇷IR-🚀@VPNine1
+vless://f0867805-25a9-4959-bc4c-45efee8515fe@185.218.139.222:1500?encryption=none&extra=%7B%22scMaxEachPostBytes%22:%221000000%22,%22xPaddingBytes%22:%22100-1000%22%7D&fp=chrome&host=&mode=auto&path=/&pbk=uawuZi92GK3qW-Vwa6eThRM2oAXcTSl2EKOvqYyf0RI&security=reality&sid=b6fb78&sni=www.nvidia.com&spx=/MHlW18hJ3eyseKk&type=xhttp&x_padding_bytes=100-1000#🇮🇷IR-🚀@VPNine1
+vless://f0867805-25a9-4959-bc4c-45efee8515fe@185.218.139.222:2095?encryption=none&extra=%7B%22scMaxEachPostBytes%22:%221000000%22,%22xPaddingBytes%22:%22100-1000%22%7D&fp=chrome&host=&mode=auto&path=/&pbk=fP1NLPaE9sdvvTxXR4trV6J0Ptf4b5Wu_hUQKkPQogA&security=reality&sid=a7ff66a431&sni=www.sony.com&spx=/PoIeJRiaCkNipI0&type=xhttp&x_padding_bytes=100-1000#🇮🇷IR-🚀@VPNine1
 vless://450340b0-e455-4e4b-9325-64244338a795@185.218.139.222:8880?security=reality&encryption=none&pbk=nSm8X2IETT4-xYk-goRLHdQ4FlgeD-zCVrCstE2tPHQ&headerType=none&fp=chrome&spx=/eW10M94Ji1nUvQ0&type=tcp&sni=www.intel.com&sid=b8#🇮🇷IR-🚀@VPNine1
 vless://450340b0-e455-4e4b-9325-64244338a795@185.218.139.222:2000?security=none&encryption=none&headerType=none&type=tcp#🇮🇷IR-🚀@VPNine1
 vless://450340b0-e455-4e4b-9325-64244338a795@185.218.139.222:8080?mode=auto&path=/&security=reality&encryption=none&extra=%7B%22scMaxEachPostBytes%22:%221000000%22,%22xPaddingBytes%22:%22100-1000%22%7D&pbk=KKuA4eyhlE6PtHejltulCvKvC5TYgm8PfA38PqRhe3A&fp=chrome&spx=/u21oNLT6woKwxzI&type=xhttp&sni=www.intel.com&sid=457500#🇮🇷IR-🚀@VPNine1
@@ -49,11 +52,9 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpOMHQ3ZU90U3owam1JWHFPdHdSYno0eTJTMkZibjRKSTF
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowRVFXT1dpWTZwUlJvcHFwelAwU1NXOEhicEtlRFRWMDVBdXN6bUEyRjc4PQ@e4.cover20.ir:16156?type=tcp#🇮🇷IR-🚀@VPNine1
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozWXBxcjFoQmZLN3kxQzA3emo4TDdqVFBvSUFTS3ZoWWlWWk82Ty9qdm53PQ@e3.cover20.ir:56985?type=tcp#🇮🇷IR-🚀@VPNine1
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphQnNhb280cUtWZ1o2Mlo5SUk1ditDeHlkbTlmNHVwRHFtZTl1MDllTU1nPQ@e3.cover20.ir:56985?type=tcp#🇮🇷IR-🚀@VPNine1
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowVjhvM2krWHZGRUs5UW0va0loaS9MUXo3NFhZWHVCSXRJU2JmWFVFUDNBPQ@e3.cover20.ir:56985?type=tcp#🇮🇷IR-🚀@VPNine1
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpTZkpxQytiTmQ0UXRZZ0lSMys2NnRKU3A3emlKT1VseHQxcDRKUHkzN0JBPQ@e2.cover20.ir:30874?type=tcp#🇮🇷IR-🚀@VPNine1
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0WVFEdFlRbEVyRWJZeSs2SU5IK2RjTk9FeGM2c2JsMmxFaUEvMTV6aGZJPQ@e2.cover20.ir:30874?type=tcp#🇮🇷IR-🚀@VPNine1
 vless://928cfab8-097c-4f24-9bad-0d6e2abdfc66@95.lorqino.ir:998?path=/mmd&security=none&encryption=none&type=ws#🇮🇷IR-🚀@VPNine1
-vless://70e63e1e-08fc-4c8f-885f-ff55b2e57288@185.143.232.122:80?type=ws&encryption=none&path=/news&host=out10.pasargardnet.ir&security=none#🇮🇷IR-🚀@VPNine1
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowdTQ3eEp2cDJfcEdiQTVjMTNBU0hLODdEeER3azV6bQ@coco2.farajet.net:2020#@vasl_bashim
 vless://a8c6e908-fa7e-4d53-abdf-162fc47fe456@185.143.233.235:2053?encryption=none&security=tls&sni=top.mobixaco.ir&fp=random&insecure=0&allowInsecure=0&type=ws&host=top.mobixaco.ir&path=%2F#%40Configs_FreeIran
 trojan://33ws1asxa8vmbehw@snapp.ir:80?path=%2F&security=none&host=web.maxisup.ir&type=ws#Configs_FreeIran
