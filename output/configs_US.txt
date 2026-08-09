@@ -1,10 +1,12 @@
+vless://c1e43f18-5d63-4f34-b2e2-84b425cddfc7@95.182.114.74:443?encryption=none&security=none&type=tcp#%40filembad
+vless://35405b1b-a456-4835-862f-cd6488f761e0@95.182.114.74:443?encryption=none&security=none&type=tcp#🇺🇸US-🚀@VPNine1
+vless://4d064d9b-d4bb-468d-a4e0-948cf6a7541b@149.33.8.216:443?security=reality&encryption=none&pbk=oX_8IyRmI_X4pPWaGTbduLyvlZWwLkZlxJKmtvjmqEg&headerType=none&type=tcp&flow=xtls-rprx-vision&sni=smartcaptcha.yandexcloud.net&sid=03a70b17f8036009#%40filembad
+vless://4d064d9b-d4bb-468d-a4e0-948cf6a7541b@149.33.8.216:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=smartcaptcha.yandexcloud.net&pbk=oX_8IyRmI_X4pPWaGTbduLyvlZWwLkZlxJKmtvjmqEg&sid=03a70b17f8036009&type=tcp&headerType=none#%40filembad
+vless://4d064d9b-d4bb-468d-a4e0-948cf6a7541b@149.33.8.216:443?security=reality&encryption=none&pbk=oX_8IyRmI_X4pPWaGTbduLyvlZWwLkZlxJKmtvjmqEg&headerType=none&type=tcp&flow=xtls-rprx-vision&sni=smartcaptcha.yandexcloud.net&sid=03a70b17f8036009#🇺🇸US-🚀@VPNine1
 vless://0bcec952-a452-43ed-9468-4547b9f5dfc4@70.39.197.9:59216?&type=tcp&headerType=none&path=%2F#%40filembad
 vless://0bcec952-a452-43ed-9468-4547b9f5dfc4@70.39.197.9:59216?security=none&encryption=none&headerType=none&type=tcp#%40filembad
 vless://0bcec952-a452-43ed-9468-4547b9f5dfc4@70.39.197.9:59216?security=none&encryption=none&headerType=none&type=tcp#🇺🇸US-🚀@VPNine1
 vless://0bcec952-a452-43ed-9468-4547b9f5dfc4@70.39.197.9:59216?security=none&fp=&type=tcp&packetEncoding=xudp&encryption=none#5633%20%7C%20%F0%9F%87%BA%F0%9F%87%B8%20NetFreedom0
-vless://4d064d9b-d4bb-468d-a4e0-948cf6a7541b@149.33.8.216:443?security=reality&encryption=none&pbk=oX_8IyRmI_X4pPWaGTbduLyvlZWwLkZlxJKmtvjmqEg&headerType=none&type=tcp&flow=xtls-rprx-vision&sni=smartcaptcha.yandexcloud.net&sid=03a70b17f8036009#%40filembad
-vless://4d064d9b-d4bb-468d-a4e0-948cf6a7541b@149.33.8.216:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=smartcaptcha.yandexcloud.net&pbk=oX_8IyRmI_X4pPWaGTbduLyvlZWwLkZlxJKmtvjmqEg&sid=03a70b17f8036009&type=tcp&headerType=none#%40filembad
-vless://4d064d9b-d4bb-468d-a4e0-948cf6a7541b@149.33.8.216:443?security=reality&encryption=none&pbk=oX_8IyRmI_X4pPWaGTbduLyvlZWwLkZlxJKmtvjmqEg&headerType=none&type=tcp&flow=xtls-rprx-vision&sni=smartcaptcha.yandexcloud.net&sid=03a70b17f8036009#🇺🇸US-🚀@VPNine1
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpFdkxmV0dlMEFLdks@70.39.198.35:54166#%40filembad
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpFdkxmV0dlMEFLdks@70.39.198.35:54166?#%40filembad
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpFdkxmV0dlMEFLdks@70.39.198.35:54166#@DeltaKroneckerGithub
@@ -27,8 +29,6 @@ vless://fd22ad82-2d89-4338-b72c-5092ae699c7d@8.47.69.0:8880?encryption=none&type
 vless://fd22ad82-2d89-4338-b72c-5092ae699c7d@8.47.69.0:8880?security=none&sni=rutube.ummapeople.online&type=ws&host=rutube.ummapeople.online&path=/rutube#%F0%9F%87%B7%F0%9F%87%BA%20Russia%2C%20St%20Petersburg%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpqaVVUemZkUG83Zlc@70.39.178.204:42747#%40filembad
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpqaVVUemZkUG83Zlc@70.39.178.204:42747#🇺🇸US-🚀@VPNine1
-vless://35405b1b-a456-4835-862f-cd6488f761e0@95.182.114.74:443?encryption=none&security=none&type=tcp#%40filembad
-vless://35405b1b-a456-4835-862f-cd6488f761e0@95.182.114.74:443?encryption=none&security=none&type=tcp#🇺🇸US-🚀@VPNine1
 vless://412d7fbe-7474-4f1d-86c6-7eebdc628f72@8.6.112.7:8443?mode=auto&path=/&security=tls&encryption=none&insecure=0&fp=chrome&type=xhttp&allowInsecure=0&sni=ger3.kickfarsi.com#🚀@VPNine1
 vless://c49f366a-4171-491a-a16c-349909844910@nozomi.proxy.rlwy.net:24703?mode=auto&path=/assets&security=reality&encryption=none&extra=%7B%22mode%22:%22auto%22,%22xPaddingBytes%22:%225-70%22%7D&pbk=d-Ra_1uPf5oLwePV1GutozqIrbAD4-B8dFfI1btDzAk&fp=chrome&spx=/dc445fb74798890&type=xhttp&sni=www.samsung.com&sid=12fe28cdd72f#🇺🇸US-🚀@VPNine1
 vless://ca492c6b-2cfe-4f1c-aa5b-ac7835b38143@nozomi.proxy.rlwy.net:24703?mode=auto&path=/assets&security=reality&encryption=none&extra=%7B%22mode%22:%22auto%22,%22xPaddingBytes%22:%225-70%22%7D&pbk=d-Ra_1uPf5oLwePV1GutozqIrbAD4-B8dFfI1btDzAk&fp=chrome&spx=/f99ba05655c4e43&type=xhttp&sni=www.samsung.com&sid=79232d2004d721#🇺🇸US-🚀@VPNine1
