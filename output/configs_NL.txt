@@ -14,6 +14,7 @@ vless://41784775-8846-4579-9d9d-9ad6ea802e2e@37.48.89.17:49001?encryption=none&f
 vless://41784775-8846-4579-9d9d-9ad6ea802e2e@37.48.89.17:49001?encryption=none&flow=xtls-rprx-vision&fp=&pbk=_LbLyj6OynSREglFpkhdrxVmh_bf9p60uTEWfQbtUWo&security=reality&sid=1a6b1f9d0e&sni=de-7.techprovide.icu&type=tcp#🇳🇱NL-🚀@VPNine1
 vless://41784775-8846-4579-9d9d-9ad6ea802e2e@37.48.89.17:49001?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=_LbLyj6OynSREglFpkhdrxVmh_bf9p60uTEWfQbtUWo&sid=1a6b1f9d0e&sni=de-7.techprovide.icu#@DeltaKroneckerGithub
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.42:8080#%40filembad
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.42:8080#42%20NetFreedom0%20
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.42:8080#@DeltaKroneckerGithub
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpZVEV5WkRJME9HUXdNMlptWmpjNFpUZzFaVEJpWVRObFpUWmtaakl4T0RNPQ==@92.5.238.164:45819#%40filembad
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpZVEV5WkRJME9HUXdNMlptWmpjNFpUZzFaVEJpWVRObFpUWmtaakl4T0RNPQ==@92.5.238.164:45819#🇳🇱NL-🚀@VPNine1
@@ -29,6 +30,8 @@ vless://e6601d79-8a5f-46f9-a610-534a2703e1ce@81.94.148.119:65056?encryption=none
 vless://f7c25743-140c-4d32-a296-a53bc49682d8@84.32.96.102:443?security=reality&encryption=none&pbk=E12wXXagR8xuql7KlWCLTgMaXj74JcU__lg66yz6iTw&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=direct-nl.bachidze.com#%40filembad
 vless://f7c25743-140c-4d32-a296-a53bc49682d8@84.32.96.102:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=E12wXXagR8xuql7KlWCLTgMaXj74JcU__lg66yz6iTw&sni=direct-nl.bachidze.com#%40filembad
 vless://f7c25743-140c-4d32-a296-a53bc49682d8@84.32.96.102:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=E12wXXagR8xuql7KlWCLTgMaXj74JcU__lg66yz6iTw&sni=direct-nl.bachidze.com#🇳🇱NL-🚀@VPNine1
+vless://e73df646-1f62-41bf-8c50-653497d603d0@sc-thenetherlands2.09vpn.com:80?path=/vless/&security=&encryption=none&host=SC-TheNetherlands2.09vpn.com&type=ws#🇳🇱NL-🚀@VPNine1
+vless://48ff2b70-e180-582f-8866-d9a2edeed5f5@51.158.206.93:23576?security=reality&encryption=none&pbk=1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=fuck.rkn&sid=01#🇳🇱NL-🚀@VPNine1
 vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@134.98.135.155:62145?type=tcp&headerType=none&path=/#🇳🇱NL-🚀@VPNine1
 vless://a74099c6-2d46-42f7-b117-cc7ffaf09e63@139.28.98.115:443?security=reality&encryption=none&pbk=uMDJI4EuoKDaY6cCu26RACdCtBnN9DFq0JyhEZMdGhg&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=www.nvidia.com#🇳🇱NL-🚀@VPNine1
 vless://a74099c6-2d46-42f7-b117-cc7ffaf09e63@139.28.98.115:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=uMDJI4EuoKDaY6cCu26RACdCtBnN9DFq0JyhEZMdGhg&security=reality&sni=www.nvidia.com&type=tcp#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%2C%20Eygelshoven%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
@@ -54,10 +57,6 @@ vless://3e3f9a53-154e-4110-9059-08eede7d59db@sheykh.pingsf.ir:2056?encryption=no
 vless://48ff2b70-e180-582f-8866-d9a2edeed5f5@51.158.206.34:23576?security=reality&encryption=none&pbk=1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s&headerType=&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=fuck.rkn&sid=01#🇳🇱NL-🚀@VPNine1
 vless://48ff2b70-e180-582f-8866-d9a2edeed5f5@51.158.206.34:23576?security=reality&type=tcp&packetEncoding=xudp&sni=fuck.rkn&fp=chrome&flow=xtls-rprx-vision&sid=01&pbk=1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s&encryption=none#@DeltaKroneckerGithub
 vless://f692629b-3557-488a-9c9b-60775331e423@nl9.fi1-cosmostechnology.ru:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=N0QyBaacGqSpRv_Ib4jsSx5A1kfE8IE1w0HcDB5w1BE&security=reality&sni=fi1-cosmostechnology.ru&type=tcp#🇳🇱NL-🚀@VPNine1
-vless://40cc9b52-25b8-4cd5-8b45-715ae26e6baf@sc-thenetherlands1.09vpn.com:80?encryption=none&path=/vless/&security=none&type=ws#🇳🇱NL-🚀@VPNine1
-vless://40cc9b52-25b8-4cd5-8b45-715ae26e6baf@sc-thenetherlands1.09vpn.com:8443?encryption=none&security=tls&sni=sc-thenetherlands1.09vpn.com&fp=chrome&insecure=0&allowInsecure=0&type=ws&host=sc-thenetherlands1.09vpn.com&path=%2Fvless%2F#@DeltaKroneckerGithub
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.57:443#🇬🇧GB-🚀@VPNine1
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.57:443#@DeltaKroneckerGithub
 vless://631ee34f-4faf-4ad7-b49d-e6f50403cf0e@89.105.197.203:443?security=reality&encryption=none&pbk=mza5Hn1aolSz65qu-UwvBP3oesxMe25r11o4nxvikF0&headerType=none&type=tcp&flow=xtls-rprx-vision&sni=anyfile2file.com&sid=64c1fe36c7846400#@vasl_bashim
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.180:8080#@vasl_bashim
 vless://05caca6c-9e97-4c0f-8edf-7b88a6e572c5@mypanel.unixzone.us:12068?encryption=none&type=ws&path=%2F#@vasl_bashim
@@ -70,6 +69,14 @@ vless://e3c56988-5261-400f-b21b-6af5fa6efae1@130.49.185.196:443?encryption=none&
 vless://8892e34a-339b-4526-b88d-cf68c516231c@152.70.58.201:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.nvidia.com&pbk=Hg_ivwbClYmR-SEHdoGgq4yEk6ltbjS5c4yiQRa4_28&sid=52c723e0fad49689&type=tcp&headerType=none#best_internet_iran
 vless://39c42b0a-b823-4c93-bb99-74b4183e518d@85.155.226.134:443?security=reality&encryption=none&pbk=5Z6PwoPSNBLPIsX8lZtHM7-Y-psMMR1vz5Pit0EVISs&host=v2rayNplus--v2rayNplus--v2rayNplus&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=getsavesafe.net&sid=82f5d3a1e9c0b661#%D8%A7%DA%AF%D9%87%20%D9%85%DB%8C%D8%AE%D9%88%D8%A7%DB%8C%20%D9%82%D8%B7%D8%B9%20%D9%86%D8%B4%DB%8C%20%D8%AC%D9%88%DB%8C%D9%86%20%D8%B4%D9%88%20%3A%20%40farsiproxy
 vless://39c42b0a-b823-4c93-bb99-74b4183e518d@85.155.226.134:443?security=reality&type=tcp&packetEncoding=xudp&sni=getsavesafe.net&fp=firefox&flow=xtls-rprx-vision&sid=82f5d3a1e9c0b661&pbk=5Z6PwoPSNBLPIsX8lZtHM7-Y-psMMR1vz5Pit0EVISs#@DeltaKroneckerGithub
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.46:8080#%F0%9F%87%B3%F0%9F%87%B1%20%F0%9F%8D%8B%E2%80%8D%F0%9F%9F%A9@LimeVPNFREE%F0%9F%8D%8B%E2%80%8D%F0%9F%9F%A9
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.46:8080#@DeltaKroneckerGithub
+trojan://humanity@109.71.241.236:8443?path=%2Fassignment&security=tls&insecure=0&host=www.calmlunch.com&type=ws&allowInsecure=0&sni=www.calmlunch.com#%F0%9F%87%AB%F0%9F%87%B7%20France%2C%20Paris%20%7C%20%5BBL%5D
+trojan://humanity@168.100.9.178:2053?path=%2Fassignment&security=tls&insecure=0&host=www.calmlunch.com&type=ws&allowInsecure=0&sni=www.calmlunch.com#%F0%9F%87%AB%F0%9F%87%B7%20France%2C%20Paris%20%7C%20%5BBL%5D
+trojan://humanity@168.100.9.178:2053?path=/assignment&security=tls&sni=www.calmlunch.com&type=ws&sni=www.calmlunch.com#%F0%9F%87%AB%F0%9F%87%B7%20France%2C%20Paris%20%7C%20%5BBL%5D
+trojan://humanity@168.100.9.178:2053?path=%2Fassignment&security=tls&insecure=0&host=www.calmlunch.com&type=ws&allowInsecure=0&sni=www.calmlunch.com#@DeltaKroneckerGithub
+trojan://humanity@185.164.163.173:8443?path=%2Fassignment&security=tls&insecure=0&host=www.calmlunch.com&type=ws&allowInsecure=0&sni=www.calmlunch.com#%F0%9F%87%AB%F0%9F%87%B7%20France%2C%20Paris%20%7C%20%5BBL%5D
+trojan://humanity@45.87.41.18:443?path=/assignment&security=tls&sni=www.calmlunch.com&type=ws&sni=www.calmlunch.com#%F0%9F%87%AB%F0%9F%87%B7%20France%2C%20Paris%20%7C%20%5BBL%5D
 vless://c28ee61d-0d43-4e69-8e6a-6397ed0ffc03@94.249.225.80:443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=X6zcH8pCUXrauNQvbNkm8e_oTdB0wOr8eCMCzs3b1Tc&security=reality&sni=warm-gazelle.cdn.cachefleet.com&type=tcp#.%F0%96%A5%94%20%DD%81%20%CB%96%D6%B4%F0%9F%9B%B8%E0%BC%84%CB%96%C2%B0.%20%7C%20%5BBL%5D
 vless://c28ee61d-0d43-4e69-8e6a-6397ed0ffc03@94.249.225.80:443?flow=xtls-rprx-vision&security=reality&encryption=none&sni=warm-gazelle.cdn.cachefleet.com&fp=random&pbk=X6zcH8pCUXrauNQvbNkm8e_oTdB0wOr8eCMCzs3b1Tc&type=tcp&path=/#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%2C%20Amsterdam%20%7C%20%5BBL%5D
 vless://c28ee61d-0d43-4e69-8e6a-6397ed0ffc03@94.249.225.80:443?security=reality&encryption=none&pbk=X6zcH8pCUXrauNQvbNkm8e_oTdB0wOr8eCMCzs3b1Tc&headerType=&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=warm-gazelle.cdn.cachefleet.com#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%2C%20Amsterdam%20%7C%20%5BBL%5D
@@ -83,14 +90,6 @@ vless://a74099c6-2d46-42f7-b117-cc7ffaf09e63@139.28.98.87:443?encryption=none&fl
 vless://a74099c6-2d46-42f7-b117-cc7ffaf09e63@85.155.101.37:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=uMDJI4EuoKDaY6cCu26RACdCtBnN9DFq0JyhEZMdGhg&security=reality&sni=www.nvidia.com&type=tcp#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%2C%20Eygelshoven%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
 vless://f885cecc-a6ea-4e9b-87da-c7dc4b745348@213.193.254.59:8443?encryption=none&fp=firefox&pbk=sgFFdQvfeujBKh6g7N7klU_u0mKYlr800MFbko5FzUg&security=reality&serviceName=grpc-yandex&sid=844352756c1fabba&sni=avatars.mds.yandex.net&type=grpc#%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%2C%20Slough%20%7C%20%5BBL%5D
 vless://f885cecc-a6ea-4e9b-87da-c7dc4b745348@uk.riotvpn.eu:8443?security=reality&type=grpc&mode=gun&serviceName=grpc-yandex&sni=avatars.mds.yandex.net&fp=qq&sid=844352756c1fabba&pbk=sgFFdQvfeujBKh6g7N7klU_u0mKYlr800MFbko5FzUg#%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%2C%20Slough%20%7C%20%5BBL%5D
-trojan://humanity@109.71.241.236:8443?path=%2Fassignment&security=tls&insecure=0&host=www.calmlunch.com&type=ws&allowInsecure=0&sni=www.calmlunch.com#%F0%9F%87%AB%F0%9F%87%B7%20France%2C%20Paris%20%7C%20%5BBL%5D
-trojan://humanity@168.100.9.178:2053?path=%2Fassignment&security=tls&insecure=0&host=www.calmlunch.com&type=ws&allowInsecure=0&sni=www.calmlunch.com#%F0%9F%87%AB%F0%9F%87%B7%20France%2C%20Paris%20%7C%20%5BBL%5D
-trojan://humanity@168.100.9.178:2053?path=/assignment&security=tls&sni=www.calmlunch.com&type=ws&sni=www.calmlunch.com#%F0%9F%87%AB%F0%9F%87%B7%20France%2C%20Paris%20%7C%20%5BBL%5D
-trojan://humanity@168.100.9.178:2053?path=%2Fassignment&security=tls&insecure=0&host=www.calmlunch.com&type=ws&allowInsecure=0&sni=www.calmlunch.com#@DeltaKroneckerGithub
-trojan://humanity@185.164.163.173:8443?path=%2Fassignment&security=tls&insecure=0&host=www.calmlunch.com&type=ws&allowInsecure=0&sni=www.calmlunch.com#%F0%9F%87%AB%F0%9F%87%B7%20France%2C%20Paris%20%7C%20%5BBL%5D
-trojan://humanity@45.87.41.18:443?path=/assignment&security=tls&sni=www.calmlunch.com&type=ws&sni=www.calmlunch.com#%F0%9F%87%AB%F0%9F%87%B7%20France%2C%20Paris%20%7C%20%5BBL%5D
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.46:8080#%F0%9F%87%B3%F0%9F%87%B1%20%F0%9F%8D%8B%E2%80%8D%F0%9F%9F%A9@LimeVPNFREE%F0%9F%8D%8B%E2%80%8D%F0%9F%9F%A9
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.46:8080#@DeltaKroneckerGithub
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.7:8080freenettirThe#@DeltaKroneckerGithub
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.7:8080freenettirThe
 ss://chacha20-ietf-poly1305:oZIoA69Q8yhcQV8ka3Pa3A@82.38.31.7:8080#@DeltaKroneckerGithub
@@ -129,7 +128,9 @@ vless://6202b230-417c-4d8e-b624-0f71afa9c75d@185.148.107.30:8880?type=ws&host=vm
 vless://e73df646-1f62-41bf-8c50-653497d603d0@163.172.213.174:80/?type=ws&encryption=none&host=SC-TheNetherlands2.09vpn.com&path=%2Fvless%2F#@DeltaKroneckerGithub
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.18:8080#@DeltaKroneckerGithub
 vless://48ff2b70-e180-582f-8866-d9a2edeed5f5@51.158.206.12:23576?security=reality&type=raw&packetEncoding=xudp&sni=fuck.rkn&fp=chrome&flow=xtls-rprx-vision&sid=01&pbk=1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s&encryption=none#@DeltaKroneckerGithub
+vless://40cc9b52-25b8-4cd5-8b45-715ae26e6baf@sc-thenetherlands1.09vpn.com:8443?encryption=none&security=tls&sni=sc-thenetherlands1.09vpn.com&fp=chrome&insecure=0&allowInsecure=0&type=ws&host=sc-thenetherlands1.09vpn.com&path=%2Fvless%2F#@DeltaKroneckerGithub
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.201:8080#@DeltaKroneckerGithub
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.57:443#@DeltaKroneckerGithub
 trojan://humanity@80.74.28.213:443?path=%2Fassignment&security=tls&insecure=0&host=www.calmlunch.com&type=ws&allowInsecure=0&sni=www.calmlunch.com#@DeltaKroneckerGithub
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0YTJyZml4b3BoZGpmZmE4S1ZBNEFh@193.29.139.234:8080#@DeltaKroneckerGithub
 trojan://IQ68037294@193.169.239.14:443?sni=emerging-weevil.rooster465.autos&fp=chrome&type=tcp&path=/#@DeltaKroneckerGithub
