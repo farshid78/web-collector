@@ -1,144 +1,4 @@
 {
-  "46.8.225.45": {
-    "country": "FR",
-    "ts": 1785238083
-  },
-  "193.9.49.166": {
-    "country": "RU",
-    "ts": 1785238083
-  },
-  "3x-ui-production-eb5f.up.railway.app": {
-    "country": "US",
-    "ts": 1785238083
-  },
-  "104.194.148.56": {
-    "country": "US",
-    "ts": 1785238083
-  },
-  "lx.goofymoofy.com": {
-    "country": "LU",
-    "ts": 1785238083
-  },
-  "194.77.220.156": {
-    "country": "DE",
-    "ts": 1785238083
-  },
-  "51.44.136.17": {
-    "country": "FR",
-    "ts": 1785238083
-  },
-  "134.65.62.48": {
-    "country": "GB",
-    "ts": 1785238083
-  },
-  "172.67.217.107": {
-    "country": "CA",
-    "ts": 1785238083
-  },
-  "138.199.228.1": {
-    "country": "DE",
-    "ts": 1785238083
-  },
-  "104.21.35.20": {
-    "country": "CA",
-    "ts": 1785238083
-  },
-  "198.62.62.137": {
-    "country": "US",
-    "ts": 1785238083
-  },
-  "154.64.228.51": {
-    "country": "US",
-    "ts": 1785238083
-  },
-  "3x-ui-production-e032.up.railway.app": {
-    "country": "US",
-    "ts": 1785238083
-  },
-  "31.76.122.42": {
-    "country": "PL",
-    "ts": 1785238083
-  },
-  "87.236.208.128": {
-    "country": "IR",
-    "ts": 1785238083
-  },
-  "185.22.154.103": {
-    "country": "RU",
-    "ts": 1785238083
-  },
-  "84.201.167.190": {
-    "country": "RU",
-    "ts": 1785238083
-  },
-  "217.114.12.143": {
-    "country": "RU",
-    "ts": 1785238083
-  },
-  "159.194.200.159": {
-    "country": "RU",
-    "ts": 1785238083
-  },
-  "185.143.233.120": {
-    "country": "IR",
-    "ts": 1785238083
-  },
-  "104.26.10.137": {
-    "country": "CA",
-    "ts": 1785238083
-  },
-  "uk1.test3.net": {
-    "country": "GB",
-    "ts": 1785238083
-  },
-  "141.164.45.187": {
-    "country": "KR",
-    "ts": 1785238083
-  },
-  "tw2.microsoft-orgwly.vip": {
-    "country": "TW",
-    "ts": 1785238083
-  },
-  "dn.torontomovie.com": {
-    "country": "IR",
-    "ts": 1785238083
-  },
-  "panel.jorgotr.ir": {
-    "country": "TR",
-    "ts": 1785238083
-  },
-  "gr4.levikogjgfdd.ir": {
-    "country": "DE",
-    "ts": 1785238083
-  },
-  "rz1p5.pastilbastani.ir": {
-    "country": "NL",
-    "ts": 1785238083
-  },
-  "ca1.levikogjgfdd.ir": {
-    "country": "CA",
-    "ts": 1785238083
-  },
-  "cdn11.k44lawm.ir": {
-    "country": "CA",
-    "ts": 1785238083
-  },
-  "uk1.levikogjgfdd.ir": {
-    "country": "HK",
-    "ts": 1785238083
-  },
-  "fi1.levikogjgfdd.ir": {
-    "country": "FR",
-    "ts": 1785238083
-  },
-  "ade.axiomed.ir": {
-    "country": "CA",
-    "ts": 1785238083
-  },
-  "test.tw1x.space": {
-    "country": "RU",
-    "ts": 1785238084
-  },
   "82.115.26.124": {
     "country": "DE",
     "ts": 1785244397
@@ -45050,5 +44910,109 @@
   "c2.nyanners.ir": {
     "country": "CA",
     "ts": 1786446788
+  },
+  "lively-pine-093d.144-868.workers.dev": {
+    "country": "CA",
+    "ts": 1786449339
+  },
+  "94.198.220.183": {
+    "country": "KZ",
+    "ts": 1786449339
+  },
+  "201.34.141.83": {
+    "country": "RU",
+    "ts": 1786449339
+  },
+  "5.8.35.72": {
+    "country": "IN",
+    "ts": 1786449339
+  },
+  "193.134.100.23": {
+    "country": "IR",
+    "ts": 1786449339
+  },
+  "5.175.178.53": {
+    "country": "EE",
+    "ts": 1786449339
+  },
+  "81.90.21.225": {
+    "country": "SE",
+    "ts": 1786449339
+  },
+  "31.25.11.144": {
+    "country": "DE",
+    "ts": 1786449339
+  },
+  "151.101.110.209": {
+    "country": "US",
+    "ts": 1786449339
+  },
+  "152.53.173.90": {
+    "country": "DE",
+    "ts": 1786449339
+  },
+  "xiweini.dpdns.org": {
+    "country": "HK",
+    "ts": 1786449339
+  },
+  "t11.qifei.app": {
+    "country": "JP",
+    "ts": 1786449339
+  },
+  "45.196.201.221": {
+    "country": "FR",
+    "ts": 1786449339
+  },
+  "144.31.3.136": {
+    "country": "PL",
+    "ts": 1786449339
+  },
+  "tw2.microsoft-orgwly.vip": {
+    "country": "TW",
+    "ts": 1786449339
+  },
+  "uk1.test3.net": {
+    "country": "GB",
+    "ts": 1786449340
+  },
+  "grde.systemcont.ir": {
+    "country": "DE",
+    "ts": 1786449340
+  },
+  "grd.aminicity.ir": {
+    "country": "DE",
+    "ts": 1786449340
+  },
+  "fr--------------------------sdcs-fdvc-vf-cf.systemcont.ir": {
+    "country": "FR",
+    "ts": 1786449340
+  },
+  "master.appcodes.ir": {
+    "country": "FR",
+    "ts": 1786449340
+  },
+  "azar-sdvf-sad3qeasdd-fgresedfsadwqewr-rjhgreas-fewrfghjhgwfq.supros.ir": {
+    "country": "AZ",
+    "ts": 1786449340
+  },
+  "trader.appcodes.ir": {
+    "country": "TR",
+    "ts": 1786449340
+  },
+  "us--------------------------------fdzcxv-d.plytob.ir": {
+    "country": "US",
+    "ts": 1786449340
+  },
+  "fan-sdfgh-gsfgn-hvfxw-sfvr-fvb--sdgb-gf-dc-dfvb.aminicity.ir": {
+    "country": "FI",
+    "ts": 1786449340
+  },
+  "ocd.appcodes.ir": {
+    "country": "UNKNOWN",
+    "ts": 1786449340
+  },
+  "JHKiom90iuoa.horlutr.ir": {
+    "country": "DE",
+    "ts": 1786449340
   }
 }
