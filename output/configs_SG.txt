@@ -1,7 +1,9 @@
 vless://9206ae06-88ee-49b1-a558-531ade80fcaa@178.128.112.70:443?security=reality&encryption=none&pbk=-O8QFkqeMAc6TzQp6eY1s38my_8jhBd7HDHxNki6QlY&headerType=none&fp=chrome&spx=%2F&type=tcp&flow=xtls-rprx-vision&sni=www.amazon.com&sid=7f7f#%40filembad
 vless://9206ae06-88ee-49b1-a558-531ade80fcaa@178.128.112.70:443?security=reality&encryption=none&pbk=-O8QFkqeMAc6TzQp6eY1s38my_8jhBd7HDHxNki6QlY&headerType=none&fp=chrome&spx=/&type=tcp&flow=xtls-rprx-vision&sni=www.amazon.com&sid=7f7f#🇸🇬SG-🚀@VPNine1
 ss://YWVzLTI1Ni1nY206eXB2bTlyZ0I4YmdYQTVPZg@194.87.10.173:8388#%40filembad
-ss://YWVzLTI1Ni1nY206eXB2bTlyZ0I4YmdYQTVPZg@194.87.10.173:8388#🇸🇬SG-🚀@VPNine1
+vless://e99ba96d-dec8-42eb-be53-19e71eef7cab@5.253.42.164:40443?security=reality&encryption=none&pbk=g77ZJbm18JEotapmVRjaXi133MzkbhkU2lxhVeXx8zw&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=deepl.com&sid=68a8#🇨🇾CY-🚀@VPNine1
+vless://e99ba96d-dec8-42eb-be53-19e71eef7cab@5.253.42.164:40443?security=reality&encryption=none&pbk=g77ZJbm18JEotapmVRjaXi133MzkbhkU2lxhVeXx8zw&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=deepl.com&sid=68a8#%F0%9F%8C%9F%20%40MTproxy22_v2ray
+vless://e99ba96d-dec8-42eb-be53-19e71eef7cab@5.253.42.164:40443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=g77ZJbm18JEotapmVRjaXi133MzkbhkU2lxhVeXx8zw&sid=68a8&sni=deepl.com#@DeltaKroneckerGithub
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp0MHNybWR4cm0zeHlqbnZxejlld2x4YjJteXE3cmp1dg@3.1.195.22:2377?plugin=obfs-local%3Bobfs=tls%3Bobfs-host=%28Telegram%F0%9F%87%A8%F0%9F%87%B3%20@VPNine1%299c5b8dc:55476#🇸🇬SG-🚀@VPNine1
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp0MHNybWR4cm0zeHlqbnZxejlld2x4YjJteXE3cmp1dg@47.129.228.114:2377?plugin=obfs-local%3Bobfs=tls%3Bobfs-host=%28Telegram%F0%9F%87%A8%F0%9F%87%B3%20@VPNine1%29aa1c23d:49858#🇸🇬SG-🚀@VPNine1
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp0MHNybWR4cm0zeHlqbnZxejlld2x4YjJteXE3cmp1dg@18.139.160.226:2377?plugin=obfs-local%3Bobfs=tls%3Bobfs-host=%28Telegram%F0%9F%87%A8%F0%9F%87%B3%20@VPNine1%29d4cbbb2:42774#🇸🇬SG-🚀@VPNine1
@@ -19,6 +21,8 @@ vless://1a17b19d-4896-4531-af79-6e91d8ef8228@13.212.140.244:8686?encryption=none
 ss://MjAyMi1ibGFrZTMtYWVzLTI1Ni1nY206TURWbU1EWm1NamN4TUdWaFpUaGxZbVZrWkdFd09UaGlObUpqWVRZek16Yz06WVRsa056STNZMlF0TXpNd1lpMDBaV1JrTFRnNU1URXROMk15TWpSa1pqWT0@sg-01.jjsdns.com:19822?#%40Configs_FreeIran
 vless://0970324b-8c61-4ae7-8c3f-385a6f1e17e4@45.8.211.14:443?encryption=none&type=ws&security=tls&path=%2F&host=vpn47.cc.cd&sni=vpn47.cc.cd&fp=chrome&insecure=0&allowInsecure=0#T.me/CONFiGiR98
 vmess://eyJhZGQiOiIxNDkuODguMjMuMjA3IiwiYWlkIjoiMCIsImFscG4iOm51bGwsImZwIjpudWxsLCJob3N0IjoiIiwiaWQiOiJmOGM4ZGMzZC0wZDM3LTQ2YjAtOGIzNC1hNzIzMjg4MmZjZmUiLCJuYW1lIjoiXHVkODNjXHVkZGY4XHVkODNjXHVkZGVjIFNHIDEiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiLyIsInBvcnQiOjE4MDAwLCJwcyI6Ilx1ZDgzY1x1ZGRmOFx1ZDgzY1x1ZGRlYyBKb2luK1RlbGVncmFtOkBGYXJhaF9WUE4gXHVkODNjXHVkZGY4XHVkODNjXHVkZGVjIiwic2N5IjpudWxsLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlLCJzbmkiOm51bGwsInRscyI6IiIsInR5cGUiOm51bGwsInYiOm51bGx9
+vless://0c97c970-41be-47dd-80d6-06c9a5c9c458@47.236.106.241:40480?security=none&encryption=none&headerType=none&type=tcp#%F0%9F%87%B8%F0%9F%87%AC%20Singapore%2C%20Singapore%20%7C%20%5BBL%5D
+vless://0c97c970-41be-47dd-80d6-06c9a5c9c458@47.236.106.241:40480?type=tcp&encryption=none&host=&path=&headerType=none&quicSecurity=none&serviceName=&security=&flow=&fp=chrome&insecure=1#%F0%9F%87%B8%F0%9F%87%AC%20Singapore%2C%20Singapore%20%7C%20%5BBL%5D
 trojan://ON38567014@aware-corgi.rooster465.autos:443?sni=aware-corgi.rooster465.autos&type=tcp&fp=chrome#@DeltaKroneckerGithub
 trojan://JA96378052@aware-corgi.rooster465.autos:443?allowInsecure=1&sni=aware-corgi.rooster465.autos#@DeltaKroneckerGithub
 ss://bm9uZTpodHRwczovL3QubWUvV2FuZ0NhaTLwn4eo8J%2BHsw@194.127.192.165:443?plugin=v2ray-plugin%3Bmode%3Dwebsocket%3Bhost%3Dwoshinidie-et3.pages.dev%3Bpath%3D59fc5f8c-5697-4eb8-acf2-8ae363f203a2%2F%3Fed%5C%3D2560%3Btls%3Bmux%3D0#@DeltaKroneckerGithub
@@ -35,7 +39,6 @@ ss://bm9uZTo1OWZjNWY4Yy01Njk3LTRlYjgtYWNmMi04YWUzNjNmMjAzYTI@194.233.67.84:443?p
 trojan://PD07395842@cosmic-shepherd.rooster465.autos:443?sni=cosmic-shepherd.rooster465.autos&type=tcp&fp=chrome#@DeltaKroneckerGithub
 trojan://HW85960347@pro-mako.rooster465.autos:443?allowInsecure=0&sni=pro-mako.rooster465.autos#@DeltaKroneckerGithub
 vless://769d922d-9ca6-4ba9-81f2-a6df0a0c4531@52.77.22.203:443?&security=reality&flow=xtls-rprx-vision&pbk=SChM_MUYbRz8lzGu19qFDpFaBxok7CTorYM04zxgL1o&sid=fd733ad36894c4a3&fp=chrome&sni=www.cloudflare.com&type=tcp&headerType=none&host=www.cloudflare.com&path=%2F#@DeltaKroneckerGithub
-vless://e99ba96d-dec8-42eb-be53-19e71eef7cab@5.253.42.164:40443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=g77ZJbm18JEotapmVRjaXi133MzkbhkU2lxhVeXx8zw&sid=68a8&sni=deepl.com#@DeltaKroneckerGithub
 trojan://HC04361579@tops-owl.rooster465.autos:443?allowInsecure=1&sni=tops-owl.rooster465.autos#@DeltaKroneckerGithub
 trojan://PD07395842@amazed-mako.rooster465.autos:443?sni=amazed-mako.rooster465.autos&type=tcp&fp=chrome#@DeltaKroneckerGithub
 trojan://16877c70-e7b8-11ec-99f2-1239d0255272@139.162.61.193:443/?type=tcp&security=tls&sni=w13.udpgw.com&allowInsecure=1#@DeltaKroneckerGithub
