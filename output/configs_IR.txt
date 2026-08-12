@@ -41,7 +41,6 @@ vless://a806ce83-2d8c-4bad-b508-bda4d9efc4ea@snapp.ir:2082?encryption=none&host=
 trojan://33ws1asxa8vmbehw@snapp.ir:80?path=%2F&security=none&host=web.maxisup.ir&type=ws#Configs_FreeIran
 vless://a33300d9-7444-4426-9689-2de937991627@Tr1.nitroserver.cloud:8080?type=tcp&security=none#🇮🇷IR-🚀@VPNine1
 vless://40c25c67-ede3-417e-6b4a-77ca450a195a@s2.zynetraq.ir:2087?alpn=h2,http/1.1,h3&encryption=none&extra=%7B%22mode%22:%22auto%22,%22xPaddingBytes%22:%22100-1000%22%7D&fp=chrome&host=s2.zynetraq.ir&mode=auto&path=/BetForward&pcs=0258c1ff5f1251a516a8ac42c354d3f757e43355dce7ac49e870acf3973ab711&security=tls&sni=s2.zynetraq.ir&type=xhttp&x_padding_bytes=100-1000#🇮🇷IR-🚀@VPNine1
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp5dWJlcVcyRGdocUkvN0phZWpYeEdQeDA2LzFNOGQ5ZmxJY1lmR29YdkpvPQ@e3.cover20.ir:56985?type=tcp#🇮🇷IR-🚀@VPNine1
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowdTQ3eEp2cDJfcEdiQTVjMTNBU0hLODdEeER3azV6bQ@coco2.farajet.net:2020#@vasl_bashim
 vless://a8c6e908-fa7e-4d53-abdf-162fc47fe456@185.143.233.235:2053?encryption=none&security=tls&sni=top.mobixaco.ir&fp=random&insecure=0&allowInsecure=0&type=ws&host=top.mobixaco.ir&path=%2F#%40Configs_FreeIran
 vless://bf58f3cd-7c8c-4650-bd7a-028df18b3ba0@tuntr.supros.ir:2095?encryption=none&security=none&type=tcp&headerType=http&path=%2F&host=play.google.com#%E2%9C%A8%20@NamiraConfigs%20%7C%20%E2%9D%A4%EF%B8%8F%20%D9%88%D8%B5%D9%84%20%D8%B4%D8%AF%DB%8C%20%D8%AC%D9%88%DB%8C%D9%86%20%D8%B4%D9%88%20%7C%20%F0%9F%9A%80%20%7C%20%F0%9F%87%AE%F0%9F%87%B7
