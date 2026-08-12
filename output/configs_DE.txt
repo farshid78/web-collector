@@ -57,6 +57,10 @@ vless://e4514801-0d5a-42ba-869f-39bd605aef9e@63.180.222.124:22222?encryption=non
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@63.180.222.124:22222?encryption=none&security=none&type=tcp#%40filembad
 vless://eda6b321-aa59-4b1e-b823-3616af020b4a@194.5.207.6:443?encryption=none&security=reality&sni=play.google.com&fp=chrome&pbk=8Cho6K3KB6Aoty9x_TCAbY3yv7m-ToCHqaKkZTxR3jM&sid=d6c3c9&spx=%2F&type=tcp&headerType=none#%40filembad
 vless://eda6b321-aa59-4b1e-b823-3616af020b4a@194.5.207.6:443?security=reality&encryption=none&pbk=8Cho6K3KB6Aoty9x_TCAbY3yv7m-ToCHqaKkZTxR3jM&headerType=none&fp=chrome&spx=%2F&type=tcp&sni=play.google.com&sid=d6c3c9#%40filembad
+vless://551955b3-46e9-5129-95c9-e7474c15ed6b@159.195.40.19:443?alpn=http/1.1&encryption=none&flow=xtls-rprx-vision&fp=firefox&security=tls&sni=de7.fast-connect-service.site&type=tcp#🇩🇪DE-🚀@VPNine1
+ss://8033102198@159.195.40.19:443?security=tls&alpn=http/1.1&encryption=none&insecure=0&headerType=none&fp=firefox&type=tcp&allowInsecure=0&flow=xtls-rprx-vision&sni=de7.fast-connect-service.site#🇩🇪DE-🚀@VPNine1
+vless://8033102198@159.195.40.19:443?security=tls&alpn=http/1.1&encryption=none&insecure=0&headerType=none&fp=firefox&type=tcp&allowInsecure=0&flow=xtls-rprx-vision&sni=de7.fast-connect-service.site#🇩🇪DE-🚀@VPNine1
+vless://8033102198@159.195.40.19:443?security=tls&alpn=http%2F1.1&encryption=none&insecure=0&headerType=none&fp=firefox&type=tcp&allowInsecure=0&flow=xtls-rprx-vision&sni=de7.fast-connect-service.site#%40vasl_bashim
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@63.186.162.237:22222?encryption=none&security=none&type=tcp#🇩🇪DE-🚀@VPNine1
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@63.186.162.237:22223?encryption=none&security=none&type=tcp#🇩🇪DE-🚀@VPNine1
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@63.186.162.237:22224?encryption=none&security=none&type=tcp#🇩🇪DE-🚀@VPNine1
@@ -86,9 +90,6 @@ vless://bf58f3cd-7c8c-4650-bd7a-028df18b3ba0@gfeefd.systemcont.ir:2024?encryptio
 vless://5109835e-f49b-4094-a069-3ad3ce240e9d@169.40.138.65:27254?security=none&encryption=none&headerType=none&type=tcp#🇩🇪DE-🚀@VPNine1
 vless://5109835e-f49b-4094-a069-3ad3ce240e9d@169.40.138.65:27254?security=none&encryption=none&headerType=none&type=tcp#%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Berlin%20%7C%20%5BBL%5D
 ss://MjAyMi1ibGFrZTMtYWVzLTI1Ni1nY206bWtLZnhuZENaOWMzWUlrQUFtQU5ydGZJL21sR0p3d1Y5L0dkVlRZZ1czTT06SmF6eGlZYzNNYzV0TG4vVGUzVDU5VzZadzRaL0JQdWVwUTBWbFZEL2NaOD0@193.124.203.144:443#🇳🇱NL-🚀@VPNine1
-ss://8033102198@159.195.40.19:443?security=tls&alpn=http/1.1&encryption=none&insecure=0&headerType=none&fp=firefox&type=tcp&allowInsecure=0&flow=xtls-rprx-vision&sni=de7.fast-connect-service.site#🇩🇪DE-🚀@VPNine1
-vless://8033102198@159.195.40.19:443?security=tls&alpn=http/1.1&encryption=none&insecure=0&headerType=none&fp=firefox&type=tcp&allowInsecure=0&flow=xtls-rprx-vision&sni=de7.fast-connect-service.site#🇩🇪DE-🚀@VPNine1
-vless://8033102198@159.195.40.19:443?security=tls&alpn=http%2F1.1&encryption=none&insecure=0&headerType=none&fp=firefox&type=tcp&allowInsecure=0&flow=xtls-rprx-vision&sni=de7.fast-connect-service.site#%40vasl_bashim
 vless://ddd72e51-9224-43a2-b3a0-9c4170f78ed1@178.83.46.30:5794?type=tcp&headerType=none&path=/#🇩🇪DE-🚀@VPNine1
 vless://5b76523a-9e3b-456f-ba28-84e9aaa168cf@newhzco.tdomainasite.ir:50145?mode=auto&path=/&security=reality&encryption=none&pbk=LExwkniKKYxxq6fVDL4niD44rD3YW-qpdKDma__4j1M&fp=chrome&type=xhttp&sni=token.safebrowsing.apple&sid=2214d756414bc9d9#🇩🇪DE-🚀@VPNine1
 vless://b673ff2d-cc94-4286-93fc-a5d6ac65ae0b@sv5.nonpath.ir:42542?encryption=none&security=none&type=tcp&headerType=http&path=/&host=diwork.com#🇩🇪DE-🚀@VPNine1
@@ -105,7 +106,6 @@ vless://b3a87a0b-4939-4fd6-81cd-80f64f8e25bd@JHKiom90iuoa.horlutr.ir:2087?securi
 vless://06d44c57-8e1a-41f4-b9c4-65d35869e078@78.17.105.54:13868?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=XxzDVidmyjuPnBKrFDwCpowaIdLth4-kJsqrDvdPPx8&sid=e852dc&sni=amd.com#🇦🇪AE-🚀@VPNine1
 vmess://eyJhZGQiOiIxNTkuODkuMjkuMTM2IiwiYWlkIjoiMCIsImhvc3QiOiJjeC5jb20iLCJpZCI6ImQyMGQ2ZWRlLTQzM2MtMTFlZC1iODFmLWNmZDkwNWRmOTk1OCIsIm5ldCI6IndzIiwicGF0aCI6Ii92bWVzcyIsInBvcnQiOiI4MCIsInBzIjoidmlwIG1haHNhIPCfh7rwn4eyIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiIiLCJ2IjoiMiJ9
 vless://a8e3155b-ceb1-4fcb-bc0c-2e77ec005401@api.noneok.com:443?mode=gun&security=reality&encryption=none&pbk=S8O8R938N960cpQfIIDXsJTxeGAkbVv6PlIqP0-d30w&type=grpc&serviceName=api.v1.StreamService&sni=api.noneok.com&sid=1ea59febb8d4fc8e#%40vasl_bashim
-vless://a8e3155b-ceb1-4fcb-bc0c-2e77ec005401@api.noneok.com:443?encryption=none&type=grpc&security=reality&serviceName=api.v1.StreamService&mode=gun&sni=api.noneok.com&insecure=1&allowInsecure=1&pbk=S8O8R938N960cpQfIIDXsJTxeGAkbVv6PlIqP0-d30w&sid=1ea59febb8d4fc8e#%40hi_proxy_iran
 vless://56e409a0-0042-4f50-92cd-741f78bfc8d0@185.136.12.28:8443?security=reality&encryption=none&pbk=AJaF22KofrLCIR4CTB1vtLk-jFOD2uZXbuUh2cKT4Bk&headerType=none&fp=firefox&spx=%2FU70oF9OsnzuRflI&type=tcp&flow=xtls-rprx-vision&sni=g.co&sid=8f5ed0#@vasl_bashim
 vless://a8e3155b-ceb1-4fcb-bc0c-2e77ec005401@88.216.220.88:443?mode=gun&security=reality&encryption=none&pbk=q3kOYHdjmqWLLYj8oikvna1bTjofk45ktegGaJE611g&type=grpc&serviceName=api.v1.StreamService&sni=files.noneok.com&sid=d3b394558cfe0266#@vasl_bashim
 vless://69310498-49c1-485e-b197-9db9938cceae@49.12.100.150:50399?security=&encryption=none&host=play.google.com&headerType=http&type=tcp#@vasl_bashim

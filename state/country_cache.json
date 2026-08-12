@@ -1,220 +1,4 @@
 {
-  "138.124.100.0": {
-    "country": "EE",
-    "ts": 1785320004
-  },
-  "104.16.239.120": {
-    "country": "CA",
-    "ts": 1785320004
-  },
-  "45.38.23.176": {
-    "country": "US",
-    "ts": 1785320004
-  },
-  "167.17.182.192": {
-    "country": "DE",
-    "ts": 1785320004
-  },
-  "es1.levikogjgfdd.ir": {
-    "country": "NL",
-    "ts": 1785320004
-  },
-  "207.174.133.222": {
-    "country": "HK",
-    "ts": 1785320004
-  },
-  "141.144.204.163": {
-    "country": "NL",
-    "ts": 1785320004
-  },
-  "167.82.101.251": {
-    "country": "US",
-    "ts": 1785320004
-  },
-  "66.234.150.145": {
-    "country": "FI",
-    "ts": 1785320004
-  },
-  "162.159.141.83": {
-    "country": "CA",
-    "ts": 1785320004
-  },
-  "216.24.57.187": {
-    "country": "US",
-    "ts": 1785320004
-  },
-  "104.31.16.95": {
-    "country": "CA",
-    "ts": 1785320004
-  },
-  "45.196.182.49": {
-    "country": "US",
-    "ts": 1785320004
-  },
-  "104.25.189.214": {
-    "country": "CA",
-    "ts": 1785320004
-  },
-  "104.17.215.169": {
-    "country": "CA",
-    "ts": 1785320004
-  },
-  "157.22.19.5": {
-    "country": "SE",
-    "ts": 1785320004
-  },
-  "190.93.246.202": {
-    "country": "CR",
-    "ts": 1785320004
-  },
-  "172.67.218.84": {
-    "country": "CA",
-    "ts": 1785320004
-  },
-  "162.159.137.54": {
-    "country": "CA",
-    "ts": 1785320004
-  },
-  "z-e-u-s-panel-wiku2q.gtagymr11.workers.dev": {
-    "country": "CA",
-    "ts": 1785320004
-  },
-  "192.200.160.104": {
-    "country": "US",
-    "ts": 1785320004
-  },
-  "diligent-laughter-production-f70e.up.railway.app": {
-    "country": "US",
-    "ts": 1785320004
-  },
-  "104.16.196.198": {
-    "country": "CA",
-    "ts": 1785320004
-  },
-  "150.230.146.170": {
-    "country": "DE",
-    "ts": 1785320004
-  },
-  "185.84.158.13": {
-    "country": "IR",
-    "ts": 1785320004
-  },
-  "166.1.160.114": {
-    "country": "US",
-    "ts": 1785320004
-  },
-  "205.233.181.4": {
-    "country": "US",
-    "ts": 1785320004
-  },
-  "defast.mifbot.pro": {
-    "country": "DE",
-    "ts": 1785320004
-  },
-  "144.31.98.144": {
-    "country": "DE",
-    "ts": 1785320004
-  },
-  "104.21.79.62": {
-    "country": "CA",
-    "ts": 1785320004
-  },
-  "152.228.134.105": {
-    "country": "FR",
-    "ts": 1785320004
-  },
-  "x4g-production-7f31.up.railway.app": {
-    "country": "US",
-    "ts": 1785320004
-  },
-  "64.31.63.244": {
-    "country": "FR",
-    "ts": 1785320004
-  },
-  "us2.levikogjgfdd.ir": {
-    "country": "US",
-    "ts": 1785320004
-  },
-  "216.24.57.94": {
-    "country": "US",
-    "ts": 1785320004
-  },
-  "213.219.212.14": {
-    "country": "RU",
-    "ts": 1785320005
-  },
-  "pl1.levikogjgfdd.ir": {
-    "country": "NL",
-    "ts": 1785320005
-  },
-  "82.38.31.155": {
-    "country": "NL",
-    "ts": 1785320005
-  },
-  "104.26.12.31": {
-    "country": "CA",
-    "ts": 1785320005
-  },
-  "apiapi.gold-temas.com": {
-    "country": "TR",
-    "ts": 1785320005
-  },
-  "cdn-xui185.korvexe.ir": {
-    "country": "TR",
-    "ts": 1785320005
-  },
-  "fsxhh.wizardxy.com": {
-    "country": "US",
-    "ts": 1785320005
-  },
-  "Karakas.temas-fars.ir": {
-    "country": "FI",
-    "ts": 1785320005
-  },
-  "gr6.levikogjgfdd.ir": {
-    "country": "DE",
-    "ts": 1785320005
-  },
-  "gr5.levikogjgfdd.ir": {
-    "country": "RU",
-    "ts": 1785320005
-  },
-  "Tazi.tempfast.ir": {
-    "country": "DE",
-    "ts": 1785320005
-  },
-  "britain.relvuno.ir": {
-    "country": "GB",
-    "ts": 1785320005
-  },
-  "fr3.levikogjgfdd.ir": {
-    "country": "FR",
-    "ts": 1785320005
-  },
-  "89.110.120.140": {
-    "country": "NL",
-    "ts": 1785320005
-  },
-  "3x-ui-production-05e9.up.railway.app": {
-    "country": "US",
-    "ts": 1785320005
-  },
-  "104.21.77.94": {
-    "country": "CA",
-    "ts": 1785320005
-  },
-  "184.tradeip.store": {
-    "country": "CH",
-    "ts": 1785320005
-  },
-  "newtr.karmatel.ir": {
-    "country": "TR",
-    "ts": 1785320005
-  },
-  "wangcai.yunzhongzhuan.com": {
-    "country": "CA",
-    "ts": 1785320005
-  },
   "45.40.155.4": {
     "country": "US",
     "ts": 1785327875
@@ -44374,5 +44158,73 @@
   "refraction.chelyabinskdev.com": {
     "country": "FI",
     "ts": 1786529264
+  },
+  "gr5.levikogjgfdd.ir": {
+    "country": "UNKNOWN",
+    "ts": 1786532976
+  },
+  "185.143.233.238": {
+    "country": "IR",
+    "ts": 1786532976
+  },
+  "150.241.70.0": {
+    "country": "FI",
+    "ts": 1786532976
+  },
+  "185.125.100.120": {
+    "country": "NL",
+    "ts": 1786532976
+  },
+  "43.133.237.158": {
+    "country": "KR",
+    "ts": 1786532977
+  },
+  "82.38.31.155": {
+    "country": "NL",
+    "ts": 1786532977
+  },
+  "162.159.137.54": {
+    "country": "CA",
+    "ts": 1786532977
+  },
+  "206.251.53.91": {
+    "country": "JP",
+    "ts": 1786532977
+  },
+  "43.201.21.170": {
+    "country": "KR",
+    "ts": 1786532977
+  },
+  "13.39.45.65": {
+    "country": "FR",
+    "ts": 1786532977
+  },
+  "205.186.64.155": {
+    "country": "MY",
+    "ts": 1786532977
+  },
+  "185.79.138.127": {
+    "country": "FI",
+    "ts": 1786532977
+  },
+  "Chatgpt.com": {
+    "country": "CA",
+    "ts": 1786532977
+  },
+  "Grok.com": {
+    "country": "CA",
+    "ts": 1786532977
+  },
+  "rm-jp-01.409648.xyz": {
+    "country": "JP",
+    "ts": 1786532977
+  },
+  "usejh2.neobo-tooth.ru": {
+    "country": "FR",
+    "ts": 1786532977
+  },
+  "Fanfan-marz0divar.horlutr.ir": {
+    "country": "FI",
+    "ts": 1786532977
   }
 }
