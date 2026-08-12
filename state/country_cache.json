@@ -1,64 +1,4 @@
 {
-  "104.194.146.32": {
-    "country": "US",
-    "ts": 1785363380
-  },
-  "146.70.128.108": {
-    "country": "ES",
-    "ts": 1785363380
-  },
-  "2.56.178.206": {
-    "country": "RU",
-    "ts": 1785363380
-  },
-  "151.101.128.223": {
-    "country": "CA",
-    "ts": 1785363380
-  },
-  "3.114.220.22": {
-    "country": "JP",
-    "ts": 1785363380
-  },
-  "158.160.207.45": {
-    "country": "RU",
-    "ts": 1785363380
-  },
-  "wl01.sv-dock.me": {
-    "country": "RU",
-    "ts": 1785363380
-  },
-  "84.201.137.72": {
-    "country": "RU",
-    "ts": 1785363380
-  },
-  "wl03.sv-dock.me": {
-    "country": "RU",
-    "ts": 1785363380
-  },
-  "51.250.12.15": {
-    "country": "RU",
-    "ts": 1785363380
-  },
-  "sa-play.mobileemdad.top": {
-    "country": "CH",
-    "ts": 1785363380
-  },
-  "104.17.111.16": {
-    "country": "CA",
-    "ts": 1785363380
-  },
-  "film-irani.ir": {
-    "country": "CA",
-    "ts": 1785363380
-  },
-  "Ge-soxt.jorzel.ir": {
-    "country": "DE",
-    "ts": 1785363380
-  },
-  "v-de-node-03.bot-auth.com": {
-    "country": "SE",
-    "ts": 1785363380
-  },
   "104.18.92.51": {
     "country": "CA",
     "ts": 1785367578
@@ -43734,5 +43674,29 @@
   "gr2.levikogjgfdd.ir": {
     "country": "DE",
     "ts": 1786572648
+  },
+  "144.225.65.186": {
+    "country": "TR",
+    "ts": 1786575927
+  },
+  "2.26.86.140": {
+    "country": "DE",
+    "ts": 1786575927
+  },
+  "fbzy8ge4uzls.3tzux7euu3gs.workers.dev": {
+    "country": "CA",
+    "ts": 1786575927
+  },
+  "51.15.196.116": {
+    "country": "FR",
+    "ts": 1786575927
+  },
+  "pan.zhangyichi.cn": {
+    "country": "SG",
+    "ts": 1786575927
+  },
+  "vbzm.cn": {
+    "country": "SG",
+    "ts": 1786575927
   }
 }
