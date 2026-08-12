@@ -1,252 +1,4 @@
 {
-  "45.38.42.91": {
-    "country": "HK",
-    "ts": 1785346948
-  },
-  "37.32.15.154": {
-    "country": "IR",
-    "ts": 1785346948
-  },
-  "77.110.106.130": {
-    "country": "FR",
-    "ts": 1785346948
-  },
-  "3.73.204.220": {
-    "country": "DE",
-    "ts": 1785346948
-  },
-  "162.159.62.1": {
-    "country": "CA",
-    "ts": 1785346948
-  },
-  "198.41.209.205": {
-    "country": "CA",
-    "ts": 1785346948
-  },
-  "136.244.91.76": {
-    "country": "DE",
-    "ts": 1785346948
-  },
-  "89.116.161.230": {
-    "country": "US",
-    "ts": 1785346948
-  },
-  "63.181.200.150": {
-    "country": "DE",
-    "ts": 1785346948
-  },
-  "104.17.165.192": {
-    "country": "CA",
-    "ts": 1785346948
-  },
-  "192.248.176.195": {
-    "country": "DE",
-    "ts": 1785346948
-  },
-  "45.159.79.174": {
-    "country": "US",
-    "ts": 1785346948
-  },
-  "3.69.0.8": {
-    "country": "DE",
-    "ts": 1785346948
-  },
-  "104.19.45.11": {
-    "country": "CA",
-    "ts": 1785346948
-  },
-  "66.33.22.225": {
-    "country": "US",
-    "ts": 1785346948
-  },
-  "199.232.237.245": {
-    "country": "US",
-    "ts": 1785346948
-  },
-  "172.67.212.229": {
-    "country": "CA",
-    "ts": 1785346948
-  },
-  "94.198.221.86": {
-    "country": "KZ",
-    "ts": 1785346948
-  },
-  "69.46.46.101": {
-    "country": "US",
-    "ts": 1785346948
-  },
-  "172.64.69.34": {
-    "country": "CA",
-    "ts": 1785346948
-  },
-  "45.12.30.101": {
-    "country": "GB",
-    "ts": 1785346948
-  },
-  "172.64.158.5": {
-    "country": "CA",
-    "ts": 1785346948
-  },
-  "104.16.128.215": {
-    "country": "CA",
-    "ts": 1785346948
-  },
-  "144.21.37.164": {
-    "country": "NL",
-    "ts": 1785346948
-  },
-  "www.visa.com": {
-    "country": "CA",
-    "ts": 1785346948
-  },
-  "38.244.20.69": {
-    "country": "US",
-    "ts": 1785346948
-  },
-  "x4g-production-9068d.up.railway.app": {
-    "country": "US",
-    "ts": 1785346948
-  },
-  "104.21.17.125": {
-    "country": "CA",
-    "ts": 1785346948
-  },
-  "104.26.14.85": {
-    "country": "CA",
-    "ts": 1785346948
-  },
-  "85.158.57.180": {
-    "country": "PL",
-    "ts": 1785346948
-  },
-  "support.zoom.us": {
-    "country": "US",
-    "ts": 1785346948
-  },
-  "45.130.125.56": {
-    "country": "SC",
-    "ts": 1785346948
-  },
-  "marzban-node-production-4f84.up.railway.app": {
-    "country": "US",
-    "ts": 1785346948
-  },
-  "91.99.54.106": {
-    "country": "DE",
-    "ts": 1785346948
-  },
-  "30f67sbq8jjwmt7gytfc14.0m68-qz3hqyfnlar6n3iq.workers.dev": {
-    "country": "CA",
-    "ts": 1785346948
-  },
-  "141.193.213.21": {
-    "country": "US",
-    "ts": 1785346948
-  },
-  "love.ns.cloudflare.com": {
-    "country": "CA",
-    "ts": 1785346948
-  },
-  "176.109.88.14": {
-    "country": "RU",
-    "ts": 1785346948
-  },
-  "176.109.82.24": {
-    "country": "RU",
-    "ts": 1785346948
-  },
-  "www.Speedtest.Net": {
-    "country": "CA",
-    "ts": 1785346948
-  },
-  "104.17.25.173": {
-    "country": "CA",
-    "ts": 1785346948
-  },
-  "adheres-scruple.quick-cdn.net": {
-    "country": "US",
-    "ts": 1785346948
-  },
-  "46.8.209.131": {
-    "country": "RU",
-    "ts": 1785346948
-  },
-  "199.232.223.41": {
-    "country": "US",
-    "ts": 1785346948
-  },
-  "varzesh3.com": {
-    "country": "IR",
-    "ts": 1785346948
-  },
-  "69.46.46.42": {
-    "country": "US",
-    "ts": 1785346948
-  },
-  "89.19.223.97": {
-    "country": "RU",
-    "ts": 1785346948
-  },
-  "194.55.239.150": {
-    "country": "RU",
-    "ts": 1785346948
-  },
-  "161.104.88.104": {
-    "country": "RU",
-    "ts": 1785346948
-  },
-  "global.parssahar.com": {
-    "country": "TR",
-    "ts": 1785346948
-  },
-  "104.19.229.21": {
-    "country": "CA",
-    "ts": 1785346948
-  },
-  "168.222.140.204": {
-    "country": "RU",
-    "ts": 1785346948
-  },
-  "46.8.209.16": {
-    "country": "RU",
-    "ts": 1785346948
-  },
-  "172.67.176.194": {
-    "country": "CA",
-    "ts": 1785346948
-  },
-  "176.109.92.120": {
-    "country": "RU",
-    "ts": 1785346948
-  },
-  "minimize-evenness.cdn-content.com": {
-    "country": "US",
-    "ts": 1785346948
-  },
-  "piracy-android.video-streams.org": {
-    "country": "US",
-    "ts": 1785346948
-  },
-  "d.mezmora.ir": {
-    "country": "DE",
-    "ts": 1785346948
-  },
-  "silenceux.ir": {
-    "country": "TR",
-    "ts": 1785346948
-  },
-  "css.shapina-demo.ir": {
-    "country": "US",
-    "ts": 1785346948
-  },
-  "naran-de-ow.fizikade.ir": {
-    "country": "DE",
-    "ts": 1785346948
-  },
-  "ru.vpnburger.ru": {
-    "country": "RU",
-    "ts": 1785346948
-  },
   "78.154.108.200": {
     "country": "SG",
     "ts": 1785350618
@@ -44022,5 +43774,157 @@
   "ruservice3.oaklandjoseph.top": {
     "country": "RU",
     "ts": 1786552818
+  },
+  "63.187.187.6": {
+    "country": "DE",
+    "ts": 1786556650
+  },
+  "66.33.22.240": {
+    "country": "US",
+    "ts": 1786556650
+  },
+  "168.222.140.204": {
+    "country": "RU",
+    "ts": 1786556650
+  },
+  "95.85.253.134": {
+    "country": "PL",
+    "ts": 1786556650
+  },
+  "78.159.247.253": {
+    "country": "CZ",
+    "ts": 1786556650
+  },
+  "core-52123b-7eb5a6-production.up.railway.app": {
+    "country": "US",
+    "ts": 1786556650
+  },
+  "95.85.246.138": {
+    "country": "SE",
+    "ts": 1786556650
+  },
+  "kr-play.mobileemdad.top": {
+    "country": "TR",
+    "ts": 1786556650
+  },
+  "Polandlewandoski.hchdhsbs12gd.ir": {
+    "country": "PL",
+    "ts": 1786556650
+  },
+  "104.19.229.21": {
+    "country": "CA",
+    "ts": 1786556650
+  },
+  "web-13.zostoree.ir": {
+    "country": "DE",
+    "ts": 1786556650
+  },
+  "104.26.14.85": {
+    "country": "CA",
+    "ts": 1786556650
+  },
+  "web-11.zostoree.ir": {
+    "country": "DE",
+    "ts": 1786556650
+  },
+  "104.17.25.173": {
+    "country": "CA",
+    "ts": 1786556650
+  },
+  "support.zoom.us": {
+    "country": "US",
+    "ts": 1786556650
+  },
+  "144.31.129.2": {
+    "country": "BY",
+    "ts": 1786556650
+  },
+  "109.237.98.145": {
+    "country": "RU",
+    "ts": 1786556650
+  },
+  "109.237.98.115": {
+    "country": "RU",
+    "ts": 1786556650
+  },
+  "104.171.133.161": {
+    "country": "RU",
+    "ts": 1786556650
+  },
+  "tonykroos.belzema.ir": {
+    "country": "DE",
+    "ts": 1786556650
+  },
+  "Erlingbrathalland.hchdhsbs12gd.ir": {
+    "country": "NO",
+    "ts": 1786556650
+  },
+  "francebigtour.hchdhsbs12gd.ir": {
+    "country": "FR",
+    "ts": 1786556650
+  },
+  "sanswithelpusplz.hchdhsbs12gd.ir": {
+    "country": "CH",
+    "ts": 1786556650
+  },
+  "judebellinghammm.hchdhsbs12gd.ir": {
+    "country": "DE",
+    "ts": 1786556650
+  },
+  "Canadaandjake.hchdhsbs12gd.ir": {
+    "country": "CA",
+    "ts": 1786556650
+  },
+  "nethercitur.hchdhsbs12gd.ir": {
+    "country": "NL",
+    "ts": 1786556650
+  },
+  "web-10.zostoree.ir": {
+    "country": "FI",
+    "ts": 1786556650
+  },
+  "naran-de-ow.fizikade.ir": {
+    "country": "UNKNOWN",
+    "ts": 1786556650
+  },
+  "ads2.yandex-dev.online": {
+    "country": "RU",
+    "ts": 1786556650
+  },
+  "tun.dezhawo.ir": {
+    "country": "IR",
+    "ts": 1786556650
+  },
+  "fardad-fr.football-player.ir": {
+    "country": "FR",
+    "ts": 1786556650
+  },
+  "fardad-ch.football-player.ir": {
+    "country": "CH",
+    "ts": 1786556650
+  },
+  "Citizenofishhazen.pravio.ir": {
+    "country": "FR",
+    "ts": 1786556650
+  },
+  "web-8.zostoree.ir": {
+    "country": "DE",
+    "ts": 1786556650
+  },
+  "fardad-no.lorluma.ir": {
+    "country": "NO",
+    "ts": 1786556650
+  },
+  "fardad-it.football-player.ir": {
+    "country": "IT",
+    "ts": 1786556650
+  },
+  "fardad-nl.football-player.ir": {
+    "country": "NL",
+    "ts": 1786556650
+  },
+  "fardad-uk.football-player.ir": {
+    "country": "GB",
+    "ts": 1786556651
   }
 }
