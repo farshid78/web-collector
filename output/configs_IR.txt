@@ -1,7 +1,8 @@
+vless://1ee1f28d-4975-4d7c-95c7-76172c20eed5@185.143.233.238:2086?path=%2F&security=none&encryption=none&host=parsi.parsi.sbs&type=ws#%40filembad
+vless://1ee1f28d-4975-4d7c-95c7-76172c20eed5@185.143.233.238:2086?path=%2F&security=&encryption=none&host=parsi.parsi.sbs&type=ws#%40filembad
+ss://YWVzLTI1Ni1nY206T0daalpXUmtOV1JqT1RnMVl6WTNNak13TmpGa04ySTJZV1k1TXpjMQ@95.38.167.78:9102?prefix=%16%03%01%00%C2%A8%01%01#%40filembad
 ss://YWVzLTI1Ni1nY206UGNPRTUybHlHTzZNRlJtNi9tNWhmdUMzTnBOb2NrRHZjbk5ZZ3ExOE5pND0@79.175.134.49:39880#%40filembad
 ss://YWVzLTI1Ni1nY206UGNPRTUybHlHTzZNRlJtNi9tNWhmdUMzTnBOb2NrRHZjbk5ZZ3ExOE5pND0@79.175.134.49:39880#🇮🇷IR-🚀@VPNine1
-vless://1ee1f28d-4975-4d7c-95c7-76172c20eed5@185.143.233.238:2086?path=%2F&security=&encryption=none&host=parsi.parsi.sbs&type=ws#%40filembad
-vless://1ee1f28d-4975-4d7c-95c7-76172c20eed5@185.143.233.238:2086?path=%2F&security=none&encryption=none&host=parsi.parsi.sbs&type=ws#%40filembad
 vless://75ddbcc7-ba82-4c74-a333-908dd65fe100@188.212.96.126:7443?security=none&encryption=none&headerType=none&type=tcp#%40filembad
 vless://51863131-9065-4398-ba6a-5ae29b3dada8@188.212.96.126:2053?security=none&encryption=none&headerType=none&type=tcp#%40filembad
 vless://75ddbcc7-ba82-4c74-a333-908dd65fe100@188.212.96.126:7443?security=none&encryption=none&headerType=none&type=tcp#🇮🇷IR-🚀@VPNine1
@@ -60,7 +61,6 @@ vless://290a1fba-93a3-4004-bd56-0565a956a209@185.143.235.200:80?path=%2Farvanclo
 vless://19d18602-3a5c-48ca-2b58-5fb8563dd30b@s3.zynetraq.ir:2087?alpn=h2,http/1.1,h3&encryption=none&extra=%7B%22mode%22:%22auto%22,%22xPaddingBytes%22:%22100-1000%22%7D&fp=chrome&host=s3.zynetraq.ir&mode=auto&path=/BetForward&pcs=1b995919865b4b061a1768296995613e66d1afad274f8b227d70521038e56c2b&security=tls&sni=s3.zynetraq.ir&type=xhttp&x_padding_bytes=100-1000#🇮🇷IR-🚀@VPNine1
 vless://8b3a9fcb-df6e-49f7-1283-d5502e08839c@s3.zynetraq.ir:2087?alpn=h2,http/1.1,h3&encryption=none&extra=%7B%22mode%22:%22auto%22,%22xPaddingBytes%22:%22100-1000%22%7D&fp=chrome&host=s3.zynetraq.ir&mode=auto&path=/BetForward&pcs=1b995919865b4b061a1768296995613e66d1afad274f8b227d70521038e56c2b&security=tls&sni=s3.zynetraq.ir&type=xhttp&x_padding_bytes=100-1000#🇮🇷IR-🚀@VPNine1
 vless://d2dc94ad-ebd4-4587-3f69-bc16d2141b32@s3.zynetraq.ir:2087?alpn=h2,http/1.1,h3&encryption=none&extra=%7B%22mode%22:%22auto%22,%22xPaddingBytes%22:%22100-1000%22%7D&fp=chrome&host=s3.zynetraq.ir&mode=auto&path=/BetForward&pcs=1b995919865b4b061a1768296995613e66d1afad274f8b227d70521038e56c2b&security=tls&sni=s3.zynetraq.ir&type=xhttp&x_padding_bytes=100-1000#🇮🇷IR-🚀@VPNine1
-vless://41a9b9c7-7b62-4a87-ec03-ff54c18dcc07@s3.zynetraq.ir:2087?mode=auto&pcs=1b995919865b4b061a1768296995613e66d1afad274f8b227d70521038e56c2b&path=/BetForward&security=tls&encryption=none&extra=%7B%22mode%22:%22auto%22,%22xPaddingBytes%22:%22100-1000%22%7D&insecure=0&host=s3.zynetraq.ir&fp=chrome&type=xhttp&allowInsecure=0&sni=s3.zynetraq.ir#🇮🇷IR-🚀@VPNine1
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTotc2J0emktelFpLWcyaUNpV21KWXlkYVdRRm1vZ0IwdQ%3D%3D@de5.netbazshop.ir:42547?type=tcp#🇮🇷IR-🚀@VPNine1
 vless://07ec61b5-91bf-47f6-b3ed-8065943a22e7@79.175.136.235:2053?security=reality&encryption=none&pbk=gwM7GPbFuT3IzXOXXOddRJEFicqggblhxziI9h15hGU&headerType=none&fp=chrome&spx=/b3c20976f3eb36e&type=tcp&flow=xtls-rprx-vision&sni=play.google.com&sid=ebf9b8714ae8af#🇮🇷IR-🚀@VPNine1
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpQdmQrKzJXczA5cng2UktVdGNVZnBCUFZWRVkwQWlLVDdQdkZuL1kvbmdzPQ@e4.cover20.ir:16156?type=tcp#🇮🇷IR-🚀@VPNine1
