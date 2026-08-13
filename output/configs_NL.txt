@@ -18,7 +18,6 @@ vless://4411e63c-9d5f-403f-b8b4-89ea29fbde2a@176.65.151.64:443?security=reality&
 vless://4411e63c-9d5f-403f-b8b4-89ea29fbde2a@176.65.151.64:443?security=reality&encryption=none&pbk=vrCKcD_CfJ3HnoBh8WVGXXPxhCyjXjSVnFDfi14w53s&headerType=none&fp=firefox&spx=%2Fa32433ebeac8e8c&type=tcp&flow=xtls-rprx-vision&sni=home.amazon.com&sid=71c764#%40filembad
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTplVkM2MzRRdlZrNWw@188.116.23.244:8388#%40filembad
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTplVkM2MzRRdlZrNWw=@188.116.23.244:8388#%40filembad
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTplVkM2MzRRdlZrNWw@188.116.23.244:8388?#%40filembad
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTplVkM2MzRRdlZrNWw=@188.116.23.244:8388#🇳🇱NL-🚀@VPNine1
 ss://MjAyMi1ibGFrZTMtYWVzLTI1Ni1nY206ZW5LaGJJQTArTlowRE9ESVpxcTV6YXZVeUd0dlk2Sitya1FCbzg0S0FtTT06OEpINWdHVXY3ZFVZVlZrMlNNRXhDZDhzRDc5dnIxbWlDQ0ROcDdXaWdZWT0@176.65.151.82:52000#%40filembad
 vless://1b05ccfc-2537-4844-a505-3e8d644ac486@46.8.229.202:443?encryption=none&security=reality&type=tcp&headerType=none&sni=play.google.com&fp=chrome&pbk=cTlyduukc4sr4PIi28XuydlyZA1tt-fquJF2eTIzmkM&sid=04a72ee1672dd21a&spx=/#🇳🇱NL-🚀@VPNine1
@@ -86,7 +85,6 @@ vless://8033102198@64.188.77.184:443?type=tcp&security=tls&sni=nl13.fast-connect
 vless://8033102198@64.188.77.184:443?type=tcp&security=tls&sni=nl13.fast-connect-service.site&flow=xtls-rprx-vision&fp=qq#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%2C%20Amsterdam%20%28Amsterdam-Zuidoost%29%20%7C%20%5BBL%5D
 vless://8033102198@64.188.77.184:443?type=tcp&security=tls&sni=nl13.fast-connect-service.site&flow=xtls-rprx-vision&fp=safari#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%2C%20Amsterdam%20%28Amsterdam-Zuidoost%29%20%7C%20%5BBL%5D
 vless://551955b3-46e9-5129-95c9-e7474c15ed6b@64.188.77.184:443?type=tcp&security=tls&encryption=none&flow=xtls-rprx-vision&fp=firefox&sni=nl13.fast-connect-service.site#@DeltaKroneckerGithub
-vless://176bc48c-460b-4260-abbd-68fd5ea85270@nll.mcqueenconnection.ru:443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&sni=nll.mcqueenconnection.ru&pbk=O2ttHpVFmwoAf-E1rHgOlv7NggcwxcWkHHen7jkIBjY&sid=a8e8df4f1fb3e3f8&spx=%2F&fp=qq#37.%F0%9F%87%B3%F0%9F%87%B1%D0%9D%D0%B8%D0%B4%D0%B5%D1%80%D0%BB%D0%B0%D0%BD%D0%B4%D1%8B%20%7C%20%40LimeVPNFREE
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.49:8080#@DeltaKroneckerGithub
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.185:8080#@DeltaKroneckerGithub
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.176:8080#@DeltaKroneckerGithub
