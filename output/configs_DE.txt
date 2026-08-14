@@ -1,3 +1,4 @@
+vless://a382aa45-22d5-4a8c-86cc-ad11d1f2800f@45.65.112.228:20513?security=reality&encryption=none&pbk=CTfSuRE6fUPYVBJGsmOYnP3UketmmTJSQP45OcoGI2k&headerType=none&fp=qq&type=tcp&sni=updates.cdn-apple.com&sid=9f3921483225ccf8#%40filembad
 vless://97ee39cc-cb22-42fd-9476-0c1a5f5a9621@5.75.197.25:1000?security=&encryption=none&headerType=none&type=tcp#%40filembad
 vless://97ee39cc-cb22-42fd-9476-0c1a5f5a9621@5.75.197.25:1000?security=none&encryption=none&headerType=none&type=tcp#%40filembad
 vless://97ee39cc-cb22-42fd-9476-0c1a5f5a9621@5.75.197.25:1000?security=none&encryption=none&headerType=none&type=tcp#🇩🇪DE-🚀@VPNine1
@@ -63,7 +64,6 @@ vless://2bb5949f-344a-4e15-a7d8-0d26988033c6@91.99.135.107:443?encryption=none&f
 vless://410843d6-d5cd-4db6-a66f-3a20102d073a@178.105.255.75:8588?mode=auto&path=%2F&security=reality&encryption=none&pbk=_SUv0c82LgTdgmL7ZI39Uoq80yQzwwWAX05BkVpde3Y&fp=firefox&type=xhttp&sni=play.googleapis.com&sid=833014806333a43a#%40filembad
 vless://410843d6-d5cd-4db6-a66f-3a20102d073a@178.105.255.75:8588?encryption=none&security=reality&sni=play.googleapis.com&fp=firefox&pbk=_SUv0c82LgTdgmL7ZI39Uoq80yQzwwWAX05BkVpde3Y&sid=833014806333a43a&type=xhttp&path=/&mode=auto#🇩🇪DE-🚀@VPNine1
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@63.178.114.204:22224?security=none&encryption=none&headerType=none&type=tcp#%40filembad
-vless://e4514801-0d5a-42ba-869f-39bd605aef9e@63.178.114.204:22222?security=none&encryption=none&headerType=none&type=tcp#%40filembad
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@63.178.114.204:22222?encryption=none&security=none&type=tcp#🇩🇪DE-🚀@VPNine1
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@63.178.114.204:22224?encryption=none&security=none&type=tcp#🇩🇪DE-🚀@VPNine1
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@63.178.114.204:22223?encryption=none&security=none&type=tcp#🇩🇪DE-🚀@VPNine1
@@ -73,7 +73,6 @@ vless://314d822a-3907-4e4c-9264-76a9f7e56029@5.75.205.74:7190?encryption=none&ty
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@63.185.250.13:22224?Telegram=@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad&security=&encryption=none&headerType=none&type=tcp#%40filembad
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@63.185.250.13:22224?encryption=none&security=none&type=tcp#%40filembad
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@63.185.250.13:22224?security=none&encryption=none&headerType=none&type=tcp#%40filembad
-vless://e4514801-0d5a-42ba-869f-39bd605aef9e@63.185.250.13:22223?security=none&encryption=none&headerType=none&type=tcp#%40filembad
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@63.185.250.13:22223?encryption=none&security=none&type=tcp#🇩🇪DE-🚀@VPNine1
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@63.185.250.13:22224?encryption=none&security=none&type=tcp#🇩🇪DE-🚀@VPNine1
 vless://32f9646d-ca52-439c-ab2c-96838550083c@185.113.10.14:44649?encryption=none&host=paktloss-production.up.railway.app&path=/&security=none&type=ws#%40filembad
