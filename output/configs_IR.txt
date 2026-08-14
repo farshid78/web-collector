@@ -47,7 +47,6 @@ ss://YWVzLTI1Ni1nY206T0daalpXUmtOV1JqT1RnMVl6WTNNak13TmpGa04ySTJZV1k1TXpjMQ@95.3
 ss://YWVzLTI1Ni1nY206UGNPRTUybHlHTzZNRlJtNi9tNWhmdUMzTnBOb2NrRHZjbk5ZZ3ExOE5pND0@79.175.134.49:39880#%40filembad
 ss://YWVzLTI1Ni1nY206UGNPRTUybHlHTzZNRlJtNi9tNWhmdUMzTnBOb2NrRHZjbk5ZZ3ExOE5pND0@79.175.134.49:39880#🇮🇷IR-🚀@VPNine1
 ss://YWVzLTI1Ni1nY206UGNPRTUybHlHTzZNRlJtNi9tNWhmdUMzTnBOb2NrRHZjbk5ZZ3ExOE5pND0@79.175.134.49:39880#%40flyv2ray
-ss://YWVzLTI1Ni1nY206UGNPRTUybHlHTzZNRlJtNi9tNWhmdUMzTnBOb2NrRHZjbk5ZZ3ExOE5pND0%3D@79.175.134.49:39880#@DeltaKroneckerGithub
 ss://YWVzLTI1Ni1nY206TnpsbE5tWXlOMkkwTTJRMk5UQmxaamd5WkdRNFpqZGtOR0poTkRnNA@193.176.243.59:9118?prefix=%16%03%01%00%C2%A8%01%01#%40filembad
 vless://cf484711-bee2-419f-afd9-c4a4728c0c2a@91.234.39.183:443?path=%2F&security=none&encryption=none&host=snapp.ir&type=ws#%40filembad
 vless://bf58f3cd-7c8c-4650-bd7a-028df18b3ba0@tuntr.supros.ir:2095?encryption=none&security=none&type=tcp&headerType=http&path=/&host=play.google.com#🇮🇷IR-🚀@VPNine1
@@ -72,5 +71,6 @@ vless://bc4d97ba-d54f-4555-ba71-f7421796d92c@185.143.234.111:443?path=/&security
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowdTQ3eEp2cDJfcEdiQTVjMTNBU0hLODdEeER3azV6bQ@coco2.farajet.net:2020#@vasl_bashim
 vless://a8c6e908-fa7e-4d53-abdf-162fc47fe456@185.143.233.235:2053?encryption=none&security=tls&sni=top.mobixaco.ir&fp=random&insecure=0&allowInsecure=0&type=ws&host=top.mobixaco.ir&path=%2F#%40Configs_FreeIran
 trojan://33ws1asxa8vmbehw@snapp.ir:80?path=%2F&security=none&host=web.maxisup.ir&type=ws#Configs_FreeIran
-vless://1ee1f28d-4975-4d7c-95c7-76172c20eed5@185.143.234.238:2086?encryption=none&security=none&type=ws&host=parsi.parsi.sbs&path=/#@DeltaKroneckerGithub
-ss://bm9uZTpSU3pFSWtrMkVzSEVBVmoxNU41RS9BPT0@185.188.104.10:443#@DeltaKroneckerGithub
+ss://bm9uZTpSU3pFSWtrMkVzSEVBVmoxNU41RS9BPT0@185.188.105.10:443#@DeltaKroneckerGithub
+ss://bm9uZTpSU3pFSWtrMkVzSEVBVmoxNU41RS9BPT0=@185.188.104.11:443#@DeltaKroneckerGithub
+ss://bm9uZTpSU3pFSWtrMkVzSEVBVmoxNU41RS9BPT0=@185.188.105.11:443#@DeltaKroneckerGithub
