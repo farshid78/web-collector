@@ -3,6 +3,7 @@ vless://0db4a87c-c280-4a5f-ae97-903768c5ef4c@31.76.76.31:443?security=&encryptio
 vless://0db4a87c-c280-4a5f-ae97-903768c5ef4c@31.76.76.31:443?security=none&encryption=none&type=ws#🇳🇱NL-🚀@VPNine1
 vless://37a098ab-8fec-4352-8ee8-294ae5bca68f@193.233.126.82:9443?security=reality&encryption=none&pbk=Te5lrfzw_MytTzQJB92DhWw7fk1qTK3mhzz7Bz41gVc&headerType=none&fp=qq&type=tcp&flow=xtls-rprx-vision&sni=www.amd.com&sid=0240e83f65a25e#%40filembad
 vless://37a098ab-8fec-4352-8ee8-294ae5bca68f@193.233.126.82:9443?security=reality&encryption=none&pbk=Te5lrfzw_MytTzQJB92DhWw7fk1qTK3mhzz7Bz41gVc&headerType=none&fp=qq&type=tcp&flow=xtls-rprx-vision&sni=www.amd.com&sid=0240e83f65a25e#🇳🇱NL-🚀@VPNine1
+vless://37a098ab-8fec-4352-8ee8-294ae5bca68f@193.233.126.82:9443?security=reality&encryption=none&pbk=Te5lrfzw_MytTzQJB92DhWw7fk1qTK3mhzz7Bz41gVc&headerType=none&fp=qq&type=tcp&flow=xtls-rprx-vision&sni=www.amd.com&sid=0240e83f65a25e#5758
 vless://e6148e57-3b7f-4043-80f2-b0075ad41c73@46.8.68.174:110?security=none&encryption=none&headerType=none&type=tcp#%40filembad
 vless://e6148e57-3b7f-4043-80f2-b0075ad41c73@46.8.68.174:110?encryption=none&security=none&type=tcp#%40filembad
 vless://e6148e57-3b7f-4043-80f2-b0075ad41c73@46.8.68.174:110?encryption=none&security=none&type=tcp#🇳🇱NL-🚀@VPNine1
@@ -75,7 +76,6 @@ vless://4bf5a71c-d726-4585-b095-7396675706d5@cdn.netraidly.ru:40443?encryption=n
 vless://e3c56988-5261-400f-b21b-6af5fa6efae1@130.49.185.196:443?encryption=none&type=tcp&security=reality&headerType=none&sni=site.rumedia-cdn.com&insecure=1&allowInsecure=1&pbk=4ndg8TcyXMWmnEvthjh9mIWJ9mc85jzy_G9D4D5xGxM&sid=808a7e8a2e32c697&flow=xtls-rprx-vision#T.me/CONFiGiR98
 vless://8892e34a-339b-4526-b88d-cf68c516231c@152.70.58.201:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.nvidia.com&pbk=Hg_ivwbClYmR-SEHdoGgq4yEk6ltbjS5c4yiQRa4_28&sid=52c723e0fad49689&type=tcp&headerType=none#best_internet_iran
 vless://8892e34a-339b-4526-b88d-cf68c516231c@152.70.58.201:443?security=reality&type=tcp&packetEncoding=xudp&sni=www.nvidia.com&fp=firefox&flow=xtls-rprx-vision&sid=52c723e0fad49689&pbk=Hg_ivwbClYmR-SEHdoGgq4yEk6ltbjS5c4yiQRa4_28&encryption=none#@DeltaKroneckerGithub
-vless://e73df646-1f62-41bf-8c50-653497d603d0@163.172.213.174:80?path=%2Fvless%2F&security=none&encryption=none&host=SC-TheNetherlands2.09vpn.comfreenettirThe&type=ws#%40outline_ir
 ss://chacha20-ietf-poly1305:k1dBOmOB4oqi7Ump37a1bQ@82.38.31.185:8080#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%2C%20Amsterdam%20%28Amsterdam-Noord%29%20%7C%20%5BBL%5D
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.185:8080#@DeltaKroneckerGithub
 ss://chacha20-ietf-poly1305:oZIoA69Q8yhcQV8ka3Pa3A@82.38.31.149:8080#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%2C%20Amsterdam%20%28Amsterdam-Noord%29%20%7C%20%5BBL%5D
