@@ -1,5 +1,4 @@
 vless://1ee1f28d-4975-4d7c-95c7-76172c20eed5@185.143.233.238:2086?path=%2F&security=none&encryption=none&host=parsi.parsi.sbs&type=ws#%40filembad
-vless://1ee1f28d-4975-4d7c-95c7-76172c20eed5@185.143.233.238:2086?path=%2F&security=&encryption=none&host=parsi.parsi.sbs&type=ws#%40filembad
 vless://2b24afbe-7582-43bf-8034-1d1e83574ad2@185.143.233.235:80?path=%2F&security=none&encryption=none&host=katashi.ir&type=ws#%40filembad
 vless://2b24afbe-7582-43bf-8034-1d1e83574ad2@185.143.233.235:80?path=/&security=none&encryption=none&host=katashi.ir&type=ws#🇮🇷IR-🚀@VPNine1
 vless://a8c6e908-fa7e-4d53-abdf-162fc47fe456@185.143.233.235:2053?encryption=none&security=tls&sni=top.mobixaco.ir&fp=random&insecure=0&allowInsecure=0&type=ws&host=top.mobixaco.ir&path=%2F#%40Configs_FreeIran
@@ -44,10 +43,8 @@ vless://75ddbcc7-ba82-4c74-a333-908dd65fe100@188.212.96.126:2053?security=none&e
 vless://75ddbcc7-ba82-4c74-a333-908dd65fe100@188.212.96.126:2443?security=&encryption=none&headerType=none&type=tcp#%40filembad
 vless://75ddbcc7-ba82-4c74-a333-908dd65fe100@188.212.96.126:2443?security=none&encryption=none&headerType=none&type=tcp#%40filembad
 vless://75ddbcc7-ba82-4c74-a333-908dd65fe100@188.212.96.126:2443?security=none&headerType=none&encryption=none&type=tcp#%40filembad
-vless://75ddbcc7-ba82-4c74-a333-908dd65fe100@188.212.96.126:7443?security=none&encryption=none&headerType=none&type=tcp#%40filembad
 vless://75ddbcc7-ba82-4c74-a333-908dd65fe100@188.212.96.126:2053?security=none&encryption=none&headerType=none&type=tcp#🇮🇷IR-🚀@VPNine1
 vless://75ddbcc7-ba82-4c74-a333-908dd65fe100@188.212.96.126:2443?security=none&encryption=none&headerType=none&type=tcp#🇮🇷IR-🚀@VPNine1
-vless://75ddbcc7-ba82-4c74-a333-908dd65fe100@188.212.96.126:7443?security=none&encryption=none&headerType=none&type=tcp#🇮🇷IR-🚀@VPNine1
 vless://51a8a6c5-c0c0-4af6-8546-254c90f21736@193.39.9.240:500?encryption=none&extra=%7B%22scMaxEachPostBytes%22%3A%221000000%22%2C%22xPaddingBytes%22%3A%22100-1000%22%7D&fp=chrome&host=&mode=auto&path=%2F&pbk=Pa-muVRBNhTAVzh3JQKpTWlnWgc1MZ3nu_sZ31f9dXw&security=reality&sid=20866a38&sni=www.intel.com&spx=%2FVYocy9PX3AteTyJ&type=xhttp&x_padding_bytes=100-1000#%40filembad
 vless://51a8a6c5-c0c0-4af6-8546-254c90f21736@193.39.9.240:1200?encryption=none&extra=%7B%22scMaxEachPostBytes%22%3A%221000000%22%2C%22xPaddingBytes%22%3A%22100-1000%22%7D&fp=chrome&host=&mode=auto&path=%2F&pbk=m8hOnhxPNmdXtfOky4MHI9FhArP3qqfH7lxcopcQfQA&security=reality&sid=d2e98c9d0cf7&sni=www.intel.com&spx=%2Fupr4rVb5uhDzQx6&type=xhttp&x_padding_bytes=100-1000#%40filembad
 vless://1aee491c-47c2-4228-9b3d-9c2a3f18c383@193.39.9.240:500?mode=auto&path=%2F&security=reality&encryption=none&extra=%7B%22scMaxEachPostBytes%22%3A%221000000%22%2C%22xPaddingBytes%22%3A%22100-1000%22%7D&pbk=Pa-muVRBNhTAVzh3JQKpTWlnWgc1MZ3nu_sZ31f9dXw&fp=chrome&spx=%2FWp56R9fSMC9Gmyn&type=xhttp&sni=www.intel.com&sid=54c8b4#%40filembad
@@ -57,7 +54,8 @@ vless://51a8a6c5-c0c0-4af6-8546-254c90f21736@193.39.9.240:1200?encryption=none&e
 vless://51a8a6c5-c0c0-4af6-8546-254c90f21736@193.39.9.240:500?encryption=none&extra=%7B%22scMaxEachPostBytes%22:%221000000%22,%22xPaddingBytes%22:%22100-1000%22%7D&fp=chrome&host=&mode=auto&path=/&pbk=Pa-muVRBNhTAVzh3JQKpTWlnWgc1MZ3nu_sZ31f9dXw&security=reality&sid=20866a38&sni=www.intel.com&spx=/VYocy9PX3AteTyJ&type=xhttp&x_padding_bytes=100-1000#🇮🇷IR-🚀@VPNine1
 vless://1aee491c-47c2-4228-9b3d-9c2a3f18c383@193.39.9.240:1200?mode=auto&path=/&security=reality&encryption=none&extra=%7B%22scMaxEachPostBytes%22:%221000000%22,%22xPaddingBytes%22:%22100-1000%22%7D&pbk=m8hOnhxPNmdXtfOky4MHI9FhArP3qqfH7lxcopcQfQA&fp=chrome&spx=/jSIBYClZadYcia0&type=xhttp&sni=www.intel.com&sid=d2e98c9d0cf7#🇮🇷IR-🚀@VPNine1
 vless://1aee491c-47c2-4228-9b3d-9c2a3f18c383@193.39.9.240:500?encryption=none&extra=%7B%22scMaxEachPostBytes%22:%221000000%22,%22xPaddingBytes%22:%22100-1000%22%7D&fp=chrome&host=&mode=auto&path=/&pbk=Pa-muVRBNhTAVzh3JQKpTWlnWgc1MZ3nu_sZ31f9dXw&security=reality&sid=54c8b4&sni=www.intel.com&spx=/Wp56R9fSMC9Gmyn&type=xhttp&x_padding_bytes=100-1000#🇮🇷IR-🚀@VPNine1
-ss://YWVzLTI1Ni1nY206UGNPRTUybHlHTzZNRlJtNi9tNWhmdUMzTnBOb2NrRHZjbk5ZZ3ExOE5pND0@79.175.134.49:39880#%40filembad
+vless://b27a7f7f-f9e1-459e-9eaa-90f3643d3480@azadiconfig.myvpsd.ir:44642?encryption=none&headerType=http&host=skyroom.online,gharar.ir,igap.net&path=/&security=none&type=tcp#🇮🇷IR-🚀@VPNine1
+vless://546eeb73-0099-464d-aaa5-141b8b8b934a@azadiconfig.myvpsd.ir:20267?encryption=none&host=&path=/&security=none&type=ws#🇮🇷IR-🚀@VPNine1
 vless://be362a73-a141-4a28-90b8-827ed7bcf388@95.38.182.182:1120?path=/mmd&security=none&encryption=none&type=ws#🇮🇷IR-🚀@VPNine1
 vless://be362a73-a141-4a28-90b8-827ed7bcf388@95.38.182.182:996?path=/mmd&security=none&encryption=none&type=ws#🇮🇷IR-🚀@VPNine1
 vless://97ec98be-ea47-42e8-8ce3-30d127029494@dub2.outforyou.ir:24111?encryption=none&security=reality&type=tcp&headerType=none&flow=xtls-rprx-vision&sni=play.google.com&fp=chrome&pbk=UavtHJ8X1eNi-5WblfHKrPPttz6xAp8Gj8bd1Jwb6V4&sid=412bac1dfaf1bd0a#🇮🇷IR-🚀@VPNine1
@@ -77,7 +75,6 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpDTkltWEZleFpZbzBBbEFRakNLYlhvZHJxc2xtNjFjMA@
 vless://3c4f4d61-ebcb-4594-aacf-ac0d620c8cde@alman.hellray-server.fun:3010?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=F50bIiv7OTo8dY83HheaSJoY_Mn2jZn8mfrCIly8Wy4&security=reality&sid=fa16a6435031&sni=www.aparat.com&spx=/83f2f218dd04e20&type=tcp#🇮🇷IR-🚀@VPNine1
 vless://07ec979a-dd85-4b50-a7fe-924837cf936a@port.serendpiti.ir:2626?encryption=none&type=ws&security=none#🇮🇷IR-🚀@VPNine1
 vless://feabe86d-7303-485d-7bca-a5f9374f67d0@s3.zynetraq.ir:2087?alpn=h2,http/1.1,h3&encryption=none&extra=%7B%22mode%22:%22auto%22,%22xPaddingBytes%22:%22100-1000%22%7D&fp=chrome&host=s3.zynetraq.ir&mode=auto&path=/BetForward&pcs=1b995919865b4b061a1768296995613e66d1afad274f8b227d70521038e56c2b&security=tls&sni=s3.zynetraq.ir&type=xhttp&x_padding_bytes=100-1000#🇮🇷IR-🚀@VPNine1
-vless://19d18602-3a5c-48ca-2b58-5fb8563dd30b@s3.zynetraq.ir:2087?alpn=h2,http/1.1,h3&encryption=none&extra=%7B%22mode%22:%22auto%22,%22xPaddingBytes%22:%22100-1000%22%7D&fp=chrome&host=s3.zynetraq.ir&mode=auto&path=/BetForward&pcs=1b995919865b4b061a1768296995613e66d1afad274f8b227d70521038e56c2b&security=tls&sni=s3.zynetraq.ir&type=xhttp&x_padding_bytes=100-1000#🇮🇷IR-🚀@VPNine1
 vless://0c779063-1e0a-41c2-94bf-9bd79b4026f5@irtonn.darklink.ir:2035?path=/java&security=&encryption=none&host=irtonn.darklink.ir&type=ws#🇮🇷IR-🚀@VPNine1
 vless://d3c44e40-e454-4e4b-73bb-6a95aeaafbf8@s2.zynetraq.ir:2087?alpn=h2,http/1.1,h3&encryption=none&extra=%7B%22mode%22:%22auto%22,%22xPaddingBytes%22:%22100-1000%22%7D&fp=chrome&host=s2.zynetraq.ir&mode=auto&path=/BetForward&pcs=0258c1ff5f1251a516a8ac42c354d3f757e43355dce7ac49e870acf3973ab711&security=tls&sni=s2.zynetraq.ir&type=xhttp&x_padding_bytes=100-1000#🇮🇷IR-🚀@VPNine1
 vless://f3e85a59-8744-4760-f6c7-fef646ecb044@s2.zynetraq.ir:2087?alpn=h2,http/1.1,h3&encryption=none&extra=%7B%22mode%22:%22auto%22,%22xPaddingBytes%22:%22100-1000%22%7D&fp=chrome&host=s2.zynetraq.ir&mode=auto&path=/BetForward&pcs=0258c1ff5f1251a516a8ac42c354d3f757e43355dce7ac49e870acf3973ab711&security=tls&sni=s2.zynetraq.ir&type=xhttp&x_padding_bytes=100-1000#🇮🇷IR-🚀@VPNine1
@@ -90,7 +87,6 @@ vless://2bebed15-4476-4a46-84d3-6f09dc7672e3@turkey.blueheartz.ir:1824?security=
 vless://4d0fb838-2dbe-4dff-ae36-da6ee02739ca@turkey.blueheartz.ir:27632?security=reality&encryption=none&pbk=tge1_umgZzzbe243U0RmtmHKF9LNp-Hg6xg0KV7Zv1c&headerType=none&fp=firefox&spx=%2F77cda84b6307aea&type=tcp&flow=xtls-rprx-vision&sni=play-fe.googleapis.com&sid=3892a7a76e8b#%40FarazV2ray
 vless://03d19364-c2c8-45df-9f28-f565a8efb227@185.143.233.122:2082?path=/&security=none&encryption=none&host=tunell.moblemangol.ir&type=httpupgrade#🇮🇷IR-🚀@VPNine1
 vless://24cce45a-4516-43c1-b8c3-68c4a5c3073c@b.pxui.ir:30051?security=reality&encryption=none&pbk=8smLHkjNzf2aWWr5MHrdq3DZRq-w8T9U2ulaeV_bnBc&headerType=none&fp=chrome&type=tcp&sni=www.speedtest.net&sid=100645b1#🇮🇷IR-🚀@VPNine1
-vless://290a1fba-93a3-4004-bd56-0565a956a209@185.143.235.200:80?path=/arvancloud.ir&security=none&encryption=none&host=taraneh.pointspeed.ir&type=ws#🇮🇷IR-🚀@VPNine1
 vless://1ee1f28d-4975-4d7c-95c7-76172c20eed5@185.143.234.238:2086?path=%2F&security=none&encryption=none&host=parsi.parsi.sbs&type=ws#@vasl_bashim
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowdTQ3eEp2cDJfcEdiQTVjMTNBU0hLODdEeER3azV6bQ@coco2.farajet.net:2020#@vasl_bashim
 trojan://33ws1asxa8vmbehw@snapp.ir:80?path=%2F&security=none&host=web.maxisup.ir&type=ws#Configs_FreeIran
