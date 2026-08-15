@@ -1,11 +1,8 @@
 {
-  "/home/runner/work/web-collector/web-collector/output/configs.txt": "473840332d36b23cbf5c4d8f6e98236e8c558205b0b3dd32e8895f85ab7358ac",
-  "/home/runner/work/web-collector/web-collector/output/subscription_links.txt": "7f5b8cb06c1745fc995c32c3bf1e7e2e7b9e5891857c0151c1965d54c07583f0",
-  "/home/runner/work/web-collector/web-collector/output/configs_IR.txt": "0cd4452667b3efbbd394dd9ce1676aafff05cbf3b0f05b561ee2820fd218b9db",
-  "/home/runner/work/web-collector/web-collector/output/configs_TR.txt": "435ce5232da17226a810a032bab976a2fd2f6967f52280dcfdf0e07c8c07098e",
-  "/home/runner/work/web-collector/web-collector/output/configs_US.txt": "cacfed87a4f3a3d7c5b91688698ac7e83e0901100e1d20667ce8d681e6347533",
-  "/home/runner/work/web-collector/web-collector/output/configs_DE.txt": "41289fdbf90b2a8ca75c5d885f0a0d0eb1002f314efe67f46419a07ae7998870",
-  "/home/runner/work/web-collector/web-collector/output/configs_NL.txt": "cf8d8456a94faa4056a4d415bced555a35893699244d9a36070a522c954314c9",
-  "/home/runner/work/web-collector/web-collector/output/configs_SG.txt": "374bbd5870f943eb952b82778f9ab25f0bf212e6481a8d503796db828de50f6e",
-  "/home/runner/work/web-collector/web-collector/output/configs_others.txt": "acb052ffd6a468459b9a95426984baad9b29c4e92b34b14aaa670b8ec60089e3"
+  "/home/runner/work/web-collector/web-collector/output/configs.txt": "024815f485816b3d5a1bd11093648d81b44f420a33686a769cd9554da9b0973b",
+  "/home/runner/work/web-collector/web-collector/output/configs_IR.txt": "3f7569c8b4eceb1512f591cc2e38e4fb6a9a9198f61a88cef3a7bf762d4dd52d",
+  "/home/runner/work/web-collector/web-collector/output/configs_US.txt": "1a5b185f03a3ba55f4a38ae1390fdde54c2f01310701725f74f0ad69c58588db",
+  "/home/runner/work/web-collector/web-collector/output/configs_DE.txt": "03dbbd3806e958ea1edb8310736d8754fc59e960cbfdfaf103c3913564c05193",
+  "/home/runner/work/web-collector/web-collector/output/configs_NL.txt": "06464b4525127692b937d28f6f17138d139d9281e620be3e9bde54f0839d7561",
+  "/home/runner/work/web-collector/web-collector/output/configs_others.txt": "4a75bbd6d8e237a1233943b353df7776a0aec1ea77a7de4c72ccd4332a05bfa7"
 }
