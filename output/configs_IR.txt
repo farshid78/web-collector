@@ -28,6 +28,8 @@ vless://bed7577d-6d8c-4345-aa3b-545a625554af@185.206.92.88:80?path=%2F&security=
 vless://43cd4e70-f03e-4aa0-bad3-9cb02e546439@185.206.92.88:80?path=%2F&security=none&encryption=none&host=love-iran.akbar1999.ir&type=ws#%40filembad
 vless://bed7577d-6d8c-4345-aa3b-545a625554af@185.206.92.88:80?path=/&security=none&encryption=none&host=love-iran.akbar1999.ir&type=ws#🇮🇷IR-🚀@VPNine1
 vless://43cd4e70-f03e-4aa0-bad3-9cb02e546439@185.206.92.88:80?path=/&security=none&encryption=none&host=love-iran.akbar1999.ir&type=ws#🇮🇷IR-🚀@VPNine1
+vless://b35a72b1-cfdf-4f67-a113-009db5ef17c4@snapp.ir:8080?encryption=none&type=ws&path=/&host=rt.orvexa.ir#🇮🇷IR-🚀@VPNine1
+trojan://33ws1asxa8vmbehw@snapp.ir:80?path=%2F&security=none&host=web.maxisup.ir&type=ws#Configs_FreeIran
 vless://ab5a2531-acc1-4a54-b16c-e14665dc88a5@direct.freelauner.ir:443?security=none&encryption=none&host=play.google.com&headerType=http&type=tcp#🇮🇷IR-🚀@VPNine1
 vless://ab5a2531-acc1-4a54-b16c-e14665dc88a5@direct.freelauner.ir:443?security=none&encryption=none&host=play.google.com&headerType=http&type=tcp#%40NETMelliAnti
 vless://4b7b8795-68fd-47b5-a2c6-315841455664@de.trackless.sbs:19444?security=reality&encryption=none&pbk=gU7zZLaPvCNsgvu4DFSo7K6wD47Al2IWDqtHCjkKyXs&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.cloudflare.com&sid=44ae4d30a085848f#🇮🇷IR-🚀@VPNine1
@@ -63,12 +65,8 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpDTkltWEZleFpZbzBBbEFRakNLYlhvZHJxc2xtNjFjMA@
 vless://3c4f4d61-ebcb-4594-aacf-ac0d620c8cde@alman.hellray-server.fun:3010?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=F50bIiv7OTo8dY83HheaSJoY_Mn2jZn8mfrCIly8Wy4&security=reality&sid=fa16a6435031&sni=www.aparat.com&spx=/83f2f218dd04e20&type=tcp#🇮🇷IR-🚀@VPNine1
 vless://07ec979a-dd85-4b50-a7fe-924837cf936a@port.serendpiti.ir:2626?encryption=none&type=ws&security=none#🇮🇷IR-🚀@VPNine1
 vless://feabe86d-7303-485d-7bca-a5f9374f67d0@s3.zynetraq.ir:2087?alpn=h2,http/1.1,h3&encryption=none&extra=%7B%22mode%22:%22auto%22,%22xPaddingBytes%22:%22100-1000%22%7D&fp=chrome&host=s3.zynetraq.ir&mode=auto&path=/BetForward&pcs=1b995919865b4b061a1768296995613e66d1afad274f8b227d70521038e56c2b&security=tls&sni=s3.zynetraq.ir&type=xhttp&x_padding_bytes=100-1000#🇮🇷IR-🚀@VPNine1
-vless://8603e9d8-de32-4447-9e39-d68d119640ee@77.104.95.130:2015?security=none&encryption=none&headerType=none&type=tcp#🇮🇷IR-🚀@VPNine1
-vless://0c779063-1e0a-41c2-94bf-9bd79b4026f5@irtonn.darklink.ir:2035?path=/java&security=&encryption=none&host=irtonn.darklink.ir&type=ws#🇮🇷IR-🚀@VPNine1
-vless://8603e9d8-de32-4447-9e39-d68d119640ee@185.8.172.140:8443?security=none&encryption=none&headerType=none&type=tcp#🇮🇷IR-🚀@VPNine1
 vless://1ee1f28d-4975-4d7c-95c7-76172c20eed5@185.143.234.238:2086?path=%2F&security=none&encryption=none&host=parsi.parsi.sbs&type=ws#@vasl_bashim
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowdTQ3eEp2cDJfcEdiQTVjMTNBU0hLODdEeER3azV6bQ@coco2.farajet.net:2020#@vasl_bashim
-trojan://33ws1asxa8vmbehw@snapp.ir:80?path=%2F&security=none&host=web.maxisup.ir&type=ws#Configs_FreeIran
 ss://bm9uZTpSU3pFSWtrMkVzSEVBVmoxNU41RS9BPT0=@185.188.105.11:443#@DeltaKroneckerGithub
 ss://bm9uZTpSU3pFSWtrMkVzSEVBVmoxNU41RS9BPT0@185.188.105.10:443#@DeltaKroneckerGithub
 ss://YWVzLTI1Ni1nY206UGNPRTUybHlHTzZNRlJtNi9tNWhmdUMzTnBOb2NrRHZjbk5ZZ3ExOE5pND0@79.175.134.49:39880#@DeltaKroneckerGithub
