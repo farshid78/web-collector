@@ -45,8 +45,6 @@ vless://b27a7f7f-f9e1-459e-9eaa-90f3643d3480@azadiconfig.myvpsd.ir:44642?encrypt
 vless://546eeb73-0099-464d-aaa5-141b8b8b934a@azadiconfig.myvpsd.ir:20267?encryption=none&host=&path=/&security=none&type=ws#🇮🇷IR-🚀@VPNine1
 vless://2b24afbe-7582-43bf-8034-1d1e83574ad2@185.143.233.235:80?path=/&security=none&encryption=none&host=katashi.ir&type=ws#🇮🇷IR-🚀@VPNine1
 vless://a8c6e908-fa7e-4d53-abdf-162fc47fe456@185.143.233.235:2053?encryption=none&security=tls&sni=top.mobixaco.ir&fp=random&insecure=0&allowInsecure=0&type=ws&host=top.mobixaco.ir&path=%2F#%40Configs_FreeIran
-vless://be362a73-a141-4a28-90b8-827ed7bcf388@95.38.182.182:1120?path=/mmd&security=none&encryption=none&type=ws#🇮🇷IR-🚀@VPNine1
-vless://be362a73-a141-4a28-90b8-827ed7bcf388@95.38.182.182:996?path=/mmd&security=none&encryption=none&type=ws#🇮🇷IR-🚀@VPNine1
 vless://1ee1f28d-4975-4d7c-95c7-76172c20eed5@185.143.234.238:2086?path=%2F&security=none&encryption=none&host=parsi.parsi.sbs&type=ws#@vasl_bashim
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowdTQ3eEp2cDJfcEdiQTVjMTNBU0hLODdEeER3azV6bQ@coco2.farajet.net:2020#@vasl_bashim
 ss://bm9uZTpSU3pFSWtrMkVzSEVBVmoxNU41RS9BPT0=@185.188.105.11:443#@DeltaKroneckerGithub
