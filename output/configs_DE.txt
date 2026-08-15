@@ -1,3 +1,6 @@
+vless://cb794985-2800-4d88-af43-018dcb678f2f@94.237.89.10:3389?security=none&encryption=none&headerType=none&type=tcp#%40filembad
+vless://cb794985-2800-4d88-af43-018dcb678f2f@94.237.89.10:3389?type=tcp&encryption=none&security=none#%40filembad
+vless://cb794985-2800-4d88-af43-018dcb678f2f@94.237.89.10:3389?encryption=none&security=none&type=tcp&headerType=none#🇩🇪DE-🚀@VPNine1
 vless://7595cd50-9326-48e4-a7bc-802e85e643ec@162.19.156.14:6800?security=reality&encryption=none&pbk=lQbgwNDYw6Zbjdim0JtXUarzb-3GSjDvtX6FJYZD9Qo&headerType=none&fp=qq&type=tcp&sni=play.google.com#%40filembad
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@3.78.155.1:22224?security=&encryption=none&headerType=none&type=tcp#%40filembad
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@3.78.155.1:22222?security=none&encryption=none&headerType=none&type=tcp#%40filembad
@@ -9,10 +12,9 @@ vless://e4514801-0d5a-42ba-869f-39bd605aef9e@3.78.155.1:22223?encryption=none&se
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@3.78.155.1:22222?encryption=none&security=none&type=tcp&headerType=none#🇩🇪DE-🚀@VPNine1
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@3.78.155.1:22224?encryption=none&security=none&type=tcp#🇩🇪DE-🚀@VPNine1
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@3.78.155.1:22223?encryption=none&security=none&type=tcp&headerType=none#🇩🇪DE-🚀@VPNine1
+vless://e4514801-0d5a-42ba-869f-39bd605aef9e@3.78.155.1:22224?security=none&encryption=none&headerType=none&type=tcp#%40outline_ir
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@3.78.155.1:22222?security=none&encryption=none&headerType=none&type=tcp#%40outline_ir
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@3.78.155.1:22222?encryption=none&security=none&type=tcp#(S101)🇩🇪t.me/PrivateVPNs
-vless://cb794985-2800-4d88-af43-018dcb678f2f@94.237.89.10:3389?type=tcp&encryption=none&security=none#%40filembad
-vless://cb794985-2800-4d88-af43-018dcb678f2f@94.237.89.10:3389?encryption=none&security=none&type=tcp&headerType=none#🇩🇪DE-🚀@VPNine1
 vless://1c2b69b0-c777-40fc-8a29-f87c28a451cd@212.100.171.149:5025?encryption=none&security=none&type=tcp&headerType=none#%40filembad
 vless://1c2b69b0-c777-40fc-8a29-f87c28a451cd@212.100.171.149:5025?security=none&encryption=none&headerType=none&type=tcp#%40filembad
 vless://1c2b69b0-c777-40fc-8a29-f87c28a451cd@212.100.171.149:5025?security=none&encryption=none&headerType=none&type=tcp#🇦🇪AE-🚀@VPNine1
@@ -48,7 +50,6 @@ vless://e4514801-0d5a-42ba-869f-39bd605aef9e@18.153.151.72:22222?encryption=none
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@18.153.151.72:22223?encryption=none&security=none&type=tcp#🇩🇪DE-🚀@VPNine1
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@18.153.151.72:22222?encryption=none&security=none&type=tcp#🇩🇪DE-🚀@VPNine1
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@18.153.151.72:22224?encryption=none&security=none&type=tcp#🇩🇪DE-🚀@VPNine1
-vless://e4514801-0d5a-42ba-869f-39bd605aef9e@18.153.151.72:22222?security=&encryption=none&headerType=none&type=tcp#%D8%AC%D9%88%DB%8C%D9%86%20%DA%86%D9%86%D9%84%20%D8%AA%D9%84%DA%AF%D8%B1%D8%A7%D9%85%20%D8%A8%D8%B4%DB%8C%D9%86%20XenoxNet%40
 vless://97ee39cc-cb22-42fd-9476-0c1a5f5a9621@5.75.197.25:1000?security=none&encryption=none&headerType=none&type=tcp#%40filembad
 vless://97ee39cc-cb22-42fd-9476-0c1a5f5a9621@5.75.197.25:1000?encryption=none&security=none&type=tcp&headerType=none#%40filembad
 vless://97ee39cc-cb22-42fd-9476-0c1a5f5a9621@5.75.197.25:1000?security=&encryption=none&headerType=none&type=tcp#%40filembad
