@@ -42,8 +42,6 @@ vless://29758bab-b53f-49a5-9aca-2ebf4f5c2f96@0vgx63a3.helpower.ir:8443?encryptio
 vless://29758bab-b53f-49a5-9aca-2ebf4f5c2f96@i485y8kw.helpower.ir:8443?encryption=none&security=reality&type=tcp&headerType=none&flow=xtls-rprx-vision&sni=www.samsung.com&fp=edge&pbk=DPOXdCRqBVmk-NnIcn83jJivUPYbk2CUvETiN_8Hx08&sid=ccc157c4a5eedc57&spx=/d524ed51c315523#🇹🇷TR-🚀@VPNine1
 vless://29758bab-b53f-49a5-9aca-2ebf4f5c2f96@i485y8kw.helpower.ir:2036?encryption=none&security=none&type=tcp&headerType=http&path=/&host=diwork.com#🇹🇷TR-🚀@VPNine1
 vless://29758bab-b53f-49a5-9aca-2ebf4f5c2f96@i485y8kw.helpower.ir:443?encryption=none&security=reality&type=xhttp&headerType=none&path=/&mode=auto&sni=diwork.com&fp=qq&pbk=OCR2Jsxytv_7DXaBAs3JgoL2-na-fBlEXEs4AvWM_Ao&sid=667e7c5f623ab929#🇹🇷TR-🚀@VPNine1
-vless://f8fd2381-40ea-4b46-973b-f9dab2eed50b@146.103.26.96:37211?encryption=none&security=reality&sni=www.google.com&fp=edge&pbk=2dpt8KZvY90iXmpdsCMkvK_00uHIhNbnz0VYrVFcJ3k&sid=aa6f080efb8928f9&type=tcp&headerType=none#🇹🇷TR-🚀@VPNine1
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpVNXVCWFJiTGhaZHZyNnYwbWRBdmph@107.161.174.240:8388/?outline=1#🇹🇷TR-🚀@VPNine1
 vless://de64aaa6-a0ea-48d0-853b-1c3cbc7fb42c@141.98.118.70:443?encryption=none&type=xhttp&security=reality&path=%2F&mode=auto&sni=www.google.com&fp=chrome&insecure=1&allowInsecure=1&pbk=LjEQR0FEtsOs5eQoVsZgJX5ZI0yeadUKTCLoGD641RQ&sid=44&spx=%2F#@vasl_bashim
 vless://de64aaa6-a0ea-48d0-853b-1c3cbc7fb42c@141.98.118.70:443?encryption=none&type=xhttp&security=reality&path=%2F&mode=auto&sni=www.google.com&fp=chrome&insecure=1&allowInsecure=1&pbk=LjEQR0FEtsOs5eQoVsZgJX5ZI0yeadUKTCLoGD641RQ&sid=44&spx=%2F#T.me/CONFiGiR98
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpyWWZpNGNRM3o3enRzN0JPNC1ZOV9B@188.41.249.20:1080#@vasl_bashim
