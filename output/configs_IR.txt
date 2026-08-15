@@ -37,7 +37,6 @@ vless://8603e9d8-de32-4447-9e39-d68d119640ee@77.104.95.130:2015?security=none&en
 vless://808580aa-c9a2-4122-af67-89300df67fdf@188.213.197.141:34343?path=%2F&security=&encryption=none&type=ws#%40filembad
 vless://808580aa-c9a2-4122-af67-89300df67fdf@188.213.197.141:34343?path=%2F&security=none&encryption=none&type=ws#%40filembad
 vless://808580aa-c9a2-4122-af67-89300df67fdf@188.213.197.141:34343?path=/&security=none&encryption=none&type=ws#🇮🇷IR-🚀@VPNine1
-vless://75ddbcc7-ba82-4c74-a333-908dd65fe100@188.212.96.126:2053?security=none&encryption=none&headerType=none&type=tcp#%40filembad
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp1cE96VTQyRkNDM0lrOVViSXltWEU0OUpoeWZiUnRaV0lqakFDWjd6OURFPQ@e1.cover20.ir:51570?type=tcp#🇮🇷IR-🚀@VPNine1
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpya1d0dElwalo0UTdGWExLVG5MNGYxeDRpN3pITGNrRkVZOHR0T0J2dGswPQ@e1.cover20.ir:51570?type=tcp#🇮🇷IR-🚀@VPNine1
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpDa3hZeUZsdzBmNGV4SWpPNWFIa1p4bm1Bb2xsK3VUZG40cU5lZDQva21nPQ@e1.cover20.ir:51570?type=tcp#🇮🇷IR-🚀@VPNine1
