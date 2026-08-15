@@ -28,7 +28,6 @@ vless://e4514801-0d5a-42ba-869f-39bd605aef9e@3.124.227.195:22222?encryption=none
 vless://699dde7d-4a08-4dd0-b081-7a87407a23fc@3.68.4.250:443?security=none&encryption=none&headerType=none&type=tcp#%40filembad
 vless://699dde7d-4a08-4dd0-b081-7a87407a23fc@3.68.4.250:443?security=none&headerType=none&type=tcp&encryption=none#%40filembad
 vless://699dde7d-4a08-4dd0-b081-7a87407a23fc@3.68.4.250:443?security=none&encryption=none&headerType=none&type=tcp#🇩🇪DE-🚀@VPNine1
-vless://699dde7d-4a08-4dd0-b081-7a87407a23fc@3.68.4.250:443?security=none&encryption=none&headerType=none&type=tcp#%F0%9D%97%9D%F0%9D%97%BC%F0%9D%97%B6%F0%9D%97%BB%E2%9E%A0%40PlanB_net
 vmess://eyJhZGQiOiIxNzguODMuNDUuMjkiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiNDg0MjIzMDAtNDU4Zi00ZGJiLWIwZjUtOTZmNDU0NTBhYjlmIiwiaW5zZWN1cmUiOiIwIiwibmV0IjoidGNwIiwicGF0aCI6IiIsInBjcyI6IiIsInBvcnQiOiIzODk5OCIsInBzIjoiQGZpbGVtYmFkIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIiLCJ2Y24iOiIifQ==
 vless://526c4eb2-9b4e-563a-b9e4-7fd6d0f28733@89.125.168.45:5000?security=reality&encryption=none&pbk=ImZszpFLaRorXOn0ISNH4V1YN71lwaLJzzvqqnFwPHk&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=yandex.ru&sid=fc10#%40filembad
 vless://526c4eb2-9b4e-563a-b9e4-7fd6d0f28733@89.125.168.45:5000?security=reality&encryption=none&pbk=ImZszpFLaRorXOn0ISNH4V1YN71lwaLJzzvqqnFwPHk&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=yandex.ru&sid=fc10#🇩🇪DE-🚀@VPNine1
@@ -72,7 +71,6 @@ vless://e4514801-0d5a-42ba-869f-39bd605aef9e@63.180.184.26:22224?encryption=none
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@18.193.240.71:22223?security=none&encryption=none&headerType=none&type=tcp#%40filembad
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@18.193.240.71:22222?security=none&encryption=none&headerType=none&type=tcp#%40filembad
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@18.193.240.71:22222?security=&encryption=none&headerType=none&type=tcp#%40filembad
-vless://e4514801-0d5a-42ba-869f-39bd605aef9e@18.193.240.71:22224?encryption=none&security=none&type=tcp#%40filembad
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@35.158.7.204:22222?encryption=none&security=none&type=tcp&headerType=none#%40filembad
 vless://624a45b3-55de-4456-adbc-e3129f878b5c@91.98.154.118:57775?path=/&security=none&encryption=none&host=play.google.com&type=ws#🇩🇪DE-🚀@VPNine1
 vless://4d611bd5-a60c-4f8f-9346-86261ca8241c@91.98.154.118:57775?path=/&security=none&encryption=none&host=play.google.com&type=ws#🇩🇪DE-🚀@VPNine1

@@ -1,6 +1,7 @@
+ss://YWVzLTI1Ni1nY206WmpObFpUZ3dNekU0Tnpnek9HUm1ZVFkzTlRrd05UY3lPVEpsWkRjeA@95.38.167.78:9114?prefix=%16%03%01%00%C2%A8%01%01#%40filembad
+ss://YWVzLTI1Ni1nY206WVdNeU1tUXhPVGxrWmpneE0ySXdNbVUxT1RobE1qaGhOMkZtT1dJNQ@95.38.167.78:9147?prefix=%16%03%01%00%C2%A8%01%01#%40filembad
 vless://d02b7c73-a362-441d-92bd-f8677240fef2@185.141.213.168:8880?headerType=none&security=none&type=tcp&encryption=mlkem768x25519plus.native.0rtt.RGsrmjEh1INvgoYhtnXh8UYG6BJUmkyipIWtR_AUSTA#%40filembad
 vless://d02b7c73-a362-441d-92bd-f8677240fef2@185.141.213.168:8880?headerType=none&security=none&type=tcp&encryption=mlkem768x25519plus.native.0rtt.RGsrmjEh1INvgoYhtnXh8UYG6BJUmkyipIWtR_AUSTA#🇮🇷IR-🚀@VPNine1
-ss://YWVzLTI1Ni1nY206WVdNeU1tUXhPVGxrWmpneE0ySXdNbVUxT1RobE1qaGhOMkZtT1dJNQ@95.38.167.78:9147?prefix=%16%03%01%00%C2%A8%01%01#%40filembad
 ss://YWVzLTI1Ni1nY206TlRFMk5qVmpZalJrT0dNeVlXRTFaV1ZoTnpZM01XUXhZekEzTWpBMw@94.101.181.25:9147?prefix=%16%03%01%00%C2%A8%01%01#%40filembad
 vless://1ee1f28d-4975-4d7c-95c7-76172c20eed5@185.143.233.238:2086?path=%2F&security=none&encryption=none&host=parsi.parsi.sbs&type=ws#%40filembad
 vless://2b24afbe-7582-43bf-8034-1d1e83574ad2@185.143.233.235:80?path=%2F&security=none&encryption=none&host=katashi.ir&type=ws#%40filembad
