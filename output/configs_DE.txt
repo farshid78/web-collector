@@ -70,11 +70,8 @@ vmess://eyJhZGQiOiIxNzguODMuNDUuMjkiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9z
 vless://526c4eb2-9b4e-563a-b9e4-7fd6d0f28733@89.125.168.45:5000?security=reality&encryption=none&pbk=ImZszpFLaRorXOn0ISNH4V1YN71lwaLJzzvqqnFwPHk&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=yandex.ru&sid=fc10#%40filembad
 vless://526c4eb2-9b4e-563a-b9e4-7fd6d0f28733@89.125.168.45:5000?security=reality&encryption=none&pbk=ImZszpFLaRorXOn0ISNH4V1YN71lwaLJzzvqqnFwPHk&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=yandex.ru&sid=fc10#🇩🇪DE-🚀@VPNine1
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@63.187.167.167:22222?encryption=none&security=none&type=tcp&headerType=none#%40filembad
-vless://e4514801-0d5a-42ba-869f-39bd605aef9e@63.187.167.167:22222?security=none&encryption=none&headerType=none&type=tcp#%40filembad
-vless://e4514801-0d5a-42ba-869f-39bd605aef9e@63.187.167.167:22223?security=none&encryption=none&headerType=none&type=tcp#%40filembad
 vless://a382aa45-22d5-4a8c-86cc-ad11d1f2800f@45.65.112.228:20513?security=reality&encryption=none&pbk=CTfSuRE6fUPYVBJGsmOYnP3UketmmTJSQP45OcoGI2k&headerType=none&fp=qq&type=tcp&sni=updates.cdn-apple.com&sid=9f3921483225ccf8#%40filembad
 vless://a382aa45-22d5-4a8c-86cc-ad11d1f2800f@45.65.112.228:20513?security=reality&encryption=none&pbk=CTfSuRE6fUPYVBJGsmOYnP3UketmmTJSQP45OcoGI2k&headerType=none&fp=qq&type=tcp&sni=updates.cdn-apple.com&sid=9f3921483225ccf8#🇩🇪DE-🚀@VPNine1
-vless://bc527d04-6272-41d0-8c48-aa0e83638c94@164.90.165.38:46569?security=none&encryption=none&headerType=none&type=tcp#%40filembad
 vless://a5d5983d-7561-43e9-8339-c6bdbbe7ba4d@cpanel.speedmizban.net:2044?encryption=none&security=none&type=tcp&headerType=http&path=/&host=mangaarabics.com#🇫🇮FI-🚀@VPNine1
 vless://0cc27ba2-66d4-481c-94c1-cbd0b7e618b8@cpanel.speedmizban.net:2044?encryption=none&security=none&type=tcp&headerType=http&path=/&host=mangaarabics.com#🇱🇻LV-🚀@VPNine1
 vless://a5d5983d-7561-43e9-8339-c6bdbbe7ba4d@whm.speedmizban.net:2044?encryption=none&security=none&type=tcp&headerType=http&path=/&host=diwork.com#🇩🇪DE-🚀@VPNine1
