@@ -1,52 +1,4 @@
 {
-  "47.254.172.26": {
-    "country": "DE",
-    "ts": 1785691726
-  },
-  "172.67.221.132": {
-    "country": "CA",
-    "ts": 1785691726
-  },
-  "18.157.91.68": {
-    "country": "DE",
-    "ts": 1785691726
-  },
-  "sw1.auragg.org": {
-    "country": "CH",
-    "ts": 1785691726
-  },
-  "104.19.38.18": {
-    "country": "CA",
-    "ts": 1785691726
-  },
-  "104.17.90.196": {
-    "country": "CA",
-    "ts": 1785691726
-  },
-  "172.67.213.208": {
-    "country": "CA",
-    "ts": 1785691726
-  },
-  "arg-production-ed31.up.railway.app": {
-    "country": "US",
-    "ts": 1785691726
-  },
-  "fin03.routexvpn.space": {
-    "country": "FI",
-    "ts": 1785691727
-  },
-  "rus10.routexvpn.space": {
-    "country": "RU",
-    "ts": 1785691727
-  },
-  "fr.fastraytel9880.ir": {
-    "country": "FR",
-    "ts": 1785691727
-  },
-  "juventusoldhag.belzema.ir": {
-    "country": "IT",
-    "ts": 1785691727
-  },
   "162.159.135.115": {
     "country": "CA",
     "ts": 1785695603
@@ -40718,5 +40670,49 @@
   "dash.zendegizibast.ir": {
     "country": "IR",
     "ts": 1786899637
+  },
+  "104.171.137.20": {
+    "country": "RU",
+    "ts": 1786901507
+  },
+  "144.31.76.198": {
+    "country": "DE",
+    "ts": 1786901507
+  },
+  "185.43.7.212": {
+    "country": "RU",
+    "ts": 1786901507
+  },
+  "63.185.140.9": {
+    "country": "DE",
+    "ts": 1786901507
+  },
+  "104.171.135.15": {
+    "country": "RU",
+    "ts": 1786901507
+  },
+  "78.159.246.110": {
+    "country": "NL",
+    "ts": 1786901507
+  },
+  "178.250.158.200": {
+    "country": "RU",
+    "ts": 1786901507
+  },
+  "18.199.102.146": {
+    "country": "DE",
+    "ts": 1786901507
+  },
+  "web3.breathtaking.uk": {
+    "country": "RU",
+    "ts": 1786901507
+  },
+  "mlte.lunoxweb.icu": {
+    "country": "RU",
+    "ts": 1786901507
+  },
+  "ru-1.ulya.space": {
+    "country": "RU",
+    "ts": 1786901507
   }
 }
