@@ -17,6 +17,7 @@ vless://d02b7c73-a362-441d-92bd-f8677240fef2@185.141.213.168:8880?headerType=non
 vless://d02b7c73-a362-441d-92bd-f8677240fef2@185.141.213.168:8880?headerType=none&security=none&type=tcp&encryption=mlkem768x25519plus.native.0rtt.RGsrmjEh1INvgoYhtnXh8UYG6BJUmkyipIWtR_AUSTA#🇮🇷IR-🚀@VPNine1
 ss://YWVzLTI1Ni1nY206TlRFMk5qVmpZalJrT0dNeVlXRTFaV1ZoTnpZM01XUXhZekEzTWpBMw@94.101.181.25:9147?prefix=%16%03%01%00%C2%A8%01%01#%40filembad
 ss://YWVzLTI1Ni1nY206TlRFMk5qVmpZalJrT0dNeVlXRTFaV1ZoTnpZM01XUXhZekEzTWpBMw@94.101.181.25:9147?prefix=%16%03%01%00%C2%A8%01%01#🇮🇷IR-🚀@VPNine1
+vless://b47a1c70-d033-4c31-b24f-6058d6cd04bf@2.144.26.237:9443?path=/nova-geo-psiphon-be&security=tls&encryption=none&insecure=0&host=vip.polnejat.ir&type=ws&allowInsecure=0&sni=vip.polnejat.ir#🇮🇷IR-🚀@VPNine1
 vless://54206f1c-1413-465f-a895-83287d000a74@snapp.ir:8080?path=/&security=none&encryption=none&host=rt.orvexa.ir&type=ws#🇮🇷IR-🚀@VPNine1
 vless://b35a72b1-cfdf-4f67-a113-009db5ef17c4@snapp.ir:8080?encryption=none&type=ws&path=/&host=rt.orvexa.ir#🇮🇷IR-🚀@VPNine1
 trojan://33ws1asxa8vmbehw@snapp.ir:80?path=%2F&security=none&host=web.maxisup.ir&type=ws#Configs_FreeIran
