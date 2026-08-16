@@ -53,12 +53,10 @@ vless://3dbaa6d3-52a8-4602-ae3c-bf495356878c@185.204.171.178:42693?encryption=no
 vless://3dbaa6d3-52a8-4602-ae3c-bf495356878c@185.204.171.178:42693?encryption=none&security=none&type=tcp#🇩🇪DE-🚀@VPNine1
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@3.124.227.195:22222?encryption=none&type=tcp&headerType=none#%40filembad
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@3.124.227.195:22222?security=none&encryption=none&headerType=none&type=tcp#%40filembad
-vless://e4514801-0d5a-42ba-869f-39bd605aef9e@3.124.227.195:22222?encryption=none&security=none&type=tcp&headerType=none#%40filembad
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@3.124.227.195:22222?encryption=none&type=tcp&headerType=none#@vasl_bashim
 vless://39ad12ba-914a-4aa1-a825-3ee4db7c0a52@89.167.12.115:22579?security=&encryption=none&headerType=&type=tcp#%40filembad
 vless://39ad12ba-914a-4aa1-a825-3ee4db7c0a52@89.167.12.115:22579?security=none&encryption=none&headerType=none&type=tcp#%40filembad
 vless://39ad12ba-914a-4aa1-a825-3ee4db7c0a52@89.167.12.115:22579?&type=tcp&headerType=none&path=%2F#%40filembad
-vless://39ad12ba-914a-4aa1-a825-3ee4db7c0a52@89.167.12.115:22579?encryption=none&security=none&type=tcp&headerType=none#%40filembad
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@18.153.151.72:22223?encryption=none&security=none&type=tcp#%40filembad
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@18.153.151.72:22224?encryption=none&security=none&type=tcp&headerType=none#%40filembad
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@18.153.151.72:22223?encryption=none&security=none&type=tcp&headerType=none#%40filembad
@@ -67,7 +65,6 @@ vless://e4514801-0d5a-42ba-869f-39bd605aef9e@18.153.151.72:22222?security=&encry
 vless://97ee39cc-cb22-42fd-9476-0c1a5f5a9621@5.75.197.25:1000?security=none&encryption=none&headerType=none&type=tcp#%40filembad
 vless://97ee39cc-cb22-42fd-9476-0c1a5f5a9621@5.75.197.25:1000?encryption=none&type=tcp&headerType=none#@vasl_bashim
 vless://699dde7d-4a08-4dd0-b081-7a87407a23fc@3.68.4.250:443?security=none&encryption=none&headerType=none&type=tcp#%40filembad
-vmess://eyJhZGQiOiIxNzguODMuNDUuMjkiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiNDg0MjIzMDAtNDU4Zi00ZGJiLWIwZjUtOTZmNDU0NTBhYjlmIiwiaW5zZWN1cmUiOiIwIiwibmV0IjoidGNwIiwicGF0aCI6IiIsInBjcyI6IiIsInBvcnQiOiIzODk5OCIsInBzIjoiQGZpbGVtYmFkIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIiLCJ2Y24iOiIifQ==
 vless://0149ec2e-adb7-4166-82c9-86908bee2292@gym.akfitness.ir:8443?mode=auto&path=/gym/tutorials/videos/4K_Tutorials_HDR_watch&security=reality&encryption=none&extra=%7B%22mode%22:%22auto%22,%22xPaddingBytes%22:%22100-1000%22,%22xmux%22:%7B%22cMaxReuseTimes%22:0,%22hKeepAlivePeriod%22:0,%22hMaxRequestTimes%22:%220%22,%22hMaxReusableSecs%22:%220%22,%22maxConcurrency%22:%22%22,%22maxConnections%22:3%7D%7D&pbk=O7GwAjykfKdQ6PhkVhl60U_Bttz9fm-6xkvMXb_-ems&host=gym.akfitness.ir&fp=chrome&spx=/3edcd711946dede&type=xhttp&sni=cdn.gameq.ir&sid=8136da3a34f20027#🇩🇪DE-🚀@VPNine1
 vless://86a8db63-bfba-443c-a0b9-b8b45d1c9647@gym.akfitness.ir:8443?mode=auto&path=/gym/tutorials/videos/4K_Tutorials_HDR_watch&security=reality&encryption=none&extra=%7B%22mode%22:%22auto%22,%22xPaddingBytes%22:%22100-1000%22,%22xmux%22:%7B%22cMaxReuseTimes%22:0,%22hKeepAlivePeriod%22:0,%22hMaxRequestTimes%22:%220%22,%22hMaxReusableSecs%22:%220%22,%22maxConcurrency%22:%22%22,%22maxConnections%22:3%7D%7D&pbk=O7GwAjykfKdQ6PhkVhl60U_Bttz9fm-6xkvMXb_-ems&host=gym.akfitness.ir&fp=chrome&spx=/4e2d16424c159ee&type=xhttp&sni=cdn.gameq.ir&sid=8136da3a34f20027#🇩🇪DE-🚀@VPNine1
 vless://1fbbd47a-4b26-465e-9c04-f2ea3b9f44b1@sv1.mobileemdad.top:443?encryption=none&security=reality&type=tcp&headerType=none&sni=us.demonware.net&fp=edge&pbk=PjR-SM4fOm2fY4mTqWoqZDRyxontvpailM0gBqUxlUQ&sid=aefc7f3722#🇩🇪DE-🚀@VPNine1
@@ -192,6 +189,10 @@ vless://b16fe24d-42ab-4d3a-8b0b-ef421f1cce53@49.12.66.102:1373?security=none&enc
 trojan://dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q@185.137.157.145:443?type=tcp&security=tls&headerType=none&insecure=0&allowInsecure=0#T.me/CONFiGiR98
 vless://5bb07942-ca80-4577-acd0-e5935c3cd523@93.152.217.55:8443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=vk-portal.ru&fp=firefox&pbk=4uDjB4cV22HwhNwXkyicoWN5ocwxBB85i08lcRpN7Xc&sid=ad5cfe18&spx=%2F06fca620fa52ba5&type=tcp&headerType=none#best_internet_iran
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@3.78.6.106:22223?security=&encryption=none&headerType=&type=tcp#@mozconfigs
+trojan://bptHV5U91mWneB61rRKhCQ8f@87.121.218.169:443?allowInsecure=1&insecure=1&type=tcp&security=tls&fp=chrome&alpn=http/1.1#%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Frankfurt%20am%20Main%20%7C%20%5BBL%5D
+trojan://bptHV5U91mWneB61rRKhCQ8f@87.121.218.169:443?security=tls&sni=87.121.218.169#%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Frankfurt%20am%20Main%20%7C%20%5BBL%5D
+vless://9e1e2fad-b6ca-474b-a28d-4b52c7891da0@87.121.218.169:8443?type=tcp&security=tls&encryption=none&flow=xtls-rprx-vision&fp=firefox&sni=87.121.218.169#%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Frankfurt%20am%20Main%20%7C%20%5BBL%5D
+vless://9e1e2fad-b6ca-474b-a28d-4b52c7891da0@87.121.218.169:8443?type=tcp&security=tls&fp=chrome&flow=xtls-rprx-vision&allowInsecure=0&insecure=0#%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Frankfurt%20am%20Main%20%7C%20%5BBL%5D
 vless://c7e9c591-2764-423a-afca-efbd010fd396@188.241.241.37:2053?fp=chrome&host=forfreeuse.rtqa.ru&path=%2F&security=tls&sni=forfreeuse.rtqa.ru&type=ws#%F0%9F%87%AB%F0%9F%87%AE%20Finland%2C%20Helsinki%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
 vless://c7e9c591-2764-423a-afca-efbd010fd396@188.241.241.37:2053?type=ws&security=tls&encryption=none&sni=forfreeuse.rtqa.ru&path=%2F&host=forfreeuse.rtqa.ru&fp=firefox#%F0%9F%87%AB%F0%9F%87%AE%20Finland%2C%20Helsinki%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
 vless://c7e9c591-2764-423a-afca-efbd010fd396@87.106.141.152:2053?fp=chrome&host=forfreeuse.rtqa.ru&path=%2F&security=tls&sni=forfreeuse.rtqa.ru&type=ws#%F0%9F%87%AB%F0%9F%87%AE%20Finland%2C%20Helsinki%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
@@ -207,10 +208,6 @@ vless://53c76647-14d1-4df5-99cb-be99ad2e6bd9@82.38.4.126:443?sni=de126.mechvpn.o
 vless://53c76647-14d1-4df5-99cb-be99ad2e6bd9@82.38.4.126:443?security=tls&encryption=none&sni=de126.mechvpn.online&alpn=h3%2Ch2%2Chttp/1.1&fp=firefox&flow=xtls-rprx-vision#%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Frankfurt%20am%20Main%20%7C%20%5BBL%5D
 vless://53c76647-14d1-4df5-99cb-be99ad2e6bd9@82.38.4.126:443?type=tcp&security=tls&encryption=none&flow=xtls-rprx-vision&fp=firefox&sni=de126.mechvpn.online#%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Frankfurt%20am%20Main%20%7C%20%5BBL%5D
 vless://b5f03bd3-0c55-416b-8ef9-da02593c1466@2.27.15.95:7443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=qq&pbk=WPxQ7LPnJfuchcuNLZNOFqE-dTqOfRIbscUdQS5qsV0&sid=a1b2c3d4e5f6789a&sni=amedia-vod.cdnvideo.ru#%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Frankfurt%20am%20Main%20%28Innenstadt%20I%29%20%7C%20%5BBL%5D
-trojan://bptHV5U91mWneB61rRKhCQ8f@87.121.218.169:443?allowInsecure=1&insecure=1&type=tcp&security=tls&fp=chrome&alpn=http/1.1#%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Frankfurt%20am%20Main%20%7C%20%5BBL%5D
-trojan://bptHV5U91mWneB61rRKhCQ8f@87.121.218.169:443?security=tls&sni=87.121.218.169#%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Frankfurt%20am%20Main%20%7C%20%5BBL%5D
-vless://9e1e2fad-b6ca-474b-a28d-4b52c7891da0@87.121.218.169:8443?type=tcp&security=tls&encryption=none&flow=xtls-rprx-vision&fp=firefox&sni=87.121.218.169#%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Frankfurt%20am%20Main%20%7C%20%5BBL%5D
-vless://9e1e2fad-b6ca-474b-a28d-4b52c7891da0@87.121.218.169:8443?type=tcp&security=tls&fp=chrome&flow=xtls-rprx-vision&allowInsecure=0&insecure=0#%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Frankfurt%20am%20Main%20%7C%20%5BBL%5D
 vless://921db318-1694-4408-9cc7-c93df39f7f8e@2.58.66.142:443?encryption=none&fp=firefox&pbk=aUdvs6o4PHN6jmdkIKBA2rHsN_7l8W2SaDfNgzn-BwU&security=reality&sni=de.monkora.org&type=tcp#@DeltaKroneckerGithub
 vless://c7e9c591-2764-423a-afca-efbd010fd396@5.187.6.30:2053?fp=chrome&host=forfreeuse.rtqa.ru&path=%2F&security=tls&sni=forfreeuse.rtqa.ru&type=ws#@DeltaKroneckerGithub
 trojan://b8808043-6566-4923-9195-e66bfb553d57@51.38.99.96:443?security=tls&sni=ba24.ir#@DeltaKroneckerGithub
