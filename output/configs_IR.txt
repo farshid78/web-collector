@@ -26,7 +26,6 @@ trojan://humanity@2.144.21.150:2000?path=/assignment&security=tls&insecure=0&typ
 vless://f1679e17-47a4-42d1-8e9f-6c3e2be19674@cpanel.mizban-b.site:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.bing.com&fp=chrome&pbk=g2SD52sLiQaEBwsi2AakOWQ8W_ceOLIh8aAOU5HEOWw&sid=ce702769abcbc729&type=tcp&headerType=none&path=/#🇮🇷IR-🚀@VPNine1
 vless://f1679e17-47a4-42d1-8e9f-6c3e2be19674@demo.rmohammadi.site:443?encryption=none&security=reality&type=tcp&headerType=none&flow=xtls-rprx-vision&path=/&sni=www.bing.com&fp=chrome&pbk=g2SD52sLiQaEBwsi2AakOWQ8W_ceOLIh8aAOU5HEOWw&sid=ce702769abcbc729#🇮🇷IR-🚀@VPNine1
 vless://316140f7-2190-4130-9ce4-017307d5c716@turkey.blueheartz.ir:27632?security=reality&encryption=none&pbk=tge1_umgZzzbe243U0RmtmHKF9LNp-Hg6xg0KV7Zv1c&headerType=&fp=firefox&spx=/9ab09ad716ae120&type=tcp&sni=play-fe.googleapis.com&sid=2c9dd97f742c96#🇮🇷IR-🚀@VPNine1
-vless://316140f7-2190-4130-9ce4-017307d5c716@turkey.blueheartz.ir:27632?security=reality&encryption=none&pbk=tge1_umgZzzbe243U0RmtmHKF9LNp-Hg6xg0KV7Zv1c&headerType=none&fp=firefox&spx=%2F9ab09ad716ae120&type=tcp&sni=play-fe.googleapis.com&sid=2c9dd97f742c96#%40FarazV2ray
 vless://206aa07d-1d2f-4bf0-96aa-cc46c6b7b27c@78.110.121.54:7997?encryption=none&security=none&type=tcp#🇮🇷IR-🚀@VPNine1
 vless://b35a72b1-cfdf-4f67-a113-009db5ef17c4@snapp.ir:8080?encryption=none&type=ws&path=/&host=rt.orvexa.ir#🇮🇷IR-🚀@VPNine1
 trojan://33ws1asxa8vmbehw@snapp.ir:80?path=%2F&security=none&host=web.maxisup.ir&type=ws#Configs_FreeIran
