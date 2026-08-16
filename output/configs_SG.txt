@@ -33,6 +33,7 @@ vless://e99ba96d-dec8-42eb-be53-19e71eef7cab@5.253.42.164:40443?security=reality
 vless://99476b8e-517a-4fc2-815e-6f2061c9e22d@138.199.46.65:443?alpn=http%2F1.1&encryption=none&fp=edge&host=s3whlhf3.b-cdn.net&path=%2Fassets%2Fsync&security=tls&sni=s3whlhf3.b-cdn.net&type=ws#%F0%9F%87%AB%F0%9F%87%B7%20France%2C%20Paris%20%7C%20%5BBL%5D
 vless://423b1d79-08c4-403f-9d5e-c541f791b55f@154.196.139.50:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=eaRNeC8fccrx0nBNvBpAXZgK4m4FxfnQ-t0W7NOM7mU&security=reality&sid=e53048e82bb20077&sni=asia.cendora.ru&type=tcp#%F0%9F%87%B8%F0%9F%87%AC%20Singapore%2C%20Singapore%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
 vless://423b1d79-08c4-403f-9d5e-c541f791b55f@154.196.139.50:443?type=tcp&headerType=none&security=reality&encryption=none&sni=asia.cendora.ru&fp=chrome&pbk=eaRNeC8fccrx0nBNvBpAXZgK4m4FxfnQ-t0W7NOM7mU&sid=e53048e82bb20077&flow=xtls-rprx-vision#%F0%9F%87%B8%F0%9F%87%AC%20Singapore%2C%20Singapore%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
+trojan://JA96378052@content-joey.rooster465.autos:443?security=tls&sni=content-joey.rooster465.autos#@DeltaKroneckerGithub
 trojan://FH72359861@13.229.78.106:443?sni=faithful-clam.rooster465.autos&type=tcp&fp=chrome#@DeltaKroneckerGithub
 trojan://FH72359861@47.129.144.5:443?sni=loved-shark.rooster465.autos&type=tcp&fp=chrome#@DeltaKroneckerGithub
 trojan://842b5f9dd11e458d8613c907c4cc5723@149.28.151.140:443?sni=www.gpt123.one&allowInsecure=1&type=tcp#@DeltaKroneckerGithub
