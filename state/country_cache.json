@@ -1,76 +1,4 @@
 {
-  "217.16.29.32": {
-    "country": "RU",
-    "ts": 1785683786
-  },
-  "196.240.57.35": {
-    "country": "DE",
-    "ts": 1785683786
-  },
-  "82.198.246.250": {
-    "country": "US",
-    "ts": 1785683786
-  },
-  "104.21.7.50": {
-    "country": "CA",
-    "ts": 1785683786
-  },
-  "196.240.57.178": {
-    "country": "DE",
-    "ts": 1785683786
-  },
-  "132.243.242.152": {
-    "country": "DE",
-    "ts": 1785683786
-  },
-  "104.16.232.249": {
-    "country": "CA",
-    "ts": 1785683786
-  },
-  "104.19.45.139": {
-    "country": "CA",
-    "ts": 1785683786
-  },
-  "104.19.47.171": {
-    "country": "CA",
-    "ts": 1785683786
-  },
-  "176.98.176.110": {
-    "country": "RU",
-    "ts": 1785683786
-  },
-  "104.26.10.138": {
-    "country": "CA",
-    "ts": 1785683786
-  },
-  "est.vrsvpn.com": {
-    "country": "EE",
-    "ts": 1785683786
-  },
-  "201.51.0.38": {
-    "country": "RU",
-    "ts": 1785683786
-  },
-  "3x-ui-production-0061.up.railway.app": {
-    "country": "US",
-    "ts": 1785683786
-  },
-  "kumpan-cdn.ru": {
-    "country": "RU",
-    "ts": 1785683786
-  },
-  "gotveran.sav-savteam.ir": {
-    "country": "DE",
-    "ts": 1785683786
-  },
-  "vpna.poorifast.ir": {
-    "country": "TR",
-    "ts": 1785683786
-  },
-  "friendlynode.site": {
-    "country": "RU",
-    "ts": 1785683786
-  },
   "205.233.181.90": {
     "country": "US",
     "ts": 1785687460
@@ -41202,5 +41130,13 @@
   "ipp.immahan.ir": {
     "country": "IR",
     "ts": 1786891982
+  },
+  "gotveran.sav-savteam.ir": {
+    "country": "UNKNOWN",
+    "ts": 1786893789
+  },
+  "yeet.rubyshow.ir": {
+    "country": "CA",
+    "ts": 1786893789
   }
 }
