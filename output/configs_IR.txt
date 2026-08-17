@@ -31,8 +31,9 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpCWnBnZWdCUFFaSlIyN0pOdkxrWmRR@Library.amozes
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpCWnBnZWdCUFFaSlIyN0pOdkxrWmRR@Library.amozesh-kade.ir:4098?type=tcp#🇮🇷IR-🚀@VPNine1
 vless://257c313c-36fa-4d99-ba06-bb4a02aae70d@adgof.mgodping12.xyz:2086?type=grpc&security=tls&fp=chrome&serviceName=&sni=&alpn=h2,http/1.1,h3#🇮🇷IR-🚀@VPNine1
 vless://88de9f34-576c-472e-bc11-2b1f63ef19e5@pichi.picmusic.ir:15882?security=reality&encryption=none&pbk=gZT_3S5MB7JX7lYznOoo9CgMXpJtwEy7ChVtybbUjz4&headerType=none&fp=chrome&spx=/&type=tcp&sni=arxiv.org&sid=f378eb2f#🇮🇷IR-🚀@VPNine1
+vless://88de9f34-576c-472e-bc11-2b1f63ef19e5@pichi.picmusic.ir:15882?security=reality&encryption=none&pbk=gZT_3S5MB7JX7lYznOoo9CgMXpJtwEy7ChVtybbUjz4&headerType=none&spx=%2F&type=tcp&sni=arxiv.org&sid=f378eb2f&fp=chrome#%F0%9F%87%AB%F0%9F%87%AE%20Finland%2C%20Helsinki%20%7C%20%5BBL%5D
+vless://88de9f34-576c-472e-bc11-2b1f63ef19e5@pichi.picmusic.ir:15882?security=reality&encryption=none&pbk=gZT_3S5MB7JX7lYznOoo9CgMXpJtwEy7ChVtybbUjz4&headerType=none&spx=%2F&type=tcp&sni=arxiv.org&sid=f378eb2f&fp=qq#%F0%9F%87%AB%F0%9F%87%AE%20Finland%2C%20Helsinki%20%7C%20%5BBL%5D
 vless://c5293efa-28f8-4a0f-8f34-541078970cee@45.131.4.126:80?type=ws&encryption=none&host=gozargah.validbv7996.ir&path=Telegram%F0%9F%87%A8%F0%9F%87%B3@VPNine1/?ed#🇳🇱NL-🚀@VPNine1
-vless://c5293efa-28f8-4a0f-8f34-541078970cee@45.131.4.126:80?type=ws&encryption=none&host=gozargah.validbv7996.ir&path=Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed#@ConfigYab_AUTO
 vless://de8f907c-53cc-40da-b9eb-87775b31258e@185.143.233.222:8080?security=none&allowInsecure=0&encryption=none&type=ws&host=free.tradepal.ir&path=/#🇮🇷IR-🚀@VPNine1
 vless://87d803c7-f879-478e-e1f2-738d804de98e@zula.ir:80?path=/2FF4sNFEEm2rBDKp42yuiT3j1BVZCca79h2wzV&security=none&encryption=none&host=DIGI-029-bdz43GbSz5VB1B5oGzqNYu3E.BEsTholDHypErionblog-100.ORG&type=ws#🇮🇷IR-🚀@VPNine1
 vless://9ef6db89-3cad-4c66-b38c-315730b5c336@185.143.234.122:80?path=/&security=none&encryption=none&host=amm2.avenflow.ir&type=ws#🇮🇷IR-🚀@VPNine1
