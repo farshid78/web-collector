@@ -55,10 +55,9 @@ vless://bff4faeb-1356-4b93-b6af-1cdc7afc3a32@94.184.12.183:443?mode=auto&path=/g
 vless://56961905-261a-4809-942a-a9c606ca067f@demo.rmohammadi.site:443?encryption=none&security=reality&type=tcp&headerType=none&flow=xtls-rprx-vision&path=/&sni=www.bing.com&fp=chrome&pbk=g2SD52sLiQaEBwsi2AakOWQ8W_ceOLIh8aAOU5HEOWw&sid=ce702769abcbc729#🇮🇷IR-🚀@VPNine1
 vless://56961905-261a-4809-942a-a9c606ca067f@cpanel.mizban-b.site:443?encryption=none&security=reality&type=tcp&headerType=none&flow=xtls-rprx-vision&path=/&sni=www.bing.com&fp=chrome&pbk=g2SD52sLiQaEBwsi2AakOWQ8W_ceOLIh8aAOU5HEOWw&sid=ce702769abcbc729#🇩🇪DE-🚀@VPNine1
 vless://1ee1f28d-4975-4d7c-95c7-76172c20eed5@185.143.234.238:2086?path=%2F&security=none&encryption=none&host=parsi.parsi.sbs&type=ws#@vasl_bashim
+vless://1ee1f28d-4975-4d7c-95c7-76172c20eed5@185.143.234.238:2086?encryption=none&security=none&type=ws&host=parsi.parsi.sbs&path=/#@DeltaKroneckerGithub
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowdTQ3eEp2cDJfcEdiQTVjMTNBU0hLODdEeER3azV6bQ@coco2.farajet.net:2020#@vasl_bashim
 vless://a8c6e908-fa7e-4d53-abdf-162fc47fe456@185.143.233.235:2053?encryption=none&security=tls&sni=top.mobixaco.ir&fp=random&insecure=0&allowInsecure=0&type=ws&host=top.mobixaco.ir&path=%2F#%40Configs_FreeIran
 vless://440d1fb3-7a10-4569-82c2-71602cef26c7@87.236.38.139:2036?security=tls&type=ws&path=/&host=world.ashahan.ir&sni=world.ashahan.ir&fp=chrome&encryption=none#%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Nuremberg%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
 vless://440d1fb3-7a10-4569-82c2-71602cef26c7@go.ashahan.ir:2036?path=%2F&security=tls&encryption=none&insecure=0&host=world.ashahan.ir&type=ws&allowInsecure=0&sni=world.ashahan.ir#%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Nuremberg%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
 vless://440d1fb3-7a10-4569-82c2-71602cef26c7@go.ashahan.ir:2036?security=tls&type=ws&path=/&host=world.ashahan.ir&sni=world.ashahan.ir&fp=chrome&encryption=none#%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Nuremberg%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
-trojan://diCyRX1d@193.151.134.182:443?flow=xtls-rprx-direct&security=xtls&sni=iprostable.enterprises&type=tcp&headerType=none#@DeltaKroneckerGithub
-ss://bm9uZTpSU3pFSWtrMkVzSEVBVmoxNU41RS9BPT0@185.188.106.10:443#@DeltaKroneckerGithub
