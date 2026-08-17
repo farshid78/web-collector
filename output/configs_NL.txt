@@ -2,7 +2,6 @@ vless://47388561-cf0c-4cfc-91f8-fdfd9fa3d756@150.40.117.221:8443?security=realit
 vless://47388561-cf0c-4cfc-91f8-fdfd9fa3d756@150.40.117.221:8443?security=reality&encryption=none&pbk=B5F8h8tpeZ-1ydiT0uFgdc30jJyw8H89Y8e-p_VV6yw&host=%2F%3FBIA_TELEGRAM%40MARAMBASHI_MARAMBASHI&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=www.amazon.com&sid=7b#%40filembad
 vless://47388561-cf0c-4cfc-91f8-fdfd9fa3d756@150.40.117.221:8443?security=reality&encryption=none&pbk=B5F8h8tpeZ-1ydiT0uFgdc30jJyw8H89Y8e-p_VV6yw&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=www.amazon.com&sid=7b#%40filembad
 vless://47388561-cf0c-4cfc-91f8-fdfd9fa3d756@150.40.117.221:8443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=B5F8h8tpeZ-1ydiT0uFgdc30jJyw8H89Y8e-p_VV6yw&sid=7b&sni=www.amazon.com#🇳🇱NL-🚀@VPNine1
-vless://47388561-cf0c-4cfc-91f8-fdfd9fa3d756@150.40.117.221:8443?security=reality&encryption=none&pbk=B5F8h8tpeZ-1ydiT0uFgdc30jJyw8H89Y8e-p_VV6yw&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=www.amazon.com&sid=7b#%40prrofile_purple%20%7C%20%F0%9D%97%99%F0%9D%97%AE%F0%9D%97%A6%F0%9D%97%A7%20%F0%9F%92%9A
 vless://7f897a20-6062-47c0-80f0-ce02274fd10d@45.252.183.71:3050?security=reality&encryption=none&pbk=m9qa-h8IRAgNClJ2_ktXKWufJ8WXTCjKHDLmFPyDmAY&headerType=none&fp=qq&spx=%2Fdownload&type=tcp&flow=xtls-rprx-vision&sni=apple.com&sid=a6ca5fa542af7884#%40filembad
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@193.29.139.225:8080#%40filembad
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0YTJyZml4b3BoZGpmZmE4S1ZBNEFh@193.29.139.234:8080#%40filembad
@@ -17,7 +16,6 @@ vless://9aff0732-7ce4-4b34-ba20-e67c6df64fdd@212.118.43.237:443?burmalda=d2f2e50
 vless://9aff0732-7ce4-4b34-ba20-e67c6df64fdd@212.118.43.237:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=2Kh1mMFvchFolXGaTJSjwtUpIiTDuIp9Oy2tDr-hogY&sid=be45c0fe845d5128&sni=nl2.panel11.ru#🇳🇱NL-🚀@VPNine1
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.201:8080#%40filembad
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.201:8080?#%40filembad
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.201:8080#🇬🇧GB-🚀@VPNine1
 vless://10af0a09-4a6a-4938-8fef-085c495d1c2f@176.65.151.215:8880?security=none&encryption=none&headerType=none&type=tcp#%40filembad
 vless://10af0a09-4a6a-4938-8fef-085c495d1c2f@176.65.151.215:80?path=%2F&security=none&encryption=none&type=ws#%40filembad
 vless://10af0a09-4a6a-4938-8fef-085c495d1c2f@176.65.151.215:8443?security=none&encryption=none&headerType=none&type=tcp#%40filembad
@@ -119,7 +117,6 @@ vless://4480161e-2c59-4d37-8736-675c9af32bf1@72.56.92.177:40443?security=reality
 vless://e911c552-3a98-41e0-b5fb-0dd3879887b7@193.124.15.11:443?fp=chrome&host=vod.ensf.top&path=/api/v1/irc&security=tls&sni=vod.ensf.top&type=ws#🇨🇿CZ-🚀@VPNine1
 vless://7d92ab01-d719-40b0-b954-420edfb61582@nl-ydlod.doratbonn.fun:443?encryption=none&security=none&type=xhttp&mode=auto&path=/#🇳🇱NL-🚀@VPNine1
 vless://1da18def-6804-44c8-bb6d-83cff995f567@144.124.235.67:443?security=reality&encryption=none&pbk=XZa7f7bABj7lY4HuLopVCBBBYTu-RB7QyIZ96njvYwo&headerType=&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=yahoo.com&sid=7bcfc0bc#🇳🇱NL-🚀@VPNine1
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.32:443#🇬🇧GB-🚀@VPNine1
 vless://b91abe1a-80ca-417b-998b-2b542661c16f@nl.feywebsite.ir:8008?mode=auto&path=%2Fapi%2Fv1%2Fstream&security=reality&encryption=none&extra=%7B%22mode%22%3A%22auto%22%2C%22xPaddingBytes%22%3A%22100-1000%22%7D&pbk=uUJJTIzw37fc46Ywh-LJIcobqF2Dim7JPCFm1VuMfFg&fp=chrome&spx=%2Fbd5271eec396a9e&type=xhttp&sni=play.google.com&sid=c0c3011371b97459#%40vasl_bashim
 vless://b91abe1a-80ca-417b-998b-2b542661c16f@nl.feywebsite.ir:8008?mode=auto&path=%2Fapi%2Fv1%2Fstream&security=reality&encryption=none&extra=%7B%22mode%22%3A%22auto%22%2C%22xPaddingBytes%22%3A%22100-1000%22%7D&pbk=uUJJTIzw37fc46Ywh-LJIcobqF2Dim7JPCFm1VuMfFg&fp=chrome&spx=%2Fbd5271eec396a9e&type=xhttp&sni=play.google.com&sid=c0c3011371b97459#%F0%9F%8C%90%20%40goololgoo%20%F0%9F%94%90%20%D9%88%DB%8C%E2%80%8C%D9%BE%DB%8C%E2%80%8C%D8%A7%D9%86%20%D8%B1%D8%A7%DB%8C%DA%AF%D8%A7%D9%86%20%7C%20Free%20Proxy%F0%9F%92%A5
 vless://423b1d79-08c4-403f-9d5e-c541f791b55f@64.188.77.13:443?encryption=none&type=tcp&security=reality&headerType=none&sni=eu-west.cendora.ru&fp=firefox&insecure=1&allowInsecure=1&pbk=m6RDw1b8R4lCaRUIzhHpy6TtX2Dhk6nyby8dWzeQqA0&sid=dd3ff38418d29d22&flow=xtls-rprx-vision#@vasl_bashim
