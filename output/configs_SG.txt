@@ -7,7 +7,6 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp0MHNybWR4cm0zeHlqbnZxejlld2x4YjJteXE3cmp1dg@
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp0MHNybWR4cm0zeHlqbnZxejlld2x4YjJteXE3cmp1dg@18.138.35.43:2377?plugin=obfs-local%3Bobfs=tls%3Bobfs-host=%28Telegram%F0%9F%87%A8%F0%9F%87%B3%20@VPNine1%29cbf36c2:80064#🇸🇬SG-🚀@VPNine1
 vless://55d61055-1a7f-4bc5-aca2-4ee78c738b60@194.233.75.66:443?encryption=none&type=raw&headerType=none&security=tls&fp=firefox&sni=sahanwickramasinghevip.shop#🇸🇬SG-🚀@VPNine1
 vless://99476b8e-517a-4fc2-815e-6f2061c9e22d@138.199.46.65:443?alpn=http/1.1&encryption=none&fp=firefox&host=s3whlhf3.b-cdn.net&path=/assets/sync&security=tls&sni=s3whlhf3.b-cdn.net&type=ws#🇸🇬SG-🚀@VPNine1
-vless://99476b8e-517a-4fc2-815e-6f2061c9e22d@138.199.46.65:443?alpn=http%2F1.1&encryption=none&fp=edge&host=s3whlhf3.b-cdn.net&path=%2Fassets%2Fsync&security=tls&sni=s3whlhf3.b-cdn.net&type=ws#%F0%9F%87%AB%F0%9F%87%B7%20France%2C%20Paris%20%7C%20%5BBL%5D
 vless://99476b8e-517a-4fc2-815e-6f2061c9e22d@138.199.46.65:443?alpn=http/1.1&encryption=none&fp=firefox&host=s3whlhf3.b-cdn.net&path=/assets/sync&security=tls&sni=s3whlhf3.b-cdn.net&type=ws#%F0%9F%87%AB%F0%9F%87%B7%20France%2C%20Paris%20%7C%20%5BBL%5D
 vless://99476b8e-517a-4fc2-815e-6f2061c9e22d@138.199.46.65:443?alpn=http/1.1&encryption=none&fp=firefox&host=s3whlhf3.b-cdn.net&path=/assets/sync&security=tls&sni=s3whlhf3.b-cdn.net&type=ws#@DeltaKroneckerGithub
 trojan://AE62539071@simple-rodent.rooster465.autos:443?security=tls#🇸🇬SG-🚀@VPNine1
@@ -16,6 +15,7 @@ trojan://PQ05174892@13.212.174.21:443?allowInsecure=0&sni=fleet-pony.rooster465.
 trojan://PQ05174892@54.169.228.116:443?allowInsecure=0&sni=amusing-grub.rooster465.autos#🇸🇬SG-🚀@VPNine1
 trojan://PQ05174892@fleet-pony.rooster465.autos:443/?type=tcp&security=tls&allowInsecure=1#🇸🇬SG-🚀@VPNine1
 vless://c739bb1d-5fc7-4f45-acec-534267a1f1e7@3696b38bsg.murphyweb.sbs:32166/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=buylite.music.apple.com&fp=chrome&security=reality&pbk=OdTELUjAUKO_qr-O-uihaAZJAhA8GyIWVI6CpozVCU4&sid=6c6c7c97&packetEncoding=xudp#🇸🇬SG-🚀@VPNine1
+vless://c739bb1d-5fc7-4f45-acec-534267a1f1e7@3696b38bsg.murphyweb.sbs:32166?flow=xtls-rprx-vision&fp=chrome&pbk=OdTELUjAUKO_qr-O-uihaAZJAhA8GyIWVI6CpozVCU4&security=reality&sid=6c6c7c97&sni=buylite.music.apple.com#%F0%9F%87%AD%F0%9F%87%B0%20Hong%20Kong%2C%20Hong%20Kong%20%7C%20%5BBL%5D
 trojan://FH72359861@13.229.56.205:443?sni=exciting-turtle.rooster465.autos&fp=chrome&type=tcp&path=/#🇸🇬SG-🚀@VPNine1
 trojan://PQ05174892@52.220.98.46:443?allowInsecure=0&sni=pleased-albacore.rooster465.autos#🇸🇬SG-🚀@VPNine1
 trojan://PQ05174892@47.128.224.11:443?allowInsecure=0&sni=vast-werewolf.rooster465.autos#🇸🇬SG-🚀@VPNine1
@@ -30,9 +30,10 @@ ss://MjAyMi1ibGFrZTMtYWVzLTI1Ni1nY206Zm52bzgycDl5NEFLeWtaWHlJRnRub2RGeTZmUW1XblZ
 vless://1a17b19d-4896-4531-af79-6e91d8ef8228@13.212.140.244:8686?encryption=none&security=reality&sni=www.apple.com&fp=chrome&pbk=A3NXnUIT-W0m1Y_leRnv5so2IeCvk9FCFgL31PulfTw&sid=628b3c90c98ead4f&type=tcp&headerType=none#%40Configs_FreeIran
 ss://MjAyMi1ibGFrZTMtYWVzLTI1Ni1nY206TURWbU1EWm1NamN4TUdWaFpUaGxZbVZrWkdFd09UaGlObUpqWVRZek16Yz06WVRsa056STNZMlF0TXpNd1lpMDBaV1JrTFRnNU1URXROMk15TWpSa1pqWT0@sg-01.jjsdns.com:19822?#%40Configs_FreeIran
 vless://0970324b-8c61-4ae7-8c3f-385a6f1e17e4@45.8.211.14:443?encryption=none&type=ws&security=tls&path=%2F&host=vpn47.cc.cd&sni=vpn47.cc.cd&fp=chrome&insecure=0&allowInsecure=0#T.me/CONFiGiR98
-vless://9206ae06-88ee-49b1-a558-531ade80fcaa@178.128.112.70:443?security=reality&encryption=none&pbk=-O8QFkqeMAc6TzQp6eY1s38my_8jhBd7HDHxNki6QlY&headerType=none&fp=chrome&spx=/&type=tcp&flow=xtls-rprx-vision&sni=www.amazon.com&sid=7f7f#%F0%9F%8C%9F%20%40MTproxy22_v2ray
+vless://b2f6aa3a-2550-4a1c-b2c0-1c94b1207217@45.8.211.57:443?encryption=none&security=tls&sni=terazhediii.info&fp=qq&insecure=0&allowInsecure=0&type=ws&host=terazhediii.info&path=%2Fhdgrbws#%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%2C%20Leyton%20%7C%20%5BBL%5D
 vless://b2f6aa3a-2550-4a1c-b2c0-1c94b1207217@45.8.211.57:443?encryption=none&security=tls&sni=terazhediii.info&insecure=0&allowInsecure=0&type=ws&host=terazhediii.info&path=%2Fhdgrbws&fp=edge#%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%2C%20Leyton%20%7C%20%5BBL%5D
 vless://b2f6aa3a-2550-4a1c-b2c0-1c94b1207217@45.8.211.57:443?encryption=none&security=tls&sni=terazhediii.info&insecure=0&allowInsecure=0&type=ws&host=terazhediii.info&path=%2Fhdgrbws&fp=firefox#%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%2C%20Leyton%20%7C%20%5BBL%5D
+vless://b2f6aa3a-2550-4a1c-b2c0-1c94b1207217@45.8.211.57:443?encryption=none&security=tls&sni=terazhediii.info&insecure=0&allowInsecure=0&type=ws&host=terazhediii.info&path=%2Fhdgrbws&fp=safari#%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%2C%20Leyton%20%7C%20%5BBL%5D
 ss://bm9uZTpodHRwczovL3QubWUvV2FuZ0NhaTLwn4eo8J%2BHsw@194.127.192.165:443?plugin=v2ray-plugin%3Bmode%3Dwebsocket%3Bhost%3Dwoshinidie-et3.pages.dev%3Bpath%3D59fc5f8c-5697-4eb8-acf2-8ae363f203a2%2F%3Fed%5C%3D2560%3Btls%3Bmux%3D0#@DeltaKroneckerGithub
 trojan://AE62539071@54.169.241.164:443?sni=rested-osprey.rooster465.autos&type=tcp&fp=chrome#@DeltaKroneckerGithub
 trojan://XG59623478@obliging-oyster.rooster465.autos:443?allowInsecure=1#@DeltaKroneckerGithub

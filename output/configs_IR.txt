@@ -65,6 +65,3 @@ vless://1ee1f28d-4975-4d7c-95c7-76172c20eed5@185.143.234.238:2086?path=%2F&secur
 vless://1ee1f28d-4975-4d7c-95c7-76172c20eed5@185.143.234.238:2086?encryption=none&security=none&type=ws&host=parsi.parsi.sbs&path=/#@DeltaKroneckerGithub
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowdTQ3eEp2cDJfcEdiQTVjMTNBU0hLODdEeER3azV6bQ@coco2.farajet.net:2020#@vasl_bashim
 vless://a8c6e908-fa7e-4d53-abdf-162fc47fe456@185.143.233.235:2053?encryption=none&security=tls&sni=top.mobixaco.ir&fp=random&insecure=0&allowInsecure=0&type=ws&host=top.mobixaco.ir&path=%2F#%40Configs_FreeIran
-vless://440d1fb3-7a10-4569-82c2-71602cef26c7@87.236.38.139:2036?security=tls&type=ws&path=/&host=world.ashahan.ir&sni=world.ashahan.ir&fp=chrome&encryption=none#%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Nuremberg%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
-vless://440d1fb3-7a10-4569-82c2-71602cef26c7@go.ashahan.ir:2036?path=%2F&security=tls&encryption=none&insecure=0&host=world.ashahan.ir&type=ws&allowInsecure=0&sni=world.ashahan.ir#%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Nuremberg%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
-vless://440d1fb3-7a10-4569-82c2-71602cef26c7@go.ashahan.ir:2036?security=tls&type=ws&path=/&host=world.ashahan.ir&sni=world.ashahan.ir&fp=chrome&encryption=none#%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Nuremberg%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
