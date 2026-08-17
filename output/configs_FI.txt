@@ -10,7 +10,6 @@ vless://2cb6b4d9-0c74-45e2-a4fb-645bb8ac532a@132.243.223.144:443?encryption=none
 vless://2cb6b4d9-0c74-45e2-a4fb-645bb8ac532a@132.243.223.144:443?security=reality&encryption=none&pbk=V2JprbR_aJkS7uX6anyU3nrswGxdvDQT2HpY4WnzuC8&headerType=none&type=tcp&flow=xtls-rprx-vision&sni=fin3.o4ka-internet.com&sid=5629431325884ff0#@mtproto_proserver
 vless://c0c56b74-d656-4479-a4cb-99a8dd84703b@65.109.186.63:80?path=%2F&security=none&encryption=none&host=amp-api-edge.apps.apple.com&type=ws#%40filembad
 vless://c0c56b74-d656-4479-a4cb-99a8dd84703b@65.109.186.63:80?path=/&security=none&encryption=none&host=amp-api-edge.apps.apple.com&type=ws#🇫🇮FI-🚀@VPNine1
-vless://55e612d3-1a0e-4290-b880-a9ae48868515@65.109.186.63:55764?encryption=none&type=tcp&headerType=http&path=/&host=amp-api-edge.apps.apple.com#🇫🇮FI-🚀@VPNine1
 vless://70e20b2e-3b1f-4c25-9a3d-9240570391bb@185.79.138.127:2053?encryption=none&flow=xtls-rprx-vision&security=reality&sni=vk.ru&pbk=DUJWZCU-CjH9TglyqNQjydr7sp1ujsn2gHcXGWmgRj8&sid=e0331b94eb540116&type=tcp&headerType=none#%40filembad
 vless://70e20b2e-3b1f-4c25-9a3d-9240570391bb@185.79.138.127:2053?encryption=none&flow=xtls-rprx-vision&fp=&pbk=DUJWZCU-CjH9TglyqNQjydr7sp1ujsn2gHcXGWmgRj8&security=reality&sid=e0331b94eb540116&sni=vk.ru&type=tcp#🇫🇮FI-🚀@VPNine1
 vless://7a3fa6b9-e862-4b3f-b742-a9168c4fa3b6@31.76.66.5:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=fi.velajio.com&fp=firefox&pbk=6rrQ09njNw0wrfGg_S48ySsl4v17Q6uTAIMnECMWbyU&sid=5fd2b921da642f3e&type=tcp&headerType=none#%40filembad
