@@ -3,6 +3,8 @@ ss://MjAyMi1ibGFrZTMtY2hhY2hhMjAtcG9seTEzMDU6R1FxYnFPWHV4WkVOekFRTk5CTkhOMWYwRzk
 vless://928e6cce-8ced-4243-9a48-a6642edd09b0@111.119.235.145:13779?encryption=none&type=tcp&flow=xtls-rprx-vision&security=reality&sni=tesla.com&fp=chrome&pbk=llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg&sid=af1bdd293097b664&allowInsecure=1#🇸🇬SG-🚀@VPNine1
 ss://MjAyMi1ibGFrZTMtY2hhY2hhMjAtcG9seTEzMDU6QUtpa1ZpRS9tOE9sVkVmanlvd28vS0V1eGlmZWE1aEZVRFlUbG9JMlNXOD0=@161.118.225.233:56927#🇸🇬SG-🚀@VPNine1
 vless://8fc3eba4-2774-4c99-cfc7-c38b007908b0@43.174.247.53:443?path=/55072/api&security=tls&encryption=none&insecure=0&host=aron.irandoc.info&fp=chrome&type=ws&allowInsecure=0&sni=sni.irandoc.info#🇸🇬SG-🚀@VPNine1
+trojan://AE62539071@excited-sole.rooster465.autos:443?security=tls&path=/#🇸🇬SG-🚀@VPNine1
+trojan://FH72359861@leading-eel.rooster465.autos:443?allowInsecure=0&sni=leading-eel.rooster465.autos#🇸🇬SG-🚀@VPNine1
 trojan://AE62539071@noted-bass.rooster465.autos:443?security=tls&path=/#🇸🇬SG-🚀@VPNine1
 vless://efbaec86-ee09-4150-9024-fa5f5d0429e4@188.166.244.136:48140/?security=none&encryption=none&headerType=none&type=ws&flow=none&host=m.zoom.us&path=%252fFree%2BBy%2BTharuwa%2B%280767597317%29#🇸🇬SG-🚀@VPNine1
 vless://efbaec86-ee09-4150-9024-fa5f5d0429e4@188.166.244.136:48140?type=ws&path=%2FFree%20By%20Tharuwa%20%280767597317%29&host=m.zoom.us#%F0%9F%87%B8%F0%9F%87%AC%20Singapore%2C%20Singapore%20%28Pioneer%29%20%7C%20%5BBL%5D
