@@ -7,8 +7,8 @@ vless://8975546a-375c-4966-8064-19fc0f66f30a@31.76.80.69:2083?mode=auto&path=%2F
 vless://8975546a-375c-4966-8064-19fc0f66f30a@31.76.80.69:2083?mode=auto&path=%2F%3F%40mehrosaboran%3Fed%3D2560&security=reality&encryption=none&extra=%7B%22mode%22%3A%22auto%22%7D&pbk=zq3gOJkXi6laNuxMohL3lr-wFOKi4Z9oG7QuMMiTDAk&fp=chrome&spx=%2Fy52f8gp4rv1il6u&type=xhttp&sni=www.amd.com&sid=29b21343ab4d#%40filembad
 vless://2cb6b4d9-0c74-45e2-a4fb-645bb8ac532a@132.243.223.144:443?security=reality&encryption=none&pbk=V2JprbR_aJkS7uX6anyU3nrswGxdvDQT2HpY4WnzuC8&headerType=none&type=tcp&flow=xtls-rprx-vision&sni=fin3.o4ka-internet.com&sid=5629431325884ff0#%40filembad
 vless://c0c56b74-d656-4479-a4cb-99a8dd84703b@65.109.186.63:80?path=%2F&security=none&encryption=none&host=amp-api-edge.apps.apple.com&type=ws#%40filembad
+vless://423b1d79-08c4-403f-9d5e-c541f791b55f@83.143.112.146:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=YQTixaXzPVImuRc4TUbrFAekjIiaYV-t5S-HTKlH0AU&sid=2186a755ed67b034&sni=nordic.cendora.ru#🇫🇮FI-🚀@VPNine1
 ss://YWVzLTI1Ni1nY206TlROak1tWTBZek0yT1RJd1l6QmtObUprWkdGaU5qSm1OR1V4WkdFeA@helsinki02.npvnot.com:995#🇫🇮FI-🚀@VPNine1
-ss://YWVzLTI1Ni1nY206TlROak1tWTBZek0yT1RJd1l6QmtObUprWkdGaU5qSm1OR1V4WkdFeA@helsinki02.npvnot.com:995#%D8%A7%DA%AF%D9%87%20%D9%85%DB%8C%D8%AE%D9%88%D8%A7%DB%8C%20%D9%82%D8%B7%D8%B9%20%D9%86%D8%B4%DB%8C%20%D8%AC%D9%88%DB%8C%D9%86%20%D8%B4%D9%88%20%3A%20%40farsiproxy
 vless://64512cd8-d995-47af-b583-67f8ef5ceb96@157.180.95.4:2087?security=none&encryption=none&host=play.google.com&headerType=http&type=tcp#🇫🇮FI-🚀@VPNine1
 vless://64512cd8-d995-47af-b583-67f8ef5ceb96@Fan1land09km.horlutr.ir:2087?security=none&encryption=none&host=play.google.com&headerType=http&type=tcp#🇫🇮FI-🚀@VPNine1
 vless://e0454af2-6fe9-4983-a55d-05e1da202602@Fan1land09km.horlutr.ir:2087?encryption=none&type=tcp&headerType=http&host=play.google.com&path=/&security=none#🇫🇮FI-🚀@VPNine1
@@ -18,9 +18,7 @@ vless://44824a9f-b551-41f3-b561-0c130978d540@Fan1land09km.horlutr.ir:2087?securi
 ss://YWVzLTI1Ni1nY206T0dReVpEVXpZemd6WkRaak5UUTNOelk1WkRkaU5tWTRPR1E1WVRZMw@helsinki03.npvnot.com:995#🇫🇮FI-🚀@VPNine1
 ss://YWVzLTI1Ni1nY206TVRJNE9UaGtOREZrTVRSbE1HVm1OVFJoTWprMlpUZ3hOR0V3TURNMg@helsinki03.npvnot.com:995#🇫🇮FI-🚀@VPNine1
 vless://777bf0d6-2baf-4904-b60f-b8844292fa6c@lake.applly.ir:2084?security=reality&encryption=none&pbk=EqiJy6-MJ8mVohF61a0Wu7V5BeV3KQbi5AdGwcHWCg0&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=us.demonware.net&sid=880f75d7d4266180#🇫🇮FI-🚀@VPNine1
-vless://777bf0d6-2baf-4904-b60f-b8844292fa6c@lake.applly.ir:2084?security=reality&encryption=none&pbk=EqiJy6-MJ8mVohF61a0Wu7V5BeV3KQbi5AdGwcHWCg0&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=us.demonware.net&sid=880f75d7d4266180#%D8%A7%DA%AF%D9%87%20%D9%85%DB%8C%D8%AE%D9%88%D8%A7%DB%8C%20%D9%82%D8%B7%D8%B9%20%D9%86%D8%B4%DB%8C%20%D8%AC%D9%88%DB%8C%D9%86%20%D8%B4%D9%88%20%3A%20%40farsiproxy
 trojan://b65cbe72-59e2-4011-a22b-760621b5921f@65.109.129.120:80?security=tls&headerType=none&type=tcp&sni=fl.configasli.xyz#🇫🇮FI-🚀@VPNine1
-trojan://b65cbe72-59e2-4011-a22b-760621b5921f@65.109.129.120:80?security=tls&headerType=none&type=tcp&sni=fl.configasli.xyz#%40v2rayconfigamir%207732
 vless://2b44a7c2-82da-4ef1-a275-319f7956f4fd@fia.mobileemdad.top:42542?encryption=none&security=none&type=tcp&headerType=http&path=/&host=amp-api-edge.apps.apple.com#🇫🇮FI-🚀@VPNine1
 vless://2b44a7c2-82da-4ef1-a275-319f7956f4fd@pt-play.mobileemdad.top:443?encryption=none&security=reality&type=tcp&headerType=none&sni=amp-api-edge.apps.apple.com&fp=qq&pbk=PjR-SM4fOm2fY4mTqWoqZDRyxontvpailM0gBqUxlUQ&sid=f88610dd#🇫🇮FI-🚀@VPNine1
 vless://abef8e9b-e9e0-40ec-869e-4f753771d9dd@pt-play.mobileemdad.top:443?encryption=none&security=reality&type=tcp&headerType=none&sni=amp-api-edge.apps.apple.com&fp=qq&pbk=PjR-SM4fOm2fY4mTqWoqZDRyxontvpailM0gBqUxlUQ&sid=f88610dd#🇫🇮FI-🚀@VPNine1
