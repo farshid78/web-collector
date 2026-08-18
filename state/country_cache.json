@@ -1,176 +1,4 @@
 {
-  "109.71.247.246": {
-    "country": "RU",
-    "ts": 1785811279
-  },
-  "160.123.255.213": {
-    "country": "ZA",
-    "ts": 1785811279
-  },
-  "84.235.166.124": {
-    "country": "NL",
-    "ts": 1785811279
-  },
-  "obdii.cfd": {
-    "country": "CA",
-    "ts": 1785811279
-  },
-  "172.67.150.91": {
-    "country": "CA",
-    "ts": 1785811279
-  },
-  "188.92.78.80": {
-    "country": "LV",
-    "ts": 1785811279
-  },
-  "cm1.kaochangcn.org": {
-    "country": "HK",
-    "ts": 1785811279
-  },
-  "104.17.20.26": {
-    "country": "CA",
-    "ts": 1785811279
-  },
-  "2.144.22.87": {
-    "country": "IR",
-    "ts": 1785811279
-  },
-  "cold-dawn-9246.fly.dev": {
-    "country": "US",
-    "ts": 1785811279
-  },
-  "176.32.35.51": {
-    "country": "RU",
-    "ts": 1785811279
-  },
-  "63.141.128.72": {
-    "country": "US",
-    "ts": 1785811279
-  },
-  "199.232.239.242": {
-    "country": "US",
-    "ts": 1785811279
-  },
-  "adjusted-labrador.rooster465.autos": {
-    "country": "JP",
-    "ts": 1785811279
-  },
-  "teain.org": {
-    "country": "SE",
-    "ts": 1785811279
-  },
-  "x4g-production-ea42.up.railway.app": {
-    "country": "US",
-    "ts": 1785811279
-  },
-  "213.155.22.202": {
-    "country": "KZ",
-    "ts": 1785811279
-  },
-  "213.219.212.254": {
-    "country": "RU",
-    "ts": 1785811279
-  },
-  "104.17.160.74": {
-    "country": "CA",
-    "ts": 1785811279
-  },
-  "176.108.244.51": {
-    "country": "RU",
-    "ts": 1785811279
-  },
-  "194.67.102.65": {
-    "country": "RU",
-    "ts": 1785811279
-  },
-  "89.105.197.203": {
-    "country": "NL",
-    "ts": 1785811279
-  },
-  "201.24.118.145": {
-    "country": "SC",
-    "ts": 1785811280
-  },
-  "176.108.246.130": {
-    "country": "RU",
-    "ts": 1785811280
-  },
-  "31.129.96.186": {
-    "country": "RU",
-    "ts": 1785811280
-  },
-  "130.49.148.134": {
-    "country": "RU",
-    "ts": 1785811280
-  },
-  "194.26.229.220": {
-    "country": "RU",
-    "ts": 1785811280
-  },
-  "194.26.229.217": {
-    "country": "RU",
-    "ts": 1785811280
-  },
-  "still-mastodon.rooster465.autos": {
-    "country": "JP",
-    "ts": 1785811280
-  },
-  "sensible-haddock.rooster465.autos": {
-    "country": "HK",
-    "ts": 1785811280
-  },
-  "definite-giraffe.rooster465.autos": {
-    "country": "FR",
-    "ts": 1785811280
-  },
-  "adapted-quetzal.rooster465.autos": {
-    "country": "JP",
-    "ts": 1785811280
-  },
-  "s1.zynetraq.ir": {
-    "country": "IR",
-    "ts": 1785811280
-  },
-  "usa.kosmosapp.ru": {
-    "country": "US",
-    "ts": 1785811280
-  },
-  "hua.kosmosapp.ru": {
-    "country": "HU",
-    "ts": 1785811280
-  },
-  "s2.zynetraq.ir": {
-    "country": "IR",
-    "ts": 1785811280
-  },
-  "ru.node.sillyvpn.cc": {
-    "country": "RU",
-    "ts": 1785811280
-  },
-  "cha.kosmosapp.ru": {
-    "country": "CH",
-    "ts": 1785811280
-  },
-  "usa-f1-connect.jo3.org": {
-    "country": "US",
-    "ts": 1785811280
-  },
-  "ir.norela.ir": {
-    "country": "IR",
-    "ts": 1785811280
-  },
-  "sweden-f1-connect.jo3.org": {
-    "country": "SE",
-    "ts": 1785811281
-  },
-  "deb.kosmosapp.ru": {
-    "country": "GB",
-    "ts": 1785811284
-  },
-  "plb.kosmosapp.ru": {
-    "country": "PL",
-    "ts": 1785811284
-  },
   "158.101.206.26": {
     "country": "NL",
     "ts": 1785821703
@@ -41590,5 +41418,97 @@
   "gru-jeruuuu-francr-anrd-arntunsnr-ooknzehb-fopmant.profato.ir": {
     "country": "DE",
     "ts": 1787020269
+  },
+  "47.85.1.255": {
+    "country": "US",
+    "ts": 1787023561
+  },
+  "176.32.35.51": {
+    "country": "RU",
+    "ts": 1787023561
+  },
+  "168.222.49.215": {
+    "country": "PL",
+    "ts": 1787023561
+  },
+  "163.128.98.187": {
+    "country": "SG",
+    "ts": 1787023561
+  },
+  "195.85.59.30": {
+    "country": "CY",
+    "ts": 1787023561
+  },
+  "50.62.198.50": {
+    "country": "US",
+    "ts": 1787023561
+  },
+  "161.35.209.61": {
+    "country": "DE",
+    "ts": 1787023561
+  },
+  "31.207.7.152": {
+    "country": "SE",
+    "ts": 1787023561
+  },
+  "63.141.128.30": {
+    "country": "US",
+    "ts": 1787023561
+  },
+  "85.209.129.93": {
+    "country": "FI",
+    "ts": 1787023561
+  },
+  "2.144.22.87": {
+    "country": "IR",
+    "ts": 1787023561
+  },
+  "91.99.199.137": {
+    "country": "DE",
+    "ts": 1787023561
+  },
+  "31.77.201.205": {
+    "country": "IT",
+    "ts": 1787023561
+  },
+  "137.220.221.179": {
+    "country": "JP",
+    "ts": 1787023561
+  },
+  "89.105.197.203": {
+    "country": "NL",
+    "ts": 1787023561
+  },
+  "203.17.244.59": {
+    "country": "NL",
+    "ts": 1787023561
+  },
+  "192.169.223.30": {
+    "country": "US",
+    "ts": 1787023561
+  },
+  "de.vpnbase.net": {
+    "country": "DE",
+    "ts": 1787023561
+  },
+  "tr2.odavpn.online": {
+    "country": "TR",
+    "ts": 1787023561
+  },
+  "f.cryptoofarm.com": {
+    "country": "FI",
+    "ts": 1787023561
+  },
+  "lp.cryptoofarm.com": {
+    "country": "RO",
+    "ts": 1787023561
+  },
+  "maks.slovovpn.com": {
+    "country": "PL",
+    "ts": 1787023561
+  },
+  "su.cryptoofarm.com": {
+    "country": "US",
+    "ts": 1787023561
   }
 }
