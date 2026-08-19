@@ -1,3 +1,6 @@
+vless://7579a712-b8c6-4506-9aad-70b157cdabad@176.120.17.7:48537#%40filembad
+vless://7579a712-b8c6-4506-9aad-70b157cdabad@176.120.17.7:48537?encryption=none&type=tcp&security=none#🇮🇷IR-🚀@VPNine1
+vless://7579a712-b8c6-4506-9aad-70b157cdabad@176.120.17.7:48537?encryption=none&type=tcp&security=none#%D8%A7%DA%AF%D9%87%20%D9%85%DB%8C%D8%AE%D9%88%D8%A7%DB%8C%20%D9%82%D8%B7%D8%B9%20%D9%86%D8%B4%DB%8C%20%D8%AC%D9%88%DB%8C%D9%86%20%D8%B4%D9%88%20%3A%20%40farsiproxy
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.201:8080?type=tcp#%40filembad
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.201:8080#%40filembad
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.201:8080?#%40filembad
@@ -14,16 +17,12 @@ vless://39c42b0a-b823-4c93-bb99-74b4183e518d@85.155.226.195:443?flow=xtls-rprx-v
 vless://47388561-cf0c-4cfc-91f8-fdfd9fa3d756@150.40.117.221:8443?security=reality&flow=xtls-rprx-vision&headerType=none&sni=www.amazon.com&sid=7b&type=tcp&encryption=none&pbk=B5F8h8tpeZ-1ydiT0uFgdc30jJyw8H89Y8e-p_VV6yw&fp=firefox#%40filembad
 vless://47388561-cf0c-4cfc-91f8-fdfd9fa3d756@150.40.117.221:8443?security=reality&encryption=none&pbk=B5F8h8tpeZ-1ydiT0uFgdc30jJyw8H89Y8e-p_VV6yw&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=www.amazon.com&sid=7b#%40filembad
 vless://47388561-cf0c-4cfc-91f8-fdfd9fa3d756@150.40.117.221:8443?security=reality&encryption=none&pbk=B5F8h8tpeZ-1ydiT0uFgdc30jJyw8H89Y8e-p_VV6yw&host=%2F%3FBIA_TELEGRAM%40TOOTFFARANGI&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=www.amazon.com&sid=7b#%40filembad
-vless://47388561-cf0c-4cfc-91f8-fdfd9fa3d756@150.40.117.221:8443?security=reality&encryption=none&pbk=B5F8h8tpeZ-1ydiT0uFgdc30jJyw8H89Y8e-p_VV6yw&host=%2F%3FBIA_TELEGRAM%40MARAMBASHI_MARAMBASHI&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=www.amazon.com&sid=7b#%40filembad
 vless://f4540796-ce50-4c2b-a41c-58f18f36ab96@194.87.220.242:8443?security=reality&encryption=none&pbk=k2gF2ZrpECMogTk1dY1uQ_BaWuyUVRTrewS-dnRL53s&host=v2rayNplus--v2rayNplus--v2rayNplus&headerType=none&fp=qq&type=tcp&sni=nltw6.lckdwn.ru&sid=5ae57d5673#%40filembad
 vless://f4540796-ce50-4c2b-a41c-58f18f36ab96@194.87.220.242:8443?security=reality&encryption=none&pbk=k2gF2ZrpECMogTk1dY1uQ_BaWuyUVRTrewS-dnRL53s&host=v2rayNplus--v2rayNplus--v2rayNplus&headerType=none&fp=qq&type=tcp&sni=nltw6.lckdwn.ru&sid=5ae57d5673#🇨🇿CZ-🚀@VPNine1
 vless://2c634977-584e-4e1f-b501-1b70c77a6743@78.159.245.75:9002?mode=gun&security=reality&encryption=none&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&fp=firefox&type=grpc&serviceName=grpc-reality&sni=api-maps.yandex.ru#%40filembad
 vless://9aff0732-7ce4-4b34-ba20-e67c6df64fdd@212.118.43.237:443?security=reality&encryption=none&pbk=2Kh1mMFvchFolXGaTJSjwtUpIiTDuIp9Oy2tDr-hogY&host=v2rayNplus--v2rayNplus--v2rayNplus&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=nl2.panel11.ru&sid=be45c0fe845d5128#%40filembad
 vless://9aff0732-7ce4-4b34-ba20-e67c6df64fdd@212.118.43.237:443?security=reality&encryption=none&pbk=2Kh1mMFvchFolXGaTJSjwtUpIiTDuIp9Oy2tDr-hogY&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=nl2.panel11.ru&sid=be45c0fe845d5128#%40filembad
 vless://7f897a20-6062-47c0-80f0-ce02274fd10d@45.252.183.71:3050?security=reality&encryption=none&pbk=m9qa-h8IRAgNClJ2_ktXKWufJ8WXTCjKHDLmFPyDmAY&headerType=none&fp=qq&spx=%2Fdownload&type=tcp&flow=xtls-rprx-vision&sni=apple.com&sid=a6ca5fa542af7884#%40filembad
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@193.29.139.225:8080#%40filembad
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0YTJyZml4b3BoZGpmZmE4S1ZBNEFh@193.29.139.234:8080#%40filembad
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@193.29.139.129:8080#%40filembad
 trojan://PQ05174892@actual-aardvark.rooster465.autos:443?fp=chrome#🇳🇱NL-🚀@VPNine1
 trojan://AE62539071@193.169.239.14:443?fp=chrome&sni=emerging-weevil.rooster465.autos#🇳🇱NL-🚀@VPNine1
 trojan://PQ05174892@powerful-squid.rooster465.autos:443?fp=chrome#🇳🇱NL-🚀@VPNine1
@@ -37,14 +36,11 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.26:44
 trojan://AE62539071@89.39.70.9:443?fp=chrome&sni=whole-woodcock.rooster465.autos#🇳🇱NL-🚀@VPNine1
 vless://48ff2b70-e180-582f-8866-d9a2edeed5f5@51.158.206.103:23576?security=reality&type=raw&sni=fuck.rkn&fp=chrome&flow=xtls-rprx-vision&sid=01&pbk=1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s#🇳🇱NL-🚀@VPNine1
 vless://ac23b89c-42d7-4490-8e59-397788c48574@167.104.217.23:443?type=xhttp&security=tls&sni=nlnew7.denverpresents.top&path=/assets/build/_app/immutable/chunks/stream-one/&mode=auto&extra=%7B%22xmux%22:%7B%22cMaxReuseTimes%22:0,%22maxConnections%22:3,%22hKeepAlivePeriod%22:0,%22hMaxRequestTimes%22:%22600-900%22,%22hMaxReusableSecs%22:%221800-3000%22%7D,%22noSSEHeader%22:false,%22noGRPCHeader%22:false,%22xPaddingBytes%22:%22100-1000%22,%22scMaxEachPostBytes%22:%221000000%22,%22scMinPostsIntervalMs%22:%2230%22,%22scStreamUpServerSecs%22:%2220-80%22%7D&fp=ios#🇺🇸US-🚀@VPNine1
-vless://7579a712-b8c6-4506-9aad-70b157cdabad@176.120.17.7:48537?encryption=none&type=tcp&security=none#🇮🇷IR-🚀@VPNine1
-vless://7579a712-b8c6-4506-9aad-70b157cdabad@176.120.17.7:48537?encryption=none&type=tcp&security=none#%D8%A7%DA%AF%D9%87%20%D9%85%DB%8C%D8%AE%D9%88%D8%A7%DB%8C%20%D9%82%D8%B7%D8%B9%20%D9%86%D8%B4%DB%8C%20%D8%AC%D9%88%DB%8C%D9%86%20%D8%B4%D9%88%20%3A%20%40farsiproxy
 vless://aaec13cf-f7a7-4896-99c8-c9dcd21035cb@nl-play.mobileemdad.top:42542?encryption=none&security=none&type=tcp&headerType=http&path=/&host=amp-api-edge.apps.apple.com#🇳🇱NL-🚀@VPNine1
 vless://962097ba-f4c4-4177-9085-7f0b352195f5@nl-play.mobileemdad.top:42542?encryption=none&security=none&type=tcp&headerType=http&path=/&host=amp-api-edge.apps.apple.com#🇳🇱NL-🚀@VPNine1
 vless://4bf5a71c-d726-4585-b095-7396675706d5@72.56.81.165:40443?security=reality&encryption=none&pbk=D_ks4Yyk4-osnWBxCFvd0_UEgohUXvR2zJoWQg1CACU&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=deepl.com&sid=c84f#🇳🇱NL-🚀@VPNine1
 vless://2c634977-584e-4e1f-b501-1b70c77a6743@78.159.250.33:18443?encryption=none&flow=xtls-rprx-vision&fp=chrome&security=tls&sni=disagreedebut.net&type=raw#🇷🇺RU-🚀@VPNine1
-vless://2c634977-584e-4e1f-b501-1b70c77a6743@78.159.250.33:18443?encryption=none&flow=xtls-rprx-vision&security=tls&sni=disagreedebut.net&type=raw&fp=chrome#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%7C%20%5B%2ACIDR%5D%20Beeline
-vless://2c634977-584e-4e1f-b501-1b70c77a6743@78.159.250.33:18443?encryption=none&flow=xtls-rprx-vision&security=tls&sni=disagreedebut.net&type=raw&fp=firefox#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%7C%20%5B%2ACIDR%5D%20Beeline
+vless://2c634977-584e-4e1f-b501-1b70c77a6743@78.159.250.33:18443?encryption=none&flow=xtls-rprx-vision&security=tls&sni=disagreedebut.net&type=raw&fp=qq#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%7C%20%5B%2ACIDR%5D%20Beeline
 vless://2c634977-584e-4e1f-b501-1b70c77a6743@78.159.250.33:18443?encryption=none&flow=xtls-rprx-vision&security=tls&sni=disagreedebut.net&type=raw&fp=safari#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%7C%20%5B%2ACIDR%5D%20Beeline
 vless://682102a3-9731-4562-ad28-04dc62bc8dee@144.31.237.79:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.amd.com&fp=firefox&pbk=jgf0wWpgkEJZzu9wu45Ms33SNZpibtx507rpvzfz3mQ&sid=635a76c25a4b1820&type=tcp&headerType=none#🇳🇱NL-🚀@VPNine1
 vless://ad313d8e-180d-42ae-b84c-b9c7c44c8b7e@5.182.86.197:8020?security=none&type=tcp&headerType=http&path=/path&host=amp-api-edge.apps.apple.com#🇳🇱NL-🚀@VPNine1
@@ -121,6 +117,3 @@ vless://efd400cd-98e1-4a9b-a98c-6f4a3b7cce7f@167.104.217.250:443?type=tcp&header
 vless://27991eb5-f983-46e0-af23-1da32bb1bfec@45.82.67.179:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=daiJkQwpAcBk7oH1iZzRthMj-jAlqovX7vAiwVqfjTU&security=reality&sid=8880a9f75eb46d91&sni=northwaleswildlifetrust.org.uk&type=tcp#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%2C%20Naaldwijk%20%7C%20%5BBL%5D
 vless://e3fa7e96-6cd2-42fe-99c9-35ce352047be@45.82.67.179:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=daiJkQwpAcBk7oH1iZzRthMj-jAlqovX7vAiwVqfjTU&security=reality&sid=8880a9f75eb46d91&sni=northwaleswildlifetrust.org.uk&type=tcp#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%2C%20Naaldwijk%20%7C%20%5BBL%5D
 vless://6202b230-417c-4d8e-b624-0f71afa9c75d@185.148.107.30:8880/?type=ws&encryption=none&flow=&host=vms.lifetime55.workers.dev#%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D
-vless://9ef8c4ca-6caf-4c98-a68e-22818bc789af@81.94.148.66:443?encryption=none&path=%2Fws%2F&security=tls&sni=exit-nl-2.rog-self.co.uk&type=ws&fp=android#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%20%7C%20%5B%2ACIDR%5D%20CDN
-vless://9ef8c4ca-6caf-4c98-a68e-22818bc789af@81.94.148.66:443?encryption=none&path=%2Fws%2F&security=tls&sni=exit-nl-2.rog-self.co.uk&type=ws&fp=edge#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%20%7C%20%5B%2ACIDR%5D%20CDN
-vless://9ef8c4ca-6caf-4c98-a68e-22818bc789af@81.94.148.66:443?encryption=none&path=%2Fws%2F&security=tls&sni=exit-nl-2.rog-self.co.uk&type=ws&fp=qq#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%20%7C%20%5B%2ACIDR%5D%20CDN
