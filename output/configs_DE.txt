@@ -1,3 +1,4 @@
+vless://e4514801-0d5a-42ba-869f-39bd605aef9e@63.182.189.87:22223?security=&encryption=none&headerType=none&type=tcp#%40filembad
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@63.182.189.87:22223?security=none&encryption=none&headerType=none&type=tcp#%40filembad
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@63.182.189.87:22222?security=none&encryption=none&headerType=none&type=tcp#%40filembad
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@63.182.189.87:22223?encryption=none&security=none&type=tcp&headerType=none#%40filembad
@@ -27,7 +28,6 @@ vless://f6facd31-c0f7-444f-8b7d-be754eaea9cc@43.224.150.210:443?security=reality
 vless://f6facd31-c0f7-444f-8b7d-be754eaea9cc@43.224.150.210:443?security=reality&encryption=none&pbk=cQ4VTKqrqqCRqcfMx9F4rOV56w7KmOXAyv_FlEZy7C4&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=www.cloudflare.com&sid=5f8bf82edbd1569b#🇩🇪DE-🚀@VPNine1
 vless://042a4a95-68f5-4179-89b3-69475a5d4908@91.132.161.245:18456?encryption=none&security=reality&sni=shop-eu-de.amd.com&fp=chrome&pbk=XmOcGjsWDWRVvRTF7rV77kRp63qwIYbQ_s-YK3U7FkM&sid=09&type=tcp&headerType=none#%40filembad
 vless://042a4a95-68f5-4179-89b3-69475a5d4908@91.132.161.245:18456?security=reality&encryption=none&pbk=XmOcGjsWDWRVvRTF7rV77kRp63qwIYbQ_s-YK3U7FkM&headerType=none&fp=firefox&spx=%2Fd1391238c7e6e89&type=tcp&sni=shop-eu-de.amd.com&sid=09#%40filembad
-vless://042a4a95-68f5-4179-89b3-69475a5d4908@91.132.161.245:18456?security=reality&encryption=none&pbk=XmOcGjsWDWRVvRTF7rV77kRp63qwIYbQ_s-YK3U7FkM&host=%2F%3FBIA_TELEGRAM%40MARAMBASHI_MARAMBASHI&headerType=none&fp=firefox&spx=%2Fd1391238c7e6e89&type=tcp&sni=shop-eu-de.amd.com&sid=09#%40filembad
 vless://0a31984d-b06f-4e79-b255-0dc64ee5d419@43.224.150.71:443?security=reality&encryption=none&pbk=jkGStCLgX1e3kQ31H1_ycSuYm_zSNQ4qVafasU7bkwU&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=www.bing.com&sid=4c0be5bf40e9f5ce#%40filembad
 vless://0a31984d-b06f-4e79-b255-0dc64ee5d419@43.224.150.71:443?security=reality&encryption=none&pbk=jkGStCLgX1e3kQ31H1_ycSuYm_zSNQ4qVafasU7bkwU&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=www.bing.com&sid=4c0be5bf40e9f5ce#🇩🇪DE-🚀@VPNine1
 vless://b34aaf5c-10f9-4085-a21e-1ea063555bcd@45.82.121.201:33860?type=tcp&security=reality&fp=firefox&pbk=yV9VmgrkLvObgUYv0YIYPczou2LrEZk9fSBcXllIDAw&sni=play.google.com&sid=10ce18f6&spx=/#%40filembad
@@ -89,7 +89,6 @@ vless://d8377e79-79d5-4264-9986-487bac077439@best3.daltoon-server.ir:2083?encryp
 vless://d8377e79-79d5-4264-9986-487bac077439@best3.daltoon-server.ir:35768?encryption=none&headerType=http&host=amp-api-edge.apps.apple.com&path=/&security=none&type=tcp#🇩🇪DE-🚀@VPNine1
 vless://d8377e79-79d5-4264-9986-487bac077439@best3.daltoon-server.ir:330?encryption=none&headerType=http&host=updates.cdn-apple.com&path=%2F&security=none&type=tcp#%D8%A7%DA%AF%D9%87%20%D9%85%DB%8C%D8%AE%D9%88%D8%A7%DB%8C%20%D9%82%D8%B7%D8%B9%20%D9%86%D8%B4%DB%8C%20%D8%AC%D9%88%DB%8C%D9%86%20%D8%B4%D9%88%20%3A%20%40farsiproxy
 vless://d8377e79-79d5-4264-9986-487bac077439@best3.daltoon-server.ir:35768?encryption=none&headerType=http&host=amp-api-edge.apps.apple.com&path=%2F&security=none&type=tcp#%D8%A7%DA%AF%D9%87%20%D9%85%DB%8C%D8%AE%D9%88%D8%A7%DB%8C%20%D9%82%D8%B7%D8%B9%20%D9%86%D8%B4%DB%8C%20%D8%AC%D9%88%DB%8C%D9%86%20%D8%B4%D9%88%20%3A%20%40farsiproxy
-vless://d8377e79-79d5-4264-9986-487bac077439@best3.daltoon-server.ir:2083?path=%2F&security=none&encryption=none&host=updates.cdn-apple.com&type=ws#%F0%9D%97%9D%F0%9D%97%BC%F0%9D%97%B6%F0%9D%97%BB%E2%9E%A0%40PlanB_net
 vless://d024bb68-08be-4d92-be36-67123545400f@store6.vevluma.ir:1234?encryption=none&type=tcp&flow=xtls-rprx-vision&security=reality&sni=updates.cdn-apple.com&fp=chrome&pbk=4sT8gYkbYI1RUPlO-SFVpJENKfGgMWoYQpflbcfspkI&sid=4844fb0c077b20b7#🇩🇪DE-🚀@VPNine1
 trojan://PQ05174892@rapid-firefly.rooster465.autos:443?fp=chrome#🇩🇪DE-🚀@VPNine1
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToyWWRFNGxGT2lkNWE=@51.195.126.38:8388#🇩🇪DE-🚀@VPNine1
@@ -213,6 +212,6 @@ vless://d01d5a74-09fb-4e9e-b0d9-38b5fd77ad70@46.225.156.169:2087?type=grpc&secur
 vless://d01d5a74-09fb-4e9e-b0d9-38b5fd77ad70@46.225.156.169:2087?type=grpc&security=reality&serviceName=grpc&sni=www.bing.com&pbk=G5d5XhYI5DtRKW14Yg2z1kc2OUQSC7EjoT2fiKKY2lI&sid=57c26f52&fp=firefox&encryption=none#%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Falkenstein%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
 vless://658f7138-93c2-414d-a6c2-f332c94d4034@94.183.219.243:8443?type=grpc&security=reality&sni=cdn.shopify.com&pbk=NI5Rkfn6zO_gF-UC1nuvJwu4SDakCXh3ygJOKU1EITU&sid=f747a7a5793b5714&fp=firefox&encryption=none#%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Frankfurt%20am%20Main%20%7C%20%5BBL%5D
 vless://579f0893-e6f9-4036-86a1-7c10aa2d24ea@debase.skysafe.online:2027?flow=xtls-rprx-vision&fp=qq&headertype=none&pbk=EApxy12MeXpqt-78odxizwcXT6hX9f8XeAcbMDVRAV0&security=reality&sid=6ba7b8109dad11d1&sni=debase.skysafe.online&type=tcp#%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Frankfurt%20am%20Main%20%28Innenstadt%20I%29%20%7C%20%5BBL%5D
-trojan://M7v%25w11Se%2A@dggg.wsone.icu:443?type=tcp&security=tls&encryption=none&fp=chrome&sni=dggg.wsone.icu#%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Frankfurt%20am%20Main%20%7C%20%5BBL%5D
 trojan://M7v%25w11Se%2A@dggg.wsone.icu:443?type=tcp&security=tls&encryption=none&sni=dggg.wsone.icu&fp=chrome#%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Frankfurt%20am%20Main%20%7C%20%5BBL%5D
 trojan://M7v%25w11Se%2A@dggg.wsone.icu:443?type=tcp&security=tls&encryption=none&sni=dggg.wsone.icu&fp=edge#%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Frankfurt%20am%20Main%20%7C%20%5BBL%5D
+trojan://M7v%25w11Se%2A@dggg.wsone.icu:443?type=tcp&security=tls&encryption=none&fp=chrome&sni=dggg.wsone.icu#%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Frankfurt%20am%20Main%20%7C%20%5BBL%5D
