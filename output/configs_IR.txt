@@ -9,6 +9,8 @@ vless://8ff538e4-330c-43c1-97c8-0c90bf989331@94.184.12.216:443?encryption=none&s
 vless://8ff538e4-330c-43c1-97c8-0c90bf989331@94.184.12.216:443?security=reality&encryption=none&pbk=a4BZpB4dOgs5CZZnWW7xC6Czu6BNQHQjTrqpuEhLFBk&headerType=none&fp=chrome&spx=%2F738282bf88e5a9e&type=tcp&sni=www.samsung.com&sid=a0f59cea4e3b73#%40filembad
 vless://8ff538e4-330c-43c1-97c8-0c90bf989331@94.184.12.216:443?security=reality&encryption=none&pbk=a4BZpB4dOgs5CZZnWW7xC6Czu6BNQHQjTrqpuEhLFBk&headerType=none&fp=chrome&spx=/738282bf88e5a9e&type=tcp&sni=www.samsung.com&sid=a0f59cea4e3b73#🇮🇷IR-🚀@VPNine1
 vless://8ff538e4-330c-43c1-97c8-0c90bf989331@77.237.90.67:443?security=reality&encryption=none&pbk=a7eDhoO14l6Tt6oC9Qa2laZkuJlQ8vhDgtE3Ko9aGnw&headerType=none&fp=chrome&spx=%2Fa7a31c8e82daa25&type=tcp&sni=www.samsung.com&sid=fcf239025a00fddd#%40filembad
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpCbFJ0anlZbGoxOGtZY3JFTC84d2NiU3lxTktTUEVTaXdTRER2aXN1OStvPQ==@e2.cover20.ir:30874#🇮🇷IR-🚀@VPNine1
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpnU281NjlFVyt3MlFuMnpCdTFEV2ZtYnI0bms3Y21MNEkrcEExdWZZMnFFPQ@e2.cover20.ir:30874?type=tcp#🇮🇷IR-🚀@VPNine1
 vless://1de11be7-1b7c-4143-8b04-fabd57078581@tun2.pcapps.ir:2092?path=/?ed=2560&security=tls&alpn=h3,h2,http/1.1&encryption=none&insecure=0&host=rad.app9.ir&fp=safari&type=ws&allowInsecure=0&sni=phonepanel.ir#🇮🇷IR-🚀@VPNine1
 ss://MjAyMi1ibGFrZTMtYWVzLTI1Ni1nY206S0NvbUVRMjhjVlhJelZseGRwVHk2TFhMb2NrWEV4WlVoMXhVSlQ0OS9uaz06cmZjQ1NMK2ZDTkNobFRFRWtYS1dJODFUQjdKMHp4blRZc3pVNFlMeEJnWT0@tun3.pcapps.ir:2082#🇮🇷IR-🚀@VPNine1
 vless://1de11be7-1b7c-4143-8b04-fabd57078581@tun.pcapps.ir:2092?security=tls&encryption=none&insecure=0&fp=firefox&type=ws&allowInsecure=0&sni=phonepanel.ir#🇮🇷IR-🚀@VPNine1
@@ -39,7 +41,6 @@ vless://e327b6a6-b491-49f3-928a-30e4058d802d@tun.ultranv.ir:8383?encryption=none
 vless://e327b6a6-b491-49f3-928a-30e4058d802d@tun.ultranv.ir:8484?encryption=none&security=tls&type=ws&headerType=none&path=live&host=tls.codmaxx.ir&sni=tls.codmaxx.ir#🇮🇷IR-🚀@VPNine1
 vless://e327b6a6-b491-49f3-928a-30e4058d802d@tun.ultranv.ir:8585?encryption=none&security=tls&type=ws&headerType=none&path=live&host=tls.codmaxx.ir&sni=tls.codmaxx.ir#🇮🇷IR-🚀@VPNine1
 vless://e327b6a6-b491-49f3-928a-30e4058d802d@tun.ultranv.ir:8181?path=live&security=tls&encryption=none&insecure=0&host=tls.codmaxx.ir&type=ws&allowInsecure=0&sni=tls.codmaxx.ir#🇮🇷IR-🚀@VPNine1
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpnU281NjlFVyt3MlFuMnpCdTFEV2ZtYnI0bms3Y21MNEkrcEExdWZZMnFFPQ@e2.cover20.ir:30874?type=tcp#🇮🇷IR-🚀@VPNine1
 vless://9e653a52-43c3-4139-8813-86dd067912d0@it2.speedit.ir:2059?encryption=none&security=none&type=tcp#🇮🇷IR-🚀@VPNine1
 vless://9e653a52-43c3-4139-8813-86dd067912d0@it4.speedit.ir:5455?encryption=none&security=none&type=tcp#🇮🇷IR-🚀@VPNine1
 vless://9e653a52-43c3-4139-8813-86dd067912d0@sos.speedit.ir:2086?encryption=none&security=none&type=tcp#🇮🇷IR-🚀@VPNine1
