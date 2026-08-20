@@ -1,4 +1,5 @@
 vless://6202b230-417c-4d8e-b624-0f71afa9c75d@45.131.4.30:8880?type=ws&host=vms.lifetime59.workers.dev#%40filembad
+vless://6202b230-417c-4d8e-b624-0f71afa9c75d@45.131.4.30:8880?type=ws&host=vms.lifetime59.workers.dev#🇳🇱NL-🚀@VPNine1
 vless://6202b230-417c-4d8e-b624-0f71afa9c75d@45.131.4.30:8880?type=ws&host=vms.lifetime59.workers.dev#%F0%9F%8C%9F%20%40MTproxy22_v2ray
 vless://e29e726f-8bd1-4150-8b35-99c7a926fb22@87.107.108.198:6100?mode=auto&path=%2F&security=reality&encryption=none&extra=%7B%22scMaxEachPostBytes%22%3A%221000000%22%2C%22xPaddingBytes%22%3A%22100-1000%22%7D&pbk=jPhWDr88-laZriNH-vsd_WvK64BA4kvrVfSXhc7jyTA&fp=chrome&spx=%2Fw3OPix9ekfk7KQx&type=xhttp&sni=www.amd.com&sid=4fac2a267955#%40filembad
 vless://e29e726f-8bd1-4150-8b35-99c7a926fb22@87.107.108.198:6100?encryption=none&extra=%7B%22scMaxEachPostBytes%22%3A%221000000%22%2C%22xPaddingBytes%22%3A%22100-1000%22%7D&fp=chrome&host=&mode=auto&path=%2F&pbk=jPhWDr88-laZriNH-vsd_WvK64BA4kvrVfSXhc7jyTA&security=reality&sid=4fac2a267955&sni=www.amd.com&spx=%2Fw3OPix9ekfk7KQx&type=xhttp&x_padding_bytes=100-1000#%40filembad
@@ -10,6 +11,7 @@ vless://8ff538e4-330c-43c1-97c8-0c90bf989331@94.184.12.216:443?encryption=none&s
 vless://8ff538e4-330c-43c1-97c8-0c90bf989331@94.184.12.216:443?security=reality&encryption=none&pbk=a4BZpB4dOgs5CZZnWW7xC6Czu6BNQHQjTrqpuEhLFBk&headerType=none&fp=chrome&spx=%2F738282bf88e5a9e&type=tcp&sni=www.samsung.com&sid=a0f59cea4e3b73#%40filembad
 vless://8ff538e4-330c-43c1-97c8-0c90bf989331@94.184.12.216:443?security=reality&encryption=none&pbk=a4BZpB4dOgs5CZZnWW7xC6Czu6BNQHQjTrqpuEhLFBk&headerType=none&fp=chrome&spx=/738282bf88e5a9e&type=tcp&sni=www.samsung.com&sid=a0f59cea4e3b73#🇮🇷IR-🚀@VPNine1
 vless://8ff538e4-330c-43c1-97c8-0c90bf989331@77.237.90.67:443?security=reality&encryption=none&pbk=a7eDhoO14l6Tt6oC9Qa2laZkuJlQ8vhDgtE3Ko9aGnw&headerType=none&fp=chrome&spx=%2Fa7a31c8e82daa25&type=tcp&sni=www.samsung.com&sid=fcf239025a00fddd#%40filembad
+ss://xchacha20-ietf-poly1305:e5yik590imvmtm9z@coinex.xvoidx.com:2052#🇮🇷IR-🚀@VPNine1
 vless://9f82e95c-b9b5-44c8-aba6-c28eb89d0b18@95.38.184.199:996?path=/mmd&security=none&encryption=none&type=ws#🇮🇷IR-🚀@VPNine1
 vless://9f82e95c-b9b5-44c8-aba6-c28eb89d0b18@95.38.184.199:1120?path=/mmd&security=none&encryption=none&type=ws#🇮🇷IR-🚀@VPNine1
 vless://36b78162-4e57-4e08-b3d0-ef13b788f7ec@95.38.184.199:995?path=/mmd&security=none&encryption=none&type=ws#🇮🇷IR-🚀@VPNine1
@@ -65,5 +67,3 @@ vless://89d07d9e-55af-4233-8e42-6739e085450f@ir4.horvexa.ir:2079?path=/&security
 vless://1ee1f28d-4975-4d7c-95c7-76172c20eed5@185.143.234.238:2086?path=%2F&security=none&encryption=none&host=parsi.parsi.sbs&type=ws#@vasl_bashim
 vless://a8c6e908-fa7e-4d53-abdf-162fc47fe456@185.143.233.235:2053?encryption=none&security=tls&sni=top.mobixaco.ir&fp=random&insecure=0&allowInsecure=0&type=ws&host=top.mobixaco.ir&path=%2F#%40Configs_FreeIran
 trojan://33ws1asxa8vmbehw@snapp.ir:80?path=%2F&security=none&host=web.maxisup.ir&type=ws#Configs_FreeIran
-vless://0c6c9627-95fe-418a-bd4c-50df888c44bd@mci.v2plus.ovh:80?encryption=none&security=none&type=ws&host=worker3.bobiv63003.workers.dev&path=/ffEt2nn4iTWiXfi8#%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D
-vless://0c6c9627-95fe-418a-bd4c-50df888c44bd@mci.v2plus.ovh:80?security=none&type=ws&path=/ffEt2nn4iTWiXfi8&host=worker3.bobiv63003.workers.dev&ed=2560&packetEncoding=xudp&sni=worker3.bobiv63003.workers.dev#%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D
