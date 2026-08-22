@@ -1,3 +1,5 @@
+vless://8ff538e4-330c-43c1-97c8-0c90bf989331@94.184.12.216:443?security=reality&encryption=none&pbk=a4BZpB4dOgs5CZZnWW7xC6Czu6BNQHQjTrqpuEhLFBk&headerType=none&fp=chrome&spx=%2F738282bf88e5a9e&type=tcp&sni=www.samsung.com&sid=6d9c5518475c#%40filembad
+vless://8ff538e4-330c-43c1-97c8-0c90bf989331@77.237.90.67:443?security=reality&encryption=none&pbk=a7eDhoO14l6Tt6oC9Qa2laZkuJlQ8vhDgtE3Ko9aGnw&headerType=none&fp=chrome&spx=%2Fa7a31c8e82daa25&type=tcp&sni=www.samsung.com&sid=787f#%40filembad
 ss://YWVzLTI1Ni1nY206WVRrMVlXWTFZbVZoT0RRNU0yUm1OREV3T1dFM09UQTRaakJqT0RFeg@193.176.242.55:9117?prefix=%16%03%01%00%C2%A8%01%01#%40filembad
 ss://YWVzLTI1Ni1nY206WVRrMVlXWTFZbVZoT0RRNU0yUm1OREV3T1dFM09UQTRaakJqT0RFeg@193.176.242.55:9117?prefix=%16%03%01%00%C2%A8%01%01#🇮🇷IR-🚀@VPNine1
 vless://dbfa1db8-75d6-4721-8ff1-123e7b55e21f@81.12.56.53:4894?security=none&encryption=none&headerType=none&type=tcp#%40filembad
