@@ -54,8 +54,6 @@ vless://c930c363-1dc2-4c0f-8fa7-b540cf7089a3@cloud3.tsnet3.top:1003?mode=stream-
 vless://c930c363-1dc2-4c0f-8fa7-b540cf7089a3@cloud5.tsnet3.top:1005?mode=stream-up&path=/&security=none&encryption=none&extra=%7B%22xPaddingBytes%22:%22100-1000%22%7D&host=myket.ir&type=xhttp#🇦🇪AE-🚀@VPNine1
 vless://c930c363-1dc2-4c0f-8fa7-b540cf7089a3@cloud2.tsnet1.top:1002?mode=stream-up&path=/&security=none&encryption=none&extra=%7B%22xPaddingBytes%22:%22100-1000%22%7D&host=cafeariel.ir&type=xhttp#🇮🇷IR-🚀@VPNine1
 vless://c930c363-1dc2-4c0f-8fa7-b540cf7089a3@cloud1.tsnet1.top:1001?mode=stream-up&path=/&security=none&encryption=none&extra=%7B%22xPaddingBytes%22:%22100-1000%22%7D&host=cafeariel.ir&type=xhttp#🇮🇷IR-🚀@VPNine1
-vless://b7a70451-ea5e-43c4-af92-11075a950dca@5.160.132.5:22532?security=none&encryption=none&host=soft98.ir,igap.net,yasdl.com&headerType=http&type=tcp#🇮🇷IR-🚀@VPNine1
-vless://b7a70451-ea5e-43c4-af92-11075a950dca@5.160.132.5:47686?security=none&encryption=none&host=soft98.ir,igap.net,yasdl.com&headerType=http&type=tcp#🇮🇷IR-🚀@VPNine1
 vless://1ee1f28d-4975-4d7c-95c7-76172c20eed5@185.143.234.238:2086?path=%2F&security=none&encryption=none&host=parsi.parsi.sbs&type=ws#@vasl_bashim
 vless://a8c6e908-fa7e-4d53-abdf-162fc47fe456@185.143.233.235:2053?encryption=none&security=tls&sni=top.mobixaco.ir&fp=random&insecure=0&allowInsecure=0&type=ws&host=top.mobixaco.ir&path=%2F#%40Configs_FreeIran
 trojan://33ws1asxa8vmbehw@snapp.ir:80?path=%2F&security=none&host=web.maxisup.ir&type=ws#Configs_FreeIran
