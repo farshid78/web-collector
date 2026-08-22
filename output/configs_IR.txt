@@ -54,8 +54,6 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpMUHc5VnZWWCtzUE0yNUIxNzdvTmp6OXJhbXhQcE5xZnV
 vless://a0d3d4ad-0ab9-4f97-ae31-8acfb7c99bbe@bin.fastervip.ir:2052?type=ws&encryption=none&path=/&host=&security=none#🇮🇷IR-🚀@VPNine1
 vless://3a5771db-f779-47f6-9423-173cd4f952dd@bin.fastervip.ir:2052?type=ws&encryption=none&path=/&host=&security=none#🇮🇷IR-🚀@VPNine1
 ss://MjAyMi1ibGFrZTMtYWVzLTI1Ni1nY206R0cyZFFycVJsdzBWWG8vakZZUCtFMHZCWUQrMlpGMkxwczdtaUdkVTZXWT06dHRtZG5wVmpuMjhtQWVvLyt5cWt3VUVEbkhNOVJSdFNtQUNwMi9oVXJGOD0@tun4.s01-download-main.com:1001#🇮🇷IR-🚀@VPNine1
-vless://30bf05ac-45d1-4f6e-b511-01f46833c35f@cloud3.abalonhost.ir:6003?mode=stream-up&path=/&security=&encryption=none&extra=%7B%22xPaddingBytes%22:%22100-1000%22%7D&host=myket.ir&type=xhttp#🇮🇷IR-🚀@VPNine1
-vless://6421cb23-e524-4ce5-924f-a8e9d4d1da72@turkey.blueheartz.ir:27632?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=tge1_umgZzzbe243U0RmtmHKF9LNp-Hg6xg0KV7Zv1c&security=reality&sid=2c9dd97f742c96&sni=play-fe.googleapis.com&spx=/13e057c3e35bf90&type=tcp#🇮🇷IR-🚀@VPNine1
 vless://1ee1f28d-4975-4d7c-95c7-76172c20eed5@185.143.234.238:2086?path=%2F&security=none&encryption=none&host=parsi.parsi.sbs&type=ws#@vasl_bashim
 vless://a8c6e908-fa7e-4d53-abdf-162fc47fe456@185.143.233.235:2053?encryption=none&security=tls&sni=top.mobixaco.ir&fp=random&insecure=0&allowInsecure=0&type=ws&host=top.mobixaco.ir&path=%2F#%40Configs_FreeIran
 trojan://33ws1asxa8vmbehw@snapp.ir:80?path=%2F&security=none&host=web.maxisup.ir&type=ws#Configs_FreeIran
