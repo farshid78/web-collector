@@ -1,100 +1,4 @@
 {
-  "212.80.24.215": {
-    "country": "IR",
-    "ts": 1786197711
-  },
-  "104.16.1.120": {
-    "country": "CA",
-    "ts": 1786197711
-  },
-  "104.18.26.189": {
-    "country": "CA",
-    "ts": 1786197711
-  },
-  "172.67.206.202": {
-    "country": "CA",
-    "ts": 1786197711
-  },
-  "DIRECT.com.fastserverippanel.online": {
-    "country": "TR",
-    "ts": 1786197711
-  },
-  "172.67.132.122": {
-    "country": "CA",
-    "ts": 1786197711
-  },
-  "167.233.23.44": {
-    "country": "DE",
-    "ts": 1786197711
-  },
-  "163.176.1.25": {
-    "country": "BR",
-    "ts": 1786197711
-  },
-  "104.18.187.134": {
-    "country": "CA",
-    "ts": 1786197711
-  },
-  "104.17.154.190": {
-    "country": "CA",
-    "ts": 1786197711
-  },
-  "135.84.76.97": {
-    "country": "US",
-    "ts": 1786197711
-  },
-  "104.16.1.2": {
-    "country": "CA",
-    "ts": 1786197711
-  },
-  "104.16.1.166": {
-    "country": "CA",
-    "ts": 1786197711
-  },
-  "freetg.strettenvpn.com": {
-    "country": "DE",
-    "ts": 1786197711
-  },
-  "198.41.209.114": {
-    "country": "CA",
-    "ts": 1786197711
-  },
-  "104.17.66.198": {
-    "country": "CA",
-    "ts": 1786197711
-  },
-  "104.18.21.253": {
-    "country": "CA",
-    "ts": 1786197711
-  },
-  "104.16.1.159": {
-    "country": "CA",
-    "ts": 1786197711
-  },
-  "104.18.21.70": {
-    "country": "CA",
-    "ts": 1786197711
-  },
-  "104.21.69.22": {
-    "country": "CA",
-    "ts": 1786197711
-  },
-  "ballast.proxy.rlwy.net": {
-    "country": "US",
-    "ts": 1786197711
-  },
-  "server.wiki.fastpanel.dash.api.carpetsart.ir": {
-    "country": "TR",
-    "ts": 1786197712
-  },
-  "sw4.fi1-cosmostechnology.ru": {
-    "country": "SE",
-    "ts": 1786197712
-  },
-  "sw2.fi1-cosmostechnology.ru": {
-    "country": "SE",
-    "ts": 1786197712
-  },
   "164.90.216.233": {
     "country": "DE",
     "ts": 1786200398
@@ -35766,5 +35670,77 @@
   "d-e.bntabriz.ir": {
     "country": "CA",
     "ts": 1787406774
+  },
+  "172.66.45.32": {
+    "country": "CA",
+    "ts": 1787408604
+  },
+  "91.92.43.81": {
+    "country": "DE",
+    "ts": 1787408604
+  },
+  "198.41.209.145": {
+    "country": "CA",
+    "ts": 1787408604
+  },
+  "138.124.100.57": {
+    "country": "EE",
+    "ts": 1787408604
+  },
+  "104.19.47.55": {
+    "country": "CA",
+    "ts": 1787408604
+  },
+  "31.76.39.158": {
+    "country": "GB",
+    "ts": 1787408604
+  },
+  "179.255.185.75": {
+    "country": "US",
+    "ts": 1787408604
+  },
+  "179.255.185.73": {
+    "country": "US",
+    "ts": 1787408604
+  },
+  "kuzya.api.dznn.net": {
+    "country": "KZ",
+    "ts": 1787408604
+  },
+  "2.27.153.56": {
+    "country": "PL",
+    "ts": 1787408604
+  },
+  "itproxy2.lockdwn.com": {
+    "country": "IT",
+    "ts": 1787408604
+  },
+  "sw.zapret-tg.ru": {
+    "country": "SE",
+    "ts": 1787408604
+  },
+  "us.ultraspeed.top": {
+    "country": "US",
+    "ts": 1787408604
+  },
+  "es.ultraspeed.top": {
+    "country": "EE",
+    "ts": 1787408604
+  },
+  "mmmishsieiejeheoeoeo.nenenet1.ir": {
+    "country": "FR",
+    "ts": 1787408604
+  },
+  "pasarguardpanelmmd2.neninet.ir": {
+    "country": "NL",
+    "ts": 1787408604
+  },
+  "usa2.razkur.dev": {
+    "country": "US",
+    "ts": 1787408604
+  },
+  "usa3.razkur.dev": {
+    "country": "US",
+    "ts": 1787408604
   }
 }
