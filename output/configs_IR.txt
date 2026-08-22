@@ -26,8 +26,6 @@ vless://2a82c5dc-3420-450f-b0c4-c01f5ba726f7@95.38.184.199:996?path=/mmd&securit
 vless://2a82c5dc-3420-450f-b0c4-c01f5ba726f7@95.38.184.199:1455?security=none&type=ws&headerType=&path=/mmd&host=#🇮🇷IR-🚀@VPNine1
 vless://2ef9a86d-2fc8-4edd-82f4-10727f529f7c@95.38.184.199:995?security=none&type=ws&headerType=&path=/mmd&host=#🇮🇷IR-🚀@VPNine1
 vless://2ef9a86d-2fc8-4edd-82f4-10727f529f7c@95.38.184.199:1455?security=none&type=ws&headerType=&path=/mmd&host=#🇮🇷IR-🚀@VPNine1
-vless://2ef9a86d-2fc8-4edd-82f4-10727f529f7c@95.38.184.199:1120?path=/mmd&security=&encryption=none&type=ws#🇮🇷IR-🚀@VPNine1
-vless://2ef9a86d-2fc8-4edd-82f4-10727f529f7c@95.38.184.199:996?path=/mmd&security=&encryption=none&type=ws#🇮🇷IR-🚀@VPNine1
 vless://13474472-ab43-4749-be44-769321b0d683@holand.zulacdn.ir:50581?security=reality&alpn=h2,http/1.1&encryption=none&pbk=rY0p9bslbo1BOCOy-KL3V7sVPyp-eJv0IR6NxysFtW8&headerType=none&fp=chrome&spx=/&type=tcp&flow=xtls-rprx-vision&sni=google.com&sid=a8d541d18fe72bc5#🇮🇷IR-🚀@VPNine1
 vless://13474472-ab43-4749-be44-769321b0d683@game.d.snapcdn3.ir:443?security=reality&encryption=none&pbk=EW4wbYV1o5FPKkOVHx4Z572oP__5usAVE7K8bXtxzQ8&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=play.google.com&sid=04ac4765d572b7b7#🇮🇷IR-🚀@VPNine1
 vless://13474472-ab43-4749-be44-769321b0d683@Germany.snapcdn3.ir:443?security=reality&alpn=h2,http/1.1&encryption=none&pbk=EW4wbYV1o5FPKkOVHx4Z572oP__5usAVE7K8bXtxzQ8&headerType=none&fp=edge&type=tcp&flow=xtls-rprx-vision&sni=play.google.com&sid=04ac4765d572b7b7#🇮🇷IR-🚀@VPNine1
