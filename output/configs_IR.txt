@@ -2,13 +2,6 @@ vless://8ff538e4-330c-43c1-97c8-0c90bf989331@94.184.12.216:443?security=reality&
 vless://8ff538e4-330c-43c1-97c8-0c90bf989331@77.237.90.67:443?security=reality&encryption=none&pbk=a7eDhoO14l6Tt6oC9Qa2laZkuJlQ8vhDgtE3Ko9aGnw&headerType=none&fp=chrome&spx=%2Fa7a31c8e82daa25&type=tcp&sni=www.samsung.com&sid=787f#%40filembad
 ss://YWVzLTI1Ni1nY206WVRrMVlXWTFZbVZoT0RRNU0yUm1OREV3T1dFM09UQTRaakJqT0RFeg@193.176.242.55:9117?prefix=%16%03%01%00%C2%A8%01%01#%40filembad
 ss://YWVzLTI1Ni1nY206WVRrMVlXWTFZbVZoT0RRNU0yUm1OREV3T1dFM09UQTRaakJqT0RFeg@193.176.242.55:9117?prefix=%16%03%01%00%C2%A8%01%01#🇮🇷IR-🚀@VPNine1
-vless://dbfa1db8-75d6-4721-8ff1-123e7b55e21f@81.12.56.53:4894?security=none&encryption=none&headerType=none&type=tcp#%40filembad
-vless://dbfa1db8-75d6-4721-8ff1-123e7b55e21f@81.12.56.53:5172?security=none&encryption=none&headerType=none&type=tcp#%40filembad
-vless://dbfa1db8-75d6-4721-8ff1-123e7b55e21f@81.12.56.53:5172?security=none&encryption=none&headerType=none&type=tcp#🇮🇷IR-🚀@VPNine1
-vless://dbfa1db8-75d6-4721-8ff1-123e7b55e21f@81.12.56.53:4894?security=none&encryption=none&headerType=none&type=tcp#🇮🇷IR-🚀@VPNine1
-trojan://s6wf9fh1eemfsks8@94.101.178.169:2083?security=reality&pbk=QsKfulnzA2Nt5-3qdaGhUcckahPz2P_AIZxAxF8UTz4&headerType=none&fp=chrome&spx=%2Fc3a51ac62b5ccc6&type=tcp&sni=www.bing.com&sid=d0a561#%40filembad
-vless://dbfa1db8-75d6-4721-8ff1-123e7b55e21f@94.101.178.169:6046?path=/&security=tls&encryption=mlkem768x25519plus.native.0rtt._w-07rmbo9qPeeHNBKde_H_x-EM4cHMeEMcNVqZSkkE&insecure=0&host=213.156.152.25&fp=chrome&type=ws&allowInsecure=0&sni=213.156.152.25#🇮🇷IR-🚀@VPNine1
-trojan://s6wf9fh1eemfsks8@94.101.178.169:2083?security=reality&pbk=QsKfulnzA2Nt5-3qdaGhUcckahPz2P_AIZxAxF8UTz4&headerType=none&fp=chrome&spx=/c3a51ac62b5ccc6&type=tcp&sni=www.bing.com&sid=d0a561#🇮🇷IR-🚀@VPNine1
 vless://2d9de6ea-56c9-422d-a4ad-cac95b8e0881@79.175.134.57:2000?mode=auto&path=/?ed=2560/v2ray&security=tls&alpn=h2,http/1.1&encryption=mlkem768x25519plus.native.0rtt.ubGkuvmTdf-SZf6KOfGDMJKdCItjssyvnGvSZmO9a1o&extra=%7B%22xPaddingBytes%22:%22100-1000%22%7D&insecure=0&fp=chrome&type=xhttp&allowInsecure=0&flow=xtls-rprx-vision&sni=fin2.wpflstudio.ir#🇮🇷IR-🚀@VPNine1
 vless://2d9de6ea-56c9-422d-a4ad-cac95b8e0881@185.88.177.40:443?mode=auto&path=/?ed=2560/v2ray&security=tls&alpn=h2,http/1.1&encryption=mlkem768x25519plus.random.0rtt.-L8KQp1-hUt-sxJGBYralGh6RoC1lCNiKXmBvAml6i4&extra=%7B%22xPaddingBytes%22:%22100-1000%22,%22xPaddingObfsMode%22:true%7D&insecure=0&fp=chrome&type=xhttp&allowInsecure=0&flow=xtls-rprx-vision&sni=german2.fluentfast.ir#🇮🇷IR-🚀@VPNine1
 vless://2d9de6ea-56c9-422d-a4ad-cac95b8e0881@185.215.228.157:8443?mode=auto&path=/&security=tls&alpn=h2,http/1.1&encryption=none&insecure=0&fp=chrome&type=xhttp&allowInsecure=0&sni=ca.lebas2.ir#🇮🇷IR-🚀@VPNine1
@@ -33,6 +26,10 @@ vless://264e32bc-51dd-43d8-995e-a090864d8f91@respina.msphnx.ir:2019?encryption=n
 vless://bb221e43-7272-4d7f-a66d-7fb00dc537cd@respina.msphnx.ir:2019?encryption=none&fp=chrome&pbk=RYUCFGttyeR0jJRoAwx5RkkT7gVwtaj06hDf66GhuXU&security=reality&sid=35951be3&sni=digikala.com&spx=/52ed73bf3a627a7&type=tcp#🇮🇷IR-🚀@VPNine1
 trojan://xrVEJA7RH7AKaJfOUVfsLA@37.202.231.202:2376?pcs=27625bde11efb641b59159b58d1f7d813ba861e4373867c69c61a96f4923bd03&security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=pish-data-03.myket.ir#🇮🇷IR-🚀@VPNine1
 vless://bba38246-7a7b-4dc9-a421-d29219ff4fa6@cl.northbookway.shop:9090?mode=gun&security=reality&encryption=none&pbk=MmgN7QjrLmvLBXvizo_j9va2vD_5Q4edahMmXAv6bRI&fp=chrome&type=grpc&serviceName=grpc-main-2026&sni=play.google.com&sid=2006495ca4229803#🇮🇷IR-🚀@VPNine1
+vless://dbfa1db8-75d6-4721-8ff1-123e7b55e21f@94.101.178.169:6046?path=/&security=tls&encryption=mlkem768x25519plus.native.0rtt._w-07rmbo9qPeeHNBKde_H_x-EM4cHMeEMcNVqZSkkE&insecure=0&host=213.156.152.25&fp=chrome&type=ws&allowInsecure=0&sni=213.156.152.25#🇮🇷IR-🚀@VPNine1
+trojan://s6wf9fh1eemfsks8@94.101.178.169:2083?security=reality&pbk=QsKfulnzA2Nt5-3qdaGhUcckahPz2P_AIZxAxF8UTz4&headerType=none&fp=chrome&spx=/c3a51ac62b5ccc6&type=tcp&sni=www.bing.com&sid=d0a561#🇮🇷IR-🚀@VPNine1
+vless://dbfa1db8-75d6-4721-8ff1-123e7b55e21f@81.12.56.53:5172?security=none&encryption=none&headerType=none&type=tcp#🇮🇷IR-🚀@VPNine1
+vless://dbfa1db8-75d6-4721-8ff1-123e7b55e21f@81.12.56.53:4894?security=none&encryption=none&headerType=none&type=tcp#🇮🇷IR-🚀@VPNine1
 vless://40b1dc6a-e36e-44e2-b02f-2ea864e6bb11@5.10.248.110:53706?encryption=none&headerType=http&host=cloudflare.com&path=/&security=none&type=tcp#🇮🇷IR-🚀@VPNine1
 vless://a6e67f36-2c99-4947-872d-ddb12a70307d@iri.lwjq.ir:9060?encryption=none&type=xhttp&security=tls&path=/snapp&mode=auto&sni=tunk.avqu.ir&alpn=h2,http/1.1&fp=chrome&insecure=1&allowInsecure=1#🇮🇷IR-🚀@VPNine1
 vless://2748ec5d-1f33-4087-aa26-34f6e1066f79@film.turkiyefilm.ir:884?security=tls&alpn=h2,http/1.1&encryption=none&insecure=0&headerType=none&fp=chrome&type=tcp&allowInsecure=0&sni=dash.turkiyefilm.ir#🇮🇷IR-🚀@VPNine1
