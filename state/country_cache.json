@@ -1,20 +1,4 @@
 {
-  "141.98.118.70": {
-    "country": "TR",
-    "ts": 1786227198
-  },
-  "65.109.183.102": {
-    "country": "FI",
-    "ts": 1786227198
-  },
-  "byocsv48182d.dxdx3.com": {
-    "country": "PL",
-    "ts": 1786227198
-  },
-  "ir4.tetrov.top": {
-    "country": "IR",
-    "ts": 1786227198
-  },
   "193.39.9.241": {
     "country": "IR",
     "ts": 1786229467
@@ -35982,5 +35966,37 @@
   "fi.kaliteam.ir": {
     "country": "NL",
     "ts": 1787436540
+  },
+  "141.98.118.70": {
+    "country": "TR",
+    "ts": 1787438277
+  },
+  "dashboard.afrakala.top": {
+    "country": "IR",
+    "ts": 1787438277
+  },
+  "dashboard.afrashop.top": {
+    "country": "IR",
+    "ts": 1787438278
+  },
+  "dashboard.afragame.top": {
+    "country": "IR",
+    "ts": 1787438278
+  },
+  "dashboard.afracafe.top": {
+    "country": "IR",
+    "ts": 1787438278
+  },
+  "dashboard.aframall.top": {
+    "country": "US",
+    "ts": 1787438278
+  },
+  "dashboard.afrapay.top": {
+    "country": "IR",
+    "ts": 1787438278
+  },
+  "dashboard.afrasoft.top": {
+    "country": "IR",
+    "ts": 1787438278
   }
 }

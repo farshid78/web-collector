@@ -85,7 +85,6 @@ vmess://eyJhZGQiOiAiNC4xODIuNy4wIiwgImFpZCI6ICIwIiwgImhvc3QiOiAiIiwgImlkIjogImVj
 vless://9e998501-eaae-4d7e-bbe5-6cecfaef8334@217.69.167.135:15392?encryption=none&security=reality&sni=google.com&fp=chrome&pbk=O8yFUnhj9NOtJ2eUVQTwrGk8HrkHq94QAO090azV428&sid=6a326909&spx=%2F&type=grpc&authority=JOIN_BEDE_TELEGRAM%40MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI&serviceName=grpc&mode=gun#%40filembad
 vless://9e998501-eaae-4d7e-bbe5-6cecfaef8334@217.69.167.135:15392?mode=gun&security=reality&encryption=none&authority=JOIN_BEDE_TELEGRAM%40MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI&pbk=O8yFUnhj9NOtJ2eUVQTwrGk8HrkHq94QAO090azV428&fp=chrome&spx=%2F&type=grpc&serviceName=grpc&sni=google.com&sid=6a326909#%40filembad
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@63.184.211.42:22222?security=none&encryption=none&headerType=none&type=tcp#%40filembad
-vless://e4514801-0d5a-42ba-869f-39bd605aef9e@63.184.211.42:22222?encryption=none&security=none&type=tcp#%40filembad
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@63.184.211.42:22222?encryption=none&security=none&type=tcp#🇩🇪DE-🚀@VPNine1
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@63.184.211.42:22224?encryption=none&security=none&type=tcp#🇩🇪DE-🚀@VPNine1
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@63.184.211.42:22223?encryption=none&security=none&type=tcp#🇩🇪DE-🚀@VPNine1
