@@ -58,3 +58,4 @@ vless://c551976d-6fd8-4574-957f-28b6129bf7ab@185.143.232.245:2095?path=/?ed=2048
 vless://1ee1f28d-4975-4d7c-95c7-76172c20eed5@185.143.234.238:2086?path=%2F&security=none&encryption=none&host=parsi.parsi.sbs&type=ws#@vasl_bashim
 vless://a8c6e908-fa7e-4d53-abdf-162fc47fe456@185.143.233.235:2053?encryption=none&security=tls&sni=top.mobixaco.ir&fp=random&insecure=0&allowInsecure=0&type=ws&host=top.mobixaco.ir&path=%2F#%40Configs_FreeIran
 trojan://33ws1asxa8vmbehw@snapp.ir:80?path=%2F&security=none&host=web.maxisup.ir&type=ws#Configs_FreeIran
+vless://32f58dd7-a12f-47f7-b74a-1abb3ecfae61@free.soundfiy.ir:4554?security=reality&encryption=none&pbk=v-ydSy2Eb-YyiWYd3WyFoJc4Bjs9QPGRTsVac6SyO14&headerType=&fp=firefox&spx=%2F5262415b26c817e&type=tcp&flow=xtls-rprx-vision&sni=yahoo.com&sid=515ed4da724702#%D8%A7%DA%AF%D9%87%20%D9%85%DB%8C%D8%AE%D9%88%D8%A7%DB%8C%20%D9%82%D8%B7%D8%B9%20%D9%86%D8%B4%DB%8C%20%D8%AC%D9%88%DB%8C%D9%86%20%D8%B4%D9%88%20%3A%20%40farsiproxy
