@@ -1,72 +1,4 @@
 {
-  "104.18.84.79": {
-    "country": "CA",
-    "ts": 1786287011
-  },
-  "45.32.236.187": {
-    "country": "NL",
-    "ts": 1786287011
-  },
-  "212.193.6.107": {
-    "country": "CA",
-    "ts": 1786287011
-  },
-  "190.93.244.243": {
-    "country": "CR",
-    "ts": 1786287011
-  },
-  "80.78.244.21": {
-    "country": "RU",
-    "ts": 1786287011
-  },
-  "188.114.98.220": {
-    "country": "CA",
-    "ts": 1786287011
-  },
-  "141.227.170.192": {
-    "country": "FI",
-    "ts": 1786287011
-  },
-  "170.168.97.7": {
-    "country": "ES",
-    "ts": 1786287011
-  },
-  "51.250.5.50": {
-    "country": "RU",
-    "ts": 1786287011
-  },
-  "172.67.190.5": {
-    "country": "CA",
-    "ts": 1786287011
-  },
-  "i4.cloud--vpn.site": {
-    "country": "US",
-    "ts": 1786287011
-  },
-  "77.95.201.235": {
-    "country": "RU",
-    "ts": 1786287011
-  },
-  "b3k5shvutv.vk-maps.net": {
-    "country": "DE",
-    "ts": 1786287011
-  },
-  "media-4.fast-cone.com": {
-    "country": "RU",
-    "ts": 1786287011
-  },
-  "nexvio.orbvia.online": {
-    "country": "RU",
-    "ts": 1786287011
-  },
-  "stormix.pulsio.cfd": {
-    "country": "RU",
-    "ts": 1786287011
-  },
-  "irntu.libertyspeed.ir": {
-    "country": "IR",
-    "ts": 1786287011
-  },
   "193.233.255.10": {
     "country": "RU",
     "ts": 1786288717
@@ -35522,5 +35454,37 @@
   "de-pautina.unlimited-access.ru": {
     "country": "RU",
     "ts": 1787495538
+  },
+  "109.201.152.181": {
+    "country": "NL",
+    "ts": 1787497069
+  },
+  "69.46.46.44": {
+    "country": "US",
+    "ts": 1787497069
+  },
+  "167.104.223.29": {
+    "country": "GB",
+    "ts": 1787497069
+  },
+  "57.131.138.129": {
+    "country": "DE",
+    "ts": 1787497069
+  },
+  "114.25.9.70": {
+    "country": "TW",
+    "ts": 1787497069
+  },
+  "31.76.60.91": {
+    "country": "GB",
+    "ts": 1787497069
+  },
+  "spiderpanel-production-7f16.up.railway.app": {
+    "country": "US",
+    "ts": 1787497069
+  },
+  "grunlimited-2prome-nfoilter-boland-derazr-nabyued-filmzrukmzd.rpmlz.ir": {
+    "country": "DE",
+    "ts": 1787497069
   }
 }
