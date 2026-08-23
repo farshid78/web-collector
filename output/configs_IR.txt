@@ -1,3 +1,4 @@
+vmess://eyJhZGQiOiJzMTAudGlpaXpzaG9wLmNvbSIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiI1YWEzNDI0ZS1iNWM1LTQ2MGMtYmJmMS1kNmY2MTY5ZDMwZjUiLCJpbnNlY3VyZSI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwicGNzIjoiIiwicG9ydCI6IjIwODIiLCJwcyI6IkBmaWxlbWJhZCIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoiLS0tIiwidiI6IjIiLCJ2Y24iOiIifQ==
 vless://904cd6f2-9740-44e5-9353-58207c8e64c7@185.143.232.253:8080?path=%2F&type=ws&security=none&encryption=none&host=2ja0n7x60a.star2.panelpars.ir#%40filembad
 vless://904cd6f2-9740-44e5-9353-58207c8e64c7@185.143.232.253:8080?encryption=none&security=none&type=ws&path=%2F&host=2ja0n7x60a.star2.panelpars.ir#%40filembad
 vless://904cd6f2-9740-44e5-9353-58207c8e64c7@185.143.232.253:8080?encryption=none&security=none&type=ws&path=/&host=2ja0n7x60a.star2.panelpars.ir#🇮🇷IR-🚀@VPNine1
@@ -61,3 +62,4 @@ vless://a6769fd5-286c-4f69-8389-ba15061f35f3@snapp.ir:2095?path=/pgcfws-r4&secur
 trojan://33ws1asxa8vmbehw@snapp.ir:80?path=%2F&security=none&host=web.maxisup.ir&type=ws#Configs_FreeIran
 vless://1ee1f28d-4975-4d7c-95c7-76172c20eed5@185.143.234.238:2086?path=%2F&security=none&encryption=none&host=parsi.parsi.sbs&type=ws#@vasl_bashim
 vless://a8c6e908-fa7e-4d53-abdf-162fc47fe456@185.143.233.235:2053?encryption=none&security=tls&sni=top.mobixaco.ir&fp=random&insecure=0&allowInsecure=0&type=ws&host=top.mobixaco.ir&path=%2F#%40Configs_FreeIran
+vless://6dc55f52-1054-4666-a122-c90eacb25f54@ne.configfast.site:11021?encryption=none&security=none&type=tcp&headerType=http&host=bale.ai%2Cweb.splus.ir%2Cigap.net&path=%2F#%F0%9F%8C%90%20%40goololgoo%20%F0%9F%94%90%20%D9%88%DB%8C%E2%80%8C%D9%BE%DB%8C%E2%80%8C%D8%A7%D9%86%20%D8%B1%D8%A7%DB%8C%DA%AF%D8%A7%D9%86%20%7C%20Free%20Proxy%F0%9F%92%A5
