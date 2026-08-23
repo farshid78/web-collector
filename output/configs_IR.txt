@@ -22,6 +22,7 @@ vless://a6769fd5-286c-4f69-8389-ba15061f35f3@arvancloud.ir:8080?path=%2Fws&secur
 vless://a6769fd5-286c-4f69-8389-ba15061f35f3@arvancloud.ir:8080?path=/ws&security=&encryption=none&host=newcloud6.tonbrownton.com&type=ws#🇮🇷IR-🚀@VPNine1
 vless://8ff538e4-330c-43c1-97c8-0c90bf989331@94.184.12.216:443?security=reality&encryption=none&pbk=a4BZpB4dOgs5CZZnWW7xC6Czu6BNQHQjTrqpuEhLFBk&headerType=none&fp=chrome&spx=%2F738282bf88e5a9e&type=tcp&sni=www.samsung.com&sid=6d9c5518475c#%40filembad
 vless://8ff538e4-330c-43c1-97c8-0c90bf989331@77.237.90.67:443?security=reality&encryption=none&pbk=a7eDhoO14l6Tt6oC9Qa2laZkuJlQ8vhDgtE3Ko9aGnw&headerType=none&fp=chrome&spx=%2Fa7a31c8e82daa25&type=tcp&sni=www.samsung.com&sid=787f#%40filembad
+vless://60e6320d-60c6-43f5-9f54-686089edd608@vip.paaradiseshop.ir:2052?encryption=none&security=none&type=ws&host=english.paradiseshop.click&path=/path#🇮🇷IR-🚀@VPNine1
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpGS1J3cEt4Ym5YdEEzZjJDZElVd1h6Y3BtZFdEbHFFZQ==@185.231.112.138:443#🇮🇷IR-🚀@VPNine1
 vless://2541787c-ecb7-497a-ad7f-c1a8a6456100@s-cdn-api.berluno.ir:2460?security=none&type=ws&headerType=&path=/?ed=2085&host=sinavip-cdn.pars-dev-group.xyz#🇮🇷IR-🚀@VPNine1
 vless://0d58de0b-7bc5-4950-8f3c-786ae34a61d1@s-cdn-api.berluno.ir:2460?security=none&type=ws&headerType=&path=/?ed=2085&host=sinavip-cdn.pars-dev-group.xyz#🇮🇷IR-🚀@VPNine1
