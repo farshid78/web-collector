@@ -43,6 +43,7 @@ vmess://eyJhZGQiOiAiZGFzaGJvYXJkLmFmcmFwYXkudG9wIiwgImFpZCI6ICIwIiwgImhvc3QiOiAi
 vmess://eyJhZGQiOiJ2aXAyLnNob3d0aW1lbGVzcy5zaXRlIiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiIiLCJpZCI6ImI2NDFiNGFiLTEzZTYtNGRkOC04MDNmLTFiODkxNDE5YzNkNSIsImluc2VjdXJlIjoiMCIsIm5ldCI6InRjcCIsInBhdGgiOiIiLCJwY3MiOiIiLCJwb3J0IjoiODA1NSIsInBzIjoiQGZpbGVtYmFkIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiJub25lIiwidiI6IjIiLCJ2Y24iOiIifQ==
 vless://a6769fd5-286c-4f69-8389-ba15061f35f3@arvancloud.ir:8080?path=%2Fws&security=&encryption=none&host=newcloud6.tonbrownton.com&type=ws#%40filembad
 vless://a6769fd5-286c-4f69-8389-ba15061f35f3@arvancloud.ir:8080?path=/ws&security=&encryption=none&host=newcloud6.tonbrownton.com&type=ws#🇮🇷IR-🚀@VPNine1
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpZRjJDTGp4WVdIcUprSzArTGJRZHBXeVd2Y3hScHBTSFlvUFdtNEloK2ljPQ@e4.cover20.ir:16156#🇮🇷IR-🚀@VPNine1
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozUmxFTW91elpGbWNLU3BYdEtCR1h4MnRVVThUQzYweHBnK21HaXV6YjMwPQ@e2.cover20.ir:30874#🇮🇷IR-🚀@VPNine1
 vless://6d6f6286-1c99-4dfa-9698-72cc30665900@T1.digikalamagg.com:2096?path=/&security=tls&alpn=h2&encryption=none&insecure=0&fp=chrome&type=ws&allowInsecure=0&sni=t1.digikalamagg.com#🇮🇷IR-🚀@VPNine1
 vless://60e6320d-60c6-43f5-9f54-686089edd608@vip.paaradiseshop.ir:2052?encryption=none&security=none&type=ws&host=english.paradiseshop.click&path=/path#🇮🇷IR-🚀@VPNine1
