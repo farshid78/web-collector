@@ -1,168 +1,4 @@
 {
-  "65.109.176.164": {
-    "country": "FI",
-    "ts": 1786290785
-  },
-  "45.141.234.219": {
-    "country": "IE",
-    "ts": 1786290785
-  },
-  "104.18.152.246": {
-    "country": "CA",
-    "ts": 1786290785
-  },
-  "195.19.164.86": {
-    "country": "RU",
-    "ts": 1786290785
-  },
-  "xnzn-gpa36i.paydar.site": {
-    "country": "DE",
-    "ts": 1786290785
-  },
-  "193.233.255.20": {
-    "country": "RU",
-    "ts": 1786290785
-  },
-  "94.103.2.91": {
-    "country": "MD",
-    "ts": 1786290785
-  },
-  "85.198.65.120": {
-    "country": "RU",
-    "ts": 1786290785
-  },
-  "193.233.255.13": {
-    "country": "RU",
-    "ts": 1786290785
-  },
-  "146.75.58.74": {
-    "country": "US",
-    "ts": 1786290785
-  },
-  "test.gold-pond.test-cdn-kkk.com": {
-    "country": "DE",
-    "ts": 1786290785
-  },
-  "31.76.38.178": {
-    "country": "DE",
-    "ts": 1786290785
-  },
-  "lt.badns.help": {
-    "country": "TW",
-    "ts": 1786290785
-  },
-  "94.198.220.83": {
-    "country": "KZ",
-    "ts": 1786290785
-  },
-  "178.83.121.21": {
-    "country": "AE",
-    "ts": 1786290785
-  },
-  "178.83.121.23": {
-    "country": "AE",
-    "ts": 1786290785
-  },
-  "178.83.121.25": {
-    "country": "AE",
-    "ts": 1786290785
-  },
-  "178.83.121.26": {
-    "country": "AE",
-    "ts": 1786290785
-  },
-  "178.83.121.27": {
-    "country": "AE",
-    "ts": 1786290785
-  },
-  "178.83.121.28": {
-    "country": "AE",
-    "ts": 1786290785
-  },
-  "178.83.121.30": {
-    "country": "AE",
-    "ts": 1786290785
-  },
-  "de1.prime-net.me": {
-    "country": "DE",
-    "ts": 1786290785
-  },
-  "178.83.121.31": {
-    "country": "AE",
-    "ts": 1786290785
-  },
-  "178.83.121.32": {
-    "country": "AE",
-    "ts": 1786290785
-  },
-  "178.83.121.33": {
-    "country": "AE",
-    "ts": 1786290785
-  },
-  "178.83.121.40": {
-    "country": "AE",
-    "ts": 1786290785
-  },
-  "178.83.121.47": {
-    "country": "AE",
-    "ts": 1786290785
-  },
-  "178.83.121.48": {
-    "country": "AE",
-    "ts": 1786290785
-  },
-  "178.83.121.50": {
-    "country": "AE",
-    "ts": 1786290785
-  },
-  "fi.cls550kop.ir": {
-    "country": "FI",
-    "ts": 1786290785
-  },
-  "fr.cls400.ir": {
-    "country": "FR",
-    "ts": 1786290785
-  },
-  "isp01.skorostnet.space": {
-    "country": "ES",
-    "ts": 1786290785
-  },
-  "nd02.skorostnet.space": {
-    "country": "NL",
-    "ts": 1786290785
-  },
-  "test999.blue-ridge.test-cdn-kkk.com": {
-    "country": "LV",
-    "ts": 1786290785
-  },
-  "sa-ed0cfa70231c0fe1.sr-3a3cd8f1627f0922.r.vpvpn.club": {
-    "country": "EE",
-    "ts": 1786290785
-  },
-  "ger14.skorostnet.space": {
-    "country": "DE",
-    "ts": 1786290785
-  },
-  "5.83.137.18": {
-    "country": "EE",
-    "ts": 1786290785
-  },
-  "test.gold-stone.test-cdn-kkk.com": {
-    "country": "EE",
-    "ts": 1786290785
-  },
-  "168.222.251.122": {
-    "country": "BR",
-    "ts": 1786290785
-  },
-  "x4g-production-d7a1.up.railway.app": {
-    "country": "US",
-    "ts": 1786290785
-  },
-  "193.233.255.5": {
-    "country": "RU",
-    "ts": 1786290785
-  },
   "144.24.226.184": {
     "country": "GB",
     "ts": 1786293426
@@ -35510,5 +35346,49 @@
   "pl1.nihaovpn.ru": {
     "country": "FR",
     "ts": 1787500290
+  },
+  "162.159.152.2": {
+    "country": "CA",
+    "ts": 1787502453
+  },
+  "169.40.42.75": {
+    "country": "US",
+    "ts": 1787502453
+  },
+  "neth6.lckdwn.ru": {
+    "country": "NL",
+    "ts": 1787502453
+  },
+  "172.64.146.153": {
+    "country": "CA",
+    "ts": 1787502453
+  },
+  "iran.arshia-nova.ir": {
+    "country": "DE",
+    "ts": 1787502453
+  },
+  "170.114.46.6": {
+    "country": "US",
+    "ts": 1787502453
+  },
+  "nodejs.org": {
+    "country": "CA",
+    "ts": 1787502453
+  },
+  "api.yandex-dev.com": {
+    "country": "RU",
+    "ts": 1787502453
+  },
+  "ads.yandex-cloud.org": {
+    "country": "RU",
+    "ts": 1787502453
+  },
+  "iranian.arshia-nova.ir": {
+    "country": "DE",
+    "ts": 1787502453
+  },
+  "neth2.nihaovpn.ru": {
+    "country": "NL",
+    "ts": 1787502453
   }
 }
