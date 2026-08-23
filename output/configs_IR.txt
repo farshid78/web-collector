@@ -14,6 +14,7 @@ vmess://eyJhZGQiOiAiZGFzaGJvYXJkLmFmcmFzaG9wLnRvcCIsICJhaWQiOiAiMCIsICJob3N0Ijog
 vless://389ee60a-aa63-4af5-86c5-f5342ea575a3@uno.auracore.ir:43085?security=reality&encryption=none&pbk=HT_iH44DmrO9Xjd8e7Vki_o_3nDZe2cat6zDEwLh1AU&headerType=none&fp=firefox&spx=%2F5191eda57db344f&type=tcp&sni=varzesh3.com&sid=6d83c7#%40filembad
 vless://ce269144-9d3a-449a-ba6b-878ebac4b560@uno.auracore.ir:43085?security=reality&encryption=none&pbk=HT_iH44DmrO9Xjd8e7Vki_o_3nDZe2cat6zDEwLh1AU&headerType=none&fp=firefox&spx=%2F4eaf2df6a6a2436&type=tcp&sni=varzesh3.com&sid=6d83c7#%40filembad
 vless://99e8c369-a44e-4985-bf0e-8a9dd395ccb8@uno.auracore.ir:43085?security=reality&encryption=none&pbk=HT_iH44DmrO9Xjd8e7Vki_o_3nDZe2cat6zDEwLh1AU&headerType=none&fp=firefox&spx=%2F0dece0d438926e0&type=tcp&sni=varzesh3.com&sid=eaa6#%40filembad
+vless://389ee60a-aa63-4af5-86c5-f5342ea575a3@uno.auracore.ir:43085?security=reality&encryption=none&pbk=HT_iH44DmrO9Xjd8e7Vki_o_3nDZe2cat6zDEwLh1AU&headerType=none&fp=firefox&spx=/5191eda57db344f&type=tcp&sni=varzesh3.com&sid=6d83c7#🇮🇷IR-🚀@VPNine1
 vless://ce269144-9d3a-449a-ba6b-878ebac4b560@uno.auracore.ir:43085?security=reality&encryption=none&pbk=HT_iH44DmrO9Xjd8e7Vki_o_3nDZe2cat6zDEwLh1AU&headerType=none&fp=firefox&spx=/4eaf2df6a6a2436&type=tcp&sni=varzesh3.com&sid=6d83c7#🇮🇷IR-🚀@VPNine1
 vless://99e8c369-a44e-4985-bf0e-8a9dd395ccb8@uno.auracore.ir:43085?security=reality&encryption=none&pbk=HT_iH44DmrO9Xjd8e7Vki_o_3nDZe2cat6zDEwLh1AU&headerType=none&fp=firefox&spx=/0dece0d438926e0&type=tcp&sni=varzesh3.com&sid=eaa6#🇮🇷IR-🚀@VPNine1
 vless://a78f7463-ca1c-4af2-8458-52f1f382268a@91.236.168.18:38850?security=none&encryption=none&headerType=none&type=tcp#%40filembad
@@ -45,6 +46,7 @@ vless://a6769fd5-286c-4f69-8389-ba15061f35f3@arvancloud.ir:8080?path=/ws&securit
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozUmxFTW91elpGbWNLU3BYdEtCR1h4MnRVVThUQzYweHBnK21HaXV6YjMwPQ@e2.cover20.ir:30874#🇮🇷IR-🚀@VPNine1
 vless://6d6f6286-1c99-4dfa-9698-72cc30665900@T1.digikalamagg.com:2096?path=/&security=tls&alpn=h2&encryption=none&insecure=0&fp=chrome&type=ws&allowInsecure=0&sni=t1.digikalamagg.com#🇮🇷IR-🚀@VPNine1
 vless://60e6320d-60c6-43f5-9f54-686089edd608@vip.paaradiseshop.ir:2052?encryption=none&security=none&type=ws&host=english.paradiseshop.click&path=/path#🇮🇷IR-🚀@VPNine1
+vless://60e6320d-60c6-43f5-9f54-686089edd608@vip.paaradiseshop.ir:2052?encryption=none&security=none&type=ws&host=english.paradiseshop.click&path=/path#%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%2C%20London%20%7C%20%5BBL%5D
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpGS1J3cEt4Ym5YdEEzZjJDZElVd1h6Y3BtZFdEbHFFZQ==@185.231.112.138:443#🇮🇷IR-🚀@VPNine1
 vless://2541787c-ecb7-497a-ad7f-c1a8a6456100@s-cdn-api.berluno.ir:2460?security=none&type=ws&headerType=&path=/?ed=2085&host=sinavip-cdn.pars-dev-group.xyz#🇮🇷IR-🚀@VPNine1
 vless://0d58de0b-7bc5-4950-8f3c-786ae34a61d1@s-cdn-api.berluno.ir:2460?security=none&type=ws&headerType=&path=/?ed=2085&host=sinavip-cdn.pars-dev-group.xyz#🇮🇷IR-🚀@VPNine1
@@ -69,4 +71,3 @@ vless://8ff538e4-330c-43c1-97c8-0c90bf989331@81.12.56.132:443?security=tls&alpn=
 vless://32f58dd7-a12f-47f7-b74a-1abb3ecfae61@free.soundfiy.ir:4554?security=reality&encryption=none&pbk=v-ydSy2Eb-YyiWYd3WyFoJc4Bjs9QPGRTsVac6SyO14&headerType=&fp=firefox&spx=/5262415b26c817e&type=tcp&flow=xtls-rprx-vision&sni=yahoo.com&sid=515ed4da724702#🇮🇷IR-🚀@VPNine1
 vless://1ee1f28d-4975-4d7c-95c7-76172c20eed5@185.143.234.238:2086?path=%2F&security=none&encryption=none&host=parsi.parsi.sbs&type=ws#@vasl_bashim
 vless://a8c6e908-fa7e-4d53-abdf-162fc47fe456@185.143.233.235:2053?encryption=none&security=tls&sni=top.mobixaco.ir&fp=random&insecure=0&allowInsecure=0&type=ws&host=top.mobixaco.ir&path=%2F#%40Configs_FreeIran
-vless://74ed78f1-4095-47e6-b043-094e494fb7e5@mci.v2plus.ovh:80?security=none&type=ws&path=/sVnT0vhrV7WAl52Z&host=worker3.gisenoj224.workers.dev&ed=2560&packetEncoding=xudp&sni=worker3.gisenoj224.workers.dev#%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AB%F0%9F%87%AE%20%7C%20%5BBL%5D
