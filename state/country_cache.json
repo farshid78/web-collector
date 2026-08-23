@@ -1,116 +1,4 @@
 {
-  "192.0.54.131": {
-    "country": "US",
-    "ts": 1786312365
-  },
-  "68.183.211.254": {
-    "country": "DE",
-    "ts": 1786312365
-  },
-  "62.233.39.6": {
-    "country": "RU",
-    "ts": 1786312365
-  },
-  "64.227.35.131": {
-    "country": "GB",
-    "ts": 1786312365
-  },
-  "64.227.122.82": {
-    "country": "DE",
-    "ts": 1786312365
-  },
-  "83.143.106.4": {
-    "country": "IL",
-    "ts": 1786312365
-  },
-  "88.218.44.5": {
-    "country": "US",
-    "ts": 1786312365
-  },
-  "185.176.24.186": {
-    "country": "NL",
-    "ts": 1786312365
-  },
-  "134.209.28.33": {
-    "country": "GB",
-    "ts": 1786312365
-  },
-  "144.126.207.179": {
-    "country": "GB",
-    "ts": 1786312365
-  },
-  "104.17.107.245": {
-    "country": "CA",
-    "ts": 1786312365
-  },
-  "mts-most-4.harknmav.fun": {
-    "country": "RU",
-    "ts": 1786312365
-  },
-  "core.univesalsrv.com": {
-    "country": "RU",
-    "ts": 1786312365
-  },
-  "mts-most-3.harknmav.fun": {
-    "country": "RU",
-    "ts": 1786312365
-  },
-  "beeline-4.harknmav.fun": {
-    "country": "NL",
-    "ts": 1786312365
-  },
-  "cloud-most-1.harknmav.fun": {
-    "country": "RU",
-    "ts": 1786312365
-  },
-  "85.198.69.110": {
-    "country": "RU",
-    "ts": 1786312365
-  },
-  "mts-most-5.harknmav.fun": {
-    "country": "RU",
-    "ts": 1786312365
-  },
-  "mts-most-2.harknmav.fun": {
-    "country": "RU",
-    "ts": 1786312365
-  },
-  "cloud-most-6.harknmav.fun": {
-    "country": "RU",
-    "ts": 1786312365
-  },
-  "5.178.85.81": {
-    "country": "RU",
-    "ts": 1786312365
-  },
-  "cloud-most-3.harknmav.fun": {
-    "country": "RU",
-    "ts": 1786312365
-  },
-  "81.94.148.75": {
-    "country": "NL",
-    "ts": 1786312365
-  },
-  "31.76.34.146": {
-    "country": "RU",
-    "ts": 1786312365
-  },
-  "users.otso.ir": {
-    "country": "CA",
-    "ts": 1786312365
-  },
-  "bobopanelsi.jorgotr.ir": {
-    "country": "TR",
-    "ts": 1786312365
-  },
-  "fast_s28.slopllex.app": {
-    "country": "RU",
-    "ts": 1786312365
-  },
-  "monoblog.ir": {
-    "country": "DE",
-    "ts": 1786312366
-  },
   "x4g-production-9354.up.railway.app": {
     "country": "US",
     "ts": 1786314790
@@ -35218,5 +35106,17 @@
   "check.hafezsportclub.ir": {
     "country": "CA",
     "ts": 1787521625
+  },
+  "net13.shaygan.site": {
+    "country": "IR",
+    "ts": 1787522482
+  },
+  "net12-newww.shaygan.site": {
+    "country": "IR",
+    "ts": 1787522482
+  },
+  "cdn11-1.netkhorplus.ir": {
+    "country": "IR",
+    "ts": 1787522482
   }
 }
