@@ -1,7 +1,8 @@
 {
-  "/home/runner/work/web-collector/web-collector/output/configs.txt": "e747d4ef32decaf11865aaaa9285220e07961b156fee93dc9c1bbb54710c2d36",
-  "/home/runner/work/web-collector/web-collector/output/configs_US.txt": "aca7b880ff3f255747343054f80c9e0c99d4ebbc5750493c9dcc9dd8101cbc05",
-  "/home/runner/work/web-collector/web-collector/output/configs_DE.txt": "683bfbc8801f9365dd382185b244f721372de7793673798e05bdd7a1d9492b15",
-  "/home/runner/work/web-collector/web-collector/output/configs_NL.txt": "f30ce96f42766267ed49a9ff0ffce72ae0e9bf6506f9b42ac1c089396a5c5ae6",
-  "/home/runner/work/web-collector/web-collector/output/configs_others.txt": "b21018c496919b836d840fefb8a18e7a3323768f0134d9bf3e9df7d567a54347"
+  "/home/runner/work/web-collector/web-collector/output/configs.txt": "c105e48334db33fbb20e996413c5857e1c63d25e74224413b383f7215684e2bb",
+  "/home/runner/work/web-collector/web-collector/output/subscription_links.txt": "6e1fd86303aafc71076c79c7c205009e383501c6b2dd3b39c04da17f34e2d522",
+  "/home/runner/work/web-collector/web-collector/output/configs_US.txt": "41d40e12105f04aee257269b9c6b7e4b92f363ac1793b4ce19f2cf8bca11338e",
+  "/home/runner/work/web-collector/web-collector/output/configs_DE.txt": "b3415b77052a96ffa950fda04782e9eb89b394a970ce093c1fbea775f00a2b42",
+  "/home/runner/work/web-collector/web-collector/output/configs_NL.txt": "1cbae916dc2af0242725d4907ea79d5b07a3b1e77b9e8cc00e87bcb745d9c352",
+  "/home/runner/work/web-collector/web-collector/output/configs_others.txt": "5bc9822f1b9e7f0825d93f1756b2568140b19eddced7c6390c9785fac0525917"
 }
