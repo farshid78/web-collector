@@ -1,108 +1,4 @@
 {
-  "lively-pine-093d.144-868.workers.dev": {
-    "country": "CA",
-    "ts": 1786449339
-  },
-  "94.198.220.183": {
-    "country": "KZ",
-    "ts": 1786449339
-  },
-  "201.34.141.83": {
-    "country": "RU",
-    "ts": 1786449339
-  },
-  "5.8.35.72": {
-    "country": "IN",
-    "ts": 1786449339
-  },
-  "193.134.100.23": {
-    "country": "IR",
-    "ts": 1786449339
-  },
-  "5.175.178.53": {
-    "country": "EE",
-    "ts": 1786449339
-  },
-  "81.90.21.225": {
-    "country": "SE",
-    "ts": 1786449339
-  },
-  "31.25.11.144": {
-    "country": "DE",
-    "ts": 1786449339
-  },
-  "151.101.110.209": {
-    "country": "US",
-    "ts": 1786449339
-  },
-  "152.53.173.90": {
-    "country": "DE",
-    "ts": 1786449339
-  },
-  "xiweini.dpdns.org": {
-    "country": "HK",
-    "ts": 1786449339
-  },
-  "t11.qifei.app": {
-    "country": "JP",
-    "ts": 1786449339
-  },
-  "45.196.201.221": {
-    "country": "FR",
-    "ts": 1786449339
-  },
-  "144.31.3.136": {
-    "country": "PL",
-    "ts": 1786449339
-  },
-  "tw2.microsoft-orgwly.vip": {
-    "country": "TW",
-    "ts": 1786449339
-  },
-  "uk1.test3.net": {
-    "country": "GB",
-    "ts": 1786449340
-  },
-  "grde.systemcont.ir": {
-    "country": "DE",
-    "ts": 1786449340
-  },
-  "grd.aminicity.ir": {
-    "country": "DE",
-    "ts": 1786449340
-  },
-  "fr--------------------------sdcs-fdvc-vf-cf.systemcont.ir": {
-    "country": "FR",
-    "ts": 1786449340
-  },
-  "master.appcodes.ir": {
-    "country": "FR",
-    "ts": 1786449340
-  },
-  "azar-sdvf-sad3qeasdd-fgresedfsadwqewr-rjhgreas-fewrfghjhgwfq.supros.ir": {
-    "country": "AZ",
-    "ts": 1786449340
-  },
-  "trader.appcodes.ir": {
-    "country": "TR",
-    "ts": 1786449340
-  },
-  "us--------------------------------fdzcxv-d.plytob.ir": {
-    "country": "US",
-    "ts": 1786449340
-  },
-  "fan-sdfgh-gsfgn-hvfxw-sfvr-fvb--sdgb-gf-dc-dfvb.aminicity.ir": {
-    "country": "FI",
-    "ts": 1786449340
-  },
-  "ocd.appcodes.ir": {
-    "country": "UNKNOWN",
-    "ts": 1786449340
-  },
-  "JHKiom90iuoa.horlutr.ir": {
-    "country": "DE",
-    "ts": 1786449340
-  },
   "5.75.202.32": {
     "country": "DE",
     "ts": 1786453763
@@ -33410,5 +33306,13 @@
   "ads.yandex-api.org": {
     "country": "RU",
     "ts": 1787658505
+  },
+  "104.18.23.166": {
+    "country": "CA",
+    "ts": 1787660291
+  },
+  "104.17.108.128": {
+    "country": "CA",
+    "ts": 1787660291
   }
 }
