@@ -1,76 +1,4 @@
 {
-  "104.18.122.123": {
-    "country": "CA",
-    "ts": 1786462468
-  },
-  "93.123.30.32": {
-    "country": "FI",
-    "ts": 1786462468
-  },
-  "217.28.129.81": {
-    "country": "US",
-    "ts": 1786462468
-  },
-  "91.92.136.28": {
-    "country": "BG",
-    "ts": 1786462468
-  },
-  "176.108.252.240": {
-    "country": "RU",
-    "ts": 1786462468
-  },
-  "95.85.246.104": {
-    "country": "SE",
-    "ts": 1786462468
-  },
-  "104.18.149.150": {
-    "country": "CA",
-    "ts": 1786462468
-  },
-  "144.31.171.233": {
-    "country": "PL",
-    "ts": 1786462468
-  },
-  "193.37.213.44": {
-    "country": "BG",
-    "ts": 1786462468
-  },
-  "138.124.72.220": {
-    "country": "PL",
-    "ts": 1786462468
-  },
-  "185.14.160.213": {
-    "country": "IR",
-    "ts": 1786462468
-  },
-  "104.17.169.13": {
-    "country": "CA",
-    "ts": 1786462468
-  },
-  "104.16.158.79": {
-    "country": "CA",
-    "ts": 1786462468
-  },
-  "main.speedit.ir": {
-    "country": "DE",
-    "ts": 1786462468
-  },
-  "fanld-qwdfghfjhk-gfsasd4wrtgfdvdrs-gwrsvd-dfvb-dw-ef-ecvf-cv-cs.systemcont.ir": {
-    "country": "FI",
-    "ts": 1786462468
-  },
-  "m-wdscdsf.appcodes.ir": {
-    "country": "FR",
-    "ts": 1786462468
-  },
-  "dl.n1.uploadeliasvps.ir": {
-    "country": "IR",
-    "ts": 1786462468
-  },
-  "odc-wdscx.appcodes.ir": {
-    "country": "FR",
-    "ts": 1786462468
-  },
   "162.159.137.204": {
     "country": "CA",
     "ts": 1786465896
@@ -33482,5 +33410,81 @@
   "cdn.devmixa.ir": {
     "country": "NL",
     "ts": 1787670326
+  },
+  "104.20.39.109": {
+    "country": "CA",
+    "ts": 1787673468
+  },
+  "162.159.135.233": {
+    "country": "CA",
+    "ts": 1787673468
+  },
+  "104.16.178.253": {
+    "country": "CA",
+    "ts": 1787673468
+  },
+  "104.16.251.142": {
+    "country": "CA",
+    "ts": 1787673468
+  },
+  "104.25.67.3": {
+    "country": "CA",
+    "ts": 1787673468
+  },
+  "104.16.105.216": {
+    "country": "CA",
+    "ts": 1787673468
+  },
+  "188.114.97.50": {
+    "country": "CA",
+    "ts": 1787673468
+  },
+  "91.92.136.28": {
+    "country": "BG",
+    "ts": 1787673468
+  },
+  "104.19.114.13": {
+    "country": "CA",
+    "ts": 1787673468
+  },
+  "104.18.28.234": {
+    "country": "CA",
+    "ts": 1787673468
+  },
+  "run5.wba-pn.ru": {
+    "country": "RU",
+    "ts": 1787673468
+  },
+  "95sub.ghost-lan.com": {
+    "country": "RU",
+    "ts": 1787673468
+  },
+  "hhtz.ultrrasound.com": {
+    "country": "DE",
+    "ts": 1787673468
+  },
+  "tr.wba-pn.ru": {
+    "country": "RU",
+    "ts": 1787673468
+  },
+  "fi.alpheratzz.org": {
+    "country": "RU",
+    "ts": 1787673468
+  },
+  "ns.1oran1.click": {
+    "country": "RU",
+    "ts": 1787673468
+  },
+  "bz16.wba-pn.ru": {
+    "country": "RU",
+    "ts": 1787673468
+  },
+  "sg2-8sb.6121999.dpdns.org": {
+    "country": "SG",
+    "ts": 1787673468
+  },
+  "top1353702314.mwscdn.ru": {
+    "country": "RU",
+    "ts": 1787673468
   }
 }
