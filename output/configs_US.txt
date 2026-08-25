@@ -1,3 +1,4 @@
+vless://01c1c687-3bb8-4e71-bf4b-ade0570b00e7@8.39.125.130:2095?path=%2F0fc8f4846fed%3Fed%3D2560%26u%3Dai&security=&encryption=none&host=willow-lark-d2f1.sunny-ridge-a3a1.workers.dev&type=ws#%40filembad
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpLUzBTdmZvZmh1NXd4TzhlOHlJekV3bnZhdjBZNGdUTQ@138.124.123.127:1080#%40filembad
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpLUzBTdmZvZmh1NXd4TzhlOHlJekV3bnZhdjBZNGdUTQ@138.124.123.127:1080#🇺🇸US-🚀@VPNine1
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpLUzBTdmZvZmh1NXd4TzhlOHlJekV3bnZhdjBZNGdUTQ%3D%3D@138.124.123.127:1080#🇺🇸US-🚀@VPNine1
@@ -36,7 +37,6 @@ vless://262cf7fc-26ef-4a6f-9181-1203afd65d33@199.232.78.159:443?path=/&security=
 vless://828b7f2c-a6fe-431d-9469-2d7445b7e71f@199.232.78.159:443?path=/&security=tls&encryption=none&insecure=0&host=lsjaoijji.global.ssl.fastly.neT&type=ws&allowInsecure=0&sni=ssl.fastly.com#🇺🇸US-🚀@VPNine1
 vless://b5c36be7-c0dc-4b72-904e-ba840cba7c49@199.232.78.159:80?mode=auto&path=/?ed=2048&security=none&encryption=none&host=v2mizbannnnn.global.ssl.fastly.net&type=xhttp#🇺🇸US-🚀@VPNine1
 vless://e0454af2-6fe9-4983-a55d-05e1da202602@199.232.78.159:443?path=%2F&security=tls&encryption=none&insecure=0&host=lsjaoijji.global.ssl.fastly.net.&type=ws&allowInsecure=0&sni=ssl.fastly.com#%40vasl_bashim
-vless://b5c36be7-c0dc-4b72-904e-ba840cba7c49@199.232.78.159:80?mode=auto&path=%2F%3Fed%3D2048&security=none&encryption=none&host=v2mizbannnnn.global.ssl.fastly.net&type=xhttp#%F0%9F%87%BA%F0%9F%87%B8%40FreakConfig
 vless://00144519-7e0d-476b-8d28-435576af9262@167.17.69.171:443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=ALT8hIGeZEhi0sQFbXP_ntBg8Xo-v7i0YCLrqTnBxRk&security=reality&sid=0990d22f&sni=www.cloudflare.com&type=tcp#🇺🇸US-🚀@VPNine1
 vless://e8cf159b-c7a9-43aa-9837-e129b3b58603@188.114.99.99:2096?security=tls&sni=clean.parhamtraberthos.IR.&type=grpc&fp=chrome&alpn=http/1.1#🚀@VPNine1
 vless://e8cf159b-c7a9-43aa-9837-e129b3b58603@188.114.99.99:2096?security=tls&sni=clean.parhamtraberthos.IR.&type=grpc&fp=chrome&alpn=http/1.1#@Hope_Net-join-us-on-Telegram
