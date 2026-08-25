@@ -1,24 +1,4 @@
 {
-  "betty.ns.cloudflare.com": {
-    "country": "CA",
-    "ts": 1786489637
-  },
-  "182.16.61.2": {
-    "country": "HK",
-    "ts": 1786489637
-  },
-  "146.70.61.37": {
-    "country": "GB",
-    "ts": 1786489637
-  },
-  "x4g-production-1039.up.railway.app": {
-    "country": "US",
-    "ts": 1786489637
-  },
-  "tuntr.supros.ir": {
-    "country": "IR",
-    "ts": 1786489637
-  },
   "155.212.175.19": {
     "country": "RU",
     "ts": 1786492672
@@ -33790,5 +33770,29 @@
   "alb1.abvpn.ru": {
     "country": "RU",
     "ts": 1787698133
+  },
+  "43.163.241.110": {
+    "country": "JP",
+    "ts": 1787699585
+  },
+  "104.17.102.205": {
+    "country": "CA",
+    "ts": 1787699585
+  },
+  "betty.ns.cloudflare.com": {
+    "country": "CA",
+    "ts": 1787699585
+  },
+  "104.18.88.134": {
+    "country": "CA",
+    "ts": 1787699585
+  },
+  "104.17.217.131": {
+    "country": "CA",
+    "ts": 1787699585
+  },
+  "104.17.96.103": {
+    "country": "CA",
+    "ts": 1787699585
   }
 }
