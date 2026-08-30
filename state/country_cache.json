@@ -1,172 +1,4 @@
 {
-  "194.87.161.60": {
-    "country": "RU",
-    "ts": 1786834122
-  },
-  "deconverter.teddylink.com": {
-    "country": "DE",
-    "ts": 1786834122
-  },
-  "18telegram.com.zapas.iran.janebicall.ir": {
-    "country": "CA",
-    "ts": 1786834122
-  },
-  "31telegram.com.zapas.iran.janebicall.ir": {
-    "country": "CA",
-    "ts": 1786834123
-  },
-  "n5.zeenvio.ir": {
-    "country": "DE",
-    "ts": 1786834123
-  },
-  "7telegram.com.zapas.iran.janebicall.ir": {
-    "country": "CA",
-    "ts": 1786834123
-  },
-  "23telegram.com.zapas.iran.janebicall.ir": {
-    "country": "CA",
-    "ts": 1786834123
-  },
-  "24telegram.com.zapas.iran.janebicall.ir": {
-    "country": "CA",
-    "ts": 1786834123
-  },
-  "21telegram.com.zapas.iran.janebicall.ir": {
-    "country": "CA",
-    "ts": 1786834123
-  },
-  "27telegram.com.zapas.iran.janebicall.ir": {
-    "country": "CA",
-    "ts": 1786834123
-  },
-  "28telegram.com.zapas.iran.janebicall.ir": {
-    "country": "CA",
-    "ts": 1786834123
-  },
-  "16telegram.com.zapas.iran.janebicall.ir": {
-    "country": "CA",
-    "ts": 1786834123
-  },
-  "13telegram.com.zapas.iran.janebicall.ir": {
-    "country": "CA",
-    "ts": 1786834123
-  },
-  "8telegram.com.zapas.iran.janebicall.ir": {
-    "country": "CR",
-    "ts": 1786834123
-  },
-  "12telegram.com.zapas.iran.janebicall.ir": {
-    "country": "CA",
-    "ts": 1786834123
-  },
-  "90.156.218.143": {
-    "country": "RU",
-    "ts": 1786834123
-  },
-  "usa.phoneshop98.ir": {
-    "country": "US",
-    "ts": 1786834123
-  },
-  "grok.com": {
-    "country": "CA",
-    "ts": 1786834123
-  },
-  "29telegram.com.zapas.iran.janebicall.ir": {
-    "country": "CA",
-    "ts": 1786834123
-  },
-  "19telegram.com.zapas.iran.janebicall.ir": {
-    "country": "CA",
-    "ts": 1786834123
-  },
-  "15telegram.com.zapas.iran.janebicall.ir": {
-    "country": "CA",
-    "ts": 1786834123
-  },
-  "217.16.31.248": {
-    "country": "RU",
-    "ts": 1786834123
-  },
-  "135.106.184.141": {
-    "country": "RU",
-    "ts": 1786834123
-  },
-  "201.51.5.15": {
-    "country": "RU",
-    "ts": 1786834123
-  },
-  "37.18.14.33": {
-    "country": "RU",
-    "ts": 1786834123
-  },
-  "45.81.33.215": {
-    "country": "RU",
-    "ts": 1786834123
-  },
-  "217.16.31.162": {
-    "country": "RU",
-    "ts": 1786834123
-  },
-  "ru2eu.dedicated.127-0-0-1.online": {
-    "country": "RU",
-    "ts": 1786834123
-  },
-  "217.16.31.218": {
-    "country": "RU",
-    "ts": 1786834123
-  },
-  "lake.app20.ir": {
-    "country": "FI",
-    "ts": 1786834123
-  },
-  "11telegram.com.zapas.iran.janebicall.ir": {
-    "country": "DE",
-    "ts": 1786834123
-  },
-  "14telegram.com.zapas.iran.janebicall.ir": {
-    "country": "CA",
-    "ts": 1786834123
-  },
-  "17telegram.com.zapas.iran.janebicall.ir": {
-    "country": "CA",
-    "ts": 1786834123
-  },
-  "25telegram.com.zapas.iran.janebicall.ir": {
-    "country": "CA",
-    "ts": 1786834123
-  },
-  "22telegram.com.zapas.iran.janebicall.ir": {
-    "country": "CA",
-    "ts": 1786834123
-  },
-  "30telegram.com.zapas.iran.janebicall.ir": {
-    "country": "CA",
-    "ts": 1786834123
-  },
-  "dl0.pcapps.ir": {
-    "country": "DE",
-    "ts": 1786834123
-  },
-  "20telegram.com.zapas.iran.janebicall.ir": {
-    "country": "CA",
-    "ts": 1786834123
-  },
-  "26telegram.com.zapas.iran.janebicall.ir": {
-    "country": "CA",
-    "ts": 1786834123
-  },
-  "166.88.130.218": {
-    "country": "CA",
-    "ts": 1786838060
-  },
-  "47.243.92.155": {
-    "country": "HK",
-    "ts": 1786838060
-  },
-  "zeenvio.ir": {
-    "country": "DE",
-    "ts": 1786838060
-  },
   "internal-mongoose.rooster465.autos": {
     "country": "JP",
     "ts": 1786843426
@@ -33886,5 +33718,77 @@
   "qtkdr8jxe3wefxjm.v.3dns.vip": {
     "country": "HK",
     "ts": 1788043115
+  },
+  "31.56.222.189": {
+    "country": "NL",
+    "ts": 1788050628
+  },
+  "151.101.110.219": {
+    "country": "US",
+    "ts": 1788050628
+  },
+  "132.243.65.151": {
+    "country": "EE",
+    "ts": 1788050628
+  },
+  "168.107.77.111": {
+    "country": "SG",
+    "ts": 1788050628
+  },
+  "45.89.60.235": {
+    "country": "AL",
+    "ts": 1788050628
+  },
+  "65.20.84.60": {
+    "country": "IN",
+    "ts": 1788050628
+  },
+  "95.85.232.112": {
+    "country": "DE",
+    "ts": 1788050628
+  },
+  "129.151.82.72": {
+    "country": "GB",
+    "ts": 1788050628
+  },
+  "129.151.84.60": {
+    "country": "GB",
+    "ts": 1788050628
+  },
+  "31.76.106.36": {
+    "country": "DE",
+    "ts": 1788050628
+  },
+  "77.42.73.91": {
+    "country": "FI",
+    "ts": 1788050628
+  },
+  "185.96.80.147": {
+    "country": "RU",
+    "ts": 1788050628
+  },
+  "nl-node.official-happ.online": {
+    "country": "NL",
+    "ts": 1788050628
+  },
+  "alblack.vodniki.monster": {
+    "country": "AL",
+    "ts": 1788050628
+  },
+  "api-de.data-media-social.org": {
+    "country": "DE",
+    "ts": 1788050628
+  },
+  "yt-ads.adsmoba.com": {
+    "country": "RU",
+    "ts": 1788050628
+  },
+  "GG.FARS-REMEN.IR": {
+    "country": "DE",
+    "ts": 1788050628
+  },
+  "V.FARS-REMEN.IR": {
+    "country": "FI",
+    "ts": 1788050628
   }
 }
