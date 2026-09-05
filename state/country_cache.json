@@ -1,44 +1,4 @@
 {
-  "141.98.118.70": {
-    "country": "TR",
-    "ts": 1787438277
-  },
-  "dashboard.afrakala.top": {
-    "country": "IR",
-    "ts": 1787438277
-  },
-  "dashboard.afrashop.top": {
-    "country": "IR",
-    "ts": 1787438278
-  },
-  "dashboard.afragame.top": {
-    "country": "IR",
-    "ts": 1787438278
-  },
-  "dashboard.afracafe.top": {
-    "country": "IR",
-    "ts": 1787438278
-  },
-  "dashboard.aframall.top": {
-    "country": "US",
-    "ts": 1787438278
-  },
-  "dashboard.afrapay.top": {
-    "country": "IR",
-    "ts": 1787438278
-  },
-  "dashboard.afrasoft.top": {
-    "country": "IR",
-    "ts": 1787438278
-  },
-  "104.19.47.16": {
-    "country": "CA",
-    "ts": 1787441271
-  },
-  "TURKYE.IRANPULS.IR": {
-    "country": "TR",
-    "ts": 1787441271
-  },
   "104.17.29.194": {
     "country": "CA",
     "ts": 1787444744
@@ -30138,5 +30098,137 @@
   "it.superbuba.top": {
     "country": "IT",
     "ts": 1788646578
+  },
+  "5.160.163.14": {
+    "country": "IR",
+    "ts": 1788652758
+  },
+  "95.182.115.63": {
+    "country": "LV",
+    "ts": 1788652758
+  },
+  "94.237.4.82": {
+    "country": "NL",
+    "ts": 1788652758
+  },
+  "43.161.254.71": {
+    "country": "HK",
+    "ts": 1788652758
+  },
+  "104.19.47.113": {
+    "country": "CA",
+    "ts": 1788652758
+  },
+  "212.227.144.37": {
+    "country": "ES",
+    "ts": 1788652758
+  },
+  "104.19.38.18": {
+    "country": "CA",
+    "ts": 1788652758
+  },
+  "141.98.118.70": {
+    "country": "TR",
+    "ts": 1788652758
+  },
+  "eu-north-sw-1.hanvpn.biz": {
+    "country": "SE",
+    "ts": 1788652758
+  },
+  "172.67.172.125": {
+    "country": "CA",
+    "ts": 1788652758
+  },
+  "195.162.69.203": {
+    "country": "TR",
+    "ts": 1788652758
+  },
+  "185.155.55.2": {
+    "country": "EE",
+    "ts": 1788652758
+  },
+  "188.225.33.141": {
+    "country": "RU",
+    "ts": 1788652758
+  },
+  "31.76.113.231": {
+    "country": "IT",
+    "ts": 1788652758
+  },
+  "103.244.90.2": {
+    "country": "HK",
+    "ts": 1788652758
+  },
+  "104.19.45.47": {
+    "country": "CA",
+    "ts": 1788652758
+  },
+  "104.16.67.38": {
+    "country": "CA",
+    "ts": 1788652758
+  },
+  "1ba01fa4-tl4g00-tny186-4lg6.hk3.hyhuawei.com": {
+    "country": "HK",
+    "ts": 1788652758
+  },
+  "172.67.139.129": {
+    "country": "CA",
+    "ts": 1788652758
+  },
+  "ed633af1-tl4g00-tqx9ef-1k0yf.hk3.hyhuawei.com": {
+    "country": "HK",
+    "ts": 1788652758
+  },
+  "104.19.47.65": {
+    "country": "CA",
+    "ts": 1788652758
+  },
+  "50.7.159.123": {
+    "country": "JP",
+    "ts": 1788652758
+  },
+  "64.188.97.153": {
+    "country": "NL",
+    "ts": 1788652758
+  },
+  "104.17.113.219": {
+    "country": "CA",
+    "ts": 1788652758
+  },
+  "c17a6c0c-tl4g00-tpaqgu-1smhu.hk3.hyhuawei.com": {
+    "country": "HK",
+    "ts": 1788652758
+  },
+  "04a12bf4-tl4g00-ttxkqc-e06r.hk3.hyhuawei.com": {
+    "country": "HK",
+    "ts": 1788652758
+  },
+  "a558fe2a-tl4g00-txkkcl-1fli7.hk3.hyhuawei.com": {
+    "country": "HK",
+    "ts": 1788652758
+  },
+  "104.16.207.212": {
+    "country": "CA",
+    "ts": 1788652758
+  },
+  "sie824.node2.top": {
+    "country": "HK",
+    "ts": 1788652758
+  },
+  "green.mobonline.info": {
+    "country": "IR",
+    "ts": 1788652758
+  },
+  "www.b.mobilenarges.ir": {
+    "country": "DE",
+    "ts": 1788652758
+  },
+  "france.lion-lion.ir": {
+    "country": "FR",
+    "ts": 1788652758
+  },
+  "nld-0001.api.packet-drop-society.net": {
+    "country": "NL",
+    "ts": 1788652758
   }
 }
