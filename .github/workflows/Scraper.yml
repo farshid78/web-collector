@@ -1,4 +1,4 @@
-name: Scraper
+شname: Scraper
 
 on:
   workflow_dispatch:
